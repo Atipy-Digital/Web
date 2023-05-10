@@ -1,5 +1,5 @@
 {
-  description = "Website for Atipy project.";
+  description = "Website for the Atipy project.";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-22.11";
@@ -16,17 +16,18 @@
         pkgs = import nixpkgs { inherit system; };
       in
       {
-        devShells = {
-          default = pkgs.mkShell {
-            buildInputs = with pkgs; [
-              # Nix env
-              nixpkgs-fmt
-              rnix-lsp
+        devShells.default = pkgs.mkShell {
+          buildInputs = with pkgs; [
+            # Nix env
+            nixpkgs-fmt
+            rnix-lsp
 
-              # Node.js env
-              nodejs-18_x
-            ];
-          };
+            # Node.js env
+            nodejs-18_x
+          ];
+          shellHook = ''
+            export PATH="$PWD/node_modules/.bin:$PATH"
+          '';
         };
       });
 }
