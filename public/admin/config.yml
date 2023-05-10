@@ -17,5 +17,5 @@ collections:
         name: date
         widget: datetime
       - label: Contenu
-        name: content
+        name: body
         widget: markdown
