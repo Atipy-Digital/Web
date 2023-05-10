@@ -23,7 +23,7 @@
             rnix-lsp
 
             # Node.js env
-            nodejs-18_x
+            nodejs-16_x
           ];
           shellHook = ''
             export PATH="$PWD/node_modules/.bin:$PATH"
