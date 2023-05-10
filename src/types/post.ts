@@ -3,6 +3,6 @@ import { DateTime } from "luxon";
 export type Post = {
   title: string;
   slug: string;
-  content: string;
+  body: string;
   date: DateTime;
 };

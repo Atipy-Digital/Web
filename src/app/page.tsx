@@ -16,7 +16,7 @@ export default function Home() {
     .map((post, idx) => ({
       title: post.data.title,
       slug: slugs[idx],
-      content: "",
+      body: "",
       date: post.data.date,
     }))
     .sort((a: Post, b: Post) => {

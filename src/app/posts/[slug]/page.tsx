@@ -18,14 +18,14 @@ export async function generateStaticParams() {
 
 export default async function PostPage({ params: { slug } }: Props) {
   const m = await import(`../../../posts/${slug}.md`);
-  const { content, data } = matter(m.default);
+  const { content: body, data } = matter(m.default);
   const { title, date } = data;
-  const post: Post = { title, slug, date, content };
+  const post: Post = { title, slug, date, body };
 
   return (
     <>
       <h1>{post.title}</h1>
-      <ReactMarkdown>{post.content}</ReactMarkdown>
+      <ReactMarkdown>{post.body}</ReactMarkdown>
     </>
   );
 }
