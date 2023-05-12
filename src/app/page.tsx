@@ -2,7 +2,7 @@ import Link from "next/link";
 import matter from "gray-matter";
 
 import { Post } from "../types";
-import styles from "./page.module.css";
+import styles from "./page.module.scss";
 
 export default function Home() {
   const ctx = require.context("../posts", false, /\.md$/);
