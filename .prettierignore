@@ -9,6 +9,7 @@
 /coverage
 
 # next.js
+.next
 /.next/
 /out/
 
@@ -28,19 +29,19 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env
-.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # vercel
 .vercel
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# changelog
+CHANGELOG.md
 
-# Direnv
-.envrc
-.direnv/
+# generate files
+/src/data
 
-# cache files
-.eslintcache
+# public
+/public

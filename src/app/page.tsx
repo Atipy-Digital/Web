@@ -1,14 +1,15 @@
-import Link from "next/link";
-import matter from "gray-matter";
+import matter from 'gray-matter';
+import Link from 'next/link';
 
-import { Post } from "../types";
-import styles from "./page.module.scss";
+import styles from './page.module.scss';
+
+import { type Post } from '@/ts';
 
 export default function Home() {
-  const ctx = require.context("../posts", false, /\.md$/);
-  const paths = ctx.keys().filter((key) => !key.startsWith("."));
+  const ctx = require.context('../data/posts', false, /\.md$/);
+  const paths = ctx.keys().filter((key) => !key.startsWith('.'));
   const slugs = paths
-    .map((path) => path.split("/").pop())
+    .map((path) => path.split('/').pop())
     .filter((slug) => slug != undefined)
     .map((slug) => slug!.slice(0, -3));
   const posts: Post[] = paths
@@ -16,7 +17,7 @@ export default function Home() {
     .map((post, idx) => ({
       title: post.data.title,
       slug: slugs[idx],
-      body: "",
+      body: '',
       date: post.data.date,
     }))
     .sort((a: Post, b: Post) => {
