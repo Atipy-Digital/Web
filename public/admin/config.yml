@@ -6,7 +6,7 @@ public_folder: /media
 collections:
   - name: posts
     label: Post
-    folder: src/posts
+    folder: src/data/posts
     create: true
     slug: "{{slug}}"
     fields:

@@ -11,7 +11,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "release": "standard-version",
+    "lint:fix": "eslint src --cache --fix && yarn format",
+    "lint:strict": "eslint --cache --max-warnings=0 src",
+    "typecheck": "tsc --noEmit --incremental false",
+    "format": "prettier --write --cache --loglevel=warn .",
+    "format:check": "prettier --check --cache ."
   },
   "dependencies": {
     "@types/react": "18.2.6",
@@ -27,11 +33,19 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "@svgr/webpack": "^8.0.1",
     "@types/luxon": "^3.3.0",
     "@types/webpack-env": "^1.18.0",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
     "prettier": "^2.8.8",
     "raw-loader": "^4.0.2",
     "sass": "^1.62.1",
-    "typescript-language-server": "^3.3.2"
+    "standard-version": "^9.5.0",
+    "typescript-language-server": "^3.3.2",
+    "typescript-plugin-css-modules": "^5.0.1"
   }
 }
