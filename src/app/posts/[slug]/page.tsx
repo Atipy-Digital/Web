@@ -1,19 +1,33 @@
 import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
 
+import { siteOrigin } from '@/lib/constants';
+
+import { getPostMetaData, getPostsSlug } from '@/services/post.service';
+
 import { type Post } from '@/ts';
 
 type Props = {
   params: { slug: string };
 };
 
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}) {
+  const { slug } = params;
+  const { title } = getPostMetaData(slug);
+  return {
+    title,
+    alternates: {
+      canonical: `${siteOrigin}/posts/${slug}`,
+    },
+  };
+}
+
 export async function generateStaticParams() {
-  const ctx = require.context('../../../data/posts', false, /\.md$/);
-  const paths = ctx.keys().filter((key) => !key.startsWith('.'));
-  return paths
-    .map((path) => path.split('/').pop())
-    .filter((slug) => slug != undefined)
-    .map((slug) => ({ slug: slug!.slice(0, -3) }));
+  return getPostsSlug().map((slug) => ({ slug }));
 }
 
 export default async function PostPage({ params: { slug } }: Props) {
