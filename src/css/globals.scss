@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './helpers';
+
+:root {
+  --inspect-color: #f00;
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Atkinson Hyperlegible';
+    src: url('/fonts/AtkinsonHyperlegible-Italic.woff2') format('woff2'),
+      url('/fonts/AtkinsonHyperlegible-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: optional;
+  }
+
+  @font-face {
+    font-family: 'Atkinson Hyperlegible';
+    src: url('/fonts/AtkinsonHyperlegible-Regular.woff2') format('woff2'),
+      url('/fonts/AtkinsonHyperlegible-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+  }
+
+  @font-face {
+    font-family: 'Atkinson Hyperlegible';
+    src: url('/fonts/AtkinsonHyperlegible-BoldItalic.woff2') format('woff2'),
+      url('/fonts/AtkinsonHyperlegible-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: optional;
+  }
+
+  @font-face {
+    font-family: 'Atkinson Hyperlegible';
+    src: url('/fonts/AtkinsonHyperlegible-Bold.woff2') format('woff2'),
+      url('/fonts/AtkinsonHyperlegible-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: optional;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Italic.woff2') format('woff2'),
+      url('/fonts/Roboto-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: optional;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Bold.woff2') format('woff2'),
+      url('/fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: optional;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-BoldItalic.woff2') format('woff2'),
+      url('/fonts/Roboto-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: optional;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-BlackItalic.woff2') format('woff2'),
+      url('/fonts/Roboto-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: optional;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Black.woff2') format('woff2'),
+      url('/fonts/Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: optional;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Medium.woff2') format('woff2'),
+      url('/fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: optional;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Light.woff2') format('woff2'),
+      url('/fonts/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: optional;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Thin.woff2') format('woff2'),
+      url('/fonts/Roboto-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: optional;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-LightItalic.woff2') format('woff2'),
+      url('/fonts/Roboto-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: optional;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Regular.woff2') format('woff2'),
+      url('/fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-ThinItalic.woff2') format('woff2'),
+      url('/fonts/Roboto-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: optional;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-MediumItalic.woff2') format('woff2'),
+      url('/fonts/Roboto-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: optional;
+  }
+
+  html {
+    line-height: 1.5;
+    box-sizing: border-box;
+    text-rendering: geometricprecision;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @apply bg-white text-black;
+  }
+
+  /* #region  /**=========== Typography =========== */
+  h1 {
+    @apply text-2xl font-bold md:text-4xl;
+  }
+  /* #endregion  /**======== Typography =========== */
+}
+
+body {
+  @apply font-primary;
+  transition: opacity #{$duration / 3 + 's'} ease-in;
+}
+
+body.inspect * {
+  outline: 1px solid var(--inspect-color) !important;
+}
+body:not(.user-is-tabbing) button:focus,
+body:not(.user-is-tabbing) input:focus,
+body:not(.user-is-tabbing) select:focus,
+body:not(.user-is-tabbing) textarea:focus {
+  outline: none;
+}
+
+html.dark {
+  @apply bg-black text-white;
+}
+
+// used in use-prevents-scroll hook
+html.no-scroll {
+  overflow: hidden;
+
+  body {
+    overflow: hidden;
+    touch-action: none;
+  }
+}

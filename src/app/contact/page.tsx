@@ -10,5 +10,10 @@ export const metadata: Metadata = {
 };
 
 export default function Contact() {
-  return <div>Contact</div>;
+  return (
+    <div>
+      <h1>TEst de font</h1>
+      <h2>TEst de font</h2>
+    </div>
+  );
 }

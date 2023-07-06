@@ -1,11 +1,10 @@
 import { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 
-import './globals.scss';
+import '@/css/globals.scss';
 
 import { siteOrigin, siteURL } from '@/lib/constants';
 
-const inter = Inter({ subsets: ['latin'] });
+import Providers from './providers';
 
 export const metadata: Metadata = {
   metadataBase: siteURL,
@@ -15,19 +14,18 @@ export const metadata: Metadata = {
   viewport: {
     width: 'device-width',
     initialScale: 1,
-    minimumScale: 1,
-    maximumScale: 1,
-    userScalable: false,
     viewportFit: 'cover',
   },
   title: {
     default: 'Atipy',
     template: '%s | Atipy',
   },
-  description: "Atipy, la tribu au service d'un monde plus accessible.",
+  description:
+    "Une tribu au service d'un monde plus accessible - Nous vous accompagnons dans les domaines du digital, du design, de l'accessibilité et de la conception universelle",
   openGraph: {
     title: 'Atipy',
-    description: "Atipy, la tribu au service d'un monde plus accessible.",
+    description:
+      "Une tribu au service d'un monde plus accessible - Nous vous accompagnons dans les domaines du digital, du design, de l'accessibilité et de la conception universelle",
     url: siteOrigin,
     siteName: 'Atipy',
     images: [
@@ -51,7 +49,8 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Atipy',
-    description: "Atipy, la tribu au service d'un monde plus accessible.",
+    description:
+      "Une tribu au service d'un monde plus accessible - Nous vous accompagnons dans les domaines du digital, du design, de l'accessibilité et de la conception universelle",
     site: '@adequat_atipy',
     images: [`${siteOrigin}/favicon/twitter-og.png`],
   },
@@ -71,8 +70,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='fr'>
-      <body className={inter.className}>{children}</body>
+    <html
+      lang='fr'
+      className='light'
+      style={{ colorScheme: 'light' }}
+      suppressHydrationWarning={true}
+    >
+      <body>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }
