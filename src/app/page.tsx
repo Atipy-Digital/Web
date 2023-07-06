@@ -1,30 +1,11 @@
-import matter from 'gray-matter';
 import Link from 'next/link';
 
 import styles from './page.module.scss';
 
-import { type Post } from '@/ts';
+import { getPosts } from '@/services/post.service';
 
 export default function Home() {
-  const ctx = require.context('../data/posts', false, /\.md$/);
-  const paths = ctx.keys().filter((key) => !key.startsWith('.'));
-  const slugs = paths
-    .map((path) => path.split('/').pop())
-    .filter((slug) => slug != undefined)
-    .map((slug) => slug!.slice(0, -3));
-  const posts: Post[] = paths
-    .map((path) => matter(ctx(path).default))
-    .map((post, idx) => ({
-      title: post.data.title,
-      slug: slugs[idx],
-      body: '',
-      date: post.data.date,
-    }))
-    .sort((a: Post, b: Post) => {
-      if (a.date < b.date) return 1;
-      else if (a.date > b.date) return -1;
-      else return 0;
-    });
+  const posts = getPosts();
 
   return (
     <>
