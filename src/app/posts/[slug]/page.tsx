@@ -1,4 +1,5 @@
 import matter from 'gray-matter';
+import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 
 import { siteOrigin } from '@/lib/constants';
@@ -38,6 +39,9 @@ export default async function PostPage({ params: { slug } }: Props) {
 
   return (
     <>
+      <Link href='/posts' className='text-a-blue underline'>
+        Retour
+      </Link>
       <h1>{post.title}</h1>
       <ReactMarkdown>{post.body}</ReactMarkdown>
     </>

@@ -1,0 +1,91 @@
+@import '@/css/helpers';
+
+.logo {
+  width: 2.75rem;
+  height: 2.25rem;
+
+  & svg {
+    height: 100%;
+  }
+}
+
+.header {
+  height: 4.5rem;
+  padding: 0 tovw(16px, 16px, 'mobile');
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 40;
+  position: relative;
+  border-bottom: 1px solid currentColor;
+}
+
+.icon {
+  width: 2.75rem;
+  height: 2.75rem;
+
+  & svg {
+    height: 100%;
+  }
+}
+
+.menu {
+  &Container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+  }
+
+  &Links {
+    font-size: clamp(32px, 5vw, 10vh);
+    text-transform: uppercase;
+    font-weight: 400;
+
+    &Active {
+      border-bottom: 1px solid currentColor;
+    }
+
+    &Container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1 0 70%;
+
+      & ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 0 tovw(40px);
+  }
+
+  .logo {
+    flex-grow: 1;
+    flex-basis: 30%;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+
+    &ButtonContainer {
+      display: flex;
+    }
+  }
+}
