@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <Page>
       <h1 className={styles.title}>Home</h1>
-      <ul>
+      <ul className='flex flex-col gap-4'>
         {posts.map((post) => (
           <li key={post.title}>
             <Link href={`/posts/${post.slug}`}>{post.title}</Link>

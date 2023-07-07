@@ -31,7 +31,13 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
 
   return (
     <>
-      <button className={clsxm(s.icon, s.burger)} onClick={openMenu}>
+      <button
+        className={clsxm(s.icon, s.burger)}
+        onClick={openMenu}
+        aria-label='ouverture du menu mobile'
+        aria-labelledby='menuMobileTextOpen'
+        tabIndex={0}
+      >
         <svg
           xmlns='http://www.w3.org/2000/svg'
           viewBox='0 0 28 28'
@@ -49,20 +55,37 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
           <path d='M1 20h24v2H1z' fill='currentColor'></path>
         </svg>
       </button>
+      <span className='w-0 h-0 hidden' id='menuMobileTextOpen'>
+        ouverture du menu mobile
+      </span>
       {isOpenModalMenu && (
         <Portal id='menu-modal'>
           <div className={clsxm(s.menuContainer, 'bg-white dark:bg-black')}>
             <header className={clsxm(s.header, 'paddingFluid')}>
-              <Link href='/' className={s.logo} onClick={() => onClick('/')}>
+              <Link
+                href='/'
+                className={s.logo}
+                onClick={() => onClick('/')}
+                aria-label='home page atipy'
+              >
                 <Logo />
               </Link>
-              <button className={s.icon} onClick={closeMenu}>
+              <button
+                className={s.icon}
+                onClick={closeMenu}
+                aria-label='fermeture du menu mobile'
+                aria-labelledby='menuMobileTextClose'
+                tabIndex={0}
+              >
                 <AtipyIcon
                   type={ATIPY_ICON.CROSS}
                   size='xl'
                   className='w-11 h-11'
                 />
               </button>
+              <span className='w-0 h-0 hidden' id='menuMobileTextClose'>
+                fermeture du menu mobile
+              </span>
             </header>
             <nav className={s.menuLinksContainer}>
               <ul>

@@ -229,7 +229,8 @@ html.dark * {
   h1 {
     @apply text-2xl font-bold md:text-4xl;
   }
-  h6 {
+  h6,
+  .h6 {
     font-size: clamp(1.375rem, 0.7vw + 1rem, 1.563rem);
     @apply font-bold;
   }
