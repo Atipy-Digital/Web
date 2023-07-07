@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/Atipy-Digital/Web/compare/v0.2.0...v0.3.0) (2023-07-07)
+
+
+### Features
+
+* **layout:** header, main & footer ([#6](https://github.com/Atipy-Digital/Web/issues/6)) ([47e5c80](https://github.com/Atipy-Digital/Web/commit/47e5c808d9b27b253461f826396ede5f5c1806c9))
+
 ## [0.2.0](https://github.com/Atipy-Digital/Web/compare/v0.1.0...v0.2.0) (2023-07-06)
 
 
