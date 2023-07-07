@@ -8,7 +8,7 @@ export const FooterMenuText = ({ title, rows }: FooterMenuTextType) => {
   return (
     <ul>
       <li className='pb-3 md:pb-5'>
-        <label className='h6 text-center md:text-left'>{title}</label>
+        <label className='h6 block text-center md:text-left'>{title}</label>
       </li>
       <li className='flex items-center gap-x-4 lg:gap-x-7'>
         {rows.map(({ link1, link2 }) => (

@@ -6,7 +6,7 @@ export const FooterMenuSocial = ({ title, rows }: FooterMenuSocialType) => {
   return (
     <ul className='mb-8 md:mb-0'>
       <li className='pb-3 md:pb-5'>
-        <label className='h6 text-center md:text-left'>{title}</label>
+        <label className='h6 block text-center md:text-left'>{title}</label>
       </li>
       <li className='flex items-center justify-center gap-x-4 md:gap-x-7'>
         {rows.map(({ type, url }) => {
