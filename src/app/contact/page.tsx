@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 
 import { siteOrigin } from '@/lib/constants';
 
+import { Page } from '@/components/layout/Page';
+
 export const metadata: Metadata = {
   alternates: {
     canonical: `${siteOrigin}/contact`,
@@ -11,9 +13,8 @@ export const metadata: Metadata = {
 
 export default function Contact() {
   return (
-    <div>
-      <h1>TEst de font</h1>
-      <h2>TEst de font</h2>
-    </div>
+    <Page>
+      <div>Contact</div>
+    </Page>
   );
 }

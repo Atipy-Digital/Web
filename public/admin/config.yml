@@ -4,11 +4,128 @@ backend:
 media_folder: public/media
 public_folder: /media
 collections:
+  - name: 'layout'
+    label: 'Layout'
+    files:
+      - label: 'Header'
+        name: 'header'
+        file: 'src/data/layout/header.md'
+        fields:
+          - label: Navigation
+            hint: Vous pouvez changer l'ordre des différents element
+            name: mainNavigation
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - {
+                  label: Link,
+                  name: link,
+                  widget: select,
+                  options:
+                    [
+                      '/agence',
+                      '/expertises',
+                      '/realisations',
+                      '/posts',
+                      '/contact',
+                    ],
+                }
+      - label: 'Footer'
+        name: 'footer'
+        file: 'src/data/layout/footer.md'
+        fields:
+          - label: Menu text 1
+            name: menuText1
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - label: Ligne
+                hint: Vous pouvez changer l'ordre des différentes lignes
+                name: rows
+                widget: list
+                fields:
+                  - {
+                      label: Lien 1,
+                      name: link1,
+                      widget: object,
+                      fields:
+                        [
+                          { label: Label, name: label, widget: string },
+                          {
+                            label: Url,
+                            name: url,
+                            widget: select,
+                            options: ['/'],
+                          },
+                        ],
+                    }
+                  - {
+                      label: Lien 2,
+                      name: link2,
+                      widget: object,
+                      fields:
+                        [
+                          { label: Label, name: label, widget: string },
+                          {
+                            label: Url,
+                            name: url,
+                            widget: select,
+                            options: ['/'],
+                          },
+                        ],
+                    }
+          - label: Menu text 2
+            name: menuText2
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - label: Ligne
+                hint: Vous pouvez changer l'ordre des différentes lignes
+                name: rows
+                widget: list
+                fields:
+                  - {
+                      label: Lien 1,
+                      name: link1,
+                      widget: object,
+                      fields:
+                        [
+                          { label: Label, name: label, widget: string },
+                          { label: Url, name: url, widget: string },
+                        ],
+                    }
+                  - {
+                      label: Lien 2,
+                      name: link2,
+                      widget: object,
+                      fields:
+                        [
+                          { label: Label, name: label, widget: string },
+                          { label: Url, name: url, widget: string },
+                        ],
+                    }
+          - label: Menu social
+            name: menuSocial
+            widget: object
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - label: Lien
+                hint: Vous pouvez changer l'ordre des différents liens
+                name: rows
+                widget: list
+                fields:
+                  - {
+                      label: Type,
+                      name: type,
+                      widget: select,
+                      options: ['instagram', 'linkedin', 'twitter'],
+                    }
+                  - { label: Url, name: url, widget: string }
   - name: posts
     label: Post
     folder: src/data/posts
     create: true
-    slug: "{{slug}}"
+    slug: '{{slug}}'
     fields:
       - label: Titre
         name: title

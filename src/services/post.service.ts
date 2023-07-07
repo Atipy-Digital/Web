@@ -1,5 +1,6 @@
 import fs from 'fs';
-import matter from 'gray-matter';
+
+import { readFile } from './read-file';
 
 import { Post } from '@/ts';
 
@@ -12,10 +13,7 @@ const getMarkdownPosts = () => {
 };
 
 const getMatterResult = (slug: string) => {
-  const content = fs.readFileSync(`src/data/posts/${slug}.md`, {
-    encoding: 'utf-8',
-  });
-  const matterResult = matter(content);
+  const matterResult = readFile(`src/data/posts/${slug}.md`);
 
   return matterResult;
 };

@@ -4,6 +4,12 @@ import '@/css/globals.scss';
 
 import { siteOrigin, siteURL } from '@/lib/constants';
 
+import { Layout } from '@/components/layout/Layout';
+
+import { getFooterData } from '@/services/footer.service';
+import { getNavigations } from '@/services/navigation.service';
+
+import { AppHooks } from './app-hooks';
 import Providers from './providers';
 
 export const metadata: Metadata = {
@@ -69,6 +75,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const navLinks = getNavigations();
+  const footerLinks = getFooterData();
+
   return (
     <html
       lang='fr'
@@ -77,7 +86,12 @@ export default function RootLayout({
       suppressHydrationWarning={true}
     >
       <body>
-        <Providers>{children}</Providers>
+        <Providers>
+          <Layout navLinks={navLinks} footerLinks={footerLinks}>
+            {children}
+          </Layout>
+          <AppHooks />
+        </Providers>
       </body>
     </html>
   );

@@ -13,6 +13,7 @@ module.exports = {
     'prettier',
   ],
   rules: {
+    '@next/next/no-img-element': 'off',
     'no-unused-vars': 'off',
     'no-console': ['error', { allow: ['warn', 'error'] }],
     '@typescript-eslint/no-non-null-assertion': 'off',
