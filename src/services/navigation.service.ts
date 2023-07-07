@@ -1,13 +1,9 @@
-import fs from 'fs';
-import matter from 'gray-matter';
+import { readFile } from './read-file';
 
 import { INavigation } from '@/ts/navigation';
 
 export const getNavigations = (): INavigation[] => {
-  const content = fs.readFileSync('src/data/layout/header.md', {
-    encoding: 'utf-8',
-  });
-  const matterResult = matter(content);
+  const matterResult = readFile('src/data/layout/header.md');
 
   return matterResult.data.mainNavigation;
 };

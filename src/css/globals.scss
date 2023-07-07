@@ -3,10 +3,71 @@
 @tailwind utilities;
 
 @import './helpers';
+@import './_spacing';
 
 :root {
   --inspect-color: #f00;
 }
+
+* {
+  scroll-behavior: smooth;
+}
+
+/* #region  /**=========== Scrollbars =========== */
+/* width */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 5px;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: currentColor;
+  @apply rounded-2xl;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: currentColor;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: currentColor transparent;
+}
+/* #endregion  /**======== Scrollbars =========== */
+
+/* #region  /**=========== Selection =========== */
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: black;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
+
+html.dark * {
+  ::-moz-selection {
+    /* Code for Firefox */
+    color: black;
+    background: white;
+  }
+
+  ::selection {
+    color: black;
+    background: white;
+  }
+}
+/* #endregion  /**======== Selection =========== */
 
 @layer base {
   @font-face {
@@ -168,6 +229,10 @@
   h1 {
     @apply text-2xl font-bold md:text-4xl;
   }
+  h6 {
+    font-size: clamp(1.375rem, 0.7vw + 1rem, 1.563rem);
+    @apply font-bold;
+  }
   /* #endregion  /**======== Typography =========== */
 }
 
@@ -188,6 +253,9 @@ body:not(.user-is-tabbing) textarea:focus {
 
 html.dark {
   @apply bg-black text-white;
+  & > *::-webkit-scrollbar-thumb {
+    border: 3px solid black;
+  }
 }
 
 // used in use-prevents-scroll hook

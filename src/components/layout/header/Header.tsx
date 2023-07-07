@@ -1,15 +1,10 @@
 'use client';
 
-import Link from 'next/link';
-import { useTheme } from 'next-themes';
-
-import s from '../styles.module.scss';
-
 import clsxm from '@/lib/clsxm';
 
+import Logo from '@/components/common/logo/Logo';
+
 import { DesktopNavbar } from './DesktopNavbar';
-import { LogoBlack } from './LogoBlack';
-import LogoWhite from './LogoWhite';
 import { MobileMenu } from './mobile-menu/MobileMenu';
 import { ToggleTheme } from './ToggleTheme';
 
@@ -20,24 +15,20 @@ type Props = {
 };
 
 export default function Header({ links }: Props) {
-  const { resolvedTheme } = useTheme();
-  const isDark = resolvedTheme === 'dark';
-
   return (
     <header
       className={clsxm(
-        s.paddingFluid,
-        'tl bs-header fixed top-0 w-full left-0 right-0 h-[72px] md:h-28 flex items-center dark:border-b dark:border-b-white'
+        'paddingFluid z-10',
+        'tl bs-header w-full fixed top-0 left-0 right-0 h-[72px] md:h-28 flex items-center dark:border-b dark:border-b-white',
+        'bg-white dark:bg-black overflow-hidden'
       )}
     >
-      <Link href='/' className='flex-shrink-0'>
-        {isDark ? <LogoWhite /> : <LogoBlack />}
-      </Link>
+      <Logo />
 
       <DesktopNavbar links={links} />
 
       <ToggleTheme />
-      <MobileMenu links={links} isDark={isDark} />
+      <MobileMenu links={links} />
     </header>
   );
 }

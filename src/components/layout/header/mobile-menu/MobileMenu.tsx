@@ -8,22 +8,15 @@ import s from './styles.module.scss';
 import clsxm from '@/lib/clsxm';
 import { usePreventScroll } from '@/hooks/use-prevents-scroll';
 
+import { ATIPY_ICON, AtipyIcon } from '@/components/common/icons/AtipyIcon';
+import Logo from '@/components/common/logo/Logo';
 import { Portal } from '@/components/Portal';
 
 import { useAppStore } from '@/store/use-app-store';
 
-import { LogoBlack } from '../LogoBlack';
-import LogoWhite from '../LogoWhite';
-
 import type { INavigation } from '@/ts/navigation';
 
-export const MobileMenu = ({
-  links,
-  isDark,
-}: {
-  links: INavigation[];
-  isDark: boolean;
-}) => {
+export const MobileMenu = ({ links }: { links: INavigation[] }) => {
   const { isOpenModalMenu, setOpenModalMenu } = useAppStore();
   const pathname = usePathname();
   const closeMenu = () => setOpenModalMenu(false);
@@ -59,36 +52,16 @@ export const MobileMenu = ({
       {isOpenModalMenu && (
         <Portal id='menu-modal'>
           <div className={clsxm(s.menuContainer, 'bg-white dark:bg-black')}>
-            <header className={s.header}>
-              <Link href='/' className={s.logo}>
-                {isDark ? <LogoWhite /> : <LogoBlack />}
+            <header className={clsxm(s.header, 'paddingFluid')}>
+              <Link href='/' className={s.logo} onClick={() => onClick('/')}>
+                <Logo />
               </Link>
               <button className={s.icon} onClick={closeMenu}>
-                <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'>
-                  <path
-                    d='M1 8h24v2H1z'
-                    fill='currentColor'
-                    data-svg-origin='13 9'
-                    data-original='M1 8h15v2H1z'
-                    transform='matrix(0.70711,0.70711,-0.70711,0.70711,10.17156,-0.55642)'
-                  ></path>
-                  <line
-                    x1='1'
-                    y1='15'
-                    x2='25'
-                    y2='15'
-                    stroke='currentColor'
-                    strokeWidth='2'
-                    data-svg-origin='13 15'
-                    transform='matrix(0.1,0,0,0.1,11.7,13.5)'
-                  ></line>
-                  <path
-                    d='M1 20h24v2H1z'
-                    fill='currentColor'
-                    data-svg-origin='13 21'
-                    transform='matrix(0.70711,-0.70711,0.70711,0.70711,-11.04174,9.34312)'
-                  ></path>
-                </svg>
+                <AtipyIcon
+                  type={ATIPY_ICON.CROSS}
+                  size='xl'
+                  className='w-11 h-11'
+                />
               </button>
             </header>
             <nav className={s.menuLinksContainer}>

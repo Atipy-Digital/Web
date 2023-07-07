@@ -1,9 +1,9 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { useTheme } from 'next-themes';
 
 import clsxm from '@/lib/clsxm';
+import { useTheme } from '@/hooks/use-theme';
 
 import { ATIPY_ICON, AtipyIcon } from '@/components/common/icons/AtipyIcon';
 
@@ -14,8 +14,7 @@ const spring = {
 };
 
 export const ToggleTheme = () => {
-  const { resolvedTheme, setTheme } = useTheme();
-  const isDark = resolvedTheme === 'dark';
+  const { isDark, setTheme } = useTheme();
 
   const toggleSwitch = () => {
     isDark ? setTheme('light') : setTheme('dark');

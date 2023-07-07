@@ -29,6 +29,7 @@
     "gray-matter": "^4.0.3",
     "luxon": "^3.3.0",
     "mousetrap": "^1.6.5",
+    "nanoid": "^4.0.2",
     "next": "13.4.1",
     "next-themes": "^0.2.1",
     "react": "18.2.0",

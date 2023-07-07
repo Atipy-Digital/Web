@@ -1,5 +1,3 @@
-@import '@/css/helpers';
-
 .logo {
   width: 2.75rem;
   height: 2.25rem;
@@ -11,7 +9,6 @@
 
 .header {
   height: 4.5rem;
-  padding: 0 tovw(16px, 16px, 'mobile');
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -68,10 +65,6 @@
 }
 
 @media (min-width: 768px) {
-  .header {
-    padding: 0 tovw(40px);
-  }
-
   .logo {
     flex-grow: 1;
     flex-basis: 30%;

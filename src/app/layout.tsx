@@ -6,6 +6,7 @@ import { siteOrigin, siteURL } from '@/lib/constants';
 
 import { Layout } from '@/components/layout/Layout';
 
+import { getFooterData } from '@/services/footer.service';
 import { getNavigations } from '@/services/navigation.service';
 
 import { AppHooks } from './app-hooks';
@@ -75,6 +76,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const navLinks = getNavigations();
+  const footerLinks = getFooterData();
 
   return (
     <html
@@ -85,7 +87,9 @@ export default function RootLayout({
     >
       <body>
         <Providers>
-          <Layout navLinks={navLinks}>{children}</Layout>
+          <Layout navLinks={navLinks} footerLinks={footerLinks}>
+            {children}
+          </Layout>
           <AppHooks />
         </Providers>
       </body>

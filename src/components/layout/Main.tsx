@@ -1,16 +1,10 @@
 import { ReactNode } from 'react';
 
-import s from './styles.module.scss';
-
-import clsxm from '@/lib/clsxm';
-
 import { Box } from '@/components/common/Box';
 
 export default function Main({ children }: { children: ReactNode }) {
   return (
-    <main
-      className={clsxm(s.paddingFluid, 'tl w-full !pt-[72px] md:!pt-[116px]')}
-    >
+    <main className='paddingFluid tl w-full !pt-[72px] md:!pt-[112px] min-h-[calc(100vh_-_220px)] !pb-4 md:!pb-6 lg:!pb-8 xl:!pb-10'>
       <Box>{children}</Box>
     </main>
   );
