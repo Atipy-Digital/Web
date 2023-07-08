@@ -1,7 +1,7 @@
 import { FooterMenuSocial } from './FooterMenuSocial';
 import { FooterMenuText } from './FooterMenuText';
 
-import { IFooter } from '@/ts';
+import type { IFooter } from '@/ts';
 
 type Props = {
   data: IFooter;
@@ -9,7 +9,7 @@ type Props = {
 
 export default function Footer({ data }: Props) {
   return (
-    <footer className='paddingFluid w-full min-h-[167px] border-t border-t-current'>
+    <footer className='px-fluid w-full min-h-[167px] border-t border-t-current'>
       <div className='tl w-full py-4 lg:py-6 xl:py-10 flex items-center flex-col justify-between h-full'>
         <nav className='tl flex flex-col md:flex-row items-center justify-between flex-grow w-full gap-y-6 md:gap-y-0'>
           <FooterMenuText {...data.menuText1} />

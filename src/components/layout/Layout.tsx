@@ -8,7 +8,7 @@ import Footer from './footer/Footer';
 import Header from './header/Header';
 import Main from './Main';
 
-import { IFooter } from '@/ts';
+import type { IFooter } from '@/ts';
 import type { INavigation } from '@/ts/navigation';
 
 type Props = {

@@ -2,7 +2,7 @@ import fs from 'fs';
 
 import { readFile } from './read-file';
 
-import { Post } from '@/ts';
+import type { Post } from '@/ts';
 
 const PATH_FOLDER = 'src/data/posts';
 

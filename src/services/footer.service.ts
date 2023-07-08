@@ -1,6 +1,6 @@
 import { readFile } from './read-file';
 
-import { IFooter } from '@/ts';
+import type { IFooter } from '@/ts';
 
 export const getFooterData = (): IFooter => {
   const matterResult = readFile('src/data/layout/footer.md');

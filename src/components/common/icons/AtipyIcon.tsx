@@ -1,5 +1,8 @@
 import clsxm from '@/lib/clsxm';
 
+import { ArrowDownIcon } from './vectors/ArrowDown.icon';
+import { ArrowLeftIcon } from './vectors/ArrowLeft.icon';
+import { ArrowUpIcon } from './vectors/ArrowUp.icon';
 import { CrossIcon } from './vectors/Cross.icon';
 import { InstaIcon } from './vectors/Insta.icon';
 import { IconProps } from './vectors/interface';
@@ -15,9 +18,12 @@ export enum ATIPY_ICON {
   INSTA = 'INSTA',
   LINKEDIN = 'LINKEDIN',
   TWITTER = 'TWITTER',
+  ARROW_DOWN = 'ARROW_DOWN',
+  ARROW_UP = 'ARROW_UP',
+  ARROW_LEFT = 'ARROW_LEFT',
 }
 
-type AtipyIconSize = 'xxs' | 'sm' | 'md' | 'mdx' | 'lg' | 'xl';
+type AtipyIconSize = 'xxs' | 'sm' | 'md' | 'mdx' | 'lg' | 'xl' | 'xxl' | 'full';
 
 export interface AtipyIconProps {
   size?: AtipyIconSize;
@@ -35,6 +41,8 @@ export const AtipyIcon = ({ size = 'md', type, className }: AtipyIconProps) => {
     ['mdx', 'w-[28px] h-[28px]'],
     ['lg', 'w-[32px] h-[32px]'],
     ['xl', 'w-[40px] h-[40px]'],
+    ['xxl', 'w-[102px] h-[102px]'],
+    ['full', 'w-full h-full'],
   ]);
 
   const icons = new Map<ATIPY_ICON, AtipyIconElement>([
@@ -44,6 +52,9 @@ export const AtipyIcon = ({ size = 'md', type, className }: AtipyIconProps) => {
     [ATIPY_ICON.INSTA, InstaIcon],
     [ATIPY_ICON.LINKEDIN, LinkedinIcon],
     [ATIPY_ICON.TWITTER, TwitterIcon],
+    [ATIPY_ICON.ARROW_DOWN, ArrowDownIcon],
+    [ATIPY_ICON.ARROW_UP, ArrowUpIcon],
+    [ATIPY_ICON.ARROW_LEFT, ArrowLeftIcon],
   ]);
 
   const Icon: AtipyIconElement = icons.get(type) || CrossIcon;

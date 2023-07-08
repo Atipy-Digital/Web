@@ -1,6 +1,6 @@
 import { ATIPY_ICON, AtipyIcon } from '@/components/common/icons/AtipyIcon';
 
-import { FooterMenuRowSocialType, FooterMenuSocialType } from '@/ts';
+import type { FooterMenuRowSocialType, FooterMenuSocialType } from '@/ts';
 
 export const FooterMenuSocial = ({ title, rows }: FooterMenuSocialType) => {
   return (
