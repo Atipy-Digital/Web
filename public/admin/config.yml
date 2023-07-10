@@ -128,10 +128,13 @@ collections:
         name: 'home'
         file: 'src/data/pages/home.md'
         widget: object
+        editor:
+          preview: false
         fields:
           - label: Section 1 - Banner
             name: bannerData
             widget: object
+            collapsed: true
             fields:
               - {
                   label: Titre,
@@ -145,6 +148,7 @@ collections:
           - label: Section 2 - Intro
             name: introData
             widget: object
+            collapsed: true
             fields:
               - {
                   label: Titre,
@@ -176,6 +180,7 @@ collections:
           - label: Section 3 - Offres
             name: offersData
             widget: object
+            collapsed: true
             fields:
               - label: Card
                 hint: Vous pouvez changer l'ordre des différentes card
@@ -208,6 +213,20 @@ collections:
                     widget: object
                     fields:
                       - { label: Label, name: label, widget: string }
+          - label: Section 4 - L'agence
+            name: agencyData
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - {
+                  label: Text,
+                  name: body,
+                  widget: markdown,
+                  buttons: [],
+                  modes: [rich_text],
+                  editor_components: [],
+                }
   - name: posts
     label: Post
     folder: src/data/posts

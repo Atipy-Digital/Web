@@ -254,6 +254,11 @@ html.dark * {
       }
     }
   }
+  h3,
+  .h3 {
+    @apply font-bold leading-none;
+    font-size: clamp(1.563rem, 2vw + 0.75rem, 3.125rem);
+  }
   .h3-card {
     @apply font-bold leading-none;
     font-size: clamp(1.5rem, 2vw + 0.75rem, 2.5rem);
@@ -352,5 +357,5 @@ html.no-scroll {
 /* #endregion  /**======== Utilies =========== */
 
 .py-fluid {
-  @apply py-4 md:py-6 lg:py-8 xl:py-12;
+  @apply py-10 md:py-6 lg:py-8 xl:py-12;
 }

@@ -12,8 +12,14 @@ export type HomeOffersDataType = {
   cards: CardType[];
 };
 
+export type HomeAgencyDataType = {
+  title: string;
+  body: string;
+};
+
 export interface IHome {
   bannerData: HomeBannerDataType;
   introData: HomeIntroDataType;
   offersData: HomeOffersDataType;
+  agencyData: HomeAgencyDataType;
 }

@@ -5,7 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import clsxm from '@/lib/clsxm';
 import { useTheme } from '@/hooks/use-theme';
 
-import { Button } from '../primitives/Button';
+import { Button } from './Button';
 
 import { CARD_TYPE, type CardType } from '@/ts';
 
@@ -32,19 +32,19 @@ export const Card = ({
   const styleCardBtn = new Map<CARD_TYPE, string>([
     [
       CARD_TYPE.ACCESIBILITY,
-      '!border-a-blue !bg-a-blue hover:!bg-white hover:!text-a-blue hover:dark:!bg-transparent hover:dark:!text-a-blue dark:!bg-a-blue',
+      '!text-black !border-a-blue !bg-a-blue hover:!bg-white hover:!text-a-blue hover:dark:!bg-transparent hover:dark:!text-a-blue dark:!bg-a-blue',
     ],
     [
       CARD_TYPE.DESIGN,
-      '!border-a-green !bg-a-green hover:!bg-white hover:!text-a-green hover:dark:!bg-transparent hover:dark:!text-green hover:!text-a-green dark:!bg-a-green',
+      '!text-black !border-a-green !bg-a-green hover:!bg-white hover:!text-a-green hover:dark:!bg-transparent hover:dark:!text-green hover:!text-a-green dark:!bg-a-green',
     ],
     [
       CARD_TYPE.DIGITAL,
-      '!border-a-red !bg-a-red hover:!bg-white hover:!text-a-red hover:dark:!bg-transparent hover:dark:!text-red hover:!text-a-red dark:!bg-a-red',
+      '!text-black !border-a-red !bg-a-red hover:!bg-white hover:!text-a-red hover:dark:!bg-transparent hover:dark:!text-red hover:!text-a-red dark:!bg-a-red',
     ],
     [
       CARD_TYPE.CONSEIL,
-      '!border-a-yellow !bg-a-yellow hover:!bg-white hover:!text-a-yellow hover:dark:!bg-transparent hover:dark:!text-a-yellow hover:!text-yellow dark:!bg-a-yellow',
+      '!text-black !border-a-yellow !bg-a-yellow hover:!bg-white hover:!text-a-yellow hover:dark:!bg-transparent hover:dark:!text-a-yellow hover:!text-yellow dark:!bg-a-yellow',
     ],
   ]);
 

@@ -1,4 +1,5 @@
 import { Page } from '@/components/layout/Page';
+import { Agency } from '@/components/sections/home/Agency';
 import { Banner } from '@/components/sections/home/Banner';
 import { Intro } from '@/components/sections/home/Intro';
 import { Offers } from '@/components/sections/home/Offers';
@@ -13,6 +14,7 @@ export default function Home() {
       <Banner data={homeData.bannerData} />
       <Intro data={homeData.introData} />
       <Offers data={homeData.offersData} />
+      <Agency data={homeData.agencyData} />
     </Page>
   );
 }

@@ -34,6 +34,9 @@ module.exports = {
       borderWidth: {
         5: '5px',
       },
+      screens: {
+        desktop: '1920px',
+      },
     },
   },
   plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],

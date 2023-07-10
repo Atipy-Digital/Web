@@ -2,7 +2,7 @@
 
 import clsxm from '@/lib/clsxm';
 
-import { Card } from '@/components/common/Card';
+import { Card } from '@/components/primitives/Card';
 
 import type { HomeOffersDataType } from '@/ts';
 

@@ -9,5 +9,6 @@ export const getHomeData = (): IHome => {
     bannerData: matterResult.data.bannerData,
     introData: matterResult.data.introData,
     offersData: matterResult.data.offersData,
+    agencyData: matterResult.data.agencyData,
   };
 };
