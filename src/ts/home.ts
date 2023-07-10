@@ -19,9 +19,17 @@ export type HomeAgencyDataType = {
   buttonCta: { label: string };
 };
 
+export type HomeNewsletterDataType = {
+  title: string;
+  subtitle: string;
+  placeholder: string;
+  button: { label: string };
+};
+
 export interface IHome {
   bannerData: HomeBannerDataType;
   introData: HomeIntroDataType;
   offersData: HomeOffersDataType;
   agencyData: HomeAgencyDataType;
+  newsletterData: HomeNewsletterDataType;
 }

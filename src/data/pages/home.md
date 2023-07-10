@@ -48,4 +48,15 @@ agencyData:
     label: Découvrir nos engagements
   buttonCta:
     label: En savoir plus
+newsletterData:
+  title: |-
+    Pour vous tenir
+
+    informé(e) des actualités
+
+    et des publications Atipy
+  subtitle: Abonnez-vous à notre newsletter
+  placeholder: Votre adresse email*
+  button:
+    label: S’abonner
 ---

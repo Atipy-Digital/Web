@@ -2,6 +2,7 @@
 
 import clsxm from '@/lib/clsxm';
 
+import { Box } from '@/components/common/Box';
 import { Card } from '@/components/primitives/Card';
 
 import type { HomeOffersDataType } from '@/ts';
@@ -28,15 +29,17 @@ export const Offers = ({ data }: Props) => {
   };
 
   return (
-    <section
-      className={clsxm(
-        'tl px-fluid py-fluid w-full grid grid-cols-1 gap-8 xl:gap-16',
-        lgGridItems()
-      )}
-    >
-      {data.cards.map((item) => (
-        <Card key={`home-offer-card-${item.type}`} {...item} />
-      ))}
-    </section>
+    <Box as='section'>
+      <div
+        className={clsxm(
+          'tl px-fluid py-fluid w-full grid grid-cols-1 gap-8 xl:gap-16',
+          lgGridItems()
+        )}
+      >
+        {data.cards.map((item) => (
+          <Card key={`home-offer-card-${item.type}`} {...item} />
+        ))}
+      </div>
+    </Box>
   );
 };

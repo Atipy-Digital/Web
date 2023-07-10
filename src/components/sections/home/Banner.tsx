@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown';
 
 import { useTheme } from '@/hooks/use-theme';
 
+import { Box } from '@/components/common/Box';
 import { ATIPY_ICON, AtipyIcon } from '@/components/common/icons/AtipyIcon';
 
 import type { HomeBannerDataType } from '@/ts';
@@ -17,8 +18,11 @@ export const Banner = ({ data }: Props) => {
   const { prefixImg } = useTheme();
 
   return (
-    <section className='px-fluid flex items-center justify-center h-[calc(100vh_-_72px)] md:h-[calc(100vh_-_112px)]'>
-      <div className='w-full flex flex-col gap-y-9 md:gap-y-14'>
+    <Box
+      as='section'
+      className='flex items-center justify-center h-[calc(100vh_-_72px)] md:h-[calc(100vh_-_112px)]'
+    >
+      <div className='px-fluid w-full flex flex-col gap-y-9 md:gap-y-14'>
         <h1 className='w-full'>
           <ReactMarkdown
             components={{
@@ -47,6 +51,6 @@ export const Banner = ({ data }: Props) => {
           </motion.a>
         </div>
       </div>
-    </section>
+    </Box>
   );
 };

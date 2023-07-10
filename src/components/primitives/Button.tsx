@@ -15,12 +15,14 @@ interface Props
   > {
   variant?: 'primary' | 'secondary';
   icon?: boolean;
+  noAnim?: boolean;
 }
 
 export const Button = ({
   variant = 'primary',
   icon = false,
   className,
+  noAnim = false,
   children,
   ...props
 }: Props) => {
@@ -45,8 +47,8 @@ export const Button = ({
         currentVariant,
         className
       )}
-      whileHover={{ scale: 1.05 }}
-      whileTap={{ scale: 0.9 }}
+      whileHover={noAnim ? {} : { scale: 1.05 }}
+      whileTap={noAnim ? {} : { scale: 0.9 }}
     >
       {icon && (
         <AtipyIcon type={ATIPY_ICON.ARROW_LEFT} size='lg' className='mr-5' />
