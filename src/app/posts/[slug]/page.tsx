@@ -6,7 +6,7 @@ import { siteOrigin } from '@/lib/constants';
 
 import { getPostMetaData, getPostsSlug } from '@/services/post.service';
 
-import { type Post } from '@/ts';
+import type { Post } from '@/ts';
 
 type Props = {
   params: { slug: string };

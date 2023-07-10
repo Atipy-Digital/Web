@@ -18,7 +18,7 @@ export default function Header({ links }: Props) {
   return (
     <header
       className={clsxm(
-        'paddingFluid z-10',
+        'px-fluid z-10',
         'tl bs-header w-full fixed top-0 left-0 right-0 h-[72px] md:h-28 flex items-center dark:border-b dark:border-b-white',
         'bg-white dark:bg-black overflow-hidden'
       )}

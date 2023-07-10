@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 import Link from 'next/link';
 import { Fragment } from 'react';
 
-import { FooterMenuTextType } from '@/ts';
+import type { FooterMenuTextType } from '@/ts';
 
 export const FooterMenuText = ({ title, rows }: FooterMenuTextType) => {
   return (

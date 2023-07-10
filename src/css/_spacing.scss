@@ -1,9 +1,9 @@
-.paddingFluid {
+.px-fluid {
   padding: 0 tovw(16px, 16px, 'mobile');
 }
 
 @media (min-width: 768px) {
-  .paddingFluid {
+  .px-fluid {
     padding: 0 tovw(40px);
   }
 }

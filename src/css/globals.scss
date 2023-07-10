@@ -222,12 +222,51 @@ html.dark * {
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    scroll-padding-top: 72px;
     @apply bg-white text-black;
+  }
+  @media (min-width: 768px) {
+    html {
+      scroll-padding-top: 112px;
+    }
   }
 
   /* #region  /**=========== Typography =========== */
-  h1 {
-    @apply text-2xl font-bold md:text-4xl;
+  h1,
+  .h1 {
+    @apply font-secondary font-light leading-none;
+    font-size: clamp(3rem, 4.22vw + 1.5rem, 6.563rem);
+    span {
+      @apply inline-block font-primary font-bold;
+    }
+    strong {
+      @apply inline-block font-bold;
+    }
+  }
+  h2,
+  .h2 {
+    @apply font-secondary font-light leading-tight;
+    font-size: clamp(2rem, 1.35vw + 1.5rem, 3.125rem);
+    span {
+      @apply font-primary font-bold underline;
+      strong {
+        font-weight: bold;
+      }
+    }
+  }
+  h3,
+  .h3 {
+    @apply font-bold leading-none;
+    font-size: clamp(1.563rem, 2vw + 0.75rem, 3.125rem);
+  }
+  .h3-card {
+    @apply font-bold leading-none;
+    font-size: clamp(1.5rem, 2vw + 0.75rem, 2.5rem);
+  }
+  h4,
+  .h4 {
+    @apply font-normal leading-none;
+    font-size: clamp(1.125rem, 2.5vw, 2.5rem);
   }
   h6,
   .h6 {
@@ -254,11 +293,9 @@ body:not(.user-is-tabbing) textarea:focus {
 
 html.dark {
   @apply bg-black text-white;
-  & > *::-webkit-scrollbar-thumb {
-    border: 3px solid black;
-  }
 }
 
+/* #region  /**=========== Used for hooks =========== */
 // used in use-prevents-scroll hook
 html.no-scroll {
   overflow: hidden;
@@ -268,6 +305,7 @@ html.no-scroll {
     touch-action: none;
   }
 }
+/* #endregion  /**======== Used for hooks =========== */
 
 /* #region  /**=========== Utilies =========== */
 @layer utilities {
@@ -322,3 +360,7 @@ html.no-scroll {
   }
 }
 /* #endregion  /**======== Utilies =========== */
+
+.py-fluid {
+  @apply py-10 md:py-6 lg:py-8 xl:py-12;
+}

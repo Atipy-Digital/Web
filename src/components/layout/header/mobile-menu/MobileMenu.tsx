@@ -10,7 +10,7 @@ import { usePreventScroll } from '@/hooks/use-prevents-scroll';
 
 import { ATIPY_ICON, AtipyIcon } from '@/components/common/icons/AtipyIcon';
 import Logo from '@/components/common/logo/Logo';
-import { Portal } from '@/components/Portal';
+import { Portal } from '@/components/primitives/Portal';
 
 import { useAppStore } from '@/store/use-app-store';
 
@@ -55,13 +55,13 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
           <path d='M1 20h24v2H1z' fill='currentColor'></path>
         </svg>
       </button>
-      <span className='w-0 h-0 hidden' id='menuMobileTextOpen'>
+      <span className='sr-only' id='menuMobileTextOpen'>
         ouverture du menu mobile
       </span>
       {isOpenModalMenu && (
         <Portal id='menu-modal'>
           <div className={clsxm(s.menuContainer, 'bg-white dark:bg-black')}>
-            <header className={clsxm(s.header, 'paddingFluid')}>
+            <header className={clsxm(s.header, 'px-fluid')}>
               <Link
                 href='/'
                 className={s.logo}
@@ -83,7 +83,7 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
                   className='w-11 h-11'
                 />
               </button>
-              <span className='w-0 h-0 hidden' id='menuMobileTextClose'>
+              <span className='sr-only' id='menuMobileTextClose'>
                 fermeture du menu mobile
               </span>
             </header>
