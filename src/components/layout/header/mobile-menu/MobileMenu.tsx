@@ -55,7 +55,7 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
           <path d='M1 20h24v2H1z' fill='currentColor'></path>
         </svg>
       </button>
-      <span className='w-0 h-0 hidden' id='menuMobileTextOpen'>
+      <span className='sr-only' id='menuMobileTextOpen'>
         ouverture du menu mobile
       </span>
       {isOpenModalMenu && (
@@ -83,7 +83,7 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
                   className='w-11 h-11'
                 />
               </button>
-              <span className='w-0 h-0 hidden' id='menuMobileTextClose'>
+              <span className='sr-only' id='menuMobileTextClose'>
                 fermeture du menu mobile
               </span>
             </header>

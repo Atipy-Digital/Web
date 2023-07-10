@@ -254,6 +254,10 @@ html.dark * {
       }
     }
   }
+  .h3-card {
+    @apply font-bold leading-none;
+    font-size: clamp(1.5rem, 2vw + 0.75rem, 2.5rem);
+  }
   h6,
   .h6 {
     font-size: clamp(1.375rem, 0.7vw + 1rem, 1.563rem);

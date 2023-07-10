@@ -16,4 +16,24 @@ introData:
   button:
     label: Nos expertises
     url: /expertises
+offersData:
+  cards:
+    - type: ACCESIBILITY
+      title: Accessibilité
+      body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie
+        risus in sapien lacinia, ut ultricies erat ultricies.
+      button:
+        label: En savoir plus
+    - button:
+        label: En savoir plus
+      body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie
+        risus in sapien lacinia, ut ultricies erat ultricies.
+      type: DESIGN
+      title: Design
+    - button:
+        label: En savoir plus
+      body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie
+        risus in sapien lacinia, ut ultricies erat ultricies.
+      type: DIGITAL
+      title: Digital
 ---

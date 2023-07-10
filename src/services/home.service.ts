@@ -8,5 +8,6 @@ export const getHomeData = (): IHome => {
   return {
     bannerData: matterResult.data.bannerData,
     introData: matterResult.data.introData,
+    offersData: matterResult.data.offersData,
   };
 };

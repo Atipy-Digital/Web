@@ -25,7 +25,10 @@ export const Button = ({
   ...props
 }: Props) => {
   const variants = new Map<Props['variant'], string>([
-    ['primary', 'text-white dark:text-black bg-black dark:bg-white'],
+    [
+      'primary',
+      'text-white bg-black border border-black hover:bg-white hover:text-black dark:text-black dark:bg-white hover:dark:bg-black hover:dark:border-white hover:dark:text-white',
+    ],
     ['secondary', ''],
   ]);
 

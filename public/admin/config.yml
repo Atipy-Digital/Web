@@ -173,6 +173,41 @@ collections:
                           '/contact',
                         ],
                     }
+          - label: Section 3 - Offres
+            name: offersData
+            widget: object
+            fields:
+              - label: Card
+                hint: Vous pouvez changer l'ordre des différentes card
+                name: cards
+                widget: list
+                fields:
+                  - {
+                      label: Type,
+                      name: type,
+                      widget: select,
+                      options:
+                        [
+                          { label: Accessibilité, value: ACCESIBILITY },
+                          { label: Design, value: DESIGN },
+                          { label: Digital, value: DIGITAL },
+                          { label: Conseils et formations, value: CONSEIL },
+                        ],
+                    }
+                  - { label: Titre, name: title, widget: string }
+                  - {
+                      label: Text,
+                      name: body,
+                      widget: markdown,
+                      buttons: [],
+                      modes: [rich_text],
+                      editor_components: [],
+                    }
+                  - label: Bouton
+                    name: button
+                    widget: object
+                    fields:
+                      - { label: Label, name: label, widget: string }
   - name: posts
     label: Post
     folder: src/data/posts
