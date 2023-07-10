@@ -15,6 +15,8 @@ export type HomeOffersDataType = {
 export type HomeAgencyDataType = {
   title: string;
   body: string;
+  buttonEngagement: { label: string };
+  buttonCta: { label: string };
 };
 
 export interface IHome {

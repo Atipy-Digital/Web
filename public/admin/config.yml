@@ -227,6 +227,16 @@ collections:
                   modes: [rich_text],
                   editor_components: [],
                 }
+              - label: Bouton Engagement
+                name: buttonEngagement
+                widget: object
+                fields:
+                  - { label: Label, name: label, widget: string }
+              - label: Bouton Cta
+                name: buttonCta
+                widget: object
+                fields:
+                  - { label: Label, name: label, widget: string }
   - name: posts
     label: Post
     folder: src/data/posts

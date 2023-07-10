@@ -44,4 +44,8 @@ agencyData:
 
 
     Atipy réunit deux entreprises spécialisées dans la conception universelle et l’accessibilité : Divercities et Agence Adéquat. En 2021, cette fusion prend le nom d’Atipy, une association évidente après 10 années de partenariat. Fort de ses expériences sur des projets d’envergures, Atipy accompagne les structures publiques comme privées dans la réflexion et la mise en place de dispositifs accessibles et inclusifs.
+  buttonEngagement:
+    label: Découvrir nos engagements
+  buttonCta:
+    label: En savoir plus
 ---

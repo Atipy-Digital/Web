@@ -32,6 +32,7 @@ module.exports = {
         body1: 'clamp(1.125rem, 0.5vw + 1rem, 1.563rem)',
       },
       borderWidth: {
+        3: '3px',
         5: '5px',
       },
       screens: {
