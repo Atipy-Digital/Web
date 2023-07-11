@@ -191,7 +191,7 @@ html.dark * {
     font-family: 'Roboto';
     src: url('/fonts/Roboto-Regular.woff2') format('woff2'),
       url('/fonts/Roboto-Regular.woff') format('woff');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     font-display: optional;
   }
@@ -235,7 +235,7 @@ html.dark * {
   h1,
   .h1 {
     @apply font-secondary font-light leading-none;
-    font-size: clamp(3rem, 4.22vw + 1.5rem, 6.563rem);
+    font-size: clamp(3rem, 3.8vw + 1.5rem, 6rem);
     span {
       @apply inline-block font-primary font-bold;
     }
@@ -345,6 +345,7 @@ html.no-scroll {
     }
 
     &.active {
+      font-weight: bold;
       &:after {
         content: '';
         display: block;

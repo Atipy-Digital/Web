@@ -26,10 +26,16 @@ export type HomeNewsletterDataType = {
   button: { label: string };
 };
 
+export type HomeContactDataType = {
+  title: string;
+  email: string;
+};
+
 export interface IHome {
   bannerData: HomeBannerDataType;
   introData: HomeIntroDataType;
   offersData: HomeOffersDataType;
   agencyData: HomeAgencyDataType;
   newsletterData: HomeNewsletterDataType;
+  contactData: HomeContactDataType;
 }

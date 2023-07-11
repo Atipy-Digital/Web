@@ -37,6 +37,7 @@ module.exports = {
       },
       screens: {
         desktop: '1920px',
+        '8xl': '1500px',
       },
     },
   },

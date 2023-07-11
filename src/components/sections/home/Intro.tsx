@@ -23,7 +23,7 @@ export const Intro = ({ data }: Props) => {
   };
   return (
     <Box as='section' id='home-intro'>
-      <div className='tl px-fluid py-fluid relative w-full flex items-center flex-col md:flex-row'>
+      <div className='tl px-fluid py-fluid !pb-0 relative w-full flex items-center flex-col md:flex-row'>
         <h2>
           <ReactMarkdown
             components={{
@@ -33,7 +33,7 @@ export const Intro = ({ data }: Props) => {
             {data.title}
           </ReactMarkdown>
         </h2>
-        <div className='tl flex items-center justify-center max-w-[369px] lg:ml-8'>
+        <div className='tl flex items-center justify-center max-w-[369px] lg:ml-8 mt-8 md:mt-0'>
           <img
             src={`/imgs/home/intro-${prefixImg}-home.webp`}
             alt='intro home'

@@ -16,7 +16,7 @@ type Props = {
 export const Agency = ({ data }: Props) => {
   const { prefixImg } = useTheme();
   return (
-    <Box as='section'>
+    <Box as='section' className='tl mb-14 md:mb-16 lg:mb-20 xl:lg:mb-24'>
       <div className='tl px-fluid py-fluid relative w-full'>
         <div className='w-full flex items-center flex-col md:flex-row gap-8 xl:gap-10'>
           <div className='w-full max-w-[694px] flex-grow'>

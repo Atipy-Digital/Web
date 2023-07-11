@@ -79,31 +79,7 @@ collections:
             widget: object
             fields:
               - { label: Titre, name: title, widget: string }
-              - label: Ligne
-                hint: Vous pouvez changer l'ordre des différentes lignes
-                name: rows
-                widget: list
-                fields:
-                  - {
-                      label: Lien 1,
-                      name: link1,
-                      widget: object,
-                      fields:
-                        [
-                          { label: Label, name: label, widget: string },
-                          { label: Url, name: url, widget: string },
-                        ],
-                    }
-                  - {
-                      label: Lien 2,
-                      name: link2,
-                      widget: object,
-                      fields:
-                        [
-                          { label: Label, name: label, widget: string },
-                          { label: Url, name: url, widget: string },
-                        ],
-                    }
+              - { label: Email, name: email, widget: string }
           - label: Menu social
             name: menuSocial
             widget: object
@@ -193,7 +169,7 @@ collections:
                       widget: select,
                       options:
                         [
-                          { label: Accessibilité, value: ACCESIBILITY },
+                          { label: Ingénierie, value: ENGINEER },
                           { label: Design, value: DESIGN },
                           { label: Digital, value: DIGITAL },
                           { label: Conseils et formations, value: CONSEIL },
@@ -257,6 +233,20 @@ collections:
                 widget: object
                 fields:
                   - { label: Label, name: label, widget: string }
+          - label: Section 8 - Contact
+            name: contactData
+            widget: object
+            collapsed: true
+            fields:
+              - {
+                  label: Titre,
+                  name: title,
+                  widget: markdown,
+                  buttons: [],
+                  modes: [rich_text],
+                  editor_components: [],
+                }
+              - { label: Email, name: email, widget: string }
   - name: posts
     label: Post
     folder: src/data/posts

@@ -18,22 +18,22 @@ introData:
     url: /expertises
 offersData:
   cards:
-    - type: ACCESIBILITY
-      title: Accessibilité
-      body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie
-        risus in sapien lacinia, ut ultricies erat ultricies.
+    - type: ENGINEER
+      title: Ingénierie
+      body: Cadre bâti, espace public, transports, événementiel.
       button:
         label: En savoir plus
     - button:
         label: En savoir plus
-      body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie
-        risus in sapien lacinia, ut ultricies erat ultricies.
+      body: |-
+        Signalétique d’orientation, communication,
+
+        rédaction claire et FALC, identité visuelle.
       type: DESIGN
       title: Design
     - button:
         label: En savoir plus
-      body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie
-        risus in sapien lacinia, ut ultricies erat ultricies.
+      body: Web, applis, solutions logicielles.
       type: DIGITAL
       title: Digital
 agencyData:
@@ -50,13 +50,23 @@ agencyData:
     label: En savoir plus
 newsletterData:
   title: |-
-    Pour vous tenir
+    Veille et actualités
 
-    informé(e) des actualités
+    sur la conception universelle
 
-    et des publications Atipy
+    et l’accessibilité,
+
+    soyez au courant !
   subtitle: Abonnez-vous à notre newsletter
   placeholder: Votre adresse email*
   button:
     label: S’abonner
+contactData:
+  title: |-
+    Pour tous vos projets,
+
+    renseignements
+
+    et demande de devis
+  email: contact@atipy.fr
 ---

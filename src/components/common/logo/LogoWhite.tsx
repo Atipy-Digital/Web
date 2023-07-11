@@ -1,15 +1,19 @@
-export default function LogoWhite() {
+export default function LogoWhite({ size }: { size: 'md' | 'lg' }) {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      width='180.823'
-      height='55.716'
+      width={size === 'md' ? '180.823' : '306'}
+      height={size === 'md' ? '55.716' : '94.69'}
       viewBox='0 0 180.823 55.716'
       className='ta w-28 lg:w-[180px]'
     >
       <defs>
         <clipPath id='clip-path-logo-white'>
-          <rect width='180.823' height='55.716' fill='none' />
+          <rect
+            width={size === 'md' ? '180.823' : '306'}
+            height={size === 'md' ? '55.716' : '94.69'}
+            fill='none'
+          />
         </clipPath>
       </defs>
       <g transform='translate(0 0)'>

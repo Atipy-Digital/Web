@@ -43,7 +43,7 @@ export const Button = ({
     <motion.button
       {...props}
       className={clsxm(
-        'h-[54px] flex-shrink-0 flex items-center rounded-full px-[14px] py-[11px] text-[clamp(1.125rem,_1vw_+_1rem,_1.563rem)] leading-none font-bold w-fit',
+        'h-[54px] flex-shrink-0 flex items-center rounded-full px-[14px] py-[11px] text-[16px] md:text-[18px] lg:text-[20px] xl:text-[25px] leading-none font-bold w-fit',
         currentVariant,
         className
       )}
@@ -51,9 +51,13 @@ export const Button = ({
       whileTap={noAnim ? {} : { scale: 0.9 }}
     >
       {icon && (
-        <AtipyIcon type={ATIPY_ICON.ARROW_LEFT} size='lg' className='mr-5' />
+        <AtipyIcon
+          type={ATIPY_ICON.ARROW_LEFT}
+          size='lg'
+          className='mr-5 flex-shrink-0'
+        />
       )}
-      {children}
+      <span className='flex-shrink-0'>{children}</span>
     </motion.button>
   );
 };

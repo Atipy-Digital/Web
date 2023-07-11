@@ -12,6 +12,7 @@ import { CARD_TYPE, type CardType } from '@/ts';
 interface Props extends CardType {
   size?: 'sm' | 'md';
   onClick?: () => void;
+  className?: string;
 }
 
 export const Card = ({
@@ -21,17 +22,18 @@ export const Card = ({
   body,
   button,
   onClick,
+  className,
 }: Props) => {
   const { prefixImg } = useTheme();
   const styleCard = new Map<CARD_TYPE, string>([
-    [CARD_TYPE.ACCESIBILITY, 'border-5 border-a-blue shadow-a-blue'],
+    [CARD_TYPE.ENGINEER, 'border-5 border-a-blue shadow-a-blue'],
     [CARD_TYPE.DESIGN, 'border-5 border-a-green shadow-a-green'],
     [CARD_TYPE.DIGITAL, 'border-5 border-a-red shadow-a-red'],
     [CARD_TYPE.CONSEIL, 'border-5 border-a-yellow shadow-a-yellow'],
   ]);
   const styleCardBtn = new Map<CARD_TYPE, string>([
     [
-      CARD_TYPE.ACCESIBILITY,
+      CARD_TYPE.ENGINEER,
       '!text-black !border-a-blue !bg-a-blue hover:!bg-white hover:!text-a-blue hover:dark:!bg-transparent hover:dark:!text-a-blue dark:!bg-a-blue',
     ],
     [
@@ -49,7 +51,7 @@ export const Card = ({
   ]);
 
   const urlHeaderImgs = new Map<CARD_TYPE, string>([
-    [CARD_TYPE.ACCESIBILITY, `/imgs/home/offer-${prefixImg}-access.webp`],
+    [CARD_TYPE.ENGINEER, `/imgs/home/offer-${prefixImg}-access.webp`],
     [CARD_TYPE.DESIGN, `/imgs/home/offer-${prefixImg}-design.webp`],
     [CARD_TYPE.DIGITAL, `/imgs/home/offer-${prefixImg}-digital.webp`],
   ]);
@@ -62,20 +64,21 @@ export const Card = ({
   return (
     <article
       className={clsxm(
-        'tl w-full rounded-[42px] bg-white dark:bg-black',
+        'tl w-full flex flex-col rounded-[42px] bg-white dark:bg-black',
         sCard,
-        size === 'sm' && 'px-7 pb-7 pt-5 xl:px-10 xl:pb-9 xl:pt-7'
+        size === 'sm' && 'px-5 py-4',
+        className
       )}
     >
       <header className='w-full flex flex-col gap-y-6'>
         <img alt={`logo ${type}`} src={urlHeaderImg} className='w-24 h-auto' />
         <h3 className='h3-card'>{title}</h3>
       </header>
-      <main className='pt-8 pb-6 xl:pt-10'>
+      <main className='flex-grow pt-8 pb-6 xl:pt-10'>
         <ReactMarkdown
           components={{
             p: ({ children }) => (
-              <p className='font-secondary font-normal leading-tight text-body1'>
+              <p className='font-secondary font-normal leading-snug text-body1 w-full'>
                 {children}
               </p>
             ),

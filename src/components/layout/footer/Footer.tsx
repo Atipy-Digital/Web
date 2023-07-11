@@ -1,3 +1,5 @@
+import Logo from '@/components/common/logo/Logo';
+
 import { FooterMenuSocial } from './FooterMenuSocial';
 import { FooterMenuText } from './FooterMenuText';
 
@@ -12,6 +14,7 @@ export default function Footer({ data }: Props) {
     <footer className='px-fluid w-full min-h-[167px] border-t border-t-current'>
       <div className='tl w-full py-4 lg:py-6 xl:py-10 flex items-center flex-col justify-between h-full'>
         <nav className='tl flex flex-col md:flex-row items-center justify-between flex-grow w-full gap-y-6 md:gap-y-0'>
+          <Logo />
           <FooterMenuText {...data.menuText1} />
           <FooterMenuText {...data.menuText2} />
           <FooterMenuSocial {...data.menuSocial} />
