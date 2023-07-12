@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 @import './helpers';
-@import './_spacing';
 
 :root {
   --inspect-color: #f00;
@@ -74,63 +73,63 @@ html.dark * {
     font-family: 'Atkinson Hyperlegible';
     src: url('/fonts/AtkinsonHyperlegible-Italic.woff2') format('woff2'),
       url('/fonts/AtkinsonHyperlegible-Italic.woff') format('woff');
-    font-weight: normal;
+    font-weight: 400;
     font-style: italic;
-    font-display: optional;
+    font-display: swap;
   }
 
   @font-face {
     font-family: 'Atkinson Hyperlegible';
     src: url('/fonts/AtkinsonHyperlegible-Regular.woff2') format('woff2'),
       url('/fonts/AtkinsonHyperlegible-Regular.woff') format('woff');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
-    font-display: optional;
+    font-display: swap;
   }
 
   @font-face {
     font-family: 'Atkinson Hyperlegible';
     src: url('/fonts/AtkinsonHyperlegible-BoldItalic.woff2') format('woff2'),
       url('/fonts/AtkinsonHyperlegible-BoldItalic.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: italic;
-    font-display: optional;
+    font-display: swap;
   }
 
   @font-face {
     font-family: 'Atkinson Hyperlegible';
     src: url('/fonts/AtkinsonHyperlegible-Bold.woff2') format('woff2'),
       url('/fonts/AtkinsonHyperlegible-Bold.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
-    font-display: optional;
+    font-display: swap;
   }
 
   @font-face {
     font-family: 'Roboto';
     src: url('/fonts/Roboto-Italic.woff2') format('woff2'),
       url('/fonts/Roboto-Italic.woff') format('woff');
-    font-weight: normal;
+    font-weight: 400;
     font-style: italic;
-    font-display: optional;
+    font-display: swap;
   }
 
   @font-face {
     font-family: 'Roboto';
     src: url('/fonts/Roboto-Bold.woff2') format('woff2'),
       url('/fonts/Roboto-Bold.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
-    font-display: optional;
+    font-display: swap;
   }
 
   @font-face {
     font-family: 'Roboto';
     src: url('/fonts/Roboto-BoldItalic.woff2') format('woff2'),
       url('/fonts/Roboto-BoldItalic.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: italic;
-    font-display: optional;
+    font-display: swap;
   }
 
   @font-face {
@@ -139,7 +138,7 @@ html.dark * {
       url('/fonts/Roboto-BlackItalic.woff') format('woff');
     font-weight: 900;
     font-style: italic;
-    font-display: optional;
+    font-display: swap;
   }
 
   @font-face {
@@ -148,7 +147,7 @@ html.dark * {
       url('/fonts/Roboto-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
-    font-display: optional;
+    font-display: swap;
   }
 
   @font-face {
@@ -157,7 +156,7 @@ html.dark * {
       url('/fonts/Roboto-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
-    font-display: optional;
+    font-display: swap;
   }
 
   @font-face {
@@ -166,7 +165,7 @@ html.dark * {
       url('/fonts/Roboto-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
-    font-display: optional;
+    font-display: swap;
   }
 
   @font-face {
@@ -175,7 +174,7 @@ html.dark * {
       url('/fonts/Roboto-Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
-    font-display: optional;
+    font-display: swap;
   }
 
   @font-face {
@@ -184,7 +183,7 @@ html.dark * {
       url('/fonts/Roboto-LightItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
-    font-display: optional;
+    font-display: swap;
   }
 
   @font-face {
@@ -193,7 +192,7 @@ html.dark * {
       url('/fonts/Roboto-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
-    font-display: optional;
+    font-display: swap;
   }
 
   @font-face {
@@ -202,7 +201,7 @@ html.dark * {
       url('/fonts/Roboto-ThinItalic.woff') format('woff');
     font-weight: 100;
     font-style: italic;
-    font-display: optional;
+    font-display: swap;
   }
 
   @font-face {
@@ -211,7 +210,7 @@ html.dark * {
       url('/fonts/Roboto-MediumItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
-    font-display: optional;
+    font-display: swap;
   }
 
   html {
@@ -254,6 +253,10 @@ html.dark * {
       }
     }
   }
+  .h2-primary {
+    @apply font-bold leading-tight;
+    font-size: clamp(1.75rem, 2.292vw + 1rem, 3.75rem);
+  }
   h3,
   .h3 {
     @apply font-bold leading-none;
@@ -277,7 +280,7 @@ html.dark * {
 }
 
 body {
-  @apply font-primary;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
   transition: opacity #{$duration / 3 + 's'} ease-in;
 }
 
@@ -359,9 +362,19 @@ html.no-scroll {
       }
     }
   }
+
+  .px-fluid {
+    padding: 0 tovw(16px, 16px, 'mobile');
+  }
+
+  @media (min-width: 768px) {
+    .px-fluid {
+      padding: 0 tovw(40px);
+    }
+  }
+
+  .py-fluid {
+    @apply py-10 md:py-6 lg:py-8 xl:py-12 #{!important};
+  }
 }
 /* #endregion  /**======== Utilies =========== */
-
-.py-fluid {
-  @apply py-10 md:py-6 lg:py-8 xl:py-12;
-}
