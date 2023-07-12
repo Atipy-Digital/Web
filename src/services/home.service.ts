@@ -1,4 +1,4 @@
-import { readFile } from './read-file';
+import { readFile } from './utils';
 
 import type { IHome } from '@/ts';
 
