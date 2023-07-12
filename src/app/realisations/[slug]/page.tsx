@@ -44,8 +44,6 @@ export async function generateStaticParams() {
 export default async function ProjectPage({ params: { slug } }: Props) {
   const project = getProjectBySlug(slug);
 
-  console.log(project.client);
-
   return (
     <>
       <ProjectHeader slug={project.slug} title={project.title} />

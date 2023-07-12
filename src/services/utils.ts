@@ -1,6 +1,7 @@
-import type { MetadataType } from '@/ts';
 import fs from 'fs';
 import matter from 'gray-matter';
+
+import type { MetadataType } from '@/ts';
 
 export const readFile = (path: string) => {
   const content = fs.readFileSync(path, {
