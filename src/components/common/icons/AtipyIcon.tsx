@@ -2,6 +2,7 @@ import clsxm from '@/lib/clsxm';
 
 import { ArrowDownIcon } from './vectors/ArrowDown.icon';
 import { ArrowLeftIcon } from './vectors/ArrowLeft.icon';
+import { ArrowRightIcon } from './vectors/ArrowRight.icon';
 import { ArrowUpIcon } from './vectors/ArrowUp.icon';
 import { CrossIcon } from './vectors/Cross.icon';
 import { EnvelopIcon } from './vectors/Envelop.icon';
@@ -25,6 +26,7 @@ export enum ATIPY_ICON {
   ARROW_LEFT = 'ARROW_LEFT',
   PHONE = 'PHONE',
   ENVELOP = 'ENVELOP',
+  ARROW_RIGHT = 'ARROW_RIGHT',
 }
 
 type AtipyIconSize = 'xxs' | 'sm' | 'md' | 'mdx' | 'lg' | 'xl' | 'xxl' | 'full';
@@ -61,6 +63,7 @@ export const AtipyIcon = ({ size = 'md', type, className }: AtipyIconProps) => {
     [ATIPY_ICON.ARROW_LEFT, ArrowLeftIcon],
     [ATIPY_ICON.PHONE, PhoneIcon],
     [ATIPY_ICON.ENVELOP, EnvelopIcon],
+    [ATIPY_ICON.ARROW_RIGHT, ArrowRightIcon],
   ]);
 
   const Icon: AtipyIconElement = icons.get(type) || CrossIcon;

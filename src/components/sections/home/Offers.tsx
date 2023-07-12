@@ -29,7 +29,7 @@ export const Offers = ({ data }: Props) => {
   };
 
   return (
-    <Box as='section' className='tl mb-14 md:mb-16 lg:mb-20 xl:lg:mb-24'>
+    <Box as='section' className='tl mb-14 md:mb-16 lg:mb-20 xl:mb-24'>
       <div
         className={clsxm(
           'tl px-fluid py-fluid xl:!pt-0 w-full grid grid-cols-1 gap-8 xl:gap-14',

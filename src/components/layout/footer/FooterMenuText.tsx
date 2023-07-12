@@ -8,8 +8,8 @@ export const FooterMenuText = (data: FooterMenuTextType) => {
   const isMenuText1 = isFooterMenuText1Response(data);
 
   return (
-    <ul>
-      <li className='pb-3 md:pb-5'>
+    <ul className='flex flex-col xl:flex-row xl:gap-x-11 xl:items-center'>
+      <li className='pb-3 md:pb-5 xl:pb-0'>
         <label className='h6 block text-center md:text-left'>
           {data.title}
         </label>

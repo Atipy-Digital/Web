@@ -37,7 +37,7 @@ export const Newsletter = ({ data }: Props) => {
   });
 
   return (
-    <section className='w-full bg-a-yellow text-black xl:pt-4'>
+    <section className='w-full bg-a-yellow-dark text-black xl:pt-4'>
       <Box className='max-w-[1920px]'>
         <div className='tl py-fluid relative w-full flex items-center md:items-start lg:items-end flex-col lg:flex-row lg:gap-x-8'>
           <div className='tl lg:w-fit md:max-w-[596px] lg:max-w-[700px] flex-grow text-center md:text-left flex-shrink-0'>
@@ -49,13 +49,13 @@ export const Newsletter = ({ data }: Props) => {
 
           <div className='tl flex-grow flex items-center justify-center flex-col md:flex-row mt-8 lg:mt-0 w-full lg:w-auto'>
             <form
-              className='tl relative z-[1] w-full flex items-center justify-between rounded-full bg-white text-black'
+              className='tl relative z-[1] w-full flex items-center justify-between rounded-[6px] rounded-tr-[26px] rounded-br-[26px] bg-white text-black'
               onSubmit={onSubmit}
             >
               <input
                 type='text'
                 className={clsxm(
-                  'tl h-[54px] w-full appearance-none border-none p-4 bg-white text-black text-[16px] md:text-[18px] lg:text-[20px] xl:text-[25px] rounded-full',
+                  'tl h-[54px] w-full appearance-none border-none p-4 bg-white text-black text-[16px] md:text-[18px] lg:text-[20px] xl:text-[25px] rounded-[6px]',
                   'focus:!border-white focus:ring-0 active:decoration-0 active:ring-0'
                 )}
                 placeholder={data.placeholder}
@@ -64,7 +64,7 @@ export const Newsletter = ({ data }: Props) => {
               <Button
                 type='submit'
                 icon
-                className='dark:text-white dark:bg-black hover:dark:border-black [&_svg]:!mr-3 md:[&_svg]:mr-5 [&_svg]:w-4 [&_svg]:h-4 md:[&_svg]:w-8 md:[&_svg]:h-8'
+                className='dark:text-white dark:bg-black hover:dark:border-black hover:dark:bg-white hover:dark:text-black [&_svg]:!mr-3 md:[&_svg]:mr-5 [&_svg]:w-4 [&_svg]:h-4 md:[&_svg]:w-8 md:[&_svg]:h-8'
                 noAnim
               >
                 {data.button.label}
