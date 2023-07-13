@@ -8,7 +8,7 @@ type LinkProps = {
 };
 
 type Props = {
-  links: LinkProps[];
+  links?: LinkProps[];
   currentLink: LinkProps;
 };
 
@@ -24,30 +24,37 @@ export const Breadcrumb = ({ links, currentLink }: Props) => {
             Accueil
           </a>
         </li>
-        {links.map(({ label, url }) => (
+        {links?.map(({ label, url }) => (
           <li
             key={`Breadcrumb-link-${label}`}
             className='tl flex items-center justify-center gap-1 h-[32px] md:h-auto text-[15px] md:text-[16px] lg:text-[18px]'
           >
+            <div className='line-clamp-1'>
+              <AtipyIcon
+                type={ATIPY_ICON.ARROW_RIGHT}
+                size='sm'
+                className='mr-1 inline-block'
+              />
+              <a href={url} className='leading-normal hover:underline'>
+                {label}
+              </a>
+            </div>
+          </li>
+        ))}
+        <li className='tl flex items-center justify-center gap-1 h-[32px] md:h-auto text-[15px] md:text-[16px] lg:text-[18px] font-bold'>
+          <div className='line-clamp-1'>
             <AtipyIcon
               type={ATIPY_ICON.ARROW_RIGHT}
               size='sm'
               className='mr-1 inline-block'
             />
-            <a href={url} className='leading-normal hover:underline'>
-              {label}
+            <a
+              href={currentLink.url}
+              className='leading-normal hover:underline'
+            >
+              {currentLink.label}
             </a>
-          </li>
-        ))}
-        <li className='tl flex items-center justify-center gap-1 h-[32px] md:h-auto text-[15px] md:text-[16px] lg:text-[18px] font-bold flex-shrink-0'>
-          <AtipyIcon
-            type={ATIPY_ICON.ARROW_RIGHT}
-            size='sm'
-            className='mr-1 inline-block'
-          />
-          <a href={currentLink.url} className='leading-normal hover:underline'>
-            {currentLink.label}
-          </a>
+          </div>
         </li>
       </ul>
     </nav>

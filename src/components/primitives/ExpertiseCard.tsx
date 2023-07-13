@@ -15,7 +15,7 @@ interface Props extends CardType {
   className?: string;
 }
 
-export const Card = ({
+export const ExpertiseCard = ({
   size = 'sm',
   type,
   title,

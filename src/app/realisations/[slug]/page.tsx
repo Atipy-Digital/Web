@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+import { Metadata, ResolvingMetadata } from 'next';
 
 import { siteOrigin } from '@/lib/constants';
 
@@ -16,23 +16,23 @@ type Props = {
   params: { slug: string };
 };
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { slug: string };
-}): Promise<Metadata> {
+export async function generateMetadata(
+  { params }: Props,
+  parent: ResolvingMetadata
+): Promise<Metadata> {
   const { slug } = params;
   const meta = getProjectMetaData(slug);
+  const previousKeywords = (await parent).keywords || [];
 
   return {
     title: meta.title,
     description: meta.description,
-    keywords: meta.keywords.join(','),
+    keywords: meta?.keywords?.length ? meta.keywords : previousKeywords,
     alternates: {
       canonical: `${siteOrigin}/posts/${slug}`,
     },
     openGraph: {
-      images: meta.ogImg ?? 'favicon/og-alt.png',
+      images: meta?.ogImg ?? 'favicon/og-alt.png',
     },
   };
 }

@@ -3,6 +3,9 @@ backend:
   branch: master
 media_folder: public/media
 public_folder: /media
+slug:
+  encoding: 'ascii'
+  clean_accents: true
 collections:
   - name: 'layout'
     label: 'Layout'
@@ -43,6 +46,7 @@ collections:
                 hint: Vous pouvez changer l'ordre des différentes lignes
                 name: rows
                 widget: list
+                summary: '{{fields.link1.label}} - {{fields.link2.label}}'
                 fields:
                   - {
                       label: Lien 1,
@@ -162,6 +166,9 @@ collections:
                 hint: Vous pouvez changer l'ordre des différentes card
                 name: cards
                 widget: list
+                min: 3
+                max: 4
+                summary: '{{fields.title}} - {{fields.type}}'
                 fields:
                   - {
                       label: Type,
@@ -213,6 +220,33 @@ collections:
                 widget: object
                 fields:
                   - { label: Label, name: label, widget: string }
+          - label: Section 5 - Réalisations
+            name: projectData
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - {
+                  label: Text,
+                  name: body,
+                  widget: markdown,
+                  buttons: [],
+                  modes: [rich_text],
+                  editor_components: [],
+                }
+              - label: Projets à la une
+                name: home_projects
+                widget: relation
+                collection: projects
+                search_fields: ['title', 'project_client.label']
+                display_fields: ['title']
+                value_field: '{{slug}}'
+                multiple: true
+              - label: Bouton Cta
+                name: buttonCta
+                widget: object
+                fields:
+                  - { label: Label, name: label, widget: string }
           - label: Section 7 - Newsletter
             name: newsletterData
             widget: object
@@ -247,6 +281,322 @@ collections:
                   editor_components: [],
                 }
               - { label: Email, name: email, widget: string }
+      - label: Nos Réalisations
+        name: projects_page
+        file: 'src/data/pages/projects.md'
+        widget: object
+        editor:
+          preview: false
+        fields:
+          - label: Metadonnées
+            name: metadata
+            widget: object
+            collapsed: true
+            fields:
+              - {
+                  label: Titre,
+                  name: title,
+                  widget: string,
+                  pattern:
+                    ['^.{1,70}$', 'Doit comporter au maximum 70 caractères'],
+                }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: string,
+                  pattern:
+                    ['^.{1,160}$', 'Doit comporter au maximum 160 caractères'],
+                }
+              - {
+                  label: Image pour réseaux social,
+                  name: ogImg,
+                  widget: image,
+                  required: false,
+                  hint: "Optimiser l'image au format **.webp** et renomer le fichier de type **{nom projet}-{og}.webp** le format doit être de **1200x630**",
+                  choose_url: false,
+                  allow_multiple: false,
+                }
+              - {
+                  label: Mots clés,
+                  name: keywords,
+                  widget: list,
+                  required: false,
+                  fields: [{ label: Mot clé, name: keyword, widget: string }],
+                }
+          - label: Title
+            name: title
+            widget: string
+          - label: Intro
+            name: intro
+            widget: markdown
+            buttons: [bold, italic]
+            modes: [rich_text]
+            hint: "Utiliser l'italic pour utliser la font Atkinson"
+            editor_components: []
+          - label: Projets à la une
+            name: projectsFeatured
+            widget: relation
+            collection: projects
+            search_fields: ['title', 'project_client.label']
+            display_fields: ['title']
+            value_field: '{{slug}}'
+            multiple: true
+  - name: projects
+    label: Réalisations
+    folder: src/data/projects
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: Metadonnées
+        name: metadata
+        widget: object
+        collapsed: true
+        fields:
+          - {
+              label: Titre,
+              name: title,
+              widget: string,
+              pattern: ['^.{1,70}$', 'Doit comporter au maximum 70 caractères'],
+            }
+          - {
+              label: Description,
+              name: description,
+              widget: string,
+              pattern:
+                ['^.{1,160}$', 'Doit comporter au maximum 160 caractères'],
+            }
+          - {
+              label: Image pour réseaux social,
+              name: ogImg,
+              widget: image,
+              required: false,
+              hint: "Optimiser l'image au format **.webp** et renomer le fichier de type **{nom projet}-{og}.webp** le format doit être de **1200x630**",
+              choose_url: false,
+              allow_multiple: false,
+            }
+          - {
+              label: Mots clés,
+              name: keywords,
+              widget: list,
+              required: false,
+              fields: [{ label: Mot clé, name: keyword, widget: string }],
+            }
+      - label: Titre du projet
+        name: title
+        hint: '**Identifiant unique**'
+        widget: string
+      - label: Image principale
+        name: image
+        widget: image
+        allow_multiple: false
+        choose_url: false
+      - label: Client
+        name: project_client
+        widget: relation
+        collection: clients
+        search_fields: ['name', 'client_tags.label']
+        display_fields: ['name']
+        value_field: '{{slug}}'
+      - label: Mission Section
+        name: mission_body
+        widget: markdown
+        buttons: [bold, italic, code, link]
+        modes: [rich_text]
+        editor_components: []
+      - label: Context Section
+        name: context_body
+        widget: markdown
+        buttons: [bold, italic, code, link]
+        modes: [rich_text]
+        editor_components: []
+      - label: Badges Afficher sur la card
+        name: project_tags
+        widget: relation
+        collection: 'tags'
+        file: 'expertise_tags'
+        search_fields: ['tag.*.type', 'tag.*.label', 'tag.*.color']
+        display_fields: ['tag.*.label']
+        value_field: 'tag.*.label'
+        multiple: true
+      - label: Sections
+        name: project_sections
+        widget: list
+        collapsed: true
+        summary: 'Section'
+        fields:
+          - label: 'Colonne 1'
+            name: left
+            widget: markdown
+            buttons:
+              [
+                bold,
+                italic,
+                code,
+                link,
+                heading-four,
+                heading-five,
+                heading-six,
+                quote,
+                bulleted-list,
+                numbered-list,
+              ]
+            modes: [rich_text]
+            hint: 'Utiliser **code (<>)** pour surligner du texte'
+            editor_components: ['image']
+          - label: 'Colonne 2'
+            required: false
+            name: right
+            widget: markdown
+            buttons:
+              [
+                bold,
+                italic,
+                code,
+                link,
+                heading-four,
+                heading-five,
+                heading-six,
+                quote,
+                bulleted-list,
+                numbered-list,
+              ]
+            modes: [rich_text]
+            hint: 'Utiliser **code (<>)** pour surligner du texte'
+            editor_components: ['image']
+
+  - name: clients
+    label: Clients
+    folder: src/data/clients
+    create: true
+    identifier_field: name
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - {
+          label: Nom,
+          name: name,
+          widget: string,
+          hint: '**Identifiant unique**',
+        }
+      - {
+          label: Logo,
+          name: logo,
+          widget: image,
+          required: false,
+          hint: '**Penser au dark mode,** format en **.webp** et renomer le fichier de type **{client}-{logo}.webp**',
+          choose_url: false,
+          allow_multiple: false,
+        }
+      - {
+          label: Tag,
+          name: client_tags,
+          widget: relation,
+          collection: 'tags',
+          file: 'business_tags',
+          search_fields: ['tag.*.type', 'tag.*.label', 'tag.*.color'],
+          display_fields: ['tag.*.label'],
+          value_field: 'tag.*.label',
+          multiple: true,
+        }
+  - label: 'Tags'
+    name: 'tags'
+    files:
+      - label: "Tag Secteur d'activité"
+        name: 'business_tags'
+        file: 'src/data/tags/business_tags.md'
+        create: true
+        editor:
+          preview: false
+        fields:
+          - {
+              label: "Tag Secteur d'activité",
+              name: tag,
+              widget: list,
+              summary: '{{fields.label}}',
+              collapsed: true,
+              fields:
+                [
+                  {
+                    label: 'Type',
+                    name: 'type',
+                    widget: 'hidden',
+                    default: 'business',
+                  },
+                  {
+                    label: 'Nom',
+                    name: 'label',
+                    widget: 'string',
+                    hint: '**Identifiant unique**',
+                  },
+                  {
+                    label: 'Couleur',
+                    name: 'color',
+                    widget: 'select',
+                    options:
+                      [
+                        { label: 'Bleu', value: 'a-blue' },
+                        { label: 'Rouge', value: 'a-red' },
+                        { label: 'Vert', value: 'a-green' },
+                        { label: 'Jaune', value: 'a-yellow' },
+                      ],
+                  },
+                ],
+            }
+      - label: 'Tag Expertise'
+        name: 'expertise_tags'
+        file: 'src/data/tags/expertise_tags.md'
+        create: true
+        editor:
+          preview: false
+        fields:
+          - {
+              label: 'Tag Expertise',
+              name: tag,
+              widget: list,
+              summary: '{{fields.label}}',
+              collapsed: true,
+              fields:
+                [
+                  {
+                    label: 'Type',
+                    name: 'type',
+                    widget: 'hidden',
+                    default: 'expertise',
+                  },
+                  {
+                    label: 'Nom',
+                    name: 'label',
+                    widget: 'string',
+                    hint: '**Identifiant unique**',
+                  },
+                  {
+                    label: 'Couleur',
+                    name: 'color',
+                    widget: 'select',
+                    options:
+                      [
+                        { label: 'Bleu', value: 'a-blue' },
+                        { label: 'Rouge', value: 'a-red' },
+                        { label: 'Vert', value: 'a-green' },
+                        { label: 'Jaune', value: 'a-yellow' },
+                      ],
+                  },
+                  {
+                    label: Type d'icône,
+                    name: iconType,
+                    widget: select,
+                    required: false,
+                    options:
+                      [
+                        { label: 'Téléphone', value: 'PHONE' },
+                        { label: 'Enveloppe', value: 'ENVELOP' },
+                      ],
+                  },
+                ],
+            }
   - name: posts
     label: Post
     folder: src/data/posts

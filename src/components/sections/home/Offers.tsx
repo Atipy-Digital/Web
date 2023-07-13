@@ -3,7 +3,7 @@
 import clsxm from '@/lib/clsxm';
 
 import { Box } from '@/components/common/Box';
-import { Card } from '@/components/primitives/Card';
+import { ExpertiseCard } from '@/components/primitives/ExpertiseCard';
 
 import type { HomeOffersDataType } from '@/ts';
 
@@ -37,7 +37,7 @@ export const Offers = ({ data }: Props) => {
         )}
       >
         {data.cards.map((item) => (
-          <Card
+          <ExpertiseCard
             key={`home-offer-card-${item.type}`}
             {...item}
             className='2xl:min-h-[563px]'

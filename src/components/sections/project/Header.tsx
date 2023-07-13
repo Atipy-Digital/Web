@@ -11,7 +11,7 @@ type Props = {
 export const ProjectHeader = ({ slug, title }: Props) => {
   return (
     <Box className='tl mb-0 md:mb-10 lg:mb-11 xl:mb-16'>
-      <div className='tl px-0 pt-8 pb-10 md:px-fluid md:py-fluid relative w-full'>
+      <div className='tl px-0 pt-5 pb-10 md:px-fluid md:py-fluid relative w-full'>
         <Breadcrumb
           links={[{ label: 'Nos réalisations', url: '/realisations' }]}
           currentLink={{
