@@ -21,8 +21,8 @@ export const ToggleTheme = () => {
   };
 
   return (
-    <div className='ta flex flex-col items-center lg:ml-10 xl:ml-14 w-[78px] ml-auto'>
-      <div
+    <div className='ta flex flex-col items-center lg:ml-10 xl:ml-14 w-[78px] ml-auto overflow-hidden'>
+      <motion.div
         className={clsxm(
           'relative flex justify-start rounded-full p-[2px] cursor-pointer',
           'w-[52px] h-[27px] lg:w-[66px] lg:h-[36px]',
@@ -30,10 +30,12 @@ export const ToggleTheme = () => {
           isDark && '!justify-end'
         )}
         onClick={toggleSwitch}
+        layoutRoot
+        layout
       >
         <motion.div
           className={clsxm(
-            'flex items-center justify-center rounded-[50%] z-[1]',
+            'flex items-center justify-center rounded-[50%] z-[1] transform-none',
             'w-[24px] h-[24px] lg:w-[32px] lg:h-[32px]',
             isDark ? 'bg-black text-white' : 'bg-white text-black'
           )}
@@ -62,7 +64,7 @@ export const ToggleTheme = () => {
         >
           <AtipyIcon type={ATIPY_ICON.SUN} className='w-[18px] lg:w-[24px]' />
         </span>
-      </div>
+      </motion.div>
 
       <div className='hidden md:block mt-1 text-[12px]'>
         {!isDark ? 'Mode clair' : 'Mode sombre'}
