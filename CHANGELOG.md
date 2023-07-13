@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/Atipy-Digital/Web/compare/v0.4.0...v0.5.0) (2023-07-13)
+
+
+### Features
+
+* projects page & project, contact home section ([#10](https://github.com/Atipy-Digital/Web/issues/10)) ([b8e9fd8](https://github.com/Atipy-Digital/Web/commit/b8e9fd8bf5203f57ca135cfdba8465b7baf4c93e))
+
 ## [0.4.0](https://github.com/Atipy-Digital/Web/compare/v0.3.0...v0.4.0) (2023-07-10)
 
 
