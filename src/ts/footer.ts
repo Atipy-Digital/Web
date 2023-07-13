@@ -12,10 +12,17 @@ export type FooterMenuTextRowType = {
   link2: FooterMenuRowTextType;
 };
 
-export type FooterMenuTextType = {
+export type FooterMenuText1Type = {
   title: string;
   rows: FooterMenuTextRowType[];
 };
+
+export type FooterMenuText2Type = {
+  title: string;
+  email: string;
+};
+
+export type FooterMenuTextType = FooterMenuText1Type | FooterMenuText2Type;
 
 export type FooterMenuSocialType = {
   title: string;
@@ -23,7 +30,13 @@ export type FooterMenuSocialType = {
 };
 
 export interface IFooter {
-  menuText1: FooterMenuTextType;
-  menuText2: FooterMenuTextType;
+  menuText1: FooterMenuText1Type;
+  menuText2: FooterMenuText2Type;
   menuSocial: FooterMenuSocialType;
+}
+
+export function isFooterMenuText1Response(
+  response: FooterMenuTextType
+): response is FooterMenuText1Type {
+  return 'rows' in response;
 }

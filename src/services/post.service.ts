@@ -1,34 +1,15 @@
-import fs from 'fs';
-
-import { readFile } from './read-file';
+import { getSlugs, readFile } from './utils';
 
 import type { Post } from '@/ts';
 
 const PATH_FOLDER = 'src/data/posts';
 
-const getMarkdownPosts = () => {
-  const files = fs.readdirSync(PATH_FOLDER);
-  const markDownFiles = files.filter((file) => file.endsWith('.md'));
-  return markDownFiles;
-};
-
-const getMatterResult = (slug: string) => {
-  const matterResult = readFile(`src/data/posts/${slug}.md`);
-
-  return matterResult;
-};
-
-export const getPostsSlug = (): string[] => {
-  const markDownFiles = getMarkdownPosts();
-  const slugs = markDownFiles
-    .map((file) => file.replace('.md', ''))
-    .filter((val) => val);
-
-  return slugs;
+export const getPostsSlug = () => {
+  return getSlugs(PATH_FOLDER);
 };
 
 export const getPostMetaData = (slug: string): { title: string } => {
-  const matterResult = getMatterResult(slug);
+  const matterResult = readFile<Post>(`src/data/posts/${slug}.md`);
   return {
     title: matterResult.data.title,
   };
@@ -37,13 +18,13 @@ export const getPostMetaData = (slug: string): { title: string } => {
 export const getPosts = (): Post[] => {
   const slugs = getPostsSlug();
   const posts = slugs.map((slug) => {
-    const matterResult = getMatterResult(slug);
+    const matterResult = readFile<Post>(`src/data/posts/${slug}.md`);
 
     return {
       slug,
       title: matterResult.data.title,
       date: matterResult.data.date,
-      body: matterResult.data?.content || '',
+      body: matterResult.data?.body,
     };
   });
 

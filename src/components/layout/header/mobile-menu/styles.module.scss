@@ -40,11 +40,13 @@
 
   &Links {
     font-size: clamp(32px, 5vw, 10vh);
-    text-transform: uppercase;
     font-weight: 400;
 
     &Active {
       border-bottom: 1px solid currentColor;
+      a {
+        font-weight: bold;
+      }
     }
 
     &Container {

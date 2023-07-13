@@ -15,7 +15,7 @@ export const Box = ({ children, className, id, as = 'div' }: Props) => {
   if (as === 'div') {
     return (
       <div
-        className={clsxm('px-fluid max-w-7xl mx-auto w-full', className)}
+        className={clsxm('px-fluid max-w-8xl mx-auto w-full', className)}
         id={id}
       >
         {children}
@@ -25,7 +25,7 @@ export const Box = ({ children, className, id, as = 'div' }: Props) => {
 
   return (
     <section
-      className={clsxm('px-fluid max-w-7xl mx-auto w-full', className)}
+      className={clsxm('px-fluid max-w-8xl mx-auto w-full', className)}
       id={id}
     >
       {children}

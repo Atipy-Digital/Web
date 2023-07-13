@@ -8,6 +8,8 @@ import { Layout } from '@/components/layout/Layout';
 
 import { getFooterData } from '@/services/footer.service';
 import { getNavigations } from '@/services/navigation.service';
+import { getProjects } from '@/services/project.service';
+import { getTagsBusiness, getTagsExpertise } from '@/services/tag.service';
 
 import { AppHooks } from './app-hooks';
 import Providers from './providers';
@@ -77,6 +79,9 @@ export default function RootLayout({
 }) {
   const navLinks = getNavigations();
   const footerLinks = getFooterData();
+  const projects = getProjects();
+  const tagsBusiness = getTagsBusiness();
+  const tagsExpertise = getTagsExpertise();
 
   return (
     <html
@@ -86,7 +91,13 @@ export default function RootLayout({
       suppressHydrationWarning={true}
     >
       <body>
-        <Providers>
+        <Providers
+          data={{
+            projects,
+            tagsBusiness,
+            tagsExpertise,
+          }}
+        >
           <Layout navLinks={navLinks} footerLinks={footerLinks}>
             {children}
           </Layout>

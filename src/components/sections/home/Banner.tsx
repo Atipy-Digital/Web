@@ -20,10 +20,10 @@ export const Banner = ({ data }: Props) => {
   return (
     <Box
       as='section'
-      className='flex items-center justify-center h-[calc(100vh_-_72px)] md:h-[calc(100vh_-_112px)]'
+      className='flex items-center justify-center min-h-[calc(100vh_-_72px)] md:min-h-[calc(100vh_-_112px)]'
     >
       <div className='px-fluid w-full flex flex-col gap-y-9 md:gap-y-14'>
-        <h1 className='w-full'>
+        <h1 className='w-full lg:whitespace-nowrap'>
           <ReactMarkdown
             components={{
               em: 'span',

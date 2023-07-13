@@ -43,7 +43,7 @@ export default async function PostPage({ params: { slug } }: Props) {
         Retour
       </Link>
       <h1>{post.title}</h1>
-      <ReactMarkdown>{post.body}</ReactMarkdown>
+      {post?.body && <ReactMarkdown>{post.body}</ReactMarkdown>}
     </>
   );
 }
