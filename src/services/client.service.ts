@@ -1,7 +1,7 @@
 import { getTagsBusinessByLabels } from './tag.service';
 import { getSlugs, readFile } from './utils';
 
-import type { ClientType } from '@/ts';
+import type { ClientType, InputClientType } from '@/ts';
 
 const PATH_FOLDER = 'src/data/clients';
 
@@ -12,7 +12,7 @@ export const getClientsSlug = () => {
 export const getClients = (): ClientType[] => {
   const slugs = getClientsSlug();
   return slugs.map((slug) => {
-    const matterResult = readFile(`${PATH_FOLDER}/${slug}.md`);
+    const matterResult = readFile<InputClientType>(`${PATH_FOLDER}/${slug}.md`);
     const tags = getTagsBusinessByLabels(matterResult.data.client_tags);
 
     return {
@@ -25,7 +25,7 @@ export const getClients = (): ClientType[] => {
 };
 
 export const getClient = (slug: string): ClientType => {
-  const matterResult = readFile(`${PATH_FOLDER}/${slug}.md`);
+  const matterResult = readFile<InputClientType>(`${PATH_FOLDER}/${slug}.md`);
   const tags = getTagsBusinessByLabels(matterResult.data.client_tags);
   return {
     slug,

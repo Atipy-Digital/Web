@@ -1,17 +1,28 @@
-export type TagColor = 'a-blue' | 'a-red' | 'a-green' | 'a-yellow';
+export type TagColor = 'default' | 'a-blue' | 'a-red' | 'a-green' | 'a-yellow';
 
 export type TagExpertiseType = {
   type: 'expertise';
   label: string;
   color: TagColor;
+  iconType?: string;
 };
 export type TagBusinessType = {
   type: 'business';
   label: string;
   color: TagColor;
+  iconType?: string;
 };
 
+export interface ITagExpertise extends TagExpertiseType {
+  isActive: boolean;
+}
+export interface ITagBusiness extends TagBusinessType {
+  isActive: boolean;
+}
+
 export type TagType = TagExpertiseType | TagBusinessType;
+export type InputTagBusinessType = { tag?: TagBusinessType[] };
+export type InputTagExpertiseType = { tag?: TagExpertiseType[] };
 
 export function isTagExpertiseTypeResponse(
   response: TagType

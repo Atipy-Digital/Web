@@ -1,11 +1,12 @@
 ---
 metadata:
-  title: Document FALC France Assos Santé
+  title: Document FALC
   description: Réalisation d’une charte signalétique accessible pour les
     itinéraires vélo du Conseil Départemental des Pyrénées-Atlantiques
-  ogImg: /media/da-og.png
+  ogImg: /media/droit-usage.jpg
   keywords:
-    - keyword: Santé
+    - keyword: Signalétique
+    - keyword: Accessibilité
 title: Document FALC
 image: /media/droit-usage.jpg
 project_client: france-assos-sante
@@ -20,7 +21,7 @@ context_body: >-
 
   Le Conseil Départemental entreprend alors de se doter d’un référentiel lié à l’accessibilité des personnes à mobilité réduite à vélo avec la mise à jour du volet « itinéraires de promenades et de randonnées » du label « tourisme et handicap ».
 project_tags:
-  - Design
+  - Accessibilité
 project_sections:
   - left: >-
       #### Qu’est ce qu’un itinéraire cyclable accessible ?
@@ -57,11 +58,8 @@ project_sections:
       * Visible de loin
       * En cohérence avec la charte randonnée du département
 
-      ![illustration Signalétique](/media/da-og.png "Signalétique")
-  - left: |-
-      
-
-      ![illustration Signalétique](/media/da-og.png "Signalétique")
+      ![illustration Signalétique](/media/droit-usage.jpg "Signalétique")
+  - left: '![illustration Signalétique](/media/droit-usage.jpg "Signalétique")'
   - left: |-
       #### Nos domaines d’intervention sur cette mission
 

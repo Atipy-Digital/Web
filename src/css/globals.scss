@@ -245,7 +245,7 @@ html.dark * {
   h2,
   .h2 {
     @apply font-secondary font-light leading-tight;
-    font-size: clamp(2rem, 1.35vw + 1.5rem, 3.125rem);
+    font-size: clamp(1.875rem, 1.35vw + 1.5rem, 3.125rem);
     span {
       @apply font-primary font-bold underline;
       strong {
@@ -254,13 +254,23 @@ html.dark * {
     }
   }
   .h2-primary {
-    @apply font-bold leading-tight;
+    @apply font-primary font-bold leading-tight;
     font-size: clamp(1.75rem, 2.292vw + 1rem, 3.75rem);
+  }
+  .h2-intro {
+    font-size: clamp(1.25rem, 1vw + 0.75rem, 1.875rem);
+    @apply font-secondary font-light leading-tight;
+    span {
+      @apply font-primary font-bold no-underline;
+      strong {
+        font-weight: bold;
+      }
+    }
   }
   h3,
   .h3 {
     @apply font-bold leading-none;
-    font-size: clamp(1.563rem, 2vw + 0.75rem, 3.125rem);
+    font-size: clamp(1.75rem, 2vw + 0.75rem, 3.125rem);
   }
   .h3-card {
     @apply font-bold leading-none;
@@ -269,7 +279,7 @@ html.dark * {
   h4,
   .h4 {
     @apply font-normal leading-none;
-    font-size: clamp(1.125rem, 2.5vw, 2.5rem);
+    font-size: clamp(1.5rem, 1.25vw + 1rem, 2.5rem);
   }
   h6,
   .h6 {
@@ -358,6 +368,44 @@ html.no-scroll {
         width: 100%;
         height: 2px;
         margin-top: 5px;
+        background-color: currentColor;
+      }
+    }
+  }
+  .link-hover-small {
+    position: relative;
+    &:not(.active) {
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        width: 0;
+        height: 2px;
+        margin-top: -3px;
+        background-color: currentColor;
+        transition: 0.4s ease;
+      }
+      &:hover {
+        &:after {
+          width: 100%;
+          left: 0;
+          background-color: currentColor;
+        }
+      }
+    }
+
+    &.active {
+      font-weight: bold;
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        margin-top: -3px;
         background-color: currentColor;
       }
     }

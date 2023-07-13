@@ -1,13 +1,19 @@
 import { readFile } from './utils';
 
-import type { TagBusinessType, TagExpertiseType, TagType } from '@/ts';
+import type {
+  InputTagBusinessType,
+  InputTagExpertiseType,
+  TagBusinessType,
+  TagExpertiseType,
+  TagType,
+} from '@/ts';
 
 const PATH_BUSINESS = 'src/data/tags/business_tags.md';
 const PATH_EXPERTISE = 'src/data/tags/expertise_tags.md';
 
 export const getTagsBusiness = (): TagBusinessType[] => {
-  const matterResult = readFile(PATH_BUSINESS);
-  return matterResult.data.tag ?? [];
+  const matterResult = readFile<InputTagBusinessType>(PATH_BUSINESS);
+  return matterResult.data?.tag ?? [];
 };
 export const getTagsBusinessByLabels = (
   labels: string[]
@@ -23,8 +29,8 @@ export const getTagsBusinessByLabels = (
 };
 
 export const getTagsExpertise = (): TagExpertiseType[] => {
-  const matterResult = readFile(PATH_EXPERTISE);
-  return matterResult.data.tag ?? [];
+  const matterResult = readFile<InputTagExpertiseType>(PATH_EXPERTISE);
+  return matterResult.data?.tag ?? [];
 };
 export const getTagsExpertiseByLabels = (
   labels: string[]

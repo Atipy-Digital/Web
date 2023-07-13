@@ -1,5 +1,11 @@
 import { TagBusinessType } from './tag';
 
+export interface InputClientType {
+  slug: string;
+  name: string;
+  logo?: string;
+  client_tags: string[];
+}
 export interface ClientType {
   slug: string;
   name: string;

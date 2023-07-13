@@ -6,5 +6,6 @@ export * from './metadata';
 export * from './navigation';
 export * from './post';
 export * from './project';
+export * from './projects-page';
 export * from './section';
 export * from './tag';

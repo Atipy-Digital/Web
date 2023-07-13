@@ -5,14 +5,9 @@ bannerData:
 
     d’un monde plus **accessible.**
 introData:
-  title: |-
-    Nous vous accompagnons
-
-    dans les domaines du ***digital,***
-
-    du ***design,*** de ***l’accessibilité***
-
-    et ***de la conception universelle.***
+  title: Nous mettons à votre disposition nos compétences en ***accessibilité***
+    et ***conception universelle*** dans les domaines du ***digital,***
+    ***design,*** aménagement, urbanisme et mobilité.
   button:
     label: Nos expertises
     url: /expertises
@@ -48,6 +43,18 @@ agencyData:
     label: Découvrir nos engagements
   buttonCta:
     label: En savoir plus
+projectData:
+  title: Nos réalisations
+  body: Nous accompagnons les collectivités et communautés d’agglomération, les
+    hôpitaux et centres de santé, les associations, les musées et centres
+    culturels, les parcs, les PME, les start up et les grands groupes désireux
+    de rendre accessible au plus grand nombre leurs services, leurs produits,
+    leur ville.
+  buttonCta:
+    label: Voir toutes les réalisations
+  home_projects:
+    - document-falc
+    - departement-pyrenees-atlantiques
 newsletterData:
   title: |-
     Veille et actualités

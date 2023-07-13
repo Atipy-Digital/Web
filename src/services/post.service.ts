@@ -9,7 +9,7 @@ export const getPostsSlug = () => {
 };
 
 export const getPostMetaData = (slug: string): { title: string } => {
-  const matterResult = readFile(`src/data/posts/${slug}.md`);
+  const matterResult = readFile<Post>(`src/data/posts/${slug}.md`);
   return {
     title: matterResult.data.title,
   };
@@ -18,13 +18,13 @@ export const getPostMetaData = (slug: string): { title: string } => {
 export const getPosts = (): Post[] => {
   const slugs = getPostsSlug();
   const posts = slugs.map((slug) => {
-    const matterResult = readFile(`src/data/posts/${slug}.md`);
+    const matterResult = readFile<Post>(`src/data/posts/${slug}.md`);
 
     return {
       slug,
       title: matterResult.data.title,
       date: matterResult.data.date,
-      body: matterResult.data?.content || '',
+      body: matterResult.data?.body,
     };
   });
 

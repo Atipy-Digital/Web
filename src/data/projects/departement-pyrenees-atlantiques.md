@@ -5,8 +5,9 @@ metadata:
     itinéraires vélo du Conseil Départemental des Pyrénées-Atlantiques
   ogImg: /media/da-og.png
   keywords:
+    - keyword: Signalétique
     - keyword: Accessibilité
-title: Département Pyrénées Atlantiques
+title: Charte signalétique accessible pour les itinéraires vélo
 image: /media/da-og.png
 project_client: departement-pyrenees-atlantiques
 mission_body: Réalisation d’une charte signalétique accessible pour les
