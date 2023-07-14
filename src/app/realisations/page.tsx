@@ -2,9 +2,9 @@ import { Metadata, ResolvingMetadata } from 'next';
 
 import { siteOrigin } from '@/lib/constants';
 
+import { HeaderPage } from '@/components/layout/HeaderPage';
 import { Page } from '@/components/layout/Page';
 import { AllProjects } from '@/components/sections/projects/AllProjects';
-import { ProjectsHeader } from '@/components/sections/projects/Header';
 import { ProjectsFeatured } from '@/components/sections/projects/ProjectsFeatured';
 
 import {
@@ -41,7 +41,14 @@ export default function Realisations() {
 
   return (
     <Page>
-      <ProjectsHeader title={data.title} intro={data.intro} />
+      <HeaderPage
+        title={data.title}
+        intro={data.intro}
+        currentLink={{
+          label: 'Nos réalisations',
+          url: '/realisations',
+        }}
+      />
       <ProjectsFeatured data={data.projectsFeatured} />
       <AllProjects />
     </Page>
