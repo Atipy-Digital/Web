@@ -44,6 +44,7 @@ export const Button = ({
       {...props}
       className={clsxm(
         'h-[54px] flex-shrink-0 flex items-center rounded-full px-[14px] py-[11px] text-[16px] md:text-[18px] lg:text-[20px] xl:text-[25px] leading-none font-bold w-fit',
+        'disabled:cursor-not-allowed disabled:bg-grey-110 disabled:border-grey-110 disabled:text-black dark:disabled:bg-grey-110 dark:disabled:border-grey-110 dark:disabled:text-black',
         currentVariant,
         className
       )}

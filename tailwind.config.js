@@ -114,6 +114,8 @@ module.exports = {
         'grey-140': '#6A6A6A',
         'grey-150': '#DDDDDD',
         'grey-160': '#00000029',
+        'grey-bg-form': '#F0F0F0',
+        'grey-t-form': '#9A9A9A',
         'black-160': '#0A0A0A',
         'a-divider': '#707070',
       },
