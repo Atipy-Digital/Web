@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.0](https://github.com/Atipy-Digital/Web/compare/v0.5.0...v0.6.0) (2023-07-14)
+
+
+### Features
+
+* contact page ([#12](https://github.com/Atipy-Digital/Web/issues/12)) ([9102ac6](https://github.com/Atipy-Digital/Web/commit/9102ac69814c04a9373fc792780e7ab056ad28a6))
+* **layout:** engagement popup ([#14](https://github.com/Atipy-Digital/Web/issues/14)) ([bd49031](https://github.com/Atipy-Digital/Web/commit/bd4903195a6ae4a4e2d97a7c4bcb88a812735e54))
+
 ## [0.5.0](https://github.com/Atipy-Digital/Web/compare/v0.4.0...v0.5.0) (2023-07-13)
 
 
