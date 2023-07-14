@@ -10,7 +10,7 @@ import type { INavigation } from '@/ts/navigation';
 const NavItem = ({ link, name }: INavigation) => {
   const pathname = usePathname();
 
-  const isActive = link === pathname;
+  const isActive = pathname.includes(link);
   return (
     <li key={link} className={clsxm('link-hover', isActive && 'active')}>
       <Link
