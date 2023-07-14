@@ -2,7 +2,7 @@ import { Metadata, ResolvingMetadata } from 'next';
 
 import { siteOrigin } from '@/lib/constants';
 
-import { ProjectHeader } from '@/components/sections/project/Header';
+import { HeaderPage } from '@/components/layout/HeaderPage';
 import { ProjectIntro } from '@/components/sections/project/Intro';
 import { ProjectSections } from '@/components/sections/project/Sections';
 
@@ -46,7 +46,14 @@ export default async function ProjectPage({ params: { slug } }: Props) {
 
   return (
     <>
-      <ProjectHeader slug={project.slug} title={project.title} />
+      <HeaderPage
+        title={project.title}
+        links={[{ label: 'Nos réalisations', url: '/realisations' }]}
+        currentLink={{
+          label: project.title,
+          url: `/realisations/${slug}`,
+        }}
+      />
       <ProjectIntro
         image={project.image}
         client={project.client}
