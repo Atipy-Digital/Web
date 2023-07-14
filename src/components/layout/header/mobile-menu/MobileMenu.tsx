@@ -62,14 +62,7 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
         <Portal id='menu-modal'>
           <div className={clsxm(s.menuContainer, 'bg-white dark:bg-black')}>
             <header className={clsxm(s.header, 'px-fluid')}>
-              <Link
-                href='/'
-                className={s.logo}
-                onClick={() => onClick('/')}
-                aria-label='home page atipy'
-              >
-                <Logo />
-              </Link>
+              <Logo />
               <button
                 className={s.icon}
                 onClick={closeMenu}
@@ -92,7 +85,9 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
                 {links.map(({ name, link }) => (
                   <li
                     key={link}
-                    className={clsxm(pathname === link && s.menuLinksActive)}
+                    className={clsxm(
+                      pathname.includes(link) && s.menuLinksActive
+                    )}
                   >
                     <Link
                       className={s.menuLinks}

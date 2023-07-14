@@ -2,14 +2,14 @@
 
 import { ATIPY_ICON, AtipyIcon } from './icons/AtipyIcon';
 
-type LinkProps = {
+export type BreadcrumbLinkProps = {
   label: string;
   url: string;
 };
 
 type Props = {
-  links?: LinkProps[];
-  currentLink: LinkProps;
+  links?: BreadcrumbLinkProps[];
+  currentLink: BreadcrumbLinkProps;
 };
 
 export const Breadcrumb = ({ links, currentLink }: Props) => {
