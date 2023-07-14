@@ -27,9 +27,9 @@ export const ProjectCard = ({ slug, title, image, tags, client }: Props) => {
           ))}
         </div>
 
-        <p className='text-body1 font-bold leading-none line-clamp-1'>
-          {title}
-        </p>
+        <div className='line-clamp-1'>
+          <p className='text-body1 font-bold'>{title}</p>
+        </div>
         <p className='text-body1'>{client.name}</p>
       </main>
       <footer>

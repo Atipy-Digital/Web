@@ -6,6 +6,7 @@ import { siteOrigin, siteURL } from '@/lib/constants';
 
 import { Layout } from '@/components/layout/Layout';
 
+import { getEngagementData } from '@/services/engagement.service';
 import { getFooterData } from '@/services/footer.service';
 import { getNavigations } from '@/services/navigation.service';
 import { getProjects } from '@/services/project.service';
@@ -82,6 +83,7 @@ export default function RootLayout({
   const projects = getProjects();
   const tagsBusiness = getTagsBusiness();
   const tagsExpertise = getTagsExpertise();
+  const engagementData = getEngagementData();
 
   return (
     <html
@@ -96,6 +98,7 @@ export default function RootLayout({
             projects,
             tagsBusiness,
             tagsExpertise,
+            engagementData,
           }}
         >
           <Layout navLinks={navLinks} footerLinks={footerLinks}>

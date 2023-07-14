@@ -1,11 +1,19 @@
 'use client';
 
+import { AnimatePresence } from 'framer-motion';
 import { ThemeProvider } from 'next-themes';
 import { ReactNode, useEffect } from 'react';
 
+import { EngageModal } from '@/components/modal/Engage';
+
 import { useAppStore } from '@/store/use-app-store';
 
-import type { ProjectType, TagBusinessType, TagExpertiseType } from '@/ts';
+import type {
+  EngagementType,
+  ProjectType,
+  TagBusinessType,
+  TagExpertiseType,
+} from '@/ts';
 
 type Props = {
   children: ReactNode;
@@ -13,6 +21,7 @@ type Props = {
     projects: ProjectType[];
     tagsBusiness: TagBusinessType[];
     tagsExpertise: TagExpertiseType[];
+    engagementData: EngagementType;
   };
 };
 
@@ -20,6 +29,7 @@ const Providers = ({ children, data }: Props) => {
   const setProjects = useAppStore((store) => store.setProjects);
   const setTagsExpertise = useAppStore((store) => store.setTagsExpertise);
   const setTagsBusiness = useAppStore((store) => store.setTagsBusiness);
+  const isOpenModalEngage = useAppStore((s) => s.isOpenModalEngage);
 
   useEffect(() => {
     setProjects(data.projects);
@@ -28,7 +38,14 @@ const Providers = ({ children, data }: Props) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  return <ThemeProvider attribute='class'>{children}</ThemeProvider>;
+  return (
+    <ThemeProvider attribute='class'>
+      {children}
+      <AnimatePresence initial={false} mode='wait' onExitComplete={() => null}>
+        {isOpenModalEngage && <EngageModal data={data.engagementData} />}
+      </AnimatePresence>
+    </ThemeProvider>
+  );
 };
 
 export default Providers;

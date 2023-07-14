@@ -1,6 +1,7 @@
 export * from './card';
 export * from './client';
 export * from './contact';
+export * from './engagement';
 export * from './footer';
 export * from './home';
 export * from './metadata';

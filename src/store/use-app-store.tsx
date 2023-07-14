@@ -22,12 +22,17 @@ export interface AppStore {
   onResetTags: () => void;
   onResetTagsExpertise: () => void;
   onResetTagsBusiness: () => void;
+  isOpenModalEngage: boolean;
+  setOpenModalEngage: (isOpenModalMenu: boolean) => void;
 }
 
 export const useAppStore = create<AppStore>((set) => ({
   isOpenModalMenu: false,
   setOpenModalMenu: (isOpenModalMenu: boolean) =>
     set((s) => ({ ...s, isOpenModalMenu })),
+  isOpenModalEngage: false,
+  setOpenModalEngage: (isOpenModalEngage: boolean) =>
+    set((s) => ({ ...s, isOpenModalEngage })),
   projects: [],
   setProjects: (projects: ProjectType[]) => set((s) => ({ ...s, projects })),
   tagsBusiness: [],

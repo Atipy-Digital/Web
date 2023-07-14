@@ -127,6 +127,7 @@ module.exports = {
         'a-red-dark': '10px 10px 0px #B02117',
         'a-red-light': '10px 10px 0px #E72E54',
         'a-yellow-light': '10px 10px 0px #FECF54',
+        'a-yellow-or': '10px 10px 0px #D7AD31',
         'a-yellow-dark': '10px 10px 0px #FDBE2D',
         'project-card': '0px 0px 30px #DDDDDD',
         'project-filter': '0px 0px 10px #00000029',
@@ -134,6 +135,7 @@ module.exports = {
       fontSize: {
         body1: 'clamp(1.125rem, 0.5vw + 1rem, 1.563rem)',
         body2: 'clamp(1.125rem, 0.8vw + 0.8rem, 1.875rem)',
+        body3: 'clamp(1rem, 0.8vw + 0.8rem, 1.875rem)',
       },
       borderWidth: {
         3: '3px',
