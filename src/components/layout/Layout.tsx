@@ -7,6 +7,7 @@ import { useIsHydrated } from '@/hooks/use-is-hydrated';
 import Footer from './footer/Footer';
 import Header from './header/Header';
 import Main from './Main';
+import { ScrollUp } from '../common/ScrollUp';
 
 import type { IFooter } from '@/ts';
 import type { INavigation } from '@/ts/navigation';
@@ -24,6 +25,7 @@ export const Layout = ({ navLinks, footerLinks, children }: Props) => {
 
   return (
     <>
+      <ScrollUp />
       <Header links={navLinks} />
       <Main>{children}</Main>
       <Footer data={footerLinks} />

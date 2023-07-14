@@ -6,6 +6,8 @@ import { Box } from '@/components/common/Box';
 import { Button } from '@/components/primitives/Button';
 import { MarkdownText } from '@/components/primitives/MarkdownText';
 
+import { useAppStore } from '@/store/use-app-store';
+
 import type { HomeAgencyDataType } from '@/ts';
 
 type Props = {
@@ -13,7 +15,9 @@ type Props = {
 };
 
 export const Agency = ({ data }: Props) => {
+  const setOpenModalEngage = useAppStore((s) => s.setOpenModalEngage);
   const { prefixImg } = useTheme();
+
   return (
     <Box as='section' className='tl mb-14 md:mb-16 lg:mb-20 xl:mb-24'>
       <div className='tl px-fluid py-fluid relative w-full'>
@@ -35,6 +39,7 @@ export const Agency = ({ data }: Props) => {
         <div className='w-full flex flex-col-reverse md:flex-row items-center gap-y-6 gap-x-10 mt-10 xl:mt-14'>
           <Button icon>{data.buttonCta.label}</Button>
           <Button
+            onClick={() => setOpenModalEngage(true)}
             variant='secondary'
             className='border-a-yellow-dark hover:bg-a-yellow-dark hover:text-black dark:border-a-yellow-light hover:dark:bg-a-yellow-light hover:dark:text-black'
           >

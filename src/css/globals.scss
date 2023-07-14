@@ -8,7 +8,7 @@
   --inspect-color: #f00;
 }
 
-* {
+html {
   scroll-behavior: smooth;
 }
 
@@ -426,3 +426,71 @@ html.no-scroll {
   }
 }
 /* #endregion  /**======== Utilies =========== */
+
+.line-truncate {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* Browsers which partially support CSS variables (iOS 11.0 – 11.2) */
+@supports (padding-top: constant(safe-area-inset-top)) {
+  body {
+    --safe-area-inset-top: constant(safe-area-inset-top);
+    height: calc(100% + var(--safe-area-inset-top));
+  }
+}
+/* Adapted from https://medium.com/@draganeror/iphone-x-layout-features-with-css-environment-variables-d57423433dec */
+/* Browsers which fully support CSS variables (iOS 11.2+).*/
+@supports (padding-top: env(safe-area-inset-top)) {
+  body {
+    --safe-area-inset-top: env(safe-area-inset-top);
+    height: calc(100% + var(--safe-area-inset-top));
+  }
+}
+
+@media (display-mode: fullscreen) {
+  body {
+    height: 100%;
+  }
+}
+
+@media (display-mode: standalone) {
+  body {
+    height: 100%;
+  }
+}
+
+.bottom-safe-area {
+  margin-bottom: env(safe-area-inset-bottom) !important;
+  padding-left: env(safe-area-inset-left) !important;
+  padding-right: env(safe-area-inset-right) !important;
+}
+
+.min-safe-h-screen {
+  /* equivalent to 100dvh in major browsers */
+  min-height: calc(
+    100vh - env(safe-area-inset-bottom, 0) - env(safe-area-inset-top, 0)
+  );
+}
+
+@supports (-webkit-touch-callout: none) {
+  .min-safe-h-screen {
+    /* for ios safari 15, safe-area-inset-bottom is 0, so a special fix apply here */
+    min-height: -webkit-fill-available;
+  }
+}
+
+.max-safe-h-screen {
+  /* equivalent to 100dvh in major browsers */
+  min-height: calc(
+    100vh - env(safe-area-inset-bottom, 0) - env(safe-area-inset-top, 0)
+  );
+}
+
+@supports (-webkit-touch-callout: none) {
+  .max-safe-h-screen {
+    /* for ios safari 15, safe-area-inset-bottom is 0, so a special fix apply here */
+    min-height: -webkit-fill-available;
+  }
+}

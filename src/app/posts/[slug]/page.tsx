@@ -4,6 +4,8 @@ import ReactMarkdown from 'react-markdown';
 
 import { siteOrigin } from '@/lib/constants';
 
+import { Page } from '@/components/layout/Page';
+
 import { getPostMetaData, getPostsSlug } from '@/services/post.service';
 
 import type { Post } from '@/ts';
@@ -38,12 +40,12 @@ export default async function PostPage({ params: { slug } }: Props) {
   const post: Post = { title, slug, date, body };
 
   return (
-    <>
+    <Page>
       <Link href='/posts' className='text-a-blue underline'>
         Retour
       </Link>
       <h1>{post.title}</h1>
       {post?.body && <ReactMarkdown>{post.body}</ReactMarkdown>}
-    </>
+    </Page>
   );
 }
