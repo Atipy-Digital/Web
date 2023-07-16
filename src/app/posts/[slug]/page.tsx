@@ -1,3 +1,4 @@
+import { ResolvingMetadata } from 'next';
 import { notFound } from 'next/navigation';
 
 import { siteOrigin } from '@/lib/constants';
@@ -13,7 +14,6 @@ import {
   getPostMetaData,
   getPostsSlug,
 } from '@/services/post.service';
-import { ResolvingMetadata } from 'next';
 
 type Props = {
   params: { slug: string };
