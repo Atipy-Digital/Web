@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/Atipy-Digital/Web/compare/v0.6.0...v0.7.0) (2023-07-16)
+
+
+### Features
+
+* post page ([#15](https://github.com/Atipy-Digital/Web/issues/15)) ([6176c0c](https://github.com/Atipy-Digital/Web/commit/6176c0ca4ee4e34773efd0e0b618e7c20b4fa02b))
+
 ## [0.6.0](https://github.com/Atipy-Digital/Web/compare/v0.5.0...v0.6.0) (2023-07-14)
 
 
