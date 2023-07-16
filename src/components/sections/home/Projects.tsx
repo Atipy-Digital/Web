@@ -29,7 +29,7 @@ export const Projects = ({ data }: Props) => {
           </div>
         </div>
 
-        <div className='py-8 lg:py-10 xl:py-14 2xl:py-16'>
+        <div className='py-8 lg:py-10 xl:py-14 2xl:py-16 flex items-center justify-center'>
           <ProjectList data={data.home_projects} />
         </div>
 

@@ -4,6 +4,7 @@ import { ArrowDownIcon } from './vectors/ArrowDown.icon';
 import { ArrowLeftIcon } from './vectors/ArrowLeft.icon';
 import { ArrowRightIcon } from './vectors/ArrowRight.icon';
 import { ArrowUpIcon } from './vectors/ArrowUp.icon';
+import { ClockIcon } from './vectors/Clock.icon';
 import { CrossIcon } from './vectors/Cross.icon';
 import { EnvelopIcon } from './vectors/Envelop.icon';
 import { InstaIcon } from './vectors/Insta.icon';
@@ -27,6 +28,7 @@ export enum ATIPY_ICON {
   PHONE = 'PHONE',
   ENVELOP = 'ENVELOP',
   ARROW_RIGHT = 'ARROW_RIGHT',
+  CLOCK = 'CLOCK',
 }
 
 type AtipyIconSize = 'xxs' | 'sm' | 'md' | 'mdx' | 'lg' | 'xl' | 'xxl' | 'full';
@@ -64,6 +66,7 @@ export const AtipyIcon = ({ size = 'md', type, className }: AtipyIconProps) => {
     [ATIPY_ICON.PHONE, PhoneIcon],
     [ATIPY_ICON.ENVELOP, EnvelopIcon],
     [ATIPY_ICON.ARROW_RIGHT, ArrowRightIcon],
+    [ATIPY_ICON.CLOCK, ClockIcon],
   ]);
 
   const Icon: AtipyIconElement = icons.get(type) || CrossIcon;

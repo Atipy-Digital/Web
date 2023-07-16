@@ -17,7 +17,9 @@ export const ProjectsFeatured = ({ data }: Props) => {
         <h3 className='h4 mb-8 w-full text-center font-bold'>
           Projets à la une…
         </h3>
-        <ProjectList data={data} />
+        <div className='w-full flex items-center justify-center'>
+          <ProjectList data={data} />
+        </div>
       </Box>
     </section>
   );

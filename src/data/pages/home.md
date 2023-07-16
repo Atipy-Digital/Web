@@ -53,8 +53,8 @@ projectData:
   buttonCta:
     label: Voir toutes les réalisations
   home_projects:
+    - charte-signale-tique-accessible-pour-les-itine-raires-velo
     - document-falc
-    - departement-pyrenees-atlantiques
 newsletterData:
   title: |-
     Veille et actualités

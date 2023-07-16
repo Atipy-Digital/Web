@@ -1,4 +1,5 @@
 import { Metadata, ResolvingMetadata } from 'next';
+import { notFound } from 'next/navigation';
 
 import { siteOrigin } from '@/lib/constants';
 
@@ -39,11 +40,19 @@ export async function generateMetadata(
 }
 
 export async function generateStaticParams() {
-  return getProjectsSlug().map((slug) => ({ slug }));
+  const slugs = getProjectsSlug();
+  if (slugs?.length) {
+    return slugs.map((slug) => ({ slug }));
+  }
+  return [];
 }
 
-export default async function ProjectPage({ params: { slug } }: Props) {
-  const project = getProjectBySlug(slug);
+export default async function ProjectPage({ params }: Props) {
+  const project = getProjectBySlug(params.slug);
+
+  if (!project) {
+    notFound();
+  }
 
   return (
     <Page>
@@ -52,7 +61,7 @@ export default async function ProjectPage({ params: { slug } }: Props) {
         links={[{ label: 'Nos réalisations', url: '/realisations' }]}
         currentLink={{
           label: project.title,
-          url: `/realisations/${slug}`,
+          url: `/realisations/${params.slug}`,
         }}
       />
       <ProjectIntro

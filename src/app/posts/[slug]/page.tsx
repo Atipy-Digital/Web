@@ -1,51 +1,88 @@
-import matter from 'gray-matter';
-import Link from 'next/link';
-import ReactMarkdown from 'react-markdown';
+import { ResolvingMetadata } from 'next';
+import { notFound } from 'next/navigation';
 
 import { siteOrigin } from '@/lib/constants';
 
+import { HeaderPage } from '@/components/layout/HeaderPage';
 import { Page } from '@/components/layout/Page';
+import { PostInfo } from '@/components/sections/post/PostInfo';
+import { PostSections } from '@/components/sections/post/PostSections';
+import { PostSources } from '@/components/sections/post/PostSources';
 
-import { getPostMetaData, getPostsSlug } from '@/services/post.service';
-
-import type { Post } from '@/ts';
+import {
+  getPostBySlug,
+  getPostMetaData,
+  getPostsSlug,
+} from '@/services/post.service';
 
 type Props = {
   params: { slug: string };
 };
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { slug: string };
-}) {
+export async function generateMetadata(
+  { params }: Props,
+  parent: ResolvingMetadata
+) {
   const { slug } = params;
-  const { title } = getPostMetaData(slug);
+  const meta = getPostMetaData(slug);
+  const previousKeywords = (await parent).keywords || [];
+  if (!meta) {
+    return {
+      alternates: {
+        canonical: `${siteOrigin}/posts/${slug}`,
+      },
+    };
+  }
+
   return {
-    title,
+    title: meta.title,
+    description: meta.description,
+    keywords: meta?.keywords?.length ? meta.keywords : previousKeywords,
     alternates: {
       canonical: `${siteOrigin}/posts/${slug}`,
+    },
+    openGraph: {
+      images: meta?.ogImg ?? 'favicon/og-alt.png',
     },
   };
 }
 
 export async function generateStaticParams() {
-  return getPostsSlug().map((slug) => ({ slug }));
+  const slugs = getPostsSlug();
+  if (slugs?.length) {
+    return slugs.map((slug) => ({ slug }));
+  }
+  return [];
 }
 
 export default async function PostPage({ params: { slug } }: Props) {
-  const m = await import(`../../../data/posts/${slug}.md`);
-  const { content: body, data } = matter(m.default);
-  const { title, date } = data;
-  const post: Post = { title, slug, date, body };
+  const post = getPostBySlug(slug);
+
+  if (!post) {
+    notFound();
+  }
 
   return (
     <Page>
-      <Link href='/posts' className='text-a-blue underline'>
-        Retour
-      </Link>
-      <h1>{post.title}</h1>
-      {post?.body && <ReactMarkdown>{post.body}</ReactMarkdown>}
+      <HeaderPage
+        title={post.title}
+        links={[
+          {
+            label: 'Publications',
+            url: '/posts',
+          },
+        ]}
+        currentLink={{
+          label: post.title,
+          url: `/posts/${post.slug}`,
+        }}
+        align='left'
+        breadcrumbClassName='!justify-start'
+        boxClassName='max-w-5xl !mb-0'
+      />
+      <PostInfo tags={post.tags} date={post.date} />
+      <PostSections sections={post.sections} />
+      <PostSources source={post.source} />
     </Page>
   );
 }

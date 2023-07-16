@@ -1,9 +1,10 @@
 import { Metadata } from 'next';
-import Link from 'next/link';
 
 import { siteOrigin } from '@/lib/constants';
 
+import { HeaderPage } from '@/components/layout/HeaderPage';
 import { Page } from '@/components/layout/Page';
+import { ListPosts } from '@/components/sections/posts/ListPosts';
 
 import { getPosts } from '@/services/post.service';
 
@@ -16,21 +17,17 @@ export const metadata: Metadata = {
 
 export default function Publications() {
   const posts = getPosts();
+
   return (
     <Page>
-      <h1>Publications</h1>
-      <ul>
-        {posts.map((post) => (
-          <li key={post.slug}>
-            <Link
-              href={`/posts/${post.slug}`}
-              className='text-a-blue underline'
-            >
-              {post.title}
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <HeaderPage
+        title='Publications'
+        currentLink={{
+          label: 'Publications',
+          url: '/posts',
+        }}
+      />
+      <ListPosts data={posts} />
     </Page>
   );
 }

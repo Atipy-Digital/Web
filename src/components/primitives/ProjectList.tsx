@@ -18,7 +18,7 @@ const ProjectListTemp = ({ data }: { data: ProjectType[] }) => {
   return (
     <div
       className={clsxm(
-        'grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-10',
+        'grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-10 m-auto',
         maxCols()
       )}
     >

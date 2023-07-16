@@ -21,7 +21,7 @@ type Props = {
     projects: ProjectType[];
     tagsBusiness: TagBusinessType[];
     tagsExpertise: TagExpertiseType[];
-    engagementData: EngagementType;
+    engagementData: EngagementType | null;
   };
 };
 
@@ -42,7 +42,9 @@ const Providers = ({ children, data }: Props) => {
     <ThemeProvider attribute='class'>
       {children}
       <AnimatePresence initial={false} mode='wait' onExitComplete={() => null}>
-        {isOpenModalEngage && <EngageModal data={data.engagementData} />}
+        {isOpenModalEngage && data?.engagementData && (
+          <EngageModal data={data.engagementData} />
+        )}
       </AnimatePresence>
     </ThemeProvider>
   );
