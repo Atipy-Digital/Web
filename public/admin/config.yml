@@ -722,10 +722,10 @@ collections:
           multiple: true,
         }
   - label: 'Tags'
-    name: 'tags'
+    name: tags
     files:
       - label: "Tag Secteur d'activité"
-        name: 'business_tags'
+        name: business_tags
         file: 'src/data/tags/business_tags.md'
         create: true
         editor:
@@ -766,7 +766,7 @@ collections:
                 ],
             }
       - label: 'Tag Expertise'
-        name: 'expertise_tags'
+        name: expertise_tags
         file: 'src/data/tags/expertise_tags.md'
         create: true
         editor:
@@ -853,14 +853,284 @@ collections:
     label: Post
     folder: src/data/posts
     create: true
+    editor:
+      preview: false
     slug: '{{slug}}'
     fields:
+      - label: Metadonnées
+        name: metadata
+        widget: object
+        collapsed: true
+        fields:
+          - {
+              label: Titre,
+              name: title,
+              widget: string,
+              pattern: ['^.{1,70}$', 'Doit comporter au maximum 70 caractères'],
+            }
+          - {
+              label: Description,
+              name: description,
+              widget: string,
+              pattern:
+                ['^.{1,160}$', 'Doit comporter au maximum 160 caractères'],
+            }
+          - {
+              label: Image pour réseaux social,
+              name: ogImg,
+              widget: image,
+              required: false,
+              hint: "Optimiser l'image au format **.webp** et renomer le fichier de type **{nom projet}-{og}.webp** le format doit être de **1200x630**",
+              choose_url: false,
+              allow_multiple: false,
+            }
+          - {
+              label: Mots clés,
+              name: keywords,
+              widget: list,
+              required: false,
+              fields: [{ label: Mot clé, name: keyword, widget: string }],
+            }
       - label: Titre
         name: title
         widget: string
       - label: Date de publication
         name: date
         widget: datetime
-      - label: Contenu
-        name: body
-        widget: markdown
+      - label: Temps de lecture
+        name: timeToRead
+        widget: string
+      - label: Tags
+        name: post_tags
+        widget: relation
+        collection: tags
+        file: expertise_tags
+        search_fields: ['tag.*.label', 'tag.*.type', 'tag.*.color']
+        value_field: 'tag.*.label'
+        multiple: true
+      - label: Sections
+        name: post_sections
+        widget: list
+        collapsed: true
+        summary: 'Section'
+        fields:
+          - name: col1
+            label: 'Colonne 1'
+            widget: object
+            fields:
+              - name: reverseMobile
+                label: 'Inverser image / text en mobile'
+                widget: boolean
+                required: false
+                default: false
+              - name: text
+                label: Texte
+                widget: object
+                fields:
+                  - name: color
+                    label: 'Couleur du texte'
+                    widget: select
+                    required: false
+                    options:
+                      [
+                        { value: 'blue', label: Bleu },
+                        { value: 'green', label: Vert },
+                        { value: 'red', label: Rouge },
+                        { value: 'yellow', label: Jaune },
+                      ]
+                  - name: content
+                    label: 'Choisir votre texte'
+                    widget: markdown
+                    buttons:
+                      [
+                        bold,
+                        italic,
+                        code,
+                        link,
+                        heading-three,
+                        heading-four,
+                        heading-five,
+                        heading-six,
+                        quote,
+                        bulleted-list,
+                        numbered-list,
+                      ]
+                    modes: [rich_text]
+                    hint: 'Utiliser **code (<>)** pour surligner du texte'
+                    editor_components: ['image']
+              - name: image
+                label: Image
+                widget: object
+                required: false
+                fields:
+                  - name: url
+                    label: 'Choisir une image'
+                    widget: image
+                    required: false
+                  - name: legend
+                    label: "Legende de l'image"
+                    required: false
+                    widget: string
+          - name: col2
+            label: 'Colonne 2'
+            widget: object
+            required: false
+            fields:
+              - name: reverseMobile
+                label: 'Inverser image / text en mobile'
+                widget: boolean
+                required: false
+                default: false
+              - name: text
+                label: Texte
+                widget: object
+                required: false
+                fields:
+                  - name: color
+                    label: 'Couleur du texte'
+                    widget: select
+                    required: false
+                    options:
+                      [
+                        { value: 'blue', label: Bleu },
+                        { value: 'green', label: Vert },
+                        { value: 'red', label: Rouge },
+                        { value: 'yellow', label: Jaune },
+                      ]
+                  - name: content
+                    label: 'Choisir votre texte'
+                    widget: markdown
+                    required: false
+                    buttons:
+                      [
+                        bold,
+                        italic,
+                        code,
+                        link,
+                        heading-three,
+                        heading-four,
+                        heading-five,
+                        heading-six,
+                        quote,
+                        bulleted-list,
+                        numbered-list,
+                      ]
+                    modes: [rich_text]
+                    hint: 'Utiliser **code (<>)** pour surligner du texte'
+                    editor_components: ['image']
+              - name: image
+                label: Image
+                widget: object
+                required: false
+                fields:
+                  - name: url
+                    label: 'Choisir une image'
+                    widget: image
+                    required: false
+                  - name: legend
+                    label: "Legende de l'image"
+                    required: false
+                    widget: string
+          - name: col3
+            label: 'Colonne 3'
+            widget: object
+            required: false
+            fields:
+              - name: reverseMobile
+                label: 'Inverser image / text en mobile'
+                widget: boolean
+                required: false
+                default: false
+              - name: text
+                label: Texte
+                widget: object
+                required: false
+                fields:
+                  - name: color
+                    label: 'Couleur du texte'
+                    widget: select
+                    required: false
+                    options:
+                      [
+                        { value: 'blue', label: Bleu },
+                        { value: 'green', label: Vert },
+                        { value: 'red', label: Rouge },
+                        { value: 'yellow', label: Jaune },
+                      ]
+                  - name: content
+                    label: 'Choisir votre texte'
+                    widget: markdown
+                    required: false
+                    buttons:
+                      [
+                        bold,
+                        italic,
+                        code,
+                        link,
+                        heading-three,
+                        heading-four,
+                        heading-five,
+                        heading-six,
+                        quote,
+                        bulleted-list,
+                        numbered-list,
+                      ]
+                    modes: [rich_text]
+                    hint: 'Utiliser **code (<>)** pour surligner du texte'
+                    editor_components: ['image']
+              - name: image
+                label: Image
+                widget: object
+                required: false
+                fields:
+                  - name: url
+                    label: 'Choisir une image'
+                    widget: image
+                    required: false
+                  - name: legend
+                    label: "Legende de l'image"
+                    required: false
+                    widget: string
+      - label: Sources
+        name: source
+        widget: object
+        fields:
+          - name: col1
+            label: Colonne 1
+            widget: list
+            summary: 'Lien {{fields.label}}'
+            fields:
+              - label: Label
+                name: label
+                widget: string
+              - label: Url
+                name: url
+                widget: string
+          - name: col2
+            label: Colonne 2
+            widget: list
+            summary: 'Lien {{fields.label}}'
+            required: false
+            fields:
+              - label: Label
+                name: label
+                widget: string
+                required: false
+              - label: Url
+                name: url
+                widget: string
+                required: false
+          - name: col3
+            label: Colonne 3
+            widget: list
+            summary: 'Lien {{fields.label}}'
+            required: false
+            fields:
+              - label: Label
+                name: label
+                widget: string
+                required: false
+              - label: Url
+                name: url
+                widget: string
+                required: false

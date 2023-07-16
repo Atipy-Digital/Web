@@ -1,9 +1,12 @@
 import { notFound } from 'next/navigation';
-import ReactMarkdown from 'react-markdown';
 
 import { siteOrigin } from '@/lib/constants';
 
+import { HeaderPage } from '@/components/layout/HeaderPage';
 import { Page } from '@/components/layout/Page';
+import { PostInfo } from '@/components/sections/post/PostInfo';
+import { PostSections } from '@/components/sections/post/PostSections';
+import { PostSources } from '@/components/sections/post/PostSources';
 
 import {
   getPostBySlug,
@@ -56,8 +59,25 @@ export default async function PostPage({ params: { slug } }: Props) {
 
   return (
     <Page>
-      <h1>{post.title}</h1>
-      <ReactMarkdown>{post.text}</ReactMarkdown>
+      <HeaderPage
+        title={post.title}
+        links={[
+          {
+            label: 'Publications',
+            url: '/posts',
+          },
+        ]}
+        currentLink={{
+          label: post.title,
+          url: `/posts/${post.slug}`,
+        }}
+        align='left'
+        breadcrumbClassName='!justify-start'
+        boxClassName='max-w-5xl !mb-0'
+      />
+      <PostInfo tags={post.tags} date={post.date} />
+      <PostSections sections={post.sections} />
+      <PostSources source={post.source} />
     </Page>
   );
 }

@@ -24,12 +24,12 @@ export const getPosts = (): PostType[] => {
     const matterResult = readFile<InputPostType>(`${PATH_FOLDER}/${slug}.md`);
 
     if (matterResult?.data) {
-      const tags = getTagsExpertiseByLabels(matterResult.data.tags);
+      const tags = getTagsExpertiseByLabels(matterResult.data.post_tags);
       posts.push({
         slug,
         title: matterResult.data.title,
         date: matterResult.data.date,
-        text: matterResult.data.text,
+        sections: matterResult.data.post_sections,
         source: matterResult.data.source,
         timeToRead: matterResult.data.timeToRead,
         tags,
@@ -49,14 +49,19 @@ export const getPostBySlug = (slug: string): PostType | null => {
 
   if (!matterResult?.data) return null;
 
-  const tags = getTagsExpertiseByLabels(matterResult.data.tags);
+  const tags = getTagsExpertiseByLabels(matterResult.data.post_tags);
   return {
     slug,
     title: matterResult.data.title,
     date: matterResult.data.date,
-    text: matterResult.data.text,
+    sections: matterResult.data.post_sections,
     timeToRead: matterResult.data.timeToRead,
     tags,
     source: matterResult.data.source,
   };
+};
+
+export const getLastPosts = (num: number) => {
+  const posts = getPosts();
+  return posts.slice(0, num);
 };

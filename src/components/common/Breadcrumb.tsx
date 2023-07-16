@@ -1,5 +1,7 @@
 'use client';
 
+import clsxm from '@/lib/clsxm';
+
 import { ATIPY_ICON, AtipyIcon } from './icons/AtipyIcon';
 
 export type BreadcrumbLinkProps = {
@@ -10,15 +12,27 @@ export type BreadcrumbLinkProps = {
 type Props = {
   links?: BreadcrumbLinkProps[];
   currentLink: BreadcrumbLinkProps;
+  align?: 'center' | 'left';
+  className?: string;
 };
 
-export const Breadcrumb = ({ links, currentLink }: Props) => {
+export const Breadcrumb = ({
+  links,
+  currentLink,
+  className,
+  align = 'center',
+}: Props) => {
   return (
     <nav
-      className='w-full flex items-center justify-center'
+      className={clsxm('w-full flex items-center justify-center', className)}
       aria-label='Breadcrumb'
     >
-      <ul className='flex items-center justify-center md:justify-start gap-1 flex-wrap'>
+      <ul
+        className={clsxm(
+          'flex items-center md:justify-start gap-1 flex-wrap',
+          align === 'center' ? 'justify-center' : 'justify-start'
+        )}
+      >
         <li className='tl flex items-center justify-center gap-1 h-[32px] md:h-auto text-[15px] md:text-[16px] lg:text-[18px]'>
           <a href='/' className='leading-normal hover:underline'>
             Accueil

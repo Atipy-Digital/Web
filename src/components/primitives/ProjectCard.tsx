@@ -1,14 +1,16 @@
+'use client';
+
 import Link from 'next/link';
 
 import { Tag } from './Tag';
 
-import { ProjectType } from '@/ts';
+import type { ProjectType } from '@/ts';
 
 type Props = ProjectType;
 
 export const ProjectCard = ({ slug, title, image, tags, client }: Props) => {
   return (
-    <article className='col-span-1 flex-grow w-full rounded-[10px] p-4 flex flex-col bg-white shadow-project-card dark:bg-black dark:border-2 dark:border-white dark:shadow-none max-w-[450px] m-auto'>
+    <article className='col-span-1 flex-grow w-full h-full rounded-[10px] p-4 flex flex-col bg-white shadow-project-card dark:bg-black dark:border-2 dark:border-white dark:shadow-none max-w-[450px] m-auto'>
       <figure className='relative block w-full aspect-video rounded-[10px] overflow-hidden'>
         <img
           src={image}
@@ -32,7 +34,7 @@ export const ProjectCard = ({ slug, title, image, tags, client }: Props) => {
         </div>
         <p className='text-body1'>{client.name}</p>
       </main>
-      <footer>
+      <footer className='mt-auto'>
         <Link
           href={`/realisations/${slug}`}
           className='text-body1 link-hover-small'

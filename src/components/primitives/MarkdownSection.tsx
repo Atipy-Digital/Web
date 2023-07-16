@@ -6,6 +6,10 @@ import clsxm from '@/lib/clsxm';
 
 import { ColSectionType, SectionType } from '@/ts';
 
+interface SectionProps extends SectionType {
+  smallGap?: boolean;
+}
+
 const Col = ({ text, image, reverseMobile }: ColSectionType) => {
   const getColorText = (
     color: 'blue' | 'red' | 'green' | 'yellow' | undefined
@@ -62,15 +66,15 @@ const Col = ({ text, image, reverseMobile }: ColSectionType) => {
           </ReactMarkdown>
         </article>
       )}
-      {image && (
+      {image?.url && (
         <figure className='block w-full'>
           <img
             src={image.url}
             alt={image?.legend ?? ''}
-            className='rounded-[10px] w-full h-auto'
+            className='rounded-[10px] w-full h-auto border border-grey-110'
           />
           {image?.legend && (
-            <legend className='text-grey-110 text-[16px] lg:text-[18px] xl:text-[20px] my-2'>
+            <legend className='text-grey-110 text-[16px] lg:text-[18px] xl:text-[20px] my-2 dark:text-grey-100'>
               {image.legend}
             </legend>
           )}
@@ -80,8 +84,13 @@ const Col = ({ text, image, reverseMobile }: ColSectionType) => {
   );
 };
 
-export const MarkdownSection = ({ col1, col2, col3 }: SectionType) => {
-  if (!col2 && !col3) {
+export const MarkdownSection = ({
+  col1,
+  col2,
+  col3,
+  smallGap = false,
+}: SectionProps) => {
+  if (!col2?.text && !col2?.image && !col3?.text && !col3?.image) {
     return (
       <div className='w-full flex flex-col mb-6 md:mb-10'>
         <Col {...col1} />
@@ -91,13 +100,16 @@ export const MarkdownSection = ({ col1, col2, col3 }: SectionType) => {
   return (
     <section
       className={clsxm(
-        'tl w-full flex flex-col mb-6 md:mb-10 md:gap-x-10 lg:gap-x-16 xl:gap-x-24',
-        'md:flex-row'
+        'tl w-full flex flex-col mb-6 md:mb-10',
+        'md:flex-row',
+        smallGap
+          ? 'gap-6 lg:gap-8 xl:gap-10'
+          : 'gap-6 md:gap-10 lg:gap-16 xl:gap-24'
       )}
     >
       <Col {...col1} />
-      {col2?.text && <Col {...col2} />}
-      {col3?.text && <Col {...col3} />}
+      {(col2?.text || col2?.image) && <Col {...col2} />}
+      {(col3?.text || col3?.image) && <Col {...col3} />}
     </section>
   );
 };
