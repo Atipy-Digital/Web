@@ -11,14 +11,16 @@ export const getClientsSlug = () => {
 
 export const getClients = (): ClientType[] => {
   const slugs = getClientsSlug();
+  if (!slugs) return [];
+
   return slugs.map((slug) => {
     const matterResult = readFile<InputClientType>(`${PATH_FOLDER}/${slug}.md`);
-    const tags = getTagsBusinessByLabels(matterResult.data.client_tags);
+    const tags = getTagsBusinessByLabels(matterResult.data?.client_tags || []);
 
     return {
       slug,
-      name: matterResult.data.name,
-      logo: matterResult.data.logo,
+      name: matterResult.data?.name || '',
+      logo: matterResult.data?.logo,
       tags,
     };
   });
@@ -26,11 +28,11 @@ export const getClients = (): ClientType[] => {
 
 export const getClient = (slug: string): ClientType => {
   const matterResult = readFile<InputClientType>(`${PATH_FOLDER}/${slug}.md`);
-  const tags = getTagsBusinessByLabels(matterResult.data.client_tags);
+  const tags = getTagsBusinessByLabels(matterResult.data?.client_tags || []);
   return {
     slug,
-    name: matterResult.data.name,
-    logo: matterResult.data.logo,
+    name: matterResult.data?.name || '',
+    logo: matterResult.data?.logo,
     tags,
   };
 };

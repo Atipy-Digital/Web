@@ -99,7 +99,7 @@ export const AllProjects = () => {
         />
       </Box>
 
-      <Box className='tl px-0 md:px-fluid relative w-full pt-10 md:pt-14 lg:pt-20 xl:pt-24'>
+      <Box className='tl px-0 md:px-fluid relative w-full pt-10 md:pt-14 lg:pt-20 xl:pt-24 flex justify-center items-center'>
         <ProjectList data={projectsFiltered} />
       </Box>
     </section>

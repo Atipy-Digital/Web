@@ -7,5 +7,7 @@ export const getNavigations = (): INavigation[] => {
     'src/data/layout/header.md'
   );
 
+  if (!matterResult?.data) return [];
+
   return matterResult.data.mainNavigation;
 };

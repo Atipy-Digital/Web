@@ -512,46 +512,180 @@ collections:
         collapsed: true
         summary: 'Section'
         fields:
-          - label: 'Colonne 1'
-            name: left
-            widget: markdown
-            buttons:
-              [
-                bold,
-                italic,
-                code,
-                link,
-                heading-four,
-                heading-five,
-                heading-six,
-                quote,
-                bulleted-list,
-                numbered-list,
-              ]
-            modes: [rich_text]
-            hint: 'Utiliser **code (<>)** pour surligner du texte'
-            editor_components: ['image']
-          - label: 'Colonne 2'
+          - name: col1
+            label: 'Colonne 1'
+            widget: object
+            fields:
+              - name: reverseMobile
+                label: 'Inverser image / text en mobile'
+                widget: boolean
+                required: false
+                default: false
+              - name: text
+                label: Texte
+                widget: object
+                fields:
+                  - name: color
+                    label: 'Couleur du texte'
+                    widget: select
+                    required: false
+                    options:
+                      [
+                        { value: 'blue', label: Bleu },
+                        { value: 'green', label: Vert },
+                        { value: 'red', label: Rouge },
+                        { value: 'yellow', label: Jaune },
+                      ]
+                  - name: content
+                    label: 'Choisir votre texte'
+                    widget: markdown
+                    buttons:
+                      [
+                        bold,
+                        italic,
+                        code,
+                        link,
+                        heading-four,
+                        heading-five,
+                        heading-six,
+                        quote,
+                        bulleted-list,
+                        numbered-list,
+                      ]
+                    modes: [rich_text]
+                    hint: 'Utiliser **code (<>)** pour surligner du texte'
+                    editor_components: ['image']
+              - name: image
+                label: Image
+                widget: object
+                required: false
+                fields:
+                  - name: url
+                    label: 'Choisir une image'
+                    widget: image
+                    required: false
+                  - name: legend
+                    label: "Legende de l'image"
+                    required: false
+                    widget: string
+          - name: col2
+            label: 'Colonne 2'
+            widget: object
             required: false
-            name: right
-            widget: markdown
-            buttons:
-              [
-                bold,
-                italic,
-                code,
-                link,
-                heading-four,
-                heading-five,
-                heading-six,
-                quote,
-                bulleted-list,
-                numbered-list,
-              ]
-            modes: [rich_text]
-            hint: 'Utiliser **code (<>)** pour surligner du texte'
-            editor_components: ['image']
-
+            fields:
+              - name: reverseMobile
+                label: 'Inverser image / text en mobile'
+                widget: boolean
+                required: false
+                default: false
+              - name: text
+                label: Texte
+                widget: object
+                required: false
+                fields:
+                  - name: color
+                    label: 'Couleur du texte'
+                    widget: select
+                    required: false
+                    options:
+                      [
+                        { value: 'blue', label: Bleu },
+                        { value: 'green', label: Vert },
+                        { value: 'red', label: Rouge },
+                        { value: 'yellow', label: Jaune },
+                      ]
+                  - name: content
+                    label: 'Choisir votre texte'
+                    widget: markdown
+                    required: false
+                    buttons:
+                      [
+                        bold,
+                        italic,
+                        code,
+                        link,
+                        heading-four,
+                        heading-five,
+                        heading-six,
+                        quote,
+                        bulleted-list,
+                        numbered-list,
+                      ]
+                    modes: [rich_text]
+                    hint: 'Utiliser **code (<>)** pour surligner du texte'
+                    editor_components: ['image']
+              - name: image
+                label: Image
+                widget: object
+                required: false
+                fields:
+                  - name: url
+                    label: 'Choisir une image'
+                    widget: image
+                    required: false
+                  - name: legend
+                    label: "Legende de l'image"
+                    required: false
+                    widget: string
+          - name: col3
+            label: 'Colonne 3'
+            widget: object
+            required: false
+            fields:
+              - name: reverseMobile
+                label: 'Inverser image / text en mobile'
+                widget: boolean
+                required: false
+                default: false
+              - name: text
+                label: Texte
+                widget: object
+                required: false
+                fields:
+                  - name: color
+                    label: 'Couleur du texte'
+                    widget: select
+                    required: false
+                    options:
+                      [
+                        { value: 'blue', label: Bleu },
+                        { value: 'green', label: Vert },
+                        { value: 'red', label: Rouge },
+                        { value: 'yellow', label: Jaune },
+                      ]
+                  - name: content
+                    label: 'Choisir votre texte'
+                    widget: markdown
+                    required: false
+                    buttons:
+                      [
+                        bold,
+                        italic,
+                        code,
+                        link,
+                        heading-four,
+                        heading-five,
+                        heading-six,
+                        quote,
+                        bulleted-list,
+                        numbered-list,
+                      ]
+                    modes: [rich_text]
+                    hint: 'Utiliser **code (<>)** pour surligner du texte'
+                    editor_components: ['image']
+              - name: image
+                label: Image
+                widget: object
+                required: false
+                fields:
+                  - name: url
+                    label: 'Choisir une image'
+                    widget: image
+                    required: false
+                  - name: legend
+                    label: "Legende de l'image"
+                    required: false
+                    widget: string
   - name: clients
     label: Clients
     folder: src/data/clients

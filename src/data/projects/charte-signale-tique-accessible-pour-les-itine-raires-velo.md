@@ -1,11 +1,12 @@
 ---
 metadata:
-  title: Document FALC
-  description: Document FALC
-  ogImg: /media/droit-usage.jpg
-title: Document FALC
-image: /media/droit-usage.jpg
-project_client: france-assos-sante
+  title: Département Pyrénées Atlantiques
+  description: Réalisation d’une charte signalétique accessible pour les
+    itinéraires vélo du Conseil Départemental des Pyrénées-Atlantiques
+  ogImg: /media/da-og.png
+title: Charte signalétique accessible pour les itinéraires vélo
+image: /media/da-og.png
+project_client: departement-pyrenees-atlantiques
 mission_body: Réalisation d’une charte signalétique accessible pour les
   itinéraires vélo du Conseil Départemental des Pyrénées-Atlantiques
 context_body: >-
@@ -17,7 +18,9 @@ context_body: >-
 
   Le Conseil Départemental entreprend alors de se doter d’un référentiel lié à l’accessibilité des personnes à mobilité réduite à vélo avec la mise à jour du volet « itinéraires de promenades et de randonnées » du label « tourisme et handicap ».
 project_tags:
+  - Signalétique
   - Design
+  - Accessibilité
 project_sections:
   - col1:
       reverseMobile: false

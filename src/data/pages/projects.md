@@ -12,6 +12,6 @@ intro: Nous accompagnons ***les collectivités et communautés d’agglomératio
   de rendre accessible au plus grand nombre leurs services, leurs produits, leur
   ville.
 projectsFeatured:
-  - departement-pyrenees-atlantiques
   - document-falc
+  - charte-signale-tique-accessible-pour-les-itine-raires-velo
 ---

@@ -15,7 +15,7 @@ import type { INavigation } from '@/ts/navigation';
 type Props = {
   navLinks: INavigation[];
   children: ReactNode;
-  footerLinks: IFooter;
+  footerLinks: IFooter | null;
 };
 
 export const Layout = ({ navLinks, footerLinks, children }: Props) => {
@@ -28,7 +28,7 @@ export const Layout = ({ navLinks, footerLinks, children }: Props) => {
       <ScrollUp />
       <Header links={navLinks} />
       <Main>{children}</Main>
-      <Footer data={footerLinks} />
+      {footerLinks && <Footer data={footerLinks} />}
     </>
   );
 };

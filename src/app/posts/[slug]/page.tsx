@@ -1,14 +1,15 @@
-import matter from 'gray-matter';
-import Link from 'next/link';
+import { notFound } from 'next/navigation';
 import ReactMarkdown from 'react-markdown';
 
 import { siteOrigin } from '@/lib/constants';
 
 import { Page } from '@/components/layout/Page';
 
-import { getPostMetaData, getPostsSlug } from '@/services/post.service';
-
-import type { Post } from '@/ts';
+import {
+  getPostBySlug,
+  getPostMetaData,
+  getPostsSlug,
+} from '@/services/post.service';
 
 type Props = {
   params: { slug: string };
@@ -20,9 +21,18 @@ export async function generateMetadata({
   params: { slug: string };
 }) {
   const { slug } = params;
-  const { title } = getPostMetaData(slug);
+  const data = getPostMetaData(slug);
+  if (!data) {
+    return {
+      alternates: {
+        canonical: `${siteOrigin}/posts/${slug}`,
+      },
+    };
+  }
+
   return {
-    title,
+    title: data.title,
+    description: data.description,
     alternates: {
       canonical: `${siteOrigin}/posts/${slug}`,
     },
@@ -30,22 +40,24 @@ export async function generateMetadata({
 }
 
 export async function generateStaticParams() {
-  return getPostsSlug().map((slug) => ({ slug }));
+  const slugs = getPostsSlug();
+  if (slugs?.length) {
+    return slugs.map((slug) => ({ slug }));
+  }
+  return [];
 }
 
 export default async function PostPage({ params: { slug } }: Props) {
-  const m = await import(`../../../data/posts/${slug}.md`);
-  const { content: body, data } = matter(m.default);
-  const { title, date } = data;
-  const post: Post = { title, slug, date, body };
+  const post = getPostBySlug(slug);
+
+  if (!post) {
+    notFound();
+  }
 
   return (
     <Page>
-      <Link href='/posts' className='text-a-blue underline'>
-        Retour
-      </Link>
       <h1>{post.title}</h1>
-      {post?.body && <ReactMarkdown>{post.body}</ReactMarkdown>}
+      <ReactMarkdown>{post.text}</ReactMarkdown>
     </Page>
   );
 }

@@ -20,13 +20,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${siteOrigin}/${route}`,
       lastModified: new Date(),
     })),
-    ...slugPosts.map((slug) => ({
-      url: `${siteOrigin}/post/${slug}`,
-      lastModified: new Date(),
-    })),
-    ...slugProjects.map((slug) => ({
-      url: `${siteOrigin}/realisations/${slug}`,
-      lastModified: new Date(),
-    })),
+    ...(slugPosts?.length
+      ? slugPosts.map((slug) => ({
+          url: `${siteOrigin}/post/${slug}`,
+          lastModified: new Date(),
+        }))
+      : []),
+    ...(slugProjects?.length
+      ? slugProjects.map((slug) => ({
+          url: `${siteOrigin}/realisations/${slug}`,
+          lastModified: new Date(),
+        }))
+      : []),
   ];
 }

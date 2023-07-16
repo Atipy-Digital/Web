@@ -18,17 +18,25 @@ export const metadata: Metadata = {
 
 export default function Contact() {
   const contactData = getContactData();
+
   return (
     <Page>
       <HeaderPage
-        title={contactData.title}
+        title={contactData?.title || 'Contact'}
         currentLink={{
           label: 'Contact',
           url: 'contact',
         }}
       />
-      <ContactForm data={contactData.form} />
-      <ContactFooter socials={contactData.socials} infos={contactData.infos} />
+      {contactData && (
+        <>
+          <ContactForm data={contactData.form} />
+          <ContactFooter
+            socials={contactData.socials}
+            infos={contactData.infos}
+          />
+        </>
+      )}
     </Page>
   );
 }

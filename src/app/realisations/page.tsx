@@ -41,16 +41,22 @@ export default function Realisations() {
 
   return (
     <Page>
-      <HeaderPage
-        title={data.title}
-        intro={data.intro}
-        currentLink={{
-          label: 'Nos réalisations',
-          url: '/realisations',
-        }}
-      />
-      <ProjectsFeatured data={data.projectsFeatured} />
-      <AllProjects />
+      {data && (
+        <>
+          <HeaderPage
+            title={data.title}
+            intro={data.intro}
+            currentLink={{
+              label: 'Nos réalisations',
+              url: '/realisations',
+            }}
+          />
+          {!!data.projectsFeatured.length && (
+            <ProjectsFeatured data={data.projectsFeatured} />
+          )}
+          <AllProjects />
+        </>
+      )}
     </Page>
   );
 }

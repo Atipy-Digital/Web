@@ -14,13 +14,17 @@ export default function Home() {
 
   return (
     <Page>
-      <Banner data={homeData.bannerData} />
-      <Intro data={homeData.introData} />
-      <Offers data={homeData.offersData} />
-      <Agency data={homeData.agencyData} />
-      <Projects data={homeData.projectData} />
-      <Newsletter data={homeData.newsletterData} />
-      <Contact data={homeData.contactData} />
+      {homeData && (
+        <>
+          <Banner data={homeData.bannerData} />
+          <Intro data={homeData.introData} />
+          <Offers data={homeData.offersData} />
+          <Agency data={homeData.agencyData} />
+          <Projects data={homeData.projectData} />
+          <Newsletter data={homeData.newsletterData} />
+          <Contact data={homeData.contactData} />
+        </>
+      )}
     </Page>
   );
 }
