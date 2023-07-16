@@ -13,19 +13,20 @@ import {
   getPostMetaData,
   getPostsSlug,
 } from '@/services/post.service';
+import { ResolvingMetadata } from 'next';
 
 type Props = {
   params: { slug: string };
 };
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { slug: string };
-}) {
+export async function generateMetadata(
+  { params }: Props,
+  parent: ResolvingMetadata
+) {
   const { slug } = params;
-  const data = getPostMetaData(slug);
-  if (!data) {
+  const meta = getPostMetaData(slug);
+  const previousKeywords = (await parent).keywords || [];
+  if (!meta) {
     return {
       alternates: {
         canonical: `${siteOrigin}/posts/${slug}`,
@@ -34,10 +35,14 @@ export async function generateMetadata({
   }
 
   return {
-    title: data.title,
-    description: data.description,
+    title: meta.title,
+    description: meta.description,
+    keywords: meta?.keywords?.length ? meta.keywords : previousKeywords,
     alternates: {
       canonical: `${siteOrigin}/posts/${slug}`,
+    },
+    openGraph: {
+      images: meta?.ogImg ?? 'favicon/og-alt.png',
     },
   };
 }
