@@ -24,7 +24,7 @@ export default function Agence() {
         title="L'agence"
         currentLink={{
           label: "L'agence",
-          url: '/agence/tribu',
+          url: '/agence',
         }}
         boxClassName='!mb-0'
       />
