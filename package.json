@@ -2,7 +2,7 @@
   "name": "bissapp-web",
   "description": "Website for the Atipy project.",
   "author": "soywod <clement.douin@posteo.net> (https://soywod.me)",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "private": true,
   "engines": {
     "node": "16"
