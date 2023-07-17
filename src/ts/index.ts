@@ -13,3 +13,4 @@ export * from './project';
 export * from './projects-page';
 export * from './section';
 export * from './tag';
+export * from './tribu-page';

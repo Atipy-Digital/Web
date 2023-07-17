@@ -10,7 +10,7 @@ import { Box } from '@/components/common/Box';
 import { MarkdownText } from '@/components/primitives/MarkdownText';
 import { OfferList } from '@/components/primitives/OfferList';
 
-import { AboutType } from '@/ts/about-page';
+import type { AboutType } from '@/ts';
 
 type Props = {
   data: AboutType;
@@ -44,7 +44,11 @@ const Section = ({
     )}
   >
     <div className={clsxm('w-full', imgClassName)}>
-      <img src={img.url} alt={img.alt} className='w-full h-auto' />
+      <img
+        src={img.url}
+        alt={img.alt}
+        className='w-full h-auto rounded-[10px]'
+      />
     </div>
 
     <div

@@ -7,7 +7,7 @@ import { Button } from '@/components/primitives/Button';
 import { MarkdownText } from '@/components/primitives/MarkdownText';
 import { ProjectList } from '@/components/primitives/ProjectList';
 
-import { HomeProjectDataType } from '@/ts';
+import type { HomeProjectDataType } from '@/ts';
 
 type Props = {
   data: HomeProjectDataType;
@@ -21,7 +21,7 @@ export const Projects = ({ data }: Props) => {
   };
   return (
     <Box as='section' className='tl mb-14 md:mb-16 lg:mb-20 xl:mb-24'>
-      <div className='tl px-fluid md:py-fluid relative w-full'>
+      <div className='tl sm:px-fluid md:py-fluid relative w-full'>
         <div className='flex flex-col lg:flex-row lg:justify-between gap-8 xl:gap-12'>
           <h3 className='flex-shrink-0'>{data.title}</h3>
           <div className='w-full text-body1 leading-snug font-secondary lg:max-w-[799px] flex-grow'>

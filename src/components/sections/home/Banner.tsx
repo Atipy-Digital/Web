@@ -22,7 +22,7 @@ export const Banner = ({ data }: Props) => {
       as='section'
       className='flex items-center justify-center min-h-[calc(100vh_-_72px)] md:min-h-[calc(100vh_-_112px)]'
     >
-      <div className='px-fluid w-full flex flex-col gap-y-9 md:gap-y-14'>
+      <div className='sm:px-fluid w-full flex flex-col gap-y-9 md:gap-y-14'>
         <h1 className='w-full lg:whitespace-nowrap'>
           <ReactMarkdown
             components={{

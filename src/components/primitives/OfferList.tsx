@@ -31,7 +31,7 @@ export const OfferList = ({ data, className }: Props) => {
   return (
     <div
       className={clsxm(
-        'tl px-fluid py-fluid xl:!pt-0 w-full grid grid-cols-1 gap-8 xl:gap-14',
+        'tl sm:px-fluid py-fluid xl:!pt-0 w-full grid grid-cols-1 gap-8 xl:gap-14',
         lgGridItems(),
         className
       )}
@@ -40,7 +40,7 @@ export const OfferList = ({ data, className }: Props) => {
         <ExpertiseCard
           key={`home-offer-card-${item.type}`}
           {...item}
-          className='2xl:min-h-[563px]'
+          className='min-h-[350px] sm:min-h-fit 2xl:min-h-[563px]'
         />
       ))}
     </div>
