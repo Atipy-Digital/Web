@@ -38,7 +38,6 @@ const typographyStyle = (theme) => ({
     height: 'auto',
     objectFit: 'cover',
     borderRadius: 10,
-    border: '1px solid #767676',
   },
   h3: {
     fontSize: 'clamp(1.75rem, 2vw + 0.75rem, 3.125rem)',

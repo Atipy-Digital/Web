@@ -306,6 +306,17 @@ body:not(.user-is-tabbing) textarea:focus {
 
 html.dark {
   @apply bg-black text-white;
+
+  .link-hover-sub-text {
+    .text-to-hover {
+      text-decoration: underline;
+      text-decoration-color: rgba(255, 255, 255, 0);
+    }
+
+    &:hover .text-to-hover {
+      text-decoration-color: rgba(255, 255, 255, 1);
+    }
+  }
 }
 
 /* #region  /**=========== Used for hooks =========== */
@@ -370,6 +381,17 @@ html.no-scroll {
         margin-top: 5px;
         background-color: currentColor;
       }
+    }
+  }
+  .link-hover-sub-text {
+    .text-to-hover {
+      transition: text-decoration-color 0.3s ease;
+      text-decoration: underline;
+      text-decoration-color: rgba(0, 0, 0, 0);
+    }
+
+    &:hover .text-to-hover {
+      text-decoration-color: rgba(0, 0, 0, 1);
     }
   }
   .link-hover-small {

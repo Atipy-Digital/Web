@@ -16,13 +16,13 @@ const Col = ({ text, image, reverseMobile }: ColSectionType) => {
   ) => {
     switch (color) {
       case 'blue':
-        return '!text-a-blue-dark dark:!text-a-blue-dark';
+        return '!text-a-blue-dark dark:!text-a-blue-light';
       case 'red':
-        return '!text-a-red-dark dark:!text-a-red-dark';
+        return '!text-a-red-dark dark:!text-a-red-light';
       case 'green':
-        return '!text-a-green-dark dark:!text-a-green-dark';
+        return '!text-a-green-dark dark:!text-a-green-light';
       case 'yellow':
-        return '!text-a-yellow-dark dark:!text-a-yellow-dark';
+        return '!text-a-yellow-dark dark:!text-a-yellow-light';
 
       default:
         return '!text-current dark:!text-current';
@@ -71,7 +71,7 @@ const Col = ({ text, image, reverseMobile }: ColSectionType) => {
           <img
             src={image.url}
             alt={image?.legend ?? ''}
-            className='rounded-[10px] w-full h-auto border border-grey-110'
+            className='rounded-[10px] w-full h-auto'
           />
           {image?.legend && (
             <legend className='text-grey-110 text-[16px] lg:text-[18px] xl:text-[20px] my-2 dark:text-grey-100'>
