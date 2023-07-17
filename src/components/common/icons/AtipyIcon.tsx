@@ -1,5 +1,7 @@
 import clsxm from '@/lib/clsxm';
 
+import { ArrowCircleLeftIcon } from './vectors/ArrowCircleLeft.icon';
+import { ArrowCircleRightIcon } from './vectors/ArrowCircleRight.icon';
 import { ArrowDownIcon } from './vectors/ArrowDown.icon';
 import { ArrowLeftIcon } from './vectors/ArrowLeft.icon';
 import { ArrowRightIcon } from './vectors/ArrowRight.icon';
@@ -29,9 +31,20 @@ export enum ATIPY_ICON {
   ENVELOP = 'ENVELOP',
   ARROW_RIGHT = 'ARROW_RIGHT',
   CLOCK = 'CLOCK',
+  ARROW_CIRCLE_LEFT = 'ARROW_CIRCLE_LEFT',
+  ARROW_CIRCLE_RIGHT = 'ARROW_CIRCLE_RIGHT',
 }
 
-type AtipyIconSize = 'xxs' | 'sm' | 'md' | 'mdx' | 'lg' | 'xl' | 'xxl' | 'full';
+type AtipyIconSize =
+  | 'xxs'
+  | 'sm'
+  | 'md'
+  | 'mdx'
+  | 'lg'
+  | 'xl'
+  | 'mxl'
+  | 'xxl'
+  | 'full';
 
 export interface AtipyIconProps {
   size?: AtipyIconSize;
@@ -49,6 +62,7 @@ export const AtipyIcon = ({ size = 'md', type, className }: AtipyIconProps) => {
     ['mdx', 'w-[28px] h-[28px]'],
     ['lg', 'w-[32px] h-[32px]'],
     ['xl', 'w-[40px] h-[40px]'],
+    ['mxl', 'w-[56px] h-[56px]'],
     ['xxl', 'w-[102px] h-[102px]'],
     ['full', 'w-full h-full'],
   ]);
@@ -67,6 +81,8 @@ export const AtipyIcon = ({ size = 'md', type, className }: AtipyIconProps) => {
     [ATIPY_ICON.ENVELOP, EnvelopIcon],
     [ATIPY_ICON.ARROW_RIGHT, ArrowRightIcon],
     [ATIPY_ICON.CLOCK, ClockIcon],
+    [ATIPY_ICON.ARROW_CIRCLE_LEFT, ArrowCircleLeftIcon],
+    [ATIPY_ICON.ARROW_CIRCLE_RIGHT, ArrowCircleRightIcon],
   ]);
 
   const Icon: AtipyIconElement = icons.get(type) || CrossIcon;

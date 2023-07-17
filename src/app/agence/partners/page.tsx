@@ -5,24 +5,24 @@ import { siteOrigin } from '@/lib/constants';
 import { BottomNav } from '@/components/common/BottomNav';
 import { HeaderPage } from '@/components/layout/HeaderPage';
 import { Page } from '@/components/layout/Page';
-import { AboutSection } from '@/components/sections/agence/about/Section';
+import { PartnerList } from '@/components/sections/agence/partners/PartnerList';
 
-import { getAboutData } from '@/services/about.service';
+import { getPartnerPageData } from '@/services/partner.service';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: `${siteOrigin}/agence/about`,
+    canonical: `${siteOrigin}/agence/partenaires`,
   },
-  title: 'Qui sommes-nous ?',
+  title: 'Nos partenaires',
 };
 
-export default function About() {
-  const aboutData = getAboutData();
+export default function PartnerPage() {
+  const pageData = getPartnerPageData();
 
   return (
     <Page>
       <HeaderPage
-        title='Qui sommes-nous ?'
+        title='Nos partenaires'
         links={[
           {
             label: "L'agence",
@@ -30,28 +30,28 @@ export default function About() {
           },
         ]}
         currentLink={{
-          label: 'Qui sommes-nous ?',
-          url: '/agence/about',
+          label: 'Nos partenaires',
+          url: '/agence/partners',
         }}
+        intro={pageData?.intro}
         prevLink={{
           label: "L'agence",
           url: '/agence',
         }}
         nextLink={{
-          label: 'La conception universelle',
-          url: '/agence/conception',
+          label: 'Qui sommes-nous ?',
+          url: '/agence/about',
         }}
       />
-      {aboutData && <AboutSection data={aboutData} />}
-
+      {pageData?.partners && <PartnerList data={pageData.partners} />}
       <BottomNav
         previousLink={{
           label: "L'agence",
           url: '/agence',
         }}
         nextLink={{
-          label: 'La conception universelle',
-          url: '/agence/conception',
+          label: 'Qui sommes-nous ?',
+          url: '/agence/about',
         }}
       />
     </Page>

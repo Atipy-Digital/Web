@@ -7,6 +7,7 @@ export * from './footer';
 export * from './home';
 export * from './metadata';
 export * from './navigation';
+export * from './partners-page';
 export * from './post';
 export * from './project';
 export * from './projects-page';
