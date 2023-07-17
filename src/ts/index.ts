@@ -1,4 +1,5 @@
 export * from './about-page';
+export * from './agence-page';
 export * from './card';
 export * from './client';
 export * from './contact';

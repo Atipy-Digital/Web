@@ -40,7 +40,7 @@ export const Agency = ({ data }: Props) => {
         </div>
 
         <div className='w-full flex flex-col-reverse md:flex-row items-center gap-y-6 gap-x-10 mt-10 xl:mt-14'>
-          <Button icon onClick={() => router.push('/agence/about')}>
+          <Button icon onClick={() => router.push('/agence')}>
             {data.buttonCta.label}
           </Button>
           <Button
