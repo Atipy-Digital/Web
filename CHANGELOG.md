@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.8.0](https://github.com/Atipy-Digital/Web/compare/v0.7.0...v0.8.0) (2023-07-17)
+
+
+### Features
+
+* **page:** about us page & link from home section ([#17](https://github.com/Atipy-Digital/Web/issues/17)) ([6c0fa4d](https://github.com/Atipy-Digital/Web/commit/6c0fa4d46e83e71dcc08b0d1750c273e04bf98fa))
+* **page:** agence page ([#22](https://github.com/Atipy-Digital/Web/issues/22)) ([a275f04](https://github.com/Atipy-Digital/Web/commit/a275f048c848a732bc5efcf87a23b2d84bb35334))
+* **page:** partners page ([#20](https://github.com/Atipy-Digital/Web/issues/20)) ([9aabd42](https://github.com/Atipy-Digital/Web/commit/9aabd42e55de827c05bc650daaa03d0901bdb05b))
+* **page:** tribu page ([#21](https://github.com/Atipy-Digital/Web/issues/21)) ([1b72885](https://github.com/Atipy-Digital/Web/commit/1b72885d94857b3b0315d0ecbdd5113f65e3d16b))
+
+
+### Bug Fixes
+
+* **ui:** requested changes to the UI ([#19](https://github.com/Atipy-Digital/Web/issues/19)) ([5d41fd4](https://github.com/Atipy-Digital/Web/commit/5d41fd494036fce1e6f2a909b3a35e90910d8249))
+
 ## [0.7.0](https://github.com/Atipy-Digital/Web/compare/v0.6.0...v0.7.0) (2023-07-16)
 
 
