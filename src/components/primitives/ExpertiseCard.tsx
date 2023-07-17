@@ -63,9 +63,9 @@ export const ExpertiseCard = ({
   ]);
 
   const urlHeaderImgs = new Map<CARD_TYPE, string>([
-    [CARD_TYPE.ENGINEER, `/imgs/home/offer-${prefixImg}-access.webp`],
-    [CARD_TYPE.DESIGN, `/imgs/home/offer-${prefixImg}-design.webp`],
-    [CARD_TYPE.DIGITAL, `/imgs/home/offer-${prefixImg}-digital.webp`],
+    [CARD_TYPE.ENGINEER, `/imgs/offers/offer-${prefixImg}-access.webp`],
+    [CARD_TYPE.DESIGN, `/imgs/offers/offer-${prefixImg}-design.webp`],
+    [CARD_TYPE.DIGITAL, `/imgs/offers/offer-${prefixImg}-digital.webp`],
   ]);
 
   const sCard =
@@ -73,7 +73,7 @@ export const ExpertiseCard = ({
   const sCardBtn =
     styleCardBtn.get(type) || 'bg-a-blue-dark dark:!bg-a-blue-light';
   const urlHeaderImg =
-    urlHeaderImgs.get(type) || `/imgs/home/offer-${prefixImg}-access.webp`;
+    urlHeaderImgs.get(type) || `/imgs/offers/offer-${prefixImg}-access.webp`;
 
   return (
     <article
@@ -85,7 +85,11 @@ export const ExpertiseCard = ({
       )}
     >
       <header className='w-full flex items-center justify-between md:justify-start md:items-start md:flex-col gap-y-6'>
-        <img alt={`logo ${type}`} src={urlHeaderImg} className='w-24 h-auto' />
+        <img
+          alt={`logo ${type}`}
+          src={urlHeaderImg}
+          className='w-24 h-auto lg:w-28 xl:w-40'
+        />
         <h3 className='h3-card'>{title}</h3>
       </header>
       <main className='flex-grow pt-8 pb-6 xl:pt-10'>
