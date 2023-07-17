@@ -436,10 +436,22 @@ html.no-scroll {
   .px-fluid {
     padding: 0 tovw(16px, 16px, 'mobile');
   }
+  .l-fluid {
+    left: tovw(16px, 16px, 'mobile');
+  }
+  .r-fluid {
+    right: tovw(16px, 16px, 'mobile');
+  }
 
   @media (min-width: 768px) {
     .px-fluid {
       padding: 0 tovw(40px);
+    }
+    .l-fluid {
+      left: tovw(40px);
+    }
+    .r-fluid {
+      right: tovw(40px);
     }
   }
 

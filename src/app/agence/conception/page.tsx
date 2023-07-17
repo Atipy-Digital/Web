@@ -5,24 +5,19 @@ import { siteOrigin } from '@/lib/constants';
 import { BottomNav } from '@/components/common/BottomNav';
 import { HeaderPage } from '@/components/layout/HeaderPage';
 import { Page } from '@/components/layout/Page';
-import { AboutSection } from '@/components/sections/agence/about/Section';
-
-import { getAboutData } from '@/services/about.service';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: `${siteOrigin}/agence/about`,
+    canonical: `${siteOrigin}/agence/conception`,
   },
-  title: 'Qui sommes-nous ?',
+  title: 'La conception universelle',
 };
 
-export default function About() {
-  const aboutData = getAboutData();
-
+export default function ConceptionPage() {
   return (
     <Page>
       <HeaderPage
-        title='Qui sommes-nous ?'
+        title='La conception universelle'
         links={[
           {
             label: "L'agence",
@@ -30,19 +25,18 @@ export default function About() {
           },
         ]}
         currentLink={{
-          label: 'Qui sommes-nous ?',
-          url: '/agence/about',
+          label: 'La conception universelle',
+          url: '/agence/conception',
         }}
         prevLink={{
           label: "L'agence",
           url: '/agence',
         }}
         nextLink={{
-          label: 'La conception universelle',
-          url: '/agence/conception',
+          label: 'Nos partenaires',
+          url: '/agence/partners',
         }}
       />
-      {aboutData && <AboutSection data={aboutData} />}
 
       <BottomNav
         previousLink={{
@@ -50,8 +44,8 @@ export default function About() {
           url: '/agence',
         }}
         nextLink={{
-          label: 'La conception universelle',
-          url: '/agence/conception',
+          label: 'Nos partenaires',
+          url: '/agence/partners',
         }}
       />
     </Page>

@@ -150,6 +150,8 @@ module.exports = {
       },
       screens: {
         desktop: '1920px',
+        lmd: '960px',
+        '3xl': '1680px',
       },
       maxWidth: {
         '8xl': '1440px',
