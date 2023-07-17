@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.1](https://github.com/Atipy-Digital/Web/compare/v0.8.0...v0.8.1) (2023-07-17)
+
+
+### Bug Fixes
+
+* **tribu:** the image was distorted ([efbc58c](https://github.com/Atipy-Digital/Web/commit/efbc58c1ae8110a471a07f2284b2ad8f39c0fac3))
+
 ## [0.8.0](https://github.com/Atipy-Digital/Web/compare/v0.7.0...v0.8.0) (2023-07-17)
 
 
