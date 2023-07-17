@@ -12,7 +12,7 @@ export const PostItem = ({ title, tags, timeToRead, slug }: PostType) => {
 
   return (
     <li
-      className='w-full py-11 cursor-pointer'
+      className='link-hover-sub-text w-full py-11 cursor-pointer'
       onClick={() => router.push(`/posts/${slug}`)}
     >
       <div className='flex items-center justify-between flex-wrap mb-4 gap-y-2'>
@@ -28,7 +28,7 @@ export const PostItem = ({ title, tags, timeToRead, slug }: PostType) => {
         </div>
       </div>
 
-      <p className='h4 w-full'>{title}</p>
+      <p className='text-to-hover h4 w-fit'>{title}</p>
     </li>
   );
 };

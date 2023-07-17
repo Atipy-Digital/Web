@@ -41,8 +41,8 @@ export const EngageModal = ({ data }: Props) => {
       >
         <motion.div
           className={clsxm(
-            'px-fluid max-w-8xl mx-auto w-full',
-            'relative bg-white border-5 border-a-yellow-or shadow-a-yellow-or rounded-[42px] flex flex-col !py-6 xl:!py-9 m-auto',
+            'px-fluid max-w-7xl mx-auto w-full',
+            'relative bg-white border-5 border-a-yellow-or shadow-a-yellow-or rounded-[42px] flex flex-col !pt-0 !pb-6 sm:!py-6 xl:!py-9 m-auto',
             'dark:bg-black'
           )}
           initial={{
@@ -61,7 +61,7 @@ export const EngageModal = ({ data }: Props) => {
           }}
           onClick={(e) => e.stopPropagation()}
         >
-          <div className='w-full flex'>
+          <div className='w-full flex py-4 sm:py-0'>
             <div
               className='ml-auto flex-shrink-0 cursor-pointer'
               onClick={() => {
@@ -72,23 +72,25 @@ export const EngageModal = ({ data }: Props) => {
             </div>
           </div>
 
-          <h3 className='mb-6 lg:mb-8 xl:mb-10 text-center'>{data.title}</h3>
+          <div className='w-full flex flex-col px-2 pb-2 xl:px-14 xl:pb-6'>
+            <h3 className='mb-6 lg:mb-8 xl:mb-10 text-center'>{data.title}</h3>
 
-          <MarkdownText className='font-secondary text-body3 leading-snug mb-4 lg:mb-6 xl:mb-8'>
-            {data.intro}
-          </MarkdownText>
-          <MarkdownText className='font-secondary text-body3 leading-snug'>
-            {data.text}
-          </MarkdownText>
-          <MarkdownText className='font-secondary text-body3 leading-snug my-4 lg:my-6 xl:my-8'>
-            {data.outro}
-          </MarkdownText>
+            <MarkdownText className='font-secondary text-[16px] sm:text-body1 leading-snug mb-4 lg:mb-6 xl:mb-8'>
+              {data.intro}
+            </MarkdownText>
+            <MarkdownText className='font-secondary text-[16px] sm:text-body1 leading-snug'>
+              {data.text}
+            </MarkdownText>
+            <MarkdownText className='font-secondary text-[16px] sm:text-body1 leading-snug my-4 lg:my-6 xl:my-8'>
+              {data.outro}
+            </MarkdownText>
 
-          <p className='font-secondary text-body1 leading-snug'>
-            <span className='block w-full font-primary'>
-              <strong>La Tribu</strong>
-            </span>
-          </p>
+            <p className='font-secondary text-body1 leading-snug'>
+              <span className='block w-full font-primary'>
+                <strong>La Tribu</strong>
+              </span>
+            </p>
+          </div>
         </motion.div>
       </motion.div>
     </Portal>

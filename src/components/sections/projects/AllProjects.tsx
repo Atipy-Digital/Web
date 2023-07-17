@@ -79,9 +79,9 @@ export const AllProjects = () => {
           showAll={showAll}
         />
 
-        <div className='flex-grow flex items-center justify-center self-start py-2 lg:pb-0 lg:pt-2 xl:pt-0 xl:self-center'>
+        <div className='flex-shrink-0 flex items-center justify-center self-start py-2 lg:pb-0 lg:pt-2 lg:w-44'>
           <span
-            className='text-grey-110 dark:text-grey-150 underline cursor-pointer text-center'
+            className='text-grey-110 dark:text-grey-150 underline cursor-pointer text-center lg:px-3'
             onClick={onShowAll}
           >
             {showAll ? 'Réduire les catégories' : 'Afficher plus de catégories'}
