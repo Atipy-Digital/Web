@@ -23,7 +23,7 @@ export const Agency = ({ data }: Props) => {
 
   return (
     <Box as='section' className='tl mb-14 md:mb-16 lg:mb-20 xl:mb-24'>
-      <div className='tl px-fluid py-fluid relative w-full'>
+      <div className='tl sm:px-fluid pt-0 pb-8 sm:py-fluid relative w-full'>
         <div className='w-full flex items-center flex-col md:flex-row gap-8 xl:gap-10'>
           <div className='w-full max-w-[694px] flex-grow'>
             <h3 className='tl mb-8 lg:mb-10 xl:mb-12'>{data.title}</h3>

@@ -23,7 +23,7 @@ export const Intro = ({ data }: Props) => {
   };
   return (
     <Box as='section' id='home-intro'>
-      <div className='tl px-fluid py-fluid !pb-0 relative w-full flex items-center flex-col lg:flex-row'>
+      <div className='tl sm:px-fluid py-fluid !pb-0 relative w-full flex items-center flex-col lg:flex-row'>
         <h2 className='lg:max-w-[740px] xl:max-w-[840px]'>
           <ReactMarkdown
             components={{

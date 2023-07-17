@@ -2,12 +2,15 @@
 
 import { useRouter } from 'next/navigation';
 
+import { MEDIA_QUERY, useMediaQuery } from '@/hooks/use-media';
+
 import { Tag } from './Tag';
 import { ATIPY_ICON, AtipyIcon } from '../common/icons/AtipyIcon';
 
 import type { PostType } from '@/ts';
 
 export const PostItem = ({ title, tags, timeToRead, slug }: PostType) => {
+  const matchSM = useMediaQuery(MEDIA_QUERY.SM);
   const router = useRouter();
 
   return (
@@ -24,7 +27,7 @@ export const PostItem = ({ title, tags, timeToRead, slug }: PostType) => {
 
         <div className='flex-shrink-0 flex items-center gap-x-2'>
           <span className='text-body1'>{timeToRead}</span>
-          <AtipyIcon type={ATIPY_ICON.CLOCK} size='lg' />
+          <AtipyIcon type={ATIPY_ICON.CLOCK} size={matchSM ? 'md' : 'lg'} />
         </div>
       </div>
 
