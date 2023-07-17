@@ -1,5 +1,6 @@
 import clsxm from '@/lib/clsxm';
 
+import { AboutIcon } from './vectors/About.icon';
 import { ArrowCircleLeftIcon } from './vectors/ArrowCircleLeft.icon';
 import { ArrowCircleRightIcon } from './vectors/ArrowCircleRight.icon';
 import { ArrowDownIcon } from './vectors/ArrowDown.icon';
@@ -7,14 +8,17 @@ import { ArrowLeftIcon } from './vectors/ArrowLeft.icon';
 import { ArrowRightIcon } from './vectors/ArrowRight.icon';
 import { ArrowUpIcon } from './vectors/ArrowUp.icon';
 import { ClockIcon } from './vectors/Clock.icon';
+import { ConceptionIcon } from './vectors/Conception.icon';
 import { CrossIcon } from './vectors/Cross.icon';
 import { EnvelopIcon } from './vectors/Envelop.icon';
 import { InstaIcon } from './vectors/Insta.icon';
 import { IconProps } from './vectors/interface';
 import { LinkedinIcon } from './vectors/Linkedin.icon';
 import { MoonIcon } from './vectors/Moon.icon';
+import { PartnersIcon } from './vectors/Partners.icon';
 import { PhoneIcon } from './vectors/Phone.icon';
 import { SunIcon } from './vectors/Sun.icon';
+import { TribuIcon } from './vectors/Tribu.icon';
 import { TwitterIcon } from './vectors/Twitter.icon';
 
 export enum ATIPY_ICON {
@@ -33,6 +37,10 @@ export enum ATIPY_ICON {
   CLOCK = 'CLOCK',
   ARROW_CIRCLE_LEFT = 'ARROW_CIRCLE_LEFT',
   ARROW_CIRCLE_RIGHT = 'ARROW_CIRCLE_RIGHT',
+  TRIBU = 'TRIBU',
+  PARTNERS = 'PARTNERS',
+  CONCEPTION = 'CONCEPTION',
+  ABOUT = 'ABOUT',
 }
 
 type AtipyIconSize =
@@ -83,6 +91,10 @@ export const AtipyIcon = ({ size = 'md', type, className }: AtipyIconProps) => {
     [ATIPY_ICON.CLOCK, ClockIcon],
     [ATIPY_ICON.ARROW_CIRCLE_LEFT, ArrowCircleLeftIcon],
     [ATIPY_ICON.ARROW_CIRCLE_RIGHT, ArrowCircleRightIcon],
+    [ATIPY_ICON.ABOUT, AboutIcon],
+    [ATIPY_ICON.PARTNERS, PartnersIcon],
+    [ATIPY_ICON.CONCEPTION, ConceptionIcon],
+    [ATIPY_ICON.TRIBU, TribuIcon],
   ]);
 
   const Icon: AtipyIconElement = icons.get(type) || CrossIcon;

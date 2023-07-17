@@ -471,6 +471,36 @@ html.no-scroll {
       }
     }
   }
+
+  .list-border-center {
+    border-top: 1px solid currentColor;
+    & > div:not(:last-child) {
+      border-bottom: 1px solid currentColor;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .list-border-center {
+      & > div:nth-child(1),
+      & > div:nth-child(3) {
+        border-right: 1px solid currentColor;
+      }
+      & > div:nth-child(3) {
+        border-bottom: none;
+      }
+    }
+  }
+  @media (min-width: 1280px) {
+    .list-border-center {
+      & > div:not(:last-child) {
+        border-right: 1px solid currentColor;
+      }
+      & > div:nth-child(1),
+      & > div:nth-child(2) {
+        border-bottom: none;
+      }
+    }
+  }
 }
 /* #endregion  /**======== Utilies =========== */
 
