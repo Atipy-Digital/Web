@@ -1,3 +1,5 @@
+'use client';
+
 import { FooterMenuSocial } from './FooterMenuSocial';
 import { FooterMenuText } from './FooterMenuText';
 
@@ -9,7 +11,7 @@ type Props = {
 
 export default function Footer({ data }: Props) {
   return (
-    <footer className='w-full border-t border-t-current'>
+    <footer className='w-full border-t border-t-current relative z-[6] bg-white dark:bg-black'>
       <div className='w-full flex items-center flex-col justify-between h-full'>
         <nav className='tl px-fluid flex flex-col md:flex-row items-center justify-between flex-grow w-full gap-y-6 md:gap-y-0 !py-4 lg:!py-6 xl:!py-8'>
           <FooterMenuText {...data.menuText1} />

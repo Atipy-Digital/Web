@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
 
+import { isClient } from '@/lib/constants';
 import { useTheme } from '@/hooks/use-theme';
 
 import { Box } from '@/components/common/Box';
@@ -16,6 +17,14 @@ type Props = {
 
 export const Banner = ({ data }: Props) => {
   const { prefixImg } = useTheme();
+
+  const goToIntroSection = () => {
+    if (!isClient) return;
+
+    const el = document.getElementById('home-intro');
+
+    el?.scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
     <Box
@@ -40,15 +49,15 @@ export const Banner = ({ data }: Props) => {
               className='w-full object-cover object-center'
             />
           </div>
-          <motion.a
+          <motion.button
             className='tl flex-shrink-0 cursor-pointer mx-auto mt-10 md:mt-0 flex items-center justify-center rounded-full w-16 h-16 md:w-20 md:h-20 lg:w-[102px] lg:h-[102px]'
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
-            href='#home-intro'
             aria-label='aller a la section intro'
+            onClick={goToIntroSection}
           >
             <AtipyIcon type={ATIPY_ICON.ARROW_DOWN} size='full' />
-          </motion.a>
+          </motion.button>
         </div>
       </div>
     </Box>
