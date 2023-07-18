@@ -15,6 +15,7 @@ const ROUTES = [
   'expertises',
   'posts',
   'realisations',
+  'realisations/clients',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
