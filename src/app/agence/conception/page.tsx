@@ -5,6 +5,9 @@ import { siteOrigin } from '@/lib/constants';
 import { BottomNav } from '@/components/common/BottomNav';
 import { HeaderPage } from '@/components/layout/HeaderPage';
 import { Page } from '@/components/layout/Page';
+import { Sections } from '@/components/sections/agence/conception/Sections';
+
+import { getConceptionData } from '@/services/conception.service';
 
 export const metadata: Metadata = {
   alternates: {
@@ -14,6 +17,8 @@ export const metadata: Metadata = {
 };
 
 export default function ConceptionPage() {
+  const dataPage = getConceptionData();
+
   return (
     <Page>
       <HeaderPage
@@ -36,8 +41,9 @@ export default function ConceptionPage() {
           label: 'La Tribu',
           url: '/agence/tribu',
         }}
+        intro={dataPage?.intro}
       />
-
+      {dataPage?.sections && <Sections sections={dataPage.sections} />}
       <BottomNav
         previousLink={{
           label: "L'agence",
