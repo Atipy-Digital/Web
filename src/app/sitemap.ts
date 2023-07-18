@@ -5,7 +5,17 @@ import { siteOrigin } from '@/lib/constants';
 import { getPostsSlug } from '@/services/post.service';
 import { getProjectsSlug } from '@/services/project.service';
 
-const ROUTES = ['agence', 'contact', 'expertises', 'realisations'];
+const ROUTES = [
+  'agence',
+  'agence/about',
+  'agence/conception',
+  'agence/partners',
+  'agence/tribu',
+  'contact',
+  'expertises',
+  'posts',
+  'realisations',
+];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const slugPosts = getPostsSlug();

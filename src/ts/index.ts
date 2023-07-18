@@ -2,6 +2,7 @@ export * from './about-page';
 export * from './agence-page';
 export * from './card';
 export * from './client';
+export * from './conception-page';
 export * from './contact';
 export * from './engagement';
 export * from './footer';
