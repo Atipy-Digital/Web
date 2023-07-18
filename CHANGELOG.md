@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.9.0](https://github.com/Atipy-Digital/Web/compare/v0.8.1...v0.9.0) (2023-07-18)
+
+
+### Features
+
+* **assets:** change imgs of the new design ([#24](https://github.com/Atipy-Digital/Web/issues/24)) ([f590439](https://github.com/Atipy-Digital/Web/commit/f590439967c98e632bcc189a2765518aac1c2dfc))
+* **page:** conception page ([#26](https://github.com/Atipy-Digital/Web/issues/26)) ([3dd1e96](https://github.com/Atipy-Digital/Web/commit/3dd1e965716bbb522e81c07f17714d21d3f2231d))
+* **page:** our clients page ([#27](https://github.com/Atipy-Digital/Web/issues/27)) ([8ec8398](https://github.com/Atipy-Digital/Web/commit/8ec8398f3b3566abfed0b49a0e8d7e6c30098974))
+* scroll to top button ([#28](https://github.com/Atipy-Digital/Web/issues/28)) ([1bc75d4](https://github.com/Atipy-Digital/Web/commit/1bc75d48deeb1c6e252a89ac1856863eec9b3df8))
+
 ## [0.8.1](https://github.com/Atipy-Digital/Web/compare/v0.8.0...v0.8.1) (2023-07-17)
 
 
