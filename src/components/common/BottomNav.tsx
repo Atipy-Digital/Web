@@ -13,7 +13,7 @@ type LinkType = {
 
 type Props = {
   previousLink: LinkType;
-  nextLink: LinkType;
+  nextLink?: LinkType;
 };
 
 export const BottomNav = ({ previousLink, nextLink }: Props) => {
@@ -33,15 +33,17 @@ export const BottomNav = ({ previousLink, nextLink }: Props) => {
         </span>
       </Link>
 
-      <Link
-        href={nextLink.url}
-        className='flex items-center gap-2 md:gap-4 lg:gap-6'
-      >
-        <span className='link-hover-small text-[16px] md:text-body1'>
-          {nextLink.label}
-        </span>
-        <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_RIGHT} size={size} />
-      </Link>
+      {nextLink && (
+        <Link
+          href={nextLink.url}
+          className='flex items-center gap-2 md:gap-4 lg:gap-6'
+        >
+          <span className='link-hover-small text-[16px] md:text-body1'>
+            {nextLink.label}
+          </span>
+          <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_RIGHT} size={size} />
+        </Link>
+      )}
     </div>
   );
 };

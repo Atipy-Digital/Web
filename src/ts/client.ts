@@ -1,3 +1,4 @@
+import { SectionType } from './section';
 import { TagBusinessType } from './tag';
 
 export interface InputClientType {
@@ -12,3 +13,8 @@ export interface ClientType {
   logo?: string;
   tags: TagBusinessType[];
 }
+
+export type ClientPageDataType = {
+  intro: string;
+  sections: SectionType[];
+};

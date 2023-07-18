@@ -8,9 +8,14 @@ import { ColSectionType, SectionType } from '@/ts';
 
 interface SectionProps extends SectionType {
   smallGap?: boolean;
+  pClassName?: string;
 }
 
-const Col = ({ text, image, reverseMobile }: ColSectionType) => {
+interface ColProps extends ColSectionType {
+  pClassName?: string;
+}
+
+const Col = ({ text, image, reverseMobile, pClassName }: ColProps) => {
   const getColorText = (
     color: 'blue' | 'red' | 'green' | 'yellow' | undefined
   ) => {
@@ -49,7 +54,8 @@ const Col = ({ text, image, reverseMobile }: ColSectionType) => {
                 <p
                   className={clsxm(
                     'block w-full flex-grow',
-                    getColorText(text.color)
+                    getColorText(text.color),
+                    pClassName
                   )}
                 >
                   {children}
@@ -89,11 +95,17 @@ export const MarkdownSection = ({
   col2,
   col3,
   smallGap = false,
+  pClassName,
 }: SectionProps) => {
-  if (!col2?.text && !col2?.image && !col3?.text && !col3?.image) {
+  if (
+    !col2?.text?.content &&
+    !col2?.image?.url &&
+    !col3?.text?.content &&
+    !col3?.image?.url
+  ) {
     return (
       <div className='w-full flex flex-col mb-6 md:mb-10'>
-        <Col {...col1} />
+        <Col {...col1} pClassName={pClassName} />
       </div>
     );
   }
@@ -107,9 +119,13 @@ export const MarkdownSection = ({
           : 'gap-6 md:gap-10 lg:gap-16 xl:gap-24'
       )}
     >
-      <Col {...col1} />
-      {(col2?.text || col2?.image) && <Col {...col2} />}
-      {(col3?.text || col3?.image) && <Col {...col3} />}
+      <Col {...col1} pClassName={pClassName} />
+      {(col2?.text?.content || col2?.image?.url) && (
+        <Col {...col2} pClassName={pClassName} />
+      )}
+      {(col3?.text?.content || col3?.image?.url) && (
+        <Col {...col3} pClassName={pClassName} />
+      )}
     </section>
   );
 };

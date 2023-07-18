@@ -70,8 +70,8 @@ const typographyStyle = (theme) => ({
     lineHeight: 1.325,
     fontFamily: 'Roboto, sans-serif',
     color: 'currentColor',
-    marginTop: '0 !important',
-    marginBottom: '1rem !important',
+    marginTop: '0',
+    marginBottom: '1rem',
   },
   ul: {
     marginTop: '1rem !important',

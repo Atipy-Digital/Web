@@ -1,8 +1,10 @@
 'use client';
 
+import { useRouter } from 'next/navigation';
 import { useMemo, useState } from 'react';
 
 import { Box } from '@/components/common/Box';
+import { Button } from '@/components/primitives/Button';
 import { ProjectList } from '@/components/primitives/ProjectList';
 import { Tag } from '@/components/primitives/Tag';
 
@@ -11,6 +13,7 @@ import { useAppStore } from '@/store/use-app-store';
 import { FilterTags } from './components/FilterTags';
 
 export const AllProjects = () => {
+  const router = useRouter();
   const projects = useAppStore((store) => store.projects);
   const businessTags = useAppStore((store) => store.tagsBusiness);
   const expertiseTags = useAppStore((store) => store.tagsExpertise);
@@ -102,6 +105,12 @@ export const AllProjects = () => {
       <Box className='tl px-0 md:px-fluid relative w-full pt-10 md:pt-14 lg:pt-20 xl:pt-24 flex justify-center items-center'>
         <ProjectList data={projectsFiltered} />
       </Box>
+
+      <div className='w-full flex items-center justify-center mt-10 lg:mt-14 xl:mt-20'>
+        <Button icon onClick={() => router.push('/realisations/clients')}>
+          Tous nos clients
+        </Button>
+      </div>
     </section>
   );
 };
