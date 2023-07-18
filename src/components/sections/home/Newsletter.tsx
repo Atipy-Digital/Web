@@ -37,10 +37,10 @@ export const Newsletter = ({ data }: Props) => {
   });
 
   return (
-    <section className='w-full bg-a-yellow-dark text-black xl:pt-4'>
+    <section className='w-full bg-a-yellow-dark text-black lg:py-4'>
       <Box className='max-w-[1920px]'>
-        <div className='tl py-fluid relative w-full flex items-center md:items-start lg:items-end flex-col lg:flex-row lg:gap-x-8'>
-          <div className='tl lg:w-fit md:max-w-[596px] lg:max-w-[700px] flex-grow text-center md:text-left flex-shrink-0'>
+        <div className='tl py-fluid relative w-full flex items-center md:items-start lg:items-end flex-col lg:flex-row'>
+          <div className='tl lg:w-fit text-center md:text-left flex-shrink-0'>
             <h3 className='leading-tight'>
               <ReactMarkdown>{data.title}</ReactMarkdown>
             </h3>
@@ -48,39 +48,41 @@ export const Newsletter = ({ data }: Props) => {
           </div>
 
           <div className='tl flex-grow flex items-center justify-center flex-col md:flex-row mt-8 lg:mt-0 w-full lg:w-auto'>
-            <form
-              className='tl relative z-[1] w-full flex items-center justify-between rounded-[6px] rounded-tr-[26px] rounded-br-[26px] bg-white text-black'
-              onSubmit={onSubmit}
-            >
-              <input
-                type='text'
-                className={clsxm(
-                  'tl h-[54px] w-full appearance-none border-none p-4 bg-white text-black text-[16px] md:text-[18px] lg:text-[20px] xl:text-[25px] rounded-[6px]',
-                  'focus:!border-white focus:ring-0 active:decoration-0 active:ring-0'
-                )}
-                placeholder={data.placeholder}
-                {...rules.email}
-              />
-              <Button
-                type='submit'
-                icon
-                className='dark:text-white dark:bg-black hover:dark:border-black hover:dark:bg-white hover:dark:text-black [&_svg]:!mr-3 md:[&_svg]:mr-5 [&_svg]:w-4 [&_svg]:h-4 md:[&_svg]:w-8 md:[&_svg]:h-8'
-                noAnim
+            <div className='w-full mr-auto lg:max-w-3xl desktop:max-w-4xl'>
+              <label
+                htmlFor='newsletter-input'
+                className='block text-body1 mb-2 font-secondary leading-none'
               >
-                {data.button.label}
-              </Button>
-            </form>
-            <div className='tl absolute top-0 bottom-0 -right-[40vw] md:-right-[45vw] hidden md:block lg:right-[inherit]'>
+                {data.placeholder}
+              </label>
+              <form
+                className='tl relative z-[1] w-full flex items-center justify-between rounded-[6px] rounded-tr-[26px] rounded-br-[26px] bg-white text-black'
+                onSubmit={onSubmit}
+              >
+                <input
+                  id='newsletter-input'
+                  type='text'
+                  className={clsxm(
+                    'tl h-[54px] w-full appearance-none border-none p-4 bg-white text-black text-[16px] md:text-[18px] lg:text-[20px] xl:text-[25px] rounded-[6px]',
+                    'focus:!border-white focus:ring-0 active:decoration-0 active:ring-0'
+                  )}
+                  {...rules.email}
+                />
+                <Button
+                  type='submit'
+                  icon
+                  className='dark:text-white dark:bg-black hover:dark:border-black hover:dark:bg-white hover:dark:text-black [&_svg]:!mr-3 md:[&_svg]:mr-5 [&_svg]:w-4 [&_svg]:h-4 md:[&_svg]:w-8 md:[&_svg]:h-8'
+                  noAnim
+                >
+                  {data.button.label}
+                </Button>
+              </form>
+            </div>
+            <div className='tl absolute top-0 bottom-0 right-0 hidden md:block max-w-[320px] lg:max-w-[395px]'>
               <img
-                src='/imgs/home/newsletter-bg.webp'
+                src='/imgs/home/newsletter-home.webp'
                 alt='background newsletter'
-                className='h-full w-auto object-contain bottom-0 object-bottom'
-              />
-
-              <img
-                src='/imgs/home/newsletter-icon.webp'
-                alt='newsletter icon'
-                className='tl absolute hidden lg:block md:w-28 xl:w-36 2xl:w-40 z-[1] top-10 md:top-7 2xl:top-10 -left-[58px] md:-left-[38px] xl:-left-[62px] 2xl:-left-[86px]'
+                className='h-full w-auto object-contain'
               />
             </div>
           </div>
