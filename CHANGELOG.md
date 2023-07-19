@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.0](https://github.com/Atipy-Digital/Web/compare/v0.9.0...v0.10.0) (2023-07-19)
+
+
+### Features
+
+* **page:** expertises page ([#29](https://github.com/Atipy-Digital/Web/issues/29)) ([2abb934](https://github.com/Atipy-Digital/Web/commit/2abb9347c4d726434f2efafdd2b949f2d67f9221))
+
 ## [0.9.0](https://github.com/Atipy-Digital/Web/compare/v0.8.1...v0.9.0) (2023-07-18)
 
 
