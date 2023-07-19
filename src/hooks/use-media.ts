@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 export enum MEDIA_QUERY {
   XL = '(min-width: 1279px) ',
   LG = '(max-width: 1023px)',
+  MD = '(max-width: 768px)',
   SM = '(max-width: 640px)',
 }
 
