@@ -73,7 +73,7 @@ const Col = ({ text, image, reverseMobile, pClassName }: ColProps) => {
         </article>
       )}
       {image?.url && (
-        <figure className='block w-full'>
+        <figure className={clsxm('block w-full', image?.className)}>
           <img
             src={image.url}
             alt={image?.legend ?? ''}

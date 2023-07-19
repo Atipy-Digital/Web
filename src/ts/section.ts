@@ -3,6 +3,7 @@ export type ColSectionType = {
   image?: {
     url: string;
     legend?: string;
+    className?: string;
   };
   text?: {
     color?: 'blue' | 'red' | 'green' | 'yellow';

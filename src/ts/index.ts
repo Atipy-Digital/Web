@@ -6,6 +6,7 @@ export * from './conception-page';
 export * from './contact';
 export * from './engagement';
 export * from './expertise-page';
+export * from './expertises';
 export * from './footer';
 export * from './home';
 export * from './metadata';
