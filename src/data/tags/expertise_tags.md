@@ -15,4 +15,7 @@ tag:
   - type: expertise
     label: Signalétique
     color: a-green
+  - type: expertise
+    label: Applications
+    color: a-red
 ---
