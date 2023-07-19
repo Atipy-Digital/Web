@@ -5,35 +5,65 @@ import { MarkdownText } from './MarkdownText';
 import { ATIPY_ICON, AtipyIcon } from '../common/icons/AtipyIcon';
 
 type Props = {
-  iconType: ATIPY_ICON;
+  iconType?: ATIPY_ICON;
   title: string;
   text: string;
   onClick: () => void;
+  urlHeaderImg?: string;
 };
 
-export const CardPage = ({ iconType, onClick, text, title }: Props) => {
+export const CardPage = ({
+  iconType,
+  onClick,
+  text,
+  title,
+  urlHeaderImg,
+}: Props) => {
   return (
-    <div className='w-full px-4 py-8 md:p-8 xl:p-10  2xl:p-14 3xl:p-16 flex flex-col 2xl:min-h-[675px]'>
-      <div className='w-full flex flex-row gap-8 md:flex-col'>
-        <div className='max-h-[80px] xl:max-h-[105px] [&_svg]:w-auto [&_svg]:h-full'>
-          <AtipyIcon type={iconType} />
-        </div>
-        <h3 className='h3-card py-8'>
-          {iconType === ATIPY_ICON.ABOUT ? (
+    <div className='w-full px-fluid !py-8 md:!p-8 xl:!p-10  2xl:!p-12 3xl:!p-14 flex flex-col 2xl:min-h-[675px] desktop:min-h-[748px]'>
+      <div className='w-full flex gap-8 flex-col items-center md:items-start mb-8 md:mb-0'>
+        {iconType && (
+          <div className='max-h-[96px] xl:max-h-[105px] [&_svg]:w-auto [&_svg]:h-full'>
+            {iconType && <AtipyIcon type={iconType} />}
+          </div>
+        )}
+
+        {urlHeaderImg && (
+          <div className='max-w-[118px] md:max-w-none md:max-h-[80px] lg:max-h-[96px] xl:max-h-[100px]'>
+            <img
+              src={urlHeaderImg}
+              alt=''
+              className='block h-full w-auto object-contain'
+            />
+          </div>
+        )}
+
+        <h3 className='h3-card md:pb-8 text-center md:text-left'>
+          {iconType && (
             <>
-              Qui <br />
-              sommes-nous ?
+              {iconType === ATIPY_ICON.ABOUT ? (
+                <>
+                  Qui <br />
+                  sommes-nous ?
+                </>
+              ) : (
+                title
+              )}
             </>
-          ) : (
-            title
           )}
+          {urlHeaderImg && title}
         </h3>
       </div>
-      <MarkdownText className='text-body1 font-secondary text-center sm:text-left'>
+      <MarkdownText
+        className='text-body1 font-secondary text-center md:text-left'
+        components={{
+          code: ({ children }) => <span className='underline'>{children}</span>,
+        }}
+      >
         {text}
       </MarkdownText>
 
-      <div className='flex w-full mt-auto pt-6 lg:pt-8 xl:pt-10 2xl:pt-4'>
+      <div className='flex justify-center md:justify-start w-full mt-auto pt-8 xl:pt-10 2xl:pt-4'>
         <Button
           icon
           onClick={onClick}

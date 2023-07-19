@@ -2,19 +2,33 @@ import { Metadata } from 'next';
 
 import { siteOrigin } from '@/lib/constants';
 
+import { HeaderPage } from '@/components/layout/HeaderPage';
 import { Page } from '@/components/layout/Page';
+import { ExpertiseCards } from '@/components/sections/expertises/ExpertiseCards';
+
+import { getExpertisePageData } from '@/services/expertise.service';
 
 export const metadata: Metadata = {
   alternates: {
     canonical: `${siteOrigin}/expertises`,
   },
-  title: 'Expertises',
+  title: 'Nos expertises',
 };
 
 export default function Expertises() {
+  const dataPage = getExpertisePageData();
+
   return (
     <Page>
-      <div>Expertises</div>
+      <HeaderPage
+        title='Nos expertises'
+        currentLink={{
+          label: 'Nos expertises',
+          url: '/expertises',
+        }}
+        boxClassName='!mb-0'
+      />
+      {dataPage && <ExpertiseCards data={dataPage} />}
     </Page>
   );
 }

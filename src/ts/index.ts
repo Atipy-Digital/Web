@@ -5,6 +5,7 @@ export * from './client';
 export * from './conception-page';
 export * from './contact';
 export * from './engagement';
+export * from './expertise-page';
 export * from './footer';
 export * from './home';
 export * from './metadata';

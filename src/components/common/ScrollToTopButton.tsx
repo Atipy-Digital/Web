@@ -28,7 +28,6 @@ export const ScrollToTopButton = () => {
   const controls = useAnimationControls();
   const matchXL = useMediaQuery(MEDIA_QUERY.XL);
   const matchLG = useMediaQuery(MEDIA_QUERY.LG);
-
   const smallDevice = matchLG ? 0.95 : 0.939;
   const valueToHide = matchXL ? 0.96 : smallDevice;
 
