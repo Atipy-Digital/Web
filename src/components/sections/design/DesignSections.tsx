@@ -6,8 +6,9 @@ import { useTheme } from '@/hooks/use-theme';
 
 import { Box } from '@/components/common/Box';
 import { MarkdownSection } from '@/components/primitives/MarkdownSection';
+import { SubPageCard } from '@/components/primitives/SubPageCard';
 
-import type { ExpertiseDesignType } from '@/ts';
+import { CARD_TYPE, type ExpertiseDesignType } from '@/ts';
 
 type Props = {
   data: Omit<ExpertiseDesignType, 'title'>;
@@ -33,6 +34,7 @@ export const DesignSections = ({ data }: Props) => {
                 className: 'max-w-[509px]',
               },
             }}
+            inverseCol
           />
         </div>
 
@@ -42,6 +44,35 @@ export const DesignSections = ({ data }: Props) => {
             key={`design-page-section-${nanoid(7)}`}
           />
         ))}
+
+        <div className='mt-10 md:mt-16 lg:mt-20 xl:mt-24'>
+          <h4 className='text-a-green-dark dark:text-a-green-light mb-10 font-primary font-bold'>
+            Nos expertises
+          </h4>
+
+          <div className='w-full grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6 lg:gap-8 xl:gap-10 2xl:gap-12'>
+            {data.expertises.map((xp) => {
+              return (
+                <SubPageCard
+                  icon={xp.icon}
+                  path={`/expertises/design/${xp.slug}`}
+                  title={xp.title}
+                  type={xp.color}
+                  key={`sub-page-design-${xp.slug}`}
+                />
+              );
+            })}
+            <SubPageCard
+              icon={{
+                type: 'design',
+                value: 'formation',
+              }}
+              path='/expertises/formation'
+              title='Formations et ateliers'
+              type={CARD_TYPE.DESIGN}
+            />
+          </div>
+        </div>
       </div>
     </Box>
   );

@@ -4,13 +4,11 @@ export type TagExpertiseType = {
   type: 'expertise';
   label: string;
   color: TagColor;
-  iconType?: string;
 };
 export type TagBusinessType = {
   type: 'business';
   label: string;
   color: TagColor;
-  iconType?: string;
 };
 
 export interface ITagExpertise extends TagExpertiseType {

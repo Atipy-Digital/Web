@@ -38,7 +38,7 @@ export const BottomNav = ({ previousLink, nextLink }: Props) => {
           href={nextLink.url}
           className='flex items-center gap-2 md:gap-4 lg:gap-6'
         >
-          <span className='link-hover-small text-[16px] md:text-body1'>
+          <span className='link-hover-small text-right text-[16px] md:text-body1'>
             {nextLink.label}
           </span>
           <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_RIGHT} size={size} />

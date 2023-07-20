@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next';
 
 import { siteOrigin } from '@/lib/constants';
 
+import { getExpertiseDesignSubPageSlugs } from '@/services/expertise.service';
 import { getPostsSlug } from '@/services/post.service';
 import { getProjectsSlug } from '@/services/project.service';
 
@@ -25,6 +26,7 @@ const ROUTES = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const slugPosts = getPostsSlug();
   const slugProjects = getProjectsSlug();
+  const slugExpertiseDesigns = getExpertiseDesignSubPageSlugs();
 
   return [
     {
@@ -44,6 +46,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...(slugProjects?.length
       ? slugProjects.map((slug) => ({
           url: `${siteOrigin}/realisations/${slug}`,
+          lastModified: new Date(),
+        }))
+      : []),
+    ...(slugExpertiseDesigns?.length
+      ? slugExpertiseDesigns.map((slug) => ({
+          url: `${siteOrigin}/expertises/design/${slug}`,
           lastModified: new Date(),
         }))
       : []),

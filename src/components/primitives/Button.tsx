@@ -13,7 +13,7 @@ interface Props
     >,
     'ref' | 'onAnimationStart' | 'onDragStart' | 'onDragEnd' | 'onDrag'
   > {
-  variant?: 'primary' | 'secondary';
+  variant?: 'primary' | 'secondary' | 'blue' | 'red' | 'green' | 'yellow';
   icon?: boolean;
   noAnim?: boolean;
 }
@@ -34,6 +34,22 @@ export const Button = ({
     [
       'secondary',
       'text-black border-3 border-black bg-white dark:text-white dark:bg-black dark:border-white hover:text-white hover:bg-black hover:dark:text-black hover:dark:bg-white',
+    ],
+    [
+      'blue',
+      'text-white border-3 border-a-blue-dark bg-a-blue-dark dark:text-black dark:border-a-blue-light dark:bg-a-blue-light hover:text-black hover:bg-white hover:dark:text-a-blue-light hover:dark:bg-black',
+    ],
+    [
+      'red',
+      'text-white border-3 border-a-red-dark bg-a-red-dark dark:text-black dark:border-a-red-light dark:bg-a-red-light hover:text-black hover:bg-white hover:dark:text-a-red-light hover:dark:bg-black',
+    ],
+    [
+      'green',
+      'text-white border-3 border-a-green-dark bg-a-green-dark dark:text-black dark:border-a-green-light dark:bg-a-green-light hover:text-black hover:bg-white hover:dark:text-a-green-light hover:dark:bg-black',
+    ],
+    [
+      'yellow',
+      'text-white border-3 border-a-yellow-dark bg-a-yellow-dark dark:text-black dark:border-a-yellow-light dark:bg-a-yellow-light hover:text-black hover:bg-white hover:dark:text-a-yellow-light hover:dark:bg-black',
     ],
   ]);
 
@@ -58,7 +74,7 @@ export const Button = ({
           className='mr-5 flex-shrink-0'
         />
       )}
-      <span className='flex-shrink-0'>{children}</span>
+      <span className='text-center lg:flex-shrink-0'>{children}</span>
     </motion.button>
   );
 };
