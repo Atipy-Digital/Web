@@ -9,7 +9,148 @@
   <body>
     <!-- Include the script that builds the page and powers Decap CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-    <script>
+
+    <script
+      src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/dataformsjs@5/js/react/jsxLoader.min.js"></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/dataformsjs@5/js/web-components/old-browser-warning.min.js"
+    ></script>
+    <script type="text/babel" data-type="module">
+      class SelectIconControl extends React.Component {
+        static defaultProps = {
+          options: [
+            {
+              label: 'Ordinateur',
+              value: 'computer',
+              type: 'ingenierie',
+            },
+            {
+              label: 'Formation',
+              value: 'formation',
+              type: 'design',
+            },
+            {
+              label: 'Flèche droite',
+              value: 'arrowRight',
+              type: 'design',
+            },
+            {
+              label: 'Geométrie',
+              value: 'geometry',
+              type: 'design',
+            },
+            {
+              label: 'Ordinateur',
+              value: 'computer',
+              type: 'digital',
+            },
+            {
+              label: 'Formation',
+              value: 'formation',
+              type: 'formation',
+            },
+          ],
+        };
+
+        handleChange = (event) => {
+          const { onChange, field, options } = this.props;
+          const selectedOption = event.target.value;
+          const isEmpty = !selectedOption;
+
+          if (isEmpty) {
+            onChange(null);
+          } else {
+            if (selectedOption !== 'default') {
+              const type = field.get('type');
+              onChange(
+                options.find(
+                  (opt) => opt.value === selectedOption && opt.type === type
+                )
+              );
+            } else {
+              onChange(null);
+            }
+          }
+        };
+
+        renderOption = (opt) => {
+          return (
+            <div
+              style={{
+                padding: '4px 0px',
+                display: 'flex',
+                alignItems: 'center',
+              }}
+            >
+              <img
+                src={`/icons/${opt.type}/${opt.value}.svg`}
+                alt=''
+                style={{
+                  flexShrink: 0,
+                  width: 'auto',
+                  height: 32,
+                  marginRight: '4px',
+                }}
+              />
+              <span>{opt.label}</span>
+            </div>
+          );
+        };
+
+        componentDidMount() {
+          const { field, onChange, value, ...rest } = this.props;
+          if (!value) {
+            onChange(null);
+          } else {
+            onChange(value);
+          }
+        }
+
+        render() {
+          const { field, value, forID, classNameWrapper, options } = this.props;
+
+          const type = field.get('type');
+          const optionsFiltered =
+            options.filter((opt) => opt.type === type) || [];
+
+          const currentOption = optionsFiltered.find(
+            (opt) => opt.value === value?.value
+          );
+
+          return (
+            <div id={forID} className={classNameWrapper}>
+              <select
+                value={value?.value || 'default'}
+                onChange={this.handleChange}
+                style={{
+                  width: '100%',
+                  display: 'block',
+                  border: 'none',
+                }}
+              >
+                <option value='default'>Choisir un Picto</option>
+                {optionsFiltered.map((opt) => (
+                  <option value={opt.value}>{opt.label}</option>
+                ))}
+              </select>
+              {currentOption && this.renderOption(currentOption)}
+            </div>
+          );
+        }
+      }
+
+      const schema = {
+        properties: {
+          type: { type: 'string' },
+        },
+      };
+
+      CMS.registerWidget('icon_select', SelectIconControl, undefined, schema);
+
       CMS.registerPreviewStyle('/admin-styles.css');
     </script>
   </body>

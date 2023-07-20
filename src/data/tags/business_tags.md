@@ -2,8 +2,11 @@
 tag:
   - type: business
     label: Département
-    color: a-blue
+    color: default
   - type: business
     label: Santé
-    color: a-blue
+    color: default
+  - type: business
+    color: default
+    label: Administration
 ---

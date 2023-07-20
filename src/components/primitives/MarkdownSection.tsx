@@ -7,8 +7,10 @@ import clsxm from '@/lib/clsxm';
 import { ColSectionType, SectionType } from '@/ts';
 
 interface SectionProps extends SectionType {
+  inverseCol?: boolean;
   smallGap?: boolean;
   pClassName?: string;
+  className?: string;
 }
 
 interface ColProps extends ColSectionType {
@@ -91,11 +93,13 @@ const Col = ({ text, image, reverseMobile, pClassName }: ColProps) => {
 };
 
 export const MarkdownSection = ({
+  inverseCol = false,
   col1,
   col2,
   col3,
   smallGap = false,
   pClassName,
+  className,
 }: SectionProps) => {
   if (
     !col2?.text?.content &&
@@ -104,7 +108,7 @@ export const MarkdownSection = ({
     !col3?.image?.url
   ) {
     return (
-      <div className='w-full flex flex-col mb-6 md:mb-10'>
+      <div className={clsxm('w-full flex flex-col mb-6 md:mb-10', className)}>
         <Col {...col1} pClassName={pClassName} />
       </div>
     );
@@ -112,11 +116,13 @@ export const MarkdownSection = ({
   return (
     <section
       className={clsxm(
-        'tl w-full flex flex-col mb-6 md:mb-10',
+        'tl w-full flex mb-6 md:mb-10',
+        inverseCol ? 'flex-col-reverse' : 'flex-col',
         'md:flex-row',
         smallGap
           ? 'gap-6 lg:gap-8 xl:gap-10'
-          : 'gap-6 md:gap-10 lg:gap-16 xl:gap-24'
+          : 'gap-6 md:gap-10 lg:gap-16 xl:gap-24',
+        className
       )}
     >
       <Col {...col1} pClassName={pClassName} />

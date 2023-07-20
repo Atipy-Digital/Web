@@ -1,3 +1,4 @@
+import { CARD_TYPE } from './card';
 import { MetadataType } from './metadata';
 import { SectionType } from './section';
 
@@ -13,15 +14,22 @@ export type ExpertisePageDataType = {
 
 export type ExpertiseSubPageType = {
   metadata: MetadataType;
+  date: string;
   slug: string;
   title: string;
-  icon: string;
+  color: CARD_TYPE;
+  icon: {
+    type: 'ingenierie' | 'design' | 'digital' | 'formation';
+    value: string;
+  };
   intro: string;
   sections: SectionType[];
-  btn: {
-    label: string;
-    color: 'blue' | 'green' | 'red' | 'yellow';
-    tag: string;
+  footer: {
+    btn: {
+      label: string;
+      color: 'blue' | 'green' | 'red' | 'yellow';
+      tag: string;
+    };
+    titleContact: string;
   };
-  titleContact: string;
 };

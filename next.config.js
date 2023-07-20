@@ -16,7 +16,15 @@ const nextConfig = {
           loader: '@svgr/webpack',
           options: {
             typescript: true,
-            icon: true,
+            icon: false,
+            svgoConfig: {
+              plugins: [
+                {
+                  name: 'prefixIds',
+                  active: false,
+                },
+              ],
+            },
           },
         },
       ],

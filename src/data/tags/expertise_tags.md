@@ -18,4 +18,7 @@ tag:
   - type: expertise
     label: Applications
     color: a-red
+  - type: expertise
+    label: Conception graphique
+    color: a-green
 ---

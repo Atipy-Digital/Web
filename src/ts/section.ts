@@ -12,6 +12,7 @@ export type ColSectionType = {
 };
 
 export type SectionType = {
+  inverseCol?: boolean;
   col1: ColSectionType;
   col2?: ColSectionType;
   col3?: ColSectionType;
