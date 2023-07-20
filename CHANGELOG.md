@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.11.0](https://github.com/Atipy-Digital/Web/compare/v0.10.0...v0.11.0) (2023-07-20)
+
+
+### Features
+
+* **page:** design expertise layout ([#31](https://github.com/Atipy-Digital/Web/issues/31)) ([ac0ff5e](https://github.com/Atipy-Digital/Web/commit/ac0ff5e7bb3d61b89a1013f8cb8cb548f5ed0ce4))
+* **page:** sub page design expertise ([#33](https://github.com/Atipy-Digital/Web/issues/33)) ([c35db0b](https://github.com/Atipy-Digital/Web/commit/c35db0b6fce740627a98411182f0aab2c19f11dd))
+
 ## [0.10.0](https://github.com/Atipy-Digital/Web/compare/v0.9.0...v0.10.0) (2023-07-19)
 
 
