@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `${siteOrigin}/expertises/design`,
   },
-  title: 'Expertise Design',
+  title: 'Design',
 };
 
 export default function ExpertiseDesign() {
@@ -22,7 +22,7 @@ export default function ExpertiseDesign() {
   return (
     <Page>
       <HeaderPage
-        title='Design'
+        title={dataPage?.title || 'Design'}
         links={[
           {
             label: 'Nos expertises',

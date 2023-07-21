@@ -43,6 +43,7 @@ export const getProjects = (): ProjectType[] => {
         mission_body: matterResult.data.mission_body,
         context_body: matterResult.data.context_body,
         project_sections: matterResult.data.project_sections,
+        projectsFeatured: [],
       });
     }
   }
@@ -57,6 +58,32 @@ export const getProjectBySlug = (slug: string): ProjectType | null => {
 
   const client = getClient(matterResult.data.project_client);
   const tags = getTagsExpertiseByLabels(matterResult.data.project_tags);
+
+  const projectsSlugs = matterResult.data?.projectsFeatured || [];
+  const projectsFeatured: ProjectType[] = [];
+
+  for (const project_slug of projectsSlugs) {
+    const result = readFile<InputProjectType>(
+      `${PATH_FOLDER}/${project_slug}.md`
+    );
+
+    if (result.data) {
+      const project_client = getClient(result.data.project_client);
+      const project_tags = getTagsExpertiseByLabels(result.data.project_tags);
+      projectsFeatured.push({
+        slug: project_slug,
+        title: result.data.title,
+        image: result.data.image,
+        client: project_client,
+        tags: project_tags,
+        mission_body: result.data.mission_body,
+        context_body: result.data.context_body,
+        project_sections: result.data.project_sections,
+        projectsFeatured: [],
+      });
+    }
+  }
+
   return {
     slug,
     title: matterResult.data.title,
@@ -66,6 +93,30 @@ export const getProjectBySlug = (slug: string): ProjectType | null => {
     mission_body: matterResult.data.mission_body,
     context_body: matterResult.data.context_body,
     project_sections: matterResult.data.project_sections,
+    projectsFeatured,
+    footer: matterResult.data?.footer,
+  };
+};
+export const getProjectNextLink = (slug: string) => {
+  const projects = getProjects();
+  if (!projects.length) return undefined;
+
+  const currentSubIndex = projects.findIndex((sp) => sp.slug === slug);
+  if (currentSubIndex === -1) return undefined;
+  if (currentSubIndex + 1 > projects.length) return undefined;
+  const subPage = projects[currentSubIndex + 1];
+  if (projects.length === 1) return undefined;
+  if (!subPage) {
+    const first = projects[0];
+    return {
+      label: first.title,
+      url: `/realisations/${first.slug}`,
+    };
+  }
+
+  return {
+    label: subPage.title,
+    url: `/realisations/${subPage.slug}`,
   };
 };
 

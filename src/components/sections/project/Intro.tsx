@@ -19,8 +19,8 @@ export const ProjectIntro = ({
   tags,
 }: Props) => {
   return (
-    <Box as='section'>
-      <div className='tl px-0 md:px-fluid relative w-full'>
+    <Box as='section' className='sm:px2-fluid lg:px-fluid'>
+      <div className='tl px-0 sm:px2-fluid lg:px-fluid relative w-full'>
         <div className='w-full'>
           <img
             src={image}

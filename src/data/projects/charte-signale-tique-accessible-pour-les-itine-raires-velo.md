@@ -97,4 +97,11 @@ project_sections:
         color: green
     col3:
       reverseMobile: false
+projectsFeatured:
+  - document-falc
+footer:
+  btn:
+    label: Découvrez nos projets signalétique
+    color: green
+    tag: Signalétique
 ---

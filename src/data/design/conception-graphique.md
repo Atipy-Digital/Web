@@ -7,8 +7,8 @@ metadata:
 title: Conception graphique
 date: 2023-07-19T11:58:55.284Z
 icon:
-  label: Geométrie
-  value: geometry
+  label: Conception Graphique - Vert
+  value: conceptionGraphique
   type: design
 color: DESIGN
 intro: >-

@@ -6,7 +6,9 @@ import { useMemo } from 'react';
 import clsxm from '@/lib/clsxm';
 
 import iconsDesign from '../icons/design';
+import iconsDigital from '../icons/digital';
 import iconsFormation from '../icons/formation';
+import iconsIngenierie from '../icons/ingenierie';
 
 import { CARD_TYPE, ExpertiseSubPageType } from '@/ts';
 
@@ -44,11 +46,25 @@ export const SubPageCard = ({ type, icon, path, title }: Props) => {
 
   const IconComponent = useMemo(() => {
     if (icon.type === 'design') {
-      return iconsDesign[icon.value ?? 'computer'];
+      return iconsDesign[icon.value ?? 'formation'] || iconsDesign['formation'];
     }
 
     if (icon.type === 'formation') {
-      return iconsFormation[icon.value ?? 'formation'];
+      return (
+        iconsFormation[icon.value ?? 'formation'] || iconsFormation['formation']
+      );
+    }
+
+    if (icon.type === 'digital') {
+      return (
+        iconsDigital[icon.value ?? 'formation'] || iconsDigital['formation']
+      );
+    }
+    if (icon.type === 'ingenierie') {
+      return (
+        iconsIngenierie[icon.value ?? 'formation'] ||
+        iconsIngenierie['formation']
+      );
     }
 
     return null;
@@ -59,15 +75,17 @@ export const SubPageCard = ({ type, icon, path, title }: Props) => {
       className={clsxm(
         'tl cursor-pointer w-full flex-1 flex flex-col justify-center rounded-[30px] bg-white dark:bg-black',
         sCard,
-        'p-2 xl:p-4 text-center'
+        'p-2 text-center'
       )}
       onClick={() => router.push(path)}
     >
       {IconComponent && (
-        <IconComponent className='flex-shrink-0 h-[80px] w-auto mx-auto lg:mr-auto lg:ml-[inherit]' />
+        <IconComponent className='flex-shrink-0 h-[80px] md:h-[96px] lg:h-[128px] 2xl:h-[150px] w-auto mx-auto' />
       )}
-      <div className='py-2 lg:py-4 xl:py-5'>
-        <p className='text-body1 font-bold leading-none text-center'>{title}</p>
+      <div className='pb-2 lg:pb-4 xl:pb-5'>
+        <p className='text-[16px] sm:text-body1 font-bold leading-none text-center break-words'>
+          {title}
+        </p>
       </div>
     </article>
   );

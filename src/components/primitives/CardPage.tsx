@@ -1,5 +1,7 @@
 'use client';
 
+import { MEDIA_QUERY, useMediaQuery } from '@/hooks/use-media';
+
 import { Button } from './Button';
 import { MarkdownText } from './MarkdownText';
 import { ATIPY_ICON, AtipyIcon } from '../common/icons/AtipyIcon';
@@ -19,9 +21,10 @@ export const CardPage = ({
   title,
   urlHeaderImg,
 }: Props) => {
+  const matchSM = useMediaQuery(MEDIA_QUERY.SM);
   return (
     <div className='w-full px-fluid !py-8 md:!p-8 xl:!p-10  2xl:!p-12 3xl:!p-14 flex flex-col 2xl:min-h-[675px] desktop:min-h-[748px]'>
-      <div className='w-full flex gap-8 flex-col items-center md:items-start mb-8 md:mb-0'>
+      <div className='w-full flex gap-8 flex-col mb-8 md:mb-0'>
         {iconType && (
           <div className='max-h-[96px] xl:max-h-[105px] [&_svg]:w-auto [&_svg]:h-full'>
             {iconType && <AtipyIcon type={iconType} />}
@@ -38,10 +41,10 @@ export const CardPage = ({
           </div>
         )}
 
-        <h3 className='h3-card md:pb-8 text-center md:text-left'>
+        <h3 className='h3-card md:pb-8'>
           {iconType && (
             <>
-              {iconType === ATIPY_ICON.ABOUT ? (
+              {iconType === ATIPY_ICON.ABOUT && !matchSM ? (
                 <>
                   Qui <br />
                   sommes-nous ?
@@ -55,7 +58,7 @@ export const CardPage = ({
         </h3>
       </div>
       <MarkdownText
-        className='text-body1 font-secondary text-center md:text-left'
+        className='text-body1 font-secondary'
         components={{
           code: ({ children }) => <span className='underline'>{children}</span>,
         }}
@@ -63,11 +66,11 @@ export const CardPage = ({
         {text}
       </MarkdownText>
 
-      <div className='flex justify-center md:justify-start w-full mt-auto pt-8 xl:pt-10 2xl:pt-4'>
+      <div className='flex w-full mt-auto pt-8 xl:pt-10 2xl:pt-4'>
         <Button
           icon
           onClick={onClick}
-          className='!text-[16px] lg:!text-[18px] 2xl:!text-[20px] 3xl:!text-[25px] mx-auto sm:mx-[inherit]'
+          className='!text-[16px] lg:!text-[18px] 2xl:!text-[20px]'
         >
           En savoir plus
         </Button>

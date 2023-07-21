@@ -52,7 +52,10 @@ export default function Realisations() {
             }}
           />
           {!!data.projectsFeatured.length && (
-            <ProjectsFeatured data={data.projectsFeatured} />
+            <ProjectsFeatured
+              data={data.projectsFeatured}
+              title='Projets à la une…'
+            />
           )}
           <AllProjects />
         </>

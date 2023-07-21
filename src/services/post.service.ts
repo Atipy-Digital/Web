@@ -65,3 +65,26 @@ export const getLastPosts = (num: number) => {
   const posts = getPosts();
   return posts.slice(0, num);
 };
+
+export const getNextPostLink = (slug: string) => {
+  const posts = getPosts();
+  if (!posts.length) return undefined;
+
+  const currentSubIndex = posts.findIndex((sp) => sp.slug === slug);
+  if (currentSubIndex === -1) return undefined;
+  if (currentSubIndex + 1 > posts.length) return undefined;
+  const subPage = posts[currentSubIndex + 1];
+  if (posts.length === 1) return undefined;
+  if (!subPage) {
+    const first = posts[0];
+    return {
+      label: first.title,
+      url: `/posts/${first.slug}`,
+    };
+  }
+
+  return {
+    label: subPage.title,
+    url: `/posts/${subPage.slug}`,
+  };
+};

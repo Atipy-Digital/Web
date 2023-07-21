@@ -42,6 +42,7 @@ export default function PartnerPage() {
           label: 'Qui sommes-nous ?',
           url: '/agence/about',
         }}
+        boxClassName='md:mb-0'
       />
       {pageData?.partners && <PartnerList data={pageData.partners} />}
       <BottomNav

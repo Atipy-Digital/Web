@@ -13,8 +13,8 @@ export const Sections = ({ sections }: Props) => {
   if (!sections.length) return null;
 
   return (
-    <Box className='tl mb-10 md:mb-14 lg:mb-16 xl:mb-20'>
-      <div className='px-0 md:px-fluid pt-8 lg:pt-12'>
+    <Box className='tl sm:px2-fluid lg:px-fluid mb-10 md:mb-14 lg:mb-16 xl:mb-20'>
+      <div className='px-0 sm:px2-fluid lg:px-fluid pt-8 lg:pt-12'>
         {sections.map((section) => (
           <MarkdownSection
             {...section}

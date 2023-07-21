@@ -22,42 +22,113 @@
     <script type="text/babel" data-type="module">
       class SelectIconControl extends React.Component {
         static defaultProps = {
+          value: '',
           options: [
             {
-              label: 'Ordinateur',
-              value: 'computer',
-              type: 'ingenierie',
+              label: 'Co Conception - Vert',
+              value: 'coConception',
+              type: 'design',
             },
             {
-              label: 'Formation',
+              label: 'Conception Graphique - Vert',
+              value: 'conceptionGraphique',
+              type: 'design',
+            },
+            {
+              label: 'Conseils et formations - Vert',
               value: 'formation',
               type: 'design',
             },
             {
-              label: 'Flèche droite',
-              value: 'arrowRight',
+              label: 'Identité Visuelle - Vert',
+              value: 'identiteVisuelle',
               type: 'design',
             },
             {
-              label: 'Geométrie',
-              value: 'geometry',
+              label: 'Langage Clair - Vert',
+              value: 'langageClair',
               type: 'design',
             },
             {
-              label: 'Ordinateur',
-              value: 'computer',
+              label: 'Mobilité - Vert',
+              value: 'mobilite',
+              type: 'design',
+            },
+            {
+              label: 'Signalétique - Vert',
+              value: 'signaletique',
+              type: 'design',
+            },
+            {
+              label: 'Formation - Jaune',
+              value: 'formation',
+              type: 'formation',
+            },
+            {
+              label: 'Accessibilité Numerique - Rouge',
+              value: 'accessibiliteNumerique',
               type: 'digital',
             },
             {
-              label: 'Formation',
+              label: 'Application Mobile - Rouge',
+              value: 'applicationMobile',
+              type: 'digital',
+            },
+            {
+              label: 'Conception Expertise - Rouge',
+              value: 'conceptionExpertise',
+              type: 'digital',
+            },
+            {
+              label: 'Conseils et formations - Rouge',
               value: 'formation',
-              type: 'formation',
+              type: 'digital',
+            },
+            {
+              label: 'Solution Web - Rouge',
+              value: 'solutionWeb',
+              type: 'digital',
+            },
+            {
+              label: 'Cadre Bati - Bleu',
+              value: 'accessibiliteCadreBati',
+              type: 'ingenierie',
+            },
+            {
+              label: 'Conception Universelle - Bleu',
+              value: 'accessibiliteConceptionUniverselle',
+              type: 'ingenierie',
+            },
+            {
+              label: 'Espaces Publics - Bleu',
+              value: 'espacesPublics',
+              type: 'ingenierie',
+            },
+            {
+              label: 'Conseils et formations - Bleu',
+              value: 'formation',
+              type: 'ingenierie',
+            },
+            {
+              label: 'Releve Multitechnique - Bleu',
+              value: 'releveMultitechnique',
+              type: 'ingenierie',
+            },
+            {
+              label: 'Schema Directeurs - Bleu',
+              value: 'schemaDirecteurs',
+              type: 'ingenierie',
+            },
+            {
+              label: 'Transport Mobilité - Bleu',
+              value: 'transportMobilite',
+              type: 'ingenierie',
             },
           ],
         };
 
         handleChange = (event) => {
-          const { onChange, field, options } = this.props;
+          const { onChange, options } = this.props;
           const selectedOption = event.target.value;
           const isEmpty = !selectedOption;
 
@@ -65,11 +136,11 @@
             onChange(null);
           } else {
             if (selectedOption !== 'default') {
-              const type = field.get('type');
+              const split = selectedOption.split('|');
+              const value = split[0];
+              const type = split[1];
               onChange(
-                options.find(
-                  (opt) => opt.value === selectedOption && opt.type === type
-                )
+                options.find((opt) => opt.value === value && opt.type === type)
               );
             } else {
               onChange(null);
@@ -102,11 +173,16 @@
         };
 
         componentDidMount() {
-          const { field, onChange, value, ...rest } = this.props;
-          if (!value) {
-            onChange(null);
-          } else {
-            onChange(value);
+          const { onChange, value, field } = this.props;
+
+          if (field.get('required')) {
+            if (!value) {
+              onChange(null);
+            } else {
+              const json = JSON.stringify(value);
+              const parse = JSON.parse(json);
+              onChange(parse);
+            }
           }
         }
 
@@ -115,16 +191,23 @@
 
           const type = field.get('type');
           const optionsFiltered =
-            options.filter((opt) => opt.type === type) || [];
+            options.filter((opt) =>
+              type === 'all' ? true : opt.type === type
+            ) || [];
 
-          const currentOption = optionsFiltered.find(
-            (opt) => opt.value === value?.value
-          );
+          const valueJS = () => {
+            if (!value) {
+              return value;
+            }
+            const json = JSON.stringify(value);
+            const parse = JSON.parse(json);
+            return parse;
+          };
 
           return (
             <div id={forID} className={classNameWrapper}>
               <select
-                value={value?.value || 'default'}
+                value={value ? `${value.value}|${value.type}` : 'default'}
                 onChange={this.handleChange}
                 style={{
                   width: '100%',
@@ -134,10 +217,12 @@
               >
                 <option value='default'>Choisir un Picto</option>
                 {optionsFiltered.map((opt) => (
-                  <option value={opt.value}>{opt.label}</option>
+                  <option value={`${opt.value}|${opt.type}`}>
+                    {opt.label}
+                  </option>
                 ))}
               </select>
-              {currentOption && this.renderOption(currentOption)}
+              {valueJS()?.label && this.renderOption(valueJS())}
             </div>
           );
         }

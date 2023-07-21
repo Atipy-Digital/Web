@@ -15,7 +15,7 @@ const NavItem = ({ link, name }: INavigation) => {
     <li key={link} className={clsxm('link-hover', isActive && 'active')}>
       <Link
         href={link}
-        className='tl text-base lg:text-lg xl:text-2xl leading-none'
+        className='tl text-base lg:text-lg xl:text-[22px] 3xl:text-2xl leading-none'
       >
         {name}
       </Link>

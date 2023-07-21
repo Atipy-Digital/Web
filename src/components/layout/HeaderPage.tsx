@@ -22,8 +22,10 @@ type Props = {
   prevLink?: BreadcrumbLinkProps;
   nextLink?: BreadcrumbLinkProps;
   boxClassName?: string;
+  breadcrumbBoxClassName?: string;
   align?: 'center' | 'left';
   breadcrumbClassName?: string;
+  titleClassName?: string;
 };
 
 export const HeaderPage = ({
@@ -36,6 +38,8 @@ export const HeaderPage = ({
   breadcrumbClassName,
   prevLink,
   nextLink,
+  titleClassName,
+  breadcrumbBoxClassName,
 }: Props) => {
   const matchXL = useMediaQuery(MEDIA_QUERY.XL);
   const matchSM = useMediaQuery(MEDIA_QUERY.SM);
@@ -43,98 +47,125 @@ export const HeaderPage = ({
   const size = matchXL ? 'mxl' : smallSize;
 
   return (
-    <Box className={clsxm('tl mb-0 md:mb-10 lg:mb-11 xl:mb-16', boxClassName)}>
-      <div className='tl px-0 pt-5 pb-10 md:px-fluid md:py-fluid w-full'>
+    <Box
+      className={clsxm(
+        'tl mb-0 md:mb-10 lg:mb-11 xl:mb-16 !max-w-full',
+        boxClassName
+      )}
+    >
+      <div className='tl px-0 pt-5 pb-8 sm:pb-10 md:py-fluid w-full'>
         <Breadcrumb
           links={links}
           currentLink={currentLink}
           align={align}
           className={breadcrumbClassName}
+          boxClassName={breadcrumbBoxClassName}
         />
 
         {!intro ? (
           <div
             className={clsxm(
-              'w-full',
-              prevLink && nextLink && 'flex items-center justify-between'
+              'mt-4 w-full',
+              (prevLink || nextLink) && 'flex items-center justify-between'
             )}
           >
             {prevLink && (
-              <Link
-                href={prevLink.url}
-                className='mt-4 absolute l-fluid hidden 3xl:flex items-center gap-2 md:gap-4 lg:gap-6'
-              >
-                <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_LEFT} size={size} />
-                <span className='link-hover-small text-[16px] md:text-body1'>
-                  {prevLink.label}
-                </span>
-              </Link>
+              <div className='hidden md:flex items-center flex-grow max-w-[20%] w-full min-w-[160px]'>
+                <Link
+                  href={prevLink.url}
+                  className='grid grid-cols-[auto_1fr] gap-2 md:gap-4 2xl:gap-6 leading-none mr-auto min-w-[160px]'
+                >
+                  <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_LEFT} size={size} />
+                  <span className='block line-truncate link-to-hover text-left text-[16px] md:text-body1 !leading-none my-auto'>
+                    {prevLink.label}
+                  </span>
+                </Link>
+              </div>
             )}
             <h2
               className={clsxm(
-                'h2-primary w-full mt-4',
-                align === 'center' ? 'text-center' : 'text-left'
+                'h2-primary w-full sm:px-4 lg:px-6 xl:px-8 whitespace-break-spaces flex-grow',
+                align === 'center' ? 'text-center' : 'text-left',
+                titleClassName
               )}
             >
               {title}
             </h2>
-            {nextLink && (
-              <Link
-                href={nextLink.url}
-                className='mt-4 absolute r-fluid hidden 3xl:flex items-center gap-2 md:gap-4 lg:gap-6'
-              >
-                <span className='link-hover-small text-[16px] md:text-body1'>
-                  {nextLink.label}
-                </span>
-                <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_RIGHT} size={size} />
-              </Link>
+            {nextLink ? (
+              <div className='hidden md:flex items-center flex-grow max-w-[20%] w-full min-w-[160px]'>
+                <Link
+                  href={nextLink.url}
+                  className='grid grid-cols-[auto_1fr] gap-2 md:gap-4 2xl:gap-6 leading-none ml-auto min-w-[160px]'
+                >
+                  <span className='block line-truncate link-to-hover text-right text-[16px] md:text-body1 !leading-none my-auto'>
+                    {nextLink.label}
+                  </span>
+                  <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_RIGHT} size={size} />
+                </Link>
+              </div>
+            ) : (
+              <div className='hidden md:flex items-center flex-grow max-w-[20%] w-full' />
             )}
           </div>
         ) : (
           <>
             <div
               className={clsxm(
-                'w-full',
-                prevLink && nextLink && 'flex items-center justify-between'
+                'mt-4 w-full',
+                (prevLink || nextLink) && 'flex items-center justify-between'
               )}
             >
               {prevLink && (
-                <Link
-                  href={prevLink.url}
-                  className='mt-4 absolute l-fluid hidden 3xl:flex items-center gap-2 md:gap-4 lg:gap-6'
-                >
-                  <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_LEFT} size={size} />
-                  <span className='link-hover-small text-[16px] md:text-body1'>
-                    {prevLink.label}
-                  </span>
-                </Link>
+                <div className='hidden md:flex items-center flex-grow max-w-[20%] w-full min-w-[160px]'>
+                  <Link
+                    href={prevLink.url}
+                    className='grid grid-cols-[auto_1fr] gap-2 md:gap-4 2xl:gap-6 leading-none mr-auto min-w-[160px]'
+                  >
+                    <AtipyIcon
+                      type={ATIPY_ICON.ARROW_CIRCLE_LEFT}
+                      size={size}
+                    />
+                    <span className='block line-truncate link-to-hover text-left text-[16px] md:text-body1 !leading-none my-auto'>
+                      {prevLink.label}
+                    </span>
+                  </Link>
+                </div>
               )}
               <h1
                 className={clsxm(
-                  'h2-primary w-full mt-4',
-                  align === 'center' ? 'text-center' : 'text-left'
+                  'h2-primary w-full sm:px-4 lg:px-6 xl:px-8 whitespace-break-spaces flex-grow',
+                  align === 'center' ? 'text-center' : 'text-left',
+                  titleClassName
                 )}
               >
                 {title}
               </h1>
 
-              {nextLink && (
-                <Link
-                  href={nextLink.url}
-                  className='mt-4 absolute r-fluid hidden 3xl:flex items-center gap-2 md:gap-4 lg:gap-6'
-                >
-                  <span className='link-hover-small text-[16px] md:text-body1'>
-                    {nextLink.label}
-                  </span>
-                  <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_RIGHT} size={size} />
-                </Link>
+              {nextLink ? (
+                <div className='hidden md:flex items-center flex-grow max-w-[20%] w-full min-w-[160px]'>
+                  <Link
+                    href={nextLink.url}
+                    className='grid grid-cols-[auto_1fr] gap-2 md:gap-4 2xl:gap-6 leading-none ml-auto min-w-[160px]'
+                  >
+                    <span className='block line-truncate link-to-hover text-right text-[16px] md:text-body1 !leading-none my-auto'>
+                      {nextLink.label}
+                    </span>
+                    <AtipyIcon
+                      type={ATIPY_ICON.ARROW_CIRCLE_RIGHT}
+                      size={size}
+                    />
+                  </Link>
+                </div>
+              ) : (
+                <div className='hidden md:flex items-center flex-grow max-w-[20%] w-full' />
               )}
             </div>
 
             <h2
               className={clsxm(
-                'h2-intro pt-6 md:pt-8 lg:pt-10',
-                align === 'center' ? 'text-center' : 'text-left'
+                'h2-intro pt-6 md:pt-8 lg:pt-10 max-w-8xl mx-auto',
+                align === 'center' ? 'sm:text-center' : 'text-left',
+                titleClassName
               )}
             >
               <ReactMarkdown

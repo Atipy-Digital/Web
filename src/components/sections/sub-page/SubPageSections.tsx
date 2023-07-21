@@ -28,6 +28,7 @@ export const SubPageSections = ({ data, type }: Props) => {
   const { prefixImg } = useTheme();
 
   const getCardType = (): TagColor => {
+    if (!data.footer?.btn?.color) return 'default';
     switch (data.footer.btn.color) {
       case 'blue':
         return 'a-blue';
@@ -44,6 +45,7 @@ export const SubPageSections = ({ data, type }: Props) => {
   };
 
   const goToProjects = () => {
+    if (!data.footer?.btn?.tag) return;
     onResetTags();
     setTagExpertiseActive({
       color: getCardType(),
@@ -55,7 +57,7 @@ export const SubPageSections = ({ data, type }: Props) => {
 
   return (
     <Box className='tl mb-10 md:mb-14 lg:mb-16 xl:mb-20'>
-      <div className='px-0 md:px-fluid pt-8 lg:pt-12'>
+      <div className='px-0 md:px-fluid md:pt-12'>
         <div className='mb-10 md:mb-16 lg:mb-20 xl:mb-24'>
           <MarkdownSection
             col1={{
@@ -67,8 +69,8 @@ export const SubPageSections = ({ data, type }: Props) => {
             col2={{
               reverseMobile: false,
               image: {
-                url: `/imgs/${type}/intro-${prefixImg}-design.webp`,
-                className: 'max-w-[509px]',
+                url: `/imgs/${type}/intro-${prefixImg}.webp`,
+                className: 'max-w-[509px] object-contain',
               },
             }}
             inverseCol
@@ -83,34 +85,43 @@ export const SubPageSections = ({ data, type }: Props) => {
           />
         ))}
 
-        <div className='my-10 flex flex-col items-center justify-center md:mt-14 lg:mt-20 xl:mt-24'>
-          <Button
-            icon
-            variant={data.footer.btn.color}
-            onClick={goToProjects}
-            className='mb-8 md:mb-10 lg:mb-14 xl:mb-20'
-          >
-            {data.footer.btn.label}
-          </Button>
+        {((data.footer?.btn?.color && data.footer?.btn?.label) ||
+          data.footer?.titleContact) && (
+          <div className='my-10 flex flex-col items-center justify-center md:mt-14 lg:mt-20 xl:mt-24'>
+            {data.footer?.btn?.color && data.footer?.btn?.label && (
+              <Button
+                icon
+                variant={data.footer.btn.color}
+                onClick={goToProjects}
+                className='mb-8 md:mb-10 lg:mb-14 xl:mb-20'
+              >
+                {data.footer.btn.label}
+              </Button>
+            )}
 
-          <h3 className='text-center leading-tight'>
-            {data.footer.titleContact}
-            <br />
-            Contactez-nous !
-          </h3>
-          <div className='flex items-center gap-x-2 md:gap-x-6 pt-7'>
-            <AtipyIcon
-              type={ATIPY_ICON.ENVELOP}
-              size={matchesSM ? 'md' : 'xl'}
-            />
-            <a
-              href='mailto:contact@atipy.fr'
-              className='text-body1 font-secondary'
-            >
-              contact@atipy.fr
-            </a>
+            {data.footer?.titleContact && (
+              <>
+                <h3 className='text-center leading-tight'>
+                  {data.footer.titleContact}
+                  <br />
+                  Contactez-nous !
+                </h3>
+                <div className='flex items-center gap-x-2 md:gap-x-6 pt-7'>
+                  <AtipyIcon
+                    type={ATIPY_ICON.ENVELOP}
+                    size={matchesSM ? 'md' : 'xl'}
+                  />
+                  <a
+                    href='mailto:contact@atipy.fr'
+                    className='text-body1 font-secondary'
+                  >
+                    contact@atipy.fr
+                  </a>
+                </div>
+              </>
+            )}
           </div>
-        </div>
+        )}
       </div>
     </Box>
   );

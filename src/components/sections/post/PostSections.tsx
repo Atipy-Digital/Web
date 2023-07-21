@@ -14,7 +14,7 @@ export const PostSections = ({ sections }: Props) => {
 
   return (
     <Box className='max-w-5xl'>
-      <div className='px-0 md:px-fluid pt-8 lg:pt-12'>
+      <div className='px-0 md:px-fluid pt-5 md:pt-8 lg:pt-12'>
         {sections.map((section) => (
           <MarkdownSection
             {...section}

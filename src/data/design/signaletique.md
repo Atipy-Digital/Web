@@ -7,8 +7,8 @@ metadata:
 title: Signalétique
 date: 2023-07-20T09:58:32.115Z
 icon:
-  label: Flèche droite
-  value: arrowRight
+  label: Signalétique - Vert
+  value: signaletique
   type: design
 color: DESIGN
 intro: >-

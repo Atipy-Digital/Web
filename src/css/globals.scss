@@ -230,18 +230,23 @@ html.dark * {
   h1,
   .h1 {
     @apply font-secondary font-light leading-none;
-    font-size: clamp(3rem, 3.8vw + 1.5rem, 6rem);
+    font-size: clamp(3rem, 3.8vw + 1.5rem, 5rem);
     span {
       @apply inline-block font-primary font-bold;
     }
     strong {
       @apply inline-block font-bold;
     }
+
+    @media (max-width: 321px) {
+      font-size: 40px;
+      line-height: 1.25;
+    }
   }
   h2,
   .h2 {
     @apply font-secondary font-light leading-tight;
-    font-size: clamp(1.875rem, 1.35vw + 1.5rem, 3.125rem);
+    font-size: clamp(1.875rem, 1.35vw + 1.5rem, 2.5rem);
     span {
       @apply font-primary font-bold underline;
       strong {
@@ -251,10 +256,10 @@ html.dark * {
   }
   .h2-primary {
     @apply font-primary font-bold leading-tight;
-    font-size: clamp(1.75rem, 2.292vw + 1rem, 3.75rem);
+    font-size: clamp(1.75rem, 1.8vw + 1rem, 2.25rem);
   }
   .h2-intro {
-    font-size: clamp(1.25rem, 1vw + 0.75rem, 1.875rem);
+    font-size: clamp(1.25rem, 1vw + 0.75rem, 1.5rem);
     @apply font-secondary font-light leading-tight;
     span {
       @apply font-primary font-bold no-underline;
@@ -266,20 +271,20 @@ html.dark * {
   h3,
   .h3 {
     @apply font-bold leading-none;
-    font-size: clamp(1.75rem, 2vw + 0.75rem, 3.125rem);
+    font-size: clamp(1.5rem, 2vw + 0.75rem, 2rem);
   }
   .h3-card {
     @apply font-bold leading-none;
-    font-size: clamp(1.5rem, 2vw + 0.75rem, 2.5rem);
+    font-size: clamp(1.375rem, 2vw + 0.75rem, 1.875rem);
   }
   h4,
   .h4 {
     @apply font-normal leading-none;
-    font-size: clamp(1.5rem, 1.25vw + 1rem, 2.5rem);
+    font-size: clamp(1.25rem, 1.25vw + 1rem, 1.563rem);
   }
   h6,
   .h6 {
-    font-size: clamp(1.375rem, 0.7vw + 1rem, 1.563rem);
+    font-size: clamp(1.125rem, 0.7vw + 1rem, 1.125rem);
     @apply font-bold;
   }
   /* #endregion  /**======== Typography =========== */
@@ -311,6 +316,15 @@ html.dark {
 
     &:hover .text-to-hover {
       text-decoration-color: rgba(255, 255, 255, 1);
+    }
+  }
+
+  .link-to-hover {
+    transition: text-decoration-color 0.3s ease;
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0);
+    &:hover {
+      text-decoration-color: rgba(0, 0, 0, 1);
     }
   }
 }
@@ -390,6 +404,15 @@ html.no-scroll {
       text-decoration-color: rgba(0, 0, 0, 1);
     }
   }
+  .link-to-hover {
+    transition: text-decoration-color 0.3s ease;
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0);
+    &:hover {
+      text-decoration-color: rgba(0, 0, 0, 1);
+    }
+  }
+
   .link-hover-small {
     position: relative;
     &:not(.active) {
@@ -430,7 +453,12 @@ html.no-scroll {
   }
 
   .px-fluid {
-    padding: 0 tovw(16px, 16px, 'mobile');
+    padding-left: tovw(16px, 16px, 'mobile');
+    padding-right: tovw(16px, 16px, 'mobile');
+  }
+  .px2-fluid {
+    padding-left: tovw(32px, 32px, 'mobile');
+    padding-right: tovw(32px, 32px, 'mobile');
   }
   .l-fluid {
     left: tovw(16px, 16px, 'mobile');
@@ -441,7 +469,12 @@ html.no-scroll {
 
   @media (min-width: 768px) {
     .px-fluid {
-      padding: 0 tovw(40px);
+      padding-left: tovw(40px);
+      padding-right: tovw(40px);
+    }
+    .px2-fluid {
+      padding-left: tovw(80px);
+      padding-right: tovw(80px);
     }
     .l-fluid {
       left: tovw(40px);

@@ -107,36 +107,81 @@ export const getExpertiseDesignPageData = (): ExpertiseDesignType | null => {
 };
 //#endregion  //*======== Expertise Design ===========
 
-export const getExpertiseDigitalPageData = (): ExpertiseDigitalType | null => {
-  const matterResult = readFile<ExpertiseDigitalType>(
-    'src/data/pages/digital.md'
+//#region  //*=========== Expertise Formation ===========
+const PATH_FOLDER_FORMATION = 'src/data/formation';
+
+export const getExpertiseFormationSubPageSlugs = () => {
+  return getSlugs(PATH_FOLDER_FORMATION);
+};
+export const getExpertiseFormationSubPageMetaData = (
+  slug: string
+): MetadataType | null => {
+  const matterResult = readFile<ExpertiseSubPageType>(
+    `${PATH_FOLDER_FORMATION}/${slug}.md`
+  );
+  if (!matterResult?.data) return null;
+  return matterResult.data.metadata;
+};
+export const getExpertiseFormationSubPages = (): ExpertiseSubPageType[] => {
+  const slugs = getExpertiseFormationSubPageSlugs();
+  if (!slugs) return [];
+  const subPages: ExpertiseSubPageType[] = [];
+
+  for (const slug of slugs) {
+    const matterResult = readFile<Omit<ExpertiseSubPageType, 'slug'>>(
+      `${PATH_FOLDER_FORMATION}/${slug}.md`
+    );
+
+    if (matterResult?.data) {
+      subPages.push({
+        slug,
+        ...matterResult.data,
+      });
+    }
+  }
+
+  if (!subPages.length) return [];
+
+  return subPages.sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
+};
+export const getExpertiseFormationSubPageBySlug = (
+  slug: string
+): ExpertiseSubPageType | null => {
+  const matterResult = readFile<Omit<ExpertiseSubPageType, 'slug'>>(
+    `${PATH_FOLDER_FORMATION}/${slug}.md`
   );
 
   if (!matterResult?.data) return null;
 
   return {
-    title: matterResult.data.title,
-    intro: matterResult.data.intro,
-    sections: matterResult.data.sections,
-    expertises: [],
+    slug,
+    ...matterResult.data,
   };
 };
+export const getExpertiseFormationSubPageNextLink = (slug: string) => {
+  const subPages = getExpertiseFormationSubPages();
+  if (!subPages.length) return undefined;
 
-export const getExpertiseEngineerPageData =
-  (): ExpertiseEngineerType | null => {
-    const matterResult = readFile<ExpertiseEngineerType>(
-      'src/data/pages/engineer.md'
-    );
-
-    if (!matterResult?.data) return null;
-
+  const currentSubIndex = subPages.findIndex((sp) => sp.slug === slug);
+  if (currentSubIndex === -1) return undefined;
+  if (currentSubIndex + 1 > subPages.length) return undefined;
+  const subPage = subPages[currentSubIndex + 1];
+  if (subPages.length === 1) return undefined;
+  if (!subPage) {
+    const first = subPages[0];
     return {
-      title: matterResult.data.title,
-      intro: matterResult.data.intro,
-      sections: matterResult.data.sections,
-      expertises: [],
+      label: first.title,
+      url: `/expertises/formation/${first.slug}`,
     };
+  }
+
+  return {
+    label: subPage.title,
+    url: `/expertises/formation/${subPage.slug}`,
   };
+};
 export const getExpertiseFormationPageData =
   (): ExpertiseFormationType | null => {
     const matterResult = readFile<ExpertiseFormationType>(
@@ -149,6 +194,176 @@ export const getExpertiseFormationPageData =
       title: matterResult.data.title,
       intro: matterResult.data.intro,
       sections: matterResult.data.sections,
-      expertises: [],
+      expertises: getExpertiseFormationSubPages(),
     };
   };
+//#endregion  //*======== Expertise Formation ===========
+
+//#region  //*=========== Expertise Digital ===========
+const PATH_FOLDER_DIGITAL = 'src/data/digital';
+
+export const getExpertiseDigitalSubPageSlugs = () => {
+  return getSlugs(PATH_FOLDER_DIGITAL);
+};
+export const getExpertiseDigitalSubPageMetaData = (
+  slug: string
+): MetadataType | null => {
+  const matterResult = readFile<ExpertiseSubPageType>(
+    `${PATH_FOLDER_DIGITAL}/${slug}.md`
+  );
+  if (!matterResult?.data) return null;
+  return matterResult.data.metadata;
+};
+export const getExpertiseDigitalSubPages = (): ExpertiseSubPageType[] => {
+  const slugs = getExpertiseDigitalSubPageSlugs();
+  if (!slugs) return [];
+  const subPages: ExpertiseSubPageType[] = [];
+
+  for (const slug of slugs) {
+    const matterResult = readFile<Omit<ExpertiseSubPageType, 'slug'>>(
+      `${PATH_FOLDER_DIGITAL}/${slug}.md`
+    );
+
+    if (matterResult?.data) {
+      subPages.push({
+        slug,
+        ...matterResult.data,
+      });
+    }
+  }
+
+  if (!subPages.length) return [];
+
+  return subPages.sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
+};
+export const getExpertiseDigitalSubPageBySlug = (
+  slug: string
+): ExpertiseSubPageType | null => {
+  const matterResult = readFile<Omit<ExpertiseSubPageType, 'slug'>>(
+    `${PATH_FOLDER_DIGITAL}/${slug}.md`
+  );
+
+  if (!matterResult?.data) return null;
+
+  return {
+    slug,
+    ...matterResult.data,
+  };
+};
+export const getExpertiseDigitalSubPageNextLink = (slug: string) => {
+  const subPages = getExpertiseDigitalSubPages();
+  if (!subPages.length) return undefined;
+
+  const currentSubIndex = subPages.findIndex((sp) => sp.slug === slug);
+  if (currentSubIndex == -1) return undefined;
+  if (currentSubIndex + 1 > subPages.length) return undefined;
+  const subPage = subPages[currentSubIndex + 1];
+  if (!subPage) return undefined;
+
+  return {
+    label: subPage.title,
+    url: `/expertises/digital/${subPage.slug}`,
+  };
+};
+export const getExpertiseDigitalPageData = (): ExpertiseDigitalType | null => {
+  const matterResult = readFile<ExpertiseDigitalType>(
+    'src/data/pages/digital.md'
+  );
+
+  if (!matterResult?.data) return null;
+
+  return {
+    title: matterResult.data.title,
+    intro: matterResult.data.intro,
+    sections: matterResult.data.sections,
+    expertises: getExpertiseDigitalSubPages(),
+  };
+};
+//#endregion  //*======== Expertise Digital ===========
+
+//#region  //*=========== Expertise Ingenierie ===========
+const PATH_FOLDER_INGENIERIE = 'src/data/ingenierie';
+
+export const getExpertiseIngenierieSubPageSlugs = () => {
+  return getSlugs(PATH_FOLDER_INGENIERIE);
+};
+export const getExpertiseIngenierieSubPageMetaData = (
+  slug: string
+): MetadataType | null => {
+  const matterResult = readFile<ExpertiseSubPageType>(
+    `${PATH_FOLDER_INGENIERIE}/${slug}.md`
+  );
+  if (!matterResult?.data) return null;
+  return matterResult.data.metadata;
+};
+export const getExpertiseIngenierieSubPages = (): ExpertiseSubPageType[] => {
+  const slugs = getExpertiseIngenierieSubPageSlugs();
+  if (!slugs) return [];
+  const subPages: ExpertiseSubPageType[] = [];
+
+  for (const slug of slugs) {
+    const matterResult = readFile<Omit<ExpertiseSubPageType, 'slug'>>(
+      `${PATH_FOLDER_INGENIERIE}/${slug}.md`
+    );
+
+    if (matterResult?.data) {
+      subPages.push({
+        slug,
+        ...matterResult.data,
+      });
+    }
+  }
+
+  if (!subPages.length) return [];
+
+  return subPages.sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
+};
+export const getExpertiseIngenierieSubPageBySlug = (
+  slug: string
+): ExpertiseSubPageType | null => {
+  const matterResult = readFile<Omit<ExpertiseSubPageType, 'slug'>>(
+    `${PATH_FOLDER_INGENIERIE}/${slug}.md`
+  );
+
+  if (!matterResult?.data) return null;
+
+  return {
+    slug,
+    ...matterResult.data,
+  };
+};
+export const getExpertiseIngenierieSubPageNextLink = (slug: string) => {
+  const subPages = getExpertiseIngenierieSubPages();
+  if (!subPages.length) return undefined;
+
+  const currentSubIndex = subPages.findIndex((sp) => sp.slug === slug);
+  if (currentSubIndex == -1) return undefined;
+  if (currentSubIndex + 1 > subPages.length) return undefined;
+  const subPage = subPages[currentSubIndex + 1];
+  if (!subPage) return undefined;
+
+  return {
+    label: subPage.title,
+    url: `/expertises/ingenierie/${subPage.slug}`,
+  };
+};
+export const getExpertiseIngenieriePageData =
+  (): ExpertiseEngineerType | null => {
+    const matterResult = readFile<ExpertiseEngineerType>(
+      'src/data/pages/ingenierie.md'
+    );
+
+    if (!matterResult?.data) return null;
+
+    return {
+      title: matterResult.data.title,
+      intro: matterResult.data.intro,
+      sections: matterResult.data.sections,
+      expertises: getExpertiseIngenierieSubPages(),
+    };
+  };
+//#endregion  //*======== Expertise Ingenierie ===========

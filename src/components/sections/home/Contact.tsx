@@ -21,12 +21,12 @@ export const Contact = ({ data }: Props) => {
   };
   return (
     <Box as='section' className='tl !py-10 lg:!py-12 xl:!py-16 2xl:!py-28'>
-      <div className='tl flex flex-col md:flex-row justify-center md:justify-start items-center px-fluid py-fluid relative w-full lg:gap-x-10 xl:gap-x-11 2xl:gap-x-24'>
-        <h3 className='flex-shrink-0 w-full md:max-w-[50vw] 2xl:max-w-[566px] leading-tight text-center md:text-left mb-8 md:mb-0'>
+      <div className='tl flex flex-col md:flex-row justify-center md:justify-between lg:justify-center items-center sm:px-fluid sm:py-fluid relative w-full lg:gap-x-16 xl:gap-x-20 2xl:gap-x-24'>
+        <h3 className='flex-shrink-0 md:max-w-[50vw] 2xl:max-w-[566px] leading-tight mb-8 md:mb-0'>
           <ReactMarkdown>{data.title}</ReactMarkdown>
         </h3>
 
-        <div className='w-full flex flex-col flex-grow justify-center items-center md:justify-start md:items-start'>
+        <div className='w-full sm:w-auto flex flex-col justify-center items-center md:justify-start md:items-start'>
           <Button icon onClick={redirectToContact}>
             Formulaire de contact
           </Button>

@@ -75,7 +75,7 @@ export const ContactForm = ({ data }: Props) => {
         <Button
           disabled={!isValid}
           type='submit'
-          className='mx-auto bg-a-blue-dark text-white dark:bg-a-blue-light dark:text-black border-a-blue-dark dark:border-a-blue-light px-10 mt-10'
+          className='mx-auto px-10 mt-10'
         >
           {data.button_text}
         </Button>

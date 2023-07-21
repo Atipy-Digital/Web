@@ -39,7 +39,11 @@ export const Intro = ({ data }: Props) => {
             alt='intro home'
             className='ta w-full object-center object-cover xl:-translate-y-24'
           />
-          <Button icon className='tl absolute xl:ml-52' onClick={onClick}>
+          <Button
+            icon
+            className='tl absolute 2xl:ml-52 flex-shrink-0'
+            onClick={onClick}
+          >
             {data.button.label}
           </Button>
         </div>

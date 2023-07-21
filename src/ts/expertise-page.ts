@@ -24,12 +24,12 @@ export type ExpertiseSubPageType = {
   };
   intro: string;
   sections: SectionType[];
-  footer: {
-    btn: {
-      label: string;
-      color: 'blue' | 'green' | 'red' | 'yellow';
-      tag: string;
+  footer?: {
+    btn?: {
+      label?: string;
+      color?: 'blue' | 'green' | 'red' | 'yellow';
+      tag?: string;
     };
-    titleContact: string;
+    titleContact?: string;
   };
 };
