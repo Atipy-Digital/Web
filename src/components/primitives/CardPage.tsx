@@ -32,7 +32,7 @@ export const CardPage = ({
         )}
 
         {urlHeaderImg && (
-          <div className='max-w-[118px] md:max-w-none md:max-h-[80px] lg:max-h-[96px] xl:max-h-[100px]'>
+          <div className='max-h-[80px] lg:max-h-[96px] xl:max-h-[100px]'>
             <img
               src={urlHeaderImg}
               alt=''
