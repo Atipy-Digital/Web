@@ -24,7 +24,7 @@ export const Tag = ({
       case 'a-blue': {
         if (onClick) {
           if (isActive) {
-            return 'border-a-blue-dark bg-a-blue-dark text-white';
+            return 'border-a-blue-dark bg-a-blue-dark text-white dark:border-a-blue-light dark:bg-a-blue-light dark:text-black';
           }
           return 'border-grey-140 hover:dark:!border-a-blue-dark dark:border-white text-grey-110 dark:text-white hover:border-a-blue-dark hover:bg-a-blue-dark hover:text-white';
         }
@@ -33,7 +33,7 @@ export const Tag = ({
       case 'a-red': {
         if (onClick) {
           if (isActive) {
-            return 'border-a-red-dark bg-a-red-dark text-white';
+            return 'border-a-red-dark bg-a-red-dark text-white dark:border-a-red-light dark:bg-a-red-light dark:text-black';
           }
           return 'border-grey-140 hover:dark:!border-a-red-dark dark:border-white text-grey-110 dark:text-white hover:border-a-red-dark hover:bg-a-red-dark hover:text-white dark:text-white dark:border-white';
         }
@@ -42,7 +42,7 @@ export const Tag = ({
       case 'a-green': {
         if (onClick) {
           if (isActive) {
-            return 'border-a-green-dark bg-a-green-dark text-white';
+            return 'border-a-green-dark bg-a-green-dark text-white dark:border-a-green-light dark:bg-a-green-light dark:text-black';
           }
           return 'border-grey-140 hover:dark:!border-a-green-dark dark:border-white text-grey-110 dark:text-white hover:border-a-green-dark hover:bg-a-green-dark hover:text-white';
         }
@@ -51,7 +51,7 @@ export const Tag = ({
       case 'a-yellow': {
         if (onClick) {
           if (isActive) {
-            return 'border-a-yellow-dark bg-a-yellow-dark text-white';
+            return 'border-a-yellow-dark bg-a-yellow-dark text-white dark:border-a-yellow-light dark:bg-a-yellow-light dark:text-black';
           }
           return 'border-grey-140 hover:dark:!border-a-yellow-dark dark:border-white text-grey-110 dark:text-white hover:border-a-yellow-dark hover:bg-a-yellow-dark hover:text-white';
         }

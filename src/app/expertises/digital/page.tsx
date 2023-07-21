@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `${siteOrigin}/expertises/digital`,
   },
-  title: 'Expertise Digital',
+  title: 'Digital',
 };
 
 export default function ExpertiseDigital() {

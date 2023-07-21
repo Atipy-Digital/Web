@@ -46,7 +46,7 @@ const Col = ({ text, image, reverseMobile, pClassName }: ColProps) => {
       {text && (
         <article
           className={clsxm(
-            'w-full prose max-w-none dark:prose-invert lg:prose-xl',
+            'w-full prose max-w-none dark:prose-invert lg:prose-xl prose-headings:whitespace-pre-wrap prose-p:whitespace-pre-wrap',
             getColorText(text.color)
           )}
         >
@@ -75,14 +75,14 @@ const Col = ({ text, image, reverseMobile, pClassName }: ColProps) => {
         </article>
       )}
       {image?.url && (
-        <figure className={clsxm('block w-full', image?.className)}>
+        <figure className='block w-full'>
           <img
             src={image.url}
             alt={image?.legend ?? ''}
-            className='rounded-[10px] w-full h-auto'
+            className={clsxm('rounded-[10px] w-full h-auto', image?.className)}
           />
           {image?.legend && (
-            <legend className='text-grey-110 text-[16px] lg:text-[18px] xl:text-[20px] my-2 dark:text-grey-100'>
+            <legend className='text-grey-110 text-[16px] lg:text-[18px] my-2 dark:text-grey-100'>
               {image.legend}
             </legend>
           )}

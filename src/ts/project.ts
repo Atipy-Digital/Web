@@ -11,6 +11,14 @@ export type InputProjectType = {
   mission_body: string;
   context_body: string;
   project_sections: SectionType[];
+  projectsFeatured: string[];
+  footer?: {
+    btn?: {
+      label?: string;
+      color?: 'blue' | 'green' | 'red' | 'yellow';
+      tag: string;
+    };
+  };
 };
 export type ProjectType = {
   slug: string;
@@ -21,4 +29,12 @@ export type ProjectType = {
   mission_body: string;
   context_body: string;
   project_sections: SectionType[];
+  projectsFeatured: ProjectType[];
+  footer?: {
+    btn?: {
+      label?: string;
+      color?: 'blue' | 'green' | 'red' | 'yellow';
+      tag: string;
+    };
+  };
 };

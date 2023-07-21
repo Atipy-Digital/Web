@@ -2,7 +2,10 @@ import { MetadataRoute } from 'next';
 
 import { siteOrigin } from '@/lib/constants';
 
-import { getExpertiseDesignSubPageSlugs } from '@/services/expertise.service';
+import {
+  getExpertiseDesignSubPageSlugs,
+  getExpertiseFormationSubPageSlugs,
+} from '@/services/expertise.service';
 import { getPostsSlug } from '@/services/post.service';
 import { getProjectsSlug } from '@/services/project.service';
 
@@ -27,6 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const slugPosts = getPostsSlug();
   const slugProjects = getProjectsSlug();
   const slugExpertiseDesigns = getExpertiseDesignSubPageSlugs();
+  const slugExpertiseFormations = getExpertiseFormationSubPageSlugs();
 
   return [
     {
@@ -52,6 +56,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...(slugExpertiseDesigns?.length
       ? slugExpertiseDesigns.map((slug) => ({
           url: `${siteOrigin}/expertises/design/${slug}`,
+          lastModified: new Date(),
+        }))
+      : []),
+    ...(slugExpertiseFormations?.length
+      ? slugExpertiseFormations.map((slug) => ({
+          url: `${siteOrigin}/expertises/formation/${slug}`,
           lastModified: new Date(),
         }))
       : []),

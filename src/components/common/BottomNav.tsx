@@ -22,27 +22,31 @@ export const BottomNav = ({ previousLink, nextLink }: Props) => {
   const smallSize = matchSM ? 'md' : 'lg';
   const size = matchXL ? 'mxl' : smallSize;
   return (
-    <div className='relative z-[6] w-full shadow-project-filter flex items-center justify-between px-fluid !pt-6 !pb-6 xl:!pt-7 xl:!pb-7 dark:border-t dark:border-t-current bg-white dark:bg-black'>
-      <Link
-        href={previousLink.url}
-        className='flex items-center gap-2 md:gap-4 lg:gap-6'
-      >
-        <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_LEFT} size={size} />
-        <span className='link-hover-small text-[16px] md:text-body1'>
-          {previousLink.label}
-        </span>
-      </Link>
+    <div className='relative z-[6] w-full shadow-project-filter flex items-center justify-between px-fluid !pt-6 !pb-6 xl:!pt-7 xl:!pb-7 dark:border-t dark:border-t-current bg-white dark:bg-black gap-4'>
+      <div className='flex items-center flex-1 w-1/2'>
+        <Link
+          href={previousLink.url}
+          className='grid grid-cols-[auto_1fr] gap-2 md:gap-4 lg:gap-6 leading-none mr-auto'
+        >
+          <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_LEFT} size={size} />
+          <span className='block line-truncate link-to-hover text-right text-[16px] md:text-body1 !leading-none my-auto'>
+            {previousLink.label}
+          </span>
+        </Link>
+      </div>
 
       {nextLink && (
-        <Link
-          href={nextLink.url}
-          className='flex items-center gap-2 md:gap-4 lg:gap-6'
-        >
-          <span className='link-hover-small text-right text-[16px] md:text-body1'>
-            {nextLink.label}
-          </span>
-          <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_RIGHT} size={size} />
-        </Link>
+        <div className='flex items-center flex-1 w-1/2'>
+          <Link
+            href={nextLink.url}
+            className='grid grid-cols-[auto_1fr] gap-2 md:gap-4 lg:gap-6 leading-none ml-auto'
+          >
+            <span className='block line-truncate link-to-hover text-right text-[16px] md:text-body1 !leading-none my-auto'>
+              {nextLink.label}
+            </span>
+            <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_RIGHT} size={size} />
+          </Link>
+        </div>
       )}
     </div>
   );

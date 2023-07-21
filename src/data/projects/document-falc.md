@@ -94,4 +94,11 @@ project_sections:
         color: green
     col3:
       reverseMobile: false
+projectsFeatured:
+  - charte-signale-tique-accessible-pour-les-itine-raires-velo
+footer:
+  btn:
+    label: Découvrez nos projets design
+    color: green
+    tag: Design
 ---

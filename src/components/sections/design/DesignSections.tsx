@@ -18,7 +18,7 @@ export const DesignSections = ({ data }: Props) => {
   const { prefixImg } = useTheme();
   return (
     <Box className='tl mb-10 md:mb-14 lg:mb-16 xl:mb-20'>
-      <div className='px-0 md:px-fluid pt-8 lg:pt-12'>
+      <div className='px-0 md:px-fluid md:pt-12'>
         <div className='mb-10 md:mb-16 lg:mb-20 xl:mb-24'>
           <MarkdownSection
             col1={{
@@ -30,11 +30,12 @@ export const DesignSections = ({ data }: Props) => {
             col2={{
               reverseMobile: false,
               image: {
-                url: `/imgs/design/intro-${prefixImg}-design.webp`,
-                className: 'max-w-[509px]',
+                url: `/imgs/design/intro-${prefixImg}.webp`,
+                className: 'max-w-[509px] object-contain',
               },
             }}
             inverseCol
+            pClassName='!mb-0'
           />
         </div>
 

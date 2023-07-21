@@ -3,14 +3,18 @@ import { notFound } from 'next/navigation';
 
 import { siteOrigin } from '@/lib/constants';
 
+import { BottomNav } from '@/components/common/BottomNav';
 import { HeaderPage } from '@/components/layout/HeaderPage';
 import { Page } from '@/components/layout/Page';
+import { Footer } from '@/components/sections/project/Footer';
 import { ProjectIntro } from '@/components/sections/project/Intro';
 import { ProjectSections } from '@/components/sections/project/Sections';
+import { ProjectsFeatured } from '@/components/sections/projects/ProjectsFeatured';
 
 import {
   getProjectBySlug,
   getProjectMetaData,
+  getProjectNextLink,
   getProjectsSlug,
 } from '@/services/project.service';
 
@@ -49,6 +53,7 @@ export async function generateStaticParams() {
 
 export default async function ProjectPage({ params }: Props) {
   const project = getProjectBySlug(params.slug);
+  const nextLink = getProjectNextLink(params.slug);
 
   if (!project) {
     notFound();
@@ -63,6 +68,8 @@ export default async function ProjectPage({ params }: Props) {
           label: project.title,
           url: `/realisations/${params.slug}`,
         }}
+        prevLink={{ label: 'Nos réalisations', url: '/realisations' }}
+        nextLink={nextLink}
       />
       <ProjectIntro
         image={project.image}
@@ -72,6 +79,20 @@ export default async function ProjectPage({ params }: Props) {
         tags={project.tags}
       />
       <ProjectSections data={project.project_sections} />
+
+      {!!project.projectsFeatured.length && (
+        <ProjectsFeatured
+          data={project.projectsFeatured}
+          title='Nos projets similaires'
+        />
+      )}
+
+      <Footer data={project?.footer} />
+
+      <BottomNav
+        previousLink={{ label: 'Nos réalisations', url: '/realisations' }}
+        nextLink={nextLink}
+      />
     </Page>
   );
 }

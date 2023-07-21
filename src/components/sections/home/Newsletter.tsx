@@ -39,8 +39,8 @@ export const Newsletter = ({ data }: Props) => {
   return (
     <section className='w-full bg-a-yellow-dark text-black lg:py-4'>
       <Box className='max-w-[1920px]'>
-        <div className='tl py-fluid relative w-full flex items-center md:items-start lg:items-end flex-col lg:flex-row'>
-          <div className='tl lg:w-fit text-center md:text-left flex-shrink-0'>
+        <div className='tl py-fluid relative w-full flex lg:items-end flex-col lg:flex-row lg:gap-x-4 xl:gap-x-10 1xl:gap-x-14'>
+          <div className='tl lg:w-fit text-left flex-shrink-0'>
             <h3 className='leading-tight'>
               <ReactMarkdown>{data.title}</ReactMarkdown>
             </h3>

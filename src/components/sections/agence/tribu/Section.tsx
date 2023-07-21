@@ -33,7 +33,7 @@ const Section = ({
 }: SectionProps) => (
   <section
     className={clsxm(
-      'tl sm:px-fluid w-full grid gap-6 md:gap-12 xl:gap-24 mb-10 md:mb-14 lg:mb-16 xl:mb-24',
+      'tl sm:px2-fluid lg:px-fluid w-full grid gap-6 md:gap-12 xl:gap-24 mb-10 md:mb-14 lg:mb-16 xl:mb-24',
       img ? 'grid-cols-1 md:grid-cols-2' : 'grid-cols-1'
     )}
   >
@@ -76,7 +76,7 @@ export const TribuSection = ({ data }: Props) => {
   const matchSM = useMediaQuery(MEDIA_QUERY.SM);
   const { prefixImg } = useTheme();
   return (
-    <Box className='tl mb-10 md:mb-14 lg:mb-16 xl:mb-20 !pt-0 !pb-0 md:py-fluid xl:!pt-0'>
+    <Box className='tl sm:px2-fluid lg:px-fluid mb-10 md:mb-14 lg:mb-16 xl:mb-20 !pt-0 !pb-0 md:py-fluid xl:!pt-0'>
       <Section
         text={data.team.text}
         img={{

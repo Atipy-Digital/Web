@@ -14,6 +14,7 @@ type Props = {
   currentLink: BreadcrumbLinkProps;
   align?: 'center' | 'left';
   className?: string;
+  boxClassName?: string;
 };
 
 export const Breadcrumb = ({
@@ -21,16 +22,18 @@ export const Breadcrumb = ({
   currentLink,
   className,
   align = 'center',
+  boxClassName,
 }: Props) => {
   return (
     <nav
-      className={clsxm('w-full flex items-center justify-center', className)}
+      className={clsxm('w-full flex items-center justify-center', boxClassName)}
       aria-label='Breadcrumb'
     >
       <ul
         className={clsxm(
           'flex items-center md:justify-start gap-1 flex-wrap',
-          align === 'center' ? 'justify-center' : 'justify-start'
+          align === 'center' ? 'justify-center' : 'justify-start',
+          className
         )}
       >
         <li className='tl flex items-center justify-center gap-1 h-[32px] md:h-auto text-[15px] md:text-[16px] lg:text-[18px]'>

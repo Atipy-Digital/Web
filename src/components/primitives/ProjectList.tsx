@@ -10,15 +10,15 @@ import { ProjectType } from '@/ts';
 
 const ProjectListTemp = ({ data }: { data: ProjectType[] }) => {
   const maxCols = useCallback(() => {
-    if (data.length <= 1) return 'lg:grid-cols-1';
-    if (data.length === 2) return 'lg:grid-cols-2';
-    if (data.length >= 3) return 'lg:grid-cols-3';
+    if (data.length <= 1) return 'lg:grid-cols-1 w-full';
+    if (data.length === 2) return 'md:grid-cols-2 lg:grid-cols-2';
+    if (data.length >= 3) return 'md:grid-cols-2 lg:grid-cols-3';
   }, [data]);
 
   return (
     <div
       className={clsxm(
-        'grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-10 m-auto',
+        'grid grid-cols-1 gap-6 md:gap-8 lg:gap-10 m-auto',
         maxCols()
       )}
     >

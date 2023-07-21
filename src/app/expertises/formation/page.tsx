@@ -5,23 +5,24 @@ import { siteOrigin } from '@/lib/constants';
 import { BottomNav } from '@/components/common/BottomNav';
 import { HeaderPage } from '@/components/layout/HeaderPage';
 import { Page } from '@/components/layout/Page';
+import { FormationSections } from '@/components/sections/formation/FormationSections';
 
-// import { getExpertiseFormationPageData } from '@/services/expertise.service';
+import { getExpertiseFormationPageData } from '@/services/expertise.service';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: `${siteOrigin}/expertises/digital`,
+    canonical: `${siteOrigin}/expertises/formation`,
   },
-  title: 'Expertise Formations',
+  title: 'Conseils et formations',
 };
 
 export default function ExpertiseFormation() {
-  // const dataPage = getExpertiseFormationPageData();
+  const dataPage = getExpertiseFormationPageData();
 
   return (
     <Page>
       <HeaderPage
-        title='Conseils et formations'
+        title={dataPage?.title ?? 'Conseils et formations'}
         links={[
           {
             label: 'Nos expertises',
@@ -29,7 +30,7 @@ export default function ExpertiseFormation() {
           },
         ]}
         currentLink={{
-          label: 'Conseils et formations',
+          label: dataPage?.title ?? 'Conseils et formations',
           url: '/expertises/formation',
         }}
         prevLink={{
@@ -42,7 +43,7 @@ export default function ExpertiseFormation() {
         }}
         boxClassName='!mb-0'
       />
-      <div>ok</div>
+      {dataPage && <FormationSections data={dataPage} />}
       <BottomNav
         previousLink={{
           label: 'Nos expertises',

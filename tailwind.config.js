@@ -40,21 +40,21 @@ const typographyStyle = (theme) => ({
     borderRadius: 10,
   },
   h3: {
-    fontSize: 'clamp(1.75rem, 2vw + 0.75rem, 3.125rem)',
+    fontSize: 'clamp(1.5rem, 2vw + 0.75rem, 2rem)',
     fontWeight: 'bold',
     lineHeight: 1,
     marginBottom: '1.5rem',
     color: 'currentColor',
   },
   h4: {
-    fontSize: 'clamp(1.375rem, 2.5vw, 2.5rem)',
+    fontSize: 'clamp(1.25rem, 1.25vw + 1rem, 1.563rem)',
     fontWeight: 'bold',
     lineHeight: 1.25,
     marginBottom: '1rem',
     color: 'currentColor',
   },
   h5: {
-    fontSize: 'clamp(1.125rem, 2.5vw, 1.75rem)',
+    fontSize: 'clamp(1.125rem, 2.5vw, 1.325rem)',
     fontWeight: 'bold',
     lineHeight: 1.25,
     marginBottom: '0.65rem',
@@ -66,7 +66,7 @@ const typographyStyle = (theme) => ({
     color: 'currentColor',
   },
   p: {
-    fontSize: 'clamp(1.125rem, 0.5vw + 1rem, 1.563rem)',
+    fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
     lineHeight: 1.325,
     fontFamily: 'Roboto, sans-serif',
     color: 'currentColor',
@@ -81,8 +81,10 @@ const typographyStyle = (theme) => ({
   li: {
     margin: 0,
     fontFamily: 'Roboto, sans-serif',
+    fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
   },
   blockquote: {
+    fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
     border: 'none',
     marginTop: '1rem !important',
     marginBottom: '1rem !important',
@@ -151,9 +153,9 @@ module.exports = {
         'project-filter': '0px 0px 10px #00000029',
       },
       fontSize: {
-        body1: 'clamp(1.125rem, 0.5vw + 1rem, 1.563rem)',
-        body2: 'clamp(1.125rem, 0.8vw + 0.8rem, 1.875rem)',
-        body3: 'clamp(1rem, 0.8vw + 0.8rem, 1.875rem)',
+        body1: 'clamp(1rem, 2.5vw, 1.25rem)',
+        body2: 'clamp(1rem, 2.5vw, 1.375rem)',
+        body3: 'clamp(1rem, 0.8vw + 0.8rem, 1.563rem)',
       },
       borderWidth: {
         3: '3px',
@@ -162,6 +164,8 @@ module.exports = {
       screens: {
         desktop: '1920px',
         lmd: '960px',
+        xxs: '321px',
+        '1xl': '1440px',
         '3xl': '1680px',
       },
       maxWidth: {

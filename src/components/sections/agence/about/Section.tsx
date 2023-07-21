@@ -39,7 +39,7 @@ const Section = ({
 }: SectionProps) => (
   <div
     className={clsxm(
-      'tl px-fluid w-full grid gap-6 md:gap-12 xl:gap-20 mb-10 md:mb-14 lg:mb-16 xl:mb-24',
+      'tl sm:px2-fluid lg:px-fluid w-full grid gap-6 md:gap-12 xl:gap-20 mb-10 md:mb-14 lg:mb-16 xl:mb-24',
       'grid-cols-1 md:grid-cols-2'
     )}
   >
@@ -83,7 +83,7 @@ export const AboutSection = ({ data }: Props) => {
   return (
     <Box
       as='section'
-      className='tl mb-10 md:mb-14 lg:mb-16 xl:mb-20 !pt-0 !pb-0 md:py-fluid xl:!pt-0'
+      className='tl sm:px2-fluid lg:px-fluid mb-10 md:mb-14 lg:mb-16 xl:mb-20 !pt-0 !pb-0 md:py-fluid xl:!pt-0'
     >
       <Section
         title='Naissance en'
@@ -137,7 +137,7 @@ export const AboutSection = ({ data }: Props) => {
         imgClassName='max-w-[550px]'
       />
 
-      <div className='w-full px-fluid !pt-0 !pb-0 md:py-fluid'>
+      <div className='w-full sm:px-fluid !pt-0 !pb-0 md:py-fluid'>
         <h3 className='mb-6 md:mb-10'>Les enjeux</h3>
         <MarkdownText
           className='w-full text-body1 font-secondary mb-6 md:mb-8'
@@ -151,8 +151,8 @@ export const AboutSection = ({ data }: Props) => {
         </MarkdownText>
       </div>
 
-      <div className='w-full px-fluid py-fluid'>
-        <h3 className='mb-6 md:mb-10'>{`Nos ${data.cards.length} pôles`}</h3>
+      <div className='w-full sm:px-fluid py-fluid'>
+        <h3 className='md:mb-10'>{`Nos ${data.cards.length} pôles`}</h3>
 
         <div>
           <OfferList data={data.cards} className='!px-0 !pr-0 !pl-0' />

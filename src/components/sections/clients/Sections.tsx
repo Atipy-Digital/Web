@@ -18,7 +18,7 @@ export const Sections = ({ sections }: Props) => {
 
   return (
     <Box className='tl mb-10 md:mb-14 lg:mb-16 xl:mb-20 max-w-6xl'>
-      <div className='px-0 md:px-fluid pt-8 [&_h3]:text-[20px] sm:[&_h3]:text-body1 text-center sm:text-left'>
+      <div className='px-0 md:px-fluid pt-8 [&_h3]:text-[20px] sm:[&_h3]:text-body1'>
         {sections.map((section) => (
           <MarkdownSection
             {...section}
@@ -30,8 +30,9 @@ export const Sections = ({ sections }: Props) => {
       </div>
 
       <div className='my-10 flex flex-col items-center justify-center md:mt-14 lg:mt-20 xl:mt-24'>
-        <h3 className='max-w-[634px] text-center'>
-          Une question ? Un projet ? Contactez-nous
+        <h3 className='text-[22px] sm:h3 max-w-[634px] text-center'>
+          Une question ? Un projet ?<br />
+          Contactez-nous
         </h3>
         <div className='flex items-center gap-x-2 md:gap-x-6 pt-7'>
           <AtipyIcon type={ATIPY_ICON.ENVELOP} size={matchesSM ? 'md' : 'xl'} />

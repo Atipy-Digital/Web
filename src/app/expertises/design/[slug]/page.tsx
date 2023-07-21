@@ -69,6 +69,10 @@ export default async function DesignSubPage({ params: { slug } }: Props) {
         title={subPage.title}
         links={[
           {
+            label: 'Nos expertises',
+            url: '/expertises',
+          },
+          {
             label: 'Design',
             url: '/expertises/design',
           },
