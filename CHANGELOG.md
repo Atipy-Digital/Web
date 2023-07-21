@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.12.1](https://github.com/Atipy-Digital/Web/compare/v0.12.0...v0.12.1) (2023-07-21)
+
+
+### Bug Fixes
+
+* add links in offers home section ([#36](https://github.com/Atipy-Digital/Web/issues/36)) ([2593159](https://github.com/Atipy-Digital/Web/commit/2593159908c75b98c213d3a6605acf756ed8ea47))
+
 ## [0.12.0](https://github.com/Atipy-Digital/Web/compare/v0.11.0...v0.12.0) (2023-07-21)
 
 
