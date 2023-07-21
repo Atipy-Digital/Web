@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.12.0](https://github.com/Atipy-Digital/Web/compare/v0.11.0...v0.12.0) (2023-07-21)
+
+
+### Features
+
+* **page:** formation pages ([#34](https://github.com/Atipy-Digital/Web/issues/34)) ([b1a0c67](https://github.com/Atipy-Digital/Web/commit/b1a0c67dc086ef16542012d757e81afac2eb319e))
+
 ## [0.11.0](https://github.com/Atipy-Digital/Web/compare/v0.10.0...v0.11.0) (2023-07-20)
 
 
