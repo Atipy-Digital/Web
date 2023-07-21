@@ -1,10 +1,12 @@
 'use client';
 
+import { useRouter } from 'next/navigation';
+
 import clsxm from '@/lib/clsxm';
 
 import { ExpertiseCard } from './ExpertiseCard';
 
-import type { CardType } from '@/ts';
+import { CARD_TYPE, type CardType } from '@/ts';
 
 type Props = {
   data: CardType[];
@@ -12,6 +14,8 @@ type Props = {
 };
 
 export const OfferList = ({ data, className }: Props) => {
+  const router = useRouter();
+
   const lgGridItems = () => {
     switch (data.length) {
       case 1:
@@ -36,13 +40,36 @@ export const OfferList = ({ data, className }: Props) => {
         className
       )}
     >
-      {data.map((item) => (
-        <ExpertiseCard
-          key={`home-offer-card-${item.type}`}
-          {...item}
-          className='min-h-[350px] sm:min-h-fit 2xl:min-h-[563px]'
-        />
-      ))}
+      {data.map((item) => {
+        const onClick = () => {
+          switch (item.type) {
+            case CARD_TYPE.CONSEIL:
+              router.push('/expertises/formation');
+              break;
+            case CARD_TYPE.DESIGN:
+              router.push('/expertises/design');
+              break;
+            case CARD_TYPE.DIGITAL:
+              router.push('/expertises/digital');
+              break;
+            case CARD_TYPE.ENGINEER:
+              router.push('/expertises/ingenierie');
+              break;
+
+            default:
+              break;
+          }
+        };
+
+        return (
+          <ExpertiseCard
+            key={`home-offer-card-${item.type}`}
+            {...item}
+            className='min-h-[350px] sm:min-h-fit 2xl:min-h-[563px]'
+            onClick={onClick}
+          />
+        );
+      })}
     </div>
   );
 };
