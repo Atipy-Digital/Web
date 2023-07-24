@@ -23,7 +23,7 @@ export const Intro = ({ data }: Props) => {
   };
   return (
     <Box as='section' id='home-intro'>
-      <div className='tl sm:px-fluid py-fluid !pb-0 relative w-full flex items-center flex-col lg:flex-row'>
+      <div className='tl sm:px-fluid md:py-fluid relative w-full flex items-center flex-col lg:flex-row'>
         <h2 className='lg:max-w-[740px] xl:max-w-[840px]'>
           <ReactMarkdown
             components={{
@@ -33,7 +33,7 @@ export const Intro = ({ data }: Props) => {
             {data.title}
           </ReactMarkdown>
         </h2>
-        <div className='tl flex items-center justify-center max-w-[369px] lg:ml-8 mt-8 lg:mt-0'>
+        <div className='tl hidden md:flex items-center justify-center max-w-[369px] lg:ml-8 mt-8 lg:mt-0'>
           <img
             src={`/imgs/home/intro-${prefixImg}-home.webp`}
             alt='intro home'
@@ -47,6 +47,14 @@ export const Intro = ({ data }: Props) => {
             {data.button.label}
           </Button>
         </div>
+
+        <Button
+          icon
+          className='flex md:hidden mt-10 tl flex-shrink-0'
+          onClick={onClick}
+        >
+          {data.button.label}
+        </Button>
       </div>
     </Box>
   );

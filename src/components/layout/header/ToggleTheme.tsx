@@ -26,7 +26,7 @@ export const ToggleTheme = () => {
         className={clsxm(
           'relative flex justify-start rounded-full p-[2px] cursor-pointer',
           'w-[52px] h-[27px] lg:w-[66px] lg:h-[36px]',
-          isDark ? 'bg-white' : 'bg-black',
+          isDark ? 'bg-white' : 'bg-background',
           isDark && '!justify-end'
         )}
         onClick={toggleSwitch}
@@ -37,7 +37,7 @@ export const ToggleTheme = () => {
           className={clsxm(
             'flex items-center justify-center rounded-[50%] z-[1] transform-none',
             'w-[24px] h-[24px] lg:w-[32px] lg:h-[32px]',
-            isDark ? 'bg-black text-white' : 'bg-white text-black'
+            isDark ? 'bg-background text-white' : 'bg-white text-black'
           )}
           layout
           transition={spring}

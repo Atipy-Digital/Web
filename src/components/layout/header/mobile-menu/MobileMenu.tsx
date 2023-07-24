@@ -60,7 +60,9 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
       </span>
       {isOpenModalMenu && (
         <Portal id='menu-modal'>
-          <div className={clsxm(s.menuContainer, 'bg-white dark:bg-black')}>
+          <div
+            className={clsxm(s.menuContainer, 'bg-white dark:bg-background')}
+          >
             <header className={clsxm(s.header, 'px-fluid')}>
               <Logo />
               <button

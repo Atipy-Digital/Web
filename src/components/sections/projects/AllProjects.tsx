@@ -6,7 +6,6 @@ import { useMemo, useState } from 'react';
 import { Box } from '@/components/common/Box';
 import { Button } from '@/components/primitives/Button';
 import { ProjectList } from '@/components/primitives/ProjectList';
-import { Tag } from '@/components/primitives/Tag';
 
 import { useAppStore } from '@/store/use-app-store';
 
@@ -23,7 +22,6 @@ export const AllProjects = () => {
   const setTagExpertiseActive = useAppStore(
     (store) => store.setTagExpertiseActive
   );
-  const onResetTags = useAppStore((store) => store.onResetTags);
   const [showAll, setShowAll] = useState<boolean>(false);
 
   const tagsBusinessActive = useMemo(
@@ -82,7 +80,7 @@ export const AllProjects = () => {
           showAll={showAll}
         />
 
-        <div className='flex-shrink-0 flex items-center justify-center self-start py-2 lg:pb-0 lg:pt-2 lg:w-44'>
+        <div className='flex-shrink-0 flex items-center justify-center self-start py-2 lg:pb-0 lg:pt-1 lg:w-44'>
           <span
             className='text-grey-110 dark:text-grey-150 underline cursor-pointer text-center lg:px-3'
             onClick={onShowAll}
@@ -91,16 +89,6 @@ export const AllProjects = () => {
           </span>
         </div>
       </div>
-
-      <Box className='flex items-center justify-center !pt-8 !pb-12 xl:!pb-16'>
-        <Tag
-          color='default'
-          label='Effacer les filtres'
-          type='business'
-          onClick={onResetTags}
-          className='w-fit'
-        />
-      </Box>
 
       <Box className='tl px-0 md:px-fluid relative w-full pt-10 md:pt-14 lg:pt-20 xl:pt-24 flex justify-center items-center'>
         <ProjectList data={projectsFiltered} />

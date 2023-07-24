@@ -13,6 +13,7 @@ import {
 } from '@/components/common/Breadcrumb';
 
 import { ATIPY_ICON, AtipyIcon } from '../common/icons/AtipyIcon';
+import { MarkdownText } from '../primitives/MarkdownText';
 
 type Props = {
   title: string;
@@ -26,6 +27,7 @@ type Props = {
   align?: 'center' | 'left';
   breadcrumbClassName?: string;
   titleClassName?: string;
+  wrapperClassname?: string;
 };
 
 export const HeaderPage = ({
@@ -40,6 +42,7 @@ export const HeaderPage = ({
   nextLink,
   titleClassName,
   breadcrumbBoxClassName,
+  wrapperClassname,
 }: Props) => {
   const matchXL = useMediaQuery(MEDIA_QUERY.XL);
   const matchSM = useMediaQuery(MEDIA_QUERY.SM);
@@ -53,7 +56,12 @@ export const HeaderPage = ({
         boxClassName
       )}
     >
-      <div className='tl px-0 pt-5 pb-8 sm:pb-10 md:py-fluid w-full'>
+      <div
+        className={clsxm(
+          'tl px-0 pt-5 pb-8 sm:pb-10 md:py-fluid w-full',
+          wrapperClassname
+        )}
+      >
         <Breadcrumb
           links={links}
           currentLink={currentLink}
@@ -89,7 +97,13 @@ export const HeaderPage = ({
                 titleClassName
               )}
             >
-              {title}
+              <MarkdownText
+                components={{
+                  p: ({ children }) => <>{children}</>,
+                }}
+              >
+                {title}
+              </MarkdownText>
             </h2>
             {nextLink ? (
               <div className='hidden md:flex items-center flex-grow max-w-[20%] w-full'>
@@ -142,7 +156,13 @@ export const HeaderPage = ({
                   titleClassName
                 )}
               >
-                {title}
+                <MarkdownText
+                  components={{
+                    p: ({ children }) => <>{children}</>,
+                  }}
+                >
+                  {title}
+                </MarkdownText>
               </h1>
 
               {nextLink ? (

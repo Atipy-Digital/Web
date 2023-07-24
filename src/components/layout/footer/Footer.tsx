@@ -11,7 +11,7 @@ type Props = {
 
 export default function Footer({ data }: Props) {
   return (
-    <footer className='w-full border-t border-t-current relative z-[6] bg-white dark:bg-black'>
+    <footer className='w-full border-t border-t-current relative z-[6] bg-white dark:bg-background'>
       <div className='w-full flex items-center flex-col justify-between h-full'>
         <nav className='tl px-fluid flex flex-col md:flex-row items-center justify-between flex-grow w-full gap-y-6 md:gap-y-0 !py-4 lg:!py-6 xl:!py-8'>
           <FooterMenuText {...data.menuText1} />
@@ -19,7 +19,7 @@ export default function Footer({ data }: Props) {
           <FooterMenuSocial {...data.menuSocial} />
         </nav>
 
-        <div className='px-fluid md:bg-black w-full'>
+        <div className='px-fluid md:bg-background w-full'>
           <p className='block text-center py-2 text-[14px] md:text-white'>
             ©&nbsp;Atipy&nbsp;{new Date().getFullYear()}
             &nbsp;•&nbsp;Tous&nbsp;droits&nbsp;réservés

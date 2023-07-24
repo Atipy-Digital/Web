@@ -2362,7 +2362,8 @@ collections:
     create: true
     editor:
       preview: false
-    slug: '{{slug}}'
+    identifier_field: '{{fields.metadata.title}}'
+    slug: '{{fields.metadata.title}}'
     fields:
       - label: Metadonnées
         name: metadata
@@ -2400,7 +2401,10 @@ collections:
             }
       - label: Titre
         name: title
-        widget: string
+        widget: markdown
+        buttons: []
+        modes: [rich_text]
+        editor_components: []
       - label: Date de publication
         name: date
         widget: datetime
@@ -2706,6 +2710,7 @@ collections:
       - name: intro
         label: Intro
         widget: markdown
+        required: false
         buttons:
           [
             bold,
@@ -3006,6 +3011,7 @@ collections:
       - name: intro
         label: Intro
         widget: markdown
+        required: false
         buttons:
           [
             bold,
@@ -3306,6 +3312,7 @@ collections:
       - name: intro
         label: Intro
         widget: markdown
+        required: false
         buttons:
           [
             bold,
@@ -3606,6 +3613,7 @@ collections:
       - name: intro
         label: Intro
         widget: markdown
+        required: false
         buttons:
           [
             bold,
