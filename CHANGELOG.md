@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.13.1](https://github.com/Atipy-Digital/Web/compare/v0.13.0...v0.13.1) (2023-07-24)
+
+
+### Bug Fixes
+
+* replace intro img for digital & engineer page ([#40](https://github.com/Atipy-Digital/Web/issues/40)) ([d0f0828](https://github.com/Atipy-Digital/Web/commit/d0f082815609fc7afea71ff00e8ad5d52db7c614))
+
 ## [0.13.0](https://github.com/Atipy-Digital/Web/compare/v0.12.1...v0.13.0) (2023-07-24)
 
 
