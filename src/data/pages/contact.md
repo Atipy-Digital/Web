@@ -2,13 +2,13 @@
 title: Contactez-nous
 form:
   input_name:
-    label: Nom Prénom*
-    placeholder: Nom Prénom
+    label: Votre nom*
+    placeholder: Nom
   input_email:
     label: Votre adresse email*
     placeholder: Email
   input_message:
-    label: Votre message
+    label: Votre message*
     placeholder: Message…
   error_required: Ce champ est requis
   button_text: Envoyer

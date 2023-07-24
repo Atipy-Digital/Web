@@ -73,7 +73,7 @@ export const SubPageCard = ({ type, icon, path, title }: Props) => {
   return (
     <article
       className={clsxm(
-        'tl cursor-pointer w-full flex-1 flex flex-col justify-center rounded-[30px] bg-white dark:bg-black',
+        'tl cursor-pointer w-full flex-1 flex flex-col justify-center rounded-[30px] bg-white dark:bg-background',
         sCard,
         'p-2 text-center'
       )}

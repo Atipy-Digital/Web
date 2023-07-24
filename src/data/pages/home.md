@@ -65,7 +65,7 @@ newsletterData:
 
     soyez au courant !
   subtitle: Abonnez-vous à notre newsletter
-  placeholder: Votre adresse email*
+  placeholder: Email
   button:
     label: S’abonner
 contactData:

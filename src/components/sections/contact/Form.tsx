@@ -70,7 +70,11 @@ export const ContactForm = ({ data }: Props) => {
           label={data.input_message.label}
           placeholder={data.input_message.placeholder}
           error={errors.message}
-        />
+        >
+          <span className='text-base leading-none my-1'>
+            * champs obligatoires
+          </span>
+        </InputController>
 
         <Button
           disabled={!isValid}

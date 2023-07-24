@@ -22,7 +22,7 @@ export const BottomNav = ({ previousLink, nextLink }: Props) => {
   const smallSize = matchSM ? 'md' : 'lg';
   const size = matchXL ? 'mxl' : smallSize;
   return (
-    <div className='relative z-[6] w-full shadow-project-filter flex items-center justify-between px-fluid !pt-6 !pb-6 xl:!pt-7 xl:!pb-7 dark:border-t dark:border-t-current bg-white dark:bg-black gap-4'>
+    <div className='relative z-[6] w-full shadow-project-filter flex items-center justify-between px-fluid !pt-6 !pb-6 xl:!pt-7 xl:!pb-7 dark:border-t dark:border-t-current bg-white dark:bg-background gap-4'>
       <div className='flex items-center flex-1 w-1/2'>
         <Link
           href={previousLink.url}

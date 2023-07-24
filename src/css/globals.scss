@@ -306,7 +306,7 @@ body:not(.user-is-tabbing) textarea:focus {
 }
 
 html.dark {
-  @apply bg-black text-white;
+  @apply bg-background text-white;
 
   .link-hover-sub-text {
     .text-to-hover {

@@ -2,14 +2,19 @@
 
 import { nanoid } from 'nanoid';
 import { useRouter } from 'next/navigation';
+import { useMemo } from 'react';
 
 import { MEDIA_QUERY, useMediaQuery } from '@/hooks/use-media';
-import { useTheme } from '@/hooks/use-theme';
 
 import { Box } from '@/components/common/Box';
 import { ATIPY_ICON, AtipyIcon } from '@/components/common/icons/AtipyIcon';
+import iconsDesign from '@/components/icons/design';
+import iconsDigital from '@/components/icons/digital';
+import iconsFormation from '@/components/icons/formation';
+import iconsIngenierie from '@/components/icons/ingenierie';
 import { Button } from '@/components/primitives/Button';
 import { MarkdownSection } from '@/components/primitives/MarkdownSection';
+import { MarkdownText } from '@/components/primitives/MarkdownText';
 
 import { useAppStore } from '@/store/use-app-store';
 
@@ -20,12 +25,11 @@ type Props = {
   type: 'design' | 'digital' | 'formation' | 'ingenierie';
 };
 
-export const SubPageSections = ({ data, type }: Props) => {
+export const SubPageSections = ({ data }: Props) => {
   const onResetTags = useAppStore((s) => s.onResetTags);
   const setTagExpertiseActive = useAppStore((s) => s.setTagExpertiseActive);
   const router = useRouter();
   const matchesSM = useMediaQuery(MEDIA_QUERY.SM);
-  const { prefixImg } = useTheme();
 
   const getCardType = (): TagColor => {
     if (!data.footer?.btn?.color) return 'default';
@@ -55,30 +59,63 @@ export const SubPageSections = ({ data, type }: Props) => {
     router.push('/realisations');
   };
 
+  const IconComponent = useMemo(() => {
+    if (data.icon.type === 'design') {
+      return (
+        iconsDesign[data.icon.value ?? 'formation'] || iconsDesign['formation']
+      );
+    }
+
+    if (data.icon.type === 'formation') {
+      return (
+        iconsFormation[data.icon.value ?? 'formation'] ||
+        iconsFormation['formation']
+      );
+    }
+
+    if (data.icon.type === 'digital') {
+      return (
+        iconsDigital[data.icon.value ?? 'formation'] ||
+        iconsDigital['formation']
+      );
+    }
+    if (data.icon.type === 'ingenierie') {
+      return (
+        iconsIngenierie[data.icon.value ?? 'formation'] ||
+        iconsIngenierie['formation']
+      );
+    }
+
+    return null;
+  }, [data.icon]);
+
   return (
     <Box className='tl sm:px2-fluid lg:px-fluid mb-10 md:mb-14 lg:mb-16 xl:mb-20'>
       <div className='px-0 sm:px2-fluid lg:px-fluid md:pt-12'>
-        <div className='mb-10 md:mb-16 lg:mb-20 xl:mb-24'>
-          <MarkdownSection
-            col1={{
-              reverseMobile: false,
-              text: {
-                content: data.intro,
-              },
-            }}
-            col2={{
-              reverseMobile: false,
-              image: {
-                url: `/imgs/${type}/intro-${prefixImg}.webp`,
-                className:
-                  type === 'digital'
-                    ? 'max-h-[384px] object-contain'
-                    : 'max-w-[509px] object-contain',
-              },
-            }}
-            inverseCol
-          />
-        </div>
+        {data?.intro && (
+          <div className='flex flex-col-reverse md:flex-row md:items-center justify-between mb-10 md:mb-16 lg:mb-20 xl:mb-24 md:gap-8 lg:gap-12 xl:gap-20'>
+            <div className='prose max-w-none dark:prose-invert lg:prose-xl prose-headings:whitespace-pre-wrap prose-p:whitespace-pre-wrap'>
+              <MarkdownText
+                components={{
+                  p: ({ children }) => (
+                    <p className='block w-full flex-grow'>{children}</p>
+                  ),
+                  code: ({ children }) => (
+                    <u className='underline'>{children}</u>
+                  ),
+                }}
+              >
+                {data.intro}
+              </MarkdownText>
+            </div>
+
+            {IconComponent && (
+              <div>
+                <IconComponent className='h-auto w-28 md:w-36 lg:w-48 xl:w-64' />
+              </div>
+            )}
+          </div>
+        )}
 
         {data.sections?.map((section) => (
           <MarkdownSection

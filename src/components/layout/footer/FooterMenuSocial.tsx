@@ -26,7 +26,7 @@ export const FooterMenuSocial = ({ title, rows }: FooterMenuSocialType) => {
               href={url}
               target='_blank'
               rel='noopener noreferrer'
-              className='w-8 h-8 rounded-md flex items-center justify-center bg-black dark:bg-white text-white dark:text-black'
+              className='w-8 h-8 rounded-md flex items-center justify-center bg-background dark:bg-white text-white dark:text-black'
               key={`footer-menu-social-${type}`}
               aria-label={`lien vers la page ${type}`}
             >

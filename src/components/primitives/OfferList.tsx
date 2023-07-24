@@ -65,7 +65,7 @@ export const OfferList = ({ data, className }: Props) => {
           <ExpertiseCard
             key={`home-offer-card-${item.type}`}
             {...item}
-            className='min-h-[350px] sm:min-h-fit 2xl:min-h-[563px]'
+            className='min-h-fit 2xl:min-h-[563px]'
             onClick={onClick}
           />
         );

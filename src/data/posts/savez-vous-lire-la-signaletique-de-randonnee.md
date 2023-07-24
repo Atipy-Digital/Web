@@ -1,8 +1,8 @@
 ---
 metadata:
-  title: Article - Signalétique de randonnée
+  title: Signalétique de randonnée
   description: Savez-vous lire la signalétique de randonnée ?
-title: Savez-vous lire la signalétique de randonnée ?
+title: Savez-vous lire la signalétique de randonnée&nbsp;?
 date: 2023-07-16T14:04:43.391Z
 timeToRead: 1 à 5 min
 post_tags:
@@ -14,10 +14,10 @@ post_sections:
         content: >-
           Vous avez le sens de l’orientation, vos jours de congés se passent en
           montagne ou en forêt, à la recherche des signes de repérage. Alors, ce
-          qui va suivre, vous le connaissez par coeur !
+          qui va suivre, vous le connaissez par coeur&nbsp;!
 
 
-          **Comment s’orienter en pleine nature ? Quels sont les signes et que racontent-ils ?**
+          **Comment s’orienter en pleine nature**&nbsp;**? Quels sont les signes et que racontent-ils**&nbsp;**?**
       image:
         url: /media/post-1.png
         legend: Cairn au sommet du Mont Joly, 2 525m massif du Beaufortain
@@ -35,7 +35,7 @@ post_sections:
           Tesson](https://fr.wikipedia.org/wiki/Sur_les_chemins_noirs_(livre))).
           En pleine nature, il est souvent difficile de trouver des repères.
           Grâce au balisage, il suffit de suivre les bonnes marques ou les bons
-          signes !
+          signes&nbsp;!
 
 
           Les premiers balisages datent de 1850 environ dans la Forêt de Fontainebleau. L’objectif est, bien sûr, d’éviter aux marcheurs de se perdre. Avec le développement des itinéraires GR dans les années 70, le balisage que l’on connait aujourd’hui se déploie.
@@ -47,7 +47,7 @@ post_sections:
       reverseMobile: false
       text:
         content: >-
-          ### À quoi ressemble ce balisage de randonnées ?
+          ### À quoi ressemble ce balisage de randonnées&nbsp;?
 
 
           La Fédération française de la randonnée pédestre (FFRP) est en charge de la mise en place et la maintenance de ce balisage. Pour conserver une cohérence sur l’ensemble du territoire français, elle met en place une Charte Officielle du Balisage et de la Signalisation. Et non, on ne peut pas faire n’importe quoi.
@@ -75,10 +75,10 @@ post_sections:
       reverseMobile: false
       text:
         content: >-
-          #### Quels sont les codes de balisage de randonnée ?
+          #### Quels sont les codes de balisage de randonnée&nbsp;?
 
 
-          ##### Il convient tout d’abord de distinguer les différents types de sentiers : GR, PR, ça vous dit quelque chose ?
+          ##### Il convient tout d’abord de distinguer les différents types de sentiers : GR, PR, ça vous dit quelque chose&nbsp;?
 
 
           * GR : Grande Randonnée, sur plusieurs jours ou semaines.

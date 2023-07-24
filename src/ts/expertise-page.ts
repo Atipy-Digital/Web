@@ -22,7 +22,7 @@ export type ExpertiseSubPageType = {
     type: 'ingenierie' | 'design' | 'digital' | 'formation';
     value: string;
   };
-  intro: string;
+  intro?: string;
   sections: SectionType[];
   footer?: {
     btn?: {
