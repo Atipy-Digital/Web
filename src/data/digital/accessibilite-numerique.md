@@ -26,7 +26,7 @@ sections:
 
           At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Orci ac auctor augue mauris augue neque gravida in. Id ornare arcu odio ut sem nulla. Vitae aliquet nec ullamcorper sit amet. Bibendum enim facilisis gravida neque convallis a cras semper auctor. Aliquam faucibus purus in massa tempor nec. Vulputate sapien nec sagittis aliquam malesuada.
       image:
-        url: /media/ph-578.png
+        url: /media/ph-1277.png
         legend: Sapien nec sagittis aliquam malesuada.
     col2:
       reverseMobile: false
