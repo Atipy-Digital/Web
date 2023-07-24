@@ -70,7 +70,10 @@ export const SubPageSections = ({ data, type }: Props) => {
               reverseMobile: false,
               image: {
                 url: `/imgs/${type}/intro-${prefixImg}.webp`,
-                className: 'max-w-[509px] object-contain',
+                className:
+                  type === 'digital'
+                    ? 'max-h-[384px] object-contain'
+                    : 'max-w-[509px] object-contain',
               },
             }}
             inverseCol
