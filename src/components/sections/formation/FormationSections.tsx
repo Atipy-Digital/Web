@@ -18,8 +18,8 @@ export const FormationSections = ({ data }: Props) => {
   const { prefixImg } = useTheme();
 
   return (
-    <Box className='tl mb-10 md:mb-14 lg:mb-16 xl:mb-20'>
-      <div className='px-0 md:px-fluid md:!pt-12'>
+    <Box className='tl sm:px2-fluid lg:px-fluid mb-10 md:mb-14 lg:mb-16 xl:mb-20'>
+      <div className='px-0 sm:px2-fluid lg:px-fluid md:!pt-12'>
         <div className='mb-10 md:mb-16 lg:mb-20 xl:mb-24'>
           <MarkdownSection
             col1={{

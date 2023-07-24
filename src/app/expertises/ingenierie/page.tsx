@@ -5,23 +5,24 @@ import { siteOrigin } from '@/lib/constants';
 import { BottomNav } from '@/components/common/BottomNav';
 import { HeaderPage } from '@/components/layout/HeaderPage';
 import { Page } from '@/components/layout/Page';
+import { IngenierieSections } from '@/components/sections/ingenierie/IngenierieSections';
 
-// import { getExpertiseEngineerPageData } from '@/services/expertise.service';
+import { getExpertiseIngenieriePageData } from '@/services/expertise.service';
 
 export const metadata: Metadata = {
   alternates: {
     canonical: `${siteOrigin}/expertises/ingenierie`,
   },
-  title: 'Ingenierie',
+  title: 'Ingénierie',
 };
 
 export default function ExpertiseEngeneer() {
-  // const dataPage = getExpertiseEngineerPageData();
+  const dataPage = getExpertiseIngenieriePageData();
 
   return (
     <Page>
       <HeaderPage
-        title='Ingénierie'
+        title={dataPage?.title ?? 'Ingénierie'}
         links={[
           {
             label: 'Nos expertises',
@@ -29,7 +30,7 @@ export default function ExpertiseEngeneer() {
           },
         ]}
         currentLink={{
-          label: 'Ingénierie',
+          label: dataPage?.title ?? 'Ingénierie',
           url: '/expertises/ingenierie',
         }}
         prevLink={{
@@ -42,7 +43,7 @@ export default function ExpertiseEngeneer() {
         }}
         boxClassName='!mb-0'
       />
-      <div>ok</div>
+      {dataPage && <IngenierieSections data={dataPage} />}
       <BottomNav
         previousLink={{
           label: 'Nos expertises',

@@ -110,7 +110,7 @@ export const ExpertiseCard = ({
           onClick={onClick}
           icon
           className={clsxm(
-            'tl w-full sm:w-fit text-[18px] xl:text-[20px] 1xl:text-[25px]',
+            'tl w-full sm:w-fit text-[18px] xl:text-[20px]',
             sCardBtn
           )}
         >

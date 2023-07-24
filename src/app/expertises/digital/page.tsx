@@ -5,8 +5,9 @@ import { siteOrigin } from '@/lib/constants';
 import { BottomNav } from '@/components/common/BottomNav';
 import { HeaderPage } from '@/components/layout/HeaderPage';
 import { Page } from '@/components/layout/Page';
+import { DigitalSections } from '@/components/sections/digital/DigitalSections';
 
-// import { getExpertiseDigitalPageData } from '@/services/expertise.service';
+import { getExpertiseDigitalPageData } from '@/services/expertise.service';
 
 export const metadata: Metadata = {
   alternates: {
@@ -16,12 +17,12 @@ export const metadata: Metadata = {
 };
 
 export default function ExpertiseDigital() {
-  // const dataPage = getExpertiseDigitalPageData();
+  const dataPage = getExpertiseDigitalPageData();
 
   return (
     <Page>
       <HeaderPage
-        title='Digital'
+        title={dataPage?.title ?? 'Digital'}
         links={[
           {
             label: 'Nos expertises',
@@ -29,7 +30,7 @@ export default function ExpertiseDigital() {
           },
         ]}
         currentLink={{
-          label: 'Digital',
+          label: dataPage?.title ?? 'Digital',
           url: '/expertises/digital',
         }}
         prevLink={{
@@ -42,7 +43,7 @@ export default function ExpertiseDigital() {
         }}
         boxClassName='!mb-0'
       />
-      <div>ok</div>
+      {dataPage && <DigitalSections data={dataPage} />}
       <BottomNav
         previousLink={{
           label: 'Nos expertises',
