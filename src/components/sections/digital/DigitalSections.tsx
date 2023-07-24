@@ -8,17 +8,18 @@ import { Box } from '@/components/common/Box';
 import { MarkdownSection } from '@/components/primitives/MarkdownSection';
 import { SubPageCard } from '@/components/primitives/SubPageCard';
 
-import { CARD_TYPE, type ExpertiseDesignType } from '@/ts';
+import { CARD_TYPE, type ExpertiseDigitalType } from '@/ts';
 
 type Props = {
-  data: Omit<ExpertiseDesignType, 'title'>;
+  data: Omit<ExpertiseDigitalType, 'title'>;
 };
 
-export const DesignSections = ({ data }: Props) => {
+export const DigitalSections = ({ data }: Props) => {
   const { prefixImg } = useTheme();
+
   return (
     <Box className='tl sm:px2-fluid lg:px-fluid  mb-10 md:mb-14 lg:mb-16 xl:mb-20'>
-      <div className='px-0 sm:px2-fluid lg:px-fluid md:pt-12'>
+      <div className='px-0 sm:px2-fluid lg:px-fluid md:!pt-12'>
         <div className='mb-10 md:mb-16 lg:mb-20 xl:mb-24'>
           <MarkdownSection
             col1={{
@@ -30,24 +31,24 @@ export const DesignSections = ({ data }: Props) => {
             col2={{
               reverseMobile: false,
               image: {
-                url: `/imgs/design/intro-${prefixImg}.webp`,
+                url: `/imgs/digital/intro-${prefixImg}.webp`,
                 className: 'max-w-[509px] object-contain',
               },
             }}
             inverseCol
-            pClassName='!mb-0'
+            pClassName='xl:pt-16'
           />
         </div>
 
         {data.sections?.map((section) => (
           <MarkdownSection
             {...section}
-            key={`design-page-section-${nanoid(7)}`}
+            key={`digital-page-section-${nanoid(7)}`}
           />
         ))}
 
         <div className='mt-10 md:mt-16 lg:mt-20 xl:mt-24'>
-          <h4 className='text-a-green-dark dark:text-a-green-light mb-10 font-primary font-bold'>
+          <h4 className='mb-10 font-primary font-bold text-a-red-dark dark:text-a-red-light'>
             Nos expertises
           </h4>
 
@@ -56,21 +57,21 @@ export const DesignSections = ({ data }: Props) => {
               return (
                 <SubPageCard
                   icon={xp.icon}
-                  path={`/expertises/design/${xp.slug}`}
+                  path={`/expertises/digital/${xp.slug}`}
                   title={xp.title}
                   type={xp.color}
-                  key={`sub-page-design-${xp.slug}`}
+                  key={`sub-page-digital-${xp.slug}`}
                 />
               );
             })}
             <SubPageCard
               icon={{
-                type: 'design',
+                type: 'digital',
                 value: 'formation',
               }}
               path='/expertises/formation'
               title='Formations et ateliers'
-              type={CARD_TYPE.DESIGN}
+              type={CARD_TYPE.DIGITAL}
             />
           </div>
         </div>

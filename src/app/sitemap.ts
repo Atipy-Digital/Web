@@ -4,7 +4,9 @@ import { siteOrigin } from '@/lib/constants';
 
 import {
   getExpertiseDesignSubPageSlugs,
+  getExpertiseDigitalSubPageSlugs,
   getExpertiseFormationSubPageSlugs,
+  getExpertiseIngenierieSubPageSlugs,
 } from '@/services/expertise.service';
 import { getPostsSlug } from '@/services/post.service';
 import { getProjectsSlug } from '@/services/project.service';
@@ -31,6 +33,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const slugProjects = getProjectsSlug();
   const slugExpertiseDesigns = getExpertiseDesignSubPageSlugs();
   const slugExpertiseFormations = getExpertiseFormationSubPageSlugs();
+  const slugExpertiseDigitals = getExpertiseDigitalSubPageSlugs();
+  const slugExpertiseIngenieries = getExpertiseIngenierieSubPageSlugs();
 
   return [
     {
@@ -62,6 +66,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...(slugExpertiseFormations?.length
       ? slugExpertiseFormations.map((slug) => ({
           url: `${siteOrigin}/expertises/formation/${slug}`,
+          lastModified: new Date(),
+        }))
+      : []),
+    ...(slugExpertiseDigitals?.length
+      ? slugExpertiseDigitals.map((slug) => ({
+          url: `${siteOrigin}/expertises/digital/${slug}`,
+          lastModified: new Date(),
+        }))
+      : []),
+    ...(slugExpertiseIngenieries?.length
+      ? slugExpertiseIngenieries.map((slug) => ({
+          url: `${siteOrigin}/expertises/ingenierie/${slug}`,
           lastModified: new Date(),
         }))
       : []),

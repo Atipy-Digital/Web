@@ -73,7 +73,7 @@ export const HeaderPage = ({
               <div className='hidden md:flex items-center flex-grow max-w-[20%] w-full min-w-[160px]'>
                 <Link
                   href={prevLink.url}
-                  className='grid grid-cols-[auto_1fr] gap-2 md:gap-4 2xl:gap-6 leading-none mr-auto min-w-[160px]'
+                  className='grid grid-cols-[auto_1fr] gap-2 lg:gap-4 2xl:gap-6 leading-none mr-auto min-w-[160px]'
                 >
                   <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_LEFT} size={size} />
                   <span className='block line-truncate link-to-hover text-left text-[16px] md:text-body1 !leading-none my-auto'>
@@ -92,10 +92,10 @@ export const HeaderPage = ({
               {title}
             </h2>
             {nextLink ? (
-              <div className='hidden md:flex items-center flex-grow max-w-[20%] w-full min-w-[160px]'>
+              <div className='hidden md:flex items-center flex-grow max-w-[20%] w-full'>
                 <Link
                   href={nextLink.url}
-                  className='grid grid-cols-[auto_1fr] gap-2 md:gap-4 2xl:gap-6 leading-none ml-auto min-w-[160px]'
+                  className='grid grid-cols-[auto_1fr] gap-2 lg:gap-4 2xl:gap-6 leading-none ml-auto'
                 >
                   <span className='block line-truncate link-to-hover text-right text-[16px] md:text-body1 !leading-none my-auto'>
                     {nextLink.label}
@@ -104,7 +104,11 @@ export const HeaderPage = ({
                 </Link>
               </div>
             ) : (
-              <div className='hidden md:flex items-center flex-grow max-w-[20%] w-full' />
+              <>
+                {prevLink && (
+                  <div className='hidden md:flex items-center flex-grow max-w-[20%] w-full' />
+                )}
+              </>
             )}
           </div>
         ) : (
@@ -119,7 +123,7 @@ export const HeaderPage = ({
                 <div className='hidden md:flex items-center flex-grow max-w-[20%] w-full min-w-[160px]'>
                   <Link
                     href={prevLink.url}
-                    className='grid grid-cols-[auto_1fr] gap-2 md:gap-4 2xl:gap-6 leading-none mr-auto min-w-[160px]'
+                    className='grid grid-cols-[auto_1fr] gap-2 lg:gap-4 2xl:gap-6 leading-none mr-auto min-w-[160px]'
                   >
                     <AtipyIcon
                       type={ATIPY_ICON.ARROW_CIRCLE_LEFT}
@@ -142,10 +146,10 @@ export const HeaderPage = ({
               </h1>
 
               {nextLink ? (
-                <div className='hidden md:flex items-center flex-grow max-w-[20%] w-full min-w-[160px]'>
+                <div className='hidden md:flex items-center flex-grow max-w-[20%] w-full'>
                   <Link
                     href={nextLink.url}
-                    className='grid grid-cols-[auto_1fr] gap-2 md:gap-4 2xl:gap-6 leading-none ml-auto min-w-[160px]'
+                    className='grid grid-cols-[auto_1fr] gap-2 lg:gap-4 2xl:gap-6 leading-none ml-auto'
                   >
                     <span className='block line-truncate link-to-hover text-right text-[16px] md:text-body1 !leading-none my-auto'>
                       {nextLink.label}
