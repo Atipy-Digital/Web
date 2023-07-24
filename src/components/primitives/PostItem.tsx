@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation';
 
 import { MEDIA_QUERY, useMediaQuery } from '@/hooks/use-media';
 
+import { MarkdownText } from './MarkdownText';
 import { Tag } from './Tag';
 import { ATIPY_ICON, AtipyIcon } from '../common/icons/AtipyIcon';
 
@@ -31,7 +32,9 @@ export const PostItem = ({ title, tags, timeToRead, slug }: PostType) => {
         </div>
       </div>
 
-      <p className='text-to-hover h4 w-fit'>{title}</p>
+      <MarkdownText className='!font-primary text-to-hover !h4 !w-fit'>
+        {title}
+      </MarkdownText>
     </li>
   );
 };

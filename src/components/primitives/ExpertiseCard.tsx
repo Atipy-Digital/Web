@@ -78,13 +78,13 @@ export const ExpertiseCard = ({
   return (
     <article
       className={clsxm(
-        'tl w-full flex flex-col rounded-[42px] bg-white dark:bg-black',
+        'tl w-full flex flex-col rounded-[42px] bg-white dark:bg-background',
         sCard,
         size === 'sm' && 'px-8 py-6',
         className
       )}
     >
-      <header className='w-full flex items-center justify-between md:justify-start md:items-start md:flex-col gap-y-6'>
+      <header className='w-full flex flex-col gap-y-6'>
         <img
           alt={`logo ${type}`}
           src={urlHeaderImg}
@@ -105,15 +105,8 @@ export const ExpertiseCard = ({
           {body}
         </ReactMarkdown>
       </main>
-      <footer>
-        <Button
-          onClick={onClick}
-          icon
-          className={clsxm(
-            'tl w-full sm:w-fit text-[18px] xl:text-[20px]',
-            sCardBtn
-          )}
-        >
+      <footer className='mt-4 sm:mt-0'>
+        <Button onClick={onClick} icon className={clsxm('tl w-fit', sCardBtn)}>
           {button.label}
         </Button>
       </footer>

@@ -56,7 +56,7 @@ export const ProjectIntro = ({
           )}
         </div>
 
-        <div className='w-full h-[2px] rounded-full bg-black dark:bg-white my-10 lg:my-16 xl:my-24' />
+        <div className='w-full h-[2px] rounded-full bg-background dark:bg-white my-10 lg:my-16 xl:my-24' />
       </div>
     </Box>
   );

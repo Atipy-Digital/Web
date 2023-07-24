@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 import { Tag } from './Tag';
 
@@ -9,8 +9,13 @@ import type { ProjectType } from '@/ts';
 type Props = ProjectType;
 
 export const ProjectCard = ({ slug, title, image, tags, client }: Props) => {
+  const router = useRouter();
+
   return (
-    <article className='w-full h-full rounded-[10px] p-4 flex flex-col bg-white shadow-project-card dark:bg-black dark:border-2 dark:border-white dark:shadow-none max-w-[450px] m-auto'>
+    <article
+      className='cursor-pointer w-full h-full rounded-[10px] p-4 flex flex-col bg-white shadow-project-card dark:bg-background dark:border-2 dark:border-white dark:shadow-none max-w-[450px] m-auto'
+      onClick={() => router.push(`/realisations/${slug}`)}
+    >
       <figure className='relative block w-full aspect-video rounded-[10px] overflow-hidden'>
         <img
           src={image}
@@ -35,12 +40,9 @@ export const ProjectCard = ({ slug, title, image, tags, client }: Props) => {
         <p className='text-body1'>{client.name}</p>
       </main>
       <footer className='mt-auto'>
-        <Link
-          href={`/realisations/${slug}`}
-          className='text-body1 link-hover-small'
-        >
+        <p className='underline sm:no-underline text-body1 link-hover-small w-fit'>
           Lire la suite
-        </Link>
+        </p>
       </footer>
     </article>
   );

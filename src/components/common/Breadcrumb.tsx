@@ -3,6 +3,7 @@
 import clsxm from '@/lib/clsxm';
 
 import { ATIPY_ICON, AtipyIcon } from './icons/AtipyIcon';
+import { MarkdownText } from '../primitives/MarkdownText';
 
 export type BreadcrumbLinkProps = {
   label: string;
@@ -76,7 +77,13 @@ export const Breadcrumb = ({
               href={currentLink.url}
               className='block line-truncate leading-normal hover:underline'
             >
-              {currentLink.label}
+              <MarkdownText
+                components={{
+                  p: ({ children }) => <>{children}</>,
+                }}
+              >
+                {currentLink.label}
+              </MarkdownText>
             </a>
           </div>
         </li>

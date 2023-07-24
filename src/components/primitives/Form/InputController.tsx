@@ -1,6 +1,6 @@
 'use client';
 
-import { HTMLInputTypeAttribute } from 'react';
+import { HTMLInputTypeAttribute, ReactNode } from 'react';
 import {
   Control,
   Controller,
@@ -27,6 +27,7 @@ interface Props<FieldsType extends FieldValues>
   inputType: HTMLInputTypeAttribute;
   containerClassName?: string;
   inputClassName?: string;
+  children?: ReactNode;
 }
 
 export const InputController = <FieldsType extends FieldValues>({
@@ -39,6 +40,7 @@ export const InputController = <FieldsType extends FieldValues>({
   inputType,
   containerClassName,
   inputClassName,
+  children,
 }: Props<FieldsType>) => {
   const isInvalid = error != null;
 
@@ -69,7 +71,7 @@ export const InputController = <FieldsType extends FieldValues>({
                   isInvalid
                     ? '!border border-a-red-dark dark:border-a-red-light'
                     : 'border-transparent dark:border-white',
-                  'dark:bg-black',
+                  'dark:bg-background',
                   inputClassName
                 )}
                 rows={6}
@@ -90,7 +92,7 @@ export const InputController = <FieldsType extends FieldValues>({
                   isInvalid
                     ? '!border border-a-red-dark dark:border-a-red-light'
                     : 'border-transparent dark:border-white',
-                  'dark:bg-black',
+                  'dark:bg-background',
                   inputClassName
                 )}
               />
@@ -104,6 +106,7 @@ export const InputController = <FieldsType extends FieldValues>({
           {error.message}
         </span>
       )}
+      {children}
     </div>
   );
 };

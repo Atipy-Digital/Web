@@ -82,6 +82,7 @@ const typographyStyle = (theme) => ({
     margin: 0,
     fontFamily: 'Roboto, sans-serif',
     fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
+    lineHeight: 1.325,
   },
   blockquote: {
     fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
@@ -90,6 +91,7 @@ const typographyStyle = (theme) => ({
     marginBottom: '1rem !important',
     paddingLeft: 0,
     fontFamily: 'Roboto, sans-serif',
+    lineHeight: 1.325,
   },
 });
 
@@ -130,6 +132,7 @@ module.exports = {
         'grey-t-form': '#9A9A9A',
         'black-160': '#0A0A0A',
         'a-divider': '#707070',
+        background: '#161616',
       },
       boxShadow: {
         'a-blue-light': '10px 10px 0px #437ABE',

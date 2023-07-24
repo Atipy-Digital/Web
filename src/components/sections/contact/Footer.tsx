@@ -42,7 +42,7 @@ export const ContactFooter = ({ socials, infos }: Props) => {
               href={link.url}
               target='_blank'
               rel='noopener noreferrer'
-              className='bg-black text-white dark:bg-white dark:text-black w-10 h-10 md:w-16 md:h-16 flex items-center justify-center rounded-xl'
+              className='bg-background text-white dark:bg-white dark:text-black w-10 h-10 md:w-16 md:h-16 flex items-center justify-center rounded-xl'
             >
               <AtipyIcon type={currentType} size={matchesSM ? 'md' : 'xl'} />
             </a>

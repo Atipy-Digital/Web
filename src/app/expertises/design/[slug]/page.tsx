@@ -92,6 +92,7 @@ export default async function DesignSubPage({ params: { slug } }: Props) {
           }
         }
         boxClassName='!mb-0'
+        wrapperClassname='sm:pb-6 lg:py-fluid'
       />
       <SubPageSections data={subPage} type='design' />
       <BottomNav

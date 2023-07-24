@@ -43,7 +43,7 @@ export const EngageModal = ({ data }: Props) => {
           className={clsxm(
             'px-fluid max-w-7xl mx-auto w-full',
             'relative bg-white border-5 border-a-yellow-or shadow-a-yellow-or rounded-[42px] flex flex-col !pt-0 !pb-6 sm:!py-6 xl:!py-9 m-auto',
-            'dark:bg-black'
+            'dark:bg-background'
           )}
           initial={{
             scale: 0,

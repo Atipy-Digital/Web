@@ -61,11 +61,11 @@ export const Tag = ({
       default: {
         if (onClick) {
           if (isActive) {
-            return 'border-black bg-black text-white dark:border-white dark:bg-white dark:text-black';
+            return 'border-black bg-background text-white dark:border-white dark:bg-white dark:text-black';
           }
-          return 'border-grey-140 hover:dark:!border-white dark:border-white text-grey-110 dark:text-white hover:border-black hover:bg-black hover:text-white hover:dark:bg-white hover:dark:text-black';
+          return 'border-grey-140 hover:dark:!border-white dark:border-white text-grey-110 dark:text-white hover:border-black hover:bg-background hover:text-white hover:dark:bg-white hover:dark:text-black';
         }
-        return 'border-black bg-black text-white dark:border-white dark:bg-white dark:text-black select-none';
+        return 'border-black bg-background text-white dark:border-white dark:bg-white dark:text-black select-none';
       }
     }
   }, [color, onClick, isActive]);
