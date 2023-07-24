@@ -32,7 +32,7 @@ export const DigitalSections = ({ data }: Props) => {
               reverseMobile: false,
               image: {
                 url: `/imgs/digital/intro-${prefixImg}.webp`,
-                className: 'max-w-[509px] object-contain',
+                className: 'max-h-[384px] object-contain',
               },
             }}
             inverseCol
