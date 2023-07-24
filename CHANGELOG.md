@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.13.2](https://github.com/Atipy-Digital/Web/compare/v0.13.1...v0.13.2) (2023-07-24)
+
+
+### Bug Fixes
+
+* review ui ([#42](https://github.com/Atipy-Digital/Web/issues/42)) ([1658faf](https://github.com/Atipy-Digital/Web/commit/1658faf5bb9eb3ff2009a643968921b4ce9f82ff))
+
 ## [0.13.1](https://github.com/Atipy-Digital/Web/compare/v0.13.0...v0.13.1) (2023-07-24)
 
 
