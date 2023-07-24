@@ -1,0 +1,227 @@
+const home = {
+  label: 'Home',
+  name: 'home',
+  file: 'src/data/pages/home.md',
+  widget: 'object',
+  editor: {
+    preview: false,
+  },
+  fields: [
+    {
+      label: 'Section 1 - Banner',
+      name: 'bannerData',
+      widget: 'object',
+      collapsed: true,
+      fields: [
+        {
+          label: 'Titre',
+          name: 'title',
+          widget: 'markdown',
+          buttons: ['bold', 'italic'],
+          modes: ['rich_text'],
+          hint: "Utiliser l'italic pour utliser la font Atkinson",
+          editor_components: [],
+        },
+      ],
+    },
+    {
+      label: 'Section 2 - Intro',
+      name: 'introData',
+      widget: 'object',
+      collapsed: true,
+      fields: [
+        {
+          label: 'Titre',
+          name: 'title',
+          widget: 'markdown',
+          buttons: ['bold', 'italic', 'link'],
+          modes: ['rich_text'],
+          hint: "Utiliser l'italic pour utliser la font Atkinson",
+          editor_components: [],
+        },
+        {
+          label: 'Bouton',
+          name: 'button',
+          widget: 'object',
+          fields: [
+            { label: 'Label', name: 'label', widget: 'string' },
+            {
+              label: 'Url',
+              name: 'url',
+              widget: 'select',
+              options: [
+                '/agence',
+                '/expertises',
+                '/realisations',
+                '/posts',
+                '/contact',
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      label: 'Section 3 - Offres',
+      name: 'offersData',
+      widget: 'object',
+      collapsed: true,
+      fields: [
+        {
+          label: 'Card',
+          hint: "Vous pouvez changer l'ordre des différentes card",
+          name: 'cards',
+          widget: 'list',
+          min: 3,
+          max: 4,
+          summary: '{{fields.title}} - {{fields.type}}',
+          fields: [
+            {
+              label: 'Type',
+              name: 'type',
+              widget: 'select',
+              options: [
+                { label: 'Ingénierie', value: 'ENGINEER' },
+                { label: 'Design', value: 'DESIGN' },
+                { label: 'Digital', value: 'DIGITAL' },
+                { label: 'Conseils et formations', value: 'CONSEIL' },
+              ],
+            },
+            {
+              label: 'Titre',
+              name: 'title',
+              widget: 'string',
+            },
+            {
+              label: 'Text',
+              name: 'body',
+              widget: 'markdown',
+              buttons: [],
+              modes: ['rich_text'],
+              editor_components: [],
+            },
+            {
+              label: 'Bouton',
+              name: 'button',
+              widget: 'object',
+              fields: [{ label: 'Label', name: 'label', widget: 'string' }],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      label: "Section 4 - L'agence",
+      name: 'agencyData',
+      widget: 'object',
+      collapsed: true,
+      fields: [
+        { label: 'Titre', name: 'title', widget: 'string' },
+        {
+          label: 'Text',
+          name: 'body',
+          widget: 'markdown',
+          buttons: [],
+          modes: ['rich_text'],
+          editor_components: [],
+        },
+        {
+          label: 'Bouton Engagement',
+          name: 'buttonEngagement',
+          widget: 'object',
+          fields: [{ label: 'Label', name: 'label', widget: 'string' }],
+        },
+        {
+          label: 'Bouton Cta',
+          name: 'buttonCta',
+          widget: 'object',
+          fields: [{ label: 'Label', name: 'label', widget: 'string' }],
+        },
+      ],
+    },
+    {
+      label: 'Section 5 - Réalisations',
+      name: 'projectData',
+      widget: 'object',
+      collapsed: true,
+      fields: [
+        { label: 'Titre', name: 'title', widget: 'string' },
+        {
+          label: 'Text',
+          name: 'body',
+          widget: 'markdown',
+          buttons: [],
+          modes: ['rich_text'],
+          editor_components: [],
+        },
+        {
+          label: 'Projets à la une',
+          name: 'home_projects',
+          widget: 'relation',
+          collection: 'projects',
+          search_fields: ['title', 'project_client.label'],
+          display_fields: ['title'],
+          value_field: '{{slug}}',
+          multiple: true,
+        },
+        {
+          label: 'Bouton Cta',
+          name: 'buttonCta',
+          widget: 'object',
+          fields: [{ label: 'Label', name: 'label', widget: 'string' }],
+        },
+      ],
+    },
+    {
+      label: 'Section 7 - Newsletter',
+      name: 'newsletterData',
+      widget: 'object',
+      collapsed: true,
+      fields: [
+        {
+          label: 'Titre',
+          name: 'title',
+          widget: 'markdown',
+          buttons: [],
+          modes: ['rich_text'],
+          editor_components: [],
+        },
+        {
+          label: 'Sous titre',
+          name: 'subtitle',
+          widget: 'string',
+        },
+        { label: 'Input placeholder', name: 'placeholder', widget: 'string' },
+        {
+          label: 'Bouton Soumission',
+          name: 'button',
+          widget: 'object',
+          fields: [{ label: 'Label', name: 'label', widget: 'string' }],
+        },
+      ],
+    },
+    {
+      label: 'Section 8 - Contact',
+      name: 'contactData',
+      widget: 'object',
+      collapsed: true,
+      fields: [
+        {
+          label: 'Titre',
+          name: 'title',
+          widget: 'markdown',
+          buttons: [],
+          modes: ['rich_text'],
+          editor_components: [],
+        },
+        {
+          label: 'Email',
+          name: 'email',
+          widget: 'string',
+        },
+      ],
+    },
+  ],
+};
+
+export default home;
