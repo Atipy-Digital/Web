@@ -9,13 +9,17 @@ const posts = {
   editor: {
     preview: false,
   },
-  slug: '{{slug}}',
+  identifier_field: '{{fields.metadata.title}}',
+  slug: '{{fields.metadata.title}}',
   fields: [
     metadata,
     {
       label: 'Titre',
       name: 'title',
-      widget: 'string',
+      widget: 'markdown',
+      buttons: [],
+      modes: ['rich_text'],
+      editor_components: [],
     },
     {
       label: 'Date de publication',
