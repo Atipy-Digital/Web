@@ -1,4 +1,4 @@
-const PageCardFields = [
+const pageCardFields = [
   {
     name: 'type',
     label: 'Type',
@@ -26,4 +26,4 @@ const PageCardFields = [
   },
 ];
 
-export default PageCardFields;
+export default pageCardFields;

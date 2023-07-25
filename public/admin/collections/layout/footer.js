@@ -1,4 +1,4 @@
-const MenuTextFields = [
+const menuTextFields = [
   {
     label: 'Titre',
     name: 'title',
@@ -52,7 +52,7 @@ const footer = {
       label: 'Menu text 1',
       name: 'menuText1',
       widget: 'object',
-      fields: MenuTextFields,
+      fields: menuTextFields,
     },
     {
       label: 'Menu text 2',

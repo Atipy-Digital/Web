@@ -1,4 +1,4 @@
-const ColFields = [
+const colFields = [
   {
     name: 'reverseMobile',
     label: 'Inverser image / text en mobile',
@@ -69,7 +69,7 @@ const ColFields = [
     ],
   },
 ];
-const OptionnalColFields = [
+const optionnalColFields = [
   {
     name: 'reverseMobile',
     label: 'Inverser image / text en mobile',
@@ -155,21 +155,21 @@ const sectionFields = [
     name: 'col1',
     label: 'Colonne 1',
     widget: 'object',
-    fields: ColFields,
+    fields: colFields,
   },
   {
     name: 'col2',
     label: 'Colonne 2',
     widget: 'object',
     required: false,
-    fields: OptionnalColFields,
+    fields: optionnalColFields,
   },
   {
     name: 'col3',
     label: 'Colonne 3',
     widget: 'object',
     required: false,
-    fields: OptionnalColFields,
+    fields: optionnalColFields,
   },
 ];
 

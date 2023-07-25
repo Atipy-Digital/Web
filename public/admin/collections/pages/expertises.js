@@ -1,4 +1,4 @@
-import PageCardFields from '../common/page-card.js';
+import pageCardFields from '../common/page-card.js';
 
 const expertises = {
   label: 'Nos Expertises',
@@ -15,7 +15,7 @@ const expertises = {
       collapsed: true,
       widget: 'list',
       summary: 'Card - {{fields.title}}',
-      fields: PageCardFields,
+      fields: pageCardFields,
     },
   ],
 };
