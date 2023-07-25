@@ -7,6 +7,11 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
+    <script>
+      // Disable CMS auto initialization - this allows the configuration file to
+      // be augmented by script.
+      window.CMS_MANUAL_INIT = true;
+    </script>
     <!-- Include the script that builds the page and powers Decap CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
 
@@ -19,6 +24,7 @@
       nomodule
       src="https://cdn.jsdelivr.net/npm/dataformsjs@5/js/web-components/old-browser-warning.min.js"
     ></script>
+    <script src="config.js" type="text/babel" data-type="module"></script>
     <script type="text/babel" data-type="module">
       class SelectIconControl extends React.Component {
         static defaultProps = {
