@@ -43,6 +43,7 @@ const sub_digital = {
       name: 'intro',
       label: 'Intro',
       widget: 'markdown',
+      required: false,
       buttons: [
         'bold',
         'italic',
