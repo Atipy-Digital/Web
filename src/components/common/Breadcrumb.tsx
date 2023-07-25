@@ -27,17 +27,21 @@ export const Breadcrumb = ({
 }: Props) => {
   return (
     <nav
-      className={clsxm('w-full flex items-center justify-center', boxClassName)}
+      className={clsxm(
+        'w-full flex items-center justify-center pt-3 md:pt-0',
+        boxClassName
+      )}
       aria-label='Breadcrumb'
     >
       <ul
         className={clsxm(
-          'flex items-center md:justify-start gap-1 flex-wrap',
+          'flex items-center md:justify-start flex-wrap',
+          'gap-x-1 gap-y-[2px] md:gap-x-1',
           align === 'center' ? 'justify-center' : 'justify-start',
           className
         )}
       >
-        <li className='tl flex items-center justify-center gap-1 h-[32px] md:h-auto text-[15px] md:text-[16px] lg:text-[18px]'>
+        <li className='tl flex items-center justify-center gap-1 h-[28px] md:h-auto text-[15px] md:text-[16px] lg:text-[18px]'>
           <a href='/' className='leading-normal hover:underline'>
             Accueil
           </a>
@@ -45,7 +49,7 @@ export const Breadcrumb = ({
         {links?.map(({ label, url }) => (
           <li
             key={`Breadcrumb-link-${label}`}
-            className='tl flex items-center justify-center gap-1 h-[32px] md:h-auto text-[15px] md:text-[16px] lg:text-[18px]'
+            className='tl flex items-center justify-center gap-1 h-[28px] md:h-auto text-[15px] md:text-[16px] lg:text-[18px]'
           >
             <div className='grid grid-cols-[auto_1fr]'>
               <div className='flex items-center justify-center whitespace-nowrap'>
@@ -64,7 +68,7 @@ export const Breadcrumb = ({
             </div>
           </li>
         ))}
-        <li className='tl flex items-center justify-center gap-1 h-[32px] md:h-auto text-[15px] md:text-[16px] lg:text-[18px] font-bold'>
+        <li className='tl flex items-center justify-center gap-1 h-[28px] md:h-auto text-[15px] md:text-[16px] lg:text-[18px] font-bold'>
           <div className='grid grid-cols-[auto_1fr]'>
             <div className='flex items-center justify-center whitespace-nowrap'>
               <AtipyIcon

@@ -58,7 +58,7 @@ export const HeaderPage = ({
     >
       <div
         className={clsxm(
-          'tl px-0 pt-5 pb-8 sm:pb-10 md:py-fluid w-full',
+          'tl px-0 pt-0 md:pt-5 pb-8 sm:pb-10 md:py-fluid w-full',
           wrapperClassname
         )}
       >
@@ -73,7 +73,7 @@ export const HeaderPage = ({
         {!intro ? (
           <div
             className={clsxm(
-              'mt-4 w-full',
+              'mt-8 md:mt-4 w-full',
               (prevLink || nextLink) && 'flex items-center justify-between'
             )}
           >
