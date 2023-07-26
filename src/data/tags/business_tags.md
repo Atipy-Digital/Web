@@ -1,10 +1,10 @@
 ---
 tag:
   - type: business
-    label: Département
+    label: Santé
     color: default
   - type: business
-    label: Santé
+    label: Département
     color: default
   - type: business
     color: default
