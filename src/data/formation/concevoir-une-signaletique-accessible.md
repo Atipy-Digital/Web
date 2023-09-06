@@ -38,6 +38,20 @@ sections:
       reverseMobile: false
       text:
         content: >-
+          ### O﻿bjectifs pédagogiques
+
+
+          * Expliquer les principes fondamentaux de la conception universelle
+
+          * Acquérir les bases de la signalétique
+
+          * Distinguer les différents types de handicap et les principaux besoins associés en termes de signalétique
+
+          * Désigner les différentes clés pour concevoir une signalétique accessible
+    col2:
+      reverseMobile: false
+      text:
+        content: >-
           ### Programme et méthode
 
 
@@ -63,7 +77,7 @@ sections:
           * Rappel des bonnes pratiques
 
           * Exemples de systèmes signalétique accessibles
-    col2:
+    col3:
       reverseMobile: false
       text:
         content: |-
@@ -77,8 +91,6 @@ sections:
 
           * 1 synthèse des points importants abordés lors de la formation
           * 1 attestation de présence
-    col3:
-      reverseMobile: false
 footer:
   btn:
     label: Cette formation vous intéresse ? Contactez-nous ?
