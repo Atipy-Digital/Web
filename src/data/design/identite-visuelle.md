@@ -50,7 +50,8 @@ sections:
       reverseMobile: false
 footer:
   btn:
-    tag: Design
+    tag: Conception graphique
     color: green
     label: Découvrez nos réalisations
+  titleContact: Vous avez un projet de signalétique ? Contactez-nous !
 ---
