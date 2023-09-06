@@ -4,6 +4,9 @@ metadata:
   description: Signalétique
   keywords:
     - keyword: Signalétique
+    - keyword: accessibilité
+    - keyword: mobilité
+    - keyword: orientation
 title: Signalétique
 date: 2023-07-20T09:58:32.115Z
 icon:
