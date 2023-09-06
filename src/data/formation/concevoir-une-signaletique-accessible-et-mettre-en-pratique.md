@@ -58,7 +58,7 @@ sections:
           ### Programme et méthode
 
 
-          **Les fondamentaux de la conception universelle et de la signalétique accessible**
+          **Jour 1 - Les fondamentaux de la conception universelle et de la signalétique accessible**
 
 
           * Normes et réglementation
@@ -67,19 +67,34 @@ sections:
 
           * Rappel des bases de la signalétique et de ses différentes typologies
 
+          * Définition du concept de «Wayfinding».
+
           * Les usagers à besoins spécifiques
 
-          * Mises en situation et exemples
+          * Mises en situation
 
-          * Les bonnes pratiques : Lisibilité, visibilité, compréhension.
+          * Exemples de systèmes signalétique accessibles et multisensoriels
+
+          * Les bonnes pratiques : Lisibilité, visibilité, compréhension
 
 
-          **Études de cas et expérimentations**
+          **Jour 2 - Études de cas et expérimentations**
 
 
           * Rappel des bonnes pratiques
 
-          * Exemples de systèmes signalétique accessibles
+          * Méthodologie pour la mise en place d’une signalétique accessible et multisensorielle.
+
+          * Ateliers de mise en pratique : création de votre propre système signalétique.
+
+
+          **Prendre le temps de mettre en pratique ce que vous avez vu et entendu nous semble essentiel pour finaliser l’apprentissage.**
+
+
+          Nous vous proposons un atelier durant lequel vous travaillez sur votre propre système de signalétique (implantation, contenus, mise en forme…)
+
+
+          Nous sommes présents pour vous orienter, répondre à vos questions et faire ensemble.
     col3:
       reverseMobile: false
       text:
@@ -94,6 +109,8 @@ sections:
 
           * 1 synthèse des points importants abordés lors de la formation
           * 1 attestation de présence
+          * 1 principe de système signalétique
+          * 1 maquette du support de votre choix
 footer:
   btn:
     label: Cette formation vous intéresse ? Contactez-nous ?
