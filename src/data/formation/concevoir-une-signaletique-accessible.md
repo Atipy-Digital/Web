@@ -79,4 +79,8 @@ sections:
           * 1 attestation de présence
     col3:
       reverseMobile: false
+footer:
+  btn:
+    label: Cette formation vous intéresse ? Contactez-nous ?
+    color: green
 ---
