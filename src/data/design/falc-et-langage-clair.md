@@ -20,39 +20,36 @@ intro: >-
   Accéder à une information est aujourd’hui indispensable. Il s’agit même d’un droit. C’est un enjeu important d’équité et de protection des usagers plus difficilement informées. Accéder à une information permet à l’usager :
 
 
-  D’être autonome.
+  * D’être autonome.
 
-  De connaître ses droits.
+  * De connaître ses droits.
 
-  D’avoir accès à des soins.
+  * D’avoir accès à des soins.
 
-  D’avoir accès à l’emploi.
+  * D’avoir accès à l’emploi.
+
+
 
   Documents administratifs, contrats juridiques, formulaires d’inscription ou encore site internet sont souvent des supports utilisant une rédaction complexe (phrases longues, vocabulaire élaboré ou technique, texte dense…)
 
 
-  Nous croyons que la diffusion d’informations claires et simples contribue à conserver dignité et autonomie pour le plus grand nombre.
+  **Nous croyons que la diffusion d’informations claires et simples contribue à conserver dignité et autonomie pour le plus grand nombre.**
 sections:
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: >-
-          ### Concevoir des informations compréhensibles pour le plus grand
-          nombre profite aux personnes :
-
+        content: |-
+          ### Des informations claires profitent aux personnes :
 
           * En situation de handicap mental
-
           * Déficientes intellectuelles
-
           * Ayant des troubles « Dys » (dyslexie, dyspraxie, dysorthographie…)
-
           * Étrangères ne parlant pas français
-
           * Âgées
-
           * En apprentissage de la lecture, adultes comme enfants.
+      image:
+        url: /media/pictos-formations-30.png
     col2:
       reverseMobile: false
       text:
@@ -60,14 +57,13 @@ sections:
           ### Le français Facile à Lire et à Comprendre (FALC)
 
 
-          La compréhension de l’information entre en jeu lorsque nous parlons d’accès à l’information. Souvent, les contenus textuels sont trop longs, trop compliqués, ou trop techniques. L’information n’est plus facile d’accès pour les personnes ayant un handicap mental, les enfants, les personnes de langue étrangère, les personnes âgées avec un trouble cognitif… Nous proposons des contenus simples. Ils peuvent être rédigés en français facile ou en Français Facile à Lire et à Comprendre. Associé à un visuel, le texte est également plus facilement compris (photo, image, pictogramme…)
+          La compréhension de l’information entre en jeu lorsque nous parlons d’accessibilité. Souvent, les contenus textuels sont trop longs, trop compliqués, ou trop techniques. L’information n’est plus facile d’accès pour les personnes ayant un handicap mental, les enfants, les personnes de langue étrangère, les personnes âgées avec un trouble cognitif… Nous proposons des contenus simples. Ils peuvent être rédigés en français facile ou en Français Facile à Lire et à Comprendre. Associé à un visuel, le texte est également plus facilement compris (photo, image, pictogramme…)
 
 
           D’autres outils comme le braille, de l’audio ou de la Langue des Signes Françaises peuvent être envisagés.
 
 
           #### FALC, quelles en sont les règles ?
-
 
 
           Inclusion Europe, portée en France par l’UNAPEI (Union nationale des associations de parents, de personnes handicapées mentales et de leurs amis) propose une méthodologie simple.
@@ -89,7 +85,6 @@ sections:
 
 
           #### Le logo FALC
-
 
 
           Le logo européen du Facile à la Lire ne pourra être apposé que sur les supports ayant été relus par des personnes déficientes intellectuelles. Ces dernières doivent donc s’impliquer dans la rédaction de textes faciles à lire. Elles participent ainsi au choix des mots qui leur paraissent plus compréhensibles, évaluent le contenu et la mise en page.
