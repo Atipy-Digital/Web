@@ -51,4 +51,6 @@ sections:
 footer:
   btn:
     tag: Design
+    color: green
+    label: Découvrez nos réalisations
 ---
