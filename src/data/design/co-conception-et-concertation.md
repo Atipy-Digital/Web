@@ -91,4 +91,9 @@ sections:
         color: green
       image:
         url: /media/expertise-atipy-design-atelier-creatif.jpg
+footer:
+  btn:
+    label: Découvrez nos projets co-construits
+    color: green
+    tag: FALC
 ---
