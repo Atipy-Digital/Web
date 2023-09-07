@@ -37,9 +37,7 @@ sections:
   - col1:
       reverseMobile: false
       text:
-        content: "![Schéma avec deux totems signalétique. préconisations pour la hauteur
-          d'implantation du
-          texte.](/media/design-signaletique-accessible-bnf-atipy-1.png)"
+        content: "![]()"
     col2:
       reverseMobile: false
     col3:
@@ -53,7 +51,7 @@ sections:
 
           Nous prenons en compte, dès la conception, la réglementation de la loi du 11 février 2005 et les principes de la conception universelle afin de réaliser un système signalétique confortable et facile à utiliser pour tous ! Nous concevons des supports signalétiques en prenant en compte les besoins de tous types de visiteurs : familles et enfants, personnes de langues étrangères, personnes âgées, personnes en situation de handicap, publics à besoins spécifiques.. Au-delà des questions de lisibilité des informations (taille des caractères, contrastes, etc.), la signalétique peut également intégrer des dispositifs digitaux ou multi-sensoriels, comme un plan tactile ou des balises sonores.
       image:
-        url: ""
+        url: /media/design-signaletique-accessible-bnf-atipy-1.png
     col2:
       reverseMobile: false
       image:
