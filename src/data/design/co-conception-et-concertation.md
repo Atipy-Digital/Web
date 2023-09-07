@@ -41,6 +41,10 @@ sections:
 
 
           En lien avec un réseau d’associations, nous mettons en place des réunions sur site ou dans vos bureaux.
+      image:
+        url: /media/expertise-atipy-design-codesign-concertation.jpg
+        legend: Atelier collaboratif. Participants autour d'une table avec un paper
+          board.
     col2:
       reverseMobile: false
       text:
