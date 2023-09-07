@@ -74,8 +74,8 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          ### La co-conception commence donc dès le départ de votre projet ! Cap
-          ?
+          #### La co-conception commence donc dès le départ de votre projet !
+          Cap ?
 
 
           **Les outils :**
@@ -88,4 +88,7 @@ sections:
           * L﻿es ateliers créatifs
 
           * Les brainstormings
+        color: green
+      image:
+        url: /media/expertise-atipy-design-atelier-creatif.jpg
 ---
