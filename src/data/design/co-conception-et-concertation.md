@@ -69,19 +69,24 @@ sections:
           * Favoriser l’innovation
 
           * Tester l’utilisabilité afin d’éviter un avis défavorable de l’utilisateur en situation de handicap au moment de la finalisation du projet.
+      image:
+        url: /media/expertise-atipy-design-atelier-creatif.jpg
     col3:
       reverseMobile: false
       text:
-        content: |-
-          La co-conception commence donc dès le départ de votre projet ! Cap ?
+        content: >-
+          ### La co-conception commence donc dès le départ de votre projet ! Cap
+          ?
 
-          Les outils
 
-          L﻿e maquettage et le prototypage
+          **Les outils :**
 
-          L﻿es tests in situ
 
-          L﻿es ateliers créatifs
+          * L﻿e maquettage et le prototypage
 
-          Les brainstormings
+          * L﻿es tests in situ
+
+          * L﻿es ateliers créatifs
+
+          * Les brainstormings
 ---
