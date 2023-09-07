@@ -95,7 +95,13 @@ sections:
           ### L﻿e langage clair
 
 
-          Le langage ou rédaction clair est rédigé selon les mêmes règles d’écriture que le FALC (ponctuation, vocabulaire, hiérarchisation…) Tout comme le FALC, il facilite la compréhension du contenu pour tous. Cependant, le français simple n’implique pas la relecture et la validation par des personnes déficientes intellectuelles. La méthode de rédaction du français FALC exige que le texte soit relu et validé par des partenaires ayant un handicap mental. Cette validation permet de s’assurer que tous les termes et tournures de phrases utilisés sont bien compris de tous. En l’absence d’ateliers de relecture et de validation, il s’agit de français simple.
+          Le langage ou rédaction clair est rédigé selon les mêmes règles d’écriture que le FALC (ponctuation, vocabulaire, hiérarchisation…) 
+
+
+          Tout comme le FALC, il facilite la compréhension du contenu pour tous. Cependant, le français clair n’implique pas la relecture et la validation par des personnes déficientes intellectuelles. 
+
+
+          La méthode de rédaction du français FALC exige que le texte soit relu et validé par des partenaires ayant un handicap mental. Cette validation permet de s’assurer que tous les termes et tournures de phrases utilisés sont bien compris de tous. En l’absence d’ateliers de relecture et de validation, il s’agit de français simple.
 footer:
   btn:
     tag: Design
