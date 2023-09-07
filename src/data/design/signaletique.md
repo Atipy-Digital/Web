@@ -28,6 +28,8 @@ sections:
 
 
           La signalétique est un ensemble d’outils et de signes permettant à un utilisateur de pouvoir s’orienter en autonomie. Elle favorise le confort d’usage d’un lieu. La signalétique oriente, accueille et informe. La mise en place d’un système signalétique efficace nécessite des compétences particulières. Il existe plusieurs typologies de supports signalétique. Chaque typologie a une fonction particulière : signalétique d’identification, directionnelle, d’interprétation, d’information, de sécurité. La signalétique, visible de tous, est également un outil de communication qu’il ne faut pas oublier. Elle appuie une identité visuelle, crée une unité graphique au sein d’un ou plusieurs espaces.
+      image:
+        url: /media/design-signaletique-pieton-annemasse-pem-atipy-1.png
     col2:
       reverseMobile: false
     col3:
