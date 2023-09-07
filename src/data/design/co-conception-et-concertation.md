@@ -21,7 +21,7 @@ intro: >-
 sections:
   - inverseCol: false
     col1:
-      reverseMobile: false
+      reverseMobile: true
       text:
         content: >-
           #### Nos réunions de concertation
@@ -43,8 +43,7 @@ sections:
           En lien avec un réseau d’associations, nous mettons en place des réunions sur site ou dans vos bureaux.
       image:
         url: /media/expertise-atipy-design-codesign-concertation.jpg
-        legend: Atelier collaboratif. Participants autour d'une table avec un paper
-          board.
+        legend: ""
     col2:
       reverseMobile: false
       text:
@@ -70,7 +69,7 @@ sections:
 
           * Tester l’utilisabilité afin d’éviter un avis défavorable de l’utilisateur en situation de handicap au moment de la finalisation du projet.
       image:
-        url: /media/expertise-atipy-design-atelier-creatif.jpg
+        url: ""
     col3:
       reverseMobile: false
       text:
