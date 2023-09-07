@@ -37,7 +37,7 @@ sections:
   - col1:
       reverseMobile: false
       text:
-        content: '![s](/media/ph-1277.png "s")'
+        content: '![s](/media/design-signaletique-accessible-bnf-atipy-1.png "s")'
     col2:
       reverseMobile: false
     col3:
