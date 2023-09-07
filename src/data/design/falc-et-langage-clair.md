@@ -112,7 +112,7 @@ sections:
 
           La méthode de rédaction du français FALC exige que le texte soit relu et validé par des partenaires ayant un handicap mental. Cette validation permet de s’assurer que tous les termes et tournures de phrases utilisés sont bien compris de tous. En l’absence d’ateliers de relecture et de validation, il s’agit de français simple.
       image:
-        url: /media/design-livret-falc-msa-mieux-manger-atipy.jpg
+        url: /media/design-livret-falc-msa-mieux-manger-atipy-2.jpg
 footer:
   btn:
     tag: Design
