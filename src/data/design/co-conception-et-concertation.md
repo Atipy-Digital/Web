@@ -21,13 +21,25 @@ intro: >-
 sections:
   - inverseCol: false
     col1:
+      reverseMobile: false
+      image:
+        url: /media/expertise-atipy-design-codesign-concertation.jpg
+      text:
+        content: Vous souhaitez avoir l’avis des usagers, des associations, des
+          personnes en situation de handicap ?
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
       reverseMobile: true
       text:
         content: >-
           #### Nos réunions de concertation
 
 
-          Vous souhaitez avoir l’avis des usagers, des associations, des personnes en situation de handicap ? Nous organisons et planifions des réunions de concertations adaptées à vos besoins en lien avec des associations. 
+          Nous organisons, planifions et animons des réunions de concertations adaptées à vos besoins en lien avec des associations. 
 
 
           Nous croyons qu’il est important de connaître le ressenti, les besoins et les avis des personnes concernées par un outil ou un service. C’est pourquoi ces réunions peuvent avoir lieu à différents moments clefs de votre projet.
@@ -42,7 +54,7 @@ sections:
 
           En lien avec un réseau d’associations, nous mettons en place des réunions sur site ou dans vos bureaux.
       image:
-        url: /media/expertise-atipy-design-codesign-concertation.jpg
+        url: ""
         legend: ""
     col2:
       reverseMobile: false
@@ -73,20 +85,14 @@ sections:
     col3:
       reverseMobile: false
       text:
-        content: >-
-          #### La co-conception commence donc dès le départ de votre projet !
-          Cap ?
-
+        content: |-
+          #### La co-conception commence dès le départ de votre projet ! Cap ?
 
           **Les outils :**
 
-
           * L﻿e maquettage et le prototypage
-
           * L﻿es tests in situ
-
           * L﻿es ateliers créatifs
-
           * Les brainstormings
         color: green
       image:
