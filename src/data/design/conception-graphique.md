@@ -88,20 +88,8 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: >-
-          #### Nous créons votre identité visuelle
-
-
-          ##### PME, Start Up, créateurs d’entreprise, vous avez besoin d’un logo pour lancer votre communication ?
-
-
-          Communautés d’agglomération, vous souhaitez réaliser une identité visuelle propre à votre SCOT, votre PLUi ou votre PADD ?
-
-
-          La conception de votre logotype ou de votre identité visuelle institutionnelle ou évènementielle est une étape fondamentale dans votre communication. La promotion de votre offre, de votre service ou de vos évènements permet de toucher votre public et de créer une relation durable.
-
-
-          Avant d’imaginer un plan de communication, avant d’élaborer des supports, il est nécessaire d’avoir une identité visuelle cohérente. L’image de votre structure et sa notoriété passent par l’impact de votre logo, véritable élément fondateur de votre identité, et de ses déclinaisons (cartes de visite, sites web, brochures, etc). Indissociables, ils traduisent vos valeurs et votre positionnement.
+        content: "#### Nous créons aussi votre [identité
+          visuelle](expertises/design/identite-visuelle)."
     col2:
       reverseMobile: false
     col3:
