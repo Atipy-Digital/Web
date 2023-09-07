@@ -29,12 +29,21 @@ intro: >-
   * D’avoir accès à l’emploi.
 
 
-
   Documents administratifs, contrats juridiques, formulaires d’inscription ou encore site internet sont souvent des supports utilisant une rédaction complexe (phrases longues, vocabulaire élaboré ou technique, texte dense…)
-
-
-  **Nous croyons que la diffusion d’informations claires et simples contribue à conserver dignité et autonomie pour le plus grand nombre.**
 sections:
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        url: /media/design-livret-falc-msa-mieux-manger-atipy.jpg
+      text:
+        content: "**Nous croyons que la diffusion d’informations claires et simples
+          contribue à conserver dignité et autonomie pour le plus grand
+          nombre.**"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
@@ -82,16 +91,16 @@ sections:
           * Ecrire au présent.
 
           * Une information en FALC peut également être accompagnée d’une image ou d’un pictogramme.
-
-
-          #### Le logo FALC
-
-
-          Le logo européen du Facile à la Lire ne pourra être apposé que sur les supports ayant été relus par des personnes déficientes intellectuelles. Ces dernières doivent donc s’impliquer dans la rédaction de textes faciles à lire. Elles participent ainsi au choix des mots qui leur paraissent plus compréhensibles, évaluent le contenu et la mise en page.
     col3:
       reverseMobile: false
       text:
         content: >-
+          ### Le logo FALC
+
+
+          Le logo européen du Facile à la Lire ne pourra être apposé que sur les supports ayant été relus par des personnes déficientes intellectuelles. Ces dernières doivent donc s’impliquer dans la rédaction de textes faciles à lire. Elles participent ainsi au choix des mots qui leur paraissent plus compréhensibles, évaluent le contenu et la mise en page.
+
+
           ### L﻿e langage clair
 
 
