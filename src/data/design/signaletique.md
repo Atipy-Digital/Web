@@ -37,7 +37,9 @@ sections:
   - col1:
       reverseMobile: false
       text:
-        content: '![s](/media/design-signaletique-accessible-bnf-atipy-1.png "s")'
+        content: "![Schéma avec deux totems signalétique. préconisations pour la hauteur
+          d'implantation du
+          texte.](/media/design-signaletique-accessible-bnf-atipy-1.png)"
     col2:
       reverseMobile: false
     col3:
@@ -55,7 +57,7 @@ sections:
     col2:
       reverseMobile: false
       image:
-        url: /media/ph-578.png
+        url: ""
     col3:
       reverseMobile: false
     inverseCol: false
@@ -63,8 +65,8 @@ sections:
       reverseMobile: true
       text:
         content: '![Pourquoi mettre en place un système signalétique
-          ?](/media/ph-575.png "Pourquoi mettre en place un système signalétique
-          ?")'
+          ?](/media/design-signaletique-accessible-theatre-bateau-feu-dunkerque-atipy-1.jpg
+          "Pourquoi mettre en place un système signalétique ?")'
     col2:
       reverseMobile: false
       text:
