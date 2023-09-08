@@ -5,7 +5,7 @@ metadata:
   keywords:
     - keyword: formation
     - keyword: langage clair
-title: Accessibilité textuelle - Rédiger un document de façon claire et simple
+title: Rédiger un document de façon claire et simple
 date: 2023-09-08T15:33:53.016Z
 icon:
   label: Langage Clair - Vert
