@@ -54,6 +54,15 @@ sections:
     col2:
       reverseMobile: false
       text:
+        content: ""
+    col3:
+      reverseMobile: false
+      text:
+        content: ""
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: >-
           ### Programme et méthode
 
@@ -95,7 +104,7 @@ sections:
 
 
           Nous sommes présents pour vous orienter, répondre à vos questions et faire ensemble.
-    col3:
+    col2:
       reverseMobile: false
       text:
         content: |-
@@ -111,6 +120,8 @@ sections:
           * 1 attestation de présence
           * 1 principe de système signalétique
           * 1 maquette du support de votre choix
+    col3:
+      reverseMobile: false
 footer:
   btn:
     label: Cette formation vous intéresse ? Contactez-nous ?
