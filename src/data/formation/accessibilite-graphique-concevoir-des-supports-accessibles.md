@@ -92,10 +92,28 @@ sections:
       reverseMobile: false
       text:
         content: |-
+          ### Évaluation
+
+          * Autoévaluation
+          * Exemples pratiques
+
           ### Vous repartez avec : 
 
           * 1 synthèse des points importants abordés lors de la formation
           * 1 attestation de présence
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### C﻿e que les participants en ont pensé
+
+
+          "﻿Bonne ambiance générale avec beaucoup de liberté d'échanges sur les différentes thématiques. Les exercices pratiques et les analyses de cas concrets intéressants pour la prise de conscience."
+    col2:
+      reverseMobile: false
     col3:
       reverseMobile: false
 footer:
