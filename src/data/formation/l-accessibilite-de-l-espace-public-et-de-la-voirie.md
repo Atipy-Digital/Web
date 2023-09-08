@@ -49,6 +49,15 @@ sections:
     col2:
       reverseMobile: false
       text:
+        content: ""
+    col3:
+      reverseMobile: false
+      text:
+        content: ""
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: >-
           ### Programme et méthode
 
@@ -61,7 +70,7 @@ sections:
             Stationnements, circulations, traversées, escaliers, mobilier urbain, arrêts de bus
           * **Cas pratique :** 
             Diagnostic d’un itinéraire, plan de travaux
-    col3:
+    col2:
       reverseMobile: false
       text:
         content: |-
@@ -70,12 +79,14 @@ sections:
           * Autoévaluation
           * Exemples pratiques
 
-          ### Vous repartez avec : 
+          ### Vous repartez avec :
 
           * 1 synthèse des points importants abordés lors de la formation
           * Les textes réglementaires
           * Un référentiel d’accessibilité de l’espace public
           * 1 attestation de présence
+    col3:
+      reverseMobile: false
 footer:
   btn:
     label: Cette formation vous intéresse ? Contactez-nous !
