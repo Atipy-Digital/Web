@@ -100,6 +100,11 @@ sections:
 
           * Autoévaluation
           * Exemples pratiques
+
+          ### Vous repartez avec : 
+
+          * 1 synthèse des points importants abordés lors de la formation
+          * 1 attestation de présence
     col3:
       reverseMobile: false
 footer:
