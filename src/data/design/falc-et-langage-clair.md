@@ -58,8 +58,19 @@ sections:
           * Âgées
           * En apprentissage de la lecture, adultes comme enfants.
       image:
-        url: /media/pictos-formations-30.png
+        url: ""
     col2:
+      reverseMobile: false
+      text:
+        content: "![](/media/design-livret-falc-msa-mieux-manger-atipy-2.jpg)"
+    col3:
+      reverseMobile: false
+      text:
+        content: ""
+      image:
+        url: ""
+  - inverseCol: false
+    col1:
       reverseMobile: false
       text:
         content: >-
@@ -70,8 +81,10 @@ sections:
 
 
           D’autres outils comme le braille, de l’audio ou de la Langue des Signes Françaises peuvent être envisagés.
-
-
+    col2:
+      reverseMobile: false
+      text:
+        content: >-
           #### FALC, quelles en sont les règles ?
 
 
@@ -93,29 +106,35 @@ sections:
           * Une information en FALC peut également être accompagnée d’une image ou d’un pictogramme.
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
       text:
         content: >-
           ### Le logo FALC
 
 
           Le logo européen du Facile à la Lire ne pourra être apposé que sur les supports ayant été relus par des personnes déficientes intellectuelles. Ces dernières doivent donc s’impliquer dans la rédaction de textes faciles à lire. Elles participent ainsi au choix des mots qui leur paraissent plus compréhensibles, évaluent le contenu et la mise en page.
-
-
+    col2:
+      reverseMobile: false
+      text:
+        content: >-
           ### L﻿e langage clair
 
 
-          Le langage ou rédaction clair est rédigé selon les mêmes règles d’écriture que le FALC (ponctuation, vocabulaire, hiérarchisation…) 
+          Le langage ou rédaction clair est rédigé selon les mêmes règles d’écriture que le FALC (ponctuation, vocabulaire, hiérarchisation…)
 
 
-          Tout comme le FALC, il facilite la compréhension du contenu pour tous. Cependant, le français clair n’implique pas la relecture et la validation par des personnes déficientes intellectuelles. 
+          Tout comme le FALC, il facilite la compréhension du contenu pour tous. Cependant, le français clair n’implique pas la relecture et la validation par des personnes déficientes intellectuelles.
 
 
           La méthode de rédaction du français FALC exige que le texte soit relu et validé par des partenaires ayant un handicap mental. Cette validation permet de s’assurer que tous les termes et tournures de phrases utilisés sont bien compris de tous. En l’absence d’ateliers de relecture et de validation, il s’agit de français simple.
-      image:
-        url: /media/design-livret-falc-msa-mieux-manger-atipy-2.jpg
+    col3:
+      reverseMobile: false
 footer:
   btn:
     tag: Design
     color: green
     label: Découvrez nos réalisations
+  titleContact: Vous avez un projet de support en FALC ?
 ---
