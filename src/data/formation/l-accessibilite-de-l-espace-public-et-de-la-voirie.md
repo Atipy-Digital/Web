@@ -89,6 +89,7 @@ sections:
       reverseMobile: false
 footer:
   btn:
-    label: Cette formation vous intéresse ? Contactez-nous !
-    color: blue
+    label: ""
+    color: null
+  titleContact: Cette formation vous intéresse ?
 ---
