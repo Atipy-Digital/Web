@@ -43,6 +43,7 @@ sections:
           * Avoir une vision globale de cadre réglementaire de l’accessibilité en France
 
           * Comprendre les freins et obstacles rencontrés par les usagers
+        color: blue
     col2:
       reverseMobile: false
     col3:
