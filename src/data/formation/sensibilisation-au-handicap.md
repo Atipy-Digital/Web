@@ -13,10 +13,13 @@ intro: >-
   ### Identifier et comprendre les différents types de handicap
 
 
-   **+ Durée** : 2 jours
+  **+ Durée** : 2 jours
 
 
-  **+ Prix** : 1 400€ HT en France Metropolitaine
+  **+ Prix** : 1 400€ HT en France Métropolitaine
+
+
+  **+ En intra ou inter**
 
 
   **+ Formateur** : Pierre-Yves Bourghelle • Consultant Accessibilité
@@ -83,4 +86,6 @@ sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+footer:
+  titleContact: Cette formation vous intéresse ?
 ---
