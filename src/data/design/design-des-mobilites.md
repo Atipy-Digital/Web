@@ -37,7 +37,19 @@ sections:
     col2:
       reverseMobile: false
       text:
+        content: "![Une cycliste est debout à coté d'un totem d'information en
+          bois.](/media/design-expertise-mobilite-velo-atipy-2.jpg)"
+    col3:
+      reverseMobile: false
+      text:
+        content: ""
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: >-
+          
+
           #### Les objectifs du design des mobilités
 
 
@@ -50,11 +62,13 @@ sections:
           * Faire connaître les offres de mobilités actives accessibles
 
           * Permettre à tous et toutes de vivre une expérience agréable de la pratique du vélo.
-    col3:
+      image:
+        url: /media/design-expertise-mobilite-velo-signaletique-atipy-3.jpg
+    col2:
       reverseMobile: false
       text:
         content: |-
-          Nos prestations
+          ### Nos prestations
 
           Aussi, nous vous accompagnons pour :
 
@@ -66,6 +80,10 @@ sections:
           * La conception graphique de plan d’orientation
           * La formalisation visuelle de réseau de voies vertes
           * La création de supports de communication en FALC ou langage clair
+      image:
+        url: /media/design-expertise-mobilite-velo-signaletique-plan-atipy-4.jpg
+    col3:
+      reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
