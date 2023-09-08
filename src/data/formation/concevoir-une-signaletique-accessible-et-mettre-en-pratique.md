@@ -122,6 +122,19 @@ sections:
           * 1 maquette du support de votre choix
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Ce que les participants en ont pensé
+
+
+          "Passionnant et très instructif. J'ai été très agréablement surprise qu'on mentionne la question du genre dans la signalétique."
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 footer:
   btn:
     label: ""
