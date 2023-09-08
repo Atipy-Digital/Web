@@ -43,11 +43,6 @@ sections:
           La **lisibilité** est un point important de notre processus de conception. Un document peu lisible génère une difficulté pour une personne âgée ou une personne malvoyante (myopie, astigmatisme, daltonisme…), et un manque de confort pour tous. C’est pourquoi, pour chaque support, nous pensons à utiliser un contraste suffisant (à partir du tableau de Paul Arthur et Romedi Passini), une typographie lisible, un interlettrage et un interlignage correctes.
     col2:
       reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
       text:
         content: |-
           #### Nous réalisons la mise en page de vos documents
@@ -57,8 +52,6 @@ sections:
           * Guide d’accueil des publics en situation de handicap
           * Réalisation de guides de tourisme pour tous
           * Conception de brochures, catalogues, flyers…
-    col2:
-      reverseMobile: false
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -80,16 +73,8 @@ sections:
 
 
           Associé à du texte, le pictogramme permet de comprendre plus facilement l’information. Dans certains cas, il peut se substituer complètement au texte. Dans la mesure du possible, nous utiliserons des pictogrammes existants standardisés. Pourquoi ? La standardisation de ces signes implique qu’ils sont utilisés dans différents contextes. Une meilleure reconnaissance est donc possible car ils ont déjà été identifiés. Dans le cas de pictogrammes spécifiques, nous sont en mesure de les créer.
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: "#### Nous créons aussi votre [identité
-          visuelle](expertises/design/identite-visuelle)."
+      image:
+        url: /media/design-expertise-conception-pictogramme-atipy-1.jpg
     col2:
       reverseMobile: false
     col3:
