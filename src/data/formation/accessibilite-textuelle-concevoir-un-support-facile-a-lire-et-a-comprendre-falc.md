@@ -7,8 +7,7 @@ metadata:
     - keyword: FALC
     - keyword: formation
     - keyword: communication
-title: Accessibilité textuelle - Concevoir un support Facile À Lire et à
-  Comprendre (FALC)
+title: Concevoir un support Facile À Lire et à Comprendre (FALC)
 date: 2023-09-08T15:38:47.617Z
 icon:
   label: Langage Clair - Vert
