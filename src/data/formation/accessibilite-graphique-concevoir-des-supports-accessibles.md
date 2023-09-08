@@ -50,4 +50,54 @@ sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Programme et méthode
+
+
+          **Handicap et accessibilité : État des lieux et enjeux**
+
+
+          * Handicap et idées reçues
+
+          * Découverte des grands principes de l’accessibilité et de la conception universelle (Design For All).
+
+          * Rappel des normes et réglementations existantes en France
+
+
+          **Les bonnes pratiques**
+
+
+          * Contrastes
+
+          * Typographies
+
+          * Mise en page
+
+          * Couleurs
+
+          * Visuels et pictogrammes
+
+          * Notions de web accessible
+
+
+          **Découverte d’outils adaptés (braille, PDF accessible, grands caractères...)**
+
+
+          **Exercices pratiques**
+    col2:
+      reverseMobile: false
+      text:
+        content: |-
+          ### Vous repartez avec : 
+
+          * 1 synthèse des points importants abordés lors de la formation
+          * 1 attestation de présence
+    col3:
+      reverseMobile: false
+footer:
+  titleContact: Cette formation vous intéresse ?
 ---
