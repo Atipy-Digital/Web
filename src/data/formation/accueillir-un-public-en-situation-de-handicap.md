@@ -17,7 +17,10 @@ intro: >-
   **+ Durée :** 1 jour (7h) 
 
 
-  **+﻿ Prix :** nous consulter.
+  **+﻿ Prix :** nous consulter
+
+
+  **+﻿ En intra ou inter**
 
 
   **+ Formateur** : Jean-Marie Monier, consultant en accessibilité.
@@ -97,6 +100,7 @@ sections:
       reverseMobile: false
 footer:
   btn:
-    label: Cette formation vous intéresse ? Contactez-nous !
+    label: ""
     color: blue
+  titleContact: Cette formation vous intéresse ?
 ---
