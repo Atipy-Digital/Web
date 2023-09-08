@@ -53,5 +53,5 @@ footer:
     tag: Conception graphique
     color: green
     label: Découvrez nos réalisations
-  titleContact: Vous avez un projet de signalétique ? Contactez-nous !
+  titleContact: "Vous avez un projet de création ? "
 ---
