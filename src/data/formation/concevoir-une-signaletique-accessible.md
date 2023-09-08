@@ -108,14 +108,10 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          ### C﻿e que les participants en ont pensé 
+          ### C﻿e que les participants en ont pensé
 
 
-          "﻿Pour un sujet qui est aussi difficile à mettre en place dans nos établissement (la
-
-          signalétique de manière générale, et lorsqu'elle est accessible en particulier), j'ai trouvé
-
-          cette formation extrêmement claire dans les informations données."
+          "﻿Pour un sujet qui est aussi difficile à mettre en place dans nos établissement (la signalétique de manière générale, et lorsqu'elle est accessible en particulier), j'ai trouvé cette formation extrêmement claire dans les informations données."
 
 
           "J’ai trouvé que l’ensemble était tout à fait adapté et vraiment dynamique. Beaucoup d'illustrations très concrètes et de sollicitations pour faire participer tout le monde."
