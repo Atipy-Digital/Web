@@ -20,6 +20,9 @@ intro: >-
   **+﻿ Prix :** nous consulter.
 
 
+  **+﻿ En intra ou inter**
+
+
   **+ Formateur** : Jean-Marie Monier, consultant accessibilité ou Antoine Tesson, consultant accessibilité
 
 
@@ -45,6 +48,15 @@ sections:
     col2:
       reverseMobile: false
       text:
+        content: ""
+    col3:
+      reverseMobile: false
+      text:
+        content: ""
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: >-
           ### Programme et méthode
 
@@ -63,7 +75,7 @@ sections:
           **Cas pratique :** 
 
           Diagnostic d’un bâtiment, étude plan de travaux
-    col3:
+    col2:
       reverseMobile: false
       text:
         content: |-
@@ -72,14 +84,17 @@ sections:
           * Autoévaluation
           * Exemples pratiques
 
-          ### Vous repartez avec : 
+          ### Vous repartez avec :
 
           * 1 synthèse des points importants abordés lors de la formation
           * Les textes réglementaires
           * Un référentiel d’accessibilité du cadre bâti
           * 1 attestation de présence
+    col3:
+      reverseMobile: false
 footer:
   btn:
-    label: Cette formation vous intéresse ? contactez-nous !
-    color: blue
+    label: ""
+    color: null
+  titleContact: "Cette formation vous intéresse ? "
 ---
