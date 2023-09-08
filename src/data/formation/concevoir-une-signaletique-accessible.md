@@ -48,7 +48,17 @@ sections:
           * Distinguer les différents types de handicap et les principaux besoins associés en termes de signalétique
 
           * Désigner les différentes clés pour concevoir une signalétique accessible
+        color: green
     col2:
+      reverseMobile: false
+      text:
+        content: ""
+    col3:
+      reverseMobile: false
+      text:
+        content: ""
+  - inverseCol: false
+    col1:
       reverseMobile: false
       text:
         content: >-
@@ -77,7 +87,7 @@ sections:
           * Rappel des bonnes pratiques
 
           * Exemples de systèmes signalétique accessibles
-    col3:
+    col2:
       reverseMobile: false
       text:
         content: |-
@@ -91,6 +101,8 @@ sections:
 
           * 1 synthèse des points importants abordés lors de la formation
           * 1 attestation de présence
+    col3:
+      reverseMobile: false
 footer:
   btn:
     label: Cette formation vous intéresse ? Contactez-nous ?
