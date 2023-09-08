@@ -7,7 +7,7 @@ metadata:
     - keyword: FALC
     - keyword: formation
     - keyword: communication
-title: Accessibilité textuelle - Concevoir un support Facile À Lire  et à
+title: Accessibilité textuelle - Concevoir un support Facile À Lire et à
   Comprendre (FALC)
 date: 2023-09-08T15:38:47.617Z
 icon:
@@ -25,7 +25,7 @@ intro: >-
   **+﻿ Prix :** nous consulter
 
 
-  **+ Formatrice** : Elosïe Auffret, experte FALC
+  **+ Formatrice** : Eloïse Auffret, experte FALC
 
 
   **+ Nombre de participants**  : 12 personnes maximum
