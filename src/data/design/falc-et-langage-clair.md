@@ -51,7 +51,6 @@ sections:
         content: |-
           ### Des informations claires profitent aux personnes :
 
-          * En situation de handicap mental
           * Déficientes intellectuelles
           * Ayant des troubles « Dys » (dyslexie, dyspraxie, dysorthographie…)
           * Étrangères ne parlant pas français
