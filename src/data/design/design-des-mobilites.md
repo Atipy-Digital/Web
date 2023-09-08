@@ -23,22 +23,25 @@ sections:
     col1:
       reverseMobile: false
       text:
+        content: " ﻿Comment aménager des espaces cyclables accessibles à tous types
+          d’utilisateurs ?"
+      image:
+        url: /media/design-expertise-mobilite-velo-atipy-2.jpg
+    col2:
+      reverseMobile: false
+      text:
         content: >-
-          Comment aménager des espaces cyclables accessibles à tous types
-          d’utilisateurs ? 
-
-          La pratique du vélo électrique ou musculaire doit être ouverte à tous et toutes : personnes âgées, en situation de handicap, familles, enfants… Il est donc primordial de se poser les bonnes questions au moment de la conception de vos aménagements et services de mobilité active.
+          La pratique du vélo électrique ou musculaire doit être ouverte à tous
+          et toutes : personnes âgées, en situation de handicap, familles,
+          enfants… Il est donc primordial de se poser les bonnes questions au
+          moment de la conception de vos aménagements et services de mobilité
+          active.
 
 
           Comment impliquer les utilisateurs dans vos conception d’aménagements cyclables ? Comment créer une identité impactante sur l’ensemble d’un territoire cyclable ? Comment informer tous les publics des services liés au vélo ? Comment créer une signalétique d’orientation accessible destinée aux cyclistes ? Comment permettre une bonne expérience à tous types d’utilisateurs ?
 
 
           Pour vous accompagner dans vos réflexions et démarches de conception, notre équipe pluridisciplinaire est composée de consultants en accessibilité, designers et urbanistes. Nous utilisons les principes de la conception universelle et du design actif.
-    col2:
-      reverseMobile: false
-      text:
-        content: "![Une cycliste est debout à coté d'un totem d'information en
-          bois.](/media/design-expertise-mobilite-velo-atipy-2.jpg)"
     col3:
       reverseMobile: false
       text:
@@ -63,8 +66,14 @@ sections:
 
           * Permettre à tous et toutes de vivre une expérience agréable de la pratique du vélo.
       image:
-        url: /media/design-expertise-mobilite-velo-signaletique-atipy-3.jpg
+        url: ""
     col2:
+      reverseMobile: false
+      text:
+        content: "![](/media/design-expertise-mobilite-velo-signaletique-atipy-3.jpg)"
+      image:
+        url: ""
+    col3:
       reverseMobile: false
       text:
         content: |-
@@ -80,10 +89,6 @@ sections:
           * La conception graphique de plan d’orientation
           * La formalisation visuelle de réseau de voies vertes
           * La création de supports de communication en FALC ou langage clair
-      image:
-        url: /media/design-expertise-mobilite-velo-signaletique-plan-atipy-4.jpg
-    col3:
-      reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
