@@ -111,4 +111,9 @@ sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+footer:
+  btn:
+    label: Découvrez nos projets !
+    color: green
+    tag: Signalétique
 ---
