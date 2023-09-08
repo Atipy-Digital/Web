@@ -30,6 +30,15 @@ sections:
     col2:
       reverseMobile: false
       text:
+        content: ""
+    col3:
+      reverseMobile: false
+      text:
+        content: ""
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: >-
           La pratique du vélo électrique ou musculaire doit être ouverte à tous
           et toutes : personnes âgées, en situation de handicap, familles,
@@ -42,10 +51,10 @@ sections:
 
 
           Pour vous accompagner dans vos réflexions et démarches de conception, notre équipe pluridisciplinaire est composée de consultants en accessibilité, designers et urbanistes. Nous utilisons les principes de la conception universelle et du design actif.
+    col2:
+      reverseMobile: false
     col3:
       reverseMobile: false
-      text:
-        content: ""
   - inverseCol: false
     col1:
       reverseMobile: false
@@ -76,6 +85,11 @@ sections:
     col3:
       reverseMobile: false
       text:
+        content: ""
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: |-
           ### Nos prestations
 
@@ -89,6 +103,13 @@ sections:
           * La conception graphique de plan d’orientation
           * La formalisation visuelle de réseau de voies vertes
           * La création de supports de communication en FALC ou langage clair
+    col2:
+      reverseMobile: false
+      text:
+        content: "![](/media/design-expertise-mobilite-velo-signaletique-plan-atipy-4.j\
+          pg)"
+    col3:
+      reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
