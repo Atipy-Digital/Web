@@ -31,8 +31,15 @@ sections:
           déclinaisons (cartes de visite, sites web, brochures, etc).
           Indissociables, ils traduisent vos valeurs et votre positionnement.
       image:
-        url: /media/design-identite-visuelle-atipy-1.jpg
+        url: ""
     col2:
+      reverseMobile: false
+      text:
+        content: "![](/media/design-identite-visuelle-atipy-1.jpg)"
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
       reverseMobile: false
       text:
         content: >-
@@ -46,6 +53,8 @@ sections:
 
 
           Une fois définis, ce logo et cette identité visuelle vont donner lieu à des déclinaisons. Afin d’avoir un univers graphique cohérent et fédérateur, l’identité visuelle se décline sur tous types de supports : carte de visite, brochure, plaquette, site web, signalétique…
+    col2:
+      reverseMobile: false
     col3:
       reverseMobile: false
 footer:
