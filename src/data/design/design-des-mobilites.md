@@ -95,10 +95,10 @@ sections:
 
           Aussi, nous vous accompagnons pour :
 
-          * La mise d’une stratégie de mobilité inclusive
+          * La mise en place d’une stratégie de mobilité inclusive
           * L’animation d’ateliers de concertation
           * La conception d'aménagements et mobiliers inclusifs
-          * La conception de système signalétique accessible
+          * La conception de systèmes signalétiques accessibles
           * La création d’identité de territoire cyclable
           * La conception graphique de plan d’orientation
           * La formalisation visuelle de réseau de voies vertes
