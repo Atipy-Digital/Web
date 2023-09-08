@@ -13,9 +13,9 @@ intro: >-
   ### Nous créons votre identité visuelle
 
 
-  PME, Start Up, créateurs d’entreprise, vous avez besoin d’un logo pour lancer votre communication ?
+  Association, nouveau service usagers, entreprise, vous avez besoin d’un logo pour lancer votre communication ?
 
-  Communautés d’agglomération, vous souhaitez réaliser une identité visuelle propre à votre SCOT, votre PLUi ou votre PADD ?
+  Communautés d’agglomération, collectivités, vous souhaitez réaliser une identité visuelle propre à votre CCAS, vos services usagers, vos événements ?
 
 
   La conception de votre logotype ou de votre identité visuelle institutionnelle ou évènementielle est une étape fondamentale dans votre communication. La promotion de votre offre, de votre service ou de vos évènements permet de toucher votre public et de créer une relation durable.
@@ -31,7 +31,7 @@ sections:
           déclinaisons (cartes de visite, sites web, brochures, etc).
           Indissociables, ils traduisent vos valeurs et votre positionnement.
       image:
-        url: /media/pictos-creation-graphique.png
+        url: /media/design-identite-visuelle-atipy-1.jpg
     col2:
       reverseMobile: false
       text:
