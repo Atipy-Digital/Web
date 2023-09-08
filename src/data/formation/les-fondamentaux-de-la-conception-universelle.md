@@ -73,4 +73,6 @@ sections:
 
           * 1 synthèse des points importants abordés lors de la formation
           * 1 attestation de présence
+footer:
+  titleContact: Cette formation vous intéresse ?
 ---
