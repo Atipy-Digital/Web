@@ -23,7 +23,7 @@ sections:
     col1:
       reverseMobile: false
       image:
-        url: /media/expertise-atipy-design-codesign-concertation.jpg
+        url: /media/design-expertise-atipy-codesign-concertation-2.jpg
       text:
         content: Vous souhaitez avoir l’avis des usagers, des associations, des
           personnes en situation de handicap ?
