@@ -131,6 +131,7 @@ sections:
 
 
           "Passionnant et très instructif. J'ai été très agréablement surprise qu'on mentionne la question du genre dans la signalétique."
+        color: green
     col2:
       reverseMobile: false
     col3:
