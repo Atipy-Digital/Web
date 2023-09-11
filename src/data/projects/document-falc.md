@@ -1,62 +1,50 @@
 ---
 metadata:
   title: Document FALC
-  description: Document FALC
+  description: Conseil de la Vie Sociale - France Assos Santé
   ogImg: /media/droit-usage.jpg
-title: Document FALC
+  keywords:
+    - keyword: FALC
+    - keyword: conception graphique
+title: Conseil de la Vie Sociale - France Assos Santé
 image: /media/droit-usage.jpg
 project_client: france-assos-sante
-mission_body: Réalisation d’une charte signalétique accessible pour les
-  itinéraires vélo du Conseil Départemental des Pyrénées-Atlantiques
+mission_body: Création de l’identité visuelle des Conseils de la Vie Sociale en
+  Nouvelle Aquitaine et conception de fiches explicatives
+  en [FALC](https://agence-adequat.fr/quest-ce-que-le-falc/).
 context_body: >-
-  Le Conseil Départemental des Pyrénées Atlantiques est chef de file et
-  animateur du projet européen BICIMUGI. Ce projet innovant qui vise à
-  développer le vélo en milieu rural, accessible à tous, avec la création d’un
-  itinéraire structurant sur une véloroute européenne.
+  France Assos Santé accompagne, représente et défend les usagers du système de
+  santé. Dans les établissements médico-sociaux, les Conseils de la Vie Sociale
+  (CVS) ont été mis en place depuis 2002. Ils ont pour objectif de permettre aux
+  usagers de s’exprimer, donner leur avis et faire des propositions quand à la
+  vie quotidienne.
 
 
-  Le Conseil Départemental entreprend alors de se doter d’un référentiel lié à l’accessibilité des personnes à mobilité réduite à vélo avec la mise à jour du volet « itinéraires de promenades et de randonnées » du label « tourisme et handicap ».
+  France Assos Santé Nouvelle Aquitaine a fait appel à l’Agence Adéquat pour augmenter la visibilité des CVS à travers la création d’une identité visuelle forte et lisible.
 project_tags:
   - Design
+  - FALC
+  - Conception graphique
 project_sections:
   - col1:
       reverseMobile: false
       text:
         content: >-
-          #### Qu’est ce qu’un itinéraire cyclable accessible ?
+          #### L'univers graphique
 
 
-          Il existe différents types de vélo qui permettent à toutes et tous de pratiquer cette activité : le vélo mono-pousseur, le tandem, le tandem de front, le VAE, le vélo couché, le vélo à bras, le tricycle…
+          L’univers visuel proposé par l’Agence Adéquat est coloré et joyeux. L’identité visuelle évoque 3 notions importantes véhiculées par les CVS : diversité, compréhension, relations humaines.
 
 
-          Cela implique une réflexion et des aménagements autour des thématiques suivantes :
-
-
-          * l﻿e stationnement
-
-          * l’information, la signalétique
-
-          * la qualité des cheminements
-
-          * la qualité des équipements
-
-          * les points de repos
-
-
-          ##### 3 niveaux de difficultés
-
-
-          L’ensemble des parcours est peu pentu. La difficulté relevée est donc essentiellement due à la longueur du parcours. Ainsi, 3 types d’itinéraires sont possibles : courts, moyens ou longs. Chacun est symbolisé par des pictogrammes vélo allant de 1 à 3.
+          Le logo est composé de formes épurées et fluides qui symbolisent chacune une action : échanger, exprimer, écouter. Le tout forme un visage souriant. La typographie choisie, Acumin, est lisible et intemporelle.
     col2:
       reverseMobile: true
       text:
-        content: |-
-          #### Les attendus de la signalétique
+        content: >-
+          #### La méthodologie utilisée
 
-          * F﻿acile à comprendre et à lire
-          * Rassurante et sécurisée
-          * Visible de loin
-          * En cohérence avec la charte randonnée du département
+
+          Chaque phrase utilisée dans les fiches explicatives a été rédigée en FALC. Le texte a ensuite été relu par des personnes déficientes intellectuelles. L’agence a créé des illustrations mettant en scène chaque idée. Chaque illustration a été relu par le même groupe de travail, puis modifiée si nécessaire.
       image:
         url: /media/da-og.png
     col3:
@@ -76,10 +64,9 @@ project_sections:
         content: |-
           #### Nos domaines d’intervention sur cette mission
 
-          * Propositions de design signalétique
-          * Création de pictogrammes
-          * Réalisation de la charte signalétique
-          * Préconisations d’implantation
+          * Création et déclinaison de l’identité visuelle
+          * Création d’illustrations
+          * Accompagnement sur la mise en page du livret en FALC
     col2:
       reverseMobile: false
       text:
@@ -87,10 +74,10 @@ project_sections:
           #### Le témoignage de la cliente
 
 
-          Lison LOPEZ – Cheffe de projet Inclusion, Département ESS et médico-social
+          Agathe CURIEN, Chargée de mission France Assos Santé
 
 
-          > « Il est parfois difficile pour les structures d’insertion transmettre à leurs salariés allophones ou illettrés le fonctionnement de l’activité, des missions ou encore de l’accompagnement socio-professionnel. L’expertise de l’Agence Adéquat a permis au réseau Laser Emploi de proposer des outils adaptés à ses structures adhérentes. Un grand merci ! »
+          > « Nous avons particulièrement apprécié la qualité d’écoute et le professionnalisme de l’agence, toujours attentive à nos remarques. »
         color: green
     col3:
       reverseMobile: false
@@ -100,5 +87,5 @@ footer:
   btn:
     label: Découvrez nos projets design
     color: green
-    tag: Design
+    tag: FALC
 ---
