@@ -3,9 +3,13 @@ metadata:
   title: Département Pyrénées Atlantiques
   description: Réalisation d’une charte signalétique accessible pour les
     itinéraires vélo du Conseil Départemental des Pyrénées-Atlantiques
-  ogImg: /media/da-og.png
+  ogImg: /media/design-expertise-mobilite-velo-atipy-2.jpg
+  keywords:
+    - keyword: Signalétique
+    - keyword: vélo
+    - keyword: FALC
 title: Charte signalétique accessible pour les itinéraires vélo
-image: /media/da-og.png
+image: /media/design-expertise-mobilite-velo-atipy-2.jpg
 project_client: departement-pyrenees-atlantiques
 mission_body: Réalisation d’une charte signalétique accessible pour les
   itinéraires vélo du Conseil Départemental des Pyrénées-Atlantiques
@@ -20,7 +24,7 @@ context_body: >-
 project_tags:
   - Signalétique
   - Design
-  - Accessibilité
+  - FALC
 project_sections:
   - col1:
       reverseMobile: false
@@ -61,14 +65,15 @@ project_sections:
           * Visible de loin
           * En cohérence avec la charte randonnée du département
       image:
-        url: /media/da-og.png
+        url: /media/realisation-signaletique-velo-pyrennees-atipy-totem.jpg
     col3:
       reverseMobile: false
   - col1:
       reverseMobile: false
       text:
-        content: '![illustration charte graphique](/media/da-og.png "illustration charte
-          graphique")'
+        content: '![illustration charte
+          graphique](/media/realisation-signaletique-velo-pyrenees-atlantique-atipy-2.jpg
+          "illustration charte graphique")'
     col2:
       reverseMobile: false
     col3:
@@ -83,6 +88,8 @@ project_sections:
           * Création de pictogrammes
           * Réalisation de la charte signalétique
           * Préconisations d’implantation
+          * C﻿onception de fiches en FALC
+          * C﻿réation de plan d'orientation
     col2:
       reverseMobile: false
       text:
