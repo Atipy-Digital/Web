@@ -28,6 +28,15 @@ project_sections:
 
 
           La Tréso est un lieu de fabrication regroupant des artisans, concepteurs, créatifs. Nous avons choisi de mettre en avant ces éléments. Nous proposons une signalétique ludique et sobre, entièrement fabriquée en bois récupéré et basée sur un système d’assemblage de carrés.
+
+
+          #### L’univers graphique
+
+
+          L’univers graphique proposé pour La Tréso a été pensé pour être à la fois compréhensible et convivial. La convivialité et l’accueil sont des éléments essentiels de ce projet collaboratif. Nous avons ainsi créé une série d’illustrations évocatrices, parfois drôles, utilisables pour les supports de communication et la signalétique.
+
+
+          L﻿a représentations des genres est questionné. Les illustrations réalisées sont imaginées à l'encontre des stéréotypes.
     col2:
       reverseMobile: false
       text:
