@@ -48,6 +48,30 @@ project_sections:
     col1:
       reverseMobile: false
       text:
+        content: "![](/media/realisation-signaletique-la-tre-so-malakoff-bois-atipy-pic\
+          togrammes-5.jpg)"
+    col2:
+      reverseMobile: false
+      text:
+        content: "![]()"
+    col3:
+      reverseMobile: false
+      text:
+        content: "![]()"
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/realisation-signaletique-la-tre-so-malakoff-bois-atipy-4.j\
+          pg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: >-
           ### La signalétique d’orientation
 
@@ -61,14 +85,19 @@ project_sections:
           A la signalétique d’orientation s’ajoute la signalétique d’identification. Pouvoir nommer chaque espace et savoir ce qui se trouve derrière chaque porte est indispensable pour favoriser le repérage et un bon confort d’usage du lieu.
     col2:
       reverseMobile: false
-      text:
-        content: "![](/media/realisation-signaletique-la-tre-so-malakoff-bois-atipy-pic\
-          togrammes-5.jpg)"
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        url: ""
       text:
-        content: "![](/media/realisation-signaletique-la-tre-so-malakoff-bois-atipy-4.j\
-          pg)"
+        content: "![](/media/realisation-signaletique-la-tre-so-malakoff-atipy-3.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 projectsFeatured:
   - charte-signale-tique-accessible-pour-les-itine-raires-velo
 footer:
