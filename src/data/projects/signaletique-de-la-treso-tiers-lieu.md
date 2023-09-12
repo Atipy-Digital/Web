@@ -18,6 +18,7 @@ context_body: Le bâtiment est construit en 1933 par Armand Guérard, architecte
   investis par La Tréso, un tiers-lieu artisanal, culinaire et numérique.
 project_tags:
   - Signalétique
+  - Design
 project_sections:
   - inverseCol: false
     col1:
