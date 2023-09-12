@@ -1,14 +1,11 @@
 ---
 tag:
   - type: business
-    label: Santé
-    color: default
-  - type: business
-    label: Département
-    color: default
-  - type: business
     color: default
     label: Administration
+  - type: business
+    label: Association
+    color: default
   - type: business
     label: Cartographie
     color: default
@@ -23,6 +20,9 @@ tag:
     color: default
   - type: business
     label: Datavisualisation
+    color: default
+  - type: business
+    label: Département
     color: default
   - type: business
     label: Enseignement
@@ -40,10 +40,13 @@ tag:
     label: Logements et bureaux
     color: default
   - type: business
+    label: Médico-social
+    color: default
+  - type: business
     label: Mobilité
     color: default
   - type: business
-    label: Médico-social
+    label: Santé
     color: default
   - type: business
     label: Sport
