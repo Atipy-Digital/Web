@@ -23,8 +23,10 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: " ﻿Comment aménager des espaces cyclables accessibles à tous types
-          d’utilisateurs ?"
+        content: Comment aménager des espaces cyclables accessibles à tous types
+          d’utilisateurs ? Comment mettre en place un système de signalétique
+          favorable aux piétons et aux cyclistes ? Comment orienter sur un plôe
+          d'échanges multimodal ou sur une voie verte ?
       image:
         url: /media/design-expertise-mobilite-velo-atipy-2.jpg
     col2:
@@ -90,18 +92,27 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: |-
+        content: >-
           ### Nos prestations
+
 
           Aussi, nous vous accompagnons pour :
 
+
           * La mise en place d’une stratégie de mobilité inclusive
+
           * L’animation d’ateliers de concertation
+
           * La conception d'aménagements et mobiliers inclusifs
-          * La conception de systèmes signalétiques accessibles
+
+          * La conception de systèmes signalétiques accessibles (piétons, cyclistes)
+
           * La création d’identité de territoire cyclable
+
           * La conception graphique de plan d’orientation
+
           * La formalisation visuelle de réseau de voies vertes
+
           * La création de supports de communication en FALC ou langage clair
     col2:
       reverseMobile: false
