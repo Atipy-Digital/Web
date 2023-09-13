@@ -16,13 +16,13 @@ intro: >-
   **+ Durée** : 2 jours
 
 
-  **+ Prix** : 1 400€ HT en France Métropolitaine
+  **+ Prix** : nous consulter
 
 
   **+ En intra ou inter**
 
 
-  **+ Formateur** : Pierre-Yves Bourghelle • Consultant Accessibilité
+  **+ Formateur** : Pierre-Yves Bourghelle, consultant Accessibilité
 
 
   **+ Nombre de participants**  : 12 personnes maximum
