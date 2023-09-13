@@ -94,4 +94,6 @@ sections:
           * 1 attestation de présence
     col3:
       reverseMobile: false
+footer:
+  titleContact: Cette formation vous intéresse ?
 ---
