@@ -40,7 +40,7 @@ sections:
           * Distinguer les difficultés rencontrées par certains utilisateurs
           * Etre capable d’utiliser les dispositifs existants
           * Désigner les différentes clés pour concevoir le numérique accessible
-        color: green
+        color: red
     col2:
       reverseMobile: false
     col3:
