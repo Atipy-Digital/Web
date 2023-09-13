@@ -4,7 +4,7 @@ intro: >-
   ### Nous sensibilisons et formons vos équipes
 
 
-  **Conception universelle, accueil du public, cadre btâ, Facile à Lire et à Comprendre, signalétique accessible… Découvrez nos thématiques et nos formats.**
+  **Conception universelle, accueil du public, cadre btâi Facile à Lire et à Comprendre, signalétique accessible… Découvrez nos thématiques et nos formats.**
 sections:
   - col1:
       reverseMobile: false
