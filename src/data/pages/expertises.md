@@ -18,6 +18,8 @@ cards:
       / UI design`** et **`design web.`**
   - type: formation
     title: Conseil et formations
-    text: Lorem ipsum **`contenu 1,`** **`contenu 2.`** Sed molestie in sapien
-      lacinia, in sapien lacinia, in sapien lacinia, **`Contenu 3.`**
+    text: Atipy conçoit des formations sur-mesure adaptées à vos besoins. Atipy est
+      un organisme de formation enregistré. Nos formations sont non
+      certifiantes, à l’issue de celles-ci nous remettons une attestation de
+      participation à la formation.
 ---
