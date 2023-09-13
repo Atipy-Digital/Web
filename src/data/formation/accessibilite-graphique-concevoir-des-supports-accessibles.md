@@ -112,6 +112,7 @@ sections:
 
 
           "﻿Bonne ambiance générale avec beaucoup de liberté d'échanges sur les différentes thématiques. Les exercices pratiques et les analyses de cas concrets intéressants pour la prise de conscience."
+        color: green
     col2:
       reverseMobile: false
     col3:
