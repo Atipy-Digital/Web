@@ -62,14 +62,12 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          
-
           #### Les objectifs du design des mobilités
 
 
           * Concevoir des espaces de circulation accessibles et inclusifs
 
-          * Permettre à tous et toutes de se déplacer et de pratiquer le vélo
+          * Permettre à tous et toutes de se déplacer et de pratiquer le vélo ou la marche
 
           * Renforcer l’attractivité et l’utilisabilité des voies vertes ou pistes cyclables
 
