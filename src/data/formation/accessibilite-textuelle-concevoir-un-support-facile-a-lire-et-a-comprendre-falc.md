@@ -15,10 +15,10 @@ icon:
   type: design
 color: DESIGN
 intro: >-
-  **+ Durée :** 1 jour (7h)
+  **+ Durée :** 2 jours
 
 
-  **+﻿ En inter ou intra**
+  **+﻿ En intra**
 
 
   **+﻿ Prix :** nous consulter
