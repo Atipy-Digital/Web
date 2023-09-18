@@ -87,6 +87,55 @@ project_sections:
         content: "![](/media/amnesty-edh-adequat-atipy-discriminations.png)"
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          Experts en communication accessible et [conception
+          universelle](https://agence-adequat.fr/quest-ce-que-la-conception-universelle/),
+          nous portons une attention particulière aux éléments suivants :
+
+
+          * Contrastes visuels
+
+          * Association texte / image
+
+          * Mise en place de pictogrammes
+
+          * Typographies lisibles et caractères suffisamment grands
+
+          * Interlettrage et interlignage
+
+
+          La lisibilité est un point important du processus de conception. Un document peu lisible génère une difficulté pour une personne âgée ou une personne malvoyante (myopie,\
+
+          astigmatisme, daltonisme…), et un manque de confort pour tous. C’est pourquoi nous pensons à utiliser un contraste suffisant, une typographie lisible, un interlettrage et un interlignage correctes.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          #### Nos domaines d’intervention
+
+
+          * Graphisme et mise en page de livrets pédagogiques
+
+          * Conseils pour la mise en place d’une stratégie globale d’accessibilité
+
+          * Formations et sensibilisations
+
+          * Etat des lieux des supports existants
+
+          * Conception des PDF accessibles conformes aux normes PDF U/A
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 projectsFeatured:
   - document-falc
 ---
