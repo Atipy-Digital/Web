@@ -28,8 +28,7 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/design-livret-accessible-amnesty-international-atipy-1.jpg\
-          )"
+        content: "![](/media/amnesty-edh-adequat-atipy-etat-des-lieux.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -39,7 +38,7 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          #### L﻿es objectifs de la mission
+          ### L﻿es objectifs de la mission
 
 
           * Mettre à disposition de tous les destinataires des informations claires, lisibles et compréhensibles.
@@ -84,6 +83,8 @@ project_sections:
           * Expertise ponctuelle et appui technique pour la mise en place de la stratégie sur l’ensemble des dispositifs
     col2:
       reverseMobile: false
+      text:
+        content: "![](/media/amnesty-edh-adequat-atipy-discriminations.png)"
     col3:
       reverseMobile: false
 projectsFeatured:
