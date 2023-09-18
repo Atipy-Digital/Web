@@ -134,8 +134,20 @@ project_sections:
           * Conception des PDF accessibles conformes aux normes PDF U/A
     col2:
       reverseMobile: false
+      text:
+        content: >-
+          #### T﻿émoignage de la cliente
+
+
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dapibus fermentum nunc, eget mollis enim varius ac. Pellentesque a felis tempor, feugiat felis vel, viverra velit. Phasellus ac felis tincidunt erat lacinia porta. Suspendisse et ligula metus. Nulla molestie risus in nulla ornare semper.
+        color: green
     col3:
       reverseMobile: false
 projectsFeatured:
   - document-falc
+footer:
+  btn:
+    label: Découvrez nos projets similaires
+    color: green
+    tag: Conception graphique
 ---
