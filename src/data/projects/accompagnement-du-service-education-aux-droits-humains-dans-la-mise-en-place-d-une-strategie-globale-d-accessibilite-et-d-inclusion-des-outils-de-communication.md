@@ -66,6 +66,26 @@ project_sections:
           * Amélioration de l’accessibilité des posts sur les réseaux sociaux
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Réalisation d’un état des lieux et conseil sur la stratégie
+          “accessibilité & inclusivité”
+
+
+          * Analyse des ressources pédagogiques du service EDH : supports ateliers, livrets, activités pédagogiques
+
+          * Mise en évidence des freins en terme d’accessibilité et proposition d’axes d’amélioration
+
+          * Accompagnement de l’équipe dans la définition des priorisations 
+
+          * Expertise ponctuelle et appui technique pour la mise en place de la stratégie sur l’ensemble des dispositifs
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 projectsFeatured:
   - document-falc
 ---
