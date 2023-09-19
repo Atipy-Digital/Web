@@ -35,7 +35,16 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/design-identite-visuelle-atipy-1.jpg)"
+        content: ""
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/expertise-identite-visuelle-atipy-accessibilite-1.jpg)"
+    col2:
+      reverseMobile: false
     col3:
       reverseMobile: false
   - inverseCol: false
