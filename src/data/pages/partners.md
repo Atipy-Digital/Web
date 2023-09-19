@@ -33,4 +33,12 @@ partners:
       Facile A Lire et à Comprendre.
     projects: C﻿CAS de Bethune, Ville d'Amiens, signalétique en FALC pour le
       Département Pyrénées Atlantique
+  - isSingle: false
+    name: Komorebi
+    logo: /media/komorebi-partenaire-atipy.jpeg
+    aboutUs: Experts dans la rénovation du parc bâti et sensibilisés aux
+      questions de l’évolution des bâtiments, ils proposent des projets
+      pérennes et à même de s’adapter aux modifications futures.
+    collaborate: P﻿our la complémentarité des compétences et la convivialité.
+    projects: S﻿aint Denis
 ---
