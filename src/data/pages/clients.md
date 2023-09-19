@@ -49,6 +49,8 @@ sections:
 
           Caisse des Dépôts
 
+          Département Pyrénées Atlatique
+
           Ministère de l’Intérieur
 
           Ministère de la Justice
@@ -100,6 +102,10 @@ sections:
           CCAS de Béthune
 
 
+          M﻿utuel Sociale Agricole
+
+
+          France Assos Santé
 
 
           ### **Régions, Communautés d’agglomération et Départements**
@@ -121,8 +127,6 @@ sections:
 
 
           Conseil Départemental des Pyrénées Atlantique
-
-
 
 
           ### **Culture**
