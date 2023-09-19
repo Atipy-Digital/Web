@@ -84,21 +84,8 @@ project_sections:
           * La rencontre des acteurs du patrimoine à travers deux réunions et visite de sites.
 
           * L’enquête auprès des usagers
-    col2:
-      reverseMobile: false
-      text:
-        content: "![](/media/realisation-design-signaletique-patrimoine-rennes-3.jpg)"
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: "![](/media/realisation-design-signaletique-patrimoine-rennes-4.jpg)"
-    col2:
-      reverseMobile: false
-      text:
-        content: >-
+
+
           ### La création de parcours de visites thématiques
 
 
@@ -122,6 +109,21 @@ project_sections:
           * Les points d’informations sur site
 
           * La valorisation et la hiérarchisation des points d’intérêts à signaler
+    col2:
+      reverseMobile: false
+      text:
+        content: "![](/media/realisation-design-signaletique-patrimoine-rennes-3.jpg)"
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/realisation-design-signaletique-patrimoine-rennes-4.jpg)"
+    col2:
+      reverseMobile: false
+      text:
+        content: ""
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -147,6 +149,8 @@ project_sections:
           * **Un contenu numérique très riche**
     col2:
       reverseMobile: false
+      text:
+        content: "![](/media/realisation-design-signaletique-patrimoine-rennes-2.png)"
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -165,7 +169,7 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-design-signaletique-patrimoine-rennes-2.png)"
+        content: ""
     col3:
       reverseMobile: false
 projectsFeatured:
