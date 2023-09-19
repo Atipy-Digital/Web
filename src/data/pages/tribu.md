@@ -103,4 +103,14 @@ members:
       - text: Accessibilité
       - text: Urbanisme
       - text: Diagnostic multi-technique
+  - name: Pierre-Yves Bourghelle
+    image: /media/pierre_yves_nb.jpg
+    badge:
+      color: a-blue
+      label: Le rigoureux
+    skills:
+      - text: Gestion de projets
+      - text: Accessibilité
+      - text: Conseil
+    linkedin: https://www.linkedin.com/in/pierre-yves-bourghelle-12538a76/
 ---
