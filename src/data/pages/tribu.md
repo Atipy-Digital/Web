@@ -113,4 +113,14 @@ members:
       - text: Accessibilité
       - text: Conseil
     linkedin: https://www.linkedin.com/in/pierre-yves-bourghelle-12538a76/
+  - name: Léa Léauté
+    image: /media/le-a-le-aute-.jpg
+    badge:
+      color: a-blue
+      label: La voyageuse
+    linkedin: https://www.linkedin.com/in/l%C3%A9a-l%C3%A9aut%C3%A9-160540206/
+    skills:
+      - text: Urbanisme
+      - text: Accessibilité
+      - text: Diagnostic multi-technique
 ---
