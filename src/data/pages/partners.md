@@ -24,4 +24,13 @@ partners:
       transcrire les besoins des usagers.
     projects: Urbalyon, Onofr
     isSingle: true
+  - isSingle: false
+    name: Eloïse Auffret-Novice
+    logo: /media/falc-eloise-auffret-logo.jpeg
+    aboutUs: E﻿xperte FALC et muséographe, Eloise met en place des ateliers de
+      relecture et co-conception avec des personnes déficientes intellectuelles.
+    collaborate: P﻿our la bonne connaissance du public cible et l'expertise du
+      Facile A Lire et à Comprendre.
+    projects: C﻿CAS de Bethune, Ville d'Amiens, signalétique en FALC pour le
+      Département Pyrénées Atlantique
 ---
