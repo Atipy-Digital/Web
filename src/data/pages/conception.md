@@ -32,6 +32,17 @@ sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - col1:
+      reverseMobile: false
+      text:
+        content: "#### Pour qu’un objet, un environnement ou un service soit reconnu
+          Design For ALL, il est conçu autour de 7 principes :"
+    col2:
+      reverseMobile: false
+      text:
+        content: "![](/media/conception-universelle-atipy-adequat-design-inclusif.png)"
+    col3:
+      reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
@@ -64,23 +75,11 @@ sections:
   - col1:
       reverseMobile: false
       text:
-        content: "#### Pour qu’un objet, un environnement ou un service soit reconnu
-          Design For ALL, il est conçu autour de 7 principes :"
-    col2:
-      reverseMobile: false
-      text:
-        content: "![](/media/conception-universelle-atipy-adequat-design-inclusif.png)"
-    col3:
-      reverseMobile: false
-  - col1:
-      reverseMobile: false
-      text:
-        content: >-
-          Atipy est à votre écoute pour vous proposer des prestations sur-mesure
+        content: Atipy est à votre écoute pour vous proposer des prestations sur-mesure
           afin de répondre à vos besoins en matière d’accessibilité, de design
-          et de solutions
-
-          numériques. Nous accordons à nos clients une attention égale quelque soit leur notoriété ou le montant du contrat.
+          et de solutions numériques. Nous accordons à nos clients une attention
+          égale quelque soit leur notoriété ou le montant du contrat.
+        color: blue
     col2:
       reverseMobile: false
     col3:
