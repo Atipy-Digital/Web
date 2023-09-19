@@ -32,15 +32,24 @@ sections:
       reverseMobile: false
     col3:
       reverseMobile: false
-  - col1:
+  - inverseCol: false
+    col1:
       reverseMobile: false
       text:
         content: "#### Pour qu’un objet, un environnement ou un service soit reconnu
           Design For ALL, il est conçu autour de 7 principes :"
     col2:
       reverseMobile: false
+    col3:
+      reverseMobile: false
+  - col1:
+      reverseMobile: false
       text:
         content: "![](/media/conception-universelle-atipy-adequat-design-inclusif.png)"
+    col2:
+      reverseMobile: false
+      text:
+        content: "![]()"
     col3:
       reverseMobile: false
   - inverseCol: false
