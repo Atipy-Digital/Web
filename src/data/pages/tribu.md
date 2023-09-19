@@ -4,7 +4,7 @@ team:
     ### Une équipe dynamique et investie
 
 
-    Partenaires sur notre cheminement professionnel depuis 10 ans, nous collaborons avec conviction et bienveillance. Fondée sur des valeurs fortes, notre agence est portée par des collaborateurs et partenaires engagés.
+    Partenaires sur notre cheminement professionnel depuis 10 ans, nous collaborons avec conviction et bienveillance. Fondée sur des valeurs fortes de partage, d'écoute et de bienveillance, notre agence est portée par des collaborateurs et partenaires engagés.
   image: /media/equipe.webp
 particularity: >-
   #### Notre particularité
@@ -83,4 +83,14 @@ members:
       label: Le facilitateur
       color: a-blue
     linkedin: https://www.linkedin.com/in/antoine-tesson-6935a180/
+  - name: Julie Mesnard
+    image: /media/julie-mesnard-nb.jpg
+    badge:
+      label: La consciencieuse
+      color: a-green
+    linkedin: https://www.linkedin.com/in/julie-mesnard-980642223/
+    skills:
+      - text: + Administratif
+      - text: + Communication
+      - text: + Facturation
 ---
