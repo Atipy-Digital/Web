@@ -91,6 +91,16 @@ project_sections:
     col1:
       reverseMobile: false
       text:
+        content: "![](/media/realisation-conception-graphique-amnesty-international-ati\
+          py-1.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: >-
           Experts en communication accessible et [conception
           universelle](https://agence-adequat.fr/quest-ce-que-la-conception-universelle/),
