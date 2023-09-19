@@ -1,0 +1,179 @@
+---
+metadata:
+  title: Rennes Métropole Signalétique patrimoniale
+  description: "Étude et préconisations sur la mise en place d’une signalétique
+    patrimoniale "
+  ogImg: /media/realisation-design-signaletique-patrimoine-rennes-1.png
+  keywords:
+    - keyword: signaletique
+    - keyword: patrimoine
+title: Étude pour la signalétique patrimoniale de Rennes Metropole
+image: /media/realisation-design-signaletique-patrimoine-rennes-1.png
+project_client: rennes-metropole
+mission_body: Étude et préconisations sur la mise en place d’une signalétique
+  patrimoniale sur le territoire de Rennes Métropole
+context_body: Territoire étendu au patrimoine varié, Rennes Métropole souhaite
+  valoriser son patrimoine à travers la mise en place de supports signalétiques.
+  La mission attribuée à Adéquat-Atipy consiste à analyser puis préconiser une
+  méthodologie de déploiement.
+project_tags:
+  - Signalétique
+project_sections:
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Objectifs de la mission
+
+
+          * Mise en place d’une méthodologie pour déployer la signalétique sur l’ensemble des communes de la Métropole.
+
+          * Déploiement d’une stratégie pour une signalétique plus efficace et visible.
+
+          * Mise en valeur du patrimoine du territoire rennais.
+
+          * Refonte d’une signalétique patrimoniale sans remettre en question
+    col2:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Notre méthodologie
+
+
+          **PHASE 1 : Analyse et synthèse pour la mise en place d’une signalétique patrimoniale**
+
+
+          * Étape 1 – S’approprier le contexte
+
+          * Étape 2 – Recherches exploratoires et concertation
+
+          * Étape 3 –  Synthèses thématiques
+
+          * Étape 4 – Rapport d’étonnement
+
+
+          **PHASE 2 : Définition d’une stratégie pour le déploiement d’une nouvelle signalétique patrimoniale**
+
+
+          * * Étape 1 – Benchmark
+            * Étape 2 – Le rôle de la métropole dans la stratégie signalétique
+            * Étape 3 – Synthèse opérationnelle
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/realisation-design-signaletique-patrimoine-rennes-5.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### La concertation des usagers et acteurs locaux
+
+
+          **Notre méthode de concertation impliquait deux étapes :**
+
+
+          * La rencontre des acteurs du patrimoine à travers deux réunions et visite de sites.
+
+          * L’enquête auprès des usagers
+    col2:
+      reverseMobile: false
+      text:
+        content: "![](/media/realisation-design-signaletique-patrimoine-rennes-3.jpg)"
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/realisation-design-signaletique-patrimoine-rennes-4.jpg)"
+    col2:
+      reverseMobile: false
+      text:
+        content: >-
+          ### La création de parcours de visites thématiques
+
+
+          **La mise en place de parcours a pour effet de :**
+
+
+          * Favoriser les points remarquables isolés ou méconnus
+
+          * Accompagner les publics peu autonomes
+
+          * Donner une lecture globale de l’étendue du patrimoine
+
+
+          **Si la mise en place de parcours est souhaitée, certains points d’attention seront à prendre en compte :**
+
+
+          * La prise en charge et l’accueil des visiteurs
+
+          * L’identification des points de départ du parcours
+
+          * Les points d’informations sur site
+
+          * La valorisation et la hiérarchisation des points d’intérêts à signaler
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Ce que nous avons adoré
+
+
+          * **Un patrimoine hétéroclite**\
+            Le patrimoine du Pays de Rennes est très varié, de l’architecture au patrimoine culturel immatériel, de l’industrie au patrimoine naturel. Sa richesse et sa diversité sont inattendus.
+          * **La carte de l’ensemble du patrimoine présente à l’Office de Tourisme**\
+            Lisible et ludique, elle incite à quitter Rennes pour découvrir d’autres sites. C’est le seul support global que nous avons trouvé.
+          * **La déclinaison des livrets de visite en FALC**
+
+          * **L’expérience de Bécherel**, un condensé des différentes typologies de patrimoine sur Rennes Métropole. Patrimoine remarquable, cité de caractère, cité du livre, circuits « incitatifs » (randonnées, ruelles/passages étroits et remparts).
+
+          * **Le PDU 2030** qui offre de nouvelles perspectives pour la découverte du patrimoine
+
+          * **L’accessibilité (RGAA) du site metropole.rennes.fr**
+
+          * **Un contenu numérique très riche**
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Nos domaines d’intervention
+
+
+          * Animation de réunions de concertation et visites in situ.
+
+          * Analyse territoriale et patrimoniale et observations.
+
+          * Préconisations pour la mise en place d’une signalétique patrimoniale sur le territoire.
+    col2:
+      reverseMobile: false
+      text:
+        content: "![](/media/realisation-design-signaletique-patrimoine-rennes-2.png)"
+    col3:
+      reverseMobile: false
+projectsFeatured:
+  - charte-signale-tique-accessible-pour-les-itine-raires-velo
+  - signaletique-de-la-treso-tiers-lieu
+footer:
+  btn:
+    label: Découvrez tous nos projets signalétique
+    color: green
+    tag: Signalétique
+---
