@@ -93,4 +93,14 @@ members:
       - text: Administratif
       - text: Communication
       - text: Facturation
+  - name: Sébastien Montalan
+    image: /media/sebastien_nb.jpg
+    badge:
+      color: a-blue
+      label: Le pointilleux
+    linkedin: https://www.linkedin.com/in/s%C3%A9bastien-montalan-823b47106/
+    skills:
+      - text: Accessibilité
+      - text: Urbanisme
+      - text: Diagnostic multi-technique
 ---
