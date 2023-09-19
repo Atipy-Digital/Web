@@ -21,6 +21,8 @@ sections:
 
           Ville de Clichy
 
+          V﻿ille de Chantepie
+
           Ville de Lormont
 
           Ville de Pantin
@@ -45,19 +47,21 @@ sections:
 
           ### **Structures publiques**
 
+          Caisse des Dépôts
+
           Ministère de l’Intérieur
 
           Ministère de la Justice
 
           Ministère de la Culture
 
-          Caisse des Dépôts
+          M﻿inistère de l'Europe et des Affaires Etrangères
 
           Préfecture de la Région hauts de France
 
           ### **Associations et tiers-lieux**
 
-          Amnesty Internationale
+          Amnesty International France
 
           France Handicap International
 
@@ -72,6 +76,14 @@ sections:
           La Ressourcerie de Malakoff
 
           La Manufacture
+
+          L﻿es Jours Heureux
+
+          ### S﻿port
+
+          S﻿olideo - Ouvrages olympiques
+
+          P﻿aris Sport
     col2:
       reverseMobile: false
       text:
