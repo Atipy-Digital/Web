@@ -59,10 +59,6 @@ sections:
         content: >-
           * **Sécurisé :** Eviter les risques ou dangers liés à son utilisation.
 
-
-          <!---->
-
-
           * **Respectueux de la Diversité :** Penser une utilisation égalitaire, paritaire auprès d’utilisateurs aux capacités multiples et différentes.
 
           * **Confortable pour tous :** Permettre son utilisation dans un bien-être physique et psychologique, tout en nécessitant un faible effort.
