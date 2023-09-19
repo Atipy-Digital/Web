@@ -102,9 +102,10 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          Experts en communication accessible et [conception
-          universelle](https://agence-adequat.fr/quest-ce-que-la-conception-universelle/),
-          nous portons une attention particulière aux éléments suivants :
+          Experts en [communication
+          accessible](https://atipy.netlify.app/expertises/design/conception-graphique) et [conception
+          universelle](https://atipy.netlify.app/agence/conception), nous
+          portons une attention particulière aux éléments suivants :
 
 
           * Contrastes visuels
@@ -118,9 +119,7 @@ project_sections:
           * Interlettrage et interlignage
 
 
-          La lisibilité est un point important du processus de conception. Un document peu lisible génère une difficulté pour une personne âgée ou une personne malvoyante (myopie,\
-
-          astigmatisme, daltonisme…), et un manque de confort pour tous. C’est pourquoi nous pensons à utiliser un contraste suffisant, une typographie lisible, un interlettrage et un interlignage correctes.
+          La lisibilité est un point important du processus de conception. Un document peu lisible génère une difficulté pour une personne âgée ou une personne malvoyante (myopie, astigmatisme, daltonisme…), et un manque de confort pour tous. C’est pourquoi nous pensons à utiliser un contraste suffisant, une typographie lisible, un interlettrage et un interlignage correctes.
     col2:
       reverseMobile: false
     col3:
