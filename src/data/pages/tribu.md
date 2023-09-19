@@ -90,7 +90,7 @@ members:
       color: a-green
     linkedin: https://www.linkedin.com/in/julie-mesnard-980642223/
     skills:
-      - text: + Administratif
-      - text: + Communication
-      - text: + Facturation
+      - text: Administratif
+      - text: Communication
+      - text: Facturation
 ---
