@@ -14,21 +14,46 @@ icon:
   type: ingenierie
 color: ENGINEER
 intro: >-
-  ### Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet.
+  ### **Accompagnement dans la mise en accessibilité de vos bâtiments**
 
 
-  Aliquet enim tortor at auctor urna nunc id. Ullamcorper a lacus vestibulum sed arcu non. Etiam tempor orci eu lobortis elementum. Morbi tristique senectus et netus et malesuada fames.
+  Atipy intervient au quotidien pour des missions d’Assistance à Maîtrise d’Ouvrage (AMO) auprès des gestionnaires de patrimoine. Les bâtiments que nous visitons sont variés et plusieurs types de missions peuvent nous être confiées tout au long du projet.
 sections:
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
         content: >-
-          #### Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          #### Du diagnostic d’accessibilité à la réception de travaux
 
 
-          Tellus orci ac auctor augue mauris augue neque. Id diam maecenas ultricies mi eget mauris. Sem viverra aliquet eget sit amet. Faucibus interdum posuere lorem ipsum dolor. Ullamcorper eget nulla facilisi etiam dignissim diam quis. Purus in mollis nunc sed id semper risus in hendrerit. Urna duis convallis convallis tellus id. Vulputate odio ut enim blandit. Rhoncus dolor purus non enim praesent. Scelerisque viverra mauris in aliquam sem.
+          Le diagnostic d’accessibilité est la première étape. Il concerne différentes typologies de lieux : les Etablissement Recevant du Public (ERP), les Installations Ouvertes au Public (IOP), les zones code du travail et les Bâtiments d’Habitation Collectifs (BHC).
+
+
+          * **Diagnostic** : Visite de site, diagnostic ou contre-visite, identification des non-conformités, préconisations techniques, organisationnelles ou fonctionnelles, chiffrages et estimations des travaux, localisation des obstacles sur plans
+
+
+          Une fois cette phase réalisée, Atipy peut vous accompagner sur d’autres prestations : 
+
+
+          * **AVP / PRO / DCE** : Analyse des pièces écrites et graphiques, accompagnement et suivi administratif, rédaction de la notice d’accessibilité, rédaction de la demande de dérogation éventuelle, conseils sur des solutions techniques ou matériaux spécifiques
+
+          * **ACT** : Accompagnement dans l’analyse des offres
+
+          * **EXE** : Visa des plans et matériaux
+
+          * **DET** : Participation aux réunions d’études et de chantiers
+
+          * **AOR :** Pré-visite de réception
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: '![Pellentesque](/media/ph-575.png "Pellentesque")'
     col2:
       reverseMobile: false
     col3:
@@ -38,44 +63,46 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          **Fermentum dui faucibus in ornare quam viverra orci sagittis.**
+          #### **blabla divercities-access.com**
 
 
-          Fames ac turpis egestas integer eget aliquet nibh praesent tristique. Lorem ipsum dolor sit amet consectetur adipiscing elit. Urna id volutpat lacus laoreet non curabitur gravida arcu. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Pellentesque nec nam aliquam sem. Tempor orci dapibus ultrices in.
-
-
-          ![Pellentesque](/media/ph-575.png "Pellentesque")
+          Arcu dui vivamus arcu felis bibendum ut. Hac habitasse platea dictumst vestibulum. Et leo duis ut diam quam nulla porttitor massa id. Pharetra convallis posuere morbi leo urna molestie at elementum eu. Egestas fringilla phasellus faucibus scelerisque. Pretium nibh ipsum consequat nisl vel pretium lectus.
     col2:
       reverseMobile: false
+      text:
+        content: "![](/media/ph-575.png)"
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
+        content: "![](/media/ph-575.png)"
+    col2:
+      reverseMobile: false
+      text:
         content: >-
-          ***Quam quisque id diam vel quam elementum. Quis ipsum suspendisse
-          ultrices gravida dictum fusce.***
+          ### **Le Registre Public d’Accessibilité**
 
 
-          ##### Amet nisl suscipit adipiscing bibendum est ultricies.
-
-
-          Facilisis leo vel fringilla est. Arcu dui vivamus arcu felis bibendum ut. Hac habitasse platea dictumst vestibulum. Et leo duis ut diam quam nulla porttitor massa id. Pharetra convallis posuere morbi leo urna molestie at elementum eu. Egestas fringilla phasellus faucibus scelerisque. Pretium nibh ipsum consequat nisl vel pretium lectus. 
-
-
-          ##### Tristique nulla aliquet enim tortor.
-
-
-          Mattis enim ut tellus elementum sagittis vitae. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Neque volutpat ac tincidunt vitae semper. Arcu risus quis varius quam quisque id. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit.
+          Arcu dui vivamus arcu felis bibendum ut. Hac habitasse platea dictumst vestibulum. Et leo duis ut diam quam nulla porttitor massa id. Pharetra convallis posuere morbi leo urna molestie at elementum eu. Egestas fringilla phasellus faucibus scelerisque. Pretium nibh ipsum consequat nisl vel pretium lectus.
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "**Nos consultants peuvent vous accompagner de A à Z pour une mise en
+          accessibilité de bâtiments existants ou sur des projets de
+          constructions.**"
     col2:
       reverseMobile: false
     col3:
       reverseMobile: false
 footer:
   btn:
-    label: Découvrez nos projets ingénierie
+    label: Découvrez nos projets de mise en accessibilité
     color: blue
-    tag: Ingénierie
+    tag: Cadre bâti
   titleContact: Vous avez un projet d'ingénierie ?
 ---
