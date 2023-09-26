@@ -85,7 +85,55 @@ sections:
           ### **Le Registre Public d’Accessibilité**
 
 
-          Arcu dui vivamus arcu felis bibendum ut. Hac habitasse platea dictumst vestibulum. Et leo duis ut diam quam nulla porttitor massa id. Pharetra convallis posuere morbi leo urna molestie at elementum eu. Egestas fringilla phasellus faucibus scelerisque. Pretium nibh ipsum consequat nisl vel pretium lectus.
+          Obligation de mettre à disposition du public un document unique : **Le Registre Public d’Accessibilité**
+
+
+          Disponible à l’accueil d’un Etablissement Recevant du Public (ERP) et sur un site internet, ce document a pour objectif d’informer, de manière simple et facilement compréhensible, le public sur le degré d’accessibilité de l’ERP et de ses différents services.
+
+
+          *Références : Décret n° 2017-431 du 28 mars 2017 et Arrêté du 19 avril 2017 fixant le contenu et les modalités de diffusion et de mise à jour du registre public d’accessibilité*
+
+
+          **1. Portail interactif**
+
+
+          Mise en place d’un portail permettant de :
+
+
+          * Publier des registres en ligne
+
+          * D’éditer des registres en format PDF
+
+          * De consigner tous les documents administratifs obligatoires
+
+          * De réaliser une synthèse quantifiée et/ou chiffrée des actions de mise en conformité
+
+
+          Une synthèse éditable sera à consigner à l’accueil avec 3 parties :
+
+
+          * Présentation administrative / services disponibles au public
+
+          * Synthèse du niveau d’accessibilité par typologie de services
+
+          * Focus sur les obstacles bloquants et les aises disponibles
+
+
+          **2. Saisie des données**
+
+
+          Cet accompagnement se matérialise par :
+
+
+          * La saisie des données relatives à chaque prestation offerte au public
+
+          * La collecte de l’ensemble des pièces administratives, techniques et des attestations de formation
+
+
+          A l’issue de la saisie des données, nous proposons de vous restituer un inventaire détaillé des différentes actions et documents à exécuter ou à constituer pour être à jour dans vos obligations.
+
+
+          **NB : nous pouvons saisir les données ou mettre à disposition une plateforme vous permettant de saisir vous-même les données et d’éditer un ou plusieurs registres.**
     col3:
       reverseMobile: false
   - inverseCol: false
