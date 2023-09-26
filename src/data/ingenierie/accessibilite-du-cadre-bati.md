@@ -1,8 +1,12 @@
 ---
 metadata:
-  title: Accessibilité du cadre bâti
+  title: Cadre bâti
   description: Accessibilité du cadre bâti
-title: Accessibilité du cadre bâti
+  keywords:
+    - keyword: accessibilite
+    - keyword: cadre bâti
+    - keyword: Bâtiment
+title: Cadre bâti
 date: 2023-07-24T07:08:24.513Z
 icon:
   label: Cadre Bati - Bleu
