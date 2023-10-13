@@ -39,9 +39,6 @@ export const ContactForm = ({ data }: Props) => {
   });
 
   const {executeRecaptcha} = useGoogleReCaptcha()
-  const sendEmail = (data: Inputs) => {
-
-  }
 
   const onSubmit = handleSubmit(async (data: Inputs) => {
     if (!executeRecaptcha) return
