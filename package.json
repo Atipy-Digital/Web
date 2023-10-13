@@ -17,7 +17,8 @@
     "lint:strict": "eslint --cache --max-warnings=0 src",
     "typecheck": "tsc --noEmit --incremental false",
     "format": "prettier --write --cache --loglevel=warn .",
-    "format:check": "prettier --check --cache ."
+    "format:check": "prettier --check --cache .",
+    "localserver": "npx decap-server"
   },
   "dependencies": {
     "@types/react": "18.2.6",
