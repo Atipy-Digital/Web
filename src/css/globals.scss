@@ -600,3 +600,7 @@ html.no-scroll {
     min-height: -webkit-fill-available;
   }
 }
+
+.grecaptcha-badge {
+  z-index: 99999;
+}

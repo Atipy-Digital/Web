@@ -16,3 +16,9 @@ export const siteOrigin = siteURL.origin;
 export const showLogger = isDev
   ? true
   : process.env.NEXT_PUBLIC_SHOW_LOGGER === 'true' ?? false;
+
+
+export const RECHAPCHA_KEY = process.env.NEXT_PUBLIC_RECAPCHA_PUBLIC as string
+export const SERVICE = process.env.NEXT_PUBLIC_EMAIL_JS_SERVICE as string
+export const TEMPLATE = process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE as string
+export const USER = process.env.NEXT_PUBLIC_EMAIL_JS_USER as string
