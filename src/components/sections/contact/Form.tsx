@@ -57,7 +57,6 @@ export const ContactForm = ({ data }: Props) => {
     }catch {
       console.warn('------')
     }
-    sendEmail(data)
   })
 
   return (
