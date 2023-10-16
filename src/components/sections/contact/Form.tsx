@@ -1,6 +1,9 @@
 'use client';
-
+import emailjs from 'emailjs-com';
+import {useGoogleReCaptcha} from "react-google-recaptcha-v3";
 import { useForm } from 'react-hook-form';
+
+import {SERVICE, TEMPLATE, USER} from "@/lib/constants";
 
 import { Box } from '@/components/common/Box';
 import { Button } from '@/components/primitives/Button';
@@ -12,6 +15,7 @@ type Inputs = {
   name: string;
   email: string;
   message: string;
+  googleReCaptchaToken: string
 };
 
 type Props = {
@@ -22,18 +26,38 @@ export const ContactForm = ({ data }: Props) => {
   const {
     control,
     handleSubmit,
-    formState: { isValid, errors },
+    formState: {isValid, errors},
+    reset
   } = useForm<Inputs>({
     defaultValues: {
       name: '',
       email: '',
       message: '',
+      googleReCaptchaToken: ''
     },
+    mode: 'onChange'
   });
 
-  const onSubmit = handleSubmit((data) => {
-    console.warn(data);
-  });
+  const {executeRecaptcha} = useGoogleReCaptcha()
+
+  const onSubmit = handleSubmit(async (data: Inputs) => {
+    if (!executeRecaptcha) return
+    try {
+      data.googleReCaptchaToken = await executeRecaptcha('submit')
+      emailjs.send(
+        SERVICE,
+        TEMPLATE,
+        data,
+        USER
+      ).then(() => {
+        reset()
+
+        console.warn('mail.send-----')
+      })
+    }catch {
+      console.warn('------')
+    }
+  })
 
   return (
     <Box className='max-w-2xl flex flex-col items-center justify-center'>
