@@ -6,7 +6,7 @@ import { HeaderPage } from '@/components/layout/HeaderPage';
 import { Page } from '@/components/layout/Page';
 import { ContactFooter } from '@/components/sections/contact/Footer';
 import { ContactForm } from '@/components/sections/contact/Form';
-import {ContactProvider} from "@/components/sections/contact/WrapperContact";
+import { ContactProvider } from '@/components/sections/contact/WrapperContact';
 
 import { getContactData } from '@/services/contact.service';
 

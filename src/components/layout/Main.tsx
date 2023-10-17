@@ -2,6 +2,8 @@
 
 import { ReactNode } from 'react';
 
+import 'react-toastify/dist/ReactToastify.css';
+
 import { WrapperScrollToTop } from './WrapperScrollToTop';
 
 export default function Main({ children }: { children: ReactNode }) {
