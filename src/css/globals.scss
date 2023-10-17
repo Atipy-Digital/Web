@@ -604,3 +604,12 @@ html.no-scroll {
 .grecaptcha-badge {
   z-index: 99999;
 }
+
+//Toastify
+.Toastify__toast--success {
+  background: #077d8a !important;
+}
+
+.Toastify__toast--error {
+  background: #b02117 !important;
+}
