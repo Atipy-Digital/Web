@@ -1,6 +1,6 @@
 'use client';
 
-import {useMemo} from 'react';
+import { useMemo } from 'react';
 
 import clsxm from '@/lib/clsxm';
 
@@ -11,7 +11,12 @@ export type Props = {
   className?: string;
 };
 
-export const AudienceTag = ({label, isActive, className, onChange,}: Props) => {
+export const AudienceTag = ({
+  label,
+  isActive,
+  className,
+  onChange,
+}: Props) => {
   const toggleActive = () => {
     onChange(!isActive);
   };

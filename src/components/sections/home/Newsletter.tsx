@@ -6,7 +6,7 @@ import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
 import { toast, ToastContainer } from 'react-toastify';
 
 import clsxm from '@/lib/clsxm';
-import {URL_NETLIFY_SUBSCRIBE} from "@/lib/constants";
+import { URL_NETLIFY_SUBSCRIBE } from '@/lib/constants';
 
 import { Box } from '@/components/common/Box';
 import { Button } from '@/components/primitives/Button';
@@ -74,13 +74,10 @@ export const Newsletter = ({ data }: Props) => {
     }
 
     try {
-      const response = await axios.post(
-        URL_NETLIFY_SUBSCRIBE,
-        {
-          email: data.email,
-          selectedOptions,
-        }
-      );
+      const response = await axios.post(URL_NETLIFY_SUBSCRIBE, {
+        email: data.email,
+        selectedOptions,
+      });
 
       if (response.status === 201) {
         toast.success('Inscription réussie Miracle !');
