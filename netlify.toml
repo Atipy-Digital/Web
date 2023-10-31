@@ -1,20 +1,19 @@
 # Site information
-[site]
-name = "Atipy"
-domain = "https://atipy.netlify.app/"
+
+site = { name = "Atipy", domain = "https://atipy.netlify.app/" }
 
 # Build configuration
-[build]
-publish = "out/"
 
-[build.environment]
+build = { publish = "out/" }
+
 NEXT_USE_NETLIFY_EDGE = "true"
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
 
 # Functions configuration
-[[functions]]
-name = "subscribe"
-src = "netlify/functions/subscribe.mts"
-type = "edge"
+
+# Functions configuration
+functions = [
+    { name = "subscribe", src = "netlify/functions/subscribe.mts", type = "edge" },
+]
