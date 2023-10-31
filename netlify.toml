@@ -8,8 +8,3 @@ NEXT_USE_NETLIFY_EDGE = "true"
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
-
-# Functions configuration
-functions = [
-    { name = "subscribe", src = "netlify/functions/subscribe.mts", type = "edge" },
-]
