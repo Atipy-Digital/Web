@@ -11,7 +11,6 @@ NEXT_USE_NETLIFY_EDGE = "true"
 [[plugins]]
 package = "@netlify/plugin-nextjs"
 [plugins.inputs]
-port = 80
 
 # Functions configuration
 functions = [
