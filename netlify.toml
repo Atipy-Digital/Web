@@ -17,3 +17,5 @@ package = "@netlify/plugin-nextjs"
 functions = [
     { name = "subscribe", src = "netlify/functions/subscribe.mts", type = "edge" },
 ]
+
+[plugins.inputs]
