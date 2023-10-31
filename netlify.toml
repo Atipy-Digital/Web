@@ -1,9 +1,7 @@
 # Site information
-
 site = { name = "Atipy", domain = "https://atipy.netlify.app/" }
 
 # Build configuration
-
 build = { publish = "out/" }
 
 NEXT_USE_NETLIFY_EDGE = "true"
