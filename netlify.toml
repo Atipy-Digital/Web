@@ -1,8 +1,8 @@
 # Site information
 
 site = {
-name = "Atipy bis",
-domain = "https://main--glittery-clafoutis-783040.netlify.app/",
+name = "Atipy",
+domain = "https://atipy.netlify.app/",
 }
 
 # Build configuration
