@@ -1,7 +1,7 @@
 import collections from './collections/index.js';
 
 const config = {
-  local_backend: true,
+  local_backend: true, //or delete
   backend: {
     name: 'git-gateway',
     branch: 'master',
