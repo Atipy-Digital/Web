@@ -20,23 +20,25 @@ export const AudienceTag = ({
   const toggleActive = () => {
     onChange(!isActive);
   };
+
   const getColorStyle = useMemo(() => {
-    if (isActive) {
-      switch (label) {
-        case 'Design':
-          return 'border-a-green-dark bg-a-green-dark text-white dark:border-a-green-light dark:bg-a-green-light dark:text-black';
-        case 'Digital':
-          return 'border-a-red-dark bg-a-red-dark text-white dark:border-a-red-light dark:bg-a-red-light dark:text-black';
-        case 'Ingénierie':
-          return 'border-a-blue-dark bg-a-blue-dark text-white dark:border-a-blue-light dark:bg-a-blue-light dark:text-black';
-        default:
-          return 'border-black bg-background text-white dark:border-white dark:bg-white dark:text-black';
+    if (label === 'Digital') {
+      if (isActive) {
+        return 'border-a-blue-dark bg-a-blue-dark text-white dark:border-a-blue-light dark:bg-a-blue-light dark:text-black';
       }
-    } else {
+      return 'border-grey-140 hover:dark:!border-a-blue-dark dark:border-white text-grey-110 dark:text-white hover:border-a-blue-dark hover:bg-a-blue-dark hover:text-white';
+    } else if (label === 'Ingénierie') {
+      if (isActive) {
+        return 'border-a-red-dark bg-a-red-dark text-white dark:border-a-red-light dark:bg-a-red-light dark:text-black';
+      }
+      return 'border-grey-140 hover:dark:!border-a-red-dark dark:border-white text-grey-110 dark:text-white hover:border-a-red-dark hover:bg-a-red-dark hover:text-white dark:text-white dark:border-white';
+    } else if (label === 'Design') {
+      if (isActive) {
+        return 'border-a-green-dark bg-a-green-dark text-white dark:border-a-green-light dark:bg-a-green-light dark:text-black';
+      }
       return 'border-grey-140 hover:dark:!border-a-green-dark dark:border-white text-grey-110 dark:text-white hover:border-a-green-dark hover:bg-a-green-dark hover:text-white';
     }
   }, [label, isActive]);
-
   return (
     <div
       className={clsxm(
