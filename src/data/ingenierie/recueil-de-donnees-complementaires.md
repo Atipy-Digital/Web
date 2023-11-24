@@ -46,11 +46,6 @@ sections:
         content: "![](/media/expertise-releves-complementaires-atipy-1.jpeg)"
     col2:
       reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
       text:
         content: >-
           #### **Quels sont les objectifs ?**
@@ -61,6 +56,16 @@ sections:
           * Profiter des relevés accessibilité et des éventuels travaux pour traiter les désordres “connexes” 
 
           * Disposer d’un système de relevés global, simple et performant avec des possibilités d’ajout de thématiques multiples facilitant la gestion du patrimoine.
+
+          * Vous remettre les données sous un format adapté à vos besoins (compatible avec votre interface logiciel, en format tableur ou avec un accès à notre propre logiciel)
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: Désordres pouvant impacter le bâtiment. Nous pouvons faire un relevé
+          visuel des désordres et actions correctives à mener.
     col2:
       reverseMobile: false
       text:
