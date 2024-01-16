@@ -48,4 +48,9 @@ sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+footer:
+  btn:
+    label: Découvrez nos applications mobiles
+    color: red
+    tag: Applications
 ---
