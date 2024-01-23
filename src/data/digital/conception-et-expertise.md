@@ -42,6 +42,30 @@ sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          #### Veille stratégique et expérience utilisateur
+
+
+          L’Expérience Utilisateur (ou User Experience) s’intéresse au comportement de l’utilisateur et à la structure de la solution digitale. L’UX implique l’analyse, la recherche, la stratégie technique, le maquettage et les tests d’utilisabilité. L’Interface Utilisateur (User Interface) et l’Expérience Utilisateur partagent un but commun, celui de concevoir une application intuitive, évolutive, agréable visuellement et accessible à tous les publics :
+
+
+          * utile et attractif  
+
+          * fiable et fonctionnel
+
+          *  flexible et accessible
+
+          * harmonieux et visible
+    col2:
+      reverseMobile: false
+      text:
+        content: "![](/media/florent.webp)"
+    col3:
+      reverseMobile: false
 footer:
   btn:
     color: red
