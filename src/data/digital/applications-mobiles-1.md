@@ -78,12 +78,17 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/florent.webp)"
+        content: |-
+          
+
+
+
+          ![](/media/florent.webp)
     col2:
       reverseMobile: false
       text:
         content: |-
-          ### Référence 
+          ### Référence ?
 
           ![](/media/florent.webp)
     col3:
