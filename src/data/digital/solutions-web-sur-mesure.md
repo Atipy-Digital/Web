@@ -31,8 +31,16 @@ sections:
           Cette approche offre de nombreux avantages notamment la transparence du code source, la flexibilité, la collaboration communautaire, la sécurité et souvent des coûts réduits.
 
           Nos solutions sur mesure embarquent uniquement les ressources et fonctionnalités qui vous sont nécessaires ce qui réduit les consommations d’énergie (CPU, mémoire et stockage) et améliore les performances.
+      image:
+        url: /media/amnesty_international_logo.png
     col2:
       reverseMobile: false
     col3:
       reverseMobile: false
+footer:
+  titleContact: Vous avez un projet d'accessibilité ?
+  btn:
+    label: Découvrez nos solutions web sur mesure
+    color: red
+    tag: Solutions web
 ---
