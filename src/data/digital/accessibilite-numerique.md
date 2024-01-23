@@ -10,24 +10,29 @@ icon:
   type: digital
 color: DIGITAL
 intro: >-
-  ### Purus sit amet volutpat consequat mauris nunc congue nisi vitae.
+  ### Des services en ligne et contenus numériques accessibles à tous
 
 
-  Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis. Laoreet non curabitur gravida arcu. Massa sapien faucibus et molestie ac feugiat sed lectus. Scelerisque mauris pellentesque pulvinar pellentesque habitant. Justo laoreet sit amet cursus sit amet dictum sit amet.
+  Pour que les services en ligne et les contenus numériques soient accessibles à tous, y compris les personnes en situation de handicap, il est essentiel de se conformer aux normes et aux bonnes pratiques en matière d'accessibilité.
 sections:
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
         content: >-
-          #### Non odio euismod lacinia at quis. Ut eu sem integer vitae justo
-          eget magna.
+          Formation et Sensibilisation
 
 
-          At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Orci ac auctor augue mauris augue neque gravida in. Id ornare arcu odio ut sem nulla. Vitae aliquet nec ullamcorper sit amet. Bibendum enim facilisis gravida neque convallis a cras semper auctor. Aliquam faucibus purus in massa tempor nec. Vulputate sapien nec sagittis aliquam malesuada.
+          Nous croyons fermement que l'accessibilité numérique est un droit fondamental, et nous sommes déterminés à aider nos clients à offrir des expériences en ligne accessibles à tous.
+
+
+          La sensibilisation de votre équipe est cruciale pour garantir que l'accessibilité numérique devienne une priorité au sein de votre organisation. Nous proposons des sessions de formation personnalisées pour sensibiliser vos employés aux enjeux de l'accessibilité et les aider à intégrer ces bonnes pratiques dans leur travail quotidien.
+
+
+          La gestion de l'accessibilité numérique doit être un processus continu, intégré dans la culture de l'entreprise et soutenu par une solide sensibilisation et une expertise en la matière. Cela garantira que les produits et services numériques sont accessibles à tous, améliorant ainsi l'expérience utilisateur et répondant aux obligations légales.
       image:
         url: /media/ph-1277.png
-        legend: Sapien nec sagittis aliquam malesuada.
+        legend: ""
     col2:
       reverseMobile: false
     col3:
@@ -37,20 +42,20 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          #### Ornare suspendisse sed nisi lacus sed viverra tellus in. Eget
-          aliquet nibh praesent tristique magna sit. Et tortor at risus viverra
-          adipiscing at.
+          Conception et accessibilité
 
 
-          Massa tincidunt dui ut ornare lectus sit amet est. Risus nullam eget felis eget nunc lobortis mattis aliquam. Curabitur gravida arcu ac tortor dignissim convallis aenean et. Felis donec et odio pellentesque diam volutpat commodo. Egestas diam in arcu cursus euismod quis viverra. Molestie at elementum eu facilisis sed odio morbi quis. Nulla pellentesque dignissim enim sit amet venenatis urna.
+          L'accessibilité doit être intégrée dès le stade de la conception. Assurez-vous que les wireframes, les maquettes et les spécifications tiennent compte des besoins des utilisateurs en situation de handicap.
 
 
-          #### Velit ut tortor pretium viverra suspendisse potenti nullam ac.
+          Réalisez des tests de convivialité avec des utilisateurs en situation de handicap pour identifier les problèmes d'accessibilité potentiels.
 
 
-          Mauris vitae ultricies leo integer malesuada nunc vel risus. Cursus turpis massa tincidunt dui ut ornare lectus sit. At erat pellentesque adipiscing commodo elit. Tellus pellentesque eu tincidunt tortor. Aenean euismod elementum nisi quis eleifend. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. A lacus vestibulum sed arcu non odio euismod lacinia. Semper eget duis at tellus at urna condimentum mattis pellentesque.
+          Utilisez des outils d'analyse d'accessibilité pour identifier et corriger les problèmes d'accessibilité.
     col2:
       reverseMobile: false
+      text:
+        content: "![](/media/florent.webp)"
     col3:
       reverseMobile: false
   - inverseCol: false
