@@ -36,6 +36,8 @@ sections:
 
 
           Notre équipe d'experts se documente et expérimente activement les nombreux langages et frameworks de développement pour concevoir des solutions logicielles innovantes, performantes et robustes. Nous modélisons des outils efficaces et évolutifs sur l’ensemble des prérequis et des fonctionnalités définies en favorisant le découpage de votre projet en modules indépendants avec ses spécificités propres.
+      image:
+        url: /media/amnesty_international_logo.png
     col2:
       reverseMobile: false
     col3:
