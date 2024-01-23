@@ -23,7 +23,7 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          Favoriser les librairies OpenSource et l’éco-conception
+          #### Favoriser les librairies OpenSource et l’éco-conception
 
 
           L'environnement open source joue un rôle crucial dans le développement de logiciels, de technologies et de solutions accessibles à tous. Il favorise la collaboration et l'innovation tout en offrant une alternative aux logiciels propriétaires.
@@ -35,6 +35,21 @@ sections:
         url: /media/amnesty_international_logo.png
     col2:
       reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          #### Webdesign graphique
+
+
+          Une identité visuelle forte permet de communiquer efficacement votre marque et votre message auprès du public. Notre équipe du pôle design vous écoute et vous accompagne pour concevoir un logo, choisir une palette de couleurs, définir une typographie et créer des éléments graphiques distinctifs, tels que des motifs, des icônes ou des illustrations. Votre portail web dispose ainsi d’une interface complètement personnalisée et chartée à l’image de votre groupe.
+    col2:
+      reverseMobile: false
+      text:
+        content: "![](/media/florent.webp)"
     col3:
       reverseMobile: false
 footer:
