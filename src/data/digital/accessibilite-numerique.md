@@ -42,7 +42,7 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          Conception et accessibilité
+          ### Conception et accessibilité
 
 
           L'accessibilité doit être intégrée dès le stade de la conception. Assurez-vous que les wireframes, les maquettes et les spécifications tiennent compte des besoins des utilisateurs en situation de handicap.
