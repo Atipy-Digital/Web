@@ -20,7 +20,7 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          ### Formation et Sensibilisation
+          #### Formation et Sensibilisation
 
 
           Nous croyons fermement que l'accessibilité numérique est un droit fondamental, et nous sommes déterminés à aider nos clients à offrir des expériences en ligne accessibles à tous.
@@ -42,7 +42,7 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          ### Conception et accessibilité
+          #### Conception et accessibilité
 
 
           L'accessibilité doit être intégrée dès le stade de la conception. Assurez-vous que les wireframes, les maquettes et les spécifications tiennent compte des besoins des utilisateurs en situation de handicap.
