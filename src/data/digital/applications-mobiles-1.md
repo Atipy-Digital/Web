@@ -79,9 +79,7 @@ sections:
       reverseMobile: false
       text:
         content: |-
-          
-
-
+          `B﻿R`
 
           ![](/media/florent.webp)
     col2:
