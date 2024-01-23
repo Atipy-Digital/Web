@@ -66,6 +66,20 @@ sections:
         content: "![](/media/florent.webp)"
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/florent.webp)"
+    col2:
+      reverseMobile: false
+      text:
+        content: |-
+          Référence ?
+
+          ![](/media/florent.webp)
+    col3:
+      reverseMobile: false
 footer:
   btn:
     color: red
