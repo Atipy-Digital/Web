@@ -66,6 +66,19 @@ sections:
           ![](/media/florent.webp)
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          #### Hébergement et maintenance évolutive
+
+
+          Nous vous accompagnons pour déployer la solution digitale sur son environnement de production. Selon vos préférences cet hébergement peut se livrer sur votre infrastructure ("on-premises") ou sur la notre ("SAAS"). Pour garantir une parfaite adaptabilité du logiciel tout du long de son cycle de vie, il est important de mettre en place un contrat de maintenance évolutive dans le but d’ajouter de nouvelles fonctionnalités et modules, d’optimiser les performances et passer les mises à jour pour rester en phase avec les normes et réglementations en vigueur.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 footer:
   titleContact: Vous avez un projet d'accessibilité ?
   btn:
