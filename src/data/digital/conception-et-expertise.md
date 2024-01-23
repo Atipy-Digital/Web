@@ -80,6 +80,22 @@ sections:
           ![](/media/florent.webp)
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          #### Cahier des charges fonctionnel
+
+
+          Nous définition le périmètre de l’application et élaborons l'arborescence et la structure des vues. Nous hiérarchisons l'information de façon à rendre les contenus compréhensibles et accessibles par les utilisateurs finaux.
+
+
+          Nous concevons une maquette schématique interactive (dite basse fidélité) ergonomique et immersive pour modéliser les écrans et liens de l’arborescence.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 footer:
   btn:
     color: red
