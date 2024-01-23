@@ -20,7 +20,7 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          Formation et Sensibilisation
+          ### Formation et Sensibilisation
 
 
           Nous croyons fermement que l'accessibilité numérique est un droit fondamental, et nous sommes déterminés à aider nos clients à offrir des expériences en ligne accessibles à tous.
