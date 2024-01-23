@@ -117,4 +117,5 @@ footer:
     label: Découvrez nos applications mobiles
     color: red
     tag: Applications
+  titleContact: Vous avez un projet d'accessibilité ?
 ---
