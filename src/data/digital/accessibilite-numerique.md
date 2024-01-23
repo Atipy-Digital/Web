@@ -72,6 +72,37 @@ sections:
           ![](/media/florent.webp)
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          #### Intégration continue
+
+
+          **Tests avec des utilisateurs** : Effectuez des tests d'accessibilité avec des utilisateurs en situation de handicap pour obtenir des commentaires précieux.
+
+
+          **Validation par des experts** : Faites appel à des experts en accessibilité pour examiner le produit et identifier les problèmes potentiels.
+
+
+          **Documentez l'accessibilité** : Fournissez une déclaration d'accessibilité qui explique le niveau d'accessibilité atteint et les mesures prises pour garantir l'accessibilité.
+
+
+          **Suiv**i : Surveillez régulièrement l'accessibilité de votre site ou de votre application, car le contenu et les fonctionnalités peuvent évoluer.
+
+
+          **Formation continue** : Assurez-vous que votre équipe est formée de manière continue pour rester au fait des dernières évolutions en matière d'accessibilité.
+
+
+          **Rétroaction des utilisateurs** : Encouragez les utilisateurs à signaler les problèmes d'accessibilité et à fournir des retours d'expérience.
+
+
+          **Réagissez aux commentaires** : Prenez en compte les commentaires des utilisateurs et les recommandations d'experts pour apporter des améliorations constantes.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 footer:
   btn:
     label: Découvrez nos projets d'accessibilité
