@@ -66,11 +66,10 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: >-
-          ##### Purus viverra accumsan in nisl nisi scelerisque eu.
+        content: |-
+          ##### Références ? 
 
-
-          Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Porttitor leo a diam sollicitudin tempor. Diam in arcu cursus euismod quis viverra. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Feugiat vivamus at augue eget arcu dictum varius duis. At lectus urna duis convallis. Morbi quis commodo odio aenean sed adipiscing diam. Amet tellus cras adipiscing enim eu turpis. Sapien et ligula ullamcorper malesuada.
+          ![](/media/florent.webp)
     col3:
       reverseMobile: false
 footer:
