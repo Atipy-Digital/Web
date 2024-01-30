@@ -6,6 +6,7 @@ metadata:
   keywords:
     - keyword: RGAA
     - keyword: WCAG
+    - keyword: site
 title: Accessibilité numérique
 date: 2023-07-24T07:16:31.002Z
 icon:
@@ -98,5 +99,5 @@ footer:
     label: Découvrez nos projets d'accessibilité
     color: red
     tag: Accessibilité
-  titleContact: Vous avez un projet d'accessibilité ?
+  titleContact: Vous avez un projet d'accessibilité web ?
 ---
