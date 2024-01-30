@@ -34,16 +34,16 @@ sections:
           #### Du diagnostic d’accessibilité à la réception de travaux
 
 
-          Le diagnostic d’accessibilité est la première étape. Il concerne différentes typologies de lieux : les Etablissement Recevant du Public (ERP), les Installations Ouvertes au Public (IOP), les zones code du travail et les Bâtiments d’Habitation Collectifs (BHC).
+          Le diagnostic d’accessibilité est la **première étape**. Il concerne différentes typologies de lieux : les Etablissement Recevant du Public (ERP), les Installations Ouvertes au Public (IOP), les zones code du travail et les Bâtiments d’Habitation Collectifs (BHC).
 
 
-          * **Diagnostic** : Visite de site, diagnostic ou contre-visite, identification des non-conformités, préconisations techniques, organisationnelles ou fonctionnelles, chiffrages et estimations des travaux, localisation des obstacles sur plans
+          * Visite de site, diagnostic ou contre-visite, identification des non-conformités, préconisations techniques, organisationnelles ou fonctionnelles, chiffrages et estimations des travaux, localisation des obstacles sur plans
 
 
           Une fois cette phase réalisée, Atipy peut vous accompagner sur d’autres prestations : 
 
 
-          * **AVP / PRO / DCE** : Analyse des pièces écrites et graphiques, accompagnement et suivi administratif, rédaction de la notice d’accessibilité, rédaction de la demande de dérogation éventuelle, conseils sur des solutions techniques ou matériaux spécifiques
+          * **AVP / PRO / DCE** : Programme de Travaux (descriptif techniques et plans projetés), Analyse des pièces écrites et graphiques, Accompagnement et suivi administratif, Rédaction de la notice d’accessibilité, Rédaction de la demande de dérogation éventuelle, Conseils sur des solutions techniques ou matériaux spécifiques
 
           * **ACT** : Accompagnement dans l’analyse des offres
 
