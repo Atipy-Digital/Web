@@ -1,7 +1,11 @@
 ---
 metadata:
   title: Accessibilité numérique
-  description: Accessibilité numérique
+  description: l' accessibilité numérique est une obligation légale depuis la loi
+    du 11 février 2005 (article 47) et précisé par le décret du 14 mai 2009
+  keywords:
+    - keyword: RGAA
+    - keyword: WCAG
 title: Accessibilité numérique
 date: 2023-07-24T07:16:31.002Z
 icon:
