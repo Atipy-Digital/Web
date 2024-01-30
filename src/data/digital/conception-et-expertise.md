@@ -1,11 +1,14 @@
 ---
 metadata:
   title: Conception et expertise
-  description: Conception et expertise digital
+  description: Conception et expertise digital sur mesure et adaptée à vos besoins
   keywords:
     - keyword: expertise digitale
     - keyword: conception digitale
     - keyword: Web
+    - keyword: architecture logicielle
+    - keyword: UX/UI
+    - keyword: AGILE
 title: Conception et expertise
 date: 2024-01-23T14:15:34.538Z
 icon:
@@ -70,20 +73,6 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/florent.webp)"
-    col2:
-      reverseMobile: false
-      text:
-        content: |-
-          #### Référence ?
-
-          ![](/media/florent.webp)
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
         content: >-
           #### Cahier des charges fonctionnel
 
@@ -100,6 +89,6 @@ footer:
   btn:
     color: red
     tag: Digital
-    label: Découvrez nos projets d'accessibilité
-  titleContact: Vous avez un projet d'accessibilité ?
+    label: Découvrez nos projets de conception digitale
+  titleContact: Vous avez un projet digital ?
 ---
