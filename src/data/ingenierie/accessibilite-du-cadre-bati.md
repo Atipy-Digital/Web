@@ -1,11 +1,18 @@
 ---
 metadata:
   title: Cadre bâti
-  description: Accessibilité du cadre bâti
+  description: Accessibilité du cadre bâti, arrêté du 08 décembre 2014
   keywords:
     - keyword: accessibilite
     - keyword: cadre bâti
     - keyword: Bâtiment
+    - keyword: ERP
+    - keyword: IOP
+    - keyword: BHC
+    - keyword: registre
+    - keyword: référentiel
+    - keyword: diagnostic
+    - keyword: ADAP
 title: Cadre bâti
 date: 2023-07-24T07:08:24.513Z
 icon:
@@ -53,7 +60,8 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: '![Pellentesque](/media/ph-575.png "Pellentesque")'
+        content: "![](/media/diagnostic-accessibilite-erp-iop-bhc-atipy.jpg \"Diagnostic
+          d'accessibilité dans les bâtiments\")"
     col2:
       reverseMobile: false
     col3:
@@ -63,21 +71,38 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          #### **blabla divercities-access.com**
+          #### Le référentiel d’accessibilité
 
 
-          Arcu dui vivamus arcu felis bibendum ut. Hac habitasse platea dictumst vestibulum. Et leo duis ut diam quam nulla porttitor massa id. Pharetra convallis posuere morbi leo urna molestie at elementum eu. Egestas fringilla phasellus faucibus scelerisque. Pretium nibh ipsum consequat nisl vel pretium lectus.
+          La réglementation liée à l’accessibilité est une liste générale d’obligations qui ne s’adaptent pas à tous les bâtiments et qui peut être sujet à interprétation.
+
+
+          Ces écarts d’interprétation conduisent souvent à des dispositifs hétérogènes nécessitant des commandes et des entretiens spécifiques. Le référentiel accessibilité est alors la solution qui permet de préciser, d’homogénéiser et de personnaliser les travaux tout en visant des économies d’échelles.
+
+
+          **Atipy** vous propose une architecture de rédaction articulée autour de 4 axes :
+
+
+          * **Action de mise en accessibilité et points de vigilance**
+
+          * **Références réglementaires** 
+
+          * **Solutions techniques favorisées** 
+
+          * **Exemples/illustrations** photographiques et techniques
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/ph-575.png)"
+        content: "![](/media/referentiel-accessibilite-batiments-erp-atipy.png \"Le
+          référentiel d'accessibilité \")"
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/ph-575.png)"
+        content: "![](/media/registre-accessibilite-erp-atipy.jpg \"Le registre public
+          d'accessibilité\")"
     col2:
       reverseMobile: false
       text:
@@ -85,64 +110,34 @@ sections:
           ### **Le Registre Public d’Accessibilité**
 
 
-          Obligation de mettre à disposition du public un document unique : **Le Registre Public d’Accessibilité**
+          Ce document a pour objectif d’informer le public, de manière simple et facilement compréhensible, sur le degré d’accessibilité de l’ERP et de ses différents services.
 
 
-          Disponible à l’accueil d’un Etablissement Recevant du Public (ERP) et sur un site internet, ce document a pour objectif d’informer, de manière simple et facilement compréhensible, le public sur le degré d’accessibilité de l’ERP et de ses différents services.
-
-
-          *Références : Décret n° 2017-431 du 28 mars 2017 et Arrêté du 19 avril 2017 fixant le contenu et les modalités de diffusion et de mise à jour du registre public d’accessibilité*
-
-
-          **1. Portail interactif**
-
-
-          Mise en place d’un portail permettant de :
+          **Atipy** vous propose la mise en  place d’un outil numérique permettant de :
 
 
           * Publier des registres en ligne
 
           * D’éditer des registres en format PDF
 
-          * De consigner tous les documents administratifs obligatoires
+          * De consigner tous les documents administratifs et techniques obligatoires
 
           * De réaliser une synthèse quantifiée et/ou chiffrée des actions de mise en conformité
 
 
-          Une synthèse éditable sera à consigner à l’accueil avec 3 parties :
-
-
-          * Présentation administrative / services disponibles au public
-
-          * Synthèse du niveau d’accessibilité par typologie de services
-
-          * Focus sur les obstacles bloquants et les aises disponibles
-
-
-          **2. Saisie des données**
-
-
-          Cet accompagnement se matérialise par :
-
-
-          * La saisie des données relatives à chaque prestation offerte au public
-
-          * La collecte de l’ensemble des pièces administratives, techniques et des attestations de formation
-
-
-          A l’issue de la saisie des données, nous proposons de vous restituer un inventaire détaillé des différentes actions et documents à exécuter ou à constituer pour être à jour dans vos obligations.
-
-
-          **NB : nous pouvons saisir les données ou mettre à disposition une plateforme vous permettant de saisir vous-même les données et d’éditer un ou plusieurs registres.**
+          **NB : nous pouvons saisir les données ou mettre à disposition une plateforme vous permettant de saisir vous-même les données et d’éditer un ou plusieurs registres.**
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: "**Nos consultants peuvent vous accompagner de A à Z pour une mise en
-          accessibilité de bâtiments existants ou sur des projets de
-          constructions.**"
+        content: >-
+          **Notre accompagnement**\
+
+          \
+
+          Nos consultants interviennent sur l’ensemble du territoire métropolitain et en Outre-mer. Nous pouvons vous accompagner de A à Z pour une mise en accessibilité de bâtiments existants ou sur des projets de constructions. Pour cela, nous pourrons compléter notre équipe avec d’autres compétences en fonction de la mission confiée (partenaires architectes DPLG, économistes de la construction, géomètres, préventionnistes, etc).
     col2:
       reverseMobile: false
     col3:
