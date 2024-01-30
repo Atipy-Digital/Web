@@ -1,7 +1,8 @@
 ---
 metadata:
   title: Solutions web sur mesure
-  description: Solutions web sur mesure
+  description: "Solutions web sur mesure. Atipy vous propose des solutions web
+    sur-mesure pour vous permettre d'être accessible à chacun. "
   keywords:
     - keyword: OpenSource
     - keyword: éco-conception
