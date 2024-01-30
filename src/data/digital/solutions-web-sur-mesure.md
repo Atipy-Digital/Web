@@ -57,20 +57,6 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/florent.webp)"
-    col2:
-      reverseMobile: false
-      text:
-        content: |-
-          #### Référence ? 
-
-          ![](/media/florent.webp)
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
         content: >-
           #### Hébergement et maintenance évolutive
 
@@ -81,7 +67,7 @@ sections:
     col3:
       reverseMobile: false
 footer:
-  titleContact: Vous avez un projet d'accessibilité ?
+  titleContact: Vous avez un projet d'accessibilité web ?
   btn:
     label: Découvrez nos solutions web sur mesure
     color: red
