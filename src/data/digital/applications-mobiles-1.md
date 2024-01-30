@@ -17,7 +17,7 @@ intro: >-
   ### **Transformez vos idées en applications mobiles innovantes**
 
 
-  **Nous sommes passionnés par la technologie et l'innovation, et notre équipe d'experts en développement d'applications est prête à vous aider à tirer parti de la puissance des applications mobiles pour atteindre vos objectifs.**
+  Nous sommes passionnés par la technologie et l'innovation, et notre équipe d'experts en développement d'applications est prête à vous aider à tirer parti de la puissance des applications mobiles pour atteindre vos objectifs.
 sections:
   - inverseCol: false
     col1:
