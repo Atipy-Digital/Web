@@ -62,20 +62,6 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/ph-578.png)"
-    col2:
-      reverseMobile: false
-      text:
-        content: |-
-          ##### Références ? 
-
-          ![](/media/florent.webp)
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
         content: >-
           #### Intégration continue
 
