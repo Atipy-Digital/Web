@@ -23,7 +23,8 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![]()"
+        content: "![](/media/ministere-affaire-etrangeres-signaletique-agence-adequat-3\
+          -e1525336835304.jpeg)"
     col2:
       reverseMobile: false
     col3:
