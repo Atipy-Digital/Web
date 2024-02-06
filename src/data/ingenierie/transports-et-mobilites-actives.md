@@ -2,27 +2,40 @@
 metadata:
   title: Transports et mobilités actives
   description: Accessibilité des Transports et mobilité actives
-title: Transports et mobilités actives
+title: Accessibilité des transports et mobilités actives
 date: 2023-09-26T17:38:14.509Z
 icon:
   label: Transport Mobilité - Bleu
   value: transportMobilite
   type: ingenierie
 color: ENGINEER
-intro: |-
-  ### L﻿orem ipsum
+intro: >-
+  ### La LOM et l’accessibilité 
 
-  L﻿orem ipsum
+
+  Atipy apporte son expertise pour concevoir un programme d’amélioration des conditions d’accessibilité et de sécurité dans les mobilités.
 sections:
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
         content: >-
-          #### Lorem ipsum dolor sit amet, 
+          #### Une mobilité plus inclusive
 
 
-          consectetur adipiscing elit. Praesent condimentum malesuada nunc, sed hendrerit velit blandit vel. Vivamus tincidunt tristique velit, at mattis nibh pulvinar non. Nulla vel faucibus dolor, in convallis est. Pellentesque placerat, magna commodo tristique efficitur, leo sem tincidunt dui, quis mollis quam ex a erat. In sagittis eros vel consectetur hendrerit. Nunc ac ligula pharetra, sollicitudin nisl blandit, malesuada nisi. Suspendisse vulputate sapien ac finibus semper. Aenean dapibus faucibus sem, eu rhoncus arcu euismod sed. Pellentesque non posuere urna, vel iaculis magna. Phasellus ac ligula ac elit aliquam imperdiet. Phasellus vitae mi interdum, tincidunt ipsum id, imperdiet risus. Quisque id lorem vel nunc ultrices blandit id in nulla. Sed ac augue et ante euismod rutrum. Proin dolor mi, interdum venenatis imperdiet in, iaculis vel justo.
+          La LOM transforme en profondeur la politique des mobilités, avec un objectif simple : des transports du quotidien à la fois plus faciles, moins coûteux et plus propres afin de faire face : 
+
+
+          * Aux contraintes de déplacement des personnes à mobilité réduite 
+
+          * A l’insécurité des piétons aux niveaux des traversées piétonnes et points d’arrêts de transport en commun 
+
+          * Au manque d’informations sur l’accessibilité des réseaux de transport collectif et portions de voirie autour des arrêts de bus (200 m)
+
+
+          Dans notre envie de participer à des projets de mobilité active, l’équipe d’Atipy mutualise ses compétences avec des partenaires experts en mobilité pour vous accompagner à la mise en place d’un schéma directeur des mobilités plus inclusif.
+      image:
+        url: /media/mobilite-inclusive-atipy.jpg
     col2:
       reverseMobile: false
     col3:
@@ -31,7 +44,7 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/ph-575.png)"
+        content: "![](/media/mobilite-inclusive-atipy.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -41,20 +54,23 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          #### C﻿ontexte
+          #### Nos objectifs
 
 
-          * Obligation réglementaire de réalisation d’un Plan d’Accessibilité des Voiries et Espaces publics (PAVE)
+          Concevoir un programme d’amélioration des conditions d’accessibilité et de sécurité : 
 
-          * Loi d’orientation des Mobilités (LOM) : Mise en accessibilité des portions de voirie autour des arrêts de bus (200 m)
 
-          * Multiples contraintes de déplacement des personnes à mobilité réduite
+          * Recenser les points forts et points faibles de la voirie et des points d’arrêts de transport en commun 
 
-          * Insécurité des piétons au niveau des traversées piétonnes et points d’arrêts de transport en commun
+          * Proposer des aménagements types en fonction des contraintes existantes 
+
+          * Engager la mise en accessibilité sur l’ensemble des parcours voyageurs 
+
+          * Disposer d’un outil numérique de suivi des conditions d’accessibilité
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/ph-575.png)"
+        content: "![](/media/carto-mobilite-atipy.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
