@@ -1,14 +1,10 @@
 ---
 metadata:
-  title: Voirie et espaces publics
-  description: Accessibilité de la Voirie et des espaces publics suivant la loi
-    2019-1428 du 24 décembre 2019 dite loi LOM
+  title: "Concertation et événementiel "
+  description: La concertation un outil en amont qui permet d'être plus efficient
   keywords:
-    - keyword: Voirie
-    - keyword: Accessibilité
-    - keyword: espaces publics
-    - keyword: Loi LOM
-    - keyword: PAVE
+    - keyword: Concertation
+    - keyword: réunion
 title: Concertation et évènementiel
 date: 2024-02-06T13:08:44.243Z
 icon:
