@@ -74,7 +74,8 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/antoine.webp)"
+        content: '![](/media/deroule-concertation-atipy.jpg "Processus de la
+          concertation")'
     col3:
       reverseMobile: false
   - inverseCol: false
