@@ -2,6 +2,10 @@
 metadata:
   title: Transports et mobilités actives
   description: Accessibilité des Transports et mobilité actives
+  keywords:
+    - keyword: Loi LOM
+    - keyword: Mobilité active
+    - keyword: accessibilité transport
 title: Accessibilité des transports et mobilités actives
 date: 2023-09-26T17:38:14.509Z
 icon:
