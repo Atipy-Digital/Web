@@ -1,7 +1,13 @@
 ---
 metadata:
-  title: Recueil de données complémentaires
+  title: Recueil de données complémentaires et architecturaux
   description: Recueil de données complémentaires
+  keywords:
+    - keyword: recueil données
+    - keyword: relevés
+    - keyword: BAES
+    - keyword: mises aux normes
+    - keyword: "EAS "
 title: Recueil de données complémentaires
 date: 2023-09-26T17:45:09.830Z
 icon:
