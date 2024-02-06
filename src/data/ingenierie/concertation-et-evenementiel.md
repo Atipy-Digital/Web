@@ -17,28 +17,38 @@ icon:
   type: ingenierie
 color: ENGINEER
 intro: >-
-  ### Relevé et stratégie de mise en accessibilité
+  ### Le contexte
 
 
-  Quoi faire, par où commencer et quels sont les facteurs clés de succès de la mise en accessibilité ? **Atipy** met son expérience à votre profit.
+  La participation des utilisateurs est essentiel pour la définition de solutions universelles et inclusives, pérennes et acceptées par tous. 
+
+  La concertation c’est la rencontre et l’écoute des besoins de chacune des parties.
 sections:
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
         content: >-
-          #### Qu’est-ce qu’un P.A.V.E ?
+          #### Notre accompagnement
 
 
-          Un P.A.V.E (Plan d’Aménagement de la Voirie et des Espaces publics) est un document obligatoire fixant les dispositions susceptibles de rendre accessible aux personnes handicapées et à mobilité réduite l'ensemble des circulations piétonnes et des aires de stationnement d'automobiles situées sur le territoire d’une commune. 
+          La concertation est ce qui nous anime. Il n’est rien de plus cohérent pour nous que de faire se rencontrer la diversité des besoins, attentes et compétences pour faire émerger des solutions décidées collectivement.
 
 
-          Plus qu’un diagnostic ou un inventaire d’obstacle, le PAVE est un outil d’aide à la décision et de pilotage. Il est transversal et aborde les sujets d’aménagement mais aussi de gouvernance, de formation, de programmation et de suivi.
+
+          Notre accompagnement couvre :
 
 
-          Il permet de diffuser sur le territoire une culture commune de l’accessibilité en sollicitant élus, services, AOM, associations, citoyens et les entreprises intervenants sur le territoire.
+          * la logistique et l’organisation des rencontres
+
+          * l’animation d’ateliers et de réunions
+
+          * la rédaction des comptes-rendus
+
+          * la mise en place de plans d’actions concertés
       image:
-        url: /media/pave-atipy.png
+        url: /media/concertation-atipy.png
+        legend: Concertation
     col2:
       reverseMobile: false
     col3:
@@ -48,22 +58,42 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          #### Quels sont les objectifs ?
+          #### Où et quand concerter ?
 
 
-          * Recenser les obstacles et non-conformités sur le terrain
+          Les ateliers peuvent, selon les nécessités, avoir lieu in situ ou en salle de réunion. Cela dépend de ce qui est attendu. 
 
-          * Préconiser les travaux et aménagements correctifs
 
-          * Proposer une planification en fonction des points d’intérêts, des budgets et PPI du territoire
+          Pour de l’aménagement ou pour solliciter un avis sur un événement, la visite terrain est évidemment indispensable.
 
-          * Harmoniser la mise en accessibilité avec celle des bâtiments et des transports
 
-          * Intégrer l’ensemble des acteurs locaux de l’espace public
+          Un temps de débriefing en salle de réunion viendra compléter la démarche. C’est également le cas pour un projet de création, où l’intérieur favorise la qualité d’écoute et de travail.
+
+
+          La concertation doit avoir lieu le plus en amont possible mais reste nécessaire à toutes les phases d’un projet.
     col2:
       reverseMobile: false
       text:
-        content: '![](/media/antoine.webp "Les objectifs du PAVE")'
+        content: "![](/media/antoine.webp)"
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/antoine.webp)"
+    col2:
+      reverseMobile: false
+      text:
+        content: |-
+          #### Qui concerter ?
+
+          Globalement tous les acteurs du projets mais particulièrement :
+
+          * les représentants d’utilisateurs
+          * les concepteurs
+          * les fabricants
+          * les services du commanditaire
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -71,47 +101,26 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          #### Qu’est-ce que la LOM (loi d'orientation des mobilités) ?
+          #### Références
 
 
-          Suite à la LOM (Loi d’Orientation des Mobilités) du 24/12/2019, les AOM, les transporteurs et les gestionnaires de voirie doivent mettre en œuvre des solutions face aux contraintes de déplacement liées aux transports en commun et aux manques d’information en matière d’accessibilité. 
+          * Fédération Française de Tennis dans le cadre de l’organisation du tournoi de Roland-Garros
 
+          * Salon International de l’Aéronautique et de l’Espace dans le cadre du Salon du Bourget
 
-          La LOM rend obligatoire la collecte des données portant sur l’accessibilité des services réguliers de transport public (routier et ferroviaire) et des voiries communales dans les 200m autour du point d’arrêt.
+          * SOLIDEO dans le cadre de l’aménagement du village des Athlètes pour les JO 2024
 
+          * Mairie de Paris dans le cadre de la rénovation du stade Pierre de Coubertin
 
-          Ces données doivent être rendues publiques et mises à disposition afin de faciliter les déplacements. Elles permettront l’émergence de GPS et calculateurs d’itinéraires et d’applications de guidages, de bout en bout, en prenant en compte les capacités de tous.
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: >-
-          #### Notre accompagnement 
-
-
-          Notre active participation aux groupes de travaux permettant de définir les formats de données réglementaires (CNIG) nous permettent aujourd’hui de proposer un accompagnement complet : 
-
-
-
-          * relevé conforme aux attentes réglementaires
-
-          * relevé compatible avec les enjeux du PAVE
-
-          * formation
-
-          * outils informatiques de relevé et de mise à jours de la donnée
+          * Mairie de Tarbes, d’Annecy, de Grenoble dans le cadre de missions sur l’aménagement de l’espace public
     col2:
       reverseMobile: false
     col3:
       reverseMobile: false
 footer:
   btn:
-    label: Découvrez nos projets de voirie et d'espaces publics
+    label: "Découvrez nos projets de concertation et d'événementiel "
     color: blue
-    tag: Voirie
-  titleContact: Un projet relatif à la loi LOM ?
+    tag: Ingénierie
+  titleContact: "Envie de concerter ? "
 ---
