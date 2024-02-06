@@ -82,7 +82,7 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/antoine.webp)"
+        content: "![](/media/qui-concerter-atipy.png)"
     col2:
       reverseMobile: false
       text:
