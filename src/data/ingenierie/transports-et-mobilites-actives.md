@@ -77,23 +77,34 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/ph-575.png)"
+        content: |-
+          
+
+          ![](/media/accessibilite-transports-atipy.jpg "Audit arrêt de bus")
     col2:
       reverseMobile: false
       text:
-        content: >-
-          #### O﻿bejctifs
+        content: |-
+          #### Référence 
 
+          **Grenoble Alpes Métropole** 
+          Réalisation d’un schéma directeur d’accessibilité de la voirie 
 
-          * Recenser les points forts et les points faibles de la voirie et des conditions de transports
+          **Pays de La Loire** 
+          Réalisation d’audit de point d’arrêt bus (Aléops)
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: |-
+          #### Notre accompagnement
 
-          * Géolocaliser les problématiques rencontrées
-
-          * Proposer des aménagements types en fonction des contraintes existantes
-
-          * Faciliter la mise en accessibilité sur l’ensemble des parcours voyageurs
-
-          * Disposer d’un outil de suivi numérique du niveau d’accessibilité du territoire mais également sur d’autres sujets
+          * Outils numérique de saisie de la donnée
+          * Préconisation des axes prioritaires de déplacement
+    col2:
+      reverseMobile: false
     col3:
       reverseMobile: false
 footer:
