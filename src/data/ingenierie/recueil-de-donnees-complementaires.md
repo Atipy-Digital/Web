@@ -9,10 +9,11 @@ icon:
   value: releveMultitechnique
   type: ingenierie
 color: ENGINEER
-intro: La mise aux normes et la gestion d’un site ne se limite pas à
-  l’accessibilité. Vous avez des besoins dans d’autres domaines ? Inventaires,
-  équipements, état des lieux, sécurité incendie, etc,  nous pouvons vous
-  accompagner.
+intro: >-
+  ### Le contexte
+
+
+  La mise aux normes et la gestion d’un site ne se limite pas à l’accessibilité. Vous avez des besoins dans d’autres domaines ? Inventaires, équipements, état des lieux, sécurité incendie, etc,  nous pouvons vous accompagner.
 sections:
   - inverseCol: false
     col1:
@@ -47,6 +48,13 @@ sections:
     col2:
       reverseMobile: false
       text:
+        content: ""
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: >-
           #### **Quels sont les objectifs ?**
 
@@ -58,33 +66,22 @@ sections:
           * Disposer d’un système de relevés global, simple et performant avec des possibilités d’ajout de thématiques multiples facilitant la gestion du patrimoine.
 
           * Vous remettre les données sous un format adapté à vos besoins (compatible avec votre interface logiciel, en format tableur ou avec un accès à notre propre logiciel)
+    col2:
+      reverseMobile: false
+      text:
+        content: '![](/media/releve-extincteur-atipy.jpg "Relevé Extincteur")'
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/desordre-batiment-atipy.jpg)"
+    col2:
       reverseMobile: false
       text:
         content: Désordres pouvant impacter le bâtiment. Nous pouvons faire un relevé
           visuel des désordres et actions correctives à mener.
-    col2:
-      reverseMobile: false
-      text:
-        content: "![](/media/ph-575.png)"
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: "![](/media/ph-575.png)"
-    col2:
-      reverseMobile: false
-      text:
-        content: >-
-          Désordres pouvant impacter le bâtiment.
-
-
-          Nous pouvons faire un relevé visuel des désordres et actions correctives à mener.
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -92,7 +89,7 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          #### N﻿otre accompagnement
+          #### Notre accompagnement 
 
 
           * Prise en charge total de relevés (création d’une base de données, mise en place d’un outil de saisie, relevés in-situ)
@@ -102,11 +99,14 @@ sections:
           * Mise à disposition d’un outil avec ou sans formation
     col2:
       reverseMobile: false
+      text:
+        content: ""
     col3:
       reverseMobile: false
 footer:
   btn:
-    label: Découvrez nos missions de relevés
+    label: Découvrez nos relevés complémentaires
     color: blue
     tag: Ingénierie
+  titleContact: Besoin d'effectuer un relevé ?
 ---
