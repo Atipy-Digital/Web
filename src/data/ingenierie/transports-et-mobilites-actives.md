@@ -44,15 +44,6 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/mobilite-inclusive-atipy.jpg)"
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
         content: >-
           #### Nos objectifs
 
@@ -110,6 +101,7 @@ sections:
 footer:
   btn:
     color: blue
-    label: Découvrez nos projets en voirie
+    label: Découvrez nos projets en transports et mobilités actives
     tag: Voirie
+  titleContact: Envie d'œuvrez pour une mobilité plus inclusive ?
 ---
