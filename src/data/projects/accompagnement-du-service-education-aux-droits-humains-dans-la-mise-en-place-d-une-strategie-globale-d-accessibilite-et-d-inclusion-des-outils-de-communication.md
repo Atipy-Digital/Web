@@ -70,8 +70,8 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ### Réalisation d’un état des lieux et conseil sur la stratégie
-          “accessibilité & inclusivité”
+          ### Etat des lieux et conseil sur la stratégie “accessibilité et
+          inclusivité”
 
 
           * Analyse des ressources pédagogiques du service EDH : supports ateliers, livrets, activités pédagogiques
@@ -144,12 +144,8 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: >-
-          #### T﻿émoignage de la cliente
-
-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dapibus fermentum nunc, eget mollis enim varius ac. Pellentesque a felis tempor, feugiat felis vel, viverra velit. Phasellus ac felis tincidunt erat lacinia porta. Suspendisse et ligula metus. Nulla molestie risus in nulla ornare semper.
-        color: green
+        content: ""
+        color: null
     col3:
       reverseMobile: false
 projectsFeatured:
