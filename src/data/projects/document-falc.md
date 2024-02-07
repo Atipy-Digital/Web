@@ -43,7 +43,7 @@ project_sections:
         content: "![Logo animé qui représente un visage de façon très
           schématique](/media/france-assos-sante-cvs-logo-anime.gif)"
       image:
-        url: /media/da-og.png
+        url: ""
     col3:
       reverseMobile: false
   - col1:
@@ -66,14 +66,7 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: >-
-          #### Le témoignage de la cliente
-
-
-          Agathe CURIEN, Chargée de mission France Assos Santé
-
-
-          > « Nous avons particulièrement apprécié la qualité d’écoute et le professionnalisme de l’agence, toujours attentive à nos remarques. »
+        content: ""
         color: green
     col3:
       reverseMobile: false
