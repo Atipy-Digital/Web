@@ -78,6 +78,56 @@ project_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### La mise en place de pictogrammes
+
+
+          Au départ de chaque itinéraire, il est essentiel de prévenir l’usager des dangers ou des particularités du site. L’indication des spécificités du parcours vont permettre de se préparer. Pour cela, nous avons créé une banque de banque signalant les particularités du parcours et permettant à un usager non-lecteur ou éloigné du français d’avoir accès à l’information.
+    col2:
+      reverseMobile: false
+      text:
+        content: >-
+          ### La réalisation d’une charte signalétique vélo
+
+
+          Aujourd’hui, peu de territoires travaillent l’image de leur offre cyclable. Le département des Pyrénées Atlantique fait le choix de concevoir une charte signalétique dédiée aux itinéraires cyclables accessibles. Cette charte signalétique prend en compte les grands principes de l’accessibilité graphique, du confort d’usage et de la conception universelle.
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/design-expertise-mobilite-velo-signaletique-plan-atipy-4.j\
+          pg)"
+    col2:
+      reverseMobile: false
+      text:
+        content: "![](/media/202312-py-velo-fiches-falc-def_plan-de-travail-1.jpg)"
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/atipy-fiches-falc-pyrennees-velo.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/pyrenees-atlantiques-velo-signaletique-arrivee-catagnede-v\
+          2.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
   - col1:
       reverseMobile: false
       text:
@@ -93,15 +143,8 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: >-
-          #### Le témoignage de la cliente
-
-
-          Lison LOPEZ – Cheffe de projet Inclusion, Département ESS et médico-social
-
-
-          > « Il est parfois difficile pour les structures d’insertion transmettre à leurs salariés allophones ou illettrés le fonctionnement de l’activité, des missions ou encore de l’accompagnement socio-professionnel. L’expertise de l’Agence Adéquat a permis au réseau Laser Emploi de proposer des outils adaptés à ses structures adhérentes. Un grand merci ! »
-        color: green
+        content: ""
+        color: null
     col3:
       reverseMobile: false
 projectsFeatured:
