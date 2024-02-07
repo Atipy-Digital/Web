@@ -78,6 +78,99 @@ project_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Centraliser l’information, mise en place d’un RIS
+
+
+          **Le Relais Information Service (RIS) est un élément de signalétique complet.**
+
+
+          Il est composé d’un ou plusieurs plans, d’une nomenclature, d’indication des services de proximité et d’informations directionnelles. Il peut être complété d’informations touristiques ou culturelles. Il permet de faire connaître les services à proximité et orienter efficacement l’usager.
+
+
+          Ce mobilier peut accueillir des équipements complémentaires comme une borne tactile, une douche sonore ou les plans du réseau Tac. Un RIS implanté tout de suite à la sortie de la gare, visible et accessible, permet de se repérer rapidement et de s’orienter en conséquences.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/annemasse_mobilier_ris_v1.png)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Implantation de la signalétique
+
+
+          Les supports [signalétique](https://agence-adequat.fr/signaletique-dorientation/) se succèdent dans un jalonnement continue depuis le point de départ jusqu’à l’arrivée. Le respect de la chaîne de l’information continue permet à l’usager de ne pas avoir de moment de doute sur la direction à prendre.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/annemasse-adequat-recherches-crea-02.jpg)"
+    col2:
+      reverseMobile: false
+      text:
+        content: "![](/media/annemasse-adequat-recherches-crea-04.jpg)"
+    col3:
+      reverseMobile: false
+      text:
+        content: "![](/media/annemasse-adequat-recherches-crea-07.jpg)"
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Création d’une identité visuelle cohérente
+
+
+          En lien avec les éléments graphiques existants sur le territoire, nous créons une identité visuelle permettant à l’usager de repérer les dispositifs d’orientation. La couleur jaune, commune à trois des chartes présentes sur le périmètre du PEM (SNCF, CEVA, signalétique ville) est conservée sur les futurs éléments de signalétique.
+
+
+          Pour les modes de transport, les pictogrammes utilisés sont ceux du TAC ( Transports annemassiens collectifs). Pour les autres pictogrammes, nous créons une bibliothèque propre à Annemasse Agglo.
+
+
+          Sur les deux parvis nord et sud, différents types de mobilier sont mis en place :
+
+
+          * Totems d’information
+
+          * Relais Infirmation Service
+
+          * Mâts directionnels
+
+          * Modules d’identification
+
+          * Enseignes
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/annemasse-agglo-ris-v1-atipy-design-signaletique.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 projectsFeatured:
   - charte-signale-tique-accessible-pour-les-itine-raires-velo
 footer:
