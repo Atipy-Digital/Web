@@ -20,9 +20,10 @@ context_body: >-
   Aujourd’hui nous constatons que la lecture des différentes fonctionnalités du PEM est complexe. Il existe une perte de repères et des difficultés d’orientation à la sortie de la gare :
 
 
-  * Côté nord = Esplanade de la Rotonde (Ville-la-Grand, Ambilly)
+  Côté nord = Esplanade de la Rotonde (Ville-la-Grand, Ambilly)
 
-  * Côté sud = Esplanade François Mitterrand (Centre ville d’annemasse)
+
+  Côté sud = Esplanade François Mitterrand (Centre ville d’annemasse)
 
 
   Le Plôe Design d'Atipy a mis en place un système signalétique sur le périmètre du Pôle d’échange multimodal (PEM).
