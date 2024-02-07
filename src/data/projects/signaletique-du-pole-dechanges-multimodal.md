@@ -71,7 +71,9 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/annemasse-constats_pem.jpeg)"
+        content: "![Absence d'une vision d'ensemble. Manque de structuration et de
+          cohérence de la signalétique. Absence d'information à la sortie de la
+          gare. Inégalités des flux](/media/annemasse-constats_pem.jpeg)"
     col2:
       reverseMobile: false
     col3:
