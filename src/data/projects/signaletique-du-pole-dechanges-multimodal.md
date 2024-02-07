@@ -171,6 +171,33 @@ project_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/annemasse-atipy-adequat-signaletique-pem-design.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/annemasse-atipy-adequat-signaletique-mobilite.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/annemasse-atipy-adequat-signaletique-velo-2.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 projectsFeatured:
   - charte-signale-tique-accessible-pour-les-itine-raires-velo
 footer:
