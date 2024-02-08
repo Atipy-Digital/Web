@@ -38,9 +38,17 @@ sections:
 
 
           * Visite de site, diagnostic ou contre-visite, identification des non-conformités, préconisations techniques, organisationnelles ou fonctionnelles, chiffrages et estimations des travaux, localisation des obstacles sur plans
-
-
-          Une fois cette phase réalisée, Atipy peut vous accompagner sur d’autres prestations : 
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          Une fois cette phase réalisée, Atipy peut vous accompagner sur
+          d’autres prestations : 
 
 
           * **AVP / PRO / DCE** : Programme de Travaux (descriptif techniques et plans projetés), Analyse des pièces écrites et graphiques, Accompagnement et suivi administratif, Rédaction de la notice d’accessibilité, Rédaction de la demande de dérogation éventuelle, Conseils sur des solutions techniques ou matériaux spécifiques
@@ -54,16 +62,8 @@ sections:
           * **AOR :** Pré-visite de réception
     col2:
       reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
       text:
-        content: "![](/media/diagnostic-accessibilite-erp-iop-bhc-atipy.jpg \"Diagnostic
-          d'accessibilité dans les bâtiments\")"
-    col2:
-      reverseMobile: false
+        content: "![](/media/diagnostic-accessibilite-erp-iop-bhc-atipy.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -93,8 +93,8 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/referentiel-accessibilite-batiments-erp-atipy.png \"Le
-          référentiel d'accessibilité \")"
+        content: "![](/media/atipy-adequat-ville-clichy-communication-signaletique-audi\
+          t-accessibilite-handicap.jpeg \"Le référentiel d'accessibilité \")"
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -133,9 +133,8 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          **Notre accompagnement**\
+          ### **Notre accompagnement**
 
-          \
 
           Nos consultants interviennent sur l’ensemble du territoire métropolitain et en Outre-mer. Nous pouvons vous accompagner de A à Z pour une mise en accessibilité de bâtiments existants ou sur des projets de constructions. Pour cela, nous pourrons compléter notre équipe avec d’autres compétences en fonction de la mission confiée (partenaires architectes DPLG, économistes de la construction, géomètres, préventionnistes, etc).
     col2:
