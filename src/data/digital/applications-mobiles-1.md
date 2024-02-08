@@ -48,7 +48,8 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Carnet](/media/amnesty-edh-adequat-atipy-etat-des-lieux.jpg)"
+        content: "![Main tenant un téléphone mobile avec une
+          cartographie](/media/application-mobile-atipy.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -71,7 +72,7 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/florent.webp)"
+        content: "![](/media/wireframe-ui-design-digital-atipy.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
