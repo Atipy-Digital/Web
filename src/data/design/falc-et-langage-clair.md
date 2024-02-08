@@ -22,9 +22,18 @@ intro: >-
 
   * D’être autonome.
 
+
+
+
   * De connaître ses droits.
 
+
+
+
   * D’avoir accès à des soins.
+
+
+
 
   * D’avoir accès à l’emploi.
 
@@ -52,9 +61,21 @@ sections:
           ### Des informations claires profitent aux personnes :
 
           * Déficientes intellectuelles
+
+
+
           * Ayant des troubles « Dys » (dyslexie, dyspraxie, dysorthographie…)
+
+
+
           * Étrangères ne parlant pas français
+
+
+
           * Âgées
+
+
+
           * En apprentissage de la lecture, adultes comme enfants.
       image:
         url: ""
@@ -103,6 +124,15 @@ sections:
           * Ecrire au présent.
 
           * Une information en FALC peut également être accompagnée d’une image ou d’un pictogramme.
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/bethune-guide-falc-ccas-atipy-5.jpg)"
+    col2:
+      reverseMobile: false
     col3:
       reverseMobile: false
   - inverseCol: false
