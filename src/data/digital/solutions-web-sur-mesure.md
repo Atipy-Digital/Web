@@ -29,11 +29,13 @@ sections:
 
           L'environnement open source joue un rôle crucial dans le développement de logiciels, de technologies et de solutions accessibles à tous. Il favorise la collaboration et l'innovation tout en offrant une alternative aux logiciels propriétaires.
 
+
+
           Cette approche offre de nombreux avantages notamment la transparence du code source, la flexibilité, la collaboration communautaire, la sécurité et souvent des coûts réduits.
 
           Nos solutions sur mesure embarquent uniquement les ressources et fonctionnalités qui vous sont nécessaires ce qui réduit les consommations d’énergie (CPU, mémoire et stockage) et améliore les performances.
       image:
-        url: /media/amnesty_international_logo.png
+        url: ""
     col2:
       reverseMobile: false
     col3:
@@ -46,11 +48,18 @@ sections:
           #### Webdesign graphique
 
 
-          Une identité visuelle forte permet de communiquer efficacement votre marque et votre message auprès du public. Notre équipe du pôle design vous écoute et vous accompagne pour concevoir un logo, choisir une palette de couleurs, définir une typographie et créer des éléments graphiques distinctifs, tels que des motifs, des icônes ou des illustrations. Votre portail web dispose ainsi d’une interface complètement personnalisée et chartée à l’image de votre groupe.
+          Une identité visuelle forte permet de communiquer efficacement votre marque et votre message auprès du public. 
+
+
+          Notre équipe du [Pôle Design](https://atipy.netlify.app/expertises/design) vous écoute et vous accompagne pour concevoir un logo, choisir une palette de couleurs, définir une typographie et créer des éléments graphiques distinctifs, tels que des motifs, des icônes ou des illustrations. 
+
+
+          Votre portail web dispose ainsi d’une interface complètement personnalisée et chartée à l’image de votre groupe.
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/florent.webp)"
+        content: "![](/media/realisation-video-motion-design-pcb-accessibilite-falc.jpg\
+          )"
     col3:
       reverseMobile: false
   - inverseCol: false
