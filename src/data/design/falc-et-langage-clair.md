@@ -160,6 +160,28 @@ sections:
           La méthode de rédaction du français FALC exige que le texte soit relu et validé par des partenaires ayant un handicap mental. Cette validation permet de s’assurer que tous les termes et tournures de phrases utilisés sont bien compris de tous. En l’absence d’ateliers de relecture et de validation, il s’agit de français simple.
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### L﻿a création de vidéo motion design
+
+
+          L﻿e motion design (illustrations animées) est un outil intéressant pour faire comprendre une information de façon ludique et claire.
+
+
+          L﻿a vidéo permet de transmettre l'information sous différent format : l'audio, l'image, le sous-titrage. Dans certains il est également possible d'intégrer une capsule en Langue des Signes.
+
+
+          N﻿ous réalisons entièrement vos vidéos en motion design avec une voix en FALC ou en français clair.
+    col2:
+      reverseMobile: false
+      text:
+        content: "![](/media/realisation-video-motion-design-pcb-accessibilite-falc.jpg\
+          )"
+    col3:
+      reverseMobile: false
 footer:
   btn:
     tag: Design
