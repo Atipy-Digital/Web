@@ -1,22 +1,20 @@
 ---
 metadata:
-  title: "Concertation et événementiel "
+  title: "Concertation "
   description: La concertation un outil en amont qui permet d'être plus efficient
   keywords:
     - keyword: Concertation
     - keyword: réunion
-title: Concertation et évènementiel
+title: "Concertation "
 date: 2024-02-06T13:08:44.243Z
 icon:
-  label: Espaces Publics - Bleu
-  value: espacesPublics
+  label: Conseils et formations - Bleu
+  value: formation
   type: ingenierie
 color: ENGINEER
 intro: >-
-  ### Le contexte
-
-
-  La participation des utilisateurs est essentiel pour la définition de solutions universelles et inclusives, pérennes et acceptées par tous. 
+  La participation des utilisateurs est essentiel pour la définition de
+  solutions universelles et inclusives, pérennes et acceptées par tous. 
 
   La concertation c’est la rencontre et l’écoute des besoins de chacune des parties.
 sections:
@@ -43,7 +41,7 @@ sections:
 
           * la mise en place de plans d’actions concertés
       image:
-        url: /media/concertation-atipy.png
+        url: /media/concertation-atelier-handicap-atipy.jpg
         legend: Concertation
     col2:
       reverseMobile: false
@@ -70,15 +68,15 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: '![](/media/deroule-concertation-atipy.jpg "Processus de la
-          concertation")'
+        content: '![](/media/concertation-atelier-atipy-handicap-inclusions.jpg
+          "Processus de la concertation")'
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/qui-concerter-atipy.png)"
+        content: "![](/media/concertation-handicap-association-atipy.jpg)"
     col2:
       reverseMobile: false
       text:
@@ -98,7 +96,7 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          #### Références
+          #### N﻿ous avons leur confiance
 
 
           * Fédération Française de Tennis dans le cadre de l’organisation du tournoi de Roland-Garros
@@ -116,7 +114,7 @@ sections:
       reverseMobile: false
 footer:
   btn:
-    label: "Découvrez nos projets de concertation et d'événementiel "
+    label: Découvrez nos projets de concertation
     color: blue
     tag: Ingénierie
   titleContact: "Envie de concerter ? "
