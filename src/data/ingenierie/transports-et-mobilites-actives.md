@@ -57,9 +57,18 @@ sections:
 
           * Recenser les points forts et points faibles de la voirie et des points d’arrêts de transport en commun 
 
+
+
+
           * Proposer des aménagements types en fonction des contraintes existantes 
 
+
+
+
           * Engager la mise en accessibilité sur l’ensemble des parcours voyageurs 
+
+
+
 
           * Disposer d’un outil numérique de suivi des conditions d’accessibilité
     col2:
@@ -83,6 +92,8 @@ sections:
           #### Notre accompagnement
 
           * Outils numérique de saisie de la donnée
+
+
           * Préconisation des axes prioritaires de déplacement
 
           #### Nous avons leur confiance
