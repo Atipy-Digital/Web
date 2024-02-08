@@ -16,7 +16,9 @@ intro: >-
   La participation des utilisateurs est essentiel pour la définition de
   solutions universelles et inclusives, pérennes et acceptées par tous. 
 
-  La concertation c’est la rencontre et l’écoute des besoins de chacune des parties.
+
+
+  **La concertation c’est la rencontre et l’écoute des besoins de chacune des parties.**
 sections:
   - inverseCol: false
     col1:
@@ -85,10 +87,19 @@ sections:
 
           Globalement tous les acteurs du projets mais particulièrement :
 
-          * les représentants d’utilisateurs
-          * les concepteurs
-          * les fabricants
-          * les services du commanditaire
+          * Les représentants d’utilisateurs
+
+
+
+          * Les concepteurs
+
+
+
+          * Les fabricants
+
+
+
+          * Les services du commanditaire
     col3:
       reverseMobile: false
   - inverseCol: false
