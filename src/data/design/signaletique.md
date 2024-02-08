@@ -73,7 +73,13 @@ sections:
 
           * D’être autonomes dans leurs déplacements.
 
+
+
+
           * De ne pas se perdre.
+
+
+
 
           * De trouver les informations qu’ils cherchent.
 
