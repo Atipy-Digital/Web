@@ -48,9 +48,21 @@ sections:
           #### Nous réalisons la mise en page de vos documents
 
           * Elaboration de guide d’accessibilité
+
+
+
           * Référentiels d’accessibilité des ERP
+
+
+
           * Guide d’accueil des publics en situation de handicap
+
+
+
           * Réalisation de guides de tourisme pour tous
+
+
+
           * Conception de brochures, catalogues, flyers…
     col3:
       reverseMobile: false
@@ -65,9 +77,15 @@ sections:
           Les webdesigners l’ont bien compris, l’icône ou le **pictogramme** facilitent la compréhension rapide d’une information. Nous ne les voyons plus tellement ces signes ont intégrés notre quotidien. Ils sont une aide indispensables pour les personnes :
 
 
-          * Ne parlant pas la langue du pays dans lequel elles se trouvent.
+          * Ne parlant pas la langue du pays dans lequel elles se trouvent
+
+
+
 
           * Ne sachant pas lire
+
+
+
 
           * Ayant des troubles « DYS »
 
