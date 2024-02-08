@@ -38,9 +38,11 @@ sections:
 
           Il permet de diffuser sur le territoire une culture commune de l’accessibilité en sollicitant élus, services, AOM, associations, citoyens et les entreprises intervenants sur le territoire.
       image:
-        url: /media/pave-atipy.png
+        url: ""
     col2:
       reverseMobile: false
+      text:
+        content: "![](/media/pave-atipy.png)"
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -63,7 +65,8 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: '![](/media/antoine.webp "Les objectifs du PAVE")'
+        content: '![](/media/pave-accessibilite-voirie-atipy.jpg "Les objectifs du
+          PAVE")'
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -90,20 +93,19 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          #### Notre accompagnement 
+          #### Notre accompagnement
 
 
           Notre active participation aux groupes de travaux permettant de définir les formats de données réglementaires (CNIG) nous permettent aujourd’hui de proposer un accompagnement complet : 
 
 
+          * Relevé conforme aux attentes réglementaires
 
-          * relevé conforme aux attentes réglementaires
+          * Relevé compatible avec les enjeux du PAVE
 
-          * relevé compatible avec les enjeux du PAVE
+          * Formations
 
-          * formation
-
-          * outils informatiques de relevé et de mise à jours de la donnée
+          * Outils informatiques de relevé et de mise à jour de la donnée
     col2:
       reverseMobile: false
     col3:
