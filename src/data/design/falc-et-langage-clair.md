@@ -124,6 +124,9 @@ sections:
           * Ecrire au présent.
 
           * Une information en FALC peut également être accompagnée d’une image ou d’un pictogramme.
+
+
+          [D﻿écouvrez également nos formations](https://atipy.netlify.app/expertises/formation)
     col3:
       reverseMobile: false
   - inverseCol: false
