@@ -1,10 +1,15 @@
 ---
 title: Design
 intro: >-
-  ### Design et accessibilité, c’est possible !
+  ### Design et accessibilité, 
+
+
+  ### c’est possible !
 
 
   L’accessibilité aux personnes en situation de handicap est un vaste sujet qui concerne tous les domaines du quotidien : mobilité, santé, culture, social, éducation, logement…
+
+
 
 
   **La communication est l’un d’eux.**
@@ -26,7 +31,7 @@ sections:
           Parce que nous croyons que la démarche du designer est d’observer, d’écouter et de proposer des idées simples et pratiques, nous travaillons en collaboration avec vous et vos utilisateurs, de façon flexible.
 
 
-          Le pôle Design d’Atipy est composé de designers graphiques et signalétiques, d’UX/UI designers et d’experts de l’accessibilité capables de vous accompagner dans votre projets de communication, d’identité visuelle, de `signalétique`, de motion design, de `FALC`…
+          Le pôle Design d’Atipy est composé de designers graphiques et signalétiques, d’UX/UI designers et d’experts de l’accessibilité capables de vous accompagner dans votre projets de communication, d’identité visuelle, de [signalétique](https://atipy.netlify.app/expertises/design/signaletique), de motion design, de [FALC](https://atipy.netlify.app/expertises/design/falc-et-langage-clair)…
     col2:
       reverseMobile: false
     col3:
