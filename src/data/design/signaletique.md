@@ -73,7 +73,13 @@ sections:
 
           * D’être autonomes dans leurs déplacements.
 
+
+
+
           * De ne pas se perdre.
+
+
+
 
           * De trouver les informations qu’ils cherchent.
     col3:
@@ -89,15 +95,33 @@ sections:
 
           * Assistance à Maîtrise d’Ouvrage
 
+
+
+
           * Audit de signalétique
+
+
+
 
           * Schémas directeurs et cahier de contenus
 
+
+
+
           * Création de charte signalétique
+
+
+
 
           * Plans d’implantation
 
+
+
+
           * Préconisations techniques
+
+
+
 
           * Accompagnement à la fabrication et la pose
     col2:
