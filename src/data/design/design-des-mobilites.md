@@ -146,9 +146,18 @@ sections:
 
           * La libre utilisation
 
+
+
+
           * La mixité et l'inclusion
 
+
+
+
           * La conception centrée sur l’usage
+
+
+
 
           * L’incitation, notamment par le nudge.
 
