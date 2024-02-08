@@ -17,10 +17,12 @@ icon:
   type: digital
 color: DIGITAL
 intro: >-
-  ### Analyse du besoin 
+  ### Analyse du besoin
 
 
   Nous travaillons ensemble sur votre problématique afin de décrire de manière très précise les fonctionnalités adaptées à votre contexte d'utilisation pour satisfaire l’ensemble de vos objectifs d’innovation.
+
+
 
   Ensemble maximisons votre efficacité opérationnelle et améliorons votre productivité.
 sections:
@@ -40,7 +42,7 @@ sections:
 
           Notre équipe d'experts se documente et expérimente activement les nombreux langages et frameworks de développement pour concevoir des solutions logicielles innovantes, performantes et robustes. Nous modélisons des outils efficaces et évolutifs sur l’ensemble des prérequis et des fonctionnalités définies en favorisant le découpage de votre projet en modules indépendants avec ses spécificités propres.
       image:
-        url: /media/amnesty_international_logo.png
+        url: ""
     col2:
       reverseMobile: false
     col3:
@@ -56,17 +58,17 @@ sections:
           L’Expérience Utilisateur (ou User Experience) s’intéresse au comportement de l’utilisateur et à la structure de la solution digitale. L’UX implique l’analyse, la recherche, la stratégie technique, le maquettage et les tests d’utilisabilité. L’Interface Utilisateur (User Interface) et l’Expérience Utilisateur partagent un but commun, celui de concevoir une application intuitive, évolutive, agréable visuellement et accessible à tous les publics :
 
 
-          * utile et attractif  
+          * Utile et attractif  
 
-          * fiable et fonctionnel
+          * Fiable et fonctionnel
 
-          *  flexible et accessible
+          * Flexible et accessible
 
-          * harmonieux et visible
+          * Harmonieux et visible
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/florent.webp)"
+        content: "![](/media/ux-ui-design-digital-urbalyon-atipy.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
