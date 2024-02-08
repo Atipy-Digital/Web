@@ -18,17 +18,17 @@ intro: >-
 
 
   A travers nos compétences en design et accessibilité, nous vous accompagnons dans votre projet territorial des mobilités actives.
+
+
+  Comment aménager des espaces cyclables accessibles à tous types d’utilisateurs ? Comment mettre en place un système de signalétique favorable aux piétons et aux cyclistes ? Comment orienter sur un pôle d'échanges multimodal ou sur une voie verte ?
 sections:
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: Comment aménager des espaces cyclables accessibles à tous types
-          d’utilisateurs ? Comment mettre en place un système de signalétique
-          favorable aux piétons et aux cyclistes ? Comment orienter sur un plôe
-          d'échanges multimodal ou sur une voie verte ?
+        content: "![](/media/design-expertise-mobilite-velo-atipy-2.jpg)"
       image:
-        url: /media/design-expertise-mobilite-velo-atipy-2.jpg
+        url: ""
     col2:
       reverseMobile: false
       text:
@@ -67,11 +67,23 @@ sections:
 
           * Concevoir des espaces de circulation accessibles et inclusifs
 
+
+
+
           * Permettre à tous et toutes de se déplacer et de pratiquer le vélo ou la marche
+
+
+
 
           * Renforcer l’attractivité et l’utilisabilité des voies vertes ou pistes cyclables
 
+
+
+
           * Faire connaître les offres de mobilités actives accessibles
+
+
+
 
           * Permettre à tous et toutes de vivre une expérience agréable de la pratique du vélo.
       image:
@@ -88,6 +100,11 @@ sections:
         content: ""
   - inverseCol: false
     col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/design-expertise-mobilite-velo-signaletique-plan-atipy-4.j\
+          pg)"
+    col2:
       reverseMobile: false
       text:
         content: >-
@@ -112,11 +129,6 @@ sections:
           * La formalisation visuelle de réseau de voies vertes
 
           * La création de supports de communication en FALC ou langage clair
-    col2:
-      reverseMobile: false
-      text:
-        content: "![](/media/design-expertise-mobilite-velo-signaletique-plan-atipy-4.j\
-          pg)"
     col3:
       reverseMobile: false
   - inverseCol: false
