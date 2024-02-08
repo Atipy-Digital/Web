@@ -24,6 +24,13 @@ sections:
     col1:
       reverseMobile: false
       text:
+        content: "![](/media/formations-conferences-atelier-atipy.jpg)"
+      image:
+        url: ""
+        legend: ""
+    col2:
+      reverseMobile: false
+      text:
         content: >-
           #### Formation et Sensibilisation
 
@@ -35,11 +42,6 @@ sections:
 
 
           La gestion de l'accessibilité numérique doit être un processus continu, intégré dans la culture de l'entreprise et soutenu par une solide sensibilisation et une expertise en la matière. Cela garantira que les produits et services numériques sont accessibles à tous, améliorant ainsi l'expérience utilisateur et répondant aux obligations légales.
-      image:
-        url: /media/ph-1277.png
-        legend: ""
-    col2:
-      reverseMobile: false
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -60,7 +62,7 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/florent.webp)"
+        content: "![](/media/accessibilite-numerique-daltonisme-contrastes-atipy.png)"
     col3:
       reverseMobile: false
   - inverseCol: false
