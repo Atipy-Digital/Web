@@ -73,15 +73,12 @@ sections:
 
           * D’être autonomes dans leurs déplacements.
 
-
-
-
           * De ne pas se perdre.
 
-
-
-
           * De trouver les informations qu’ils cherchent.
+
+
+          [D﻿écouvrez également nos formations en signalétique](https://atipy.netlify.app/expertises/formation)
     col3:
       reverseMobile: false
     inverseCol: true
