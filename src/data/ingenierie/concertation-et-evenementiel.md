@@ -42,7 +42,7 @@ sections:
           * la mise en place de plans d’actions concertés
       image:
         url: /media/concertation-atelier-handicap-atipy.jpg
-        legend: Concertation
+        legend: ""
     col2:
       reverseMobile: false
     col3:
