@@ -55,11 +55,23 @@ sections:
 
           * Recenser les obstacles et non-conformités sur le terrain
 
+
+
+
           * Préconiser les travaux et aménagements correctifs
+
+
+
 
           * Proposer une planification en fonction des points d’intérêts, des budgets et PPI du territoire
 
+
+
+
           * Harmoniser la mise en accessibilité avec celle des bâtiments et des transports
+
+
+
 
           * Intégrer l’ensemble des acteurs locaux de l’espace public
     col2:
@@ -101,9 +113,18 @@ sections:
 
           * Relevé conforme aux attentes réglementaires
 
+
+
+
           * Relevé compatible avec les enjeux du PAVE
 
-          * Formations
+
+
+
+          * [Formations](https://atipy.netlify.app/expertises/formation)
+
+
+
 
           * Outils informatiques de relevé et de mise à jour de la donnée
     col2:
