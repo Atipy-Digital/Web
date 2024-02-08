@@ -39,7 +39,7 @@ sections:
 
           Dans notre envie de participer à des projets de mobilité active, l’équipe d’Atipy mutualise ses compétences avec des partenaires experts en mobilité pour vous accompagner à la mise en place d’un schéma directeur des mobilités plus inclusif.
       image:
-        url: /media/mobilite-inclusive-atipy.jpg
+        url: /media/mobilite-inclusive-atipy-2.jpeg
     col2:
       reverseMobile: false
     col3:
@@ -80,26 +80,18 @@ sections:
       reverseMobile: false
       text:
         content: |-
-          #### Référence 
+          #### Notre accompagnement
+
+          * Outils numérique de saisie de la donnée
+          * Préconisation des axes prioritaires de déplacement
+
+          #### Nous avons leur confiance
 
           **Grenoble Alpes Métropole** 
           Réalisation d’un schéma directeur d’accessibilité de la voirie 
 
           **Pays de La Loire** 
           Réalisation d’audit de point d’arrêt bus (Aléops)
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: |-
-          #### Notre accompagnement
-
-          * Outils numérique de saisie de la donnée
-          * Préconisation des axes prioritaires de déplacement
-    col2:
-      reverseMobile: false
     col3:
       reverseMobile: false
 footer:
