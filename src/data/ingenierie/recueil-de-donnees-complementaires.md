@@ -64,13 +64,22 @@ sections:
           #### **Quels sont les objectifs ?**
 
 
-          * Pouvoir relever tous types de données utiles aux gestionnaires de patrimoine
+          * Pouvoir relever tous types de données utiles aux gestionnaires de patrimoine.
 
-          * Profiter des relevés accessibilité et des éventuels travaux pour traiter les désordres “connexes” 
+
+
+
+          * Profiter des relevés accessibilité et des éventuels travaux pour traiter les désordres “connexes”. 
+
+
+
 
           * Disposer d’un système de relevés global, simple et performant avec des possibilités d’ajout de thématiques multiples facilitant la gestion du patrimoine.
 
-          * Vous remettre les données sous un format adapté à vos besoins (compatible avec votre interface logiciel, en format tableur ou avec un accès à notre propre logiciel)
+
+
+
+          * Vous remettre les données sous un format adapté à vos besoins (compatible avec votre interface logiciel, en format tableur ou avec un accès à notre propre logiciel).
     col2:
       reverseMobile: false
       text:
@@ -85,17 +94,13 @@ sections:
           #### Notre accompagnement
 
 
-          * Prise en charge total de relevés (création d’une base de données, mise en place d’un outil de saisie, relevés in-situ)
+          * Prise en charge total de relevés (création d’une base de données, mise en place d’un outil de saisie, relevés in-situ).
 
-          * Intégration de votre base de données dans notre outil de saisie
+          * Intégration de votre base de données dans notre outil de saisie.
 
-          * Mise à disposition d’un outil avec ou sans formation
+          * Mise à disposition d’un outil avec ou sans formation.
 
-
-          ##### Désordres pouvant impacter le bâtiment
-
-
-          Nous pouvons faire un relevé visuel des désordres et actions correctives à mener.
+          * Désordres pouvant impacter le bâtiment : Nous pouvons faire un relevé visuel des désordres et actions correctives à mener.
     col2:
       reverseMobile: false
       text:
