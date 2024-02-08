@@ -34,13 +34,34 @@ sections:
         content: |-
           #### À qui sont destinés ces formations ?
 
-          * Référent handicap
+          * Référents handicap
+
+
+
           * Chargés de communication
+
+
+
           * Managers
+
+
+
           * Structures accueillant du public
+
+
+
           * Freelances et indépendants 
+
+
+
           * Designers, graphistes, maquettistes, infographistes
+
+
+
           * Services techniques
+
+
+
           * A﻿rchitectes
     col2:
       reverseMobile: false
