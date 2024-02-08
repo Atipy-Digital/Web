@@ -81,20 +81,8 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/desordre-batiment-atipy.jpg)"
-    col2:
-      reverseMobile: false
-      text:
-        content: Désordres pouvant impacter le bâtiment. Nous pouvons faire un relevé
-          visuel des désordres et actions correctives à mener.
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
         content: >-
-          #### Notre accompagnement 
+          #### Notre accompagnement
 
 
           * Prise en charge total de relevés (création d’une base de données, mise en place d’un outil de saisie, relevés in-situ)
@@ -102,6 +90,12 @@ sections:
           * Intégration de votre base de données dans notre outil de saisie
 
           * Mise à disposition d’un outil avec ou sans formation
+
+
+          ##### Désordres pouvant impacter le bâtiment
+
+
+          Nous pouvons faire un relevé visuel des désordres et actions correctives à mener.
     col2:
       reverseMobile: false
       text:
