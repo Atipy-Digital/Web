@@ -40,7 +40,15 @@ sections:
           #### La lisibilité
 
 
-          La **lisibilité** est un point important de notre processus de conception. Un document peu lisible génère une difficulté pour une personne âgée ou une personne malvoyante (myopie, astigmatisme, daltonisme…), et un manque de confort pour tous. C’est pourquoi, pour chaque support, nous pensons à utiliser un contraste suffisant (à partir du tableau de Paul Arthur et Romedi Passini), une typographie lisible, un interlettrage et un interlignage correctes.
+          La **lisibilité** est un point important de notre processus de conception. Un document peu lisible génère une difficulté pour une personne âgée ou une personne malvoyante (myopie, astigmatisme, daltonisme…), et un manque de confort pour tous. 
+
+
+
+
+          C’est pourquoi, pour chaque support, nous pensons à utiliser un contraste suffisant (à partir du tableau de Paul Arthur et Romedi Passini), une typographie lisible, un interlettrage et un interlignage correctes.
+
+
+          [D﻿écouvrez également nos formations](https://atipy.netlify.app/expertises/formation)
     col2:
       reverseMobile: false
       text:
