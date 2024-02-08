@@ -45,11 +45,17 @@ sections:
           Nous croyons qu’il est important de connaître le ressenti, les besoins et les avis des personnes concernées par un outil ou un service. C’est pourquoi ces réunions peuvent avoir lieu à différents moments clefs de votre projet.
 
 
-          * Au début, pour faire un état des lieux de l’existant.
+          * **Au début**, pour faire un état des lieux de l’existant.
 
-          * En cours de projet, pour tester une idée, un principe, un support.
 
-          * A la fin, pour valider un concept abouti.
+
+
+          * **En cours de projet,** pour tester une idée, un principe, un support.
+
+
+
+
+          * **A la fin**, pour valider un concept abouti.
 
 
           En lien avec un réseau d’associations, nous mettons en place des réunions sur site ou dans vos bureaux.
@@ -91,8 +97,17 @@ sections:
           **Les outils :**
 
           * L﻿e maquettage et le prototypage
+
+
+
           * L﻿es tests in situ
+
+
+
           * L﻿es ateliers créatifs
+
+
+
           * Les brainstormings
         color: green
       image:
