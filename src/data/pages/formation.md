@@ -6,6 +6,28 @@ intro: >-
 
   **Conception universelle, accueil du public, cadre bâti Facile à Lire et à Comprendre, signalétique accessible… Découvrez nos thématiques et nos formats.**
 sections:
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### C﻿onseils et assistance à maitrise d'ouvrage
+
+
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nunc dui, eleifend eu ex ut, tristique luctus magna. Praesent vulputate purus odio, at scelerisque massa fringilla et. Sed auctor mauris at dui bibendum, et vestibulum mi vestibulum. Aliquam placerat ante ac ligula rutrum vehicula. Donec in mauris et eros vehicula placerat. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum ullamcorper turpis luctus pharetra. Aliquam lorem enim, faucibus vitae justo vel, molestie ultrices nisl. Suspendisse varius dapibus lectus, eu cursus tellus maximus non.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "### N﻿os formations"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
   - col1:
       reverseMobile: false
       text:
