@@ -15,11 +15,10 @@ icon:
   value: releveMultitechnique
   type: ingenierie
 color: ENGINEER
-intro: >-
-  ### Le contexte
-
-
-  La mise aux normes et la gestion d’un site ne se limite pas à l’accessibilité. Vous avez des besoins dans d’autres domaines ? Inventaires, équipements, état des lieux, sécurité incendie, etc,  nous pouvons vous accompagner.
+intro: La mise aux normes et la gestion d’un site ne se limite pas à
+  l’accessibilité. Vous avez des besoins dans d’autres domaines ? Inventaires,
+  équipements, état des lieux, sécurité incendie, etc,  nous pouvons vous
+  accompagner.
 sections:
   - inverseCol: false
     col1:
@@ -50,7 +49,7 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/expertise-releves-complementaires-atipy-1.jpeg)"
+        content: "![](/media/securite-incendie-releves-multitechnique-atipy.jpg)"
     col2:
       reverseMobile: false
       text:
@@ -75,7 +74,7 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: '![](/media/releve-extincteur-atipy.jpg "Relevé Extincteur")'
+        content: '![](/media/releve-multitechnique-atipy.jpg "Relevé Extincteur")'
     col3:
       reverseMobile: false
   - inverseCol: false
