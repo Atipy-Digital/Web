@@ -23,6 +23,7 @@ context_body: >-
 project_tags:
   - Design
   - Conception graphique
+  - Identité visuelle
 project_sections:
   - inverseCol: false
     col1:
