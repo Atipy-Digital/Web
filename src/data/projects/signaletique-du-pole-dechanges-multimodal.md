@@ -5,7 +5,7 @@ metadata:
   keywords:
     - keyword: mobilité
     - keyword: signalétique
-title: "Signalétique du pôle d'échanges multimodal "
+title: Signalétique du pôle d'échanges multimodal d'Annemasse
 image: /media/annemasse-plan-orientation-pole-echange-signaletique_atipy_version_reel.jpg
 project_client: annemasse-agglo
 mission_body: Assistance à maitrise d’ouvrage et conception de la signalétique
@@ -20,16 +20,25 @@ context_body: >-
   Aujourd’hui nous constatons que la lecture des différentes fonctionnalités du PEM est complexe. Il existe une perte de repères et des difficultés d’orientation à la sortie de la gare :
 
 
-  Côté nord = Esplanade de la Rotonde (Ville-la-Grand, Ambilly)
+  **• Côté nord** = Esplanade de la Rotonde (Ville-la-Grand, Ambilly) 
 
 
-  Côté sud = Esplanade François Mitterrand (Centre ville d’annemasse)
+  **• Côté sud** = Esplanade François Mitterrand (Centre ville d’annemasse)
 
 
-  Le Plôe Design d'Atipy a mis en place un système signalétique sur le périmètre du Pôle d’échange multimodal (PEM).
+  Le Pôle Design d'Atipy a mis en place un système signalétique sur le périmètre du Pôle d’échange multimodal (PEM). 
 
 
-  La cible : Voyageurs arrivant à Annemasse ou en transit, personnes éloignées du français, primo-visiteur (ne connaissant pas les lieux).
+  **Les cibles :** 
+
+
+  • Voyageurs arrivant à Annemasse ou en transit
+
+
+  • Personnes éloignées du français
+
+
+  • Primo-visiteur (ne connaissant pas les lieux). 
 
 
   *Fabrication : Boscher*
