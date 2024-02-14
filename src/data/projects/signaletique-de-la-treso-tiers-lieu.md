@@ -58,7 +58,7 @@ project_sections:
     col3:
       reverseMobile: false
       text:
-        content: "![]()"
+        content: ""
   - inverseCol: false
     col1:
       reverseMobile: false
