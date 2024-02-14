@@ -54,7 +54,7 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![]()"
+        content: ""
     col3:
       reverseMobile: false
       text:
