@@ -123,4 +123,14 @@ members:
       - text: Urbanisme
       - text: Accessibilité
       - text: Diagnostic multi-technique
+  - name: Daviani Fillatre
+    image: /media/atipy-daviani-fillatre.jpeg
+    badge:
+      color: a-red
+      label: Le logique
+    linkedin: https://www.linkedin.com/in/daviani-fillatre
+    skills:
+      - text: Applications
+      - text: Innovation
+      - text: Viabilité
 ---
