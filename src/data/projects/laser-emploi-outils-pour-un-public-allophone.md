@@ -6,7 +6,7 @@ metadata:
     - keyword: allophone
     - keyword: langage clair
     - keyword: pictogramme
-title: Laser Emploi - Outils pour un public allophone
+title: Outils pour un public allophone avec Laser Emploi
 image: /media/realisation-msa-allophone-illustrations-atipy-1.jpg
 project_client: msa-mutuelle-sociale-agricole
 mission_body: Création d’outils de communication pour l’accueil de publics
@@ -29,6 +29,8 @@ context_body: >-
   comprendre son fonctionnement, les missions qu’ils vont réaliser et la logique de parcours.
 project_tags:
   - FALC
+  - Design
+  - Conception graphique
 project_sections:
   - inverseCol: false
     col1:
