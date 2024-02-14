@@ -1,5 +1,5 @@
 ---
-title: Conseils et formations
+title: Conseil et formations
 intro: >-
   ### Nous sensibilisons et formons vos équipes
 
