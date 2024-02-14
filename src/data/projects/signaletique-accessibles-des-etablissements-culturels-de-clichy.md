@@ -5,7 +5,7 @@ metadata:
     accessibles des établissements culturels
   keywords:
     - keyword: signaletique
-title: "Signalétique accessibles des établissements culturels de Clichy "
+title: "Signalétique accessible des établissements culturels de Clichy "
 image: /media/clichy-signaletique-culture.jpg
 project_client: ville-de-clichy
 mission_body: Audit et préconisations pour la communication et la signalétique
@@ -19,17 +19,23 @@ context_body: >-
   culturels classés ERP.
 
 
-  * Théâtre Rutebeuf
+  \- Théâtre Rutebeuf 
 
-  * Pavillon Vendôme : Office de tourisme et centre d’art
 
-  * Conservatoire Léo Delibes
+  \- Pavillon Vendôme : Office de tourisme et centre d’art
 
-  * Centre Henri Miller
 
-  * Médiathèque Jean d’Ormesson
+  \- Conservatoire Léo Delibes
+
+
+  \- Centre Henri Miller
+
+
+  \- Médiathèque Jean d’Ormesson
 project_tags:
   - Signalétique
+  - Accessibilité
+  - Design
 project_sections:
   - inverseCol: false
     col1:
@@ -39,7 +45,13 @@ project_sections:
           ## Les objectifs de la mission
 
           * Favoriser l’autonomie dans les bâtiments.
+
+
+
           * Concevoir une signalétique accessible à tous.
+
+
+
           * Valoriser les équipements culturels de la ville.
     col2:
       reverseMobile: false
@@ -92,12 +104,13 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: Les thèmes comme « trouver le bâtiment », « trouver des informations »,
-          « repérer l’accueil », « être orienté »… sont intégrés dans notre
-          l’audit et nos préconisations. Nos recommandations tendent vers des
-          solutions et des services de qualité et de confort d’usage à
-          destination des publics à besoins spécifiques, équivalentes à celles
-          qui sont aujourd’hui proposées à tous les publics.
+        content: >-
+          Les thèmes comme « trouver le bâtiment », « trouver des
+          informations », « repérer l’accueil », « être orienté »… sont intégrés
+          dans notre l’audit et nos préconisations. 
+
+
+          Nos recommandations tendent vers des solutions et des services de qualité et de confort d’usage à destination des publics à besoins spécifiques, équivalentes à celles qui sont aujourd’hui proposées à tous les publics.
     col3:
       reverseMobile: false
   - inverseCol: false
