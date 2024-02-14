@@ -19,11 +19,23 @@ sections:
 
           * d'accessibilité patrimoniale
 
+
+
+
           * d﻿'accessibilité de l'espace public
+
+
+
 
           * de communication accessible
 
+
+
+
           * d﻿'accueil du public en situation de handicap
+
+
+
 
           * d﻿e ressources humaines
 
