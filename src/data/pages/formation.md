@@ -11,10 +11,24 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          ### C﻿onseils et assistance à maitrise d'ouvrage
+          ### C﻿onseil et assistance à maitrise d'ouvrage
 
 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nunc dui, eleifend eu ex ut, tristique luctus magna. Praesent vulputate purus odio, at scelerisque massa fringilla et. Sed auctor mauris at dui bibendum, et vestibulum mi vestibulum. Aliquam placerat ante ac ligula rutrum vehicula. Donec in mauris et eros vehicula placerat. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum ullamcorper turpis luctus pharetra. Aliquam lorem enim, faucibus vitae justo vel, molestie ultrices nisl. Suspendisse varius dapibus lectus, eu cursus tellus maximus non.
+          Nos consultants et experts seniors vous accompagnent dans vos stratégies
+
+
+          * d'accessibilité patrimoniale
+
+          * d﻿'accessibilité de l'espace public
+
+          * de communication accessible
+
+          * d﻿'accueil du public en situation de handicap
+
+          * d﻿e ressources humaines
+
+
+          A﻿vec vous, nous mettons en place des méthodologies transverses à l'ensemble de vos activités, services ou territoires. Nous réalisons des rapports d'étonnement, point de départ pour l'amélioration de l'accessibilité et de l'expérience utilisateur.
     col2:
       reverseMobile: false
     col3:
