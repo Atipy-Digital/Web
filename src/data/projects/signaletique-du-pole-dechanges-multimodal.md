@@ -44,6 +44,8 @@ context_body: >-
   *Fabrication : Boscher*
 project_tags:
   - Signalétique
+  - Design
+  - Voirie
 project_sections:
   - inverseCol: false
     col1:
@@ -55,13 +57,28 @@ project_sections:
 
           * **Faciliter l’orientation** aux abords de la gare en mettant à disposition de tous les usagers des informations claires et visibles.
 
+
+
+
           * **Concevoir une signalétique adaptable** aux évolutions à venir.
+
+
+
 
           * **Proposer un système graphique** s’inspirant des identités visuelles présentes sur le périmètre.
 
+
+
+
           * **Répondre aux besoins** des personnes de langue étrangère ou en situation de handicap.
 
+
+
+
           * **Renforcer la signalétique existante** aux abords de la gare en mettant à disposition de tous les usagers des informations claires et visibles.
+
+
+
 
           * **Permettre l’identification** des services et équipements du Pôle d’Echange Multimodal (PEM).
     col2:
