@@ -18,6 +18,7 @@ context_body: Territoire étendu au patrimoine varié, Rennes Métropole souhait
   méthodologie de déploiement.
 project_tags:
   - Signalétique
+  - Design
 project_sections:
   - inverseCol: false
     col1:
