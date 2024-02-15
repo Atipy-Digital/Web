@@ -122,7 +122,7 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ## Le témoignage de la cliente
+          ### Le témoignage de la cliente
 
 
           Agathe CURIEN, Chargée de mission France Assos Santé
