@@ -42,7 +42,7 @@ export const ProjectIntro = ({
             <h3 className='mb-4'>La mission</h3>
             <MarkdownText className='text-body2'>{mission_body}</MarkdownText>
             <h3 className='mb-4 mt-12 md:mt-16 lg:mt-20 xl:mt-24'>
-              Le context
+              Le contexte
             </h3>
             <MarkdownText className='text-body2 mb-4'>
               {context_body}
