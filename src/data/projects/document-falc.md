@@ -122,13 +122,13 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ## Le témoignage de la cliente 
+          ## Le témoignage de la cliente
 
 
-          **Agathe CURIEN, Chargée de mission France Assos Santé**
+          Agathe CURIEN, Chargée de mission France Assos Santé
 
 
-          Nous avons particulièrement apprécié la qualité d’écoute et le professionnalisme de l’agence, toujours attentive à nos remarques.
+          > Nous avons particulièrement apprécié la qualité d’écoute et le professionnalisme de l’agence, toujours attentive à nos remarques.
         color: green
     col3:
       reverseMobile: false
