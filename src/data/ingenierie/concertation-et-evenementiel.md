@@ -49,7 +49,7 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/concertation-atelier-handicap-atipy.jpg)"
+        content: "![](/media/offer-w-access-concertation.png)"
       image:
         url: ""
     col2:
@@ -64,16 +64,27 @@ sections:
           #### Où et quand concerter&nbsp;?
 
 
-          Les ateliers peuvent, selon les nécessités, avoir lieu in situ ou en salle de réunion. Cela dépend de ce qui est attendu. 
+          Les ateliers peuvent, selon les nécessités, avoir lieu in situ ou en salle de réunion. Cela dépend de ce qui est attendu. Pour de l’aménagement ou pour solliciter un avis sur un événement, la visite terrain est évidemment indispensable.
 
 
-          Pour de l’aménagement ou pour solliciter un avis sur un événement, la visite terrain est évidemment indispensable.
+          Un temps de débriefing en salle de réunion viendra compléter la démarche. C’est également le cas pour un projet de création, où l’intérieur favorise la qualité d’écoute et de travail. La concertation doit avoir lieu le plus en amont possible mais reste nécessaire à toutes les phases d’un projet.
 
 
-          Un temps de débriefing en salle de réunion viendra compléter la démarche. C’est également le cas pour un projet de création, où l’intérieur favorise la qualité d’écoute et de travail.
 
 
-          La concertation doit avoir lieu le plus en amont possible mais reste nécessaire à toutes les phases d’un projet.
+          #### Qui concerter&nbsp;?
+
+
+          Globalement tous les acteurs du projets mais particulièrement :
+
+
+          * Les représentants d’utilisateurs
+
+          * Les concepteurs
+
+          * Les fabricants
+
+          * Les services du commanditaire
     col2:
       reverseMobile: false
       text:
@@ -90,21 +101,6 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          #### Qui concerter&nbsp;?
-
-
-          Globalement tous les acteurs du projets mais particulièrement :
-
-
-          * Les représentants d’utilisateurs
-
-          * Les concepteurs
-
-          * Les fabricants
-
-          * Les services du commanditaire
-
-
           #### N﻿ous avons leur confiance
 
 
@@ -117,6 +113,7 @@ sections:
           * Mairie de Paris dans le cadre de la rénovation du stade Pierre de Coubertin
 
           * Mairie de Tarbes, d’Annecy, de Grenoble dans le cadre de missions sur l’aménagement de l’espace public
+        color: blue
     col3:
       reverseMobile: false
 footer:
