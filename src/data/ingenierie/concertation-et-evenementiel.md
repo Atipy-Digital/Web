@@ -105,8 +105,6 @@ sections:
           * Les services du commanditaire
 
 
-
-
           #### N﻿ous avons leur confiance
 
 
