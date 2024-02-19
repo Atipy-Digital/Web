@@ -35,6 +35,8 @@ sections:
       reverseMobile: false
       text:
         content: |-
+          
+
           Notre accompagnement couvre :
 
           * La logistique et l’organisation des rencontres
