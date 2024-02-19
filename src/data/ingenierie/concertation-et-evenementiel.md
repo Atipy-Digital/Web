@@ -28,22 +28,28 @@ sections:
 
 
           La concertation est ce qui nous anime. Il n’est rien de plus cohérent pour nous que de faire se rencontrer la diversité des besoins, attentes et compétences pour faire émerger des solutions décidées collectivement.
-
-
-
+      image:
+        url: ""
+        legend: ""
+    col2:
+      reverseMobile: false
+      text:
+        content: |-
           Notre accompagnement couvre :
 
-
-          * la logistique et l’organisation des rencontres
-
-          * l’animation d’ateliers et de réunions
-
-          * la rédaction des comptes-rendus
-
-          * la mise en place de plans d’actions concertés
+          * La logistique et l’organisation des rencontres
+          * L’animation d’ateliers et de réunions
+          * La rédaction des comptes-rendus
+          * La mise en place de plans d’actions concertés
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/concertation-atelier-handicap-atipy.jpg)"
       image:
-        url: /media/concertation-atelier-handicap-atipy.jpg
-        legend: ""
+        url: ""
     col2:
       reverseMobile: false
     col3:
