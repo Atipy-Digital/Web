@@ -1,7 +1,7 @@
 ---
 cards:
   - type: about
-    title: Qui sommes-nous ?
+    title: Qui sommes-nous&nbsp;?
     text: Atipy, une équipe enthousiaste et impliquée qui vous accompagne dans vos
       projets d’inclusion et d’accessibilité.
   - type: conception
