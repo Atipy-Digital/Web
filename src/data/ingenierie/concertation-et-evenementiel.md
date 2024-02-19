@@ -13,11 +13,11 @@ icon:
   type: ingenierie
 color: ENGINEER
 intro: >-
-  ### La participation des utilisateurs est essentiel pour la définition de
+  La participation des utilisateurs est essentiel pour la définition de
   solutions **universelles et inclusives, pérennes et acceptées par tous.** 
 
 
-  ### **La concertation c’est la rencontre et l’écoute des besoins de chacune des parties.**
+  **La concertation c’est la rencontre et l’écoute des besoins de chacune des parties.**
 sections:
   - inverseCol: false
     col1:
