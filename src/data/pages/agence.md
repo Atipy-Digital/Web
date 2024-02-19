@@ -17,5 +17,5 @@ cards:
     title: Nos partenaires
     text: Nous sommes entourés d’un réseau de partenaires de confiance compétents et
       réactifs avec qui nous avons l’habitude de travailler avec plaisir et
-      enthousiasme !
+      enthousiasme&nbsp;!
 ---
