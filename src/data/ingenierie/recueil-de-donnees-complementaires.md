@@ -24,6 +24,17 @@ sections:
     col1:
       reverseMobile: false
       text:
+        content: "![](/media/securite-incendie-releves-multitechnique-atipy.jpg)"
+    col2:
+      reverseMobile: false
+      text:
+        content: ""
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: >-
           #### **Que peut-on relever**&nbsp;**?**
 
@@ -55,17 +66,6 @@ sections:
           * Disposer d’un système de relevés global, simple et performant avec des possibilités d’ajout de thématiques multiples facilitant la gestion du patrimoine.
 
           * Vous remettre les données sous un format adapté à vos besoins (compatible avec votre interface logiciel, en format tableur ou avec un accès à notre propre logiciel).
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: "![](/media/securite-incendie-releves-multitechnique-atipy.jpg)"
-    col2:
-      reverseMobile: false
-      text:
-        content: ""
     col3:
       reverseMobile: false
   - inverseCol: false
