@@ -23,6 +23,15 @@ sections:
     col1:
       reverseMobile: false
       text:
+        content: "![](/media/offer-w-access-mobilite_actives.png)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: >-
           #### Une mobilité plus inclusive
 
@@ -39,7 +48,7 @@ sections:
 
           Dans notre envie de participer à des projets de mobilité active, l’équipe d’Atipy mutualise ses compétences avec des partenaires experts en mobilité pour vous accompagner à la mise en place d’un schéma directeur des mobilités plus inclusif.
       image:
-        url: /media/mobilite-inclusive-atipy-2.jpeg
+        url: ""
     col2:
       reverseMobile: false
     col3:
