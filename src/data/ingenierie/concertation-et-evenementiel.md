@@ -83,7 +83,7 @@ sections:
           * Les fabricants
           * Les services du commanditaire
     col2:
-      reverseMobile: false
+      reverseMobile: true
       text:
         content: "![](/media/concertation-atelier-atipy-handicap-inclusions.jpg)"
     col3:
