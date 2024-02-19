@@ -61,7 +61,7 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          #### Où et quand concerter ?
+          #### Où et quand concerter&nbsp;?
 
 
           Les ateliers peuvent, selon les nécessités, avoir lieu in situ ou en salle de réunion. Cela dépend de ce qui est attendu. 
@@ -90,22 +90,13 @@ sections:
       reverseMobile: false
       text:
         content: |-
-          #### Qui concerter ?
+          #### Qui concerter&nbsp;?
 
           Globalement tous les acteurs du projets mais particulièrement :
 
           * Les représentants d’utilisateurs
-
-
-
           * Les concepteurs
-
-
-
           * Les fabricants
-
-
-
           * Les services du commanditaire
     col3:
       reverseMobile: false
