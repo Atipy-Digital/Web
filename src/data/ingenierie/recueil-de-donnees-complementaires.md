@@ -25,16 +25,16 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          #### **Que peut-on relever ?**
+          #### **Que peut-on relever**&nbsp;**?**
 
 
           Notre expertise en relevé accessibilité (diagnostiqueurs expérimentés, outils de relevés internes performants) et notre expertise en phase travaux nous permettent de vous proposer d’autres types de relevés dans les bâtiments et les espaces publics.
 
 
-          Ainsi nous pouvons répertorier, géo-localiser et définir l’état de vos équipements notamment dans les domaines suivants :
+          Ainsi nous pouvons répertorier, géo-localiser et définir l’état de vos équipements notamment dans les domaines suivants&nbsp;:
 
 
-          * Equipement de sécurité incendie (Extincteur, BAES, EAS, Sorties de secours, plans, etc)
+          * Équipement de sécurité incendie (Extincteur, BAES, EAS, Sorties de secours, plans, etc)
 
           * Équipements divers de type chauffage, eau-chaude sanitaire, ventilation
 
@@ -43,6 +43,18 @@ sections:
           * Inventaires variés
     col2:
       reverseMobile: false
+      text:
+        content: >-
+          #### Quels sont les objectifs&nbsp;?
+
+
+          * Pouvoir relever tous types de données utiles aux gestionnaires de patrimoine.
+
+          * Profiter des relevés accessibilité et des éventuels travaux pour traiter les désordres «&nbsp;connexes&nbsp;».
+
+          * Disposer d’un système de relevés global, simple et performant avec des possibilités d’ajout de thématiques multiples facilitant la gestion du patrimoine.
+
+          * Vous remettre les données sous un format adapté à vos besoins (compatible avec votre interface logiciel, en format tableur ou avec un accès à notre propre logiciel).
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -54,36 +66,6 @@ sections:
       reverseMobile: false
       text:
         content: ""
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: >-
-          #### **Quels sont les objectifs ?**
-
-
-          * Pouvoir relever tous types de données utiles aux gestionnaires de patrimoine.
-
-
-
-
-          * Profiter des relevés accessibilité et des éventuels travaux pour traiter les désordres “connexes”. 
-
-
-
-
-          * Disposer d’un système de relevés global, simple et performant avec des possibilités d’ajout de thématiques multiples facilitant la gestion du patrimoine.
-
-
-
-
-          * Vous remettre les données sous un format adapté à vos besoins (compatible avec votre interface logiciel, en format tableur ou avec un accès à notre propre logiciel).
-    col2:
-      reverseMobile: false
-      text:
-        content: '![](/media/releve-multitechnique-atipy.jpg "Relevé Extincteur")'
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -104,7 +86,7 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: ""
+        content: '![](/media/releve-multitechnique-atipy.jpg "Relevé Extincteur")'
     col3:
       reverseMobile: false
 footer:
