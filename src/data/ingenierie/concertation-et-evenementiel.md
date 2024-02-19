@@ -89,22 +89,24 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: |-
+        content: >-
           #### Qui concerter&nbsp;?
+
 
           Globalement tous les acteurs du projets mais particulièrement :
 
+
           * Les représentants d’utilisateurs
+
           * Les concepteurs
+
           * Les fabricants
+
           * Les services du commanditaire
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: >-
+
+
+
+
           #### N﻿ous avons leur confiance
 
 
@@ -117,8 +119,6 @@ sections:
           * Mairie de Paris dans le cadre de la rénovation du stade Pierre de Coubertin
 
           * Mairie de Tarbes, d’Annecy, de Grenoble dans le cadre de missions sur l’aménagement de l’espace public
-    col2:
-      reverseMobile: false
     col3:
       reverseMobile: false
 footer:
