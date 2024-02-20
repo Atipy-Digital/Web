@@ -34,10 +34,10 @@ sections:
           #### Du diagnostic d’accessibilité à la réception de travaux
 
 
-          Le diagnostic d’accessibilité est la **première étape**. Il concerne différentes typologies de lieux : les Etablissement Recevant du Public (ERP), les Installations Ouvertes au Public (IOP), les zones code du travail et les Bâtiments d’Habitation Collectifs (BHC).
+          Le diagnostic d’accessibilité est la **première étape**. Il concerne différentes typologies de lieux&nbsp;: les Etablissement Recevant du Public (ERP), les Installations Ouvertes au Public (IOP), les zones code du travail et les Bâtiments d’Habitation Collectifs (BHC).
 
 
-          * Visite de site, diagnostic ou contre-visite, identification des non-conformités, préconisations techniques, organisationnelles ou fonctionnelles, chiffrages et estimations des travaux, localisation des obstacles sur plans
+          Visite de site, diagnostic ou contre-visite, identification des non-conformités, préconisations techniques, organisationnelles ou fonctionnelles, chiffrages et estimations des travaux, localisation des obstacles sur plans
     col2:
       reverseMobile: false
     col3:
@@ -80,7 +80,7 @@ sections:
           Ces écarts d’interprétation conduisent souvent à des dispositifs hétérogènes nécessitant des commandes et des entretiens spécifiques. Le référentiel accessibilité est alors la solution qui permet de préciser, d’homogénéiser et de personnaliser les travaux tout en visant des économies d’échelles.
 
 
-          **Atipy** vous propose une architecture de rédaction articulée autour de 4 axes :
+          Atipy vous propose une architecture de rédaction articulée autour de 4 axes :
 
 
           * **Action de mise en accessibilité et points de vigilance**
@@ -94,7 +94,7 @@ sections:
       reverseMobile: false
       text:
         content: "![](/media/atipy-adequat-ville-clichy-communication-signaletique-audi\
-          t-accessibilite-handicap.jpeg \"Le référentiel d'accessibilité \")"
+          t-accessibilite-handicap.jpg \"Le référentiel d'accessibilité \")"
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -107,13 +107,13 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          ### **Le Registre Public d’Accessibilité**
+          #### Le Registre Public d’Accessibilité
 
 
           Ce document a pour objectif d’informer le public, de manière simple et facilement compréhensible, sur le degré d’accessibilité de l’ERP et de ses différents services.
 
 
-          **Atipy** vous propose la mise en  place d’un outil numérique permettant de :
+          Atipy vous propose la mise en  place d’un outil numérique permettant de :
 
 
           * Publier des registres en ligne
@@ -132,11 +132,13 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: >-
-          ### **Notre accompagnement**
-
-
-          Nos consultants interviennent sur l’ensemble du territoire métropolitain et en Outre-mer. Nous pouvons vous accompagner de A à Z pour une mise en accessibilité de bâtiments existants ou sur des projets de constructions. Pour cela, nous pourrons compléter notre équipe avec d’autres compétences en fonction de la mission confiée (partenaires architectes DPLG, économistes de la construction, géomètres, préventionnistes, etc).
+        content: Nos consultants interviennent sur l’ensemble du territoire
+          métropolitain et en Outre-mer. Nous pouvons vous accompagner de A à Z
+          pour une mise en accessibilité de bâtiments existants ou sur des
+          projets de constructions. Pour cela, nous pourrons compléter notre
+          équipe avec d’autres compétences en fonction de la mission confiée
+          (partenaires architectes DPLG, économistes de la construction,
+          géomètres, préventionnistes, etc).
     col2:
       reverseMobile: false
     col3:
