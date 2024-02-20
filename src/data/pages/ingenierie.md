@@ -1,21 +1,17 @@
 ---
 title: Ingénierie
 intro: >-
-  ### Quis eleifend quam adipiscing vitae
+  ### Des consultants au service de l'accessibilité
 
 
-  Elementum nibh tellus molestie nunc non blandit massa enim. Pretium lectus quam id leo in vitae. Mauris vitae ultricies leo integer malesuada nunc vel risus. Quisque sagittis purus sit amet volutpat consequat. Iaculis at erat pellentesque adipiscing commodo.
+  Composé d'une équipe d'experts en accessibilité et urbanisme, le Pôle Ingénierie vous accompagne dans la mise en accessibilité de votre patrimoine et dans le relevé de toutes autres données spécifiques.
 sections:
   - col1:
       reverseMobile: false
       text:
-        content: >-
-          #### Eu sem integer vitae justo eget magna fermentum iaculis.
-
-
-          Risus viverra adipiscing at in tellus. Nec feugiat nisl pretium fusce. Fermentum odio eu feugiat pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Scelerisque felis imperdiet proin fermentum leo vel orci porta non.
+        content: "![](/media/concertation-handicap-association-atipy.jpg)"
       image:
-        url: /media/ph-1277.png
+        url: ""
     col2:
       reverseMobile: false
     col3:
@@ -27,7 +23,7 @@ sections:
           **Vitae tortor condimentum lacinia quis vel eros donec.**
 
 
-          Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Amet justo donec enim diam vulputate ut pharetra sit amet. Mauris augue neque gravida in. Nunc lobortis mattis aliquam faucibus purus. Mi tempus imperdiet nulla malesuada pellentesque elit eget. Odio tempor orci dapibus ultrices in iaculis nunc sed. Adipiscing at in tellus integer feugiat scelerisque.
+          Notre expérience, et les solutions logicielles que nous avons développées, nous permettent de répondre à vos demandes concernant les thématiques suivantes :
     col2:
       reverseMobile: false
       text:
