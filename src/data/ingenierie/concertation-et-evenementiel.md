@@ -67,7 +67,7 @@ sections:
           Un temps de débriefing en salle de réunion viendra compléter la démarche. C’est également le cas pour un projet de création, où l’intérieur favorise la qualité d’écoute et de travail. La concertation doit avoir lieu le plus en amont possible mais reste nécessaire à toutes les phases d’un projet.
     col3:
       reverseMobile: false
-  - inverseCol: false
+  - inverseCol: true
     col1:
       reverseMobile: true
       text:
