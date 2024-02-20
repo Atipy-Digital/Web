@@ -28,13 +28,23 @@ sections:
 
           * D﻿iagnostic
 
+
+
           * A﻿MO et AMOe
+
+
 
           * S﻿uivi d'AD'AP
 
+
+
           * D﻿émarches administratives
 
+
+
           * R﻿egistre public d'accessibilité
+
+
 
           * R﻿elevés multitechniques
     col2:
