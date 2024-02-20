@@ -20,10 +20,23 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          **Vitae tortor condimentum lacinia quis vel eros donec.**
+          #### U﻿ne équipe expérimentée
 
 
           Notre expérience, et les solutions logicielles que nous avons développées, nous permettent de répondre à vos demandes concernant les thématiques suivantes :
+
+
+          * D﻿iagnostic
+
+          * A﻿MO et AMOe
+
+          * S﻿uivi d'AD'AP
+
+          * D﻿émarches administratives
+
+          * R﻿egistre public d'accessibilité
+
+          * R﻿elevés multitechniques
     col2:
       reverseMobile: false
       text:
