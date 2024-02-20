@@ -69,7 +69,7 @@ sections:
       reverseMobile: false
   - inverseCol: false
     col1:
-      reverseMobile: false
+      reverseMobile: true
       text:
         content: |-
           
