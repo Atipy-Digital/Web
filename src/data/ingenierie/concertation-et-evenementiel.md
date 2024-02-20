@@ -23,7 +23,7 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/offer-w-access-concertation.png)"
+        content: "![](/media/offer-w-access-concertation.jpg)"
       image:
         url: ""
     col2:
@@ -85,7 +85,7 @@ sections:
     col2:
       reverseMobile: true
       text:
-        content: "![](/media/concertation-atelier-atipy-handicap-inclusions.jpg)"
+        content: "![](/media/concertation-handicap-association-atipy-inclusion.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
