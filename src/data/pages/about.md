@@ -14,6 +14,8 @@ challenges: >-
   bâtiments, à l’information, à l’usage des biens et des services. Vos clients,
   vos usagers et vos collaborateurs peuvent être concernés.
 
+
+
   Nous vous proposons une offre de service et de formation visant à rendre vos équipements, dispositifs et supports de communication accessibles au plus grand nombre. Nous aimons transmettre et partager notre connaissance de la conception universelle, des enjeux d’accessibilité et d’orientation. Nous prenons soin de créer des solutions qui vous sont propres.
 cards:
   - type: ENGINEER
