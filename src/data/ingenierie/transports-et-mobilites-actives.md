@@ -61,25 +61,26 @@ sections:
           #### Nos objectifs
 
 
-          Concevoir un programme d’amélioration des conditions d’accessibilité et de sécurité : 
+          Concevoir un programme d’amélioration des conditions d’accessibilité et de sécurité :
 
 
-          * Recenser les points forts et points faibles de la voirie et des points d’arrêts de transport en commun 
+          * Recenser les points forts et points faibles de la voirie et des points d’arrêts de transport en commun
 
+          * Proposer des aménagements types en fonction des contraintes existantes
 
-
-
-          * Proposer des aménagements types en fonction des contraintes existantes 
-
-
-
-
-          * Engager la mise en accessibilité sur l’ensemble des parcours voyageurs 
-
-
-
+          * Engager la mise en accessibilité sur l’ensemble des parcours voyageurs
 
           * Disposer d’un outil numérique de suivi des conditions d’accessibilité
+
+
+
+
+          #### Notre accompagnement
+
+
+          * Outils numérique de saisie de la donnée
+
+          * Préconisation des axes prioritaires de déplacement
     col2:
       reverseMobile: false
       text:
@@ -98,20 +99,14 @@ sections:
       reverseMobile: false
       text:
         content: |-
-          #### Notre accompagnement
-
-          * Outils numérique de saisie de la donnée
-
-
-          * Préconisation des axes prioritaires de déplacement
-
           #### Nous avons leur confiance
 
-          **Grenoble Alpes Métropole** 
+          **Grenoble Alpes Métropole**
           Réalisation d’un schéma directeur d’accessibilité de la voirie 
 
           **Pays de La Loire** 
           Réalisation d’audit de point d’arrêt bus (Aléops)
+        color: blue
     col3:
       reverseMobile: false
 footer:
