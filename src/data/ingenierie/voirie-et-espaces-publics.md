@@ -83,7 +83,7 @@ sections:
           * Outils informatiques de relevé et de mise à jour de la donnée
     col3:
       reverseMobile: false
-  - inverseCol: false
+  - inverseCol: true
     col1:
       reverseMobile: false
       text:
