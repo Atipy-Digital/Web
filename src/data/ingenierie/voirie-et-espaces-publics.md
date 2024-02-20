@@ -20,9 +20,7 @@ intro: >-
   ### Relevé et stratégie de mise en accessibilité
 
 
-  Quoi faire, par où commencer et quels sont les facteurs clés de succès de la mise en accessibilité&nbsp;?\
-
-  **Atipy met son expérience à votre profit.**
+  Quoi faire, par où commencer et quels sont les facteurs clés de succès de la mise en accessibilité&nbsp;? **Atipy met son expérience à votre profit.**
 sections:
   - inverseCol: false
     col1:
