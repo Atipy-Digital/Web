@@ -23,7 +23,7 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/offer-w-access-mobilite_actives.png)"
+        content: "![](/media/offer-w-access-mobilite_actives.jpg)"
     col2:
       reverseMobile: false
     col3:
