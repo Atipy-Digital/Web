@@ -82,7 +82,7 @@ sections:
 
           * Préconisation des axes prioritaires de déplacement
     col2:
-      reverseMobile: false
+      reverseMobile: true
       text:
         content: "![](/media/carto-mobilite-atipy.jpg)"
     col3:
