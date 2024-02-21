@@ -5,9 +5,12 @@ bannerData:
 
     d’un monde plus **accessible.**
 introData:
-  title: Nous mettons à votre disposition nos compétences en ***accessibilité***
-    et ***conception universelle*** dans les domaines du ***digital,***
-    ***design,*** aménagement, urbanisme et mobilité.
+  title: Nous mettons à votre disposition nos compétences en
+    ***[accessibilité](https://atipy.fr/expertises/ingenierie)*** et
+    ***[conception universelle](https://atipy.fr/agence/conception)*** dans les
+    domaines du ***[digital](https://atipy.fr/expertises/digital),***
+    ***[design](https://atipy.fr/expertises/design),*** aménagement, urbanisme
+    et mobilité.
   button:
     label: Nos expertises
     url: /expertises
@@ -55,6 +58,7 @@ projectData:
   home_projects:
     - charte-signale-tique-accessible-pour-les-itine-raires-velo
     - document-falc
+    - diagnostic-accessibilite-et-adap-du-ministere-des-armees
 newsletterData:
   title: |-
     Veille et actualités
