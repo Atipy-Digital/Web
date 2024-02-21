@@ -7,6 +7,7 @@ date: 2023-07-16T14:04:43.391Z
 timeToRead: 1 à 5 min
 post_tags:
   - Signalétique
+  - Design
 post_sections:
   - col1:
       reverseMobile: false
