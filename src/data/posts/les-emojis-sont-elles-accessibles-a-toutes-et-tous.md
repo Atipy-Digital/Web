@@ -2,13 +2,15 @@
 metadata:
   title: Les emojis sont-elles accessibles à toutes et tous
   description: Les emojis sont-elles accessibles à toutes et tous
+  keywords:
+    - keyword: emoji
 title: Les emojis sont-elles accessibles à toutes et tous
 date: 2023-07-16T18:09:25.003Z
 timeToRead: 1 à 5 min
 post_tags:
   - Digital
-  - Ingénierie
   - Design
+  - FALC
 post_sections:
   - col1:
       reverseMobile: false
