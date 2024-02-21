@@ -9,7 +9,9 @@ sections:
   - col1:
       reverseMobile: false
       text:
-        content: "![](/media/concertation-handicap-association-atipy.jpg)"
+        content: "![Une personne est assise dans un fauteuil roulant dont on voit le bas
+          des roues. A gauche se trouve une personne
+          debout.](/media/concertation-handicap-association-atipy-2.jpg)"
       image:
         url: ""
     col2:
