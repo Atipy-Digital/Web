@@ -4,7 +4,10 @@ intro: >-
   ### Nous sensibilisons et formons vos équipes
 
 
-  **Conception universelle, accueil du public, cadre bâti Facile à Lire et à Comprendre, signalétique accessible… Découvrez nos thématiques et nos formats.**
+  Conception universelle, accueil du public, cadre bâti Facile à Lire et à Comprendre, signalétique accessible… 
+
+
+  Découvrez nos thématiques et nos formats.
 sections:
   - inverseCol: false
     col1:
@@ -49,7 +52,9 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "### N﻿os formations"
+        content: "![Huit personnes sont autour d'une table. Le formateur est debout en
+          face d'eux en train de
+          parler.](/media/formation-atipy-accessibilite-handicap.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -89,6 +94,8 @@ sections:
 
 
           * A﻿rchitectes
+      image:
+        url: /media/formation-conference-atipy-accessibilite-design.jpg
     col2:
       reverseMobile: false
       text:
