@@ -7,7 +7,7 @@ date: 2023-07-16T18:10:39.585Z
 timeToRead: 5 à 10 min
 post_tags:
   - Digital
-  - Ingénierie
+  - Design
 post_sections:
   - col1:
       reverseMobile: false
