@@ -63,33 +63,12 @@ sections:
           #### À qui sont destinés ces formations ?
 
           * Référents handicap
-
-
-
           * Chargés de communication
-
-
-
           * Managers
-
-
-
           * Structures accueillant du public
-
-
-
           * Freelances et indépendants 
-
-
-
           * Designers, graphistes, maquettistes, infographistes
-
-
-
           * Services techniques
-
-
-
           * A﻿rchitectes
       image:
         url: /media/formation-conference-atipy-accessibilite-design.jpg
