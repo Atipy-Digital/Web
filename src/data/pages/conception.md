@@ -4,7 +4,9 @@ intro: >-
   textes réglementaires permettent la prise en compte de la diversité et des
   besoins du public.
 
-  Pour aller plus loin, Atipy applique les préceptes de **la Conception Universelle.**
+
+
+  Pour aller plus loin, Atipy applique les préceptes de **la conception universelle.**
 sections:
   - col1:
       reverseMobile: false
@@ -62,9 +64,18 @@ sections:
           * **Sécurisé&nbsp;:** éviter les risques ou dangers liés à son
           utilisation.
 
+
+
+
           * **Respectueux de la Diversité&nbsp;:** penser une utilisation égalitaire, paritaire auprès d’utilisateurs aux capacités multiples et différentes.
 
+
+
+
           * **Confortable pour tous&nbsp;:** permettre son utilisation dans un bien-être physique et psychologique, tout en nécessitant un faible effort.
+
+
+
 
           * **Fonctionnel&nbsp;:** imaginer qu’il soit pratique et utilisable quelles que soient la taille, la posture ou la mobilité de l’usager.
     col2:
@@ -75,7 +86,13 @@ sections:
           environnement pratique et esthétique. La conception universelle est
           compatible avec la notion de « beau ».
 
+
+
+
           * **Compréhensible&nbsp;:** se questionner sur l’accessibilité des informations ou du service, quelles que soient les connaissances ou les facilités de compréhension de l’utilisateur.
+
+
+
 
           * **Simple&nbsp;:** permettre un usage intuitif et facile de l’utilisation en allant à l’essentiel.
     col3:
@@ -88,6 +105,15 @@ sections:
           et de solutions numériques. Nous accordons à nos clients une attention
           égale quelque soit leur notoriété ou le montant du contrat.
         color: null
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "[D﻿écouvrez nos projets inclusifs](https://atipy.fr/realisations)"
     col2:
       reverseMobile: false
     col3:
