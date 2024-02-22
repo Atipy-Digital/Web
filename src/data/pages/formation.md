@@ -72,7 +72,7 @@ sections:
           * Services techniques
           * A﻿rchitectes
       image:
-        url: /media/formation-conference-atipy-accessibilite-design.jpg
+        url: ""
     col2:
       reverseMobile: false
       text:
