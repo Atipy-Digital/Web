@@ -11,7 +11,7 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          #### C﻿onseil et assistance à maitrise d'ouvrage
+          ### C﻿onseil et assistance à maitrise d'ouvrage
 
 
           Nos consultants et experts seniors vous accompagnent dans vos stratégies
