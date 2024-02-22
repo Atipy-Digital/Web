@@ -101,9 +101,12 @@ sections:
       reverseMobile: false
       text:
         content: Atipy est à votre écoute pour vous proposer des prestations sur-mesure
-          afin de répondre à vos besoins en matière d’accessibilité, de design
-          et de solutions numériques. Nous accordons à nos clients une attention
-          égale quelque soit leur notoriété ou le montant du contrat.
+          afin de répondre à vos besoins en matière
+          d’[accessibilité](https://atipy.fr/expertises/ingenierie), de
+          [design](https://atipy.fr/expertises/design) et de [solutions
+          numériques](https://atipy.fr/expertises/digital). Nous accordons à nos
+          clients une attention égale quelque soit leur notoriété ou le montant
+          du contrat.
         color: null
     col2:
       reverseMobile: false
