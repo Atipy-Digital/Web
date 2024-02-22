@@ -10,6 +10,10 @@ sections:
     col1:
       reverseMobile: false
       text:
+        content: "![](/media/conseil-assitance-maitrise-ouvrage.jpg)"
+    col2:
+      reverseMobile: false
+      text:
         content: >-
           ### C﻿onseil et assistance à maitrise d'ouvrage
 
@@ -29,10 +33,6 @@ sections:
 
 
           Avec vous, nous mettons en place des méthodologies transverses à l'ensemble de vos activités, services ou territoires. Nous réalisons des rapports d'étonnement, point de départ pour l'amélioration de l'accessibilité et de l'expérience utilisateur.
-    col2:
-      reverseMobile: false
-      text:
-        content: "![](/media/conseil-assitance-maitrise-ouvrage.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
