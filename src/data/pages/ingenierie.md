@@ -22,7 +22,7 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          #### U﻿ne équipe expérimentée
+          #### Une équipe expérimentée
 
 
           Notre expérience, et les solutions logicielles que nous avons développées, nous permettent de répondre à vos demandes concernant les thématiques suivantes :
@@ -30,23 +30,13 @@ sections:
 
           * D﻿iagnostic
 
-
-
           * A﻿MO et AMOe
-
-
 
           * S﻿uivi d'AD'AP
 
-
-
           * D﻿émarches administratives
 
-
-
           * R﻿egistre public d'accessibilité
-
-
 
           * R﻿elevés multitechniques
     col2:
