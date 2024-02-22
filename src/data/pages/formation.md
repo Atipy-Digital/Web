@@ -45,7 +45,16 @@ sections:
     col2:
       reverseMobile: false
       text:
+        content: ""
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: "### N﻿os formations"
+    col2:
+      reverseMobile: false
     col3:
       reverseMobile: false
   - col1:
