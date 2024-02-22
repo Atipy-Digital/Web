@@ -11,7 +11,7 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          ### C﻿onseil et assistance à maitrise d'ouvrage
+          #### C﻿onseil et assistance à maitrise d'ouvrage
 
 
           Nos consultants et experts seniors vous accompagnent dans vos stratégies
@@ -19,30 +19,20 @@ sections:
 
           * d'accessibilité patrimoniale
 
-
-
-
           * d﻿'accessibilité de l'espace public
-
-
-
 
           * de communication accessible
 
-
-
-
           * d﻿'accueil du public en situation de handicap
-
-
-
 
           * d﻿e ressources humaines
 
 
-          A﻿vec vous, nous mettons en place des méthodologies transverses à l'ensemble de vos activités, services ou territoires. Nous réalisons des rapports d'étonnement, point de départ pour l'amélioration de l'accessibilité et de l'expérience utilisateur.
+          Avec vous, nous mettons en place des méthodologies transverses à l'ensemble de vos activités, services ou territoires. Nous réalisons des rapports d'étonnement, point de départ pour l'amélioration de l'accessibilité et de l'expérience utilisateur.
     col2:
       reverseMobile: false
+      text:
+        content: "![](/media/conseil-assitance-maitrise-ouvrage.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
