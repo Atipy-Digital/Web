@@ -1,9 +1,7 @@
 ---
 title: Design
 intro: >-
-  ### Design et accessibilité,\
-
-  c’est possible&nbsp;!
+  ### Design et accessibilité, c’est possible&nbsp;!
 
 
   L’accessibilité aux personnes en situation de handicap est un vaste sujet qui concerne tous les domaines du quotidien&nbsp;: mobilité, santé, culture, social, éducation, logement…
