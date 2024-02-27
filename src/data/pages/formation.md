@@ -39,16 +39,7 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: |-
-          
-
-
-
-
-
-
-
-          ![](/media/formation-atipy-accessibilite-handicap.jpg)
+        content: "![](/media/formation-atipy-accessibilite-handicap.png)"
       image:
         url: ""
     col2:
