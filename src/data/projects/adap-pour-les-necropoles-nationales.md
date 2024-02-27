@@ -5,7 +5,7 @@ metadata:
   keywords:
     - keyword: ADAP
 title: AD'AP pour les nécropoles nationales
-image: /media/sebastien_nb.jpg
+image: /media/reference-ingenierie-adap-necropole.jpg
 project_client: office-national-des-anciens-combattants-et-victimes-de-guerres
 mission_body: AD'AP pour les nécropoles nationales de l'Office Nationale des
   Anciens Combattants et Victimes de Guerres - ONACVG
@@ -32,7 +32,7 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/sebastien_nb.jpg)"
+        content: "![](/media/reference-ingenierie-adap-necropole-1.jpg)"
     col2:
       reverseMobile: false
     col3:
