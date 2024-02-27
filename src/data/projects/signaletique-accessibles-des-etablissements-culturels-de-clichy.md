@@ -6,32 +6,28 @@ metadata:
   keywords:
     - keyword: signaletique
 title: "Signalétique accessible des établissements culturels de Clichy "
-image: /media/clichy-signaletique-culture.jpg
+image: /media/design-reference-clichy-atipy-1.jpg
 project_client: ville-de-clichy
 mission_body: Audit et préconisations pour la communication et la signalétique
   accessibles des établissements culturels
 context_body: >-
   La ville de Clichy-la-Garenne mène une politique volontariste pour l’accès à
   la culture à tous. Elle souhaite donner une priorité à l’accessibilité de ses
-  sites et développer la « culture du handicap ». Au sein d’un groupement
-  d’experts de l’accessibilité, nous avons accompagné la Ville de Clichy dans
-  son projet « Accès à la culture pour tous » pour 5 de ses établissements
-  culturels classés ERP.
+  sites et développer la «&nbsp;culture du handicap&nbsp;». Au sein d’un
+  groupement d’experts de l’accessibilité, nous avons accompagné la Ville de
+  Clichy dans son projet «&nbsp;Accès à la culture pour tous&nbsp;» pour 5 de
+  ses établissements culturels classés ERP.
 
 
-  \- Théâtre Rutebeuf 
+  • Théâtre Rutebeuf 
 
+  • Pavillon Vendôme&nbsp;: Office de tourisme et centre d’art
 
-  \- Pavillon Vendôme : Office de tourisme et centre d’art
+  • Conservatoire Léo Delibes
 
+  • Centre Henri Miller
 
-  \- Conservatoire Léo Delibes
-
-
-  \- Centre Henri Miller
-
-
-  \- Médiathèque Jean d’Ormesson
+  • Médiathèque Jean d’Ormesson
 project_tags:
   - Signalétique
   - Accessibilité
@@ -42,19 +38,15 @@ project_sections:
       reverseMobile: false
       text:
         content: |-
-          ## Les objectifs de la mission
+          #### Les objectifs de la mission
 
           * Favoriser l’autonomie dans les bâtiments.
-
-
-
           * Concevoir une signalétique accessible à tous.
-
-
-
           * Valoriser les équipements culturels de la ville.
     col2:
       reverseMobile: false
+      text:
+        content: ""
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -62,11 +54,11 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ### **Phase 1 :** Évaluation des systèmes d’orientation et des
+          #### Phase 1&nbsp;: Évaluation des systèmes d’orientation et des
           supports de communication
 
 
-          Afin d’identifier les points à améliorer, nos critères d’évaluation sont basés sur :
+          Afin d’identifier les points à améliorer, nos critères d’évaluation sont basés sur&nbsp;:
 
 
           * La facilité de repérage et d’autonomie.
@@ -76,16 +68,9 @@ project_sections:
           * L’appropriation des espaces et services par les usagers.
     col2:
       reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
       text:
         content: "![](/media/atipy-adequat-ville-clichy-communication-signaletique-audi\
-          t-accessibilite-handicap.jpeg)"
-    col2:
-      reverseMobile: false
+          t-accessibilite-handicap.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -93,45 +78,38 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ### **Phase 2** Préconisations et priorisation des points
+          #### **Phase 2**&nbsp;**:**  Préconisations et priorisation des points
           d’amélioration
 
 
           Nous apportons des préconisations en réponse à la réglementation mais également à la **qualité d’usage.**
 
 
-          Nous prenons également en compte les 7 principes de la conception universelle incluant les besoins du plus grand nombre d’usagers. Enfin, nous avons également tenu compte des recommandations la marque Tourisme et Handicap. La marque préconise une signalétique accessible reprenant les grands principes de la loi du 11 février 2005 : clarté, simplicité, compréhension pour tous, lisibilité.
+          Nous prenons également en compte les 7 principes de la conception universelle incluant les besoins du plus grand nombre d’usagers. Enfin, nous avons également tenu compte des recommandations la marque Tourisme et Handicap. La marque préconise une signalétique accessible reprenant les grands principes de la loi du 11 février 2005&nbsp;: clarté, simplicité, compréhension pour tous, lisibilité.
     col2:
       reverseMobile: false
       text:
         content: >-
-          Les thèmes comme « trouver le bâtiment », « trouver des
-          informations », « repérer l’accueil », « être orienté »… sont intégrés
-          dans notre l’audit et nos préconisations. 
+          Les thèmes comme «&nbsp;trouver le bâtiment&nbsp;», «&nbsp;trouver des
+          informations&nbsp;», «&nbsp;repérer l’accueil&nbsp;», «&nbsp;être
+          orienté&nbsp;»… sont intégrés dans notre l’audit et nos
+          préconisations. 
 
 
           Nos recommandations tendent vers des solutions et des services de qualité et de confort d’usage à destination des publics à besoins spécifiques, équivalentes à celles qui sont aujourd’hui proposées à tous les publics.
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: "![](/media/atipy-adequat-ville-clichy-communication-signaletique-prec\
-          onisations-accessibilite-handicap.jpg)"
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: >-
-          ### P﻿hase 3 : Conception de la signalétique du Pavillon Vendôme
+
+
+          #### P﻿hase 3&nbsp;: Conception de la signalétique du Pavillon Vendôme
 
 
           D﻿ans la suite de notre accompagnement, nous avons préconisé des supports de signalétique accessibles pour le Pavillon Vendôme. Bâtiment classé, il abrite un restaurant et des espaces d'expositions.
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/design-reference-clichy-atipy-2.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -141,21 +119,21 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ## Nos partenaires
+          #### Nos partenaires
 
 
-          * Centre Ressource Théâtre Handicap • Experts en médiation culturelle accessible
+          * Centre Ressource Théâtre Handicap&nbsp;: Experts en médiation culturelle accessible
 
-          * Oocity • Experts en parcours d’usagers
+          * Oocity&nbsp;: Experts en parcours d’usagers
 
-          * Esqua • Experts en accessibilité du cadre bâti
+          * Esqua&nbsp;: Experts en accessibilité du cadre bâti
     col2:
       reverseMobile: false
       text:
         content: |-
-          ### Nos domaines d’intervention
+          #### Nos domaines d’intervention
 
-          * Etude et diagnostic de la signalétique
+          * Étude et diagnostic de la signalétique
           * Audit d’accessibilité des supports de communication
           * Préconisations pour l’amélioration de l’accès à l’information
     col3:
