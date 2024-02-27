@@ -38,8 +38,8 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "#### Dans le cadre de ses obligations réglementaires l'ONACVG a
-          missionné ATIPY afin d'analyser les conditions actuelles
+        content: "##### Dans le cadre de ses obligations réglementaires l'ONACVG a
+          missionné Atipy afin d'analyser les conditions actuelles
           d'accessibilité sur plusieurs nécropoles dans le Sud-Est de la
           France."
     col2:
