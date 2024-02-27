@@ -72,7 +72,7 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          #### Etat des lieux et conseil sur la stratégie «&nbsp;accessibilité
+          #### État des lieux et conseil sur la stratégie «&nbsp;accessibilité
           et inclusivité&nbsp;»
 
 
