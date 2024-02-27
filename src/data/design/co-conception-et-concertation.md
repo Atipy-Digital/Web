@@ -20,7 +20,7 @@ intro: >-
   Nous vous accompagnons également dans vos démarches de concertation et de co-design auprès des usagers. Par le biais de réunions et d’ateliers, nous échangeons avec les utilisateurs. En plus de l’enrichissement que cela apporte, consulter les utilisateurs de votre produit ou les bénéficiaires de votre service vous assure une bonne compréhension des besoins et un outil final adapté à la diversité de vos cibles.
 
 
-  Vous souhaitez avoir l’avis des usagers, des associations, des personnes en situation de handicap&nbsp;?
+  **Vous souhaitez avoir l’avis des usagers, des associations, des personnes en situation de handicap&nbsp;?**
 sections:
   - inverseCol: false
     col1:
@@ -115,5 +115,5 @@ footer:
     label: Découvrez nos projets co-construits
     color: green
     tag: FALC
-  titleContact: Vous souhaitez organiser un atelier ou une réunion publique ?
+  titleContact: Vous souhaitez organiser un atelier ou une réunion publique&nbsp;?
 ---
