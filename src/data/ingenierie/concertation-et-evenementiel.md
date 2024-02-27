@@ -23,7 +23,7 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/offer-w-access-concertation.jpg)"
+        content: "![](/media/offer-w-access-concertation.png)"
       image:
         url: ""
     col2:
