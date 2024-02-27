@@ -115,5 +115,5 @@ footer:
     label: Découvrez nos projets co-construits
     color: green
     tag: FALC
-  titleContact: Vous souhaitez organiser un atelier ou une réunion publique&nbsp;?
+  titleContact: Vous souhaitez organiser un atelier ou une réunion publique ?
 ---
