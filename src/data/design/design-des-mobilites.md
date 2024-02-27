@@ -17,7 +17,7 @@ intro: >-
   ### Mobilité, accessibilité et design
 
 
-  A travers nos compétences en design et accessibilité, nous vous accompagnons dans votre projet territorial des mobilités actives.
+  À travers nos compétences en design et accessibilité, nous vous accompagnons dans votre projet territorial des mobilités actives.
 
 
   Comment aménager des espaces cyclables accessibles à tous types d’utilisateurs&nbsp;? Comment mettre en place un système de signalétique favorable aux piétons et aux cyclistes&nbsp;? Comment orienter sur un pôle d'échanges multimodal ou sur une voie verte&nbsp;?
