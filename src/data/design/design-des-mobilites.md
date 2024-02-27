@@ -150,8 +150,9 @@ sections:
       reverseMobile: false
 footer:
   btn:
-    label: Découvrez nos projets !
+    label: Découvrez nos projets&nbsp;!
     color: green
     tag: Signalétique
-  titleContact: Vous avez un projet de signalétique vélo ? Ou d'aménagements cyclables ?
+  titleContact: Vous avez un projet de signalétique vélo&nbsp;? Ou d'aménagements
+    cyclables&nbsp;?
 ---
