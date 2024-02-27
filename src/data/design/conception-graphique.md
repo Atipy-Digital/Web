@@ -86,14 +86,12 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: Associé à du texte, le pictogramme permet de comprendre plus facilement
-          l’information. Dans certains cas, il peut se substituer complètement
-          au texte. Dans la mesure du possible, nous utiliserons des
-          pictogrammes existants standardisés. Pourquoi &nbsp;? La
-          standardisation de ces signes implique qu’ils sont utilisés dans
-          différents contextes. Une meilleure reconnaissance est donc possible
-          car ils ont déjà été identifiés. Dans le cas de pictogrammes
-          spécifiques, nous sont en mesure de les créer.
+        content: >-
+          ##### Associé à du texte, le pictogramme permet de comprendre plus
+          facilement l’information. 
+
+
+          Dans certains cas, il peut se substituer complètement au texte. Dans la mesure du possible, nous utiliserons des pictogrammes existants standardisés. Pourquoi &nbsp;? La standardisation de ces signes implique qu’ils sont utilisés dans différents contextes. Une meilleure reconnaissance est donc possible car ils ont déjà été identifiés. Dans le cas de pictogrammes spécifiques, nous sont en mesure de les créer.
     col3:
       reverseMobile: false
   - inverseCol: false
