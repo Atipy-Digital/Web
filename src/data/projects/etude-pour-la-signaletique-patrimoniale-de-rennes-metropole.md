@@ -140,12 +140,12 @@ project_sections:
 
           * **Un contenu numérique très riche**
     col2:
-      reverseMobile: false
+      reverseMobile: true
       text:
-        content: "![](/media/realisation-design-signaletique-patrimoine-rennes-2.png)"
+        content: "![](/media/design-reference-rennes-metropole-atipy-4.jpg)"
     col3:
       reverseMobile: false
-  - inverseCol: false
+  - inverseCol: true
     col1:
       reverseMobile: false
       text:
