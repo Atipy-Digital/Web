@@ -39,19 +39,6 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/formation-atipy-accessibilite-handicap.png)"
-      image:
-        url: ""
-    col2:
-      reverseMobile: false
-      text:
-        content: ""
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
         content: "### N﻿os formations"
     col2:
       reverseMobile: false
@@ -110,4 +97,17 @@ sections:
 
 
           Nos formations sont ponctuées de mises en situation, d’exercices ludiques, d’exemples et d’études de cas.
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/formation-atipy-accessibilite-handicap.png)"
+      image:
+        url: ""
+    col2:
+      reverseMobile: false
+      text:
+        content: ""
+    col3:
+      reverseMobile: false
 ---
