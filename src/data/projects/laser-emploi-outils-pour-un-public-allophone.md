@@ -13,20 +13,12 @@ mission_body: Création d’outils de communication pour l’accueil de publics
   allophones et/ou illettrés dans un parcours d’insertion professionnelle.
 context_body: >-
   L’insertion par l’activité économique a pour objet de permettre à des
-  personnes sans emploi,\
-
-  rencontrant des difficultés sociales et professionnelles particulières, de bénéficier de contrats de\
-
-  travail en vue de faciliter leur insertion professionnelle.
+  personnes sans emploi, rencontrant des difficultés sociales et
+  professionnelles particulières, de bénéficier de contrats de travail en vue de
+  faciliter leur insertion professionnelle.
 
 
-  Durant leurs 2 années dans la structure d’insertion, les salariés en insertion rentrent dans une logique\
-
-  de parcours comprenant différentes étapes de l’accueil à la sortie en emploi ou formation. La première\
-
-  étape de l’accueil est primordiale pour s’assurer que les salariés intégrant la structure puissent\
-
-  comprendre son fonctionnement, les missions qu’ils vont réaliser et la logique de parcours.
+  Durant leurs 2 années dans la structure d’insertion, les salariés en insertion rentrent dans une logique de parcours comprenant différentes étapes de l’accueil à la sortie en emploi ou formation. La première étape de l’accueil est primordiale pour s’assurer que les salariés intégrant la structure puissent comprendre son fonctionnement, les missions qu’ils vont réaliser et la logique de parcours.
 project_tags:
   - FALC
   - Design
