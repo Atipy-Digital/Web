@@ -22,13 +22,7 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: >-
-          ![](/media/expertise-identite-visuelle-atipy-accessibilite-1.jpg)
-
-
-
-
-          Avant d’imaginer un plan de communication, avant d’élaborer des supports, il est nécessaire d’avoir une identité visuelle cohérente. L’image de votre structure et sa notoriété passent par l’impact de votre logo, véritable élément fondateur de votre identité, et de ses déclinaisons (cartes de visite, sites web, brochures, etc). Indissociables, ils traduisent vos valeurs et votre positionnement.
+        content: "![](/media/expertise-identite-visuelle-atipy-accessibilite-1.jpg)"
       image:
         url: ""
     col2:
@@ -41,16 +35,17 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![]()"
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
         content: >-
+          Avant d’imaginer un plan de communication, avant d’élaborer des
+          supports, il est nécessaire d’avoir une identité visuelle cohérente.
+          L’image de votre structure et sa notoriété passent par l’impact de
+          votre logo, véritable élément fondateur de votre identité, et de ses
+          déclinaisons (cartes de visite, sites web, brochures, etc).
+          Indissociables, ils traduisent vos valeurs et votre positionnement.
+
+
+
+
           #### Alors comment concilier impact et compréhension&nbsp;?
 
 
