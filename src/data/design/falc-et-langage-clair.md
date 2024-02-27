@@ -30,9 +30,6 @@ intro: >-
 
 
   Documents administratifs, contrats juridiques, formulaires d’inscription ou encore site internet sont souvent des supports utilisant une rédaction complexe (phrases longues, vocabulaire élaboré ou technique, texte dense…)
-
-
-  **Nous croyons que la diffusion d’informations claires et simples contribue à conserver dignité et autonomie pour le plus grand nombre.**
 sections:
   - inverseCol: false
     col1:
@@ -50,6 +47,11 @@ sections:
       reverseMobile: false
       text:
         content: >-
+          > **Nous croyons que la diffusion d’informations claires et simples
+          contribue à conserver dignité et autonomie pour le plus grand
+          nombre.**
+
+
           #### Des informations claires profitent aux personnes&nbsp;:
 
 
