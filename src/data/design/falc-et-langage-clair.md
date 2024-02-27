@@ -47,9 +47,8 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          > **Nous croyons que la diffusion d’informations claires et simples
-          contribue à conserver dignité et autonomie pour le plus grand
-          nombre.**
+          > ### Nous croyons que la diffusion d’informations claires et simples
+          contribue à conserver dignité et autonomie pour le plus grand nombre.
 
 
           #### Des informations claires profitent aux personnes&nbsp;:
