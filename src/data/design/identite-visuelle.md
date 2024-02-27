@@ -13,9 +13,7 @@ intro: >-
   ### Nous créons votre identité visuelle
 
 
-  Association, nouveau service usagers, entreprise, vous avez besoin d’un logo pour lancer votre communication&nbsp;?
-
-  Communautés d’agglomération, collectivités, vous souhaitez réaliser une identité visuelle propre à votre CCAS, vos services usagers, vos événements&nbsp;?
+  Association, nouveau service usagers, entreprise, vous avez besoin d’un logo pour lancer votre communication&nbsp;? Communautés d’agglomération, collectivités, vous souhaitez réaliser une identité visuelle propre à votre CCAS, vos services usagers, vos événements&nbsp;?
 
 
   La conception de votre logotype ou de votre identité visuelle institutionnelle ou évènementielle est une étape fondamentale dans votre communication. La promotion de votre offre, de votre service ou de vos évènements permet de toucher votre public et de créer une relation durable.
