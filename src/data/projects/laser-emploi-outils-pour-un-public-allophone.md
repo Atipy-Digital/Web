@@ -47,9 +47,7 @@ project_sections:
           #### **Problématique**
 
 
-          Comment transmettre les informations essentielles aux salariées lors de leur\
-
-          accueil dans la structure ? Comment faciliter l’appropriation du parcours d’insertion ?
+          Comment transmettre les informations essentielles aux salariées lors de leur accueil dans la structure&nbsp;? Comment faciliter l’appropriation du parcours d’insertion&nbsp;?
     col2:
       reverseMobile: false
       text:
