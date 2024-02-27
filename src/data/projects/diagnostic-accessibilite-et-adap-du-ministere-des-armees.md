@@ -7,7 +7,7 @@ metadata:
     - keyword: Diagnostic
     - keyword: Ministère
 title: Diagnostic Accessibilité et AD'AP du Ministère des Armées
-image: /media/sebastien_nb.jpg
+image: /media/reference-ingenierie-adap-ministere-de-la-defense.jpg
 project_client: ministere-des-armees
 mission_body: R﻿éalisation du diagnostic et de l'Agenda d'Accessibilité
   Programmée du Ministère des Armées.
@@ -39,23 +39,23 @@ project_sections:
       reverseMobile: false
       text:
         content: |-
-          ### **Nos domaines d’intervention sur cette mission**
+          #### **Nos domaines d’intervention sur cette mission**
 
-          * diagnostic d’accessibilité
-          * programmation
-          * concertation
+          * Diagnostic d’accessibilité
+          * Programmation
+          * Concertation
           * Ad’AP
     col2:
       reverseMobile: false
       text:
         content: >-
-          ### **Le témoignage du client**
+          #### **Le témoignage du client**
 
 
           **Capitaine Michel Wenzel – Responsable de la mission Ad’AP** 
 
 
-          « Je souhaite, par ce message, souligner le professionnalisme, l’enthousiasme, la bonhomie dont vous avez fait preuve lors de nos rencontres. Je remercie chacun de vous dans la réponse que vous avez su apporter à l’épineux problème de mise en accessibilité des ERP du ministère de la Défense pour la zone nord-ouest. Ce fut un réel plaisir de travailler en votre compagnie.»
+          « &nbsp;Je souhaite, par ce message, souligner le professionnalisme, l’enthousiasme, la bonhomie dont vous avez fait preuve lors de nos rencontres. Je remercie chacun de vous dans la réponse que vous avez su apporter à l’épineux problème de mise en accessibilité des ERP du ministère de la Défense pour la zone nord-ouest. Ce fut un réel plaisir de travailler en votre compagnie.&nbsp;»
         color: blue
     col3:
       reverseMobile: false
