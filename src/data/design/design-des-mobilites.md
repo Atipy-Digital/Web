@@ -127,12 +127,12 @@ sections:
           #### Le design actif, une activité physique pour toutes et tous
 
 
-          ##### Le design actif a pour objectif d’inciter à une activité physique dans l’espace public. Cela permet aux personnes éloignées de l’activité physique et sportive de pratiquer de façon libre et ouverte.
+          Le design actif a pour objectif d’inciter à une activité physique dans l’espace public. Cela permet aux personnes éloignées de l’activité physique et sportive de pratiquer de façon libre et ouverte.
     col2:
       reverseMobile: false
       text:
         content: >-
-          Les principes du design actif rejoignent ceux de la conception
+          ##### Les principes du design actif rejoignent ceux de la conception
           universelle :
 
 
