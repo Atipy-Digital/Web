@@ -107,7 +107,7 @@ sections:
 
           * Favoriser l’utilisation d’exemples.
 
-          * Ecrire au présent.
+          * Écrire au présent.
 
           * Une information en FALC peut également être accompagnée d’une image ou d’un pictogramme.
 
