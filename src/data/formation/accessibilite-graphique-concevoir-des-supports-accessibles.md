@@ -33,13 +33,7 @@ intro: >-
   **+ Pour qui ?** : Chargés de communication, designers, graphistes, maquettistes, référent handicap, service technique, service du patrimoine, chargés de médiation culturelle.
 
 
-
-
-  ```
-
-  <hr>
-
-  ```
+  <﻿hr>
 sections:
   - inverseCol: false
     col1:
@@ -56,15 +50,7 @@ sections:
           * Désigner les différentes clefs pour concevoir des supports accessibles
 
 
-
-
-
-
-          ```
-
-          <hr>
-
-          ```
+          <﻿hr>
         color: green
     col2:
       reverseMobile: false
