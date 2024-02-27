@@ -111,7 +111,7 @@ sections:
           * Une information en FALC peut également être accompagnée d’une image ou d’un pictogramme.
 
 
-          [D﻿écouvrez également nos formations](https://atipy.netlify.app/expertises/formation)
+          [D﻿écouvrez également nos formations](https://atipy.fr/expertises/formation)
     col3:
       reverseMobile: false
   - inverseCol: false
