@@ -96,7 +96,7 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          ### Nos prestations
+          #### Nos prestations
 
 
           Aussi, nous vous accompagnons pour :
@@ -124,12 +124,16 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          ### Le design actif, une activité physique pour toutes et tous
+          #### Le design actif, une activité physique pour toutes et tous
 
 
-          Le design actif a pour objectif d’inciter à une activité physique dans l’espace public. Cela permet aux personnes éloignées de l’activité physique et sportive de pratiquer de façon libre et ouverte. 
-
-          Les principes du design actif rejoignent ceux de la conception universelle :
+          ##### Le design actif a pour objectif d’inciter à une activité physique dans l’espace public. Cela permet aux personnes éloignées de l’activité physique et sportive de pratiquer de façon libre et ouverte.
+    col2:
+      reverseMobile: false
+      text:
+        content: >-
+          Les principes du design actif rejoignent ceux de la conception
+          universelle :
 
 
           * La libre utilisation
@@ -139,13 +143,9 @@ sections:
           * La conception centrée sur l’usage
 
           * L’incitation, notamment par le nudge.
-    col2:
-      reverseMobile: false
-      text:
-        content: "Chez Atipy, nous utilisons les principes du design actif comme outil
-          au service de la mobilité et de l’accessibilité : développement
-          d’aménagements cyclables accessibles, création de systèmes
-          signalétiques, mise en place de services et identité territoriale…"
+
+
+          Chez Atipy, nous utilisons les principes du design actif comme outil au service de la mobilité et de l’accessibilité : développement d’aménagements cyclables accessibles, création de systèmes signalétiques, mise en place de services et identité territoriale…
     col3:
       reverseMobile: false
 footer:
