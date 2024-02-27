@@ -29,7 +29,7 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/sebastien_nb.jpg)"
+        content: "![](/media/reference-ingenierie-adap-ministere-de-la-defense-2.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -55,7 +55,7 @@ project_sections:
           **Capitaine Michel Wenzel – Responsable de la mission Ad’AP** 
 
 
-          « &nbsp;Je souhaite, par ce message, souligner le professionnalisme, l’enthousiasme, la bonhomie dont vous avez fait preuve lors de nos rencontres. Je remercie chacun de vous dans la réponse que vous avez su apporter à l’épineux problème de mise en accessibilité des ERP du ministère de la Défense pour la zone nord-ouest. Ce fut un réel plaisir de travailler en votre compagnie.&nbsp;»
+          «&nbsp;Je souhaite, par ce message, souligner le professionnalisme, l’enthousiasme, la bonhomie dont vous avez fait preuve lors de nos rencontres. Je remercie chacun de vous dans la réponse que vous avez su apporter à l’épineux problème de mise en accessibilité des ERP du ministère de la Défense pour la zone nord-ouest. Ce fut un réel plaisir de travailler en votre compagnie.&nbsp;»
         color: blue
     col3:
       reverseMobile: false
