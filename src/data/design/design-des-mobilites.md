@@ -20,7 +20,7 @@ intro: >-
   A travers nos compétences en design et accessibilité, nous vous accompagnons dans votre projet territorial des mobilités actives.
 
 
-  Comment aménager des espaces cyclables accessibles à tous types d’utilisateurs ? Comment mettre en place un système de signalétique favorable aux piétons et aux cyclistes ? Comment orienter sur un pôle d'échanges multimodal ou sur une voie verte ?
+  Comment aménager des espaces cyclables accessibles à tous types d’utilisateurs&nbsp;? Comment mettre en place un système de signalétique favorable aux piétons et aux cyclistes&nbsp;? Comment orienter sur un pôle d'échanges multimodal ou sur une voie verte&nbsp;?
 sections:
   - inverseCol: false
     col1:
@@ -49,7 +49,7 @@ sections:
           active.
 
 
-          Comment impliquer les utilisateurs dans vos conception d’aménagements cyclables ? Comment créer une identité impactante sur l’ensemble d’un territoire cyclable ? Comment informer tous les publics des services liés au vélo ? Comment créer une signalétique d’orientation accessible destinée aux cyclistes ? Comment permettre une bonne expérience à tous types d’utilisateurs ?
+          Comment impliquer les utilisateurs dans vos conception d’aménagements cyclables&nbsp;? Comment créer une identité impactante sur l’ensemble d’un territoire cyclable&nbsp;? Comment informer tous les publics des services liés au vélo&nbsp;? Comment créer une signalétique d’orientation accessible destinée aux cyclistes&nbsp;? Comment permettre une bonne expérience à tous types d’utilisateurs&nbsp;?
 
 
           Pour vous accompagner dans vos réflexions et démarches de conception, notre équipe pluridisciplinaire est composée de consultants en accessibilité, designers et urbanistes. Nous utilisons les principes de la conception universelle et du design actif.
@@ -67,23 +67,11 @@ sections:
 
           * Concevoir des espaces de circulation accessibles et inclusifs
 
-
-
-
           * Permettre à tous et toutes de se déplacer et de pratiquer le vélo ou la marche
-
-
-
 
           * Renforcer l’attractivité et l’utilisabilité des voies vertes ou pistes cyclables
 
-
-
-
           * Faire connaître les offres de mobilités actives accessibles
-
-
-
 
           * Permettre à tous et toutes de vivre une expérience agréable de la pratique du vélo.
       image:
@@ -100,7 +88,7 @@ sections:
         content: ""
   - inverseCol: false
     col1:
-      reverseMobile: false
+      reverseMobile: true
       text:
         content: "![](/media/design-expertise-mobilite-velo-signaletique-plan-atipy-4.j\
           pg)"
@@ -146,25 +134,18 @@ sections:
 
           * La libre utilisation
 
-
-
-
           * La mixité et l'inclusion
-
-
-
 
           * La conception centrée sur l’usage
 
-
-
-
           * L’incitation, notamment par le nudge.
-
-
-          Chez Atipy, nous utilisons les principes du design actif comme outil au service de la mobilité et de l’accessibilité : développement d’aménagements cyclables accessibles, création de systèmes signalétiques, mise en place de services et identité territoriale…
     col2:
       reverseMobile: false
+      text:
+        content: "Chez Atipy, nous utilisons les principes du design actif comme outil
+          au service de la mobilité et de l’accessibilité : développement
+          d’aménagements cyclables accessibles, création de systèmes
+          signalétiques, mise en place de services et identité territoriale…"
     col3:
       reverseMobile: false
 footer:
