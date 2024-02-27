@@ -6,7 +6,7 @@ metadata:
     - keyword: signaletique
     - keyword: ministère
 title: Signalétique du Ministère des Affaires Etrangères
-image: /media/realisation-signaletique-ministere-accessibilite-atipy-1.jpg
+image: /media/design-reference-ministere-aff-etrengere-atipy-1.jpg
 project_client: ministere-de-leurope-et-des-affaires-etrangeres
 mission_body: Création de la signalétique intérieure du Ministères des Affaires Étrangères
 context_body: De 1925 à 2013, le bâtiment qui accueille aujourd’hui le Ministère
@@ -23,16 +23,6 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/ministere-affaire-etrangeres-signaletique-agence-adequat-3\
-          -e1525336835304.jpeg)"
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
         content: >-
           Le pôle design a réalisé la charte signalétique, en harmonie avec
           l’environnement architectural, afin de permettre aux employés et
@@ -43,6 +33,37 @@ project_sections:
           Couleur de fond rappelant celle des piliers métalliques. La couleur foncé permet un très bon contraste avec l’utilisation du blanc ou du bleu clair pour le texte et les pictogrammes.
     col2:
       reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/design-reference-ministere-aff-etrengere-atipy-3.jpg)"
+    col2:
+      reverseMobile: false
+      text:
+        content: "![](/media/design-reference-ministere-aff-etrengere-atipy-4.jpg)"
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/design-reference-ministere-aff-etrengere-atipy-2.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/design-reference-ministere-aff-etrengere-atipy-5.jpg)"
+    col2:
+      reverseMobile: false
+      text:
+        content: "![](/media/design-reference-ministere-aff-etrengere-atipy-6.jpg)"
     col3:
       reverseMobile: false
 projectsFeatured:
