@@ -69,8 +69,9 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/atipy-adequat-ville-clichy-communication-signaletique-audi\
-          t-accessibilite-handicap.jpg)"
+        content: "![Aperçu du rapport d'audit sous forme de
+          tableau](/media/atipy-adequat-ville-clichy-communication-signaletique\
+          -audit-accessibilite-handicap.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -109,7 +110,20 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/design-reference-clichy-atipy-2.jpg)"
+        content: "![Aperçu du cahier de préconisations pour l'accessibilité de
+          l'information à tous les
+          publics.](/media/design-reference-clichy-atipy-2.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![Charte signalétique détaillant les support pour le Pavillon
+          Vendome.](/media/atipy-clichy-signaletique-culture-accessibilite-char\
+          te-signale-tique-1.png)"
     col2:
       reverseMobile: false
     col3:
