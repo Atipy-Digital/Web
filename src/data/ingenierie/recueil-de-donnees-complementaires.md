@@ -24,7 +24,8 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/securite-incendie-releves-multitechnique-atipy.jpg)"
+        content: "![Extincteur rouge posé au sol vu de
+          dessus.](/media/securite-incendie-releves-multitechnique-atipy.jpg)"
     col2:
       reverseMobile: false
       text:
@@ -86,12 +87,13 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: '![](/media/releve-multitechnique-atipy.jpg "Relevé Extincteur")'
+        content: "![Gaines métallique en enfilade sous un
+          plafond.](/media/releve-multitechnique-atipy.jpg)"
     col3:
       reverseMobile: false
 footer:
   btn:
-    label: Découvrez nos relevés complémentaires
+    label: "Découvrez nos projets "
     color: blue
     tag: Ingénierie
   titleContact: Besoin d'effectuer un relevé ?
