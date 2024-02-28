@@ -71,8 +71,10 @@ sections:
 
 
           Nous vous proposons des formations.
-
-
+    col3:
+      reverseMobile: false
+      text:
+        content: >-
           #### A﻿tipy
 
 
@@ -83,7 +85,21 @@ sections:
           * p﻿articipe à des conférences.
 
           * adapte sa posture et ses outils pédagogiques aux stagiaires en situation de handicap.
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/formation-atipy-accessibilite-handicap.png)"
+      image:
+        url: ""
+    col2:
+      reverseMobile: false
+      text:
+        content: ""
     col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
       reverseMobile: false
       text:
         content: >-
@@ -97,17 +113,8 @@ sections:
 
 
           Nos formations sont ponctuées de mises en situation, d’exercices ludiques, d’exemples et d’études de cas.
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: "![](/media/formation-atipy-accessibilite-handicap.png)"
-      image:
-        url: ""
     col2:
       reverseMobile: false
-      text:
-        content: ""
     col3:
       reverseMobile: false
 ---
