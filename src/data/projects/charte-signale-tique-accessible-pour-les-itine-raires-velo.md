@@ -66,14 +66,18 @@ project_sections:
           * En cohérence avec la charte randonnée du département
       image:
         url: /media/realisation-signaletique-velo-pyrennees-atipy-totem.jpg
+        legend: "4 types de supports signalétique différents en bois : un grand totem de
+          départ, deux supports d'information sur pied, un potelet."
     col3:
       reverseMobile: false
   - col1:
       reverseMobile: false
       text:
-        content: '![illustration charte
-          graphique](/media/realisation-signaletique-velo-pyrenees-atlantique-atipy-2.jpg
-          "illustration charte graphique")'
+        content: "![Extrait de la charte signalétique présentant 3 pages avec une carte
+          d'un itinéraire, des préconisations pour la bonne implantation des
+          supports et le détail du grand totem de
+          départ.](/media/realisation-signaletique-velo-pyrenees-atlantique-ati\
+          py-2.jpg \"illustration charte graphique\")"
     col2:
       reverseMobile: false
     col3:
@@ -101,19 +105,26 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/design-expertise-mobilite-velo-signaletique-plan-atipy-4.j\
+        content: "![Recto de la fiche FALC avec une carte schématique de l'itinéraire
+          allant d'Artiguelouve à
+          Laroin.](/media/design-expertise-mobilite-velo-signaletique-plan-atip\
+          y-4.jpg)"
+    col2:
+      reverseMobile: false
+      text:
+        content: "![Verso de la fiche FALC donnant les détails des éléments que le
+          cycliste va rencontrer sur son chemin. par exemple, le temps et la
+          distance du parcours, les obstacles ou points
+          d'intérêt.](/media/202312-py-velo-fiches-falc-def_plan-de-travail-1.j\
           pg)"
-    col2:
-      reverseMobile: false
-      text:
-        content: "![](/media/202312-py-velo-fiches-falc-def_plan-de-travail-1.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/atipy-fiches-falc-pyrennees-velo.jpg)"
+        content: "![Carte ouverte avec le parcours d'un des itinéraires
+          cyclables](/media/atipy-fiches-falc-pyrennees-velo.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -122,8 +133,10 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/pyrenees-atlantiques-velo-signaletique-arrivee-catagnede-v\
-          2.jpg)"
+        content: "![Fin d'un parcours accessible devant un pont métallique. Avant le
+          pont est implanté un panneau avec écrit \"arrivée\".
+          ](/media/pyrenees-atlantiques-velo-signaletique-arrivee-catagnede-v2.\
+          jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -148,7 +161,7 @@ project_sections:
     col3:
       reverseMobile: false
 projectsFeatured:
-  - document-falc
+  - signaletique-du-pole-dechanges-multimodal
 footer:
   btn:
     label: Découvrez nos projets signalétique
