@@ -29,8 +29,11 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/design-livret-accessible-amnesty-international-atipy-1.jpg\
-          )"
+        content: "![Les cahiers pédagogiques avec la nouvelle ligne graphique du service
+          Education aux droits humains : couleur violette, utilisation de
+          pictogrammes, liseret jaune Amnesty International en bas de
+          page.](/media/design-livret-accessible-amnesty-international-atipy-1.\
+          jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -86,16 +89,20 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/design-livret-accessible-amnesty-international-atipy-2.jpg\
-          )"
+        content: "![Aperçu de l'audit de l'accessibilité des supports de
+          communication](/media/design-livret-accessible-amnesty-international-\
+          atipy-2.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-conception-graphique-amnesty-international-ati\
-          py-1.jpg)"
+        content: "![Série de livrets pédagogiques. Exemple de \"Les droits humains et la
+          déclaration universelle des droits de l'homme\", couverture orange,
+          texte
+          blanc.](/media/realisation-conception-graphique-amnesty-international\
+          -atipy-1.jpg)"
     col2:
       reverseMobile: false
     col3:
