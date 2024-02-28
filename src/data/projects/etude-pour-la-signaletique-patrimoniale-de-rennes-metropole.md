@@ -68,7 +68,11 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-design-signaletique-patrimoine-rennes-5.jpg)"
+        content: "![6 pages extraites du rapport d'analyse de la signalétique
+          patrimoniale. Par exemple, préconisations sur les contrastes, la
+          réalisation d'une charte
+          signalétique.](/media/realisation-design-signaletique-patrimoine-renn\
+          es-5.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -115,7 +119,13 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/design-reference-rennes-metropole-atipy-2.jpg)"
+        content: "![Enquete sur l'intérêt d'une signalétique patrimoniale : 63% des
+          répondants indiquent avoir un interet important pour le patrimoine,
+          70% pensent que la signalétique patrimoniale n'est pas assez
+          importante sur le territoire, 40% pensent que les informations données
+          doivent etre simplifiées, 49% pensent que les informations données
+          doivent etre
+          complètes.](/media/design-reference-rennes-metropole-atipy-2.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -142,11 +152,19 @@ project_sections:
     col2:
       reverseMobile: true
       text:
-        content: "![](/media/design-reference-rennes-metropole-atipy-4.jpg)"
+        content: "![Carte montrant les 7 lieux visités pour l'étude : vallée de la
+          Vilaine, Le Rheu, Bécherel, le centre de Rennes, Saint Sulpice la
+          Foret, écomusée, Pont
+          Péan](/media/design-reference-rennes-metropole-atipy-4.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: true
     col1:
+      reverseMobile: false
+      text:
+        content: "![Concertation avec les acteurs du territoire afin de recueillir les
+          besoins.](/media/design-reference-rennes-metropole-atipy-3.jpg)"
+    col2:
       reverseMobile: false
       text:
         content: >-
@@ -158,10 +176,6 @@ project_sections:
           * Analyse territoriale et patrimoniale et observations.
 
           * Préconisations pour la mise en place d’une signalétique patrimoniale sur le territoire.
-    col2:
-      reverseMobile: false
-      text:
-        content: "![](/media/design-reference-rennes-metropole-atipy-3.jpg)"
     col3:
       reverseMobile: false
 projectsFeatured:
