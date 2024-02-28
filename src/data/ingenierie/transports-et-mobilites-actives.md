@@ -23,7 +23,9 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/offer-w-access-mobilite_actives.jpg)"
+        content: "![Vue sur une rivière avec de la verdure autour. Un sentier longe la
+          rivière et une personne en fauteuil roulant s'y
+          engage.](/media/offer-w-access-mobilite_actives.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -47,6 +49,9 @@ sections:
 
 
           Dans notre envie de participer à des projets de mobilité active, l’équipe d’Atipy mutualise ses compétences avec des partenaires experts en mobilité pour vous accompagner à la mise en place d’un schéma directeur des mobilités plus inclusif.
+
+
+          L﻿e Pôle Design d'Atipy vous accompagne également sur les questions de [design des mobilités](https://atipy.fr/expertises/design/design-des-mobilites) : jalonnement signalétique, signalétique accessible, création d’identité de territoire cyclable...
       image:
         url: ""
     col2:
@@ -84,17 +89,17 @@ sections:
     col2:
       reverseMobile: true
       text:
-        content: "![](/media/carto-mobilite-atipy.jpg)"
+        content: "![Extrait d'un schéma directeur cyclable montrant les itinéraires
+          analysés.](/media/carto-mobilite-atipy.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: |-
-          
-
-          ![](/media/accessibilite-transports-atipy.jpg "Audit arrêt de bus")
+        content: "![Consultante d'Atipy en train de relever des dimensions aux abords
+          d'un abribus.](/media/accessibilite-transports-atipy.jpg \"Audit arrêt
+          de bus\")"
     col2:
       reverseMobile: false
       text:
@@ -112,7 +117,7 @@ sections:
 footer:
   btn:
     color: blue
-    label: Découvrez nos projets en transports et mobilités actives
+    label: Découvrez nos projets en transports et mobilité
     tag: Voirie
   titleContact: Envie d'œuvrez pour une mobilité plus inclusive ?
 ---
