@@ -26,7 +26,8 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/pave-atipy.jpg)"
+        content: "![Exemple d'un relevé PAVE : vue du plan d'une ville avec des points
+          de relevés de couleurs rouge, noir ou jaune.](/media/pave-atipy.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -66,8 +67,6 @@ sections:
           * Proposer une planification en fonction des points d’intérêts, des budgets et PPI du territoire
 
 
-
-
           #### Notre accompagnement
 
 
@@ -78,7 +77,7 @@ sections:
 
           * Relevé compatible avec les enjeux du PAVE
 
-          * [Formations](https://atipy.netlify.app/expertises/formation)
+          * [Formations](https://atipy.fr/expertises/formation)
 
           * Outils informatiques de relevé et de mise à jour de la donnée
     col3:
@@ -101,8 +100,8 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: '![](/media/pave-accessibilite-voirie-atipy.jpg "Les objectifs du
-          PAVE")'
+        content: "![Une rue d'une petite ville
+          calme](/media/pave-accessibilite-voirie-atipy.jpg)"
     col3:
       reverseMobile: false
 footer:
