@@ -67,7 +67,7 @@ sections:
           #### Des formations adaptées à vos envies
 
 
-          Collectivités, PME, grands groupes, structures accueillant du public dans le secteur culturel ou médical, vous souhaitez améliorer l'accessibilités de vos services, de vos bâtiments ?
+          Collectivités, PME, grands groupes, structures accueillant du public dans le secteur culturel ou médical, vous souhaitez améliorer l'accessibilité de vos supports de communication, de vos services, de vos bâtiments ?
 
 
           Nous vous proposons des formations.
@@ -89,7 +89,10 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/formation-atipy-accessibilite-handicap.png)"
+        content: "![A gauche, un formateur est dans une salle avec 9 personnes autour
+          d'une table. A droite, il s'agit d'une conférence avec une
+          intervenante dans une salle
+          amphithéâtre.](/media/formation-atipy-accessibilite-handicap.png)"
       image:
         url: ""
     col2:
