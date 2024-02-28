@@ -10,7 +10,9 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/conseil-assitance-maitrise-ouvrage.jpg)"
+        content: "![Une personne est autour d'une table devant son ordinateur. Elle fait
+          des gestes avec ses mains, on ne voit pas son
+          visage.](/media/conseil-assitance-maitrise-ouvrage.jpg)"
     col2:
       reverseMobile: false
       text:
