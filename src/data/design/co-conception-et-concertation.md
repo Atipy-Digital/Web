@@ -103,7 +103,7 @@ sections:
           **Les outils**&nbsp;**:**
 
 
-          * L﻿e maquettage et le prototypage
+          * L﻿e [maquettage](https://atipy.fr/expertises/design/conception-graphique) et le prototypage
 
           * L﻿es tests in situ
 
@@ -113,7 +113,9 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/expertise-atipy-design-atelier-creatif.jpg)"
+        content: "![Plusieurs personnes de dos sont face à un tableau sur lequel on voit
+          dessinée une carte et des notes de différentes
+          couleurs.](/media/expertise-atipy-design-atelier-creatif.jpg)"
     col3:
       reverseMobile: false
 footer:
