@@ -7,7 +7,7 @@ metadata:
     - keyword: langage clair
     - keyword: pictogramme
 title: Outils pour un public allophone avec Laser Emploi
-image: /media/realisation-msa-allophone-illustrations-atipy-1.jpg
+image: /media/atipy-design-falc-langage-clair-laser-emploi-allophone-1.jpg
 project_client: msa-mutuelle-sociale-agricole
 mission_body: Création d’outils de communication pour l’accueil de publics
   allophones et/ou illettrés dans un parcours d’insertion professionnelle.
@@ -28,7 +28,11 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-msa-allophone-illustrations-atipy-2.jpg)"
+        content: "![Illustrations très sobres représentant des personnages qui exercent
+          des métiers comme du secrétariat, de l'emballage alimentaire ou de
+          l'entretien d'espace
+          vert.](/media/atipy-design-falc-langage-clair-laser-emploi-allophone-\
+          illustrations-2.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -66,15 +70,18 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-msa-allophone-illustrations-atipy-3.jpg)"
+        content: "![Une carte en papier blanc sur laquelle est imprimé une illustration
+          représentant deux personnes travaillant dans
+          l'hotellerie](/media/atipy-design-falc-langage-clair-laser-emploi-all\
+          ophone-illustrations-3.png)"
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-msa-allophone-illustrations-atipy-4.jpg)"
+        content: "![]()"
     col3:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-msa-allophone-illustrations-atipy-5.jpg)"
+        content: "![]()"
   - inverseCol: false
     col1:
       reverseMobile: false
