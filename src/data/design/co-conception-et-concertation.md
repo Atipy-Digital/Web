@@ -28,10 +28,9 @@ sections:
       image:
         url: ""
       text:
-        content: |-
-          
-
-          ![](/media/design-expertise-atipy-codesign-concertation-2.jpg)
+        content: "![Trois personnes présentent un projet sur un
+          paperboard.](/media/design-expertise-atipy-codesign-concertation-2.jp\
+          g)"
     col2:
       reverseMobile: false
     col3:
@@ -71,15 +70,17 @@ sections:
           Co-design, co-création, co-conception… Plusieurs appellations sont utilisées mais le principe reste le même&nbsp;: concevoir avec les utilisateurs.
 
 
-
-
           ##### Qu’est-ce que c’est&nbsp;?
 
 
           Co-concevoir c’est mettre l’usage et l’usager au coeur du développement d’un produit, d’un service ou d’un outil de communication. Ce processus implique la participation des utilisateurs dans la phase d’élaboration du concept jusqu’à sa finalisation. Cette méthode est particulièrement intéressante pour répondre aux besoins spécifiques (handicap sensoriel, cognitif, moteur, linguistique…).
-
-
-          ##### Pour quoi faire&nbsp;?
+      image:
+        url: ""
+    col3:
+      reverseMobile: false
+      text:
+        content: >-
+          ##### Co-conception, pour quoi faire&nbsp;?
 
 
           * Répondre aux besoins du plus grand nombre d’usagers
@@ -87,9 +88,11 @@ sections:
           * Favoriser l’innovation
 
           * Tester l’utilisabilité afin d’éviter un avis défavorable de l’utilisateur en situation de handicap au moment de la finalisation du projet.
+        color: green
       image:
         url: ""
-    col3:
+  - inverseCol: false
+    col1:
       reverseMobile: false
       text:
         content: >-
@@ -107,9 +110,12 @@ sections:
           * L﻿es ateliers créatifs
 
           * Les brainstormings
-        color: green
-      image:
-        url: /media/expertise-atipy-design-atelier-creatif.jpg
+    col2:
+      reverseMobile: false
+      text:
+        content: "![](/media/expertise-atipy-design-atelier-creatif.jpg)"
+    col3:
+      reverseMobile: false
 footer:
   btn:
     label: Découvrez nos projets co-construits
