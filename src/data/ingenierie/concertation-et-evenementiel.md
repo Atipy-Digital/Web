@@ -23,7 +23,11 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/offer-w-access-concertation.png)"
+        content: "![A gauche, un groupe de 6 personnes est réuni dans la rue. L'une
+          d'elle est utilisatrice d'une canne blanche, l'un d'eux est
+          utilisateur de fauteuil roulant. A droite, on voit une personne en
+          fauteuil roulant traverser la rue sur une passage
+          piéton.](/media/offer-w-access-concertation.png)"
       image:
         url: ""
     col2:
@@ -85,14 +89,20 @@ sections:
     col2:
       reverseMobile: true
       text:
-        content: "![](/media/concertation-handicap-association-atipy-inclusion.jpg)"
+        content: "![Deux personnes sont face à face autour d'une table. Sur la table
+          sont posés dans feuilles, des post it et des
+          feutres.](/media/concertation-handicap-association-atipy-inclusion.jp\
+          g)"
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/concertation-handicap-association-atipy.jpg)"
+        content: "![Deux personnes sont cote à cote dans la rue. La personne de gauche
+          est une personne agée en fauteuil roulant. La personne de droite porte
+          un jean et des baskets, elle marche à
+          coté.](/media/concertation-handicap-association-atipy.jpg)"
     col2:
       reverseMobile: false
       text:
@@ -114,7 +124,7 @@ sections:
       reverseMobile: false
 footer:
   btn:
-    label: Découvrez nos projets de concertation
+    label: Découvrez nos projets
     color: blue
     tag: Ingénierie
   titleContact: "Envie de concerter ? "
