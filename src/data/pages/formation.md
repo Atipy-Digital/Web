@@ -50,7 +50,7 @@ sections:
       reverseMobile: false
       text:
         content: |-
-          #### À qui sont destinés ces formations&nbsp;?
+          #### À qui sont destinées ces formations&nbsp;?
 
           * Référents handicap
           * Chargés de communication
@@ -108,7 +108,7 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          #### Comment  formons-nous les participants&nbsp;?
+          #### Comment formons-nous les participants&nbsp;?
 
 
           Experts en accessibilité et en design, nous vous proposons des sensibilisations et ateliers sur les thèmes de la conception universelle, de l’accessibilité et du handicap, et visant à rendre votre communication, vos services ou vos équipements accessibles au plus grand nombre, tant sur le fond que sur la forme.
