@@ -1,10 +1,10 @@
 ---
 title: Digital
 intro: >-
-  ### Lorem ipsum dolor sit amet
+  ### L'innovation nuémrique au service de l'accessibilité
 
 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Le pôle Digital répond à vos demandes pour concevoir, réaliser et héberger vos applications numériques. Notre point fort : une expertise en accessibilité numérique. Nous imaginons des dispositifs universels en matière de solution numérique d’accessibilité.
 sections:
   - col1:
       reverseMobile: false
