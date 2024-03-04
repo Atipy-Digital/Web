@@ -1,7 +1,7 @@
 ---
 title: Digital
 intro: >-
-  ### L'innovation nuémrique au service de l'accessibilité
+  ### L'innovation numérique au service de l'accessibilité
 
 
   Le pôle Digital répond à vos demandes pour concevoir, réaliser et héberger vos applications numériques. Notre point fort : une expertise en accessibilité numérique. Nous imaginons des dispositifs universels en matière de solution numérique d’accessibilité.
@@ -9,15 +9,23 @@ sections:
   - col1:
       reverseMobile: false
       text:
-        content: >-
-          #### Ut enim ad minim veniam
+        content: |-
+          #### Nos domaines de compétences
 
-
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          * Développement de solutions web / api
+          * Développement d’applications mobiles natives
+          * Conception graphique et web design
+          * U﻿I et UX design
       image:
-        url: /media/ph-1277.png
+        url: ""
     col2:
       reverseMobile: false
+      text:
+        content: >-
+          #### Une équipe formée et expérimentée
+
+
+          Nos graphistes et développeurs front-end possèdent une expertise forte et proposent nativement des livrables à haut niveau de compatibilité avec les critères du WCAG de niveau A et AA.
     col3:
       reverseMobile: false
   - col1:
