@@ -29,7 +29,10 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/reference-ingenierie-adap-ministere-de-la-defense-2.jpg)"
+        content: "![Extrait du rapport d'accessibilité montrant une partie sous forme de
+          tableau, un préambule avec du texte et une carte des sites
+          audités](/media/reference-ingenierie-adap-ministere-de-la-defense-2.j\
+          pg)"
     col2:
       reverseMobile: false
     col3:
@@ -61,6 +64,7 @@ project_sections:
       reverseMobile: false
 projectsFeatured:
   - signaletique-du-ministere-des-affaires-etrangeres
+  - releves-d-accessibilite-region-grand-est
 footer:
   btn:
     label: Découvrez nos missions de diagnostic
