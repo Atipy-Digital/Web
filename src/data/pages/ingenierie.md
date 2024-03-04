@@ -74,7 +74,8 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: '![ok](/media/releve-multitechnique-atipy.jpg "ok")'
+        content: "![Enfilade de gaines métalliques positionnées sous un
+          plafond](/media/releve-multitechnique-atipy.jpg)"
     col3:
       reverseMobile: false
 ---
