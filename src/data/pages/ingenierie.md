@@ -18,6 +18,38 @@ sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          Le Pôle Ingénierie met un point d’honneur à ne pas limiter
+          l’accessibilité à une vision purement réglementaire.
+
+
+          Il s’agit de considérer les besoins de l’ensemble des individus pour concevoir des espaces, des équipements et des services pour tous et toutes avant de le faire pour chacun et chacune.
+
+
+          **Notre philosophie se base sur les axes suivants :**
+
+
+          * Le respect de l’usage dans l’application réglementaire
+
+          * L’écoute et la flexibilité
+
+          * La qualité de vie et le bien être des collaborateurs
+
+          * Le développement d’outils numériques. Conscient des évolutions numériques et technologiques, nous proposons des outils personnalisés pour répertorier et faciliter la gestion de votre patrimoine.
+
+
+          Nous sommes à votre écoute pour vous proposer des prestations sur-mesure afin de répondre à tous vos besoins. Aussi, nous mettons un point d’honneur à accorder à nos clients une attention égale quelque soit leur notoriété ou le montant du contrat.
+
+
+          Enfin, sachez que notre adaptabilité se base également sur un réseau étoffé de partenaires dans de nombreux domaines.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
   - col1:
       reverseMobile: false
       text:
