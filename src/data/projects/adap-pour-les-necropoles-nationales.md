@@ -29,7 +29,9 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/reference-ingenierie-adap-necropole-1.jpg)"
+        content: "![Exemple du rapport d'accessibilité avec 4 pages présentant des
+          photos des points de non
+          conformités.](/media/reference-ingenierie-adap-necropole-1.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -54,6 +56,7 @@ project_sections:
       reverseMobile: false
 projectsFeatured:
   - diagnostic-accessibilite-et-adap-du-ministere-des-armees
+  - releves-d-accessibilite-region-grand-est
 footer:
   btn:
     label: Nos missions de diagnostic
