@@ -25,7 +25,7 @@ sections:
           #### Une équipe formée et expérimentée
 
 
-          Nos graphistes et développeurs front-end possèdent une expertise forte et proposent nativement des livrables à haut niveau de compatibilité avec les critères du WCAG de niveau A et AA.
+          Nos designers et développeurs front-end possèdent une expertise forte et proposent nativement des livrables à haut niveau de compatibilité avec les critères du WCAG de niveau A et AA.
     col3:
       reverseMobile: false
 ---
