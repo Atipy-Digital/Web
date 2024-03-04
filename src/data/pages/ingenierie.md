@@ -4,7 +4,7 @@ intro: >-
   ### Des consultants au service de l'accessibilité
 
 
-  Composé d'une équipe d'experts en accessibilité et urbanisme, le Pôle Ingénierie vous accompagne dans la mise en accessibilité de votre patrimoine et dans le relevé de toutes autres données spécifiques.
+  Composé d'une équipe d'experts en accessibilité et urbanisme, le Pôle Ingénierie vous accompagne dans la mise en accessibilité de votre patrimoine et dans le relevé de toutes autres données spécifiques. Nous intervenons pour des audits/diagnostics d’accessibilité et des relevés multitechniques. Nous vous accompagnons également sur votre stratégie en accessibilité pour l’ensemble de votre patrimoine.
 sections:
   - col1:
       reverseMobile: false
