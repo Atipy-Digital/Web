@@ -37,7 +37,9 @@ sections:
       image:
         url: ""
       text:
-        content: "![](/media/design-livret-falc-msa-mieux-manger-atipy.jpg)"
+        content: "![Couverture du livret FALC \"Mon petit livret pour bien manger\". La
+          couverture est jaune avec des illustrations
+          d'aliments.](/media/design-livret-falc-msa-mieux-manger-atipy.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -68,7 +70,9 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/design-livret-falc-msa-mieux-manger-atipy-2.jpg)"
+        content: "![Pages intérieures du livret FALC pour bien manger. Il y a des
+          propositions de menus
+          illustrées.](/media/design-livret-falc-msa-mieux-manger-atipy-2.jpg)"
     col3:
       reverseMobile: false
       text:
@@ -119,10 +123,9 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: |-
-          
-
-          ![](/media/bethune-guide-falc-ccas-atipy-5.jpg)
+        content: "![Extrait d'un flyer du CCAS de Béthune sur la domiciliation avec des
+          illustrations oranges et
+          noires.](/media/bethune-guide-falc-ccas-atipy-5.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -170,8 +173,10 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-video-motion-design-pcb-accessibilite-falc.jpg\
-          )"
+        content: "![Extrait d'une vidéo motion design en langage clair sous titrée. Une
+          femme et un homme sont face à face en train de
+          discuter.](/media/realisation-video-motion-design-pcb-accessibilite-f\
+          alc.jpg)"
     col3:
       reverseMobile: false
 footer:
