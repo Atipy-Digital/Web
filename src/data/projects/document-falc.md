@@ -40,8 +40,9 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Logo animé qui représente un visage de façon très
-          schématique](/media/france-assos-sante-cvs-logo-anime.gif)"
+        content: "![Logo animé qui représente un visage de façon très schématique dont
+          les éléments apparaissent au fur et à
+          mesure](/media/france-assos-sante-cvs-logo-anime.gif)"
       image:
         url: ""
     col3:
@@ -70,8 +71,8 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Détail d'une illustration du livret \"Le droit des
-          usagers\"](/media/design-reference-cvs-atipy-4.jpg)"
+        content: "![Détail d'une illustration du livret \"Le droit des usagers\". Le
+          CVS, c'est quoi ?](/media/design-reference-cvs-atipy-4.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
