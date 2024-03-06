@@ -27,12 +27,16 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: Opérateur du ministère des Armées dans le champ mémoriel, l’ONACVG met
+        content: >-
+          Opérateur du ministère des Armées dans le champ mémoriel, l’ONACVG met
           pour sa part en œuvre la politique d’entretien, de rénovation et de
           valorisation de l’ensemble de ces sites hautement symboliques. Lieux
           de recueillement et de commémorations, les nécropoles nationales et
           les carrés militaires sont aussi des lieux de transmission mémorielle
           à destination des jeunes générations.
+
+
+          **Dans le cadre de ses obligations réglementaires l'ONACVG a missionné Atipy afin d'analyser les conditions actuelles d'accessibilité sur plusieurs nécropoles dans le Sud-Est de la France.**
     col2:
       reverseMobile: false
       text:
@@ -55,15 +59,8 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "##### Dans le cadre de ses obligations réglementaires l'ONACVG a
-          missionné Atipy afin d'analyser les conditions actuelles
-          d'accessibilité sur plusieurs nécropoles dans le Sud-Est de la
-          France."
-    col2:
-      reverseMobile: false
-      text:
         content: >-
-          #### **Nos domaines d’intervention sur cette mission**
+          ### **Nos domaines d’intervention sur cette mission**
 
 
           * Entretien préalable
@@ -73,6 +70,10 @@ project_sections:
           * Mise en place de l'Ad'ap pour 16 nécropoles
 
           * AMO pour les travaux de réhabilitation du Mémorial des Guerres d'Indochine.
+    col2:
+      reverseMobile: false
+      text:
+        content: ""
     col3:
       reverseMobile: false
 projectsFeatured:
