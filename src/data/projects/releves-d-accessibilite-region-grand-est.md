@@ -5,7 +5,7 @@ metadata:
     Grand-Est et prestations diverses
   keywords:
     - keyword: accessibilité
-title: Relevés d’accessibilité - Région Grand Est
+title: Relevés d’accessibilité lycées Grand Est
 image: /media/atipy-ingenierie-releves-grand-est-2.jpg
 project_client: grand-est
 mission_body: Relevés d’accessibilité après travaux des lycées de la Région
@@ -16,6 +16,7 @@ context_body: Depuis 2018 Atipy accompagne la Région Grand-Est pour la mise en
   sites.
 project_tags:
   - Cadre bâti
+  - Accessibilité
 project_sections:
   - inverseCol: false
     col1:
