@@ -22,31 +22,14 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: Ces choix techniques ont été rencontrés sur d’autres chantiers ou nous
+        content: >-
+          Ces choix techniques ont été rencontrés sur d’autres chantiers ou nous
           ont été présentés suite à différentes rencontres avec des
           équipementiers /poseurs spécialisés dans le domaine de la sécurisation
           des escaliers.
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: "![Escaliers vue d'en bas avec une lumière rouge sur le palier d'en
-          haut](/media/accessibilite-sytral-metro-lyon-atipy.jpg)"
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: >-
-          Les escaliers de stations de métro sont soumis à de nombreuses
-          contraintes : 
+
+
+          Les escaliers de stations de métro sont soumis à de nombreuses contraintes : 
 
 
           * flux de passage régulier et important
@@ -62,26 +45,14 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: ""
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: |-
-          ### N﻿os domaines d'intervention
-
-          * M﻿erci de fournir
-          * 4﻿ à 5 domaines
-          * d﻿'intervention
-          * p﻿our cette mission
-    col2:
-      reverseMobile: false
+        content: "![Extrait du diagnostic avec un plan de la station Charpennes et un
+          tableau de relevé des
+          non-conformités](/media/atipy-ingenierie-releves-metro_lyionnais.jpg)"
     col3:
       reverseMobile: false
 projectsFeatured:
   - releves-d-accessibilite-region-grand-est
+  - diagnostic-accessibilite-et-adap-du-ministere-des-armees
 footer:
   btn:
     label: Découvrez nos relevés de non-conformités
