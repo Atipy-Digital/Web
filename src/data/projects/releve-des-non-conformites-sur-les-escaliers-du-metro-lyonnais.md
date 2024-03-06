@@ -8,12 +8,13 @@ metadata:
 title: Relevé des non-conformités sur les escaliers du métro lyonnais
 image: /media/accessibilite-sytral-metro-lyon-atipy.jpg
 project_client: sytral
-mission_body: Relevé des non-conformités sur les escaliers de 48 stations de métro (Lyon)
-context_body: En tant que prestataire de conseil, Atipy a proposé, dans le cadre
-  de cette mission, plusieurs solutions techniques qui apparaissent comme les
-  plus appropriées en fonction des contraintes de la Maîtrise d’Ouvrage, aux
-  respects des exigences réglementaires et à la meilleure prise en compte des
-  usagers.
+mission_body: Relevé des non-conformités sur les escaliers des 48 stations du
+  réseau métropolitain de l'agglomération Lyonnaise.
+context_body: En tant que prestataire de conseil, Atipy a réalisé un état des
+  lieux minutieux de toutes les caractéristiques techniques et réglementaires
+  relatif à l’accessibilité des escaliers. Les préconisations de mise aux normes
+  ont été chiffrées dans l’objectif de donner à la Maîtrise d’ouvrage toutes les
+  clefs nécessaires à la programmation des travaux.
 project_tags:
   - Accessibilité
   - Cadre bâti
@@ -23,13 +24,8 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          Ces choix techniques ont été rencontrés sur d’autres chantiers ou nous
-          ont été présentés suite à différentes rencontres avec des
-          équipementiers /poseurs spécialisés dans le domaine de la sécurisation
-          des escaliers.
-
-
-          Les escaliers de stations de métro sont soumis à de nombreuses contraintes : 
+          Les escaliers de stations de métro sont soumis à de nombreuses
+          contraintes : 
 
 
           * flux de passage régulier et important
@@ -41,7 +37,7 @@ project_sections:
           * méthodes et processus de nettoyage
 
 
-          L’objectif des solutions retenues sera de concilier performance – durabilité – simplicité – efficacité – maîtrise des coûts.
+          Un benchmark des différentes solutions techniques a été réalisé par le biais de retours d’expériences chantier, rencontres avec des équipementiers et poseurs spécialisés afin de concilier performance – durabilité – simplicité – efficacité – maîtrise des coûts.
     col2:
       reverseMobile: false
       text:
