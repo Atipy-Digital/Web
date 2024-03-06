@@ -28,7 +28,8 @@ sections:
       text:
         content: "![Cycliste à l'arret dans un environnement naturel avec un totem
           signalétique à droite. Il est en bois avec un panneau qui donne des
-          informations.](/media/design-expertise-mobilite-velo-atipy-2.jpg)"
+          informations.](/media/design-reference-pyrenees-atlantique-atipy-2.jp\
+          g)"
       image:
         url: ""
     col2:
