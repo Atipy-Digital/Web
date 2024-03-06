@@ -121,9 +121,10 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Charte signalétique détaillant les support pour le Pavillon
-          Vendome.](/media/atipy-clichy-signaletique-culture-accessibilite-char\
-          te-signale-tique-1.png)"
+        content: "![Charte signalétique détaillant les support pour le Pavillon Vendome.
+          On voit un totem noir avec du texte
+          beige.](/media/atipy-clichy-signaletique-culture-accessibilite-charte\
+          -signale-tique-1.png)"
     col2:
       reverseMobile: false
     col3:
