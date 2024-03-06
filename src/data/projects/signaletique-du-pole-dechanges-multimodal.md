@@ -250,6 +250,7 @@ project_sections:
           * E﻿tude des flux et des besoins en orientation
           * P﻿rogrammation : plans d'implantation, répertoire de contenus
           * C﻿réation d'une identité visuelle du pôle d'échanges
+          * C﻿réation graphique d'un plan d'orientation
           * C﻿onception du mobilier signalétique
           * S﻿uivi de fabrication et de pose
     col2:
