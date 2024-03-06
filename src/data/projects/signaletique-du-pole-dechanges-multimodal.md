@@ -240,6 +240,22 @@ project_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: |-
+          ### N﻿os domaines d'intervention
+
+          * E﻿tude des flux et des besoins en orientation
+          * P﻿rogrammation : plans d'implantation, répertoire de contenus
+          * C﻿réation d'une identité visuelle du pôle d'échanges
+          * C﻿onception du mobilier signalétique
+          * S﻿uivi de fabrication et de pose
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 projectsFeatured:
   - charte-signale-tique-accessible-pour-les-itine-raires-velo
 footer:
