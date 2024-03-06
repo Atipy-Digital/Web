@@ -30,6 +30,8 @@ sections:
           La signalétique est un ensemble d’outils et de signes permettant à un utilisateur de pouvoir s’orienter en autonomie. Elle favorise le confort d’usage d’un lieu. La signalétique oriente, accueille et informe. La mise en place d’un système signalétique efficace nécessite des compétences particulières. Il existe plusieurs typologies de supports signalétique. Chaque typologie a une fonction particulière : signalétique d’identification, directionnelle, d’interprétation, d’information, de sécurité. La signalétique, visible de tous, est également un outil de communication qu’il ne faut pas oublier. Elle appuie une identité visuelle, crée une unité graphique au sein d’un ou plusieurs espaces.
       image:
         url: /media/design-signaletique-pieton-annemasse-pem-atipy-1.png
+        legend: Signalétique d'identification positionnée sur du mobilier urbain comme
+          par exemple un abribus.
     col2:
       reverseMobile: false
     col3:
@@ -58,9 +60,10 @@ sections:
   - col1:
       reverseMobile: true
       text:
-        content: '![Pourquoi mettre en place un système signalétique
-          ?](/media/design-signaletique-accessible-theatre-bateau-feu-dunkerque-atipy-1.jpg
-          "Pourquoi mettre en place un système signalétique ?")'
+        content: '![Signalétique murale directionnelle de couleurs jaune, bleue et
+          verte. Les panneaux indiquant "Grande salle", "petite salle",
+          "toilettes" avec des flèches et des
+          pictogrammes.](/media/design-signaletique-accessible-theatre-bateau-feu-dunkerque-atipy-1.jpg)'
     col2:
       reverseMobile: true
       text:
@@ -78,7 +81,7 @@ sections:
           * De trouver les informations qu’ils cherchent.
 
 
-          [D﻿écouvrez également nos formations en signalétique](https://atipy.netlify.app/expertises/formation)
+          [D﻿écouvrez également nos formations en signalétique](https://atipy.fr/expertises/formation)
     col3:
       reverseMobile: false
     inverseCol: true
