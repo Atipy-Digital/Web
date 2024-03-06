@@ -26,7 +26,9 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/design-expertise-mobilite-velo-atipy-2.jpg)"
+        content: "![Cycliste à l'arret dans un environnement naturel avec un totem
+          signalétique à droite. Il est en bois avec un panneau qui donne des
+          informations.](/media/design-expertise-mobilite-velo-atipy-2.jpg)"
       image:
         url: ""
     col2:
@@ -79,7 +81,10 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/design-expertise-mobilite-velo-signaletique-atipy-3.jpg)"
+        content: "![Plan d'un carrefour avec un rond point donnant l'implantation
+          précise de différents types de supports
+          signalétique.](/media/design-expertise-mobilite-velo-signaletique-ati\
+          py-3.jpg)"
       image:
         url: ""
     col3:
@@ -90,8 +95,9 @@ sections:
     col1:
       reverseMobile: true
       text:
-        content: "![](/media/design-expertise-mobilite-velo-signaletique-plan-atipy-4.j\
-          pg)"
+        content: "![Carte en FALC d'un parcours cyclable dans les Pyrénées Atlantiques.
+          ](/media/design-expertise-mobilite-velo-signaletique-plan-atipy-4.jpg\
+          )"
     col2:
       reverseMobile: false
       text:
