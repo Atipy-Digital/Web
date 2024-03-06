@@ -23,8 +23,8 @@ context_body: >-
 
   Opérateur du ministère des Armées dans le champ mémoriel, l’ONACVG met pour sa part en œuvre la politique d’entretien, de rénovation et de valorisation de l’ensemble de ces sites hautement symboliques. Lieux de recueillement et de commémorations, les nécropoles nationales et les carrés militaires sont aussi des lieux de transmission mémorielle à destination des jeunes générations.
 project_tags:
-  - Cadre bâti
   - Ingénierie
+  - Accessibilité
 project_sections:
   - inverseCol: false
     col1:
