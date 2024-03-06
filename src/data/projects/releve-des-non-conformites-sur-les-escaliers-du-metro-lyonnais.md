@@ -16,6 +16,7 @@ context_body: En tant que prestataire de conseil, Atipy a proposé, dans le cadr
   usagers.
 project_tags:
   - Accessibilité
+  - Cadre bâti
 project_sections:
   - inverseCol: false
     col1:
