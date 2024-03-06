@@ -79,7 +79,9 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/wireframe-ui-design-digital-atipy.jpg)"
+        content: "![Schéma (wireframe) en noir et blanc posant les principes
+          ergonomiques d'une page
+          internet](/media/wireframe-ui-design-digital-atipy.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
