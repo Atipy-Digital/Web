@@ -21,7 +21,10 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/design-expertise-conception-graphique.png)"
+        content: "![Série de livrets pédagogiques pour Amnesty Internationale : Les
+          droits humains avec une couverture orange, les discriminations avec
+          une couverture rose, la peine de mort avec une couverture
+          violette.](/media/design-expertise-conception-graphique.png)"
       image:
         url: ""
     col2:
@@ -69,6 +72,17 @@ sections:
     col1:
       reverseMobile: false
       text:
+        content: "![Ensemble de 16 pictogrammes représentant un tracteur, des toilettes,
+          un vélo qui monte une pente,
+          etc.](/media/design-expertise-conception-pictogramme-atipy-1.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: >-
           #### Illustrations et pictogrammes
 
@@ -92,15 +106,6 @@ sections:
 
 
           Dans certains cas, il peut se substituer complètement au texte. Dans la mesure du possible, nous utiliserons des pictogrammes existants standardisés. Pourquoi &nbsp;? La standardisation de ces signes implique qu’ils sont utilisés dans différents contextes. Une meilleure reconnaissance est donc possible car ils ont déjà été identifiés. Dans le cas de pictogrammes spécifiques, nous sont en mesure de les créer.
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: "![](/media/design-expertise-conception-pictogramme-atipy-1.jpg)"
-    col2:
-      reverseMobile: false
     col3:
       reverseMobile: false
 footer:
