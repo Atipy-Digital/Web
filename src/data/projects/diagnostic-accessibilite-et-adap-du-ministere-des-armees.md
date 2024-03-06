@@ -24,6 +24,8 @@ context_body: >-
   Au total ce sont quelques 50 réunions organisées pour optimiser aux mieux la préparation des travaux qui s’étaleront sur 9 ans.
 project_tags:
   - Ingénierie
+  - Accessibilité
+  - Cadre bâti
 project_sections:
   - inverseCol: false
     col1:
