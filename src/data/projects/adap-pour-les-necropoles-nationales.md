@@ -48,11 +48,17 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: |-
+        content: >-
           #### **Nos domaines d’intervention sur cette mission**
 
+
           * Entretien préalable
+
           * Diagnostic d’accessibilité
+
+          * Mise en place de l'Ad'ap pour 16 nécropoles
+
+          * AMO pour les travaux de réhabilitation du Mémorial des Guerres d'Indochine.
     col3:
       reverseMobile: false
 projectsFeatured:
