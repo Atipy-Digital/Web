@@ -128,7 +128,9 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/annemasse_mobilier_ris_v1.png)"
+        content: "![Trois dessins en perspective représentant des Relais Information
+          Service. Il s'agit de grand totem avec un mat
+          directionnel.](/media/annemasse_mobilier_ris_v1.png)"
     col2:
       reverseMobile: false
     col3:
@@ -141,7 +143,7 @@ project_sections:
           ### Implantation de la signalétique
 
 
-          Les supports [signalétique](https://agence-adequat.fr/signaletique-dorientation/) se succèdent dans un jalonnement continue depuis le point de départ jusqu’à l’arrivée. Le respect de la chaîne de l’information continue permet à l’usager de ne pas avoir de moment de doute sur la direction à prendre.
+          Les supports [signalétique](https://atipy.fr/expertises/design/signaletique) se succèdent dans un jalonnement continue depuis le point de départ jusqu’à l’arrivée. Le respect de la chaîne de l’information continue permet à l’usager de ne pas avoir de moment de doute sur la direction à prendre.
     col2:
       reverseMobile: false
     col3:
@@ -150,15 +152,20 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/annemasse-adequat-recherches-crea-02.jpg)"
+        content: "![Support signalétique d'identification positionné sur du mobilier
+          urbain comme un abri bus. Il s'agit de rond jaune avec un grand
+          pictogramme noir (piéton, bus, vélo) permettant d'identifier de loin
+          les dispositifs liés à la
+          mobilité.](/media/design-signaletique-pieton-annemasse-pem-atipy-1.pn\
+          g)"
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/annemasse-adequat-recherches-crea-04.jpg)"
+        content: ""
     col3:
       reverseMobile: false
       text:
-        content: "![](/media/annemasse-adequat-recherches-crea-07.jpg)"
+        content: ""
   - inverseCol: false
     col1:
       reverseMobile: false
@@ -193,7 +200,8 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/annemasse-agglo-ris-v1-atipy-design-signaletique.jpg)"
+        content: "![Photomontage du Relais Information Service sur le parvis de la
+          gare.](/media/annemasse-agglo-ris-v1-atipy-design-signaletique.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -202,7 +210,9 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/annemasse-atipy-adequat-signaletique-pem-design.jpg)"
+        content: "![Relais Information Service positionné le long d'un cheminement
+          piéton en sortie de
+          gare.](/media/annemasse-atipy-adequat-signaletique-pem-design.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -211,7 +221,9 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/annemasse-atipy-adequat-signaletique-mobilite.jpg)"
+        content: "![Module rond jaune visible de loin avec un pictogramme de bus
+          indiquant un arret de
+          bus.](/media/annemasse-atipy-adequat-signaletique-mobilite.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -220,7 +232,10 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/annemasse-atipy-adequat-signaletique-velo-2.jpg)"
+        content: "![Mat directionnel avec 4 lattes noir ou jaunes indiquant le tramway
+          17, le centre ville, la ville d'Ambilly, l'office de tourisme. Les
+          temps de marche sont annoncés pour chaque
+          destination.](/media/annemasse-atipy-adequat-signaletique-velo-2.jpg)"
     col2:
       reverseMobile: false
     col3:
