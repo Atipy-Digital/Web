@@ -39,6 +39,13 @@ partners:
     collaborate: Pour sa capacité à appréhender et transcrire les besoins des usagers.
     projects: Urbalyon, Onofr
     isSingle: true
+  - isSingle: false
+    name: Ideance
+    aboutUs: Experts en accessibilité numérique
+    collaborate: L﻿eur connaissance de l'accessibilité numérique et des besoins
+      utilisateurs en situation de handicap.
+    projects: A﻿mnesty Internationale, Département du Var.
+    logo: /media/logo-ideance.jpeg
   - name: Iter Mobilité
     aboutUs: Experts en mobilités, ils conçoivent des solutions adaptées pour
       améliorer les systèmes de déplacements.
@@ -47,11 +54,11 @@ partners:
     projects: La Cali, communauté d’agglomération du Libournais Agglopolys,
       communauté d’agglomération de Blois, Champigny-sur-Marne
     logo: /media/iter-mobilite-logo.webp
-  - isSingle: false
-    name: Ideance
-    aboutUs: Experts en accessibilité numérique
-    collaborate: L﻿eur connaissance de l'accessibilité numérique et des besoins
-      utilisateurs en situation de handicap.
-    projects: A﻿mnesty Internationale, Département du Var.
-    logo: /media/logo-ideance.jpeg
+  - isSingle: true
+    name: L'échappée
+    logo: /media/logo-echappe-e.jpeg
+    projects: VélorouteV52 du Pays Barrois
+    aboutUs: Conseil en mobilités et transports
+    collaborate: C﻿onnaissance de  l'écosystème et des bonnes pratiques en matière
+      de mobilité active
 ---
