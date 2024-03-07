@@ -10,7 +10,8 @@ partners:
       questions de l’évolution des bâtiments, ils proposent des projets
       pérennes et à même de s’adapter aux modifications futures.
     collaborate: P﻿our la complémentarité des compétences et la convivialité.
-    projects: S﻿aint Denis
+    projects: Colombes Habitat Publics, Ville de Paris, Ville de Montmorency,
+      Ministère de la Justice, Ministère des Armées, Grand Lyon Habitat.
   - name: Polymorphe Design
     logo: /media/polymorphe-design-logo.webp
     aboutUs: Accompagnement des sites culturels et touristiques pour l’étude et la
