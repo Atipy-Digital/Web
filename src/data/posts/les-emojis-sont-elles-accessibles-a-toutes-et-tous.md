@@ -1,12 +1,15 @@
 ---
 metadata:
-  title: Les emojis sont-elles accessibles à toutes et tous
-  description: Les emojis sont-elles accessibles à toutes et tous
+  title: Les emojis sont-elles accessibles à toutes et tous ?
+  description: Les emojis sont-elles accessibles à toutes et tous ?
   keywords:
     - keyword: emoji
-title: Les emojis sont-elles accessibles à toutes et tous
+    - keyword: pictogramme
+    - keyword: langage universel
+  ogImg: /media/atipy-emojis_inclusifs.jpeg
+title: Les emojis sont-elles accessibles à toutes et tous ?
 date: 2023-07-16T18:09:25.003Z
-timeToRead: 1 à 5 min
+timeToRead: 1 à 3 min
 post_tags:
   - Digital
   - Design
@@ -16,15 +19,20 @@ post_sections:
       reverseMobile: false
       text:
         content: >-
-          Vous avez le sens de l’orientation, vos jours de congés se passent en
-          montagne ou en forêt, à la recherche des signes de repérage. Alors, ce
-          qui va suivre, vous le connaissez par coeur !
+          ### Qu’est ce qu’une emoji ?
 
 
-          **Comment s’orienter en pleine nature ? Quels sont les signes et que racontent-ils ?**
+          Mot provenant du japonais, emoji signifie littéralement « image » et « lettre ». Sorte d’icône standardisée, l’emoji est utilisée sur les smartphones et réseaux sociaux. Elles peuvent représenter des objets, des symboles ou des visages.
+
+
+          L’ancêtre de l’emoji est l’émoticône. Souvenez vous des « :- D » et des « ;- ) »
+
+
+          Inventé sous sa forme actuelle à la fin des années 90, l’emoji est en constante évolution. Dernièrement Apple proposait 200 nouvelles emojis mettant en avant la diversité : couples mixtes, homosexuels, personnes en situation de handicap…
       image:
-        url: /media/post-1.png
-        legend: Cairn au sommet du Mont Joly, 2 525m massif du Beaufortain
+        url: /media/emojis_apple_accessibilite_atipy.jpeg
+        legend: Emojis représentant 12 visages d'hommes et de femmes de couleurs de
+          peaux et de cheveux différentes.
     col2:
       reverseMobile: false
     col3:
@@ -33,16 +41,13 @@ post_sections:
       reverseMobile: false
       text:
         content: >-
-          En France, il existe une multitude de possibilités de randonnées.
-          Certains sentiers sont balisés, d’autres non (On pense à [Sur les
-          Chemins Noirs de Sylvain
-          Tesson](https://fr.wikipedia.org/wiki/Sur_les_chemins_noirs_(livre))).
-          En pleine nature, il est souvent difficile de trouver des repères.
-          Grâce au balisage, il suffit de suivre les bonnes marques ou les bons
-          signes !
+          ### Une emoji, ça sert à quoi ?
 
 
-          Les premiers balisages datent de 1850 environ dans la Forêt de Fontainebleau. L’objectif est, bien sûr, d’éviter aux marcheurs de se perdre. Avec le développement des itinéraires GR dans les années 70, le balisage que l’on connait aujourd’hui se déploie.
+          L’emoji, proche du mot émotion, permet de clarifier un message. Il n’est pas toujours évident de faire comprendre une intention, un ressentit ou une touche d’humour par écrit. L’emoji transmet donc une émotion.
+
+
+          > « Utiliser des images pour indiquer des émotions en relation avec ce qu’on est en train d’écrire, ça n’a jamais existé avant. » – Pierre Halté, docteur en sciences du langage de l’Université Paris Descartes
     col2:
       reverseMobile: false
     col3:
@@ -51,13 +56,38 @@ post_sections:
       reverseMobile: false
       text:
         content: >-
-          ### À quoi ressemble ce balisage de randonnées ?
+          ### Comment les utiliser ?
 
 
-          La Fédération française de la randonnée pédestre (FFRP) est en charge de la mise en place et la maintenance de ce balisage. Pour conserver une cohérence sur l’ensemble du territoire français, elle met en place une Charte Officielle du Balisage et de la Signalisation. Et non, on ne peut pas faire n’importe quoi.
+          #### Emojis et lecteur d’écran
 
 
-          Aujourd’hui, 180 000 kilomètres de sentiers seraient balisés. Question existentielle : mais qui balise ?? Les baliseurs ! Plus de 8000 personnes bénévoles entretiennent et mettent en place chaque année ces signes.
+          Les personnes aveugles ou malvoyantes utilisent des lecteurs d’écran. Ce système informatique permet de retranscrire le texte en son. Les emojis sont donc lues et décrites par les synthèses vocales. 
+
+
+          Afin que cela fonctionne, chaque emoji a une description qui lui est propre. Cette description est transcrite de manière vocale. Vous êtes-vous déjà demandé de ce que voulait dire l’emoji que vous utilisez ?
+
+
+          **Par exemple :**
+
+
+          👌  peut être lu « Main OK » ou « Signe de la main OK »
+
+
+          💦  « Symbole éclaboussures de sueur » ou « égouttement »
+
+
+          Afin de ne pas commettre d’impair, il est donc utile de savoir ce qu’elles racontent. N’hésitez pas à utiliser un dictionnaire d’emojis comme Emojifrance ou Smileys Signification. Les descriptions peuvent cependant variées en fonction des plateformes ou des appareils.
+
+
+          Par ailleurs, si vous utilisez plusieurs emojis à la suite, une synthèse vocale lira l’ensemble des descriptions de ces emojis, rendant ainsi la lecture très inconfortable pour l’utilisateur.
+
+
+          Ci-dessous, voici l’exemple d’un tweet n’utilisant que des emojis. Positionnées les unes à la suite des autres, elles sont censées représenter un nombre. La lecture vocale de ce tweet donne une succession d’informations répétitives : « Femme qui dit non, femme qui dit non, homme qui dit non, homme qui dit non, petits carrés blancs. »
+      image:
+        url: /media/atipy_emoji_accessibilite_twitter.jpeg
+        legend: Tweet de Paris 2024 ne présentant que des emojis de personnages hommes
+          et femmes bras croisés pour décrire une vidéo postée en-dessous.
     col2:
       reverseMobile: false
     col3:
@@ -65,9 +95,16 @@ post_sections:
   - col1:
       reverseMobile: false
       image:
-        url: ""
+        url: /media/atipy_emoji_malvoyance-deficience-visuelle.jpeg
+        legend: Ensemble de smiley jaunes avec différentes expressions. La partie droite
+          de l'image est floutée et on se rend qu'on a du mal à distinguer les
+          différentes expressions.
       text:
-        content: "![](/media/post-2.png)"
+        content: >-
+          #### Emojis et déficience visuelle
+
+
+          Eléments parfois petits et détaillés, les emojis peuvent aussi être difficiles à voir pour certaines personnes. En effet, une personne malvoyante peut être gênée pour distinguer les visages souriants : un peu souriant, très souriant, riant. L’information n’est donc que partiellement transmise.
     col2:
       reverseMobile: false
       image:
@@ -79,96 +116,49 @@ post_sections:
       reverseMobile: false
       text:
         content: >-
-          #### Quels sont les codes de balisage de randonnée ?
+          ### Troubles du spectre autistique (TSA) et emojis
 
 
-          ##### Il convient tout d’abord de distinguer les différents types de sentiers : GR, PR, ça vous dit quelque chose ?
+          Pour certaines personnes avec des troubles du spectre autistique, il peut être difficile de comprendre l’émotion ou le ressentit de son interlocuteur.Les mots, images ou symboles, comme les emojis, par exemple, peuvent aider à dépasser les difficultés de communication.
 
 
-          * GR : Grande Randonnée, sur plusieurs jours ou semaines.
-
-          * GRP : Grande Randonnée de Pays. Sentier destiné à la découverte d’une région, souvent moins long qu’un GR.
-
-          * PR : Petite Randonnée ou Promenade et Randonnée. Durée inférieure à une journée de marche.
+          ### Les emojis sont-elles universelles ?
 
 
-          ##### Ensuite, chaque type de sentiers a une couleur dédiée.
+          On peut se poser la question de savoir si les emojis sont compris dans toutes les cultures. Certaines d’entre elles, comme 😂  ou ❤️ , peuvent être envisagées comme universelles. Cependant, la communication par emojis a vite ses limites. Le contexte culturel implique bien évidemment un sens différent si vous êtes français, chinois ou brésilien. Certaines [emojis ne sont pas perçues de la même façon.](https://fr.babbel.com/fr/magazine/signification-des-emojis-dans-le-monde)
 
 
-          GR : codes de couleur blanche et rouge.
+          Il existe également plusieurs représentations pour un même code. Entre Apple, Microsoft ou Google, une même emoji peut avoir un symbole différent selon l’appareil ou l’outil utilisé. Cela peut donner lieu à des quiproquos et incompréhensions.
 
 
-          GR de Pays : codes de couleur jaune et rouge.
+          Les emojis seraient-elles les nouveaux isotypes, langage universel créé par Otto et Marie Neurath ?
 
 
-          PR : code de couleur jaune.
+          ### Pour récapituler les bonnes pratiques
 
 
-          Les autres couleurs que vous trouverez sur votre chemin (bleu, vert…) relèvent du département ou autre structure locale.
+          * Placer l’émoji à la fin d’une phrase ou d’un message plutôt qu’au milieu.
+
+          * Mettre les informations importantes avant l’emoji.
+
+          * S’assurer que le message a du sens même sans emoji.
+
+          * Utiliser un emoji dont la description est appropriée.
+
+          * Eviter d’utiliser plusieurs fois la même émoji à la suite.
 
 
-          Vous pouvez rencontrer trois formes différentes. Elles vous donnent des indications précieuses sur la direction à suivre
-
-
-          ![sentier](/media/post-4.png "sentier")
+          - - -
     col2:
       reverseMobile: false
     col3:
       reverseMobile: false
-  - col1:
-      reverseMobile: false
-      text:
-        content: >-
-          #### Les différentes formes de balisage
-
-
-          * Peinture
-
-          * Plaquettes visées
-
-          * Autocollants
-
-          * Cairn
-
-          * Mobilier signalétique et panneaux
-
-
-          #### Qu’est ce qu’un cairn ?
-
-
-          Il s’agit d’un amas de pierres, plus ou moins harmonieux, construits par les hommes et femmes. Le mot cairn vient du celtique Karn qui signifie « pierre » ou « rocher ».
-
-
-          Les cairns se trouvent aussi bien dans les régions alpines et montagneuses que dans les espaces désertiques. Le col du Carro est particulièrement connu pour ses constructions originales et esthétiques.
-
-
-          A certains endroits (Calanques de Piana en Corse, Islande), l’ajout de pierres sur un cairn existant ou la construction de nouveaux cairns sont interdits. En effet, cela peut dénaturer le site naturel, induire en erreur les randonneurs, provoquer l’érosion d’un site classé ou bien défiguré un « vrai » cairn.
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - col1:
-      reverseMobile: false
-      image:
-        url: ""
-      text:
-        content: "![](/media/cairn-1.png)"
-    col2:
-      reverseMobile: false
-      image:
-        url: /media/cairn-2.png
-    col3:
-      reverseMobile: false
-      image:
-        url: /media/cairn-3.png
 source:
   col1:
-    - label: Mon GR
-      url: https://www.mongr.fr/
+    - label: Anne-Sophie Tranchet
+      url: https://blog.hello-bokeh.fr/2020/07/23/des-emoji-accessibles/
   col2:
-    - label: La charte de balisage de la FFRP
-      url: https://www.mongr.fr/sinspirer/actu/la-ffrandonnee-a-publie-la-nouvelle-charte-du-balisage
-  col3:
-    - label: Arrêtez d’empiler des pierres à la plage ou à la montagne ! – Le Parisien
-      url: https://www.leparisien.fr/societe/vacanciers-arretez-d-empiler-des-pierres-a-la-plage-ou-a-la-montagne-19-08-2019-8135796.php
+    - label: L’excellent article de Radio Canada
+      url: https://ici.radio-canada.ca/info/2020/07/emojis-langage-decoder-unicode-interpretations/
+  col3: []
 ---
