@@ -18,6 +18,13 @@ partners:
     collaborate: Pour la complémentarité des compétences et la bienveillance mutuelle.
     projects: Rénovation du Château de Châteaubriant.
   - isSingle: false
+    name: Someware
+    logo: /media/logo-someware.png
+    aboutUs: Société indépendante et engagée, dédiée à la conception d'outils
+      cartographiques adaptés au métier de chacun.
+    collaborate: P﻿our leur professionnalisme et la complémentarité des compétences.
+    projects: S﻿ignalétique patrimoniale de Rennes Métropole, Datamarchabilité.
+  - isSingle: false
     name: Eloïse Auffret-Novice
     logo: /media/falc-eloise-auffret-logo.jpeg
     aboutUs: E﻿xperte FALC et muséographe, Eloise met en place des ateliers de
@@ -41,10 +48,10 @@ partners:
       communauté d’agglomération de Blois, Champigny-sur-Marne
     logo: /media/iter-mobilite-logo.webp
   - isSingle: false
-    name: Someware
-    logo: /media/logo-someware.png
-    aboutUs: Société indépendante et engagée, dédiée à la conception d'outils
-      cartographiques adaptés au métier de chacun.
-    collaborate: P﻿our leur professionnalisme et la complémentarité des compétences.
-    projects: S﻿ignalétique patrimoniale de Rennes Métropole, Datamarchabilité.
+    name: Ideance
+    aboutUs: Experts en accessibilité numérique
+    collaborate: L﻿eur connaissance de l'accessibilité numérique et des besoins
+      utilisateurs en situation de handicap.
+    projects: A﻿mnesty Internationale, Département du Var.
+    logo: /media/logo-ideance.jpeg
 ---
