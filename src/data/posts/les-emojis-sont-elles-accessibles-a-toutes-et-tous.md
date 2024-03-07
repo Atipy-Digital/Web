@@ -29,10 +29,12 @@ post_sections:
 
 
           Inventé sous sa forme actuelle à la fin des années 90, l’emoji est en constante évolution. Dernièrement Apple proposait 200 nouvelles emojis mettant en avant la diversité : couples mixtes, homosexuels, personnes en situation de handicap…
+
+
+          ![Emojis représentant 12 visages d'hommes et de femmes de couleurs de peaux et de cheveux différentes.](/media/emojis_apple_accessibilite_atipy.jpeg)
       image:
-        url: /media/emojis_apple_accessibilite_atipy.jpeg
-        legend: Emojis représentant 12 visages d'hommes et de femmes de couleurs de
-          peaux et de cheveux différentes.
+        url: ""
+        legend: ""
     col2:
       reverseMobile: false
     col3:
