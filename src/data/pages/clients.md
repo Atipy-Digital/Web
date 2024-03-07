@@ -43,7 +43,7 @@ sections:
 
           Rennes métropole
 
-          Annemasse Agglo
+          C﻿ommune de l'Ile de Bréhat
 
           ### **Structures publiques**
 
@@ -60,6 +60,12 @@ sections:
           M﻿inistère de l'Europe et des Affaires Etrangères
 
           Préfecture de la Région hauts de France
+
+          ### **Espaces Naturels**
+
+          P﻿arc Naturel Régional du Haut Languedoc
+
+          Conservatoire du Littoral
 
           ### **Associations et tiers-lieux**
 
@@ -108,6 +114,9 @@ sections:
           France Assos Santé
 
 
+          M﻿ACIF
+
+
           ### **Régions, Communautés d’agglomération et Départements**
 
 
@@ -127,6 +136,9 @@ sections:
 
 
           Conseil Départemental des Pyrénées Atlantique
+
+
+          D﻿épartement du Var
 
 
           ### **Culture**
