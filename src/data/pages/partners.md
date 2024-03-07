@@ -16,7 +16,8 @@ partners:
     aboutUs: Accompagnement des sites culturels et touristiques pour l’étude et la
       conception de parcours adaptés aux publics en situation de handicap.
     collaborate: Pour la complémentarité des compétences et la bienveillance mutuelle.
-    projects: Rénovation du Château de Châteaubriant.
+    projects: Rénovation du Château de Châteaubriant, AMO Cité de la Mer, parcours
+      patrimonial Ville de Lagorce.
   - isSingle: false
     name: Someware
     logo: /media/logo-someware.png
@@ -44,7 +45,7 @@ partners:
     aboutUs: Experts en accessibilité numérique
     collaborate: L﻿eur connaissance de l'accessibilité numérique et des besoins
       utilisateurs en situation de handicap.
-    projects: A﻿mnesty Internationale, Département du Var.
+    projects: A﻿mnesty International, Département du Var.
     logo: /media/logo-ideance.jpeg
   - name: Iter Mobilité
     aboutUs: Experts en mobilités, ils conçoivent des solutions adaptées pour
