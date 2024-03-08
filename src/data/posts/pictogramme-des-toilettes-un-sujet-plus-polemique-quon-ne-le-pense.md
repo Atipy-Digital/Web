@@ -13,10 +13,14 @@ post_sections:
     col1:
       reverseMobile: false
       text:
-        content: "Dans un lieu accueillant du public, les toilettes sont les endroits
+        content: >-
+          Dans un lieu accueillant du public, les toilettes sont les endroits
           les plus recherchés par les usagers. Et oui. Il est donc important de
           les signaler, par un jalonnement, mais également une identification
-          sur la porte : le pictogramme."
+          sur la porte : le pictogramme.
+
+
+          ![Signalétique indiquant les toilettes et la sortie](/media/pictogramme-toilettes-adeline_richez_ethiopie_signaletique.jpeg " Addis Abeba, Ethiopie. ©Adeline Richez")
     col2:
       reverseMobile: false
     col3:
