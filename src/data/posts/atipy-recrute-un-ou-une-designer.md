@@ -159,9 +159,6 @@ post_sections:
 
 
           **Au delà d’une meilleure compréhension de l’information, le langage clair facilite la mémorisation de l’information et augmente la vitesse de lecture. Alors, vous vous y mettez quand ?**
-
-
-          - - -
     col2:
       reverseMobile: false
       image:
