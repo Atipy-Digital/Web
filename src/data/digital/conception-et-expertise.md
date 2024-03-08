@@ -90,8 +90,8 @@ sections:
       reverseMobile: false
 footer:
   btn:
-    color: red
-    tag: Digital
-    label: Découvrez nos projets de conception digitale
+    color: null
+    tag: ""
+    label: ""
   titleContact: Vous avez un projet digital ?
 ---
