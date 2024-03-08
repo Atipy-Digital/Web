@@ -25,7 +25,8 @@ partners:
     aboutUs: Société indépendante et engagée, dédiée à la conception d'outils
       cartographiques adaptés au métier de chacun.
     collaborate: P﻿our leur professionnalisme et la complémentarité des compétences.
-    projects: S﻿ignalétique patrimoniale de Rennes Métropole, Datamarchabilité.
+    projects: Hérault Mobility, Direction générale des Infrastructures, des
+      Transports et des Mobilités, Lorient Agglo, Coop Carbone.
   - isSingle: false
     name: Eloïse Auffret-Novice
     logo: /media/falc-eloise-auffret-logo.jpeg
