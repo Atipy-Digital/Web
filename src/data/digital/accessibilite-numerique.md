@@ -106,8 +106,8 @@ sections:
       reverseMobile: false
 footer:
   btn:
-    label: Découvrez nos projets d'accessibilité numérique
-    color: red
-    tag: Accessibilité
+    label: ""
+    color: null
+    tag: ""
   titleContact: Vous avez un projet d'accessibilité web ?
 ---
