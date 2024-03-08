@@ -92,4 +92,9 @@ post_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+source:
+  col1:
+    - label: Anne-Sophie Tranchet
+      url: https://blog.hello-bokeh.fr/2020/07/23/des-emoji-accessibles/
+  col2: []
 ---
