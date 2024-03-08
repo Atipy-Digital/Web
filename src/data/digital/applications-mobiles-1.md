@@ -110,8 +110,8 @@ sections:
       reverseMobile: false
 footer:
   btn:
-    label: Découvrez nos applications mobiles
-    color: red
-    tag: Applications
+    label: ""
+    color: null
+    tag: ""
   titleContact: Vous avez un projet  d'application mobile ?
 ---
