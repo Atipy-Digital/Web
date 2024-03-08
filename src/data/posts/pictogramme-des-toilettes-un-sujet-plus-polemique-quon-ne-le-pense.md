@@ -37,6 +37,25 @@ post_sections:
 
 
           Ce pictogramme que nous voyons si souvent représente deux personnes côte à côte, parfois séparées par un trait. Ce pictogramme répond aux recommandations de l’Institut américain des arts graphiques (AIGA) et de l’Organisation internationale de normalisation (ISO).
+
+
+          ![5 pictogrammes noirs représentant des hommes et des femmes, une personne qui boit à une fontaine et un bébé.](/media/pictogramme_toilettes_aiga-accessibilite.jpeg)
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Pourquoi ce pictogramme n’est pas idéal ?
+
+
+          En [signalétique](https://atipy.fr/expertises/design/signaletique), un pictogramme doit permettre de reconnaître le lieu et sa fonction. Or, la représentation d’un homme à côté d’une femme, séparés l’un de l’autre par un trait ne semble pas explicite. En quoi cela représente-t-il des sanitaires ? Il peut également s’agir de vestiaires, d’isoloirs, de cabines… Et pourtant, il est aujourd’hui utilisé dans le monde entier, quelque soit la culture et la langue.
+
+
+          Cette représentation est-elle compréhensible par des personnes autistes ou déficientes intellectuelles ? A priori, pas tellement, du moins pour certaines. En tous les cas, cette représentation n’est pas intuitive. Elle demande de l’apprentissage : savoir que ce pictogramme représente les toilettes.
     col2:
       reverseMobile: false
     col3:
