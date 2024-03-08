@@ -60,4 +60,36 @@ post_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Quelle alternative ?
+
+
+          Représenter les toilettes par leur fonction. Homme, femme, en situation de handicap ou non… ce n’est pas le sujet. Au même titre que nous représentons une cabine de douche par un pictogramme de douche, pourquoi ne pas représenter les toilettes par un pictogramme de cuvette ? En effet, une cuvette est un objet reconnaissable et qui traduit simplement la fonction de l’espace signalé.
+
+
+          > **« Il y a le pictogramme « toilettes pour homme », le pictogramme « toilettes pour femme », et celui pour les personnes utilisateurs de fauteuil roulant qui ne sont représentés ni par un homme, ni par une femme ! Quand l’Agence Adéquat a proposé de représenter les toilettes par une cuvette de sanitaire, j’ai trouvé ça évident. » Grégoire Simmonet, président du tiers-lieu [La Tréso.](https://agence-adequat.fr/la-treso-tiers-lieu/)**
+
+
+          ![Deux plaques de portes en bois gravées représentant une cuvette de toilettes avec deux personnages à coté.](/media/pictogramme-toilettes-la-treso-signaletique-bois-atipy.jpg)
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Il y a aussi les pictogrammes difficiles à comprendre.
+
+
+          Beaucoup de designers et graphistes voient dans la conception de ce pictogramme un formidable terrain de jeux. L’incroyable créativité de certains amène à des détournements, certes plein d’humour, mais parfois complètement incompréhensibles. Sans évoquer les pictogrammes de mauvais goût, mais ça c’est une autre histoire. On perd alors la fonction première du support signalétique : orienter.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 ---
