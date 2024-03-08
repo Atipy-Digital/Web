@@ -6,45 +6,26 @@ metadata:
     - keyword: transports
     - keyword: sytral
 title: Relevé des non-conformités sur les escaliers du métro lyonnais
-image: /media/sebastien_nb.jpg
+image: /media/accessibilite-sytral-metro-lyon-atipy.jpg
 project_client: sytral
-mission_body: Relevé des non-conformités sur les escaliers de 48 stations de métro (Lyon)
-context_body: En tant que prestataire de conseil, Atipy a proposé, dans le cadre
-  de cette mission, plusieurs solutions techniques qui apparaissent comme les
-  plus appropriées en fonction des contraintes de la Maîtrise d’Ouvrage, aux
-  respects des exigences réglementaires et à la meilleure prise en compte des
-  usagers.
+mission_body: Relevé des non-conformités sur les escaliers des 48 stations du
+  réseau métropolitain de l'agglomération Lyonnaise.
+context_body: En tant que prestataire de conseil, Atipy a réalisé un état des
+  lieux minutieux de toutes les caractéristiques techniques et réglementaires
+  relatif à l’accessibilité des escaliers. Les préconisations de mise aux normes
+  ont été chiffrées dans l’objectif de donner à la Maîtrise d’ouvrage toutes les
+  clefs nécessaires à la programmation des travaux.
 project_tags:
   - Accessibilité
+  - Cadre bâti
 project_sections:
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: Ces choix techniques ont été rencontrés sur d’autres chantiers ou nous
-          ont été présentés suite à différentes rencontres avec des
-          équipementiers /poseurs spécialisés dans le domaine de la sécurisation
-          des escaliers.
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: "![](/media/sebastien_nb.jpg)"
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
         content: >-
           Les escaliers de stations de métro sont soumis à de nombreuses
-          contraintes : 
+          contraintes : 
 
 
           * flux de passage régulier et important
@@ -56,46 +37,18 @@ project_sections:
           * méthodes et processus de nettoyage
 
 
-          L’objectif des solutions retenues sera de concilier performance – durabilité – simplicité – efficacité – maîtrise des coûts.
+          Un benchmark des différentes solutions techniques a été réalisé par le biais de retours d’expériences chantier, rencontres avec des équipementiers et poseurs spécialisés afin de concilier performance – durabilité – simplicité – efficacité – maîtrise des coûts.
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/sebastien_nb.jpg)"
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: >-
-          Ce texte généré aléatoirement (lorem ipsum) car le Pôle ingé n'a pas
-          fourni le contenu nécessaire. Il peut être utilisé dans vos maquettes
-          (webdesign, sites internet, livres, affiches...) gratuitement. Ce
-          texte est entièrement libre de droit.
-
-
-          Si vous aimez la photographie d'art et l'esprit zen, jetez un œil sur le site de ce **[photographe à Palaiseau](https://photos.prelude.me/ "Photographe à Palaiseau en Essonne - France")**, en Essonne (France).
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: |-
-          ### N﻿os domaines d'intervention
-
-          * M﻿erci de fournir
-          * 4﻿ à 5 domaines
-          * d﻿'intervention
-          * p﻿our cette mission
-    col2:
-      reverseMobile: false
+        content: "![Extrait du diagnostic avec un plan de la station Charpennes et un
+          tableau de relevé des
+          non-conformités](/media/atipy-ingenierie-releves-metro_lyionnais.jpg)"
     col3:
       reverseMobile: false
 projectsFeatured:
   - releves-d-accessibilite-region-grand-est
+  - diagnostic-accessibilite-et-adap-du-ministere-des-armees
 footer:
   btn:
     label: Découvrez nos relevés de non-conformités

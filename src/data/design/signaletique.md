@@ -24,12 +24,16 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          #### Qu’est-ce que la signalétique ?
+          #### Qu’est-ce que la signalétique&nbsp;?
 
 
           La signalétique est un ensemble d’outils et de signes permettant à un utilisateur de pouvoir s’orienter en autonomie. Elle favorise le confort d’usage d’un lieu. La signalétique oriente, accueille et informe. La mise en place d’un système signalétique efficace nécessite des compétences particulières. Il existe plusieurs typologies de supports signalétique. Chaque typologie a une fonction particulière : signalétique d’identification, directionnelle, d’interprétation, d’information, de sécurité. La signalétique, visible de tous, est également un outil de communication qu’il ne faut pas oublier. Elle appuie une identité visuelle, crée une unité graphique au sein d’un ou plusieurs espaces.
+
+
+          ![Signalétique d'identification positionnée sur du mobilier urbain comme par exemple un abribus.](/media/design-signaletique-pieton-annemasse-pem-atipy-1.png)
       image:
-        url: /media/design-signaletique-pieton-annemasse-pem-atipy-1.png
+        url: ""
+        legend: ""
     col2:
       reverseMobile: false
     col3:
@@ -41,7 +45,7 @@ sections:
           #### Une signalétique accessible à tous et toutes
 
 
-          Nous prenons en compte, dès la conception, la réglementation de la loi du 11 février 2005 et les principes de la conception universelle afin de réaliser un système signalétique confortable et facile à utiliser pour tous ! Nous concevons des supports signalétiques en prenant en compte les besoins de tous types de visiteurs : familles et enfants, personnes de langues étrangères, personnes âgées, personnes en situation de handicap, publics à besoins spécifiques.. Au-delà des questions de lisibilité des informations (taille des caractères, contrastes, etc.), la signalétique peut également intégrer des dispositifs digitaux ou multi-sensoriels, comme un plan tactile ou des balises sonores.
+          Nous prenons en compte, dès la conception, la réglementation de la loi du 11 février 2005 et les principes de la conception universelle afin de réaliser un système signalétique confortable et facile à utiliser pour tous&nbsp;! Nous concevons des supports signalétiques en prenant en compte les besoins de tous types de visiteurs&nbsp;: familles et enfants, personnes de langues étrangères, personnes âgées, personnes en situation de handicap, publics à besoins spécifiques.. Au-delà des questions de lisibilité des informations (taille des caractères, contrastes, etc.), la signalétique peut également intégrer des dispositifs digitaux ou multi-sensoriels, comme un plan tactile ou des balises sonores.
       image:
         url: ""
     col2:
@@ -58,33 +62,28 @@ sections:
   - col1:
       reverseMobile: true
       text:
-        content: '![Pourquoi mettre en place un système signalétique
-          ?](/media/design-signaletique-accessible-theatre-bateau-feu-dunkerque-atipy-1.jpg
-          "Pourquoi mettre en place un système signalétique ?")'
+        content: '![Signalétique murale directionnelle de couleurs jaune, bleue et
+          verte. Les panneaux indiquant "Grande salle", "petite salle",
+          "toilettes" avec des flèches et des
+          pictogrammes.](/media/design-signaletique-accessible-theatre-bateau-feu-dunkerque-atipy-1.jpg)'
     col2:
-      reverseMobile: false
+      reverseMobile: true
       text:
         content: >-
-          #### Pourquoi mettre en place un système signalétique ?
+          #### Pourquoi mettre en place un système signalétique&nbsp;?
 
 
-          Mettre en place un système de signalétique efficace permet aux usagers :
+          Mettre en place un système de signalétique efficace permet aux usagers&nbsp;:
 
 
           * D’être autonomes dans leurs déplacements.
 
-
-
-
           * De ne pas se perdre.
-
-
-
 
           * De trouver les informations qu’ils cherchent.
 
 
-          [D﻿écouvrez également nos formations en signalétique](https://atipy.netlify.app/expertises/formation)
+          [D﻿écouvrez également nos formations en signalétique](https://atipy.fr/expertises/formation)
     col3:
       reverseMobile: false
     inverseCol: true
@@ -92,39 +91,21 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          **Nos prestations pour concevoir un système performant de signalétique
-          d’orientation accessible à tous et toutes :**
+          #### Nos prestations pour concevoir un système performant de
+          signalétique d’orientation accessible à tous et toutes&nbsp;:
 
 
           * Assistance à Maîtrise d’Ouvrage
 
-
-
-
           * Audit de signalétique
-
-
-
 
           * Schémas directeurs et cahier de contenus
 
-
-
-
           * Création de charte signalétique
-
-
-
 
           * Plans d’implantation
 
-
-
-
           * Préconisations techniques
-
-
-
 
           * Accompagnement à la fabrication et la pose
     col2:

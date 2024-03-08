@@ -5,9 +5,12 @@ bannerData:
 
     d’un monde plus **accessible.**
 introData:
-  title: Nous mettons à votre disposition nos compétences en ***accessibilité***
-    et ***conception universelle*** dans les domaines du ***digital,***
-    ***design,*** aménagement, urbanisme et mobilité.
+  title: Nous mettons à votre disposition nos compétences en
+    ***[accessibilité](https://atipy.fr/expertises/ingenierie)*** et
+    ***[conception universelle](https://atipy.fr/agence/conception)*** dans les
+    domaines du ***[digital](https://atipy.fr/expertises/digital),***
+    ***[design](https://atipy.fr/expertises/design),*** aménagement, urbanisme
+    et mobilité.
   button:
     label: Nos expertises
     url: /expertises
@@ -38,7 +41,7 @@ agencyData:
     innovante et conviviale, spécialisée dans l’accessibilité et le design.
 
 
-    Atipy réunit deux entreprises spécialisées dans la conception universelle et l’accessibilité : Divercities et Agence Adéquat. En 2021, cette fusion prend le nom d’Atipy, une association évidente après 10 années de partenariat. Fort de ses expériences sur des projets d’envergures, Atipy accompagne les structures publiques comme privées dans la réflexion et la mise en place de dispositifs accessibles et inclusifs.
+    Atipy réunit deux entreprises spécialisées dans la conception universelle et l’accessibilité&nbsp;: Divercities et Agence Adéquat. En 2021, cette fusion prend le nom d’Atipy, une association évidente après 10 années de partenariat. Fort de ses expériences sur des projets d’envergures, Atipy accompagne les structures publiques comme privées dans la réflexion et la mise en place de dispositifs accessibles et inclusifs.
   buttonEngagement:
     label: Découvrir nos engagements
   buttonCta:
@@ -55,6 +58,7 @@ projectData:
   home_projects:
     - charte-signale-tique-accessible-pour-les-itine-raires-velo
     - document-falc
+    - diagnostic-accessibilite-et-adap-du-ministere-des-armees
 newsletterData:
   title: |-
     Veille et actualités
@@ -63,7 +67,7 @@ newsletterData:
 
     et l’accessibilité,
 
-    soyez au courant !
+    soyez au courant&nbsp;!
   subtitle: Abonnez-vous à notre newsletter
   placeholder: Email
   button:

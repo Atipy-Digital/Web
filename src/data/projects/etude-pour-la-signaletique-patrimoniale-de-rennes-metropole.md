@@ -8,7 +8,7 @@ metadata:
     - keyword: signaletique
     - keyword: patrimoine
 title: Étude pour la signalétique patrimoniale de Rennes Metropole
-image: /media/realisation-design-signaletique-patrimoine-rennes-1.png
+image: /media/design-reference-rennes-metropole-atipy-1.jpg
 project_client: rennes-metropole
 mission_body: Étude et préconisations sur la mise en place d’une signalétique
   patrimoniale sur le territoire de Rennes Métropole
@@ -25,7 +25,7 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ### Objectifs de la mission
+          #### Objectifs de la mission
 
 
           * Mise en place d’une méthodologie pour déployer la signalétique sur l’ensemble des communes de la Métropole.
@@ -39,10 +39,10 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ### Notre méthodologie
+          #### Notre méthodologie
 
 
-          **PHASE 1 : Analyse et synthèse pour la mise en place d’une signalétique patrimoniale**
+          ##### **PHASE 1 : Analyse et synthèse pour la mise en place d’une signalétique patrimoniale**
 
 
           * Étape 1 – S’approprier le contexte
@@ -54,19 +54,25 @@ project_sections:
           * Étape 4 – Rapport d’étonnement
 
 
-          **PHASE 2 : Définition d’une stratégie pour le déploiement d’une nouvelle signalétique patrimoniale**
+          ##### **PHASE 2 : Définition d’une stratégie pour le déploiement d’une nouvelle signalétique patrimoniale**
 
 
-          * * Étape 1 – Benchmark
-            * Étape 2 – Le rôle de la métropole dans la stratégie signalétique
-            * Étape 3 – Synthèse opérationnelle
+          * Étape 1 – Benchmark
+
+          * Étape 2 – Le rôle de la métropole dans la stratégie signalétique
+
+          * Étape 3 – Synthèse opérationnelle
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-design-signaletique-patrimoine-rennes-5.jpg)"
+        content: "![6 pages extraites du rapport d'analyse de la signalétique
+          patrimoniale. Par exemple, préconisations sur les contrastes, la
+          réalisation d'une charte
+          signalétique.](/media/realisation-design-signaletique-patrimoine-renn\
+          es-5.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -76,10 +82,10 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ### La concertation des usagers et acteurs locaux
+          #### La concertation des usagers et acteurs locaux
 
 
-          **Notre méthode de concertation impliquait deux étapes :**
+          ##### **Notre méthode de concertation impliquait deux étapes**&nbsp;**:**
 
 
           * La rencontre des acteurs du patrimoine à travers deux réunions et visite de sites.
@@ -87,10 +93,10 @@ project_sections:
           * L’enquête auprès des usagers
 
 
-          ### La création de parcours de visites thématiques
+          #### La création de parcours de visites thématiques
 
 
-          **La mise en place de parcours a pour effet de :**
+          ##### **La mise en place de parcours a pour effet de**&nbsp;**:**
 
 
           * Favoriser les points remarquables isolés ou méconnus
@@ -100,7 +106,7 @@ project_sections:
           * Donner une lecture globale de l’étendue du patrimoine
 
 
-          **Si la mise en place de parcours est souhaitée, certains points d’attention seront à prendre en compte :**
+          ##### **Si la mise en place de parcours est souhaitée, certains points d’attention seront à prendre en compte**&nbsp;**:**
 
 
           * La prise en charge et l’accueil des visiteurs
@@ -113,18 +119,13 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-design-signaletique-patrimoine-rennes-3.jpg)"
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: "![](/media/realisation-design-signaletique-patrimoine-rennes-4.jpg)"
-    col2:
-      reverseMobile: false
-      text:
-        content: ""
+        content: "![Enquete sur l'intérêt d'une signalétique patrimoniale : 63% des
+          répondants indiquent avoir un interet important pour le patrimoine,
+          70% pensent que la signalétique patrimoniale n'est pas assez
+          importante sur le territoire, 40% pensent que les informations données
+          doivent etre simplifiées, 49% pensent que les informations données
+          doivent etre
+          complètes.](/media/design-reference-rennes-metropole-atipy-2.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -132,7 +133,7 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ### Ce que nous avons adoré
+          #### Ce que nous avons adoré
 
 
           * **Un patrimoine hétéroclite**\
@@ -141,7 +142,7 @@ project_sections:
             Lisible et ludique, elle incite à quitter Rennes pour découvrir d’autres sites. C’est le seul support global que nous avons trouvé.
           * **La déclinaison des livrets de visite en FALC**
 
-          * **L’expérience de Bécherel**, un condensé des différentes typologies de patrimoine sur Rennes Métropole. Patrimoine remarquable, cité de caractère, cité du livre, circuits « incitatifs » (randonnées, ruelles/passages étroits et remparts).
+          * **L’expérience de Bécherel**, un condensé des différentes typologies de patrimoine sur Rennes Métropole. Patrimoine remarquable, cité de caractère, cité du livre, circuits «&nbsp;incitatifs&nbsp;» (randonnées, ruelles/passages étroits et remparts).
 
           * **Le PDU 2030** qui offre de nouvelles perspectives pour la découverte du patrimoine
 
@@ -149,17 +150,25 @@ project_sections:
 
           * **Un contenu numérique très riche**
     col2:
-      reverseMobile: false
+      reverseMobile: true
       text:
-        content: "![](/media/realisation-design-signaletique-patrimoine-rennes-2.png)"
+        content: "![Carte montrant les 7 lieux visités pour l'étude : vallée de la
+          Vilaine, Le Rheu, Bécherel, le centre de Rennes, Saint Sulpice la
+          Foret, écomusée, Pont
+          Péan](/media/design-reference-rennes-metropole-atipy-4.jpg)"
     col3:
       reverseMobile: false
-  - inverseCol: false
+  - inverseCol: true
     col1:
       reverseMobile: false
       text:
+        content: "![Concertation avec les acteurs du territoire afin de recueillir les
+          besoins.](/media/design-reference-rennes-metropole-atipy-3.jpg)"
+    col2:
+      reverseMobile: false
+      text:
         content: >-
-          ### Nos domaines d’intervention
+          #### Nos domaines d’intervention
 
 
           * Animation de réunions de concertation et visites in situ.
@@ -167,10 +176,6 @@ project_sections:
           * Analyse territoriale et patrimoniale et observations.
 
           * Préconisations pour la mise en place d’une signalétique patrimoniale sur le territoire.
-    col2:
-      reverseMobile: false
-      text:
-        content: ""
     col3:
       reverseMobile: false
 projectsFeatured:

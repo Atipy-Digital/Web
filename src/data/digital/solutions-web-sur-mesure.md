@@ -51,15 +51,16 @@ sections:
           Une identité visuelle forte permet de communiquer efficacement votre marque et votre message auprès du public. 
 
 
-          Notre équipe du [Pôle Design](https://atipy.netlify.app/expertises/design) vous écoute et vous accompagne pour concevoir un logo, choisir une palette de couleurs, définir une typographie et créer des éléments graphiques distinctifs, tels que des motifs, des icônes ou des illustrations. 
+          Notre équipe du [Pôle Design](https://atipy.fr/expertises/design) vous écoute et vous accompagne pour concevoir un logo, choisir une palette de couleurs, définir une typographie et créer des éléments graphiques distinctifs, tels que des motifs, des icônes ou des illustrations. 
 
 
           Votre portail web dispose ainsi d’une interface complètement personnalisée et chartée à l’image de votre groupe.
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-video-motion-design-pcb-accessibilite-falc.jpg\
-          )"
+        content: "![Vidéo en motion design sous titré avec deux personnages qui
+          discutent.](/media/realisation-video-motion-design-pcb-accessibilite-\
+          falc.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false

@@ -24,32 +24,8 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: >-
-          #### **Que peut-on relever ?**
-
-
-          Notre expertise en relevé accessibilité (diagnostiqueurs expérimentés, outils de relevés internes performants) et notre expertise en phase travaux nous permettent de vous proposer d’autres types de relevés dans les bâtiments et les espaces publics.
-
-
-          Ainsi nous pouvons répertorier, géo-localiser et définir l’état de vos équipements notamment dans les domaines suivants :
-
-
-          * Equipement de sécurité incendie (Extincteur, BAES, EAS, Sorties de secours, plans, etc)
-
-          * Équipements divers de type chauffage, eau-chaude sanitaire, ventilation
-
-          * Relevé Vétusté / état des lieux, désordres architecturaux,  etc
-
-          * Inventaires variés
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: "![](/media/securite-incendie-releves-multitechnique-atipy.jpg)"
+        content: "![Extincteur rouge posé au sol vu de
+          dessus.](/media/securite-incendie-releves-multitechnique-atipy.jpg)"
     col2:
       reverseMobile: false
       text:
@@ -61,29 +37,36 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          #### **Quels sont les objectifs ?**
+          #### **Que peut-on relever**&nbsp;**?**
+
+
+          Notre expertise en relevé accessibilité (diagnostiqueurs expérimentés, outils de relevés internes performants) et notre expertise en phase travaux nous permettent de vous proposer d’autres types de relevés dans les bâtiments et les espaces publics.
+
+
+          Ainsi nous pouvons répertorier, géo-localiser et définir l’état de vos équipements notamment dans les domaines suivants&nbsp;:
+
+
+          * Équipement de sécurité incendie (Extincteur, BAES, EAS, Sorties de secours, plans, etc)
+
+          * Équipements divers de type chauffage, eau-chaude sanitaire, ventilation
+
+          * Relevé Vétusté / état des lieux, désordres architecturaux,  etc
+
+          * Inventaires variés
+    col2:
+      reverseMobile: false
+      text:
+        content: >-
+          #### Quels sont les objectifs&nbsp;?
 
 
           * Pouvoir relever tous types de données utiles aux gestionnaires de patrimoine.
 
-
-
-
-          * Profiter des relevés accessibilité et des éventuels travaux pour traiter les désordres “connexes”. 
-
-
-
+          * Profiter des relevés accessibilité et des éventuels travaux pour traiter les désordres «&nbsp;connexes&nbsp;».
 
           * Disposer d’un système de relevés global, simple et performant avec des possibilités d’ajout de thématiques multiples facilitant la gestion du patrimoine.
 
-
-
-
           * Vous remettre les données sous un format adapté à vos besoins (compatible avec votre interface logiciel, en format tableur ou avec un accès à notre propre logiciel).
-    col2:
-      reverseMobile: false
-      text:
-        content: '![](/media/releve-multitechnique-atipy.jpg "Relevé Extincteur")'
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -104,12 +87,13 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: ""
+        content: "![Gaines métallique en enfilade sous un
+          plafond.](/media/releve-multitechnique-atipy.jpg)"
     col3:
       reverseMobile: false
 footer:
   btn:
-    label: Découvrez nos relevés complémentaires
+    label: "Découvrez nos projets "
     color: blue
     tag: Ingénierie
   titleContact: Besoin d'effectuer un relevé ?

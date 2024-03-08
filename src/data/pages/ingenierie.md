@@ -1,21 +1,51 @@
 ---
 title: Ingénierie
 intro: >-
-  ### Quis eleifend quam adipiscing vitae
+  ### Des consultants au service de l'accessibilité
 
 
-  Elementum nibh tellus molestie nunc non blandit massa enim. Pretium lectus quam id leo in vitae. Mauris vitae ultricies leo integer malesuada nunc vel risus. Quisque sagittis purus sit amet volutpat consequat. Iaculis at erat pellentesque adipiscing commodo.
+  Composé d'une équipe d'experts en accessibilité et urbanisme, le Pôle Ingénierie vous accompagne dans la mise en accessibilité de votre patrimoine et dans le relevé de toutes autres données spécifiques. Nous intervenons pour des audits/diagnostics d’accessibilité et des relevés multitechniques. Nous vous accompagnons également sur votre stratégie en accessibilité pour l’ensemble de votre patrimoine.
 sections:
   - col1:
       reverseMobile: false
       text:
-        content: >-
-          #### Eu sem integer vitae justo eget magna fermentum iaculis.
-
-
-          Risus viverra adipiscing at in tellus. Nec feugiat nisl pretium fusce. Fermentum odio eu feugiat pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Scelerisque felis imperdiet proin fermentum leo vel orci porta non.
+        content: "![Une personne est assise dans un fauteuil roulant dont on voit le bas
+          des roues. A gauche se trouve une personne
+          debout.](/media/concertation-handicap-association-atipy-2.jpg)"
       image:
-        url: /media/ph-1277.png
+        url: ""
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          Le Pôle Ingénierie met un point d’honneur à ne pas limiter
+          l’accessibilité à une vision purement réglementaire.
+
+
+          Il s’agit de considérer les besoins de l’ensemble des individus pour concevoir des espaces, des équipements et des services pour tous et toutes avant de le faire pour chacun et chacune.
+
+
+          **Notre philosophie se base sur les axes suivants :**
+
+
+          * Le respect de l’usage dans l’application réglementaire
+
+          * L’écoute et la flexibilité
+
+          * La qualité de vie et le bien être des collaborateurs
+
+          * Le développement d’outils numériques. Conscient des évolutions numériques et technologiques, nous proposons des outils personnalisés pour répertorier et faciliter la gestion de votre patrimoine.
+
+
+          Nous sommes à votre écoute pour vous proposer des prestations sur-mesure afin de répondre à tous vos besoins. Aussi, nous mettons un point d’honneur à accorder à nos clients une attention égale quelque soit leur notoriété ou le montant du contrat.
+
+
+          Enfin, sachez que notre adaptabilité se base également sur un réseau étoffé de partenaires dans de nombreux domaines.
     col2:
       reverseMobile: false
     col3:
@@ -24,35 +54,28 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          **Vitae tortor condimentum lacinia quis vel eros donec.**
+          #### Une équipe expérimentée
 
 
-          Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Amet justo donec enim diam vulputate ut pharetra sit amet. Mauris augue neque gravida in. Nunc lobortis mattis aliquam faucibus purus. Mi tempus imperdiet nulla malesuada pellentesque elit eget. Odio tempor orci dapibus ultrices in iaculis nunc sed. Adipiscing at in tellus integer feugiat scelerisque.
+          Notre expérience, et les solutions logicielles que nous avons développées, nous permettent de répondre à vos demandes concernant les thématiques suivantes :
+
+
+          * D﻿iagnostic
+
+          * A﻿MO et AMOe
+
+          * S﻿uivi d'AD'AP
+
+          * D﻿émarches administratives
+
+          * R﻿egistre public d'accessibilité
+
+          * R﻿elevés multitechniques
     col2:
       reverseMobile: false
       text:
-        content: |-
-          #### Morbi tristique senectus et netus et malesuada fames.
-
-          ![ok](/media/ph-578.png "ok")
-    col3:
-      reverseMobile: false
-  - col1:
-      reverseMobile: false
-      text:
-        content: >-
-          #### Eu sem integer vitae justo eget magna fermentum iaculis.
-
-
-          Risus viverra adipiscing at in tellus. Nec feugiat nisl pretium fusce. Fermentum odio eu feugiat pretium.
-
-
-          **Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate.** 
-
-
-          Scelerisque felis imperdiet proin fermentum leo vel orci porta non. Vitae tortor condimentum lacinia quis vel eros donec. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Amet justo donec enim diam vulputate ut pharetra sit amet.
-    col2:
-      reverseMobile: false
+        content: "![Enfilade de gaines métalliques positionnées sous un
+          plafond](/media/releve-multitechnique-atipy.jpg)"
     col3:
       reverseMobile: false
 ---

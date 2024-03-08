@@ -20,14 +20,24 @@ intro: >-
   ### Relevé et stratégie de mise en accessibilité
 
 
-  Quoi faire, par où commencer et quels sont les facteurs clés de succès de la mise en accessibilité ? **Atipy** met son expérience à votre profit.
+  Quoi faire, par où commencer et quels sont les facteurs clés de succès de la mise en accessibilité&nbsp;? **Atipy met son expérience à votre profit.**
 sections:
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
+        content: "![Exemple d'un relevé PAVE : vue du plan d'une ville avec des points
+          de relevés de couleurs rouge, noir ou jaune.](/media/pave-atipy.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: >-
-          #### Qu’est-ce qu’un P.A.V.E ?
+          #### Qu’est-ce qu’un P.A.V.E&nbsp;?
 
 
           Un P.A.V.E (Plan d’Aménagement de la Voirie et des Espaces publics) est un document obligatoire fixant les dispositions susceptibles de rendre accessible aux personnes handicapées et à mobilité réduite l'ensemble des circulations piétonnes et des aires de stationnement d'automobiles situées sur le territoire d’une commune. 
@@ -42,51 +52,42 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/pave-atipy.png)"
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
         content: >-
-          #### Quels sont les objectifs ?
+          #### Quels sont les objectifs&nbsp;?
 
 
           * Recenser les obstacles et non-conformités sur le terrain
 
+          * Harmoniser la mise en accessibilité avec celle des bâtiments et des transports
 
-
+          * Intégrer l’ensemble des acteurs locaux de l’espace public
 
           * Préconiser les travaux et aménagements correctifs
-
-
-
 
           * Proposer une planification en fonction des points d’intérêts, des budgets et PPI du territoire
 
 
+          #### Notre accompagnement
 
 
-          * Harmoniser la mise en accessibilité avec celle des bâtiments et des transports
+          Notre active participation aux groupes de travaux permettant de définir les formats de données réglementaires (CNIG) nous permettent aujourd’hui de proposer un accompagnement complet&nbsp;: 
 
 
+          * Relevé conforme aux attentes réglementaires
 
+          * Relevé compatible avec les enjeux du PAVE
 
-          * Intégrer l’ensemble des acteurs locaux de l’espace public
-    col2:
-      reverseMobile: false
-      text:
-        content: '![](/media/pave-accessibilite-voirie-atipy.jpg "Les objectifs du
-          PAVE")'
+          * [Formations](https://atipy.fr/expertises/formation)
+
+          * Outils informatiques de relevé et de mise à jour de la donnée
     col3:
       reverseMobile: false
-  - inverseCol: false
+  - inverseCol: true
     col1:
       reverseMobile: false
       text:
         content: >-
-          #### Qu’est-ce que la LOM (loi d'orientation des mobilités) ?
+          #### Qu’est-ce que la LOM (loi d'orientation des mobilités)&nbsp;?
 
 
           Suite à la LOM (Loi d’Orientation des Mobilités) du 24/12/2019, les AOM, les transporteurs et les gestionnaires de voirie doivent mettre en œuvre des solutions face aux contraintes de déplacement liées aux transports en commun et aux manques d’information en matière d’accessibilité. 
@@ -98,37 +99,9 @@ sections:
           Ces données doivent être rendues publiques et mises à disposition afin de faciliter les déplacements. Elles permettront l’émergence de GPS et calculateurs d’itinéraires et d’applications de guidages, de bout en bout, en prenant en compte les capacités de tous.
     col2:
       reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
       text:
-        content: >-
-          #### Notre accompagnement
-
-
-          Notre active participation aux groupes de travaux permettant de définir les formats de données réglementaires (CNIG) nous permettent aujourd’hui de proposer un accompagnement complet : 
-
-
-          * Relevé conforme aux attentes réglementaires
-
-
-
-
-          * Relevé compatible avec les enjeux du PAVE
-
-
-
-
-          * [Formations](https://atipy.netlify.app/expertises/formation)
-
-
-
-
-          * Outils informatiques de relevé et de mise à jour de la donnée
-    col2:
-      reverseMobile: false
+        content: "![Une rue d'une petite ville
+          calme](/media/pave-accessibilite-voirie-atipy.jpg)"
     col3:
       reverseMobile: false
 footer:

@@ -21,19 +21,38 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "**Que vous soyez une PME ou une structure publique, nous réalisons
-          tous vos supports de communication en prenant en compte les principes
-          de la conception universelle. Nous vous accompagnons dans
-          l’élaboration de contenus clairs et compréhensibles, en adéquation
-          avec vos stratégies et objectifs opérationnels.**"
+        content: "![Série de livrets pédagogiques pour Amnesty Internationale : Les
+          droits humains avec une couverture orange, les discriminations avec
+          une couverture rose, la peine de mort avec une couverture
+          violette.](/media/design-expertise-conception-graphique.png)"
       image:
-        url: /media/design-livret-accessible-amnesty-international-atipy-1.jpg
+        url: ""
     col2:
       reverseMobile: false
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
+      reverseMobile: false
+      text:
+        content: >-
+          **Que vous soyez une PME ou une structure publique, nous réalisons
+          tous vos supports de communication en prenant en compte les principes
+          de la conception universelle. Nous vous accompagnons dans
+          l’élaboration de contenus clairs et compréhensibles, en adéquation
+          avec vos stratégies et objectifs opérationnels.**
+
+
+          * Élaboration de guide d’accessibilité
+
+          * Référentiels d’accessibilité des ERP
+
+          * Guide d’accueil des publics en situation de handicap
+
+          * Réalisation de guides de tourisme pour tous
+
+          * Conception de brochures, catalogues, flyers…
+    col2:
       reverseMobile: false
       text:
         content: >-
@@ -46,30 +65,18 @@ sections:
           C’est pourquoi, pour chaque support, nous pensons à utiliser un contraste suffisant (à partir du tableau de Paul Arthur et Romedi Passini), une typographie lisible, un interlettrage et un interlignage correctes. 
 
 
-          [D﻿écouvrez également nos formations](https://atipy.netlify.app/expertises/formation)n accessibilité graphique.
-    col2:
+          [D﻿écouvrez également nos formations en accessibilité graphique](https://atipy.fr/expertises/formation)
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
       reverseMobile: false
       text:
-        content: |-
-          #### Nous réalisons la mise en page de vos documents
-
-          * Elaboration de guide d’accessibilité
-
-
-
-          * Référentiels d’accessibilité des ERP
-
-
-
-          * Guide d’accueil des publics en situation de handicap
-
-
-
-          * Réalisation de guides de tourisme pour tous
-
-
-
-          * Conception de brochures, catalogues, flyers…
+        content: "![Ensemble de 16 pictogrammes représentant un tracteur, des toilettes,
+          un vélo qui monte une pente,
+          etc.](/media/design-expertise-conception-pictogramme-atipy-1.jpg)"
+    col2:
+      reverseMobile: false
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -85,22 +92,20 @@ sections:
 
           * Ne parlant pas la langue du pays dans lequel elles se trouvent
 
-
-
-
           * Ne sachant pas lire
 
-
-
-
-          * Ayant des troubles « DYS »
-
-
-          Associé à du texte, le pictogramme permet de comprendre plus facilement l’information. Dans certains cas, il peut se substituer complètement au texte. Dans la mesure du possible, nous utiliserons des pictogrammes existants standardisés. Pourquoi ? La standardisation de ces signes implique qu’ils sont utilisés dans différents contextes. Une meilleure reconnaissance est donc possible car ils ont déjà été identifiés. Dans le cas de pictogrammes spécifiques, nous sont en mesure de les créer.
+          * Ayant des troubles « &nbsp;DYS &nbsp;»
       image:
-        url: /media/design-expertise-conception-pictogramme-atipy-1.jpg
+        url: ""
     col2:
       reverseMobile: false
+      text:
+        content: >-
+          ##### Associé à du texte, le pictogramme permet de comprendre plus
+          facilement l’information. 
+
+
+          Dans certains cas, il peut se substituer complètement au texte. Dans la mesure du possible, nous utiliserons des pictogrammes existants standardisés. Pourquoi &nbsp;? La standardisation de ces signes implique qu’ils sont utilisés dans différents contextes. Une meilleure reconnaissance est donc possible car ils ont déjà été identifiés. Dans le cas de pictogrammes spécifiques, nous sont en mesure de les créer.
     col3:
       reverseMobile: false
 footer:

@@ -24,7 +24,9 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/formations-conferences-atelier-atipy.jpg)"
+        content: "![A droite, on voit une conférence avec 4 intervenants. A gauche, un
+          formateur montre à l'écran un exemple de signalétique
+          accessible.](/media/formations-conferences-atelier-atipy.jpg)"
       image:
         url: ""
         legend: ""
@@ -44,7 +46,7 @@ sections:
           La gestion de l'accessibilité numérique doit être un processus continu, intégré dans la culture de l'entreprise et soutenu par une solide sensibilisation et une expertise en la matière. Cela garantira que les produits et services numériques sont accessibles à tous, améliorant ainsi l'expérience utilisateur et répondant aux obligations légales.
 
 
-          [D﻿écouvrez nos formations](https://atipy.netlify.app/expertises/formation)
+          D﻿écouvrez nos formations
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -65,7 +67,10 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/accessibilite-numerique-daltonisme-contrastes-atipy.png)"
+        content: "![Exemple de carte de la France en couleurs avec une simulation à
+          droite de la vision de cette carte par une personnes
+          daltonienne.](/media/accessibilite-numerique-daltonisme-contrastes-at\
+          ipy.png)"
     col3:
       reverseMobile: false
   - inverseCol: false

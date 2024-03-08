@@ -14,12 +14,26 @@ icon:
 color: ENGINEER
 intro: >-
   La participation des utilisateurs est essentiel pour la définition de
-  solutions universelles et inclusives, pérennes et acceptées par tous. 
-
+  solutions **universelles et inclusives, pérennes et acceptées par tous.** 
 
 
   **La concertation c’est la rencontre et l’écoute des besoins de chacune des parties.**
 sections:
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![A gauche, un groupe de 6 personnes est réuni dans la rue. L'une
+          d'elle est utilisatrice d'une canne blanche, l'un d'eux est
+          utilisateur de fauteuil roulant. A droite, on voit une personne en
+          fauteuil roulant traverser la rue sur une passage
+          piéton.](/media/offer-w-access-concertation.png)"
+      image:
+        url: ""
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
@@ -31,79 +45,65 @@ sections:
           La concertation est ce qui nous anime. Il n’est rien de plus cohérent pour nous que de faire se rencontrer la diversité des besoins, attentes et compétences pour faire émerger des solutions décidées collectivement.
 
 
-
           Notre accompagnement couvre :
 
 
-          * la logistique et l’organisation des rencontres
+          * La logistique et l’organisation des rencontres
 
-          * l’animation d’ateliers et de réunions
+          * L’animation d’ateliers et de réunions
 
-          * la rédaction des comptes-rendus
+          * La rédaction des comptes-rendus
 
-          * la mise en place de plans d’actions concertés
+          * La mise en place de plans d’actions concertés
       image:
-        url: /media/concertation-atelier-handicap-atipy.jpg
+        url: ""
         legend: ""
     col2:
       reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
       text:
         content: >-
-          #### Où et quand concerter ?
+          #### Où et quand concerter&nbsp;?
 
 
-          Les ateliers peuvent, selon les nécessités, avoir lieu in situ ou en salle de réunion. Cela dépend de ce qui est attendu. 
+          Les ateliers peuvent, selon les nécessités, avoir lieu in situ ou en salle de réunion. Cela dépend de ce qui est attendu. Pour de l’aménagement ou pour solliciter un avis sur un événement, la visite terrain est évidemment indispensable.
 
 
-          Pour de l’aménagement ou pour solliciter un avis sur un événement, la visite terrain est évidemment indispensable.
-
-
-          Un temps de débriefing en salle de réunion viendra compléter la démarche. C’est également le cas pour un projet de création, où l’intérieur favorise la qualité d’écoute et de travail.
-
-
-          La concertation doit avoir lieu le plus en amont possible mais reste nécessaire à toutes les phases d’un projet.
-    col2:
-      reverseMobile: false
-      text:
-        content: '![](/media/concertation-atelier-atipy-handicap-inclusions.jpg
-          "Processus de la concertation")'
+          Un temps de débriefing en salle de réunion viendra compléter la démarche. C’est également le cas pour un projet de création, où l’intérieur favorise la qualité d’écoute et de travail. La concertation doit avoir lieu le plus en amont possible mais reste nécessaire à toutes les phases d’un projet.
     col3:
       reverseMobile: false
-  - inverseCol: false
+  - inverseCol: true
     col1:
-      reverseMobile: false
-      text:
-        content: "![](/media/concertation-handicap-association-atipy.jpg)"
-    col2:
-      reverseMobile: false
+      reverseMobile: true
       text:
         content: |-
-          #### Qui concerter ?
+          
+
+          #### Qui concerter&nbsp;?
 
           Globalement tous les acteurs du projets mais particulièrement :
 
           * Les représentants d’utilisateurs
-
-
-
           * Les concepteurs
-
-
-
           * Les fabricants
-
-
-
           * Les services du commanditaire
+    col2:
+      reverseMobile: true
+      text:
+        content: "![Deux personnes sont face à face autour d'une table. Sur la table
+          sont posés dans feuilles, des post it et des
+          feutres.](/media/concertation-handicap-association-atipy-inclusion.jp\
+          g)"
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
+      reverseMobile: false
+      text:
+        content: "![Deux personnes sont cote à cote dans la rue. La personne de gauche
+          est une personne agée en fauteuil roulant. La personne de droite porte
+          un jean et des baskets, elle marche à
+          coté.](/media/concertation-handicap-association-atipy.jpg)"
+    col2:
       reverseMobile: false
       text:
         content: >-
@@ -119,13 +119,12 @@ sections:
           * Mairie de Paris dans le cadre de la rénovation du stade Pierre de Coubertin
 
           * Mairie de Tarbes, d’Annecy, de Grenoble dans le cadre de missions sur l’aménagement de l’espace public
-    col2:
-      reverseMobile: false
+        color: blue
     col3:
       reverseMobile: false
 footer:
   btn:
-    label: Découvrez nos projets de concertation
+    label: Découvrez nos projets
     color: blue
     tag: Ingénierie
   titleContact: "Envie de concerter ? "

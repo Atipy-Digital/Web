@@ -7,11 +7,11 @@ metadata:
     - keyword: FALC
     - keyword: conception graphique
 title: Identité visuelle des Conseils de la Vie Sociale
-image: /media/droit-usage.jpg
+image: /media/design-reference-cvs-atipy-1.jpg
 project_client: france-assos-sante
 mission_body: Création de l’identité visuelle des Conseils de la Vie Sociale en
   Nouvelle Aquitaine et conception de fiches explicatives
-  en [FALC](https://agence-adequat.fr/quest-ce-que-le-falc/).
+  en [FALC.](https://atipy.fr/expertises/design/falc-et-langage-clair)
 context_body: >-
   France Assos Santé accompagne, représente et défend les usagers du système de
   santé. Dans les établissements médico-sociaux, les Conseils de la Vie Sociale
@@ -33,15 +33,16 @@ project_sections:
           #### L'univers graphique
 
 
-          L’univers visuel proposé par l’Agence Adéquat est coloré et joyeux. L’identité visuelle évoque 3 notions importantes véhiculées par les CVS : diversité, compréhension, relations humaines.
+          L’univers visuel proposé par l’Agence Adéquat est coloré et joyeux. L’identité visuelle évoque 3 notions importantes véhiculées par les CVS&nbsp;: diversité, compréhension, relations humaines.
 
 
-          Le logo est composé de formes épurées et fluides qui symbolisent chacune une action : échanger, exprimer, écouter. Le tout forme un visage souriant. La typographie choisie, Acumin, est lisible et intemporelle.
+          Le logo est composé de formes épurées et fluides qui symbolisent chacune une action&nbsp;: échanger, exprimer, écouter. Le tout forme un visage souriant. La typographie choisie, Acumin, est lisible et intemporelle.
     col2:
       reverseMobile: false
       text:
-        content: "![Logo animé qui représente un visage de façon très
-          schématique](/media/france-assos-sante-cvs-logo-anime.gif)"
+        content: "![Logo animé qui représente un visage de façon très schématique dont
+          les éléments apparaissent au fur et à
+          mesure](/media/france-assos-sante-cvs-logo-anime.gif)"
       image:
         url: ""
     col3:
@@ -49,25 +50,13 @@ project_sections:
   - col1:
       reverseMobile: false
       text:
-        content: "![Echanger, exprimer, écouter. Ces 3 verbes résume la composition du
-          logo qui forme un
-          visage.](/media/20220119_cvs_cahier_graphique_def-e1656342896493.jpeg\
-          )"
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - col1:
-      reverseMobile: false
-      text:
         content: "![Carte de visite associée au logo. Colorée avec des bandes orange,
-          vertes, ou
-          bleues.](/media/cvs_adequat-identite-visuelle_carte_de_visite.jpeg)"
+          vertes, ou bleues.](/media/design-reference-cvs-atipy-2.jpg)"
     col2:
       reverseMobile: false
       text:
-        content: ""
-        color: green
+        content: "![Echanger, exprimer, écouter. Ces 3 verbes résume la composition du
+          logo qui forme un visage.](/media/design-reference-cvs-atipy-3.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -75,26 +64,15 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ## La méthodologie utilisée
+          #### La méthodologie utilisée
 
 
           Nous avons co-créé des fiches explicatives avec les destinataires finaux. Chaque phrase utilisée dans ces fiches a été rédigée en FALC. Le texte a ensuite été relu par des personnes déficientes intellectuelles. L’agence a créé des illustrations mettant en scène chaque idée. Chaque illustration a été revue par le même groupe de travail, puis modifiée si nécessaire.
     col2:
       reverseMobile: false
       text:
-        content: '![Couverture du livret "Le droit des
-          usagers"](/media/droit-usage.jpg)'
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: "![Exemple d'une fiche FALC illustrée avec une illustration par
-          case.](/media/adequat-atipy-adeline-richez-france-assos-sante-falc-cv\
-          s.jpeg)"
-    col2:
-      reverseMobile: false
+        content: "![Détail d'une illustration du livret \"Le droit des usagers\". Le
+          CVS, c'est quoi ?](/media/design-reference-cvs-atipy-4.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -103,7 +81,7 @@ project_sections:
       text:
         content: "![Les fiches sont organisées comme une bande dessinée. C'est à dire
           que chaque phrase est illustrée et le tout est positionnée dans une
-          cas.](/media/cvs-france_assos_sante_adequat_fiches_falc_sante.jpeg)"
+          cas.](/media/design-reference-cvs-atipy-5.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -113,7 +91,7 @@ project_sections:
       reverseMobile: false
       text:
         content: |-
-          ### Nos domaines d’intervention
+          #### Nos domaines d’intervention
 
           * Création et déclinaison de l’identité visuelle
           * Création d’illustrations
@@ -122,7 +100,7 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ### Le témoignage de la cliente
+          #### Le témoignage de la cliente
 
 
           Agathe CURIEN, Chargée de mission France Assos Santé

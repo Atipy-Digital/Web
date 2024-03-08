@@ -23,33 +23,21 @@ sections:
     col1:
       reverseMobile: false
       text:
+        content: "![Main tenant un téléphone mobile avec une
+          cartographie](/media/application-mobile-atipy.png)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: >-
-          ### **Une expertise sur des variétés de plates-formes**
+          #### **Une expertise sur des variétés de plates-formes**
 
 
           iOS, Android et cross-platform. Nos développeurs talentueux maîtrisent les dernières technologies et les meilleures pratiques de l'industrie pour vous offrir des applications fluides, intuitives et hautement fonctionnelles.
-
-
-          * #### Développement d'Applications Mobiles Natifs
-
-
-          Nous concevons et développons des applications mobiles natives pour iOS et Android, offrant une expérience utilisateur optimale et des performances exceptionnelles.
-
-
-          * #### Applications Cross-Platform
-
-
-          Pour économiser du temps et des ressources, nous créons des applications compatibles avec plusieurs plates-formes en utilisant des frameworks tels que React Native ou Flutter.
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: "![Main tenant un téléphone mobile avec une
-          cartographie](/media/application-mobile-atipy.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -59,7 +47,26 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          ### UI/UX Design et composants avancées
+          ##### Développement d'Applications Mobiles Natifs
+
+
+          Nous concevons et développons des applications mobiles natives pour iOS et Android, offrant une expérience utilisateur optimale et des performances exceptionnelles.
+    col2:
+      reverseMobile: false
+      text:
+        content: >-
+          ##### Applications Cross-Platform
+
+
+          Pour économiser du temps et des ressources, nous créons des applications compatibles avec plusieurs plates-formes en utilisant des frameworks tels que React Native ou Flutter.
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          #### UI/UX Design et composants avancées
 
 
           Nos concepteurs expérimentés veillent à ce que chaque application que nous créons soit non seulement fonctionnelle, mais aussi esthétiquement attrayante et conviviale.
@@ -72,7 +79,9 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/wireframe-ui-design-digital-atipy.jpg)"
+        content: "![Schéma (wireframe) en noir et blanc posant les principes
+          ergonomiques d'une page
+          internet](/media/wireframe-ui-design-digital-atipy.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false

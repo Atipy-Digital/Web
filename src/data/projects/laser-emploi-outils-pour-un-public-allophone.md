@@ -7,26 +7,18 @@ metadata:
     - keyword: langage clair
     - keyword: pictogramme
 title: Outils pour un public allophone avec Laser Emploi
-image: /media/realisation-msa-allophone-illustrations-atipy-1.jpg
+image: /media/atipy-design-falc-langage-clair-laser-emploi-allophone-1.jpg
 project_client: msa-mutuelle-sociale-agricole
 mission_body: Création d’outils de communication pour l’accueil de publics
   allophones et/ou illettrés dans un parcours d’insertion professionnelle.
 context_body: >-
   L’insertion par l’activité économique a pour objet de permettre à des
-  personnes sans emploi,\
-
-  rencontrant des difficultés sociales et professionnelles particulières, de bénéficier de contrats de\
-
-  travail en vue de faciliter leur insertion professionnelle.
+  personnes sans emploi, rencontrant des difficultés sociales et
+  professionnelles particulières, de bénéficier de contrats de travail en vue de
+  faciliter leur insertion professionnelle.
 
 
-  Durant leurs 2 années dans la structure d’insertion, les salariés en insertion rentrent dans une logique\
-
-  de parcours comprenant différentes étapes de l’accueil à la sortie en emploi ou formation. La première\
-
-  étape de l’accueil est primordiale pour s’assurer que les salariés intégrant la structure puissent\
-
-  comprendre son fonctionnement, les missions qu’ils vont réaliser et la logique de parcours.
+  Durant leurs 2 années dans la structure d’insertion, les salariés en insertion rentrent dans une logique de parcours comprenant différentes étapes de l’accueil à la sortie en emploi ou formation. La première étape de l’accueil est primordiale pour s’assurer que les salariés intégrant la structure puissent comprendre son fonctionnement, les missions qu’ils vont réaliser et la logique de parcours.
 project_tags:
   - FALC
   - Design
@@ -36,7 +28,11 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-msa-allophone-illustrations-atipy-2.jpg)"
+        content: "![Illustrations très sobres représentant des personnages qui exercent
+          des métiers comme du secrétariat, de l'emballage alimentaire ou de
+          l'entretien d'espace
+          vert.](/media/atipy-design-falc-langage-clair-laser-emploi-allophone-\
+          illustrations-2.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -55,9 +51,7 @@ project_sections:
           #### **Problématique**
 
 
-          Comment transmettre les informations essentielles aux salariées lors de leur\
-
-          accueil dans la structure ? Comment faciliter l’appropriation du parcours d’insertion ?
+          Comment transmettre les informations essentielles aux salariées lors de leur accueil dans la structure&nbsp;? Comment faciliter l’appropriation du parcours d’insertion&nbsp;?
     col2:
       reverseMobile: false
       text:
@@ -76,15 +70,18 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-msa-allophone-illustrations-atipy-3.jpg)"
+        content: "![Une carte en papier blanc sur laquelle est imprimé une illustration
+          représentant deux personnes travaillant dans
+          l'hotellerie](/media/atipy-design-falc-langage-clair-laser-emploi-all\
+          ophone-illustrations-3.png)"
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-msa-allophone-illustrations-atipy-4.jpg)"
+        content: ""
     col3:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-msa-allophone-illustrations-atipy-5.jpg)"
+        content: ""
   - inverseCol: false
     col1:
       reverseMobile: false

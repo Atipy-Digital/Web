@@ -7,7 +7,7 @@ metadata:
     - keyword: Stratégie accessibilité
     - keyword: conception graphique
 title: Stratégie globale d’accessibilité et outils de communication accessibles
-image: /media/design-livret-accessible-amnesty-international-atipy-1.jpg
+image: /media/design-livret-accessible-amnesty-international-atipy-.jpg
 project_client: amnesty-international
 mission_body: Accompagnement du service Education aux droits humains dans la
   mise en place d’une stratégie globale d’accessibilité et d’inclusion des
@@ -29,7 +29,11 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/amnesty-edh-adequat-atipy-etat-des-lieux.jpg)"
+        content: "![Les cahiers pédagogiques avec la nouvelle ligne graphique du service
+          Education aux droits humains : couleur violette, utilisation de
+          pictogrammes, liseret jaune Amnesty International en bas de
+          page.](/media/design-livret-accessible-amnesty-international-atipy-1.\
+          jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -39,7 +43,7 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ### L﻿es objectifs de la mission
+          #### L﻿es objectifs de la mission
 
 
           * Mettre à disposition de tous les destinataires des informations claires, lisibles et compréhensibles.
@@ -51,15 +55,15 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ### Un cycle de formation complet
+          #### Un cycle de formation complet
 
 
-          L’agence a accompagné et formé l’équipe d’EDH autour de [4 thématiques](https://agence-adequat.fr/formation/) :
+          L’agence a accompagné et formé l’équipe d’EDH autour de [4 thématiques](https://atipy.fr/expertises/formation)&nbsp;:
 
 
           * Découverte du handicap et de la conception universelle
 
-          * Graphisme et accessibilité : Concevoir des supports accessibles au plus grand nombre. Sensibilisation à la rédaction claire.
+          * Graphisme et accessibilité&nbsp;: Concevoir des supports accessibles au plus grand nombre. Sensibilisation à la rédaction claire.
 
           * Sensibilisation à l’accessibilité numérique et à la conception de PDF accessible
 
@@ -71,11 +75,11 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ### Etat des lieux et conseil sur la stratégie “accessibilité et
-          inclusivité”
+          #### État des lieux et conseil sur la stratégie «&nbsp;accessibilité
+          et inclusivité&nbsp;»
 
 
-          * Analyse des ressources pédagogiques du service EDH : supports ateliers, livrets, activités pédagogiques
+          * Analyse des ressources pédagogiques du service EDH &nbsp;: supports ateliers, livrets, activités pédagogiques
 
           * Mise en évidence des freins en terme d’accessibilité et proposition d’axes d’amélioration
 
@@ -85,15 +89,20 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/amnesty-edh-adequat-atipy-discriminations.png)"
+        content: "![Aperçu de l'audit de l'accessibilité des supports de
+          communication](/media/design-livret-accessible-amnesty-international-\
+          atipy-2.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-conception-graphique-amnesty-international-ati\
-          py-1.jpg)"
+        content: "![Série de livrets pédagogiques. Exemple de \"Les droits humains et la
+          déclaration universelle des droits de l'homme\", couverture orange,
+          texte
+          blanc.](/media/realisation-conception-graphique-amnesty-international\
+          -atipy-1.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -104,9 +113,9 @@ project_sections:
       text:
         content: >-
           Experts en [communication
-          accessible](https://atipy.netlify.app/expertises/design/conception-graphique) et [conception
-          universelle](https://atipy.netlify.app/agence/conception), nous
-          portons une attention particulière aux éléments suivants :
+          accessible](https://atipy.fr/expertises/design/conception-graphique) et [conception
+          universelle](https://atipy.fr/agence/conception), nous portons une
+          attention particulière aux éléments suivants :
 
 
           * Contrastes visuels
@@ -123,11 +132,6 @@ project_sections:
           La lisibilité est un point important du processus de conception. Un document peu lisible génère une difficulté pour une personne âgée ou une personne malvoyante (myopie, astigmatisme, daltonisme…), et un manque de confort pour tous. C’est pourquoi nous pensons à utiliser un contraste suffisant, une typographie lisible, un interlettrage et un interlignage correctes.
     col2:
       reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
       text:
         content: >-
           #### Nos domaines d’intervention
@@ -142,11 +146,6 @@ project_sections:
           * Etat des lieux des supports existants
 
           * Conception des PDF accessibles conformes aux normes PDF U/A
-    col2:
-      reverseMobile: false
-      text:
-        content: ""
-        color: null
     col3:
       reverseMobile: false
 projectsFeatured:

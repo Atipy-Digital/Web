@@ -7,6 +7,7 @@ date: 2023-07-16T14:04:43.391Z
 timeToRead: 1 à 5 min
 post_tags:
   - Signalétique
+  - Design
 post_sections:
   - col1:
       reverseMobile: false
@@ -63,12 +64,14 @@ post_sections:
       image:
         url: ""
       text:
-        content: "![](/media/post-2.png)"
+        content: "![Schéma d'un mat directionnel en bois avec des lames jaunes indiquant
+          des directions sur un GR et un PR](/media/post-2.png)"
     col2:
       reverseMobile: false
       image:
         url: /media/post-3.png
-        legend: Macif du Vercors
+        legend: Tronc d'arbre avec 3 marques peintes dessus (blanches, rouges, jaunes et
+          vertes)
     col3:
       reverseMobile: false
   - col1:
@@ -106,7 +109,7 @@ post_sections:
           Vous pouvez rencontrer trois formes différentes. Elles vous donnent des indications précieuses sur la direction à suivre
 
 
-          ![sentier](/media/post-4.png "sentier")
+          ![Tableau récapitulant les différents types de balisage en fonction du type de sentier et de la direction à suivre. Une mauvaise direction est symbolisée par une croix.](/media/post-4.png)
     col2:
       reverseMobile: false
     col3:
@@ -148,15 +151,20 @@ post_sections:
       image:
         url: ""
       text:
-        content: "![](/media/cairn-1.png)"
+        content: "![Poteau en bois avec un pictogramme barré représentant une personne
+          déposant une pierre sur un tas de pierres.](/media/cairn-1.png)"
     col2:
       reverseMobile: false
       image:
         url: /media/cairn-2.png
+        legend: Pictogramme blanc sur fond vert barré en rouge représentant une personne
+          déposant une pierre sur un tas de pierres. Texte "Cairns interdits"
     col3:
       reverseMobile: false
       image:
         url: /media/cairn-3.png
+        legend: Pictogramme jaune barré sur fond bleu représentant une main à proximité
+          d'un tas de pierres.
 source:
   col1:
     - label: Mon GR

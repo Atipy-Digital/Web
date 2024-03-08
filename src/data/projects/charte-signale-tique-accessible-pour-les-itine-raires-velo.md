@@ -9,7 +9,7 @@ metadata:
     - keyword: vélo
     - keyword: FALC
 title: Charte signalétique accessible pour les itinéraires vélo
-image: /media/design-expertise-mobilite-velo-atipy-2.jpg
+image: /media/design-reference-pyrenees-atlantique-atipy-2.jpg
 project_client: departement-pyrenees-atlantiques
 mission_body: Réalisation d’une charte signalétique accessible pour les
   itinéraires vélo du Conseil Départemental des Pyrénées-Atlantiques
@@ -20,7 +20,7 @@ context_body: >-
   itinéraire structurant sur une véloroute européenne.
 
 
-  Le Conseil Départemental entreprend alors de se doter d’un référentiel lié à l’accessibilité des personnes à mobilité réduite à vélo avec la mise à jour du volet « itinéraires de promenades et de randonnées » du label « tourisme et handicap ».
+  Le Conseil Départemental entreprend alors de se doter d’un référentiel lié à l’accessibilité des personnes à mobilité réduite à vélo avec la mise à jour du volet «&nbsp;itinéraires de promenades et de randonnées&nbsp;» du label «&nbsp;tourisme et handicap&nbsp;».
 project_tags:
   - Signalétique
   - Design
@@ -30,13 +30,13 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          #### Qu’est ce qu’un itinéraire cyclable accessible ?
+          #### Qu’est ce qu’un itinéraire cyclable accessible&nbsp;?
 
 
-          Il existe différents types de vélo qui permettent à toutes et tous de pratiquer cette activité : le vélo mono-pousseur, le tandem, le tandem de front, le VAE, le vélo couché, le vélo à bras, le tricycle…
+          Il existe différents types de vélo qui permettent à toutes et tous de pratiquer cette activité&nbsp;: le vélo mono-pousseur, le tandem, le tandem de front, le VAE, le vélo couché, le vélo à bras, le tricycle…
 
 
-          Cela implique une réflexion et des aménagements autour des thématiques suivantes :
+          Cela implique une réflexion et des aménagements autour des thématiques suivantes&nbsp;:
 
 
           * l﻿e stationnement
@@ -53,7 +53,7 @@ project_sections:
           ##### 3 niveaux de difficultés
 
 
-          L’ensemble des parcours est peu pentu. La difficulté relevée est donc essentiellement due à la longueur du parcours. Ainsi, 3 types d’itinéraires sont possibles : courts, moyens ou longs. Chacun est symbolisé par des pictogrammes vélo allant de 1 à 3.
+          L’ensemble des parcours est peu pentu. La difficulté relevée est donc essentiellement due à la longueur du parcours. Ainsi, 3 types d’itinéraires sont possibles&nbsp;: courts, moyens ou longs. Chacun est symbolisé par des pictogrammes vélo allant de 1 à 3.
     col2:
       reverseMobile: true
       text:
@@ -66,14 +66,18 @@ project_sections:
           * En cohérence avec la charte randonnée du département
       image:
         url: /media/realisation-signaletique-velo-pyrennees-atipy-totem.jpg
+        legend: "4 types de supports signalétique différents en bois : un grand totem de
+          départ, deux supports d'information sur pied, un potelet."
     col3:
       reverseMobile: false
   - col1:
       reverseMobile: false
       text:
-        content: '![illustration charte
-          graphique](/media/realisation-signaletique-velo-pyrenees-atlantique-atipy-2.jpg
-          "illustration charte graphique")'
+        content: "![Extrait de la charte signalétique présentant 3 pages avec une carte
+          d'un itinéraire, des préconisations pour la bonne implantation des
+          supports et le détail du grand totem de
+          départ.](/media/realisation-signaletique-velo-pyrenees-atlantique-ati\
+          py-2.jpg \"illustration charte graphique\")"
     col2:
       reverseMobile: false
     col3:
@@ -83,7 +87,7 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ### La mise en place de pictogrammes
+          #### La mise en place de pictogrammes
 
 
           Au départ de chaque itinéraire, il est essentiel de prévenir l’usager des dangers ou des particularités du site. L’indication des spécificités du parcours vont permettre de se préparer. Pour cela, nous avons créé une banque de banque signalant les particularités du parcours et permettant à un usager non-lecteur ou éloigné du français d’avoir accès à l’information.
@@ -91,7 +95,7 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ### La réalisation d’une charte signalétique vélo
+          #### La réalisation d’une charte signalétique vélo
 
 
           Aujourd’hui, peu de territoires travaillent l’image de leur offre cyclable. Le département des Pyrénées Atlantique fait le choix de concevoir une charte signalétique dédiée aux itinéraires cyclables accessibles. Cette charte signalétique prend en compte les grands principes de l’accessibilité graphique, du confort d’usage et de la conception universelle.
@@ -101,19 +105,26 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/design-expertise-mobilite-velo-signaletique-plan-atipy-4.j\
+        content: "![Recto de la fiche FALC avec une carte schématique de l'itinéraire
+          allant d'Artiguelouve à
+          Laroin.](/media/design-expertise-mobilite-velo-signaletique-plan-atip\
+          y-4.jpg)"
+    col2:
+      reverseMobile: false
+      text:
+        content: "![Verso de la fiche FALC donnant les détails des éléments que le
+          cycliste va rencontrer sur son chemin. par exemple, le temps et la
+          distance du parcours, les obstacles ou points
+          d'intérêt.](/media/202312-py-velo-fiches-falc-def_plan-de-travail-1.j\
           pg)"
-    col2:
-      reverseMobile: false
-      text:
-        content: "![](/media/202312-py-velo-fiches-falc-def_plan-de-travail-1.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/atipy-fiches-falc-pyrennees-velo.jpg)"
+        content: "![Carte ouverte avec le parcours d'un des itinéraires
+          cyclables](/media/atipy-fiches-falc-pyrennees-velo.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -122,8 +133,10 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/pyrenees-atlantiques-velo-signaletique-arrivee-catagnede-v\
-          2.jpg)"
+        content: "![Fin d'un parcours accessible devant un pont métallique. Avant le
+          pont est implanté un panneau avec écrit \"arrivée\".
+          ](/media/pyrenees-atlantiques-velo-signaletique-arrivee-catagnede-v2.\
+          jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -148,7 +161,7 @@ project_sections:
     col3:
       reverseMobile: false
 projectsFeatured:
-  - document-falc
+  - signaletique-du-pole-dechanges-multimodal
 footer:
   btn:
     label: Découvrez nos projets signalétique
