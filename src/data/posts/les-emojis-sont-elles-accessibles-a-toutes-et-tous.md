@@ -86,10 +86,12 @@ post_sections:
 
 
           Ci-dessous, voici l’exemple d’un tweet n’utilisant que des emojis. Positionnées les unes à la suite des autres, elles sont censées représenter un nombre. La lecture vocale de ce tweet donne une succession d’informations répétitives : « Femme qui dit non, femme qui dit non, homme qui dit non, homme qui dit non, petits carrés blancs. »
+
+
+          ![Tweet de Paris 2024 ne présentant que des emojis de personnages hommes et femmes bras croisés pour décrire une vidéo postée en-dessous.](/media/atipy_emoji_accessibilite_twitter.jpeg)
       image:
-        url: /media/atipy_emoji_accessibilite_twitter.jpeg
-        legend: Tweet de Paris 2024 ne présentant que des emojis de personnages hommes
-          et femmes bras croisés pour décrire une vidéo postée en-dessous.
+        url: ""
+        legend: ""
     col2:
       reverseMobile: false
     col3:
@@ -97,21 +99,22 @@ post_sections:
   - col1:
       reverseMobile: false
       image:
-        url: /media/atipy_emoji_malvoyance-deficience-visuelle.jpeg
-        legend: Ensemble de smiley jaunes avec différentes expressions. La partie droite
-          de l'image est floutée et on se rend qu'on a du mal à distinguer les
-          différentes expressions.
+        url: ""
+        legend: ""
       text:
         content: >-
           #### Emojis et déficience visuelle
 
 
           Eléments parfois petits et détaillés, les emojis peuvent aussi être difficiles à voir pour certaines personnes. En effet, une personne malvoyante peut être gênée pour distinguer les visages souriants : un peu souriant, très souriant, riant. L’information n’est donc que partiellement transmise.
+
+
+          ![Ensemble de smiley jaunes avec différentes expressions. La partie droite de l'image est floutée et on se rend qu'on a du mal à distinguer les différentes expressions.](/media/atipy_emoji_malvoyance-deficience-visuelle.jpeg)
     col2:
       reverseMobile: false
       image:
-        url: /media/post-3.png
-        legend: Macif du Vercors
+        url: ""
+        legend: ""
     col3:
       reverseMobile: false
   - col1:
