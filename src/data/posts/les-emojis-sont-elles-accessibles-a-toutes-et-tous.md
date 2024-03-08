@@ -124,7 +124,7 @@ post_sections:
           ### Troubles du spectre autistique (TSA) et emojis
 
 
-          Pour certaines personnes avec des troubles du spectre autistique, il peut être difficile de comprendre l’émotion ou le ressentit de son interlocuteur.Les mots, images ou symboles, comme les emojis, par exemple, peuvent aider à dépasser les difficultés de communication.
+          Pour certaines personnes avec des troubles du spectre autistique, il peut être difficile de comprendre l’émotion ou le ressentit de son interlocuteur. Les mots, images ou symboles, comme les emojis, par exemple, peuvent aider à dépasser les difficultés de communication.
 
 
           ### Les emojis sont-elles universelles ?
@@ -139,6 +139,9 @@ post_sections:
           Les emojis seraient-elles les nouveaux isotypes, langage universel créé par Otto et Marie Neurath ?
 
 
+          - - -
+
+
           ### Pour récapituler les bonnes pratiques
 
 
@@ -151,9 +154,6 @@ post_sections:
           * Utiliser un emoji dont la description est appropriée.
 
           * Eviter d’utiliser plusieurs fois la même émoji à la suite.
-
-
-          - - -
     col2:
       reverseMobile: false
     col3:
