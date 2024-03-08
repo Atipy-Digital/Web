@@ -46,7 +46,7 @@ sections:
           La gestion de l'accessibilité numérique doit être un processus continu, intégré dans la culture de l'entreprise et soutenu par une solide sensibilisation et une expertise en la matière. Cela garantira que les produits et services numériques sont accessibles à tous, améliorant ainsi l'expérience utilisateur et répondant aux obligations légales.
 
 
-          D﻿écouvrez nos formations
+          [D﻿écouvrez nos formations](https://atipy.fr/expertises/formation)
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -106,8 +106,8 @@ sections:
       reverseMobile: false
 footer:
   btn:
-    label: Découvrez nos projets d'accessibilité numérique
-    color: red
-    tag: Accessibilité
+    label: ""
+    color: null
+    tag: ""
   titleContact: Vous avez un projet d'accessibilité web ?
 ---

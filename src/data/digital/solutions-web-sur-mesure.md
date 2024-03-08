@@ -79,7 +79,7 @@ sections:
 footer:
   titleContact: Vous avez un projet d'accessibilité web ?
   btn:
-    label: Découvrez nos solutions web sur mesure
-    color: red
-    tag: Solutions web
+    label: ""
+    color: null
+    tag: ""
 ---
