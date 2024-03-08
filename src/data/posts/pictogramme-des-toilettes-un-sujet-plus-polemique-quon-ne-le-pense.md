@@ -25,4 +25,20 @@ post_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Comment identifie-t-on les sanitaires ?
+
+
+          Chez Atipy, plus nous concevons des pictogrammes de sanitaires, plus nous pensons que le pictogramme standard, celui que nous avons l’habitude de voir, ne fonctionne pas.
+
+
+          Ce pictogramme que nous voyons si souvent représente deux personnes côte à côte, parfois séparées par un trait. Ce pictogramme répond aux recommandations de l’Institut américain des arts graphiques (AIGA) et de l’Organisation internationale de normalisation (ISO).
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 ---
