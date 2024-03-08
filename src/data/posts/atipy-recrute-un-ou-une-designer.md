@@ -47,9 +47,14 @@ post_sections:
 
 
           **La diffusion d’informations claires et simples contribue à conserver dignité et autonomie pour le plus grand nombre.**
+
+
+
+
+          ![Livret pour bien manger. Format carré, deux pages ouvertes montrant les différents types d'aliments illustrés.](/media/livret-mieux-manger-msa-agence-adequat-atipy-pages-interieures-.jpg)
       image:
-        url: /media/livret-mieux-manger-msa-agence-adequat-atipy-pages-interieures-.jpg
-        legend: Livret pour bien manger - MSA et Solidel
+        url: ""
+        legend: ""
     col2:
       reverseMobile: false
     col3:
@@ -120,7 +125,10 @@ post_sections:
   - col1:
       reverseMobile: false
       text:
-        content: "![](/media/cvs-france_assos_sante_adequat_fiches_falc_sante.jpeg)"
+        content: "![Deux pages en FALC sur les conseils de la vie sociale. Chaque phrase
+          est illustrée par un
+          dessin.](/media/cvs-france_assos_sante_adequat_fiches_falc_sante.jpeg\
+          )"
     col2:
       reverseMobile: false
     col3:
@@ -135,10 +143,10 @@ post_sections:
           à Comprendre (FALC) ?
 
 
-          Le langage clair peut être utilisé pour toutes et tous. Le FALC est destiné à un public éloigné de la lecture et / ou ayant des difficultés de compréhension (déficiences intellectuelles ou cognitives, illettrisme, personnes sourdes non-lectrices…)
+          Le langage clair peut être utilisé pour toutes et tous. Le [FALC](https://atipy.fr/expertises/design/falc-et-langage-clair) est destiné à un public éloigné de la lecture et / ou ayant des difficultés de compréhension (déficiences intellectuelles ou cognitives, illettrisme, personnes sourdes non-lectrices…)
 
 
-          A la différence du [FALC](https://agence-adequat.fr/redaction-accessible/), le français clair n’implique pas la relecture et la validation par des personnes déficientes intellectuelles. La méthode de rédaction du français FALC exige que le texte soit relu et validé par des partenaires ayant un handicap mental.
+          A la différence du FALC, le [français clair](https://atipy.fr/expertises/design/falc-et-langage-clair) n’implique pas la relecture et la validation par des personnes déficientes intellectuelles. La méthode de rédaction du français FALC exige que le texte soit relu et validé par des partenaires ayant un handicap mental.
 
 
           Cette validation permet de s’assurer que tous les termes et tournures de phrases utilisés sont bien compris de tous et toutes. En l’absence d’ateliers de relecture et de validation, il s’agit de rédaction clair.
