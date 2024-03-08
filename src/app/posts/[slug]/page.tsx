@@ -51,6 +51,7 @@ export async function generateMetadata(
 
 export async function generateStaticParams() {
   const slugs = getPostsSlug();
+  console.log('-------',slugs)
   if (slugs?.length) {
     return slugs.map((slug) => ({ slug }));
   }
