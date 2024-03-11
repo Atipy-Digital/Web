@@ -200,6 +200,24 @@ post_sections:
 
 
           Les habitudes ayant changées, ce pictogramme a évolué au fils des années.
+
+
+          ![Les pictogrammes à gauche représentent un homme pour les toilettes hommes et une femme + une femme qui change une couche pour les toilettes femmes. Les pictogrammes à droite indiquent les toilettes hommes avec des pictogrammes homme, homme qui change une couche et homme en fauteuil roulant.](/media/pictogramme_toilettes_table-a-langer_sexisme-3.jpg)
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: Le pictogramme des toilettes est donc un vrai sujet sur lequel il est
+          possible d’écrire un article. C’est une simple image qui traite en
+          réalité de sujets de société, les débats sont ainsi révélés dans
+          l’espace public. Vous êtes allés voir à quoi ressemble le pictogramme
+          des toilettes de votre bureau ? Cela veut dire que notre article est
+          réussi 😉
+        color: green
     col2:
       reverseMobile: false
     col3:
