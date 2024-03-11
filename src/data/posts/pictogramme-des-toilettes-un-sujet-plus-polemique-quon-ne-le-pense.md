@@ -119,17 +119,62 @@ post_sections:
       reverseMobile: false
       text:
         content: >-
-          Le pictogramme et la représentation du genre.
+          ### Le pictogramme et la représentation du genre.
 
 
           Au delà de la question de l’accessibilité, ce pictogramme des toilettes pose la question de la représentation des genres et ses stéréotypes.
+
+
+          ![Plusieurs pictogrammes sont dessinés pour représenter des toilettes. Les premiers pictogrammes montrent des hommes et des femmes en jupes. Les autres pictogrammes montrent des cuvettes de toilettes ou un rouleau de papier toilettes.](/media/pictogramme_toilettes_accessibilite_representation-genre.jpg "Source : A white paper by Mijksenaar")
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          #### Comment représenter un homme ?
+
+
+          Aujourd’hui, le pictogramme représentant une homme montre une personne grande, forte, de corpulence moyenne, sans cheveux. Bien sûr, tous les hommes ne sont pas chauves et peuvent aussi avoir les cheveux longs. Cette représentation allant au plus simple permet une généralisation du pictogramme et son utilisation dans différentes cultures.
+
+
+          #### Comment représenter une femme ?
+
+
+          La femme est représentée chauve et portant une jupe. Un grand nombre de femmes portent des pantalons, et la plupart ont des cheveux, si, si. Ce pictogramme représentant une femme en jupe anime souvent les débats autour de la représentation du féminin. Mais, si cette représentation n’est plus d’actualité, comment distinguer le pictogramme masculin du pictogramme féminin ? Comment simplifier pour être compréhensible sans véhiculer de stéréotypes ?
+
+
+          P﻿our en savoir plus sur ce sujet, vous pouvez lire l'article de Véronique Lorelle - [Quand la signalétique des toilettes fait la chasse aux préjugés, Le Monde](https://www.lemonde.fr/m-styles/article/2023/03/22/quand-la-signaletique-des-toilettes-fait-la-chasse-aux-prejuges_6166562_4497319.html)
+
+
+          ### Les toilettes accessibles aux personnes en fauteuil roulant.
+
+
+          Notre plus grande question : pourquoi les toilettes dits accessibles sont TOUJOURS les toilettes réservés aux femmes ?
+
+
+          Nous avons donc les toilettes hommes d’un côté, non-accessibles aux hommes en fauteuil roulant, et les toilettes femmes de l’autre, pour les femmes et les utilisateurs et utilisatrices de fauteuil roulant. Comment se sent-on lorsqu’on est un homme et qu’on entre dans des toilettes où il n’y a que des femmes parce que ce sont les seuls accessibles ?
+
+
+          Tenez, on se pose aussi cette question : pourquoi les pictogrammes « utilisateurs de fauteuil roulant » sont toujours des hommes ? N’existent-ils pas des femmes utilisatrices de fauteuil roulant ?
+
+
+          Alors nous, on aime représenter des femmes en fauteuil roulant, des hommes qui changent des couches, des femmes qui bricolent et des hommes qui font du yoga.
     col2:
       reverseMobile: false
     col3:
       reverseMobile: false
 source:
   col1:
-    - label: Anne-Sophie Tranchet
-      url: https://blog.hello-bokeh.fr/2020/07/23/des-emoji-accessibles/
-  col2: []
+    - label: Quand la signalétique des toilettes fait la chasse aux préjugés
+      url: https://www.lemonde.fr/m-styles/article/2023/03/22/quand-la-signaletique-des-toilettes-fait-la-chasse-aux-prejuges_6166562_4497319.html
+  col2:
+    - url: https://inclusivity.mijksenaar.com/wp-content/uploads/2021/01/Beyond-the-Binary-A-White-Paper-by-Mijksenaar-2021.pdf
+      label: L'excellent dossier de Mijksenaar
+  col3:
+    - label: Le drôle d'article de Slate
+      url: https://www.slate.fr/story/177345/toilettes-egalite-genres
 ---
