@@ -167,6 +167,43 @@ post_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Pictogramme et sexisme, on peut aller loin.
+
+
+          Le sexisme peut aller jusqu’à se coller sur les portes des toilettes, pour notre plus grand désarroi. Et il ne sera pas nécessaire de commenter les images ci-dessous.
+
+
+          ![Deux portes de toilettes. Sur l'une est écrit "BLA". Sur l'autre est écrite "blablablablablablabla"](/media/pictogramme_toilettes_accessibilite_genre_sexisme-3.jpg)
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          Sur cette question, le pictogramme des espaces « table à langer » pour
+          changer les bébés dans l’espace public a animé beaucoup de débats ces
+          dernières années. Presque toujours situés dans les toilettes des
+          femmes, il représente une femme changeant la couche d’un enfant. En
+          2013, seuls quelques aéroports, dont celui de Singapour, proposaient
+          des espaces « nurserie » disponibles pour les hommes. En 2018 à New
+          York, l’installation de tables à langer dans toutes les toilettes
+          publiques des hommes devient obligatoire. Le pictogramme associé se
+          déploie alors partout.
+
+
+          Les habitudes ayant changées, ce pictogramme a évolué au fils des années.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 source:
   col1:
     - label: Quand la signalétique des toilettes fait la chasse aux préjugés
