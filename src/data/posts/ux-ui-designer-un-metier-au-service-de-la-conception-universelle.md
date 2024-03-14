@@ -4,7 +4,7 @@ metadata:
   description: UX / UI Designer, un métier au service de la conception universelle
 title: UX / UI Designer, un métier au service de la conception universelle
 date: 2023-07-16T18:10:39.585Z
-timeToRead: 5 à 10 min
+timeToRead: 2 à 3 min
 post_tags:
   - Digital
   - Design
