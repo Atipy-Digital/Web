@@ -116,6 +116,25 @@ post_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Logotype
+
+
+          Et le logotype dans tout ça ?
+
+
+          « Logo » / « Picto ». Souvent confondu avec le pictogramme, le logotype a une tout autre fonction. Le logo est une marque, une identité visuelle.
+
+
+          Il peut avoir différentes formes : un monogramme, une typographie, un symbole, un blason… Mais son but ne sera pas de donner une information pratique, comme peut le faire le pictogramme, mais bien d’identifier une entité (ville, marque, institution…).
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 source:
   col1:
     - url: https://www.gerdarntz.org/
