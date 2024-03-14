@@ -65,7 +65,11 @@ post_sections:
           **UX Design est l’abréviation de User Experience (Expérience Utilisateur). On parle aussi d’ergonomie d’interfaces et d’utilisabilité. Elle est associée à la qualité du vécu de l’utilisateur et s’applique aux interfaces physiques comme virtuelles.**
 
 
+
+
           ![Deux captures d'écran en noir et blanc de maquettes d'interface pour un agenda et un tableau de bord.](/media/atipy_ruben_rossignol_maquettes_ui_design_interface.jpg)
+
+
 
 
 
