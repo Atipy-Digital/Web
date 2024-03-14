@@ -1,7 +1,11 @@
 ---
 metadata:
-  title: Comment concevoir des supports accessibles avec les outils Microsoft ?
-  description: Comment concevoir des supports accessibles avec les outils Microsoft ?
+  title: Comment concevoir des supports accessibles avec les outils Microsoft
+  description: Comment concevoir des supports accessibles avec les outils Microsoft
+  keywords:
+    - keyword: accessibilité
+    - keyword: Microsoft
+    - keyword: Word
 title: Comment concevoir des supports accessibles avec les outils Microsoft&nbsp;?
 date: 2024-01-18T09:52:51.898Z
 timeToRead: 2 à 3 min
