@@ -19,7 +19,7 @@ post_sections:
         content: >-
           ![Parapan Am Aquatics
           Centre](/media/entro-parapan-am-aquatics-centre-signale-tique-sport-1024x610.jpg
-          "Source : ©ENTRO")
+          "Source : ENTRO")
 
 
           **Lors des Jeux Olympiques, les villes accueillent des milliers visiteurs venus du monde entier. Ces amateurs de sport sont aussi des touristes qu’il faut guider et orienter afin de leur permettre d’être autonomes.**
@@ -86,4 +86,45 @@ post_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### La signalétique directionnelle des bâtiments sportifs
+
+
+          **A l’occasion d’événements sportifs, la facilité d’accès aux équipements est indispensable. Pouvoir se repérer dans un stade, une piscine ou un complexe sportif facilite l’utilisation de l’espace. Qui ne s’est jamais perdu en maillot de bain dans des vestiaires où l’accès au bassin n’était pas indiqué ?**
+
+
+          Avec un flux de visiteurs plus important que la normal, les équipements sportifs accueillant les compétitions des Jeux Olympiques et Paralympiques doivent être dotés d’un système signalétique intuitif, inclusif et logique. Une signalétique efficace permet à chaque utilisateur de pouvoir naviguer sur le site sans stress et en autonomie.
+
+
+          Les points importants à prendre en compte sont :
+
+
+          * L’arrivée et l’accueil
+
+          * L’identification de l’entrée principale et de l’entrée accessible, si celle-ci est différente.
+
+          * L’orientation dans les circulations verticales et horizontales
+
+          * La limitation de l’encombrement visuel afin de ne pas nuire à la bonne compréhension des informations
+
+
+          ![Signalétique complexe Voskresenskoye club hotel](/media/signaletique-sport-tomatdesign-1024x640.jpg "Source : tomatdesign – Complexe sportif du Voskresenskoye club hotel")
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+source:
+  col1:
+    - label: Index Graphik
+      url: http://indexgrafik.fr/otl-aicher/
+  col2:
+    - url: https://www.appliedinformation.group/projects/walk-rio
+      label: Rio Wayfinding
+  col3:
+    - label: City Wayfinding
+      url: https://www.citywayfinding.com/wayfinding-for-the-olympic-games/
 ---
