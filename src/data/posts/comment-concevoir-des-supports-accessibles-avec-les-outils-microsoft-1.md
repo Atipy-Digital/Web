@@ -149,4 +149,8 @@ post_sections:
           Vous êtes prêts ?
     col3:
       reverseMobile: false
+source:
+  col1:
+    - label: Microsoft Accessibilité
+      url: https://www.microsoft.com/fr-ca/accessibility
 ---
