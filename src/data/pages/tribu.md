@@ -123,6 +123,16 @@ members:
       - text: Urbanisme
       - text: Accessibilité
       - text: Diagnostic multi-technique
+  - name: Julie Bouchez-Martin
+    badge:
+      color: a-blue
+      label: L’exploratrice
+    linkedin: https://www.linkedin.com/in/julie-bouchez-martin-404b16268/
+    skills:
+      - text: Accessibilité
+      - text: Relevé multi-technique
+      - text: Logistique
+    image: /media/julie-bouchez-nb.jpg
   - name: Daviani Fillatre
     image: /media/atipy-daviani-fillatre.jpeg
     badge:
