@@ -15,7 +15,7 @@ philosophy: >-
   #### Notre philosophie de travail
 
 
-  La qualité de vie au travail et le bien être des membres de l’équipe d’Atipy est un élément important de notre fonctionnement. Dans un fonctionnement transversal, chaque manager ou collègue reste attentif à la charge de travail de chacun et chacune. L’équilibre entre vie professionnelle et vie personnelle doit être un questionnement continu.
+  La qualité de vie au travail et le bien être des membres de l’équipe d’Atipy est un élément important de notre fonctionnement. Dans un fonctionnement transversal, chaque manager ou collègue reste attentif à la charge de travail de chacun et chacune. L’équilibre entre vie professionnelle et vie personnelle doit être un questionnement continu. 
 
 
   Depuis avril 2023, Atipy a mis en place le congé menstruel et le congé pour Interruption Spontanée de Grossesse (fausse-couche).
