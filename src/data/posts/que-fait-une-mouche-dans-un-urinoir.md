@@ -6,7 +6,7 @@ metadata:
     - keyword: Nudge
     - keyword: Signalétique
 title: Que fait une mouche dans un urinoir&nbsp;?
-date: 2024-03-14T16:08:18.554Z
+date: 2017-06-23T15:19:23.727Z
 timeToRead: 3 à 4 min
 post_tags:
   - Signalétique
