@@ -6,11 +6,12 @@ metadata:
     - keyword: ADAP
     - keyword: Diagnostic
     - keyword: Ministère
-title: Diagnostic Accessibilité et AD'AP du Ministère des Armées
+title: R﻿éalisation des diagnostics accessibilité et de l'Agenda d'Accessibilité
+  Programmée du Ministère des Armées Zone nord Ouest
 image: /media/reference-ingenierie-adap-ministere-de-la-defense.jpg
 project_client: ministere-des-armees
-mission_body: R﻿éalisation du diagnostic et de l'Agenda d'Accessibilité
-  Programmée du Ministère des Armées.
+mission_body: R﻿éalisation des diagnostics accessibilité et de l'Agenda
+  d'Accessibilité Programmée du Ministère des Armées Zone nord Ouest
 context_body: >-
   Plus que l’ampleur de la mission, le défi se trouvait dans l’instauration de
   préconisations et d’un programme de travaux adapté aux spécificités des sites
@@ -22,6 +23,9 @@ context_body: >-
 
 
   Au total ce sont quelques 50 réunions organisées pour optimiser aux mieux la préparation des travaux qui s’étaleront sur 9 ans.
+
+
+  *Nos partenaires sur cette mission : Girus et Plast Architectes*
 project_tags:
   - Ingénierie
   - Accessibilité
