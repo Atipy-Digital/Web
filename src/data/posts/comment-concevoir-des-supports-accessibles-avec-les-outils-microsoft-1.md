@@ -60,15 +60,10 @@ post_sections:
 
 
           Utiliser les sous-titres permet aux personnes sourdes ou déficientes auditives de pouvoir suivre une présentation orale, une réunion, une conférence… Vous présentez un document avec Power Point, vous pouvez activer les sous-titres. Votre présentation orale est alors retranscrite en direct.
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: >-
+
+
+
+
           ##### Pour utiliser les sous-titres dans Power Point&nbsp;:
 
 
@@ -77,9 +72,81 @@ post_sections:
           * Sélectionnez «&nbsp;Paramètres de sous-titre&nbsp;»
 
 
+          ![Dans l'onglet Diaporama, cocher la case &quot;Toujours activer les sous-titres&quot;](/media/atipy-microsoft-accessibilite-power-point.jpg)
+
+
           [En savoir plus sur les sous-titres Power Point](https://support.microsoft.com/fr-fr/office/pr%C3%A9sentez-avec-des-l%C3%A9gendes-ou-des-sous-titres-automatiques-et-en-temps-r%C3%A9eldans-powerpoint-68d20e49-aec3-456a-939d-34a79e8ddd5f)
     col2:
       reverseMobile: false
+      text:
+        content: >-
+          #### Le vérificateur d’accessibilité
+
+
+          Vous souhaitez proposer des supports de communication accessibles conformes aux RGAA. Mais, vous ne savez pas par où commencer, ou comment vous y prendre. Tous les logiciels de la suite Microsoft ont un vérificateur d’accessibilité. En activant cet outil, vous obtenez un rapport des points bloquants qu’il vous faut améliorer :
+
+
+          * Les contrastes
+
+          * Les polices de caractères
+
+          * L’ordre de lecture
+
+          * Le balisage des titres
+
+          * Le texte alternatif manquant
+
+
+          ![Fenêtre présentant un exemple de rapport d'accessibilité du document](/media/atipy-microsoft-verificateur-accessibilite.jpg)
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          #### Créer un PDF accessible avec Word ou PowerPoint
+
+
+          Enfin, une étape essentielle&nbsp;: comment générer un document PDF accessible&nbsp;? Tous les PDF ne sont pas accessibles. Les rendre accessibles et conformes aux RGAA va permettre leur bonne utilisation et lecture par des utilisateurs de lecteurs d’écran et de plage braille.
+
+
+          ##### Dans votre document, pensez à :
+
+
+          * Définir les niveaux de titres.
+
+          * Ajouter le texte alternatif aux images
+
+          * Paramétrer la langue du document.
+
+          * Paramétrer le titre du document. (Fichier > Informations > Titre)
+
+
+          **Puis, exportez votre fichier PDF en cochant les bonnes cases**&nbsp;**!**
+    col2:
+      reverseMobile: false
+      text:
+        content: >-
+          ##### Pour Word&nbsp;:
+
+
+          * Fichier > Enregistrer au format Adobe PDF > Options
+
+          * Cocher la case «&nbsp;Options PDF Créer un fichier conforme à la norme PDF/A-1a :2005&nbsp;»
+
+          * Cocher la case «&nbsp;Options PDF Activer l’accessibilité et la redistribution pour les fichiers PDF balisés&nbsp;».
+
+
+          ##### Pour Power Point&nbsp;:
+
+
+          * Fichier > Enregistrer sous > fichier PDF.
+
+          * Cocher la case «&nbsp;Balises de structure de document pour l’accessibilité&nbsp;».
+
+
+          Vous êtes prêts ?
     col3:
       reverseMobile: false
 ---
