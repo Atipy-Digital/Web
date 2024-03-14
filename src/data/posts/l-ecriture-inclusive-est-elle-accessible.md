@@ -113,4 +113,41 @@ post_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Ecriture inclusive, oui, point médian, bof.
+
+
+          **L’intégration d’un signe typographique comme le point médian au sein même des mots a un impact sur la qualité et la rapidité de lecture, handicap ou non.**
+
+
+          Les connaissances que nous avons en neurosciences permettent déjà de pressentir l’impact de ce point médian sur la lecture pour tous les publics. La difficulté du point médian est qu’il crée une cassure rendant une partie du mot imprononçable.
+
+
+          L’article «&nbsp;Ecriture inclusive et point médian&nbsp;: et si l’on causait science&nbsp;?&nbsp;» donne l’exemple du pronom ceux/celles. En utilisant le point médian, cela s’écrit&nbsp;: ceux·lles. Le suffixe ·lles n’étant pas prononçable, il est donc plus difficile à lire, comme si il s’agissait d’un nouveau mot. L’habitude pourra permettre l’apprentissage de ces nouvelles formes d’orthographe. Cependant, pour les publics ayant des difficultés de lecture, cela creuse davantage l’inégalité dans l’accès à l’information.
+
+
+          ![Une personne lit un livre dans un parc.](/media/atipy-ecriture-inclusive-handicap-accessibilite-3.jpg)
+
+
+          ### Pour conclure…
+
+
+          **Bien sûr, entre l’inclusion des femmes dans la langue français et l’accès à la lecture de tous les publics, notre coeur balance… Le point médian reste le point complexe de cette nouvelle orthographe.**
+
+
+          Il est donc préférable, autant que possible, d’écrire entièrement chaque mot. Par exemple, préférez «&nbsp;Sommes-nous prêts et prêtes pour l’écriture inclusive&nbsp;?&nbsp;» à «&nbsp;Sommes-nous prêt·e·s pour l’écriture inclusive&nbsp;?&nbsp;»
+
+
+          Mathilde Jolivet, experte dans l’accès à la culture et la médiation, ajoute, très justement que «&nbsp;s’il est difficile de lire l’écriture inclusive, cela ajoute également une difficulté pour écrire. Il faut une excellente maitrise du français pour utiliser l’écriture inclusive en tant qu’auteur. Si cette écriture devait devenir la norme, cela pourrait creuser le fossé entre les personnes «&nbsp;aptes&nbsp;» à s’exprimer par écrit et ceux qui n’oseront plus le faire.&nbsp;»
+
+
+          Le débat est donc en cours, avec des avis divergeants concernant l’accès à l’information pour tous. La réalisation d’une étude poussée auprès des publics concernés permettrait de développer une solution la plus inclusive possible. Qui s’y colle&nbsp;? 😄
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 ---
