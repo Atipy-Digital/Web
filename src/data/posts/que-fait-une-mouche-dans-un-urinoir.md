@@ -17,33 +17,35 @@ post_sections:
       reverseMobile: false
       text:
         content: >-
-          ![Exemple de mise en application du
-          Nudge](/media/nudge-signaletique-exemple-agence-atipy.jpg)
+          **Vous avez vu une mouche dans un urinoir**&nbsp;**? Elle n’est pas là
+          par hasard**&nbsp;**!**
 
 
-          **Vous avez vu une mouche dans un urinoir ? Elle n’est pas là par hasard !**
 
 
-          ### Qu’est ce que le nudge ?
+          ![Exemple de mise en application du Nudge](/media/nudge-signaletique-exemple-agence-atipy.jpg)
 
 
-          « Nudge », qui signifie « pousser du coude » en anglais, vient des Etats-Unis et a d’abord été utilisé dans l’économie comportementale.
+          ### Qu’est ce que le nudge&nbsp;?
+
+
+          «&nbsp;Nudge&nbsp;», qui signifie «&nbsp;pousser du coude&nbsp;» en anglais, vient des Etats-Unis et a d’abord été utilisé dans l’économie comportementale.
 
           L’humain prendrait des décisions en se basant sur son instinct ou ses émotions. De ce constat découle l’utilisation des nudges.
 
           Le nudge est une façon implicite d’inciter l’usager à réaliser une action, sans le contraindre ni l’obliger.
 
 
-          #### Quels objectifs ?
+          #### Quels objectifs&nbsp;?
 
 
-          Ce principe peut ainsi permettre de changer les comportements et encourager de nouvelles pratiques en favorisant les « bonnes » actions, comme ne pas jeter ses mégots par terre, prendre les escaliers plutôt que l’escalator…
+          Ce principe peut ainsi permettre de changer les comportements et encourager de nouvelles pratiques en favorisant les «&nbsp;bonnes&nbsp;» actions, comme ne pas jeter ses mégots par terre, prendre les escaliers plutôt que l’escalator…
 
 
           #### Des exemples
 
 
-          L’exemple le plus connu reste le point, ou la mouche, positionné dans un urinoir. Les utilisateurs vont avoir tendance à viser ce point. Ce comportement permet ainsi de conserver un lieu plus propre. L’aéroport d’Amsterdam est le premier à mettre en place ce système et réduit ainsi de 80% ses frais de nettoyage.
+          L’exemple le plus connu reste le point, ou la mouche, positionné dans un urinoir. Les utilisateurs vont avoir tendance à viser ce point. Ce comportement permet ainsi de conserver un lieu plus propre. L’aéroport d’Amsterdam est le premier à mettre en place ce système et réduit ainsi de 80&nbsp;% ses frais de nettoyage.
 
 
           ![Illustration de la mouche positionnée dans un urinoir](/media/nudge-signaletique-urinoir-agence-atipy.jpg)
@@ -70,16 +72,18 @@ post_sections:
     col1:
       reverseMobile: false
       text:
+        content: >-
+          
+
+          ![Illustration du nudge installé dans les couloirs de la SNCF](/media/nudge-transilien-sncf.jpg "Source : SNCF / Adetem")
+    col2:
+      reverseMobile: false
+      text:
         content: Depuis 2015, la SNCF Transilien expérimente ainsi plusieurs techniques
           de nudge dans le but de réduire les incivilités et comportements
           gênants. Par exemple, le sens interdit dans un couloir est remplacé
           par un panneau « Voie sans issue ». Cela réduit de 50% le mauvais sens
           d’utilisation du passage.
-    col2:
-      reverseMobile: false
-      text:
-        content: '![Illustration du nudge installé dans les couloirs de la
-          SNCF](/media/nudge-transilien-sncf.jpg "Source : SNCF / Adetem")'
     col3:
       reverseMobile: false
 source:
