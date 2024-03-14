@@ -38,10 +38,10 @@ post_sections:
           **Dans les années 70 est venue l’idée de valoriser le patrimoine français depuis les autoroutes, lieu de fort trafic. C’est la société Autoroutes du Sud de la France qui lance le projet. C’est alors qu’intervient le graphiste suisse, Jean Widmer.**
 
 
-          Il convient de se poser la question suivante : « Comment transmettre une information en moins de 3 secondes ? » En effet, à 130 kms/h vous disposez de peu de temps pour lire et comprendre un message.
+          Il convient de se poser la question suivante&nbsp;: «&nbsp;Comment transmettre une information en moins de 3 secondes&nbsp;?&nbsp;» En effet, à 130 kms/h vous disposez de peu de temps pour lire et comprendre un message.
 
 
-          Entre 1972 et 1978, Jean Widmer réalisera environ 500 signes. Le graphiste s’intéresse au minimalisme graphique du pictogramme : épaisseur de trait lisible à distance, sobriété des formes, synthétisation de l’information, lisibilité de la police de caractère…
+          Entre 1972 et 1978, Jean Widmer réalisera environ 500 signes. Le graphiste s’intéresse au minimalisme graphique du pictogramme&nbsp;: épaisseur de trait lisible à distance, sobriété des formes, synthétisation de l’information, lisibilité de la police de caractère…
 
 
           ![Recherches et croquis de pictogrammes réalisés par Jean Widmer](/media/jean-widmer-pictogrammes-animations-touristiques-autoroutes-1972-78-recherche-croquis-portrait-index-grafik.jpg)
@@ -50,10 +50,10 @@ post_sections:
           Il utilise également le caractère typographique Frutiger, très lisible, conçu spécifiquement pour les supports de signalétique.
 
 
-          Depuis 2021, les panneaux patrimoniaux se modernisent. De nouveaux artistes et graphistes interviennent sur les illustrations. Une véritable expo en 3 secondes et à ciel ouvert avec un flux constant de visiteurs !
+          Depuis 2021, les panneaux patrimoniaux se modernisent. De nouveaux artistes et graphistes interviennent sur les illustrations. Une véritable expo en 3 secondes et à ciel ouvert avec un flux constant de visiteurs&nbsp;!
 
 
-          **Le saviez-vous ? Il existe une charte signalétique bien précise pour la mise en forme de ces panneaux.**
+          **Le saviez-vous**&nbsp;**? Il existe une charte signalétique bien précise pour la mise en forme de ces panneaux.**
     col2:
       reverseMobile: false
     col3:
@@ -63,13 +63,13 @@ post_sections:
       reverseMobile: false
       text:
         content: >-
-          ### La signalétique patrimoniale, qu’est ce que c’est ?
+          ### La signalétique patrimoniale, qu’est ce que c’est&nbsp;?
 
 
-          **Souvent liée au tourisme et à la culture, la signalétique patrimoniale vise à valoriser tous types de patrimoine sur un territoire : architecture, paysage, histoire, gastronomie, art… Pour aller plus loin, elle participe également à la visibilité de l’identité d’un territoire.**
+          **Souvent liée au tourisme et à la culture, la signalétique patrimoniale vise à valoriser tous types de patrimoine sur un territoire**&nbsp;**: architecture, paysage, histoire, gastronomie, art… Pour aller plus loin, elle participe également à la visibilité de l’identité d’un territoire.**
 
 
-          Dispositif harmonieux, s’il s’insère correctement dans son environnement, la signalétique est un élément fort de la communication d’un site, d’un monument ou d’un musée. La signalétique patrimoniale peut :
+          Dispositif harmonieux, s’il s’insère correctement dans son environnement, la signalétique est un élément fort de la communication d’un site, d’un monument ou d’un musée. La signalétique patrimoniale peut&nbsp;:
 
 
           * Valoriser un patrimoine, un territoire.
@@ -81,12 +81,10 @@ post_sections:
           * Eveiller la curiosité.
 
 
-
-
           ![Pupitre devant un paysage. Le support explique l'environnement et les points d'intérêt qui se trouvent autour.](/media/parc-naturel-grands-causses-signaletique-touristique-5206.jpg)
 
 
-          Les supports de signalétique patrimoniale peuvent avoir un impact sur la fréquentation touristique d’un lieu. Concrètement, cette signalétique peut prendre différentes formes :
+          Les supports de signalétique patrimoniale peuvent avoir un impact sur la fréquentation touristique d’un lieu. Concrètement, cette signalétique peut prendre différentes formes&nbsp;:
 
 
           * Balisage au sol. Par exemple, des clous en laiton gravés.
@@ -98,7 +96,7 @@ post_sections:
           * Totem pouvant raconter l’histoire d’un lieu
 
 
-          **Qu’elle soit patrimoniale, directionnelle, sécuritaire, la signalétique nous entoure. Ouvrez l’œil !**
+          **Qu’elle soit patrimoniale, directionnelle, sécuritaire, la signalétique nous entoure. Ouvrez l’œil**&nbsp;**!**
     col2:
       reverseMobile: false
     col3:
