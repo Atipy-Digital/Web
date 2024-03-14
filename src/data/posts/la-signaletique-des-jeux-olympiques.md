@@ -1,11 +1,11 @@
 ---
 metadata:
-  title: La signalétique des Jeux Olympiques
-  description: La signalétique des Jeux Olympiques
+  title: La signalétique des Jeux Olympiques et Paralympiques
+  description: La signalétique des Jeux Olympiques et Paralympiques
   keywords:
     - keyword: Jeux Olympiques
     - keyword: Signalétique
-title: La signalétique des Jeux Olympiques
+title: La signalétique des Jeux Olympiques et Paralympiques
 date: 2019-05-15T14:25:35.044Z
 timeToRead: 3 à 4 min
 post_tags:
