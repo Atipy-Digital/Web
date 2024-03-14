@@ -3,7 +3,7 @@ metadata:
   title: L’écriture inclusive est-elle accessible ?
   description: L’écriture inclusive est-elle accessible ?
 title: L’écriture inclusive est-elle accessible aux personnes en situation de
-  handicap&nbsp;?
+  handicap ?
 date: 2020-04-14T14:06:26.155Z
 timeToRead: 5 à 6 min
 post_tags:
