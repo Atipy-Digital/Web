@@ -98,6 +98,24 @@ post_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          Présents dans tous les secteurs (santé, transports, informatique,
+          etc.), une standardisation de ces signes paraît utile pour une
+          meilleure reconnaissance.
+
+
+          L’AIGA, (American Institute of Graphic Arts) propose des pictogrammes simples et libres de droits téléchargeable en ligne dans le but de les diffuser largement. Nous les avons tous vu au moins une fois sur un panneau signalétique.
+
+
+          ![Trois pictogrammes liés aux transports blanc dans un carré noir : des couverts, un avion, une valise. ](/media/pictogrammes_atipy_isotypes_5.jpg)
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 source:
   col1:
     - url: https://www.gerdarntz.org/
