@@ -169,6 +169,22 @@ post_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: |-
+          ### En résumé
+
+          * Décrivez vos images.
+          * Utilisez des majuscules pour les hasthags comportant plusieurs mots.
+          * Évitez les abréviations. Préférez les theards.
+          * Sous-titrez vos vidéos.
+          * Utilisez les émojis en bonne intelligence.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 source:
   col1:
     - url: https://www.leptidigital.fr/webmarketing/sous-titrer-automatiquement-video-17957/
