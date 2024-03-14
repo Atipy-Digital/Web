@@ -102,4 +102,7 @@ source:
   col1:
     - url: https://www.gerdarntz.org/
       label: Gerd Arntz
+  col2:
+    - url: http://indexgrafik.fr/otto-neurath-isotype/
+      label: Index Grafik
 ---
