@@ -46,7 +46,7 @@ post_sections:
 
           * Ne plus mettre de majuscule de prestige à «&nbsp;Homme&nbsp;» et utiliser plutôt «&nbsp;humain&nbsp;» que «&nbsp;homme&nbsp;».
 
-          *
+
 
 
           ### Mais l’écriture inclusive est-elle si inclusive que ça…&nbsp;?
@@ -89,8 +89,6 @@ post_sections:
 
 
           Cet exemple est très clair&nbsp;: l’information est difficile à comprendre. A l’avenir, les logiciels pourront-ils être parametrés pour prendre en compte l’orthographe inclusive&nbsp;?
-
-
 
 
           #### Orthographe inclusive et troubles «&nbsp;DYS&nbsp;»
@@ -154,8 +152,6 @@ source:
   col1:
     - url: https://www.lalutineduweb.fr/ecriture-inclusive-accessibilite-solutions/
       label: Le lutin du web
-    - url: https://www.france24.com/fr/20171028-lecriture-inclusive-difficulte-plus-dyslexiques
-      label: France 24
   col2:
     - url: https://www.ethique-et-tal.org/2018/01/20/ecriture-inclusive-et-point-median-et-si-lon-causait-science/
       label: "Ecriture inclusive et point médian : et si l’on causait science ?"
