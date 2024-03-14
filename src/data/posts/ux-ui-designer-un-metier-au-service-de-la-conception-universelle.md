@@ -20,8 +20,10 @@ post_sections:
           graphisme, webdesign, développement, UX design, UI design…**
 
 
+          UI et UX design, qu’est-ce que ça veut dire&nbsp;? [Ruben Rossignol,](https://www.linkedin.com/in/ruben-rossignol-886897121/) en stage au sein de l’équipe Atipy, UX et UI designer, nous explique son métier.
 
-          UI et UX design, qu’est-ce que ça veut dire&nbsp;? [Ruben Rossignol,](https://www.linkedin.com/in/ruben-rossignol-886897121/) en stage au sein de l’équipe Atipy – Agence Adéquat, UX et UI designer, nous explique son métier.
+
+          ![Deux captures d'écran du jeu Prince of Persia. Le graphisme est celui des années 90, les images sont pixelisées. On retrouve deux types de décors : l'un dans un vieux château avec un squelette, l'autre dans un palais des Milles et une nuits.](/media/prince-of-persia-ruben-rossignol.jpg)
       image:
         url: ""
         legend: ""
@@ -46,9 +48,6 @@ post_sections:
 
 
           Suite à mes études, j’ai exercé le métier de chef de projet digital et chargé d’études marketing. Au cours de ces expériences professionnelles, je portais un intérêt particulier à l’analyse des besoins du client et de la cible, à la phase de conception éditoriale et au maquettage des solutions digitales, raison pour laquelle je me suis spécialisé en UX/UI Design.
-
-
-          ![Deux captures d'écran du jeu Prince of Persia. Le graphisme est celui des années 90, les images sont pixelisées. On retrouve deux types de décors : l'un dans un vieux château avec un squelette, l'autre dans un palais des Milles et une nuits.](/media/prince-of-persia-ruben-rossignol.jpg)
       image:
         url: ""
         legend: ""
@@ -66,6 +65,11 @@ post_sections:
           **UX Design est l’abréviation de User Experience (Expérience Utilisateur). On parle aussi d’ergonomie d’interfaces et d’utilisabilité. Elle est associée à la qualité du vécu de l’utilisateur et s’applique aux interfaces physiques comme virtuelles.**
 
 
+          ![Deux captures d'écran en noir et blanc de maquettes d'interface pour un agenda et un tableau de bord.](/media/atipy_ruben_rossignol_maquettes_ui_design_interface.jpg)
+
+
+
+
           La mission de l’UX designer est de trouver le point de convergence entre les besoins de l’entreprise et ceux des utilisateurs finaux afin de construire conjointement une solution fonctionnelle, évolutive et accessible.
 
 
@@ -73,9 +77,6 @@ post_sections:
 
 
           **L’UI et l’UX** partagent un but commun, la recherche d’un équilibre entre esthétisme, innovation et accessibilité.
-
-
-          ![Deux captures d'écran en noir et blanc de maquettes d'interface pour un agenda et un tableau de bord.](/media/atipy_ruben_rossignol_maquettes_ui_design_interface.jpg)
     col2:
       reverseMobile: false
     col3:
@@ -103,8 +104,8 @@ post_sections:
     col2:
       reverseMobile: false
       image:
-        url: /media/post-3.png
-        legend: Macif du Vercors
+        url: ""
+        legend: ""
     col3:
       reverseMobile: false
   - col1:
@@ -124,7 +125,7 @@ post_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Quatre personnes cheminent dans la rue. L'un est utilisateur de
+        content: "![Trois personnes cheminent dans la rue. L'un est utilisateur de
           fauteuil, l'une utilise une canne blanche. Elle se retrouve arrêtée
           par une
           barrière.](/media/concertation-handicap-association-atipy.jpg)"
