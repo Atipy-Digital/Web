@@ -53,8 +53,35 @@ post_sections:
 
 
           ![Deux exemples de nudge dans des escaliers.](/media/nudge-signaletique-exemple2-agence-atipy.jpg)
+
+
+          ### Le nudge et la signalétique
+
+
+          **Le concept du nudge prend tout son sens en signalétique. Il permet une meilleure gestion des flux, l’amélioration de la diffusion de l’information, l’encouragement du vivre ensemble.**
+
+
+          Plus largement, cette pratique est utilisée dans beaucoup de domaines comme le marketing, la politique, la santé ou la prévention routière et contribue à un meilleur comportement citoyen.
     col2:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: Depuis 2015, la SNCF Transilien expérimente ainsi plusieurs techniques
+          de nudge dans le but de réduire les incivilités et comportements
+          gênants. Par exemple, le sens interdit dans un couloir est remplacé
+          par un panneau « Voie sans issue ». Cela réduit de 50% le mauvais sens
+          d’utilisation du passage.
+    col2:
+      reverseMobile: false
+      text:
+        content: '![Illustration du nudge installé dans les couloirs de la
+          SNCF](/media/nudge-transilien-sncf.jpg "Source : SNCF / Adetem")'
+    col3:
+      reverseMobile: false
+source:
+  col1: []
 ---
