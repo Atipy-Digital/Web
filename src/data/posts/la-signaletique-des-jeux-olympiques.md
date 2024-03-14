@@ -17,9 +17,10 @@ post_sections:
       reverseMobile: false
       text:
         content: >-
-          ![Parapan Am Aquatics
-          Centre](/media/entro-parapan-am-aquatics-centre-signale-tique-sport-1024x610.jpg
-          "Source : ENTRO")
+          ![Vue sur une piscine depuis les gradins. Sur un muret est apposé un
+          panneau bleu avec les numéros de sièges et de
+          sections.](/media/entro-parapan-am-aquatics-centre-signale-tique-sport-1024x610.jpg
+          "ENTRO - Parapan Am Aquatics Centre")
 
 
           **Lors des Jeux Olympiques, les villes accueillent des milliers visiteurs venus du monde entier. Ces amateurs de sport sont aussi des touristes qu’il faut guider et orienter afin de leur permettre d’être autonomes.**
@@ -38,7 +39,7 @@ post_sections:
           ### Le pictogramme, langage universel des JO
 
 
-          **Le pictogramme est un signe figuratif, c’est-à-dire qu’il représente un objet ou une situation (contrairement à l’idéogramme qui représente une idée). Pour tout savoir sur les pictogrammes, lisez l’article «**&nbsp;**Isotypes, pictogrammes et logotypes**&nbsp;**».**
+          **Le pictogramme est un signe figuratif, c’est-à-dire qu’il représente un objet ou une situation (contrairement à l’idéogramme qui représente une idée). Pour tout savoir sur les pictogrammes, lisez l’article «**&nbsp;**[Isotypes, pictogrammes et logotypes](https://atipy.fr/posts/isotypes-pictogrammes-et-logotypes)**&nbsp;**».**
 
 
           La signalétique des Jeux Olympiques et Paralympiques (JOP) intègre également la mise en place de tout un tas de pictogrammes. Ces pictogrammes permettent à tous une compréhension de l’information, quelque soit la langue du visiteur. Un élément qui est donc indispensable lors d’un événement internationale comme les Jeux Olympiques et Paralympiques. Ce langage se doit d’être universel.
