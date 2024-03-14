@@ -21,9 +21,6 @@ post_sections:
 
 
           UI et UX design, qu’est-ce que ça veut dire&nbsp;? [Ruben Rossignol,](https://www.linkedin.com/in/ruben-rossignol-886897121/) en stage au sein de l’équipe Atipy, UX et UI designer, nous explique son métier.
-
-
-          ![Deux captures d'écran du jeu Prince of Persia. Le graphisme est celui des années 90, les images sont pixelisées. On retrouve deux types de décors : l'un dans un vieux château avec un squelette, l'autre dans un palais des Milles et une nuits.](/media/prince-of-persia-ruben-rossignol.jpg)
       image:
         url: ""
         legend: ""
@@ -39,6 +36,9 @@ post_sections:
 
 
           **Né en 1988 et initié au digital en 1992, je garde en mémoire (vive) mes premiers clics sur l’ordinateur familial dont le logotype était une pomme croquée aux couleurs arc-en-ciel**.
+
+
+          ![Deux captures d'écran du jeu Prince of Persia. Le graphisme est celui des années 90, les images sont pixelisées. On retrouve deux types de décors : l'un dans un vieux château avec un squelette, l'autre dans un palais des Milles et une nuits.](/media/prince-of-persia-ruben-rossignol.jpg)
 
 
           C’est en naviguant au gré des fonctionnalités du système d’exploitation Mac, en bidouillant le logiciel d’infographie Adobe Photoshop ou en re-jouant inlassablement le premier niveau de Prince Of Persia que je suis devenu «&nbsp;Utilisateur&nbsp;».
