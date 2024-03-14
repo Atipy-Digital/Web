@@ -150,4 +150,16 @@ post_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+source:
+  col1:
+    - url: https://www.lalutineduweb.fr/ecriture-inclusive-accessibilite-solutions/
+      label: Le lutin du web
+    - url: https://www.france24.com/fr/20171028-lecriture-inclusive-difficulte-plus-dyslexiques
+      label: France 24
+  col2:
+    - url: https://www.ethique-et-tal.org/2018/01/20/ecriture-inclusive-et-point-median-et-si-lon-causait-science/
+      label: "Ecriture inclusive et point médian : et si l’on causait science ?"
+  col3:
+    - url: https://aveuglesdefrance.org/presse/les-aveugles-de-france-disent-non-au-melange-des-genres
+      label: Fédération des Aveugles de France
 ---
