@@ -79,4 +79,27 @@ post_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Pictogramme
+
+
+          Le pictogramme est un signe figuratif, c’est-à-dire qu’il représente un objet ou une situation (contrairement à l’idéogramme qui représente une idée).
+
+
+          Représentation codifiée, il est très utilisé en signalisation et signalétique. Dans les gares, aéroports, musées, hôpitaux… il permet ainsi aux personnes pressées de comprendre rapidement l’information, ou aux usagers ne sachant pas lire d’y avoir également accès.
+
+
+          ![4 pictogrammes blancs sur fond vert : une pomme, une clef à molette, une échelle de piscine et des lunettes](/media/pictogrammes_atipy_isotypes_4.jpg)
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+source:
+  col1:
+    - url: https://www.gerdarntz.org/
+      label: Gerd Arntz
 ---
