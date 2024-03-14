@@ -132,7 +132,7 @@ members:
       - text: Accessibilité
       - text: Relevé multi-technique
       - text: Logistique
-    image: /media/julie-bouchez-nb.jpg
+    image: /media/julie-bouchez-martin.jpg
   - name: Daviani Fillatre
     image: /media/atipy-daviani-fillatre.jpeg
     badge:
