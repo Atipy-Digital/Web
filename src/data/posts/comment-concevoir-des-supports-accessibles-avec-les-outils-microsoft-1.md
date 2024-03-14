@@ -10,8 +10,8 @@ title: Comment concevoir des supports accessibles avec les outils Microsoft&nbsp
 date: 2024-01-18T09:52:51.898Z
 timeToRead: 2 à 3 min
 post_tags:
-  - Design
-  - Accessibilité
+  - Accessibilité numérique
+  - Applications
 post_sections:
   - inverseCol: false
     col1:
