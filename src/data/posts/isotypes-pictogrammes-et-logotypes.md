@@ -105,4 +105,7 @@ source:
   col2:
     - url: http://indexgrafik.fr/otto-neurath-isotype/
       label: Index Grafik
+  col3:
+    - url: https://isotyperevisited.org/
+      label: Isotype Revisited
 ---
