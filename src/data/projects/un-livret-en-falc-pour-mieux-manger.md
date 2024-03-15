@@ -35,15 +35,13 @@ project_sections:
           livret](/media/design-reference-solidel-atipy-4.jpg)
 
 
-
-
           #### Utilisation de la méthode FALC
 
 
           **Le FALC, Facile À Lire et à comprendre, est une méthode de rédaction et de conception permettant un meilleur accès à l’information pour tous. Synthétiser, rendre compréhensible et lisible, voici les étapes clés du FALC.**
 
 
-          Afin de rendre le contenu du livret accessible au plus grand nombre, et notamment aux personnes déficientes intellectuelles, nous avons mis en place les principes essentiels du Facile A Lire et à Comprendre :
+          Afin de rendre le contenu du livret accessible au plus grand nombre, et notamment aux personnes déficientes intellectuelles, nous avons mis en place les principes essentiels du Facile A Lire et à Comprendre&nbsp;:
 
 
           * Rédiger des phrases courtes
@@ -105,7 +103,7 @@ project_sections:
           #### Création d’illustrations
 
 
-          **Nos diverses expériences sur les sujets de la nutrition et de l’accès à l’information (par exemple, [La cuisine pour tous !](https://cuisinepourtous.fr/)), nous ont permis une réflexion intéressante sur :**
+          **Nos diverses expériences sur les sujets de la nutrition et de l’accès à l’information (par exemple, [La cuisine pour tous !](https://cuisinepourtous.fr/)), nous ont permis une réflexion intéressante sur**&nbsp;**:**
 
 
           * la hiérarchisation des informations
@@ -159,17 +157,17 @@ project_sections:
           Marion Vonfeld, cheffe de projet
 
 
-          « Après le livre Gastronomie Universelle, Mon petit livret pour bien manger est le fruit d’une nouvelle collaboration entre Solidel et l’Agence Atipy. Un grand merci à Adeline Richez, qui nous a accompagné dans la conception du livret et nous a fourni de précieux conseils pour sa mise en accessibilité. Nous avons encore une fois été ravis de travailler avec elle pour élaborer un ouvrage véritablement accessible à toutes et tous. »
+          «&nbsp;Après le livre Gastronomie Universelle, Mon petit livret pour bien manger est le fruit d’une nouvelle collaboration entre Solidel et l’Agence Atipy. Un grand merci à Adeline Richez, qui nous a accompagné dans la conception du livret et nous a fourni de précieux conseils pour sa mise en accessibilité. Nous avons encore une fois été ravis de travailler avec elle pour élaborer un ouvrage véritablement accessible à toutes et tous.&nbsp;»
         color: green
     col2:
       reverseMobile: false
       text:
         content: >-
           **Pour en savoir plus sur le livret,** rendez-vous sur le site de
-          Solidel [« Mon petit livret pour bien manger
-          ».](https://solidel.fr/ressources/mon-petit-livret-pour-bien-manger/)
-
-
+          Solidel
+          [«](https://solidel.fr/ressources/mon-petit-livret-pour-bien-manger/)&nbsp;[Mon
+          petit livret pour bien
+          manger](https://solidel.fr/ressources/mon-petit-livret-pour-bien-manger/)&nbsp;[».](https://solidel.fr/ressources/mon-petit-livret-pour-bien-manger/)
 
 
           **Pour commander le livret,** vous pouvez le faire en ligne sur la page de [Solidel.](https://solidel.fr/je-commande-mon-petit-livret-pour-bien-manger/)
