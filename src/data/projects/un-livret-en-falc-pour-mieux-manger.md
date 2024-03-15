@@ -159,7 +159,7 @@ project_sections:
           Marion Vonfeld, cheffe de projet
 
 
-          *« Après le livre Gastronomie Universelle, Mon petit livret pour bien manger est le fruit d’une nouvelle collaboration entre Solidel et l’Agence Atipy. Un grand merci à Adeline Richez, qui nous a accompagné dans la conception du livret et nous a fourni de précieux conseils pour sa mise en accessibilité. Nous avons encore une fois été ravis de travailler avec elle pour élaborer un ouvrage véritablement accessible à toutes et tous. »*
+          « Après le livre Gastronomie Universelle, Mon petit livret pour bien manger est le fruit d’une nouvelle collaboration entre Solidel et l’Agence Atipy. Un grand merci à Adeline Richez, qui nous a accompagné dans la conception du livret et nous a fourni de précieux conseils pour sa mise en accessibilité. Nous avons encore une fois été ravis de travailler avec elle pour élaborer un ouvrage véritablement accessible à toutes et tous. »
         color: green
     col2:
       reverseMobile: false
