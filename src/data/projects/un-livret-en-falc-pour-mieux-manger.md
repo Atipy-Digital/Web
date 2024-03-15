@@ -30,37 +30,6 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Pages intérieures du
-          livret](/media/design-reference-solidel-atipy-7.jpg)"
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: |-
-          #### Objectifs
-
-          * Permettre plus d’autonomie dans la préparation des repas
-          * Apporter des notions d’équilibre alimentaire faciles à comprendre
-          * Sensibiliser au gaspillage alimentaire
-    col2:
-      reverseMobile: false
-      text:
-        content: |-
-          #### Nos domaines d’intervention
-
-          * Accompagnement et conseil sur le FALC
-          * Création d’illustrations
-          * Accompagnement sur la mise en page du livret
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
         content: >-
           ![Exemple d'une double page du
           livret](/media/design-reference-solidel-atipy-4.jpg)
@@ -146,6 +115,37 @@ project_sections:
           * la représentation de concepts abstraits
     col2:
       reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![Pages intérieures du
+          livret](/media/design-reference-solidel-atipy-7.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: |-
+          #### Objectifs
+
+          * Permettre plus d’autonomie dans la préparation des repas
+          * Apporter des notions d’équilibre alimentaire faciles à comprendre
+          * Sensibiliser au gaspillage alimentaire
+    col2:
+      reverseMobile: false
+      text:
+        content: |-
+          #### Nos domaines d’intervention
+
+          * Accompagnement et conseil sur le FALC
+          * Création d’illustrations
+          * Accompagnement sur la mise en page du livret
     col3:
       reverseMobile: false
   - inverseCol: false
