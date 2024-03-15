@@ -29,29 +29,48 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          #### Univers graphique
-
-
-          Reprenant les codes graphiques de la charte de la ville, chaque illustration est pensée pour être facile à comprendre par tous et toutes. Chaque élément visuel a été relu et commenté par un panel d’utilisateurs déficients intellectuels. Les remarques ont ensuite été intégrées aux éléments graphiques afin d’améliorer leur compréhension. Ainsi, les personnes non-lectrices sont aidées par les visuels.
-
+          
 
           ![Illustrations détaillant l'univers graphique créer pour le projet](/media/design-reference-ccas-bethune-atipy-4.jpg)
 
 
 
 
+          #### Univers graphique
+
+
+          Reprenant les codes graphiques de la charte de la ville, chaque illustration est pensée pour être facile à comprendre par tous et toutes. Chaque élément visuel a été relu et commenté par un panel d’utilisateurs déficients intellectuels. Les remarques ont ensuite été intégrées aux éléments graphiques afin d’améliorer leur compréhension. Ainsi, les personnes non-lectrices sont aidées par les visuels.
+
+
+
+
           #### Le Facile A Lire et à Comprendre (FALC)
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          **Le FALC est une méthode de conception permettant de créé des
+          supports accessibles aux personnes déficientes intellectuelles.
+          Phrases courtes, vocabulaire simple, pictogrammes et illustrations.**
 
 
-          **Le FALC est une méthode de conception permettant de créé des supports accessibles aux personnes déficientes intellectuelles. Phrases courtes, vocabulaire simple, pictogrammes et illustrations.**
-
-
-          Afin de garantir leur compréhension, chaque élément qui compose le support est validé par un groupe de relecteurs déficients intellectuels.
-
+          Afin de garantir leur compréhension, chaque élément qui compose le support est validé par un groupe de relecteurs déficients intellectuels.\
 
           La méthode du FALC a été appliquée dans la conception de l’ensemble des livrets du CCAS de Béthune.
 
 
+
+
+          ![Couverture du livret sur le pole logement](/media/design-reference-ccas-bethune-atipy-2.jpg)
+    col2:
+      reverseMobile: false
+      text:
+        content: >-
           **5 livrets ont été créés sur les thématiques suivantes&nbsp;:**
 
 
@@ -64,21 +83,11 @@ project_sections:
           * Le programme Réussite éducative
 
           * Le pôle socio-professionnel
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: "![Couverture du livret sur le pole
-          logement](/media/design-reference-ccas-bethune-atipy-2.jpg)"
-    col2:
-      reverseMobile: false
-      text:
-        content: "![Pages intérieures du livret sur le pole
-          séniors](/media/design-reference-ccas-bethune-atipy-3.jpg)"
+
+
+
+
+          ![Pages intérieures du livret sur le pole séniors](/media/design-reference-ccas-bethune-atipy-3.jpg)
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -110,10 +119,10 @@ project_sections:
           #### Le témoignage du client
 
 
-          **Fabien DROUART,** Directeur du CCAS
+          Fabien DROUART, Directeur du CCAS
 
 
-          > «**&nbsp;**Nous sommes pleinement satisfaits de l’accompagnement réalisé par l’agence. Un travail qualitatif et des réponses rapides à nos questions et besoins.**&nbsp;**»
+          *«**&nbsp;**Nous sommes pleinement satisfaits de l’accompagnement réalisé par l’agence. Un travail qualitatif et des réponses rapides à nos questions et besoins.**&nbsp;**»*
         color: green
     col3:
       reverseMobile: false
