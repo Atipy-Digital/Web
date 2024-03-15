@@ -131,7 +131,7 @@ project_sections:
           Fabien DROUART, Directeur du CCAS
 
 
-          *«**&nbsp;**Nous sommes pleinement satisfaits de l’accompagnement réalisé par l’agence. Un travail qualitatif et des réponses rapides à nos questions et besoins.**&nbsp;**»*
+          «**&nbsp;**Nous sommes pleinement satisfaits de l’accompagnement réalisé par l’agence. Un travail qualitatif et des réponses rapides à nos questions et besoins.**&nbsp;**»
         color: green
     col3:
       reverseMobile: false
