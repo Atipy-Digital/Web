@@ -75,17 +75,29 @@ project_sections:
 
 
           #### Une charte signalétique accessible au plus grand nombre
-
-
-          **Proposant une offre culturelle accessible, le théâtre accueille des spectateurs aux profils variés. La perception de l’information doit être accessible à tous et toutes. Il est important de penser une charte signalétique lisible et compréhensible.**
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          **Proposant une offre culturelle accessible, le théâtre accueille des
+          spectateurs aux profils variés. La perception de l’information doit
+          être accessible à tous et toutes. Il est important de penser une
+          charte signalétique lisible et compréhensible.**
 
 
           ##### Typographie
 
 
           La typographie utilisée est celle de la charte graphique du théâtre&nbsp;: Avenir. Avenir est une typographie linéale facile à lire. La hauteur des caractères allant de 2 à 4 centimètres apporte un bon confort de lecture.
-
-
+    col2:
+      reverseMobile: false
+      text:
+        content: >-
           ##### Couleurs et contrastes
 
 
@@ -96,8 +108,6 @@ project_sections:
 
 
           Par ailleurs, les couleurs ont été choisies pour ne pas gêner la lecture des personnes daltoniennes. Des tests de conversion de couleurs ont été réalisés pour différents types de perception : protanopie, tritanopie…
-    col2:
-      reverseMobile: false
     col3:
       reverseMobile: false
   - inverseCol: false
