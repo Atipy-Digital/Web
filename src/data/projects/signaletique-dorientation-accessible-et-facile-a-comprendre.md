@@ -47,6 +47,22 @@ project_sections:
           * Répondre aux besoins des personnes en situation de handicap.
 
           * Concevoir une signalétique en harmonie avec le lieu et l’identité visuelle propre au Bateau Feu.
+
+
+
+
+          #### Nos prestations
+
+
+          * Diagnostic signalétique
+
+          * Préconisations d’implantation
+
+          * Elaboration des contenus
+
+          * Proposition de design signalétique
+
+          * Réalisation des bons à tirer
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -114,22 +130,6 @@ project_sections:
 
 
           ![Exemple d'application des pictogrammes sur des panneaux directionnels](/media/design-reference-bateau-feu-atipy-6.jpg)
-
-
-
-
-          #### Nos prestations
-
-
-          * Diagnostic signalétique
-
-          * Préconisations d’implantation
-
-          * Elaboration des contenus
-
-          * Proposition de design signalétique
-
-          * Réalisation des bons à tirer
     col2:
       reverseMobile: false
     col3:
