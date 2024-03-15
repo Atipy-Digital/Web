@@ -9,7 +9,7 @@ metadata:
     - keyword: Illustration
 title: Un livret en FALC pour mieux manger
 image: /media/design-reference-solidel-atipy-1.jpg
-project_client: annemasse-agglo
+project_client: grand-est
 mission_body: Conception et illustration d’un livret d’accompagnement en [Facile
   À Lire et à Comprendre
   (FALC)](https://atipy.fr/expertises/design/falc-et-langage-clair) pour bien
