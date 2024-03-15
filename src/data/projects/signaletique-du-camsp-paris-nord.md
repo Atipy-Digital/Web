@@ -29,6 +29,16 @@ project_sections:
     col1:
       reverseMobile: false
       text:
+        content: "![Exemple de directionnelles installées au rez-de-chaussé du
+          bâtiment](/media/design-reference-camsp-paris-nord-atipy-9.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: >-
           #### Les objectifs de la mission
 
@@ -42,16 +52,28 @@ project_sections:
           * Faciliter l’accès aux différents services du bâtiment.
 
           * Développer une signalétique innovante dédiée aux enfants en situation de handicap.
+    col2:
+      reverseMobile: false
+      text:
+        content: |-
+          #### Nos prestations pour cette mission
 
-
-
-
-          ![Prototype des plaques et du support manipulable réalisés pour le projet ](/media/design-reference-camsp-paris-nord-atipy-2.jpg)
+          * Conseil en accessibilité
+          * Programmation : implantation et contenus
+          * Design signalétique
+          * Suivi de fabrication et de pose
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ![Prototype des plaques et du support manipulable réalisés pour le
+          projet ](/media/design-reference-camsp-paris-nord-atipy-2.jpg)
 
 
           ![Photographie d'une des directionnelle installée dans le bâtiment](/media/design-reference-camsp-paris-nord-atipy-3.jpg)
-
-
 
 
           #### Le design signalétique
@@ -60,6 +82,8 @@ project_sections:
           Une signalétique modulable et manipulable par les enfants a été créer en PMMA. L’enfant peut ainsi s’approprier les éléments, mémoriser le visage du soignant, comprendre l’activité qui va avoir lieu lors du rendez-vous.
     col2:
       reverseMobile: false
+      text:
+        content: ""
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -113,31 +137,6 @@ project_sections:
       text:
         content: "![Exemple de plaque porte identifiant l'espace de
           stockage](/media/design-reference-camsp-paris-nord-atipy-8.jpg)"
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
-        content: >-
-          ![Exemple de directionnelles installées au rez-de-chaussé du
-          bâtiment](/media/design-reference-camsp-paris-nord-atipy-9.jpg)
-
-
-
-
-          #### Nos prestations pour cette mission
-
-
-          * Conseil en accessibilité
-
-          * Programmation : implantation et contenus
-
-          * Design signalétique
-
-          * Suivi de fabrication et de pose
-    col2:
-      reverseMobile: false
     col3:
       reverseMobile: false
 projectsFeatured:
