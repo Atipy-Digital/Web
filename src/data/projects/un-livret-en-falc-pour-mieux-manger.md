@@ -115,6 +115,66 @@ project_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![Zoom sur le classement par couleur du
+          livret](/media/design-reference-solidel-atipy-5.jpg)"
+    col2:
+      reverseMobile: false
+      text:
+        content: '![Zoom sur la page "conseils pour éviter de
+          gaspiller"](/media/design-reference-solidel-atipy-6.jpg)'
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          #### Création d’illustrations
+
+
+          **Nos diverses expériences sur les sujets de la nutrition et de l’accès à l’information (par exemple, [La cuisine pour tous !](https://cuisinepourtous.fr/)), nous ont permis une réflexion intéressante sur :**
+
+
+          * la hiérarchisation des informations
+
+          * la transcription d’une information écrite par l’image
+
+          * la représentation de concepts abstraits
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          #### Témoignage de la cliente
+
+
+          Marion Vonfeld, cheffe de projet
+
+
+          *« Après le livre Gastronomie Universelle, Mon petit livret pour bien manger est le fruit d’une nouvelle collaboration entre Solidel et l’Agence Atipy. Un grand merci à Adeline Richez, qui nous a accompagné dans la conception du livret et nous a fourni de précieux conseils pour sa mise en accessibilité. Nous avons encore une fois été ravis de travailler avec elle pour élaborer un ouvrage véritablement accessible à toutes et tous. »*
+        color: green
+    col2:
+      reverseMobile: false
+      text:
+        content: >-
+          **Pour en savoir plus sur le livret**\
+
+          rendez-vous sur le site de Solidel [« Mon petit livret pour bien manger ».](https://solidel.fr/ressources/mon-petit-livret-pour-bien-manger/)
+
+
+          **Pour commander le livret** \
+
+          vous pouvez le faire en ligne sur la page de [Solidel.](https://solidel.fr/je-commande-mon-petit-livret-pour-bien-manger/)
+    col3:
+      reverseMobile: false
 projectsFeatured:
   - livrets-falc-et-de-la-plaquette-de-presentation
 footer:
