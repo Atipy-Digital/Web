@@ -30,7 +30,87 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: f﻿zfezfe
+        content: "![Pages intérieures du
+          livret](/media/design-reference-solidel-atipy-7.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: |-
+          #### Objectifs
+
+          * Permettre plus d’autonomie dans la préparation des repas
+          * Apporter des notions d’équilibre alimentaire faciles à comprendre
+          * Sensibiliser au gaspillage alimentaire
+    col2:
+      reverseMobile: false
+      text:
+        content: |-
+          #### Nos domaines d’intervention
+
+          * Accompagnement et conseil sur le FALC
+          * Création d’illustrations
+          * Accompagnement sur la mise en page du livret
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ![Exemple d'une double page du
+          livret](/media/design-reference-solidel-atipy-4.jpg)
+
+
+
+
+          #### Utilisation de la méthode FALC
+
+
+          **Le FALC, Facile À Lire et à comprendre, est une méthode de rédaction et de conception permettant un meilleur accès à l’information pour tous. Synthétiser, rendre compréhensible et lisible, voici les étapes clés du FALC.**
+
+
+          Afin de rendre le contenu du livret accessible au plus grand nombre, et notamment aux personnes déficientes intellectuelles, nous avons mis en place les principes essentiels du Facile A Lire et à Comprendre :
+
+
+          * Rédiger des phrases courtes
+
+          * Utiliser un vocabulaire compréhensible
+
+          * Associer le texte à une image
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![Détail d'un exemple de menu sur la
+          journée](/media/design-reference-solidel-atipy-2.jpg)"
+    col2:
+      reverseMobile: false
+      text:
+        content: "![Zoom sur les illustrations d'une page du
+          livret](/media/design-reference-solidel-atipy-3.jpg)"
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          #### Des ateliers pour tester le prototype
+
+
+          Dans un projet de conception, la phase de prototytage est essentielle. Souvent mise de côté par manque de temps ou de budget, elle permet un test grandeur nature et un ajustement réel du produit. La méthode FALC impose une relecture et une validation de la part d’utilisateurs déficients intellectuels. Un atelier de relecture du livret a donc été organisé. Il a permis d’améliorer le support et de le rendre compréhensible par le plus grand nombre.
+
+
+          Le Service d’Accompagnement à la Vie Sociale (SAVS) des Papillons Blancs de Cambrai a relu et proposé des améliorations concernant le vocabulaire utilisé, les illustrations, la mise en page globale… L’Agence Atipy prend ensuite en compte ces remarques pour la version finale du livret.
     col2:
       reverseMobile: false
     col3:
