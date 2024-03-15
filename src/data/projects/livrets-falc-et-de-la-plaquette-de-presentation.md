@@ -59,18 +59,15 @@ project_sections:
           Phrases courtes, vocabulaire simple, pictogrammes et illustrations.**
 
 
-          Afin de garantir leur compréhension, chaque élément qui compose le support est validé par un groupe de relecteurs déficients intellectuels.\
-
-          La méthode du FALC a été appliquée dans la conception de l’ensemble des livrets du CCAS de Béthune.
-
-
-
-
-          ![Couverture du livret sur le pole logement](/media/design-reference-ccas-bethune-atipy-2.jpg)
+          Afin de garantir leur compréhension, chaque élément qui compose le support est validé par un groupe de relecteurs déficients intellectuels.
     col2:
       reverseMobile: false
       text:
         content: >-
+          La méthode du FALC a été appliquée dans la conception de l’ensemble
+          des livrets du CCAS de Béthune.
+
+
           **5 livrets ont été créés sur les thématiques suivantes&nbsp;:**
 
 
@@ -83,9 +80,21 @@ project_sections:
           * Le programme Réussite éducative
 
           * Le pôle socio-professionnel
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          
 
-
-
+          ![Couverture du livret sur le pole logement](/media/design-reference-ccas-bethune-atipy-2.jpg)
+    col2:
+      reverseMobile: false
+      text:
+        content: >-
+          
 
           ![Pages intérieures du livret sur le pole séniors](/media/design-reference-ccas-bethune-atipy-3.jpg)
     col3:
