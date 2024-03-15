@@ -70,6 +70,10 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
+          ![Déclinaison de la charte signalétique sur les directionnelles et les
+          plaques portes](/media/design-reference-bateau-feu-atipy-5.jpg)
+
+
           #### Une charte signalétique accessible au plus grand nombre
 
 
@@ -114,11 +118,7 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ![Déclinaison de la charte signalétique sur les directionnelles et les
-          plaques portes](/media/design-reference-bateau-feu-atipy-5.jpg)
-
-
-
+          
 
           #### La création d’un catalogue de pictogrammes
 
