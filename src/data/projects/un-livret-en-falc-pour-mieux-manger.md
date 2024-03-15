@@ -165,14 +165,14 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          **Pour en savoir plus sur le livret**\
+          **Pour en savoir plus sur le livret,** rendez-vous sur le site de
+          Solidel [« Mon petit livret pour bien manger
+          ».](https://solidel.fr/ressources/mon-petit-livret-pour-bien-manger/)
 
-          rendez-vous sur le site de Solidel [« Mon petit livret pour bien manger ».](https://solidel.fr/ressources/mon-petit-livret-pour-bien-manger/)
 
 
-          **Pour commander le livret** \
 
-          vous pouvez le faire en ligne sur la page de [Solidel.](https://solidel.fr/je-commande-mon-petit-livret-pour-bien-manger/)
+          **Pour commander le livret,** vous pouvez le faire en ligne sur la page de [Solidel.](https://solidel.fr/je-commande-mon-petit-livret-pour-bien-manger/)
     col3:
       reverseMobile: false
 projectsFeatured:
