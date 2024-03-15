@@ -1,6 +1,6 @@
 ---
 name: Le Bateau Feu
-logo: /media/bateau_feu_.jpeg
+logo: /media/logo-bateau-feu.jpg
 client_tags:
   - Culture
   - Collectivités
