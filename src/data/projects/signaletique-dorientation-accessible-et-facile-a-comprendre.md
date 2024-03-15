@@ -134,6 +134,19 @@ project_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![Exemple de mise en application de la charte signalétique
+          ](/media/design-reference-bateau-feu-atipy-8.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+      text:
+        content: "![Exemple de mise en application de la charte signalétique
+          ](/media/design-reference-bateau-feu-atipy-9.jpg)"
 projectsFeatured:
   - signaletique-de-la-treso-tiers-lieu
 footer:
