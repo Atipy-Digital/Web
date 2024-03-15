@@ -90,6 +90,29 @@ project_sections:
     col1:
       reverseMobile: false
       text:
+        content: >-
+          ##### Les plaques de porte sont composées de trois modules amovibles.
+
+
+          * Le premier donne l’information sous forme de pictogramme. L’illustration est tirée de la banque d’images Picture Communication Symbols® (PCS) de Tobii Dynavox. Ces pictogrammes sont par ailleurs utilisés par le personnel soignant dans différentes activités.
+
+          * Le deuxième module comporte du texte avec le prénom, le nom et la fonction du soignant.
+
+          * Et le troisième module montre la photo de la personne concernée.
+    col2:
+      reverseMobile: false
+      text:
+        content: >-
+          ##### La signalétique directionnelle
+
+
+          La signalétique adulte reste cohérente en reprenant les mêmes codes graphiques colorés. Le hall d’accueil est également équipé d’un système d’affichage participatif.
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: "![Mise en situation de la signalétique avec une enfant d'environ 1
           an](/media/design-reference-camsp-paris-nord-atipy-4.jpg)"
     col2:
@@ -103,25 +126,8 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: >-
-          ![Exemple de support modulable entrain d'etre
-          manipulé](/media/design-reference-camsp-paris-nord-atipy-6.jpg)
-
-
-          ##### Les plaques de porte sont composées de trois modules amovibles.
-
-
-          * Le premier donne l’information sous forme de pictogramme. L’illustration est tirée de la banque d’images Picture Communication Symbols® (PCS) de Tobii Dynavox. Ces pictogrammes sont par ailleurs utilisés par le personnel soignant dans différentes activités.
-
-          * Le deuxième module comporte du texte avec le prénom, le nom et la fonction du soignant.
-
-          * Et le troisième module montre la photo de la personne concernée.
-
-
-          ##### La signalétique directionnelle
-
-
-          La signalétique adulte reste cohérente en reprenant les mêmes codes graphiques colorés. Le hall d’accueil est également équipé d’un système d’affichage participatif.
+        content: "![Exemple de support modulable entrain d'etre
+          manipulé](/media/design-reference-camsp-paris-nord-atipy-6.jpg)"
     col2:
       reverseMobile: false
     col3:
