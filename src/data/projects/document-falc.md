@@ -112,6 +112,8 @@ project_sections:
       reverseMobile: false
 projectsFeatured:
   - laser-emploi-outils-pour-un-public-allophone
+  - livrets-falc-et-de-la-plaquette-de-presentation
+  - un-livret-en-falc-pour-mieux-manger
 footer:
   btn:
     label: Découvrez nos projets en FALC
