@@ -159,6 +159,7 @@ project_sections:
           ](/media/design-reference-bateau-feu-atipy-9.jpg)"
 projectsFeatured:
   - signaletique-de-la-treso-tiers-lieu
+  - signaletique-accessibles-des-etablissements-culturels-de-clichy
 footer:
   btn:
     label: Découvrez nos projets signalétique
