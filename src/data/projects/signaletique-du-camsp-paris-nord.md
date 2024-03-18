@@ -113,13 +113,15 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Mise en situation de la signalétique avec une enfant d'environ 1
-          an](/media/design-reference-camsp-paris-nord-atipy-4.jpg)"
+        content: "![Enfant devant une porte montrant une plaque de porte à hauteur de sa
+          tete. Enfant debout devant une porte bleue avec 2 plaques de porte à
+          deux hauteurs
+          différentes.](/media/reference-atipy-design-camps-signaletique-jours-\
+          heureux-12.jpg)"
     col2:
       reverseMobile: false
       text:
-        content: "![Mise en situation de la signalétique avec un enfant d'environ 3
-          ans](/media/design-reference-camsp-paris-nord-atipy-5.jpg)"
+        content: ""
     col3:
       reverseMobile: false
   - inverseCol: false
