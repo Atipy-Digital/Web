@@ -167,6 +167,8 @@ project_sections:
       reverseMobile: false
 projectsFeatured:
   - livrets-falc-et-de-la-plaquette-de-presentation
+  - document-falc
+  - laser-emploi-outils-pour-un-public-allophone
 footer:
   btn:
     label: Découvrez nos projets en FALC
