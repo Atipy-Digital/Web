@@ -47,7 +47,7 @@ project_sections:
 
           **Relevé concernant l'accessibilité et la sécurité des points d'arrêts**\
 
-          (Hauteur du quai, aire de giration, contraste tactile et visuel, signalétique, zébra, panneaux routiers, configuration de l’arrêt…)
+          Hauteur du quai, aire de giration, contraste tactile et visuel, signalétique, zébra, panneaux routiers, configuration de l’arrêt…
     col2:
       reverseMobile: false
       text:
@@ -80,7 +80,7 @@ project_sections:
           ### Le témoignage du client
 
 
-          Pierre Olivier RICHARD, Chargé de projets Gares et Accessibilité.
+          **Pierre Olivier RICHARD, Chargé de projets Gares et Accessibilité.**
 
           «&nbsp;En vous renouvelant notre gratitude pour la qualité de la prestation fournie, nous sommes convaincus que ces données enrichies contribueront de manière substantielle à l'amélioration continue du réseau Aléop, optimisant ainsi l’expérience des usagers&nbsp;».
     col3:
