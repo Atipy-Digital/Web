@@ -242,4 +242,44 @@ post_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: Exemple d’une carte qui propose une légende de couleur en bas de page
+          et une information écrite directement sur le visuel. Pour
+          l’utilisateur ayant un trouble de la vision, la compréhension des
+          informations est possible et confortable.
+    col2:
+      reverseMobile: false
+      text:
+        content: "![Carte de France ou l'information est directement écrite sur le
+          visuel. ](/media/atipy-plan-orientation-12.jpg)"
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          #### Les typographies et la taille des caractères
+
+
+          **Les personnes âgées ou malvoyantes peuvent avoir des difficultés à lire certaines typographies**&nbsp;**: trop petites, pas suffisamment contrastées, graphiquement chargées… Pour se repérer rapidement, l’utilisateur doit pouvoir lire l’information facilement.**
+
+
+          Ainsi, les typographies avec empattements et éléments décoratifs ne sont pas recommandées. Elles sont sources de confusion et demandent un effort de lecture. De même que des informations écrites en lettres majuscules ou en italique vont être moins lisibles.
+
+
+          ![Comparaison du temps de lecture entre un texte écrit en minuscules et en majuscules. Le texte en minuscules se lit 14% plus vite.](/media/atipy-plan-orientation-13.jpg)
+
+
+          ![Trois exemples de typographie avec des empattements ou fioritures difficiles à lire.](/media/atipy-plan-orientation-14.jpg)
+
+
+          Une vraie réflexion et un ensemble de critères sont donc à prendre en compte lors de la réalisation d’un plan d’orientation afin que celui-ci soit utilisable par le plus grand nombre. Le plus efficace restant encore de le co-créer avec les usagers&nbsp;!
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 ---
