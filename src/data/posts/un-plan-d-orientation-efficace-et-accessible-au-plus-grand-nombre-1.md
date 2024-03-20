@@ -1,7 +1,7 @@
 ---
 metadata:
   title: Un plan d’orientation efficace et accessible au plus grand nombre
-  description: Concevoir un plan d’orientation efficace et accessible au plus grand nombre
+  description: Un plan d’orientation efficace et accessible au plus grand nombre
   keywords:
     - keyword: Accessibilité
     - keyword: Plan d'orientation
