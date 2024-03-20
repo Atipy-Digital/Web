@@ -25,8 +25,8 @@ context_body: >-
   Ces informations couvraient des aspects tels que la longueur et la hauteur de quai, la présence d’abris voyageurs, de poubelles, la signalisation verticale routière et à destination des voyageurs, la présence d’un zébra, de boxs sécurisés pour les vélos, ou encore la présence d’aires de covoiturage et de bornes de recharge pour véhicules électriques.
 project_tags:
   - Applications
-  - Signalétique
   - Voirie
+  - Ingénierie
 project_sections:
   - inverseCol: false
     col1:
