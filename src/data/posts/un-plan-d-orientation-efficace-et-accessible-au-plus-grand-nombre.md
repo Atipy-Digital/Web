@@ -71,4 +71,108 @@ post_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Se repérer sur un plan
+
+
+          ![Plusieurs illustrations de la mention "Vous êtes ici"](/media/atipy-plan-orientation-03.jpg)
+
+
+          #### «&nbsp;Vous êtes ici&nbsp;»
+
+
+          Combien de fois avez-vous regardé un plan sur lequel le «&nbsp;Vous êtes ici&nbsp;» ne figurait pas&nbsp;? Il est alors bien difficile de s’orienter lorsqu’on ne sait pas où l’on se trouve&nbsp;! Amis graphistes, concepteurs et designers, ne l’oubliez pas&nbsp;! Votre plan perdrait tout son sens.
+
+          Ce marqueur peut prendre différentes formes&nbsp;: cercle, point, flèche, étoile… Souvent de couleur rouge, celle-ci permet d’attirer le regard et d’obtenir un bon contraste.
+
+
+          ![Exemple de mise en forme du "Vous êtes ici" sur un plan.](/media/atipy-plan-orientation-04.jpg)
+
+
+          #### Le plan en 2D ou en perspective&nbsp;: Qu’en est-il de sa compréhension&nbsp;?
+
+
+          Concevoir un plan pour des personnes déficientes intellectuelles, dyspraxiques ou ayant des difficultés cognitives est un vrai challenge. Ces personnes ayant des difficultés de repérage et de mémorisation, il convient d’être très précis lors de la conception d’un plan qu’il soit en 2D ou en perspective. Cette dernière version est intéressante mais semble plus adaptée au sein d’un bâtiment qu’à l’échelle d’une ville. En effet, le plan en perspective a l’avantage de se rapprocher de la réalité. Cependant, cela implique d’avoir beaucoup d’éléments à inclure avec le risque que cela devienne incompréhensible pour un plan urbain.
+
+
+          Pour une version 2D, le format doit être épuré&nbsp;: les noms des rues doivent être clairement lisibles et les sites importants visibles et identifiables.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: '![Exemple du Plan de Chamonix](/media/atipy-plan-orientation-05.jpg
+          "Exemple du Plan de Chamonix")'
+    col2:
+      reverseMobile: false
+      text:
+        content: '![Exemple du Plan de Chauvigny](/media/atipy-plan-orientation-06.jpg
+          "Exemple du Plan de Chauvigny")'
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          Balaruc les Bains est la première ville en France à s’être lancée dans
+          la réalisation d’un plan en Facile à Lire et à Comprendre (FALC) au
+          format 2D. Après de multiples tests en atelier et in situ avec
+          différents groupes de testeurs, le choix s’est porté sur l’association
+          pictogrammes / photographies&nbsp;:
+
+
+          * des pictogrammes pour identifier l’activité principale du site touristique (musée, jardin..)
+
+          * des photographies pour reconnaître visuellement le site.
+
+
+          L’usage à long terme permettra de faire évoluer le plan selon les retours d’expérience.
+
+
+          #### Utilisation de pictogrammes, de visuels et fléchage
+
+
+          **Des repères clairs, facilement identifiables et compréhensibles rapidement sont nécessaires pour permettre à l’usager de s’orienter et éviter tout stress.**
+
+
+          L’exemple du métro Toulousain Tisséo est à mettre en avant&nbsp;: afin de permettre un meilleur repérage, des dessins simples ont été conçus pour chacune des stations avec pour objectif de faciliter les déplacements de l’ensemble des voyageurs. Ainsi la station «&nbsp;Bellefontaine&nbsp;» a été associée à une fontaine stylisée tandis que la station «&nbsp;Mermoz&nbsp;» est symbolisée par un avion pour faire référence à l’aviateur Jean Mermoz.
+
+
+          ![Exemple de pictogramme en forme de soleil réalisé pour la station Arènes](/media/atipy-plan-orientation-07.jpg)
+
+
+          Les illustrations ont été réalisées par les graphistes Jessica Paradis et  Lara Clerc. Elles ont été soumises pour avis à des associations de personnes en situation de handicap mental et à des spécialistes de la santé. Les visuels ont été modifiés dans le cas de remarques de la part des personnes interrogées.
+
+
+          Une autre méthode intéressante est celle de Nantes. À l’été 2017, la ville a placé des œuvres d’artistes contemporains sur l’ensemble de la cité. Une ligne verte au sol guidait le passant d’une œuvre à l’autre. Cette idée de fil d’Ariane, ponctué par des arrêts identifiés, pourrait être reprise dans un cadre touristique et offrir ainsi un chemin rassurant à des usagers ayant peu de repères. Il pourrait être complété par un support papier ou numérique.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/atipy-plan-orientation-08.jpg)"
+    col2:
+      reverseMobile: false
+      text:
+        content: >-
+          #### Quel sens d’orientation du plan&nbsp;?
+
+
+          **C’est une problématique difficile à gérer pour tout un chacun. Qui ne s’est jamais retrouvé à tourner son plan dans tous les sens pour arriver à déterminer son emplacement et se diriger dans un espace**&nbsp;**?**
+
+
+          Or, les points de repères réguliers au coeur de la ville ou dans un bâtiment permettent de se situer sur un plan imprimé. Aujourd’hui, seul le numérique avec GPS intégré permet de pallier aux difficultés d’orientation en proposant les deux alternatives.
+    col3:
+      reverseMobile: false
 ---
