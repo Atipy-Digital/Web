@@ -175,4 +175,60 @@ post_sections:
           Or, les points de repères réguliers au coeur de la ville ou dans un bâtiment permettent de se situer sur un plan imprimé. Aujourd’hui, seul le numérique avec GPS intégré permet de pallier aux difficultés d’orientation en proposant les deux alternatives.
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          #### Définir des points de repères faciles à identifier
+
+
+          Les repères facilement identifiables sont indispensables pour se repérer. Immeubles significatifs, monuments historiques, éléments de paysages, escalier monumental… ces repères peuvent être divers. Il s’agit d’un choix d’objets identitaires de la ville ou du bâtiment. Ces objets vont ainsi permettre à l’utilisateur de s’orienter plus rapidement et facilement.
+
+
+          ![Exemple du plan d'orientation de Londres mettant en avant les objets identitaires de la ville.](/media/atipy-plan-orientation-09.jpg)
+
+
+
+
+          ### Pour comprendre et lire la légende
+
+
+          #### L’utilisation des couleurs et les contrastes
+
+
+          **Donner une information seulement par la couleur exclut une partie des utilisateurs ne pouvant pas distinguer les nuances. Les personnes daltoniennes n’auront donc pas accès à l’information. Cela concerne 8% des hommes et 0,45% des femmes, soit près de 6 millions de Français.**
+
+
+          Une carte ou un plan peut être difficilement compréhensible pour certains usagers si l’information ne passe que par la couleur. Il est essentiel que :
+
+
+          * Les contrastes soient forts
+
+          * Les informations données par la couleur soient compréhensibles autrement
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          **Exemple d’un carte où l’information n’est transmise que par la
+          couleur, et sur laquelle la légende est détachée du visuel.**
+
+
+          Selon son type de daltonisme, l’utilisateur peut voir les couleurs modifiées et perdre des informations lors de la lecture de la carte. (Outil utilisé : [www.vischeck.com](https://www.vischeck.com/)) Certaines couleurs sont proches voir identiques, il est donc difficiles d’associer un pays à une langue, indiquée dans la légende.
+
+
+          Afin que l’information soit comprise par tous, il est donc préférable d’indiquer les informations directement sur le plan ou d’associer une couleur à un motif.
+    col2:
+      reverseMobile: false
+      text:
+        content: "![Exemple d'une carte de l'Europe ou l'information n’est transmise que
+          par la couleur, et sur laquelle la légende est détachée du
+          visuel.](/media/atipy-plan-orientation-10.jpg)"
+    col3:
+      reverseMobile: false
 ---
