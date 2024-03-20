@@ -231,4 +231,15 @@ post_sections:
           visuel.](/media/atipy-plan-orientation-10.jpg)"
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![Lecture de cette meme carte avec la vision daltonisme protanope,
+          daltonisme deuteranope et daltonisme
+          tritanope.](/media/atipy-plan-orientation-11.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 ---
