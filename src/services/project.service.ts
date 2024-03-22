@@ -1,6 +1,6 @@
 import { getClient } from './client.service';
 import { getTagsExpertiseByLabels } from './tag.service';
-import { getMetadata, getSlugs, readFile } from './utils';
+import { getMetadata, readFile } from './utils';
 
 import type {
   InputProjectsPageType,
@@ -11,9 +11,19 @@ import type {
 } from '@/ts';
 
 const PATH_FOLDER = 'src/data/projects';
+const PATH_FILE_PROJECT_FEATURED =
+  'src/data/display_realisations/display_realisations.md';
 
-export const getProjectsSlug = () => {
-  return getSlugs(PATH_FOLDER);
+export const getProjectsSlug = (): string[] => {
+  const matterResult = readFile<{
+    display_realisations: { realisation: string }[];
+  }>(PATH_FILE_PROJECT_FEATURED);
+
+  const data = matterResult?.data?.display_realisations ?? [];
+
+  if (!data.length) return [];
+
+  return data.map((item) => item.realisation);
 };
 
 export const getProjectMetaData = (slug: string): MetadataType => {
