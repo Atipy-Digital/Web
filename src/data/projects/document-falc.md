@@ -7,7 +7,8 @@ metadata:
     - keyword: FALC
     - keyword: conception graphique
 title: Identité visuelle des Conseils de la Vie Sociale
-image: /media/design-reference-cvs-atipy-1.jpg
+image:
+  url: /media/design-reference-cvs-atipy-1.jpg
 project_client: france-assos-sante
 mission_body: Création de l’identité visuelle des Conseils de la Vie Sociale en
   Nouvelle Aquitaine et conception de fiches explicatives

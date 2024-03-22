@@ -5,7 +5,10 @@ import { TagType } from './tag';
 export type InputProjectType = {
   slug: string;
   title: string;
-  image: string;
+  image: {
+    url: string;
+    alt?: string;
+  };
   project_client: string;
   project_tags: string[];
   mission_body: string;
@@ -23,7 +26,10 @@ export type InputProjectType = {
 export type ProjectType = {
   slug: string;
   title: string;
-  image: string;
+  image: {
+    url: string;
+    alt?: string;
+  };
   client: ClientType;
   tags: TagType[];
   mission_body: string;

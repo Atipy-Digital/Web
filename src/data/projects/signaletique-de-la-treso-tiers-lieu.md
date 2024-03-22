@@ -8,7 +8,8 @@ metadata:
     - keyword: signalétique
     - keyword: tréso
 title: Signalétique de La Tréso - Tiers-lieu
-image: /media/realisation-signaletique-la-tre-so-malakoff-atipy-1.jpg
+image:
+  url: /media/realisation-signaletique-la-tre-so-malakoff-atipy-1.jpg
 project_client: la-treso
 mission_body: Conception de la signalétique du tiers-lieu La Tréso à Malakoff.
 context_body: Le bâtiment est construit en 1933 par Armand Guérard, architecte

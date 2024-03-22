@@ -9,7 +9,8 @@ metadata:
     - keyword: Scène nationale
     - keyword: Accessibilité
 title: Signalétique d'orientation accessible et facile à comprendre
-image: /media/design-reference-bateau-feu-atipy-1.jpg
+image:
+  url: /media/design-reference-bateau-feu-atipy-1.jpg
 project_client: le-bateau-feu
 mission_body: Conception d’une signalétique d’orientation du public accessible
   et facile à comprendre au sein du théâtre.

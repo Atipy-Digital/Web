@@ -7,7 +7,8 @@ metadata:
     - keyword: langage clair
     - keyword: pictogramme
 title: Outils pour un public allophone avec Laser Emploi
-image: /media/atipy-design-falc-langage-clair-laser-emploi-allophone-1.jpg
+image:
+  url: /media/atipy-design-falc-langage-clair-laser-emploi-allophone-1.jpg
 project_client: msa-mutuelle-sociale-agricole
 mission_body: Création d’outils de communication pour l’accueil de publics
   allophones et/ou illettrés dans un parcours d’insertion professionnelle.

@@ -8,7 +8,8 @@ metadata:
     - keyword: Picture Communication Symbols
     - keyword: Accessibilité
 title: Signalétique du CAMSP Paris Nord
-image: /media/design-reference-camsp-paris-nord-atipy-1.jpg
+image:
+  url: /media/design-reference-camsp-paris-nord-atipy-1.jpg
 project_client: les-jours-heureux
 mission_body: Créer la signalétique du CAMSP Paris Nord, accessible aux enfants
   et à leurs parents.

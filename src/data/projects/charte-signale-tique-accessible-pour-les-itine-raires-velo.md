@@ -9,7 +9,8 @@ metadata:
     - keyword: vélo
     - keyword: FALC
 title: Charte signalétique accessible pour les itinéraires vélo
-image: /media/design-reference-pyrenees-atlantique-atipy-2.jpg
+image:
+  url: /media/design-reference-pyrenees-atlantique-atipy-2.jpg
 project_client: departement-pyrenees-atlantiques
 mission_body: Réalisation d’une charte signalétique accessible pour les
   itinéraires vélo du Conseil Départemental des Pyrénées-Atlantiques

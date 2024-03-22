@@ -23,8 +23,8 @@ export const ProjectIntro = ({
       <div className='tl px-0 sm:px2-fluid lg:px-fluid relative w-full'>
         <div className='w-full'>
           <img
-            src={image}
-            alt=''
+            src={image.url}
+            alt={image?.alt || ''}
             className='w-full h-auto object-cover object-center rounded-[10px]'
           />
         </div>

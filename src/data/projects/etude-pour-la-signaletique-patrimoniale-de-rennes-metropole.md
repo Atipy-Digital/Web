@@ -8,7 +8,8 @@ metadata:
     - keyword: signaletique
     - keyword: patrimoine
 title: Étude pour la signalétique patrimoniale de Rennes Metropole
-image: /media/design-reference-rennes-metropole-atipy-1.jpg
+image:
+  url: /media/design-reference-rennes-metropole-atipy-1.jpg
 project_client: rennes-metropole
 mission_body: Étude et préconisations sur la mise en place d’une signalétique
   patrimoniale sur le territoire de Rennes Métropole

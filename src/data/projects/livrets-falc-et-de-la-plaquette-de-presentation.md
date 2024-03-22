@@ -8,7 +8,8 @@ metadata:
     - keyword: Création graphique
     - keyword: Illustrations
 title: Livrets FALC et de la plaquette de présentation
-image: /media/design-reference-ccas-bethune-atipy-1.jpg
+image:
+  url: /media/design-reference-ccas-bethune-atipy-1.jpg
 project_client: ccas-de-bethune
 mission_body: Création d’une série de livrets FALC accompagnés de leur fiche
   outil et de la plaquette de présentation du CCAS de Béthune.

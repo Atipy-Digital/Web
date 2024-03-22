@@ -8,7 +8,8 @@ metadata:
     - keyword: Ministère
 title: R﻿éalisation des diagnostics accessibilité et de l'Ad'AP du Ministère des
   Armées Zone nord Ouest
-image: /media/reference-ingenierie-adap-ministere-de-la-defense.jpg
+image:
+  url: /media/reference-ingenierie-adap-ministere-de-la-defense.jpg
 project_client: ministere-des-armees
 mission_body: R﻿éalisation des diagnostics accessibilité et de l'Agenda
   d'Accessibilité Programmée du Ministère des Armées Zone nord Ouest

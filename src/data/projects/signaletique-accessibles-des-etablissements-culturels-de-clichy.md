@@ -6,7 +6,8 @@ metadata:
   keywords:
     - keyword: signaletique
 title: "Signalétique accessible des établissements culturels de Clichy "
-image: /media/design-reference-clichy-atipy-1.jpg
+image:
+  url: /media/design-reference-clichy-atipy-1.jpg
 project_client: ville-de-clichy
 mission_body: Audit et préconisations pour la communication et la signalétique
   accessibles des établissements culturels
