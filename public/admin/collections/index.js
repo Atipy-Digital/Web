@@ -9,6 +9,7 @@ import sub_digital from './sub-digital.js';
 import sub_formation from './sub-formation.js';
 import sub_ingenierie from './sub-ingenierie.js';
 import tags from './tags.js';
+import display_expertises from './display_expertises/index.js';
 
 const collections = [
   layout,
@@ -22,6 +23,7 @@ const collections = [
   sub_formation,
   sub_digital,
   sub_ingenierie,
+  display_expertises,
 ];
 
 export default collections;
