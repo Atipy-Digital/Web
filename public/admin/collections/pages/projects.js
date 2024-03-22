@@ -41,6 +41,7 @@ const projects = {
       display_fields: ['title'],
       value_field: '{{slug}}',
       multiple: true,
+      required: false,
     },
   ],
 };
