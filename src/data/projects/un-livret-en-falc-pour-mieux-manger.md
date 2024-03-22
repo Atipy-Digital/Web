@@ -10,7 +10,7 @@ metadata:
 title: Un livret en FALC pour mieux manger
 image:
   url: /media/design-reference-solidel-atipy-1.jpg
-project_client: msa-mutuelle-sociale-agricole
+project_client: solidel
 mission_body: Conception et illustration d’un livret d’accompagnement en [Facile
   À Lire et à Comprendre
   (FALC)](https://atipy.fr/expertises/design/falc-et-langage-clair) pour bien
