@@ -7,7 +7,8 @@ metadata:
     - keyword: Stratégie accessibilité
     - keyword: conception graphique
 title: Stratégie globale d’accessibilité et outils de communication accessibles
-image: /media/design-livret-accessible-amnesty-international-atipy-.jpg
+image:
+  url: /media/design-livret-accessible-amnesty-international-atipy-.jpg
 project_client: amnesty-international
 mission_body: Accompagnement du service Education aux droits humains dans la
   mise en place d’une stratégie globale d’accessibilité et d’inclusion des

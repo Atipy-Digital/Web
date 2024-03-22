@@ -21,9 +21,22 @@ const project = {
     {
       label: 'Image principale',
       name: 'image',
-      widget: 'image',
-      allow_multiple: false,
-      choose_url: false,
+      widget: 'object',
+      fields: [
+        {
+          label: 'Image',
+          name: 'url',
+          widget: 'image',
+          allow_multiple: false,
+          choose_url: false,
+        },
+        {
+          label: 'Texte alternatif',
+          name: 'alt',
+          widget: 'string',
+          required: false,
+        },
+      ],
     },
     {
       label: 'Client',

@@ -23,16 +23,16 @@ const Col = ({ text, image, reverseMobile, pClassName }: ColProps) => {
   ) => {
     switch (color) {
       case 'blue':
-        return '!text-a-blue-dark dark:!text-a-blue-light';
+        return '!text-a-blue-dark marker:text-a-blue-dark dark:!text-a-blue-light dark:marker:!text-a-blue-light';
       case 'red':
-        return '!text-a-red-dark dark:!text-a-red-light';
+        return '!text-a-red-dark marker:text-a-red-dark dark:!text-a-red-light dark:marker:!text-a-red-light';
       case 'green':
-        return '!text-a-green-dark dark:!text-a-green-light';
+        return '!text-a-green-dark marker:text-a-green-dark dark:!text-a-green-light dark:marker:!text-a-green-light';
       case 'yellow':
-        return '!text-a-yellow-dark dark:!text-a-yellow-light';
+        return '!text-a-yellow-dark marker:text-a-yellow-dark dark:!text-a-yellow-light dark:marker:!text-a-yellow-light';
 
       default:
-        return '!text-current dark:!text-current';
+        return '!text-current marker:text-current dark:!text-current dark:marker:!text-current';
     }
   };
 

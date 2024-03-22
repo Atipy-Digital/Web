@@ -8,7 +8,8 @@ metadata:
     - keyword: Mobilité
     - keyword: Réseau de transport
 title: Diagnostic des points d’arrêts routiers
-image: /media/reference-ingenierie-aleop-1.jpg
+image:
+  url: /media/reference-ingenierie-aleop-1.jpg
 project_client: reseau-de-transport-aleop
 mission_body: Diagnostic des caractéristiques physiques des points d’arrêts routiers.
 context_body: >-

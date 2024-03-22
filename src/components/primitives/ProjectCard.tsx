@@ -18,8 +18,8 @@ export const ProjectCard = ({ slug, title, image, tags, client }: Props) => {
     >
       <figure className='relative block w-full aspect-video rounded-[10px] overflow-hidden'>
         <img
-          src={image}
-          alt={`illustration projet ${title}`}
+          src={image.url}
+          alt={image?.alt || `illustration projet ${title}`}
           className='absolute w-full h-full object-cover'
         />
       </figure>

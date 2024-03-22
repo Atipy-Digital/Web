@@ -8,7 +8,8 @@ metadata:
     - keyword: Création graphique
     - keyword: Illustration
 title: Un livret en FALC pour mieux manger
-image: /media/design-reference-solidel-atipy-1.jpg
+image:
+  url: /media/design-reference-solidel-atipy-1.jpg
 project_client: solidel
 mission_body: Conception et illustration d’un livret d’accompagnement en [Facile
   À Lire et à Comprendre

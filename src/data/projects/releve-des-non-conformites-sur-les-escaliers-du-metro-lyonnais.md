@@ -6,7 +6,8 @@ metadata:
     - keyword: transports
     - keyword: sytral
 title: Relevé des non-conformités sur les escaliers du métro lyonnais
-image: /media/accessibilite-sytral-metro-lyon-atipy.jpg
+image:
+  url: /media/accessibilite-sytral-metro-lyon-atipy.jpg
 project_client: sytral
 mission_body: Relevé des non-conformités sur les escaliers des 48 stations du
   réseau métropolitain de l'agglomération Lyonnaise.
