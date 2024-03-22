@@ -1,4 +1,4 @@
-import { getSlugs, readFile } from './utils';
+import { getExpertiseFeaturedSlugs, getSlugs, readFile } from './utils';
 
 import type {
   ExpertiseDesignType,
@@ -38,7 +38,7 @@ export const getExpertiseDesignSubPageMetaData = (
   return matterResult.data.metadata;
 };
 export const getExpertiseDesignSubPages = (): ExpertiseSubPageType[] => {
-  const slugs = getExpertiseDesignSubPageSlugs();
+  const slugs = getExpertiseFeaturedSlugs('sub_display_expertises_design');
   if (!slugs) return [];
   const subPages: ExpertiseSubPageType[] = [];
 
@@ -57,9 +57,7 @@ export const getExpertiseDesignSubPages = (): ExpertiseSubPageType[] => {
 
   if (!subPages.length) return [];
 
-  return subPages.sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
-  );
+  return subPages;
 };
 export const getExpertiseDesignSubPageBySlug = (
   slug: string
@@ -123,7 +121,7 @@ export const getExpertiseFormationSubPageMetaData = (
   return matterResult.data.metadata;
 };
 export const getExpertiseFormationSubPages = (): ExpertiseSubPageType[] => {
-  const slugs = getExpertiseFormationSubPageSlugs();
+  const slugs = getExpertiseFeaturedSlugs('sub_display_expertises_formation');
   if (!slugs) return [];
   const subPages: ExpertiseSubPageType[] = [];
 
@@ -142,9 +140,7 @@ export const getExpertiseFormationSubPages = (): ExpertiseSubPageType[] => {
 
   if (!subPages.length) return [];
 
-  return subPages.sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
-  );
+  return subPages;
 };
 export const getExpertiseFormationSubPageBySlug = (
   slug: string
@@ -215,7 +211,7 @@ export const getExpertiseDigitalSubPageMetaData = (
   return matterResult.data.metadata;
 };
 export const getExpertiseDigitalSubPages = (): ExpertiseSubPageType[] => {
-  const slugs = getExpertiseDigitalSubPageSlugs();
+  const slugs = getExpertiseFeaturedSlugs('sub_display_expertises_digital');
   if (!slugs) return [];
   const subPages: ExpertiseSubPageType[] = [];
 
@@ -234,9 +230,7 @@ export const getExpertiseDigitalSubPages = (): ExpertiseSubPageType[] => {
 
   if (!subPages.length) return [];
 
-  return subPages.sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
-  );
+  return subPages;
 };
 export const getExpertiseDigitalSubPageBySlug = (
   slug: string
@@ -299,7 +293,7 @@ export const getExpertiseIngenierieSubPageMetaData = (
   return matterResult.data.metadata;
 };
 export const getExpertiseIngenierieSubPages = (): ExpertiseSubPageType[] => {
-  const slugs = getExpertiseIngenierieSubPageSlugs();
+  const slugs = getExpertiseFeaturedSlugs('sub_display_expertises_ingenierie');
   if (!slugs) return [];
   const subPages: ExpertiseSubPageType[] = [];
 
@@ -318,9 +312,7 @@ export const getExpertiseIngenierieSubPages = (): ExpertiseSubPageType[] => {
 
   if (!subPages.length) return [];
 
-  return subPages.sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
-  );
+  return subPages;
 };
 export const getExpertiseIngenierieSubPageBySlug = (
   slug: string

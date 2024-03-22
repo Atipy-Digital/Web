@@ -63,6 +63,22 @@ export const getSlugs = (pathFolder: string) => {
   return slugs;
 };
 
+export const getExpertiseFeaturedSlugs = (file: string): string[] => {
+  const matterResult = readFile<{
+    display_expertises: {
+      expertise: string;
+    }[];
+  }>(`src/data/display_expertises/${file}.md`);
+
+  const data = matterResult.data?.display_expertises ?? [];
+
+  if (!data.length) {
+    return [];
+  }
+
+  return data.map(({ expertise }) => expertise);
+};
+
 export const getMetadata = (path: string): MetadataType => {
   const matterResult = readFile<{ metadata: InputMetadataType }>(path);
   return {
