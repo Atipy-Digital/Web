@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.0.0 (2024-03-22)
+
+
+### Features
+
+* **projects:** create collection to display realisations ordered ([#49](https://github.com/Atipy-Digital/Web/issues/49)) ([be60f57](https://github.com/Atipy-Digital/Web/commit/be60f5710d8f8d142f7eea4b7968a3aeabfa083f))
+* **services:** create display expertises collection ([#48](https://github.com/Atipy-Digital/Web/issues/48)) ([c99dc5c](https://github.com/Atipy-Digital/Web/commit/c99dc5c517b0d63a8781ea0921070d79c8974cf2))
+
+
+### Bug Fixes
+
+* **ui:** minor update of ui ([#50](https://github.com/Atipy-Digital/Web/issues/50)) ([9395914](https://github.com/Atipy-Digital/Web/commit/9395914b98b26dc59de1b231dc2d21d9f439019a))
+
 ## [0.13.2](https://github.com/Atipy-Digital/Web/compare/v0.13.1...v0.13.2) (2023-07-24)
 
 
