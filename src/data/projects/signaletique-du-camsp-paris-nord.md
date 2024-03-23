@@ -7,7 +7,7 @@ metadata:
     - keyword: Signalétique
     - keyword: Picture Communication Symbols
     - keyword: Accessibilité
-title: Signalétique du CAMSP Paris Nord
+title: Signalétique accessible Centre d'Action Médico-Sociale Précoce Paris Nord
 image:
   url: /media/design-reference-camsp-paris-nord-atipy-1.jpg
 project_client: les-jours-heureux
