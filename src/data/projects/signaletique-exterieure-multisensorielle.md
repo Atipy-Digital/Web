@@ -65,6 +65,15 @@ project_sections:
     col1:
       reverseMobile: false
       text:
+        content: "![](/media/signaletique-grand-lyon-metropole-atipy-3.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: |-
           ### Nos domaines d’intervention
 
