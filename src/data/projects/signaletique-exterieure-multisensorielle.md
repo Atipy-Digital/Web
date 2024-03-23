@@ -21,7 +21,7 @@ context_body: >-
   auxquelles sont suspendus les planchers.
 
 
-  L’entrée du bâtiment, située à un niveau intermédiaire, n’est pas visible depuis la rue. L’accès pour le public est donc peu accommodant. Afin de permettre à tous les publics de s’orienter facilement, de façon intuitive, plusieurs supports signalétique bordent 3 façades de l’hôtel de la Metropole. Les totems proposent aux usagers des informations d’orientation visuelles, tactiles et sonores. Ces supports s’adressent ainsi au plus grand nombre (personnes âgées, utilisateur de télécommande pour balise sonore, braillistes…)
+  L’entrée du bâtiment, située à un niveau intermédiaire, n’est pas visible depuis la rue. L’accès pour le public est donc peu accommodant.
 project_tags:
   - Signalétique
   - Design
@@ -33,6 +33,30 @@ project_sections:
         content: "![Totem rouge avec texte blanc et plan tactile. Panneau mural rouge
           directionnel.](/media/signaletique-grand-lyon-metropole-atipy_lyon_to\
           tem.jpg)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### U﻿ne signalétique directionnelle multisensorielle
+
+
+          Afin de permettre à tous les publics de s’orienter facilement, de façon intuitive, plusieurs supports signalétique bordent 3 façades de l’hôtel de la Metropole. Les totems proposent aux usagers des informations d’orientation visuelles, tactiles et sonores. Ces supports s’adressent ainsi au plus grand nombre (personnes âgées, utilisateur de télécommande pour balise sonore, braillistes…)
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![Plan d'orientation aux abords du
+          bâtiment.](/media/signaletique-grand-lyon-metropole-atipy_plan_relief\
+          .png)"
     col2:
       reverseMobile: false
     col3:
