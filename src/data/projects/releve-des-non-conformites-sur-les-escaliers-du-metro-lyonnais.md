@@ -57,7 +57,8 @@ project_sections:
 
           *François FLORES - Chef de Projets Accessibilité*
 
-          "Mes collègues et moi-même avons souligné le très bon travail que vous avez effectué dans le cadre de cet audit. Je tiens donc à vous remercier à nouveau pour votre professionnalisme."
+
+          > Mes collègues et moi-même avons souligné le très bon travail que vous avez effectué dans le cadre de cet audit. Je tiens donc à vous remercier à nouveau pour votre professionnalisme.
         color: blue
     col2:
       reverseMobile: false
