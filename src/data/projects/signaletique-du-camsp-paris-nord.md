@@ -1,6 +1,6 @@
 ---
 metadata:
-  title: Centre d'Action Medico-Sociale Précoce Paris Nord
+  title: Signalétique accessible Centre d'Action Médico-Sociale Précoce
   description: Créer la signalétique du CAMSP Paris Nord, accessible aux enfants
     et à leurs parents.
   keywords:
