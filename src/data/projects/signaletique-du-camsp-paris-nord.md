@@ -150,6 +150,8 @@ project_sections:
       reverseMobile: false
 projectsFeatured:
   - charte-signale-tique-accessible-pour-les-itine-raires-velo
+  - document-falc
+  - signaletique-dorientation-accessible-et-facile-a-comprendre
 footer:
   btn:
     label: Découvrez nos projets signalétique
