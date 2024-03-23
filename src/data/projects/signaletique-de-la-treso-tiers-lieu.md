@@ -175,7 +175,9 @@ project_sections:
     col3:
       reverseMobile: false
 projectsFeatured:
-  - charte-signale-tique-accessible-pour-les-itine-raires-velo
+  - signaletique-du-ministere-des-affaires-etrangeres
+  - signaletique-accessibles-des-etablissements-culturels-de-clichy
+  - signaletique-du-camsp-paris-nord
 footer:
   btn:
     label: Découvrez nos projets de design signalétique
