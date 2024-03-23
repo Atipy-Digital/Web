@@ -47,6 +47,22 @@ project_sections:
           non-conformités](/media/atipy-ingenierie-releves-metro_lyionnais.jpg)"
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### Le témoignage du client
+
+
+          *François FLORES - Chef de Projets Accessibilité*
+
+          "Mes collègues et moi-même avons souligné le très bon travail que vous avez effectué dans le cadre de cet audit. Je tiens donc à vous remercier à nouveau pour votre professionnalisme."
+        color: blue
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 projectsFeatured:
   - releves-d-accessibilite-region-grand-est
   - diagnostic-accessibilite-et-adap-du-ministere-des-armees
