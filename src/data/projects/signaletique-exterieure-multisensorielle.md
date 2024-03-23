@@ -61,6 +61,22 @@ project_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: |-
+          ### Nos domaines d’intervention
+
+          * Réalisation des maquettes
+          * Conception d’un plan d’orientation
+          * Réalisation du cahier de contenus signalétique
+          * Réalisation du cahier de pose avec détails techniques
+          * Co-rédaction du cahier des charges pour la fabrication
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 projectsFeatured:
   - signaletique-du-ministere-des-affaires-etrangeres
   - signaletique-du-pole-dechanges-multimodal
