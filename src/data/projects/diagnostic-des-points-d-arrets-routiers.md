@@ -1,13 +1,13 @@
 ---
 metadata:
-  title: Diagnostic des points d'arrêts routiers
+  title: Diagnostic des points d'arrêts routiers de la Région Pays de la Loire
   description: Diagnostic des caractéristiques physiques des points d’arrêts routiers.
   keywords:
     - keyword: Points d'arrêts
     - keyword: Diagnostic
     - keyword: Mobilité
     - keyword: Réseau de transport
-title: Diagnostic des points d’arrêts routiers
+title: Diagnostic des points d'arrêts routiers de la Région Pays de la Loire
 image:
   url: /media/reference-ingenierie-aleop-1.jpg
 project_client: reseau-de-transport-aleop
@@ -33,7 +33,10 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/reference-ingenierie-aleop-4.jpg)"
+        content: "![Extrait de l'application mobile utilisée pour saisir les
+          caractéristiques des points d'arrêts, ici les champs liés à la
+          sécurité (Zébra, positionnement du passage piéton, panneaux routiers,
+          etc.)](/media/reference-ingenierie-aleop-4.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -43,7 +46,10 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          ![](/media/reference-ingenierie-aleop-2.jpg)
+          ![Visuel de la cartographie interactive générale des 4 779 points
+          d'arrêts audités sur le réseau Aléop avec suivi en temps réel des
+          arrêts audités, en cours d'audit, ou restant à
+          auditer](/media/reference-ingenierie-aleop-2.jpg)
 
 
           **Relevé concernant l'accessibilité et la sécurité des points d'arrêts**\
@@ -52,13 +58,19 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: |-
-          ![](/media/reference-ingenierie-aleop-3.jpg)
+        content: >-
+          ![Exemple de fonctionnalités de la cartographie interactive avec
+          apparition d'un photo du point d'arrêt au passage de la
+          souris.](/media/reference-ingenierie-aleop-3.jpg)
+
 
           **Relevé concernant le mobilier** 
+
           Type d’abri, poteau de signalétique fiche horaire, assise, poubelle…
 
+
           **Relevé de données concernant l’intermodalité**
+
           Stationnement, aire de covoiturage, borne de recharge, abri vélo…
     col3:
       reverseMobile: false
