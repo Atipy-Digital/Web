@@ -55,7 +55,7 @@ post_sections:
           #### Qu’est ce que la conception universelle ?
 
 
-          La conception universelle est défini par l’article 2 de la convention de l’ONU relative aux droits des personnes handicapées, comme «&nbspconception de produits, d’équipements, de programmes et de services qui puissent être utilisés par tous, dans toute la mesure possible, sans nécessiter ni adaptation ni conception spéciale&nbsp;».
+          La conception universelle est défini par l’article 2 de la convention de l’ONU relative aux droits des personnes handicapées, comme «&nbsp;conception de produits, d’équipements, de programmes et de services qui puissent être utilisés par tous, dans toute la mesure possible, sans nécessiter ni adaptation ni conception spéciale&nbsp;».
 
           Ce principe a toute sa place dans la conception d’un plan d’orientation. Cela implique une réelle réflexion sur le choix des couleurs (personnes malvoyantes, daltonisme…), des typographies, des éléments de repères, de la perspective, des éléments en relief…
 
