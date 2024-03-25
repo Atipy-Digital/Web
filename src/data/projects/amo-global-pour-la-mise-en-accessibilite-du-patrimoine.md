@@ -1,12 +1,12 @@
 ---
 metadata:
   title: Mise en accessibilité du patrimoine de la Région Bretagne
-  description: AMO global pour la mise en accessibilité du patrimoine de la Région Bretagne
+  description: AMO globale pour la mise en accessibilité du patrimoine de la Région Bretagne
   keywords:
     - keyword: Accessibilité
     - keyword: AMO
     - keyword: Patrimoine
-title: AMO global pour la mise en accessibilité du patrimoine
+title: AMO globale pour la mise en accessibilité du patrimoine
 image:
   url: /media/reference-ingenierie-bzh-1.jpg
 project_client: region-bretagne
@@ -63,22 +63,31 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/reference-ingenierie-bzh-2.jpg)"
+        content: "![Rédaction d'un programme de travaux pour la mise en accessibilité
+          des ateliers du lycée Chaptal à Saint-Brieuc, photographie d'un
+          escalier sécurisé et d'un
+          élévateur.](/media/reference-ingenierie-bzh-2.jpg)"
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/reference-ingenierie-bzh-3.jpg)"
+        content: "![Registre public d'accessibilité dématérialisé avec visualisation du
+          niveau d'accessibilité de chacune des fonctions d'un lycée par
+          typologie de handicap. ](/media/reference-ingenierie-bzh-3.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/reference-ingenierie-bzh-4.jpg)"
+        content: "![Détail d'un programme de travaux, avec projection graphique des
+          modifications à apporter sur des
+          sanitaires.](/media/reference-ingenierie-bzh-4.jpg)"
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/reference-ingenierie-bzh-5.jpg)"
+        content: "![Photo d'un plan situé à l'entrée d'un lycée. Atipy intervient pour
+          conseiller la Région sur les implantations d'éléments de signalétique.
+          ](/media/reference-ingenierie-bzh-5.jpg)"
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -100,7 +109,7 @@ project_sections:
     col3:
       reverseMobile: false
 projectsFeatured:
-  - releves-d-accessibilite-region-grand-est
+  - diagnostic-des-points-d-arrets-routiers
 footer:
   btn:
     label: Découvrez nos missions de diagnostics
