@@ -87,7 +87,7 @@ project_sections:
     col3:
       reverseMobile: false
 projectsFeatured:
-  - diagnostic-accessibilite-et-adap-du-ministere-des-armees
+  - amo-global-pour-la-mise-en-accessibilite-du-patrimoine
 footer:
   btn:
     label: Découvrez nos missions de diagnostic
