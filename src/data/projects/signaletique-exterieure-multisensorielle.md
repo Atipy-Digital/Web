@@ -65,7 +65,8 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/signaletique-grand-lyon-metropole-atipy-3.jpg)"
+        content: "![Plan tactile du quartier
+          ](/media/signaletique-grand-lyon-metropole-atipy-3.jpg)"
     col2:
       reverseMobile: false
     col3:
