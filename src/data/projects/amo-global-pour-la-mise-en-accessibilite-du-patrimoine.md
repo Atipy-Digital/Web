@@ -109,7 +109,7 @@ project_sections:
     col3:
       reverseMobile: false
 projectsFeatured:
-  - diagnostic-des-points-d-arrets-routiers
+  - releves-d-accessibilite-region-grand-est
 footer:
   btn:
     label: Découvrez nos missions de diagnostics
