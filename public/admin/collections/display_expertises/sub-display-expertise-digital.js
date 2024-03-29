@@ -11,6 +11,7 @@ const sub_display_expertises_digital = {
       label: 'Expertises - Digital',
       name: 'display_expertises',
       widget: 'list',
+      add_to_top: true,
       fields: [
         {
           label: 'Expertise',

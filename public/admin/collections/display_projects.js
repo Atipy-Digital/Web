@@ -11,11 +11,13 @@ const display_projects = {
       editor: {
         preview: false,
       },
+      add_to_top: true,
       fields: [
         {
           label: 'Réalisations',
           name: 'display_realisations',
           widget: 'list',
+          add_to_top: true,
           fields: [
             {
               label: 'Réalisation',

@@ -11,6 +11,7 @@ const sub_display_expertises_formation = {
       label: 'Expertises - Formation',
       name: 'display_expertises',
       widget: 'list',
+      add_to_top: true,
       fields: [
         {
           label: 'Expertise',

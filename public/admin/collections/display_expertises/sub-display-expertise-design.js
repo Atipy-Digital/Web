@@ -11,6 +11,7 @@ const sub_display_expertises_design = {
       label: 'Expertises - Design',
       name: 'display_expertises',
       widget: 'list',
+      add_to_top: true,
       fields: [
         {
           label: 'Expertise',
