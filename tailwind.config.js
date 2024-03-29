@@ -77,12 +77,15 @@ const typographyStyle = (theme) => ({
     marginTop: '1rem !important',
     marginBottom: '1rem !important',
     fontFamily: 'Roboto, sans-serif',
+    color: 'currentColor',
   },
   li: {
     margin: 0,
     fontFamily: 'Roboto, sans-serif',
     fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
-    lineHeight: 1.625,
+    lineHeight: 1.325,
+    marginBottom: '0.5rem !important',
+    color: 'currentColor',
   },
   blockquote: {
     fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
@@ -92,6 +95,10 @@ const typographyStyle = (theme) => ({
     paddingLeft: 0,
     fontFamily: 'Roboto, sans-serif',
     lineHeight: 1.325,
+    color: 'currentColor',
+  },
+  strong: {
+    color: 'currentColor',
   },
 });
 
