@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/Atipy-Digital/Web/compare/v1.0.0...v1.0.1) (2024-03-29)
+
+
+### Bug Fixes
+
+* **li:** increase space ([14def38](https://github.com/Atipy-Digital/Web/commit/14def38c074e2bd4bc326d42c1f3e3bb3383e5f8))
+* **section:** current color ([3ee1fe0](https://github.com/Atipy-Digital/Web/commit/3ee1fe0effc538540d32f0476d7fa0b133f92d31))
+
 ## 1.0.0 (2024-03-22)
 
 
