@@ -84,7 +84,7 @@ const typographyStyle = (theme) => ({
     fontFamily: 'Roboto, sans-serif',
     fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
     lineHeight: 1.325,
-    marginBottom: '0.5rem !important',
+    marginBottom: '0.75rem !important',
     color: 'currentColor',
   },
   blockquote: {
