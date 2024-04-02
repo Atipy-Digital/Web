@@ -19,5 +19,4 @@ display_realisations:
   - realisation: signaletique-du-pole-dechanges-multimodal
   - realisation: un-livret-en-falc-pour-mieux-manger
   - realisation: amo-global-pour-la-mise-en-accessibilite-du-patrimoine
-  - realisation: amo-global-pour-la-mise-en-accessibilite-du-patrimoine
 ---
