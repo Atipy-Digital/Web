@@ -16,8 +16,8 @@ mission_body: Diagnostics pour la mise en accessibilité des bâtiments ERP de l
 context_body: >-
   Dans l’objectif de définir au mieux la mise en oeuvre de son Ad'AP et
   l’enveloppe budgétaire prévisionnelle associée, la ville d’Orléans a confié à
-  ATIPY une mission d'audits d'accessibilité précise et approfondie de 133 ERP
-  municipaux restant à mettre aux normes. 
+  Atipy une mission d'audits d'accessibilité précise et approfondie de 133 ERP
+  municipaux restant à mettre aux normes.
 
 
   Plusieurs entretiens ont été organisés avec les chefs d’établissement ou leurs représentants, préalablement à l’intervention in situ. Les objectifs d'un tel entretien étaient, d'une part, de comprendre le fonctionnement réel et les spécificités de l'établissement audité&nbsp;; d'autre part, de relever les principaux dysfonctionnements déjà connus par les usagers, utilisateurs et gestionnaires de l'ERP afin d’y remédier.
