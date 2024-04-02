@@ -1,5 +1,6 @@
 ---
 display_realisations:
+  - realisation: signaletique-exterieure-multisensorielle-1
   - realisation: pole-dechanges-de-lyon-perrache
   - realisation: signaletique-exterieure-multisensorielle-1
   - realisation: amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
