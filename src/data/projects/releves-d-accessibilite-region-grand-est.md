@@ -51,7 +51,7 @@ project_sections:
     col3:
       reverseMobile: false
       text:
-        content: "![](/media/reference-ingenierie-grand-est-4.jpg)"
+        content: ""
 projectsFeatured:
   - adap-pour-les-necropoles-nationales
   - diagnostic-accessibilite-et-adap-du-ministere-des-armees
