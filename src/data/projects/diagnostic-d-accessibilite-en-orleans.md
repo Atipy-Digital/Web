@@ -23,6 +23,7 @@ context_body: >-
   Plusieurs entretiens ont été organisés avec les chefs d’établissement ou leurs représentants, préalablement à l’intervention in situ. Les objectifs d'un tel entretien étaient, d'une part, de comprendre le fonctionnement réel et les spécificités de l'établissement audité&nbsp;; d'autre part, de relever les principaux dysfonctionnements déjà connus par les usagers, utilisateurs et gestionnaires de l'ERP afin d’y remédier.
 project_tags:
   - Cadre bâti
+  - Accessibilité
 project_sections:
   - inverseCol: false
     col1:
