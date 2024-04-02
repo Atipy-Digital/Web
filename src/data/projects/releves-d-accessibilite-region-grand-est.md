@@ -43,11 +43,11 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/reference-ingenierie-grand-est-3.jpg)"
+        content: "![](/media/reference-ingenierie-grand-est-2.jpg)"
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/reference-ingenierie-grand-est-2.jpg)"
+        content: "![](/media/reference-ingenierie-grand-est-3.jpg)"
     col3:
       reverseMobile: false
       text:
