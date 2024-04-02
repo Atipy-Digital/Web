@@ -22,6 +22,8 @@ context_body: >-
   Avec l’ouverture du Passage France Péjot aux modes actifs, il a été souhaité la mise en place d’une signalétique piétonne afin de mieux orienter les usagers aux abords du pôle multimodal de la Gare Perrache.
 
 
+
+
   **C﻿ollaborateurs**\
 
   Artelia\
@@ -52,6 +54,10 @@ project_sections:
           * Aide à l’orientation pour les piétons et cyclistes, habitants de Lyon ou de passage.
 
           * Valorisation des points attractifs de la Ville de Lyon.
+
+
+
+
 
 
           ![Totem signalétique mis en place sur le pole multimodal](/media/design-reference-pole-echange-lyon-atipy-3.jpg)
@@ -113,10 +119,14 @@ project_sections:
           Plutôt qu’indiquer une distance, nous avons privilégié l’indication d’un temps de trajet. La notion de distance est plus difficile à percevoir pour certains d’entre nous.
 
 
+          La mise en place d’une signalétique urbaine accessible à tous participe à l’amélioration du bien-être et du confort d’usage dans l’espace urbain et favorise les déplacements par voies douces.
+
+
+
+
           ![Vue en plongée d'une personne à vélo à coté d'un mat directionnel ](/media/design-reference-pole-echange-lyon-atipy-7.jpg)
 
 
-          La mise en place d’une signalétique urbaine accessible à tous participe à l’amélioration du bien-être et du confort d’usage dans l’espace urbain et favorise les déplacements par voies douces.
 
 
           ![Zoom sur les lames d'un mat directionnel](/media/design-reference-pole-echange-lyon-atipy-8.jpg)
