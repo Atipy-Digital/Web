@@ -1,5 +1,6 @@
 ---
 display_realisations:
+  - realisation: pole-dechanges-de-lyon-perrache
   - realisation: signaletique-exterieure-multisensorielle-1
   - realisation: amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
   - realisation: amo-accessibilite-des-erp-pour-la-ville-de-paris
