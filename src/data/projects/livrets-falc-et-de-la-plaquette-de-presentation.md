@@ -7,7 +7,7 @@ metadata:
     - keyword: FALC
     - keyword: Création graphique
     - keyword: Illustrations
-title: Livrets FALC et de la plaquette de présentation
+title: Livrets FALC et plaquette de présentation
 image:
   url: /media/design-reference-ccas-bethune-atipy-1.jpg
 project_client: ccas-de-bethune
