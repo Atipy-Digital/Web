@@ -7,7 +7,7 @@ metadata:
     - keyword: accessibilité
 title: Relevés d’accessibilité lycées Grand Est
 image:
-  url: /media/atipy-ingenierie-releves-grand-est-2.jpg
+  url: /media/reference-ingenierie-grand-est-1.jpg
 project_client: grand-est
 mission_body: Relevés d’accessibilité après travaux des lycées de la Région
   Grand-Est et prestations diverses
@@ -39,6 +39,19 @@ project_sections:
           technique de travaux.](/media/atipy-ingenierie-releves-grand-est.jpg)"
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![](/media/reference-ingenierie-grand-est-3.jpg)"
+    col2:
+      reverseMobile: false
+      text:
+        content: "![](/media/reference-ingenierie-grand-est-2.jpg)"
+    col3:
+      reverseMobile: false
+      text:
+        content: "![](/media/reference-ingenierie-grand-est-4.jpg)"
 projectsFeatured:
   - adap-pour-les-necropoles-nationales
   - diagnostic-accessibilite-et-adap-du-ministere-des-armees
