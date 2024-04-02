@@ -23,6 +23,7 @@ context_body: Depuis 2020, [Nicolas
   d'arpenter les rues de cette belle Ville de Saint-Malo&nbsp;!
 project_tags:
   - Cadre bâti
+  - Accessibilité
 project_sections:
   - inverseCol: false
     col1:
