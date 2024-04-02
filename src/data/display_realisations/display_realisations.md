@@ -1,9 +1,9 @@
 ---
 display_realisations:
+  - realisation: diagnostic-d-accessibilite-en-orleans
   - realisation: mission-d-assistance-a-maitrise-douvrage-pour-la-mise-en-accessibilite-d-erp
   - realisation: adap-pour-les-necropoles-nationales
   - realisation: charte-signale-tique-accessible-pour-les-itine-raires-velo
-  - realisation: diagnostic-accessibilite-et-adap-du-ministere-des-armees
   - realisation: diagnostic-des-points-d-arrets-routiers
   - realisation: document-falc
   - realisation: etude-pour-la-signaletique-patrimoniale-de-rennes-metropole
@@ -18,5 +18,6 @@ display_realisations:
   - realisation: signaletique-du-ministere-des-affaires-etrangeres
   - realisation: signaletique-du-pole-dechanges-multimodal
   - realisation: un-livret-en-falc-pour-mieux-manger
+  - realisation: amo-global-pour-la-mise-en-accessibilite-du-patrimoine
   - realisation: amo-global-pour-la-mise-en-accessibilite-du-patrimoine
 ---
