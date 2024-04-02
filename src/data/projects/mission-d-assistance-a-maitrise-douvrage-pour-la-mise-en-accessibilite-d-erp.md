@@ -54,6 +54,7 @@ project_sections:
       reverseMobile: false
 projectsFeatured:
   - amo-global-pour-la-mise-en-accessibilite-du-patrimoine
+  - amo-accessibilite-des-erp-pour-la-ville-de-paris
 footer:
   btn:
     label: Découvrez nos missions de diagnostic
