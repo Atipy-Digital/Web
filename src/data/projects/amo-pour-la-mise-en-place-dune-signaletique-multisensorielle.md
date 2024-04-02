@@ -35,6 +35,7 @@ context_body: >-
 project_tags:
   - Signalétique
   - Accessibilité
+  - Design
 project_sections:
   - inverseCol: false
     col1:
