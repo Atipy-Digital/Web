@@ -39,25 +39,16 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/reference-ingenierie-saint-malo-3.jpg)"
-    col2:
-      reverseMobile: false
-      text:
-        content: "![](/media/reference-ingenierie-saint-malo-4.jpg)"
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      text:
         content: |-
-          ### Nos domaines d’intervention sur cette mission
+          #### Nos domaines d’intervention sur cette mission
 
           * Mise à jour de diagnostics accessibilité
           * Elaboration des Autorisations de Travaux
           * Visa des matériaux
     col2:
       reverseMobile: false
+      text:
+        content: "![](/media/reference-ingenierie-saint-malo-4.jpg)"
     col3:
       reverseMobile: false
 projectsFeatured:
