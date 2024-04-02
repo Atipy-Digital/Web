@@ -1,9 +1,9 @@
 ---
 display_realisations:
+  - realisation: conception-de-la-signaletique-inclusive-du-stade-pierre-de-coubertin
   - realisation: pole-dechanges-de-lyon-perrache
   - realisation: signaletique-exterieure-multisensorielle-1
   - realisation: amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
-  - realisation: amo-accessibilite-des-erp-pour-la-ville-de-paris
   - realisation: diagnostic-d-accessibilite-en-orleans
   - realisation: mission-d-assistance-a-maitrise-douvrage-pour-la-mise-en-accessibilite-d-erp
   - realisation: diagnostic-des-points-d-arrets-routiers
@@ -20,5 +20,6 @@ display_realisations:
   - realisation: signaletique-du-ministere-des-affaires-etrangeres
   - realisation: signaletique-du-pole-dechanges-multimodal
   - realisation: un-livret-en-falc-pour-mieux-manger
+  - realisation: amo-global-pour-la-mise-en-accessibilite-du-patrimoine
   - realisation: amo-global-pour-la-mise-en-accessibilite-du-patrimoine
 ---
