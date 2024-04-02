@@ -1,6 +1,6 @@
 ---
 display_realisations:
-  - realisation: diagnostic-d-accessibilite-en-orleans
+  - realisation: amo-accessibilite-des-erp-pour-la-ville-de-paris
   - realisation: mission-d-assistance-a-maitrise-douvrage-pour-la-mise-en-accessibilite-d-erp
   - realisation: adap-pour-les-necropoles-nationales
   - realisation: charte-signale-tique-accessible-pour-les-itine-raires-velo
