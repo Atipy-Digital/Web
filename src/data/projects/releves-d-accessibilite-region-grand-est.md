@@ -8,6 +8,7 @@ metadata:
 title: Relevés d’accessibilité lycées Grand Est
 image:
   url: /media/reference-ingenierie-grand-est-1.jpg
+  alt: Photographie de l'Hôtel de Région à Metz
 project_client: grand-est
 mission_body: Relevés d’accessibilité après travaux des lycées de la Région
   Grand-Est et prestations diverses
@@ -43,11 +44,13 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/reference-ingenierie-grand-est-2.jpg)"
+        content: "![Photographie de l'Hôtel de Région à
+          Strasbourg](/media/reference-ingenierie-grand-est-2.jpg)"
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/reference-ingenierie-grand-est-3.jpg)"
+        content: "![Photographie des bâtiments régionaux à
+          Metz](/media/reference-ingenierie-grand-est-3.jpg)"
     col3:
       reverseMobile: false
       text:
