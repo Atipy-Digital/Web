@@ -9,7 +9,7 @@ metadata:
 title: Mission d’Assistance à Maîtrise d'Ouvrage pour la mise en accessibilité d’ERP
 image:
   url: /media/reference-ingenierie-saint-malo-1.jpg
-  alt: Vue du bord de mer depuis la ville de Saint-Malo
+  alt: Photographie du front de mer de la ville de Saint-Malo
 project_client: ville-de-saint-malo
 mission_body: Mission d’Assistance à Maîtrise d’Ouvrage pour la mise en accessibilité d’ERP
 context_body: Depuis 2020, [Nicolas
@@ -29,7 +29,7 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Exemples de pages de la notice descriptive d'accessibilité de la
+        content: "![ Exemples de pages de la notice descriptive d'accessibilité de la
           Salle de sports
           Duguay-Trouin](/media/reference-ingenierie-saint-malo-2.jpg)"
     col2:
@@ -49,7 +49,8 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/reference-ingenierie-saint-malo-4.jpg)"
+        content: "![Photographie du Musée Jacques
+          Cartier](/media/reference-ingenierie-saint-malo-4.jpg)"
     col3:
       reverseMobile: false
 projectsFeatured:
