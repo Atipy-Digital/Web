@@ -1,25 +1,25 @@
 ---
 display_realisations:
+  - realisation: signaletique-du-ministere-des-affaires-etrangeres
   - realisation: conception-de-la-signaletique-inclusive-du-stade-pierre-de-coubertin
-  - realisation: pole-dechanges-de-lyon-perrache
-  - realisation: signaletique-exterieure-multisensorielle-1
-  - realisation: amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
   - realisation: diagnostic-d-accessibilite-en-orleans
+  - realisation: pole-dechanges-de-lyon-perrache
   - realisation: mission-d-assistance-a-maitrise-douvrage-pour-la-mise-en-accessibilite-d-erp
-  - realisation: diagnostic-des-points-d-arrets-routiers
   - realisation: document-falc
-  - realisation: etude-pour-la-signaletique-patrimoniale-de-rennes-metropole
+  - realisation: signaletique-exterieure-multisensorielle-1
+  - realisation: diagnostic-des-points-d-arrets-routiers
   - realisation: laser-emploi-outils-pour-un-public-allophone
+  - realisation: amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
+  - realisation: etude-pour-la-signaletique-patrimoniale-de-rennes-metropole
   - realisation: livrets-falc-et-de-la-plaquette-de-presentation
   - realisation: releve-des-non-conformites-sur-les-escaliers-du-metro-lyonnais
+  - realisation: signaletique-dorientation-accessible-et-facile-a-comprendre
+  - realisation: amo-accessibilite-des-erp-pour-la-ville-de-paris
   - realisation: releves-d-accessibilite-region-grand-est
   - realisation: signaletique-accessibles-des-etablissements-culturels-de-clichy
   - realisation: signaletique-de-la-treso-tiers-lieu
-  - realisation: signaletique-dorientation-accessible-et-facile-a-comprendre
   - realisation: signaletique-du-camsp-paris-nord
-  - realisation: signaletique-du-ministere-des-affaires-etrangeres
   - realisation: signaletique-du-pole-dechanges-multimodal
   - realisation: un-livret-en-falc-pour-mieux-manger
   - realisation: amo-global-pour-la-mise-en-accessibilite-du-patrimoine
-  - realisation: amo-accessibilite-des-erp-pour-la-ville-de-paris
 ---
