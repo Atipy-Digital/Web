@@ -1,5 +1,6 @@
 ---
 display_realisations:
+  - realisation: charte-signale-tique-accessible-pour-les-itine-raires-velo
   - realisation: signaletique-du-ministere-des-affaires-etrangeres
   - realisation: conception-de-la-signaletique-inclusive-du-stade-pierre-de-coubertin
   - realisation: diagnostic-d-accessibilite-en-orleans
