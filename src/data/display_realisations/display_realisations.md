@@ -1,5 +1,6 @@
 ---
 display_realisations:
+  - realisation: diagnostic-accessibilite-et-adap-du-ministere-des-armees
   - realisation: charte-signale-tique-accessible-pour-les-itine-raires-velo
   - realisation: signaletique-du-ministere-des-affaires-etrangeres
   - realisation: conception-de-la-signaletique-inclusive-du-stade-pierre-de-coubertin
