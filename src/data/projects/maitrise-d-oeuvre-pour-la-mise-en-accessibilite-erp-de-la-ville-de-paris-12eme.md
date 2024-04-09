@@ -55,6 +55,10 @@ project_sections:
     col1:
       reverseMobile: false
       text:
+        content: "![](/media/reference-ingenierie-paris12-2.jpg)"
+    col2:
+      reverseMobile: false
+      text:
         content: |-
           ### Nos domaines d’intervention sur cette mission
 
@@ -62,10 +66,6 @@ project_sections:
           * Maîtrise d’oeuvre 
           * Autorisation de travaux - dérogation
           * Signalétique : plans d’implantation, contenu, maquettage, BAT
-    col2:
-      reverseMobile: false
-      text:
-        content: "![](/media/reference-ingenierie-paris12-2.jpg)"
     col3:
       reverseMobile: false
       text:
