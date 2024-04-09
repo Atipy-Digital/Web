@@ -50,7 +50,7 @@ project_sections:
     col3:
       reverseMobile: false
       text:
-        content: "![](/media/reference-ingenierie-paris12-2.jpg)"
+        content: ""
   - inverseCol: false
     col1:
       reverseMobile: false
@@ -65,7 +65,7 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: ""
+        content: "![](/media/reference-ingenierie-paris12-2.jpg)"
     col3:
       reverseMobile: false
       text:
