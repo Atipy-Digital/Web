@@ -1,8 +1,8 @@
 ---
 display_realisations:
+  - realisation: maitrise-d-oeuvre-pour-la-mise-en-accessibilite-erp-de-la-ville-de-paris-12eme
   - realisation: diagnostic-accessibilite-et-adap-du-ministere-des-armees
   - realisation: charte-signale-tique-accessible-pour-les-itine-raires-velo
-  - realisation: signaletique-du-ministere-des-affaires-etrangeres
   - realisation: conception-de-la-signaletique-inclusive-du-stade-pierre-de-coubertin
   - realisation: diagnostic-d-accessibilite-en-orleans
   - realisation: pole-dechanges-de-lyon-perrache
@@ -23,5 +23,6 @@ display_realisations:
   - realisation: signaletique-du-camsp-paris-nord
   - realisation: signaletique-du-pole-dechanges-multimodal
   - realisation: un-livret-en-falc-pour-mieux-manger
+  - realisation: amo-global-pour-la-mise-en-accessibilite-du-patrimoine
   - realisation: amo-global-pour-la-mise-en-accessibilite-du-patrimoine
 ---
