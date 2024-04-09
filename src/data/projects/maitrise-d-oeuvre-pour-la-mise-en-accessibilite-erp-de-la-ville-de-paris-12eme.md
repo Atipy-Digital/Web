@@ -63,7 +63,7 @@ project_sections:
           ### Nos domaines d’intervention sur cette mission
 
           * Diagnostic accessibilité 
-          * Maîtrise d’oeuvre 
+          * Maîtrise d’œuvre 
           * Autorisation de travaux - dérogation
           * Signalétique : plans d’implantation, contenu, maquettage, BAT
     col3:
