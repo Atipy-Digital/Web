@@ -13,7 +13,7 @@ metadata:
     - keyword: référentiel
     - keyword: diagnostic
     - keyword: ADAP
-title: Cadre bâti
+title: Cadre bâti !
 date: 2023-07-24T07:08:24.513Z
 icon:
   label: Cadre Bati - Bleu
