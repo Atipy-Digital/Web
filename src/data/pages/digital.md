@@ -4,7 +4,10 @@ intro: >-
   ### L'innovation numérique au service de l'accessibilité
 
 
-  Le pôle Digital répond à vos demandes pour concevoir, réaliser et héberger vos solutions digitales. Notre point fort : une expertise en accessibilité numérique. Nous imaginons des dispositifs universels en matière de solution numérique d’accessibilité. Afin de répondre à vos besoins, nous concevons des outils numériques sur-mesure.
+  Le pôle Digital répond à vos demandes pour **concevoir, réaliser et héberger** vos solutions digitales. Notre point fort : une expertise en accessibilité numérique. 
+
+
+  Nous imaginons des dispositifs universels en matière de solution numérique d’accessibilité. Afin de répondre à vos besoins, nous concevons des **outils numériques sur-mesure**.
 sections:
   - col1:
       reverseMobile: false
