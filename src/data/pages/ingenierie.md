@@ -4,7 +4,10 @@ intro: >-
   ### Des consultants au service de l'accessibilité
 
 
-  Composé d'une équipe d'experts en accessibilité et urbanisme, le Pôle Ingénierie vous accompagne dans la mise en accessibilité de votre patrimoine et dans le relevé de toutes autres données spécifiques. Nous intervenons pour des audits / diagnostics d’accessibilité et des relevés multitechniques. Nous vous accompagnons également sur votre stratégie en accessibilité pour l’ensemble de votre patrimoine.
+  Composé d'une équipe d'experts en accessibilité et urbanisme, le Pôle Ingénierie vous accompagne dans la mise en accessibilité de votre patrimoine, d'espaces extérieurs (voirie et espace public) et dans le relevé de toutes autres données spécifiques. 
+
+
+  Nous intervenons dans le cadre d'audits, de diagnostics d’accessibilité et de relevés multitechniques. Nous vous accompagnons également dans l'élaboration et la définition de votre stratégie d'amélioration de l'accessibilité pour l’ensemble de votre patrimoine et de vos infrastructures.
 sections:
   - col1:
       reverseMobile: false
@@ -35,11 +38,9 @@ sections:
 
           * Le respect de l’usage dans l’application réglementaire
 
-          * L’écoute et la flexibilité
+          * L’usager dans sa diversité au centre de chaque projet
 
-          * La qualité de vie et le bien être des collaborateurs
-
-          * Le développement d’outils numériques. Conscient des évolutions numériques et technologiques, nous proposons des outils personnalisés pour répertorier et faciliter la gestion de votre patrimoine.
+          * Le développement d'outils numériques de collectes d'informations pour répertorier et faciliter la gestion de votre patrimoine
 
 
           Nous sommes à votre écoute pour vous proposer des prestations sur-mesure afin de répondre à tous vos besoins. Nous mettons un point d’honneur à accorder à nos clients une attention égale quelque soit leur notoriété ou le montant du contrat.
@@ -60,15 +61,21 @@ sections:
           Notre expérience et les solutions logicielles que nous avons développées, nous permettent de répondre à vos demandes concernant les thématiques suivantes :
 
 
-          * D﻿iagnostic
+          * Audits & d﻿iagnostics 
 
           * A﻿MO et AMOe
+
+          * Stratégie & conseil en accessibilité
 
           * S﻿uivi AD'AP
 
           * D﻿émarches administratives
 
           * R﻿egistre public d'accessibilité
+
+          * Schéma directeur
+
+          * Référentiel
 
           * R﻿elevés multitechniques
     col2:
