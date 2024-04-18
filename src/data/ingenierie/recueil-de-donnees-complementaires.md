@@ -17,7 +17,7 @@ icon:
 color: ENGINEER
 intro: La mise aux normes et la gestion d’un site ne se limite pas à
   l’accessibilité. Vous avez des besoins dans d’autres domaines ? Inventaires,
-  équipements, état des lieux, sécurité incendie, etc,  nous pouvons vous
+  équipements, état des lieux, sécurité incendie, etc;  nous pouvons vous
   accompagner.
 sections:
   - inverseCol: false
@@ -37,30 +37,30 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          #### **Que peut-on relever**&nbsp;**?**
+          #### **Que peut-on relever** **?**
 
 
-          Notre expertise en relevé accessibilité (diagnostiqueurs expérimentés, outils de relevés internes performants) et notre expertise en phase travaux nous permettent de vous proposer d’autres types de relevés dans les bâtiments et les espaces publics.
+          Notre expertise en relevé accessibilité (diagnostiqueurs expérimentés, outils de relevés internes performants) et notre expertise en phase travaux, nous permettent de vous proposer d’autres types de relevés dans les bâtiments et les espaces publics.
 
 
-          Ainsi nous pouvons répertorier, géo-localiser et définir l’état de vos équipements notamment dans les domaines suivants&nbsp;:
+          Ainsi nous pouvons répertorier, géo-localiser, évaluer et définir l’état de vos équipements notamment dans les domaines suivants :
 
 
-          * Équipement de sécurité incendie (Extincteur, BAES, EAS, Sorties de secours, plans, etc)
+          * Équipements de sécurité incendie (Extincteur, BAES, EAS, Sorties de secours, plans, etc)
 
           * Équipements divers de type chauffage, eau-chaude sanitaire, ventilation
 
-          * Relevé Vétusté / état des lieux, désordres architecturaux,  etc
+          * Relevés Vétusté / états des lieux, désordres architecturaux,  etc
 
           * Inventaires variés
     col2:
       reverseMobile: false
       text:
         content: >-
-          #### Quels sont les objectifs&nbsp;?
+          #### Quels sont les objectifs ?
 
 
-          * Pouvoir relever tous types de données utiles aux gestionnaires de patrimoine.
+          * Collecter tous types de données utiles aux gestionnaires de patrimoine
 
           * Profiter des relevés accessibilité et des éventuels travaux pour traiter les désordres «&nbsp;connexes&nbsp;».
 
