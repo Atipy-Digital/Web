@@ -1,7 +1,7 @@
 ---
 title: Ingénierie
 intro: >-
-  ### Des consultants au service de l'accessibilité
+  ### Des consultants au service de l'accessibilité&nbsp;
 
 
   Composé d'une équipe d'experts en accessibilité et urbanisme, le Pôle Ingénierie vous accompagne dans la mise en accessibilité de votre patrimoine, d'espaces extérieurs (voirie et espace public) et dans le relevé de toutes autres données spécifiques. 
