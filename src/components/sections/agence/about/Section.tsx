@@ -109,7 +109,7 @@ export const AboutSection = ({ data }: Props) => {
             className='!text-body2 !font-primary mt-6 lg:mt-auto'
             components={{
               strong: ({ children }) => (
-                <strong className='underline'>{children}</strong>
+                <strong>{children}</strong>
               ),
             }}
           >
