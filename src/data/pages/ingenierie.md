@@ -68,8 +68,6 @@ sections:
 
           * D﻿émarches administratives
 
-          *
-
           * R﻿egistre public d'accessibilité
 
           * R﻿elevés multitechniques
