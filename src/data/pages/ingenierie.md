@@ -4,7 +4,7 @@ intro: >-
   ### Des consultants au service de l'accessibilité
 
 
-  Composé d'une équipe d'experts en accessibilité et urbanisme, le Pôle Ingénierie vous accompagne dans la mise en accessibilité de votre patrimoine et dans le relevé de toutes autres données spécifiques. Nous intervenons pour des audits/diagnostics d’accessibilité et des relevés multitechniques. Nous vous accompagnons également sur votre stratégie en accessibilité pour l’ensemble de votre patrimoine.
+  Composé d'une équipe d'experts en accessibilité et urbanisme, le Pôle Ingénierie vous accompagne dans la mise en accessibilité de votre patrimoine et dans le relevé de toutes autres données spécifiques. Nous intervenons pour des audits / diagnostics d’accessibilité et des relevés multitechniques. Nous vous accompagnons également sur votre stratégie en accessibilité pour l’ensemble de votre patrimoine.
 sections:
   - col1:
       reverseMobile: false
@@ -42,10 +42,10 @@ sections:
           * Le développement d’outils numériques. Conscient des évolutions numériques et technologiques, nous proposons des outils personnalisés pour répertorier et faciliter la gestion de votre patrimoine.
 
 
-          Nous sommes à votre écoute pour vous proposer des prestations sur-mesure afin de répondre à tous vos besoins. Aussi, nous mettons un point d’honneur à accorder à nos clients une attention égale quelque soit leur notoriété ou le montant du contrat.
+          Nous sommes à votre écoute pour vous proposer des prestations sur-mesure afin de répondre à tous vos besoins. Nous mettons un point d’honneur à accorder à nos clients une attention égale quelque soit leur notoriété ou le montant du contrat.
 
 
-          Enfin, sachez que notre adaptabilité se base également sur un réseau étoffé de partenaires dans de nombreux domaines.
+          Notre adaptabilité repose également sur un réseau étoffé de partenaires dans de nombreux domaines et secteurs.
     col2:
       reverseMobile: false
     col3:
@@ -57,16 +57,18 @@ sections:
           #### Une équipe expérimentée
 
 
-          Notre expérience, et les solutions logicielles que nous avons développées, nous permettent de répondre à vos demandes concernant les thématiques suivantes :
+          Notre expérience et les solutions logicielles que nous avons développées, nous permettent de répondre à vos demandes concernant les thématiques suivantes :
 
 
           * D﻿iagnostic
 
           * A﻿MO et AMOe
 
-          * S﻿uivi d'AD'AP
+          * S﻿uivi AD'AP
 
           * D﻿émarches administratives
+
+          *
 
           * R﻿egistre public d'accessibilité
 
