@@ -9,6 +9,8 @@ metadata:
 title: Stratégie globale d’accessibilité et outils de communication accessibles
 image:
   url: /media/design-livret-accessible-amnesty-international-atipy-.jpg
+  alt: Livret sur la peine de mort, vue de la couverture violette avec le titre en
+    blanc.
 project_client: amnesty-international
 mission_body: Accompagnement du service Education aux droits humains dans la
   mise en place d’une stratégie globale d’accessibilité et d’inclusion des
