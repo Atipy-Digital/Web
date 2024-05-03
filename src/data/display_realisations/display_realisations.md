@@ -24,5 +24,4 @@ display_realisations:
   - realisation: releves-d-accessibilite-region-grand-est
   - realisation: signaletique-accessibles-des-etablissements-culturels-de-clichy
   - realisation: amo-global-pour-la-mise-en-accessibilite-du-patrimoine
-  - realisation: amo-global-pour-la-mise-en-accessibilite-du-patrimoine
 ---
