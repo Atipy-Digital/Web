@@ -10,6 +10,7 @@ title: R﻿éalisation des diagnostics accessibilité et de l'Ad'AP du Ministèr
   Armées Zone nord Ouest
 image:
   url: /media/reference-ingenierie-adap-ministere-de-la-defense.jpg
+  alt: Façade grise et noire du ministère
 project_client: ministere-des-armees
 mission_body: R﻿éalisation des diagnostics accessibilité et de l'Agenda
   d'Accessibilité Programmée du Ministère des Armées Zone nord Ouest
