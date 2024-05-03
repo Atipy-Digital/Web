@@ -6,7 +6,7 @@ metadata:
     - keyword: Signalétique
     - keyword: Pôle d'échanges
     - keyword: Piétons
-title: Pôle d'échanges de Lyon-Perrache
+title: Signalétique Pôle d'échanges Multimodal
 image:
   url: /media/design-reference-pole-echange-lyon-atipy-1.jpg
   alt: Vue sur un mât directionnel mis en place.
