@@ -9,6 +9,8 @@ metadata:
 title: Identité visuelle des Conseils de la Vie Sociale
 image:
   url: /media/design-reference-cvs-atipy-1.jpg
+  alt: Couverture du livret "le droit des usagers". Fond blanc avec des traits
+    oranges, bleus et verts.
 project_client: france-assos-sante
 mission_body: Création de l’identité visuelle des Conseils de la Vie Sociale en
   Nouvelle Aquitaine et conception de fiches explicatives
