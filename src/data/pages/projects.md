@@ -15,4 +15,5 @@ projectsFeatured:
   - charte-signale-tique-accessible-pour-les-itine-raires-velo
   - diagnostic-accessibilite-et-adap-du-ministere-des-armees
   - etude-pour-la-signaletique-patrimoniale-de-rennes-metropole
+  - livrets-falc-et-de-la-plaquette-de-presentation
 ---
