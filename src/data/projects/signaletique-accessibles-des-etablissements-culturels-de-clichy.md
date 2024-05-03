@@ -8,6 +8,7 @@ metadata:
 title: "Signalétique accessible des établissements culturels de Clichy "
 image:
   url: /media/design-reference-clichy-atipy-1.jpg
+  alt: Auditorium du conservatoire avec un piano sur la scène.
 project_client: ville-de-clichy
 mission_body: Audit et préconisations pour la communication et la signalétique
   accessibles des établissements culturels
