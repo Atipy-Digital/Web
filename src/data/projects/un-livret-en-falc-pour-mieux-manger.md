@@ -10,6 +10,8 @@ metadata:
 title: Un livret en FALC pour mieux manger
 image:
   url: /media/design-reference-solidel-atipy-1.jpg
+  alt: Couverture du livret. Elle est jaune avec le texte en blanc et quelques
+    illustrations représentant des aliments.
 project_client: solidel
 mission_body: Conception et illustration d’un livret d’accompagnement en [Facile
   À Lire et à Comprendre
