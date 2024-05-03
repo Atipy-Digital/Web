@@ -8,6 +8,7 @@ metadata:
 title: Relevé des non-conformités sur les escaliers du métro lyonnais
 image:
   url: /media/accessibilite-sytral-metro-lyon-atipy.jpg
+  alt: Escalier vu d'en bas avec une ambiance lumineuse rouge sombre
 project_client: sytral
 mission_body: Relevé des non-conformités sur les escaliers des 48 stations du
   réseau métropolitain de l'agglomération Lyonnaise.
