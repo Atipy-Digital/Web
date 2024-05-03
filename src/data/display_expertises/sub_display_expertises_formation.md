@@ -2,13 +2,13 @@
 display_expertises:
   - expertise: accessibilite-graphique-concevoir-des-supports-accessibles
   - expertise: accessibilite-numerique-sensibilisation-aux-bonnes-pratiques
+  - expertise: accueillir-un-public-en-situation-de-handicap
+  - expertise: concevoir-une-signaletique-accessible-et-mettre-en-pratique
+  - expertise: l-accessibilite-de-l-espace-public-et-de-la-voirie
+  - expertise: concevoir-une-signaletique-accessible
   - expertise: accessibilite-textuelle-concevoir-un-support-facile-a-lire-et-a-comprendre-falc
   - expertise: accessibilite-textuelle-rediger-un-document-de-facon-claire-et-simple
-  - expertise: accueillir-un-public-en-situation-de-handicap
   - expertise: concevoir-des-supports-avec-des-personnes-deficientes-intellectuelles
-  - expertise: concevoir-une-signaletique-accessible-et-mettre-en-pratique
-  - expertise: concevoir-une-signaletique-accessible
-  - expertise: l-accessibilite-de-l-espace-public-et-de-la-voirie
   - expertise: l-accessibilite-du-cadre-bati
   - expertise: les-fondamentaux-de-la-conception-universelle
   - expertise: sensibilisation-au-handicap
