@@ -9,7 +9,7 @@ metadata:
 title: Mission d’Assistance à Maîtrise d'Ouvrage pour la mise en accessibilité d’ERP
 image:
   url: /media/reference-ingenierie-saint-malo-1.jpg
-  alt: Photographie du front de mer de la ville de Saint-Malo
+  alt: Front de mer de la ville de Saint-Malo
 project_client: ville-de-saint-malo
 mission_body: Mission d’Assistance à Maîtrise d’Ouvrage pour la mise en accessibilité d’ERP
 context_body: Depuis 2020, [Nicolas
