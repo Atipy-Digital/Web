@@ -8,6 +8,7 @@ metadata:
 title: Signalétique du pôle d'échanges multimodal d'Annemasse
 image:
   url: /media/annemasse-plan-orientation-pole-echange-signaletique_atipy_version_reel.jpg
+  alt: Plan d'orientation du pôle d'échange multimodal
 project_client: annemasse-agglo
 mission_body: Assistance à maitrise d’ouvrage et conception de la signalétique
   pour le pôle d’échange multimodal de la gare d’Annemasse.
