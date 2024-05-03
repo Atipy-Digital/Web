@@ -10,6 +10,7 @@ metadata:
 title: Signalétique accessible Centre d'Action Médico-Sociale Précoce Paris Nord
 image:
   url: /media/design-reference-camsp-paris-nord-atipy-1.jpg
+  alt: Entrée vitrée avec un décor adhésif abstrait de traits jaunes et oranges.
 project_client: les-jours-heureux
 mission_body: Créer la signalétique du CAMSP Paris Nord, accessible aux enfants
   et à leurs parents.
