@@ -13,16 +13,16 @@ display_realisations:
   - realisation: laser-emploi-outils-pour-un-public-allophone
   - realisation: etude-pour-la-signaletique-patrimoniale-de-rennes-metropole
   - realisation: diagnostic-des-points-d-arrets-routiers
+  - realisation: signaletique-de-la-treso-tiers-lieu
+  - realisation: un-livret-en-falc-pour-mieux-manger
   - realisation: amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
+  - realisation: signaletique-du-pole-dechanges-multimodal
   - realisation: releve-des-non-conformites-sur-les-escaliers-du-metro-lyonnais
   - realisation: signaletique-dorientation-accessible-et-facile-a-comprendre
   - realisation: amo-accessibilite-des-erp-pour-la-ville-de-paris
   - realisation: releves-d-accessibilite-region-grand-est
   - realisation: signaletique-accessibles-des-etablissements-culturels-de-clichy
-  - realisation: signaletique-de-la-treso-tiers-lieu
   - realisation: signaletique-du-camsp-paris-nord
-  - realisation: signaletique-du-pole-dechanges-multimodal
-  - realisation: un-livret-en-falc-pour-mieux-manger
   - realisation: amo-global-pour-la-mise-en-accessibilite-du-patrimoine
   - realisation: amo-global-pour-la-mise-en-accessibilite-du-patrimoine
 ---
