@@ -10,6 +10,7 @@ metadata:
 title: Diagnostic des points d'arrêts routiers de la Région Pays de la Loire
 image:
   url: /media/reference-ingenierie-aleop-1.jpg
+  alt: Arrêt de bus avec une personne en train de relever les distances.
 project_client: reseau-de-transport-aleop
 mission_body: Diagnostic des caractéristiques physiques des points d’arrêts routiers.
 context_body: >-
