@@ -8,6 +8,7 @@ metadata:
 title: Signalétique du Ministère des Affaires Etrangères
 image:
   url: /media/design-reference-ministere-aff-etrengere-atipy-1.jpg
+  alt: Couloir en enfilade avec poutres métalliques de style Eiffel
 project_client: ministere-de-leurope-et-des-affaires-etrangeres
 mission_body: Création de la signalétique intérieure du Ministères des Affaires Étrangères
 context_body: De 1925 à 2013, le bâtiment qui accueille aujourd’hui le Ministère
