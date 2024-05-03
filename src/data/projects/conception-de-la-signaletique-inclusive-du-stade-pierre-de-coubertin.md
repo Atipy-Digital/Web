@@ -9,7 +9,7 @@ metadata:
 title: Conception de la signalétique inclusive du Stade Pierre de Coubertin
 image:
   url: /media/design-reference-stade-coubertin-atipy-1.jpg
-  alt: Vue intérieure du stade Pierre de Coubertin
+  alt: Grande salle du stade Pierre de Coubertin
 project_client: ville-de-paris
 mission_body: Conception de la signalétique inclusive du Stade Pierre de Coubertin à Paris.
 context_body: >-
