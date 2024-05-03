@@ -11,7 +11,7 @@ title: Maîtrise d’œuvre pour la mise en accessibilité ERP de la Ville de Pa
 image:
   url: /media/reference-ingenierie-paris12.jpg
   alt: "Vue plongeante sur escalier sécurisé avec nez de marches contrastés et
-    antidérapants  de 3 centimètre de largeur et clous podotactiles implanté à
+    antidérapants de 3 centimètre de largeur et clous podotactiles implanté à
     une distance d'un giron de la première marche sur chaque palier. "
 project_client: ville-de-paris
 mission_body: Atipy et son partenaire Komorebi ont accompagné la délégation du
