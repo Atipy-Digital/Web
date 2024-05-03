@@ -9,6 +9,8 @@ metadata:
 title: Outils pour un public allophone avec Laser Emploi
 image:
   url: /media/atipy-design-falc-langage-clair-laser-emploi-allophone-1.jpg
+  alt: "Trois exemples d'illustrations : certificat médical, carte Vitale et
+    calendrier"
 project_client: msa-mutuelle-sociale-agricole
 mission_body: Création d’outils de communication pour l’accueil de publics
   allophones et/ou illettrés dans un parcours d’insertion professionnelle.
