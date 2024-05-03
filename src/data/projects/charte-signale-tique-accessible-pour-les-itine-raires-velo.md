@@ -11,6 +11,8 @@ metadata:
 title: Charte signalétique accessible pour les itinéraires vélo
 image:
   url: /media/design-reference-pyrenees-atlantique-atipy-2.jpg
+  alt: Point de départ d'un itinéraire vélo avec un totem en bois qui présente le
+    plan et les caractéristiques de l'itinéraire
 project_client: departement-pyrenees-atlantiques
 mission_body: Réalisation d’une charte signalétique accessible pour les
   itinéraires vélo du Conseil Départemental des Pyrénées-Atlantiques
