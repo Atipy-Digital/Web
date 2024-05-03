@@ -1,19 +1,19 @@
 ---
 display_realisations:
-  - realisation: maitrise-d-oeuvre-pour-la-mise-en-accessibilite-erp-de-la-ville-de-paris-12eme
   - realisation: diagnostic-accessibilite-et-adap-du-ministere-des-armees
   - realisation: charte-signale-tique-accessible-pour-les-itine-raires-velo
-  - realisation: conception-de-la-signaletique-inclusive-du-stade-pierre-de-coubertin
-  - realisation: diagnostic-d-accessibilite-en-orleans
-  - realisation: pole-dechanges-de-lyon-perrache
-  - realisation: mission-d-assistance-a-maitrise-douvrage-pour-la-mise-en-accessibilite-d-erp
   - realisation: document-falc
-  - realisation: signaletique-exterieure-multisensorielle-1
-  - realisation: diagnostic-des-points-d-arrets-routiers
-  - realisation: laser-emploi-outils-pour-un-public-allophone
-  - realisation: amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
-  - realisation: etude-pour-la-signaletique-patrimoniale-de-rennes-metropole
+  - realisation: maitrise-d-oeuvre-pour-la-mise-en-accessibilite-erp-de-la-ville-de-paris-12eme
+  - realisation: conception-de-la-signaletique-inclusive-du-stade-pierre-de-coubertin
+  - realisation: pole-dechanges-de-lyon-perrache
   - realisation: livrets-falc-et-de-la-plaquette-de-presentation
+  - realisation: diagnostic-d-accessibilite-en-orleans
+  - realisation: signaletique-exterieure-multisensorielle-1
+  - realisation: mission-d-assistance-a-maitrise-douvrage-pour-la-mise-en-accessibilite-d-erp
+  - realisation: laser-emploi-outils-pour-un-public-allophone
+  - realisation: etude-pour-la-signaletique-patrimoniale-de-rennes-metropole
+  - realisation: diagnostic-des-points-d-arrets-routiers
+  - realisation: amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
   - realisation: releve-des-non-conformites-sur-les-escaliers-du-metro-lyonnais
   - realisation: signaletique-dorientation-accessible-et-facile-a-comprendre
   - realisation: amo-accessibilite-des-erp-pour-la-ville-de-paris
