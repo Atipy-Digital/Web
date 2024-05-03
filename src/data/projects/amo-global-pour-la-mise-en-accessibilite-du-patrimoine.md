@@ -9,6 +9,7 @@ metadata:
 title: AMO globale pour la mise en accessibilité du patrimoine
 image:
   url: /media/reference-ingenierie-bzh-1.jpg
+  alt: Salle de réunion avec une personne debout en présentation
 project_client: region-bretagne
 mission_body: Atipy accompagne la Région Bretagne avec une offre complète visant
   à rendre son patrimoine plus inclusif. L'ensemble des pôles d'Atipy sont ainsi
