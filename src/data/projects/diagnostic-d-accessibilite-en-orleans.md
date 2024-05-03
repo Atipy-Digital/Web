@@ -10,7 +10,7 @@ metadata:
 title: Diagnostic d’accessibilité en Orléans
 image:
   url: /media/reference-ingenierie-orleans-1.jpg
-  alt: Photographie du Campo Santo d'Orléans
+  alt: Entrée du Campo Santo d'Orléans avec trois arches donnant sur un cloitre
 project_client: ville-dorleans
 mission_body: Diagnostics pour la mise en accessibilité des bâtiments ERP de la
   ville d’Orléans
