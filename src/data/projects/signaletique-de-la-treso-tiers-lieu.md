@@ -10,6 +10,8 @@ metadata:
 title: Signalétique de La Tréso - Tiers-lieu
 image:
   url: /media/realisation-signaletique-la-tre-so-malakoff-atipy-1.jpg
+  alt: Enseigne en néon lumineux avec le logo de la Tréso et vue sur l'escalier
+    central avec mosaïque au sol.
 project_client: la-treso
 mission_body: Conception de la signalétique du tiers-lieu La Tréso à Malakoff.
 context_body: Le bâtiment est construit en 1933 par Armand Guérard, architecte
