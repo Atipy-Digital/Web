@@ -11,6 +11,7 @@ metadata:
 title: Signalétique d'orientation accessible et facile à comprendre
 image:
   url: /media/design-reference-bateau-feu-atipy-1.jpg
+  alt: façade entièrement vitrée du théâtre avec des adhésifs colorés
 project_client: le-bateau-feu
 mission_body: Conception d’une signalétique d’orientation du public accessible
   et facile à comprendre au sein du théâtre.
