@@ -10,6 +10,7 @@ metadata:
 title: Étude pour la signalétique patrimoniale de Rennes Metropole
 image:
   url: /media/design-reference-rennes-metropole-atipy-1.jpg
+  alt: "3 pages extraites du rapport d'analyse et de préconisations. "
 project_client: rennes-metropole
 mission_body: Étude et préconisations sur la mise en place d’une signalétique
   patrimoniale sur le territoire de Rennes Métropole
