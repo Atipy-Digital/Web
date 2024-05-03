@@ -11,7 +11,7 @@ metadata:
 title: AMO Accessibilité des ERP pour la Ville de Paris
 image:
   url: /media/reference-ingenierie-ville-de-paris-1.jpg
-  alt: Photographie de l'Ecole Publique Belles Feuilles à Paris
+  alt: Cour principale de l'Ecole Publique Belles Feuilles à Paris
 project_client: ville-de-paris
 mission_body: Accord-cadre à bons de commande d'assistance à maîtrise d’ouvrage
   pour la réalisation des études liées aux Agendas d'Accessibilité Programmée
