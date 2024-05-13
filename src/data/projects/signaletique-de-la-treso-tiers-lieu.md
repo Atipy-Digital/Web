@@ -52,8 +52,9 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-signaletique-la-tre-so-malakoff-bois-atipy-pic\
-          togrammes-5.jpg)"
+        content: '![](/media/realisation-signaletique-la-tre-so-malakoff-bois-atipy-pictogrammes-5.jpg
+          "Série de pictogrammes illustrés représentant des personnages en
+          action. Par exemple, une personne faisant de la boxe.")'
     col2:
       reverseMobile: false
       text:
@@ -66,8 +67,9 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-signaletique-la-tre-so-malakoff-bois-atipy-4.j\
-          pg)"
+        content: "![Trois plaques de portes en bois avec un pictogramme et du texte
+          gravés.](/media/realisation-signaletique-la-tre-so-malakoff-bois-atip\
+          y-4.jpg)"
     col2:
       reverseMobile: false
     col3:
@@ -97,7 +99,8 @@ project_sections:
       image:
         url: ""
       text:
-        content: "![](/media/realisation-signaletique-la-tre-so-malakoff-atipy-3.jpg)"
+        content: "![Panneau synoptique en bois avec une personne debout qui le
+          lit.](/media/realisation-signaletique-la-tre-so-malakoff-atipy-3.jpg)"
     col2:
       reverseMobile: false
     col3:
