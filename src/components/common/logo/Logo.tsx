@@ -31,7 +31,6 @@ export default function Logo({
     <Link
       href='/'
       className={clsxm('flex-shrink-0', className)}
-      aria-label='home page atipy'
     >
       {isDark ? <LogoWhite size={size} /> : <LogoBlack size={size} />}
     </Link>
