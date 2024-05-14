@@ -16,6 +16,7 @@ interface Props
   variant?: 'primary' | 'secondary' | 'blue' | 'red' | 'green' | 'yellow';
   icon?: boolean;
   noAnim?: boolean;
+  isAriaHidden?: boolean;
 }
 
 export const Button = ({
@@ -23,6 +24,7 @@ export const Button = ({
   icon = false,
   className,
   noAnim = false,
+  isAriaHidden = false,
   children,
   ...props
 }: Props) => {
@@ -72,6 +74,7 @@ export const Button = ({
           type={ATIPY_ICON.ARROW_LEFT}
           size='lg'
           className='mr-5 flex-shrink-0'
+          isAriaHidden={Boolean(isAriaHidden)}
         />
       )}
       <span className='text-center lg:flex-shrink-0'>{children}</span>

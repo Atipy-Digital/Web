@@ -58,11 +58,12 @@ export interface AtipyIconProps {
   size?: AtipyIconSize;
   type: ATIPY_ICON;
   className?: string;
+  isAriaHidden?: boolean;
 }
 
 export type AtipyIconElement = (props: IconProps) => JSX.Element;
 
-export const AtipyIcon = ({ size = 'md', type, className }: AtipyIconProps) => {
+export const AtipyIcon = ({ size = 'md', type, className, isAriaHidden = false }: AtipyIconProps) => {
   const sizeClass = new Map<string, string>([
     ['xxs', 'w-[12px] h-[12px]'],
     ['sm', 'w-[18px] h-[18px]'],
@@ -99,5 +100,5 @@ export const AtipyIcon = ({ size = 'md', type, className }: AtipyIconProps) => {
 
   const Icon: AtipyIconElement = icons.get(type) || CrossIcon;
 
-  return <Icon className={clsxm(sizeClass.get(size), className)} />;
+  return <Icon className={clsxm(sizeClass.get(size), className)} aria-hidden={Boolean(isAriaHidden)} />;
 };
