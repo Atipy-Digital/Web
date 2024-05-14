@@ -1,6 +1,7 @@
 export const AboutIcon = () => {
   return (
     <svg
+      role={'img'}
       width='111'
       height='105'
       viewBox='0 0 111 105'
