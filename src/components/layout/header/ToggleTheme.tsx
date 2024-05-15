@@ -22,7 +22,7 @@ export const ToggleTheme = () => {
 
   return (
     <div className='ta flex flex-col items-center lg:ml-10 xl:ml-14 w-[78px] ml-auto overflow-hidden'>
-      <motion.div
+      <motion.button
         className={clsxm(
           'relative flex justify-start rounded-full p-[2px] cursor-pointer',
           'w-[52px] h-[27px] lg:w-[66px] lg:h-[36px]',
@@ -43,6 +43,7 @@ export const ToggleTheme = () => {
           transition={spring}
         >
           <AtipyIcon
+            isAriaLabel={true}
             type={isDark ? ATIPY_ICON.MOON : ATIPY_ICON.SUN}
             className='w-[18px] lg:w-[24px]'
           />
@@ -54,7 +55,11 @@ export const ToggleTheme = () => {
             isDark ? 'text-black' : 'text-white'
           )}
         >
-          <AtipyIcon type={ATIPY_ICON.MOON} className='w-[18px] lg:w-[24px]' />
+          <AtipyIcon
+            isAriaLabel={true}
+            type={ATIPY_ICON.MOON}
+            className='w-[18px] lg:w-[24px]'
+          />
         </span>
         <span
           className={clsxm(
@@ -64,7 +69,7 @@ export const ToggleTheme = () => {
         >
           <AtipyIcon type={ATIPY_ICON.SUN} className='w-[18px] lg:w-[24px]' />
         </span>
-      </motion.div>
+      </motion.button>
 
       <div className='hidden md:block mt-1 text-[12px]'>
         {!isDark ? 'Mode clair' : 'Mode sombre'}
