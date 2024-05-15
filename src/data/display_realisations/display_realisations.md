@@ -5,9 +5,9 @@ display_realisations:
   - realisation: document-falc
   - realisation: maitrise-d-oeuvre-pour-la-mise-en-accessibilite-erp-de-la-ville-de-paris-12eme
   - realisation: conception-de-la-signaletique-inclusive-du-stade-pierre-de-coubertin
+  - realisation: diagnostic-d-accessibilite-en-orleans
   - realisation: pole-dechanges-de-lyon-perrache
   - realisation: livrets-falc-et-de-la-plaquette-de-presentation
-  - realisation: diagnostic-d-accessibilite-en-orleans
   - realisation: signaletique-exterieure-multisensorielle-1
   - realisation: mission-d-assistance-a-maitrise-douvrage-pour-la-mise-en-accessibilite-d-erp
   - realisation: laser-emploi-outils-pour-un-public-allophone
@@ -15,9 +15,9 @@ display_realisations:
   - realisation: diagnostic-des-points-d-arrets-routiers
   - realisation: signaletique-de-la-treso-tiers-lieu
   - realisation: un-livret-en-falc-pour-mieux-manger
+  - realisation: releve-des-non-conformites-sur-les-escaliers-du-metro-lyonnais
   - realisation: amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
   - realisation: signaletique-du-pole-dechanges-multimodal
-  - realisation: releve-des-non-conformites-sur-les-escaliers-du-metro-lyonnais
   - realisation: signaletique-dorientation-accessible-et-facile-a-comprendre
   - realisation: amo-accessibilite-des-erp-pour-la-ville-de-paris
   - realisation: signaletique-du-camsp-paris-nord
