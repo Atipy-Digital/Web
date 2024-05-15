@@ -50,8 +50,6 @@ const SiteMapList: React.FC = () => {
     const [tree, setTree] = useState<UrlTree>({});
     const [error, setError] = useState<string | null>(null);
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
-    console.log(typeof tree)
-    console.log('tree', baseUrl, tree)
     const buildUrlTree = useMemo(() => {
         const addPartsToTree = (current: UrlTree, parts: string[], set = new Set()) => {
             parts.forEach(part => {

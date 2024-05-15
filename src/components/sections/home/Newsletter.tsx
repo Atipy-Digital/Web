@@ -94,7 +94,6 @@ export const Newsletter = ({ data }: Props) => {
   });
 
   const handleOptionChange = (option: string, value: boolean) => {
-    console.log('log', )
     setValue(
       `selectedOptions.${option}` as
         | 'selectedOptions.Design'

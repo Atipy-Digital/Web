@@ -54,7 +54,6 @@ export const ContactForm = ({ data }: Props) => {
       toast.error('Une erreur est survenue !');
     }
   });
-console.log(data)
   return (
     <>
       <ToastContainer
