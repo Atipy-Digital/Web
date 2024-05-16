@@ -1,3 +1,4 @@
 export type IconProps = {
-  className?: string;
+  className?: string,
+  isTransparentBackground?: any
 };

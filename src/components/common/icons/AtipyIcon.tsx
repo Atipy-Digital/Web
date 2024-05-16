@@ -1,25 +1,25 @@
 import clsxm from '@/lib/clsxm';
 
-import { AboutIcon } from './vectors/About.icon';
-import { ArrowCircleLeftIcon } from './vectors/ArrowCircleLeft.icon';
-import { ArrowCircleRightIcon } from './vectors/ArrowCircleRight.icon';
-import { ArrowDownIcon } from './vectors/ArrowDown.icon';
-import { ArrowLeftIcon } from './vectors/ArrowLeft.icon';
-import { ArrowRightIcon } from './vectors/ArrowRight.icon';
-import { ArrowUpIcon } from './vectors/ArrowUp.icon';
-import { ClockIcon } from './vectors/Clock.icon';
-import { ConceptionIcon } from './vectors/Conception.icon';
-import { CrossIcon } from './vectors/Cross.icon';
-import { EnvelopIcon } from './vectors/Envelop.icon';
-import { InstaIcon } from './vectors/Insta.icon';
-import { IconProps } from './vectors/interface';
-import { LinkedinIcon } from './vectors/Linkedin.icon';
-import { MoonIcon } from './vectors/Moon.icon';
-import { PartnersIcon } from './vectors/Partners.icon';
-import { PhoneIcon } from './vectors/Phone.icon';
-import { SunIcon } from './vectors/Sun.icon';
-import { TribuIcon } from './vectors/Tribu.icon';
-import { TwitterIcon } from './vectors/Twitter.icon';
+import {AboutIcon} from './vectors/About.icon';
+import {ArrowCircleLeftIcon} from './vectors/ArrowCircleLeft.icon';
+import {ArrowCircleRightIcon} from './vectors/ArrowCircleRight.icon';
+import {ArrowDownIcon} from './vectors/ArrowDown.icon';
+import {ArrowLeftIcon} from './vectors/ArrowLeft.icon';
+import {ArrowRightIcon} from './vectors/ArrowRight.icon';
+import {ArrowUpIcon} from './vectors/ArrowUp.icon';
+import {ClockIcon} from './vectors/Clock.icon';
+import {ConceptionIcon} from './vectors/Conception.icon';
+import {CrossIcon} from './vectors/Cross.icon';
+import {EnvelopIcon} from './vectors/Envelop.icon';
+import {InstaIcon} from './vectors/Insta.icon';
+import {IconProps} from './vectors/interface';
+import {LinkedinIcon} from './vectors/Linkedin.icon';
+import {MoonIcon} from './vectors/Moon.icon';
+import {PartnersIcon} from './vectors/Partners.icon';
+import {PhoneIcon} from './vectors/Phone.icon';
+import {SunIcon} from './vectors/Sun.icon';
+import {TribuIcon} from './vectors/Tribu.icon';
+import {TwitterIcon} from './vectors/Twitter.icon';
 
 export enum ATIPY_ICON {
   SUN = 'SUN',
@@ -60,11 +60,19 @@ export interface AtipyIconProps {
   className?: string;
   isAriaHidden?: boolean;
   isAriaLabel?: boolean;
+  isTransparentBackground?: boolean;
 }
 
 export type AtipyIconElement = (props: IconProps) => JSX.Element;
 
-export const AtipyIcon = ({ size = 'md', type, className, isAriaHidden = false, isAriaLabel= false }: AtipyIconProps) => {
+export const AtipyIcon = ({
+                            size = 'md',
+                            type,
+                            className,
+                            isAriaHidden = false,
+                            isAriaLabel = false,
+                            isTransparentBackground = false
+                          }: AtipyIconProps) => {
   const sizeClass = new Map<string, string>([
     ['xxs', 'w-[12px] h-[12px]'],
     ['sm', 'w-[18px] h-[18px]'],
@@ -101,5 +109,6 @@ export const AtipyIcon = ({ size = 'md', type, className, isAriaHidden = false, 
 
   const Icon: AtipyIconElement = icons.get(type) || CrossIcon;
 
-  return <Icon className={clsxm(sizeClass.get(size), className)} aria-hidden={Boolean(isAriaHidden)} aria-label={Boolean(isAriaLabel)}  />;
+  return <Icon className={clsxm(sizeClass.get(size), className)} aria-hidden={Boolean(isAriaHidden)}
+               aria-label={Boolean(isAriaLabel)} isTransparentBackground={isTransparentBackground}/>;
 };
