@@ -181,6 +181,7 @@ export const Newsletter = ({ data }: Props) => {
 
           <div className='hidden md:block max-w-[288px] lg:max-w-[395px] flex-shrink-0'>
             <img
+              aria-hidden={true}
               src='/imgs/home/newsletter-home.webp'
               alt=''
               className='h-full w-auto object-contain'

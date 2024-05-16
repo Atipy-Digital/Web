@@ -23,6 +23,7 @@ export const ProjectIntro = ({
       <div className='tl px-0 sm:px2-fluid lg:px-fluid relative w-full'>
         <div className='w-full'>
           <img
+            aria-hidden={true}
             src={image.url}
             alt={image?.alt || ''}
             className='w-full h-auto object-cover object-center rounded-[10px]'
@@ -51,7 +52,11 @@ export const ProjectIntro = ({
 
           {client?.logo && (
             <div className='max-w-[128px] md:max-w-[168px] lg:max-w-[205px] w-full mb-10 md:mb-0'>
-              <img src={client.logo} alt={`logo de ${client.name}`} />
+              <img
+                aria-hidden={true}
+                src={client.logo}
+                alt={`logo de ${client.name}`}
+              />
             </div>
           )}
         </div>

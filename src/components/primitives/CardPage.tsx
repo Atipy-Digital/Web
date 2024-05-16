@@ -34,8 +34,9 @@ export const CardPage = ({
         {urlHeaderImg && (
           <div className='max-h-[80px] lg:max-h-[96px] xl:max-h-[100px]'>
             <img
+              aria-hidden={true}
               src={urlHeaderImg}
-              alt=''
+              alt='aaaa'
               className='block h-full w-auto object-contain'
             />
           </div>

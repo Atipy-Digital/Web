@@ -44,6 +44,7 @@ export const Banner = ({ data }: Props) => {
         <div className='w-full flex items-center flex-col md:flex-row md:gap-x-[3vw]'>
           <div className='w-full flex-grow max-w-[936px]'>
             <img
+              aria-hidden={true}
               src={`/imgs/home/banner-${prefixImg}-home.webp`}
               alt='banner home'
               className='w-full object-cover object-center'
