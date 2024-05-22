@@ -99,17 +99,10 @@ project_sections:
           ail-1.png)"
     col2:
       reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
       text:
         content: "![Illustrations en vert ou orange représentant des personnages dans
           des scènes de vie. Par exemple, deux personnes se
           saluent.](/media/cvs-france-assos_sante-illustrations-falc-02.png)"
-    col2:
-      reverseMobile: false
     col3:
       reverseMobile: false
   - inverseCol: false
