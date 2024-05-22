@@ -18,7 +18,7 @@ philosophy: >-
   La qualité de vie au travail et le bien être des membres de l’équipe d’Atipy est un élément important de notre fonctionnement. Dans un fonctionnement transversal, chaque manager ou collègue reste attentif à la charge de travail de chacun et chacune. L’équilibre entre vie professionnelle et vie personnelle doit être un questionnement continu. 
 
 
-  Depuis avril 2023, Atipy a mis en place le congé menstruel et le congé pour Interruption Spontanée de Grossesse (fausse-couche).
+  Depuis avril 2023, Atipy a mis en place l'arrêt menstruel et le congé pour Interruption Spontanée de Grossesse (fausse-couche).
 
 
   Basé sur la confiance, ce temps accordé aux salariées menstruées favorise l’égalité homme-femme au sein de l’équipe. Il permet aux personnes atteintes de maladies chroniques invalidantes liées aux cycles menstruels de pouvoir adapter leur rythme de travail en fonction de leurs capacités. Le congé pour ISG est accordé aux salariés hommes et femmes.
