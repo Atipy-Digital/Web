@@ -93,6 +93,29 @@ project_sections:
     col1:
       reverseMobile: false
       text:
+        content: "![Illustrations en teintes de bleus représentant des personnages en
+          situation, comme par exemple, en train de discuter autour d'une
+          table.](/media/cvs-france-assos_sante-illustrations-falc_plan-de-trav\
+          ail-1.png)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "![Illustrations en vert ou orange représentant des personnages dans
+          des scènes de vie. Par exemple, deux personnes se
+          saluent.](/media/cvs-france-assos_sante-illustrations-falc-02.png)"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: |-
           #### Nos domaines d’intervention
 
