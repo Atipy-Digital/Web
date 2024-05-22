@@ -49,14 +49,6 @@ partners:
       utilisateurs en situation de handicap.
     projects: A﻿mnesty International, Département du Var.
     logo: /media/logo-ideance.jpeg
-  - name: Iter Mobilité
-    aboutUs: Experts en mobilités, ils conçoivent des solutions adaptées pour
-      améliorer les systèmes de déplacements.
-    collaborate: Pour les compétences en mobilité à l’échelle d’un territoire et la
-      collaboration bienveillante.
-    projects: La Cali, communauté d’agglomération du Libournais Agglopolys,
-      communauté d’agglomération de Blois, Champigny-sur-Marne
-    logo: /media/iter-mobilite-logo.webp
   - isSingle: true
     name: L'échappée
     logo: /media/logo-echappe-e.jpeg
