@@ -27,7 +27,7 @@ export const CardPage = ({
       <div className='w-full flex gap-8 flex-col mb-8 md:mb-0'>
         {iconType && (
           <div className='max-h-[96px] xl:max-h-[105px] [&_svg]:w-auto [&_svg]:h-full'>
-            {iconType && <AtipyIcon type={iconType} />}
+            {iconType && <AtipyIcon type={iconType}/>}
           </div>
         )}
 
@@ -47,11 +47,19 @@ export const CardPage = ({
             <>
               {iconType === ATIPY_ICON.ABOUT && !matchSM ? (
                 <>
-                  Qui <br />
+                  Qui <br/>
                   sommes-nous ?
                 </>
               ) : (
-                title
+                <>
+                  {title.includes('Qui sommes-nous') ? (
+                    <>
+                      Qui <span className='hidden md:inline'><br/></span>sommes-nous ?
+                    </>
+                  ) : (
+                    title
+                  )}
+                </>
               )}
             </>
           )}
@@ -61,7 +69,7 @@ export const CardPage = ({
       <MarkdownText
         className='text-body1 font-secondary'
         components={{
-          code: ({ children }) => <span className='underline'>{children}</span>,
+          code: ({children}) => <span className='underline'>{children}</span>,
         }}
       >
         {text}
