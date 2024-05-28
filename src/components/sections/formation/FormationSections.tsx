@@ -9,6 +9,7 @@ import { MarkdownSection } from '@/components/primitives/MarkdownSection';
 import { SubPageCard } from '@/components/primitives/SubPageCard';
 
 import { type ExpertiseFormationType } from '@/ts';
+import section from "~/admin/collections/common/section";
 
 type Props = {
   data: Omit<ExpertiseFormationType, 'title'>;
@@ -16,7 +17,7 @@ type Props = {
 
 export const FormationSections = ({ data }: Props) => {
   const { prefixImg } = useTheme();
-
+  console.log('section', data.intro, data.sections)
   return (
     <Box className='tl sm:px2-fluid lg:px-fluid mb-10 md:mb-14 lg:mb-16 xl:mb-20'>
       <div className='px-0 sm:px2-fluid lg:px-fluid md:!pt-12'>
@@ -37,6 +38,7 @@ export const FormationSections = ({ data }: Props) => {
             }}
             inverseCol
             pClassName='xl:pt-16'
+            isAriaHidden={true}
           />
         </div>
 
@@ -44,6 +46,7 @@ export const FormationSections = ({ data }: Props) => {
           <MarkdownSection
             {...section}
             key={`formation-page-section-${nanoid(7)}`}
+            isAriaHidden={true}
           />
         ))}
 
@@ -59,6 +62,7 @@ export const FormationSections = ({ data }: Props) => {
                   title={xp.title}
                   type={xp.color}
                   key={`sub-page-formation-${xp.slug}`}
+                  isAriaHidden={true}
                 />
               );
             })}
