@@ -21,6 +21,8 @@
     "localserver": "npx decap-server"
   },
   "dependencies": {
+    "@headlessui/react": "^2.0.3",
+    "@heroicons/react": "^1.0.6",
     "@mailchimp/mailchimp_marketing": "^3.0.80",
     "@netlify/functions": "^2.3.0",
     "@netlify/plugin-nextjs": "^4.41.1",
