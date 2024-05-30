@@ -1,25 +1,25 @@
 'use client';
 
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
+import { useEffect, useRef } from 'react';
 
 import clsxm from '@/lib/clsxm';
-import {MEDIA_QUERY, useMediaQuery} from '@/hooks/use-media';
-import {usePreventScroll} from '@/hooks/use-prevents-scroll';
+import { MEDIA_QUERY, useMediaQuery } from '@/hooks/use-media';
+import { usePreventScroll } from '@/hooks/use-prevents-scroll';
 
-import {useAppStore} from '@/store/use-app-store';
+import { useAppStore } from '@/store/use-app-store';
 
-import {ATIPY_ICON, AtipyIcon} from '../common/icons/AtipyIcon';
-import {MarkdownText} from '../primitives/MarkdownText';
-import {Portal} from '../primitives/Portal';
+import { ATIPY_ICON, AtipyIcon } from '../common/icons/AtipyIcon';
+import { MarkdownText } from '../primitives/MarkdownText';
+import { Portal } from '../primitives/Portal';
 
-import type {EngagementType} from '@/ts';
-import {useEffect, useRef} from "react";
+import type { EngagementType } from '@/ts';
 
 type Props = {
   data: EngagementType;
 };
 
-export const EngageModal = ({data}: Props) => {
+export const EngageModal = ({ data }: Props) => {
   const isOpenModalEngage = useAppStore((s) => s.isOpenModalEngage);
   const setOpenModalEngage = useAppStore((s) => s.setOpenModalEngage);
   const matchSM = useMediaQuery(MEDIA_QUERY.SM);
@@ -30,7 +30,7 @@ export const EngageModal = ({data}: Props) => {
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
-        setOpenModalEngage(false)
+        setOpenModalEngage(false);
       }
     };
 
@@ -45,8 +45,8 @@ export const EngageModal = ({data}: Props) => {
 
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
-    }
-  }, []);
+    };
+  }, [isOpenModalEngage, setOpenModalEngage]);
 
   return (
     <Portal id='engage-modal'>
@@ -94,7 +94,7 @@ export const EngageModal = ({data}: Props) => {
                 setOpenModalEngage(false);
               }}
             >
-              <AtipyIcon type={ATIPY_ICON.CROSS} size={matchSM ? 'lg' : 'xl'}/>
+              <AtipyIcon type={ATIPY_ICON.CROSS} size={matchSM ? 'lg' : 'xl'} />
             </div>
           </div>
 

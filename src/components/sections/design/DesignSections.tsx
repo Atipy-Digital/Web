@@ -32,7 +32,8 @@ export const DesignSections = ({ data }: Props) => {
               image: {
                 url: `/imgs/design/intro-${prefixImg}.webp`,
                 className: 'max-w-[509px] object-contain',
-                altText: 'Pictogramme représentant un ordinateur avec un personnage tenant un crayon. Dans le fond, il y a une photo d’oreille',
+                altText:
+                  'Pictogramme représentant un ordinateur avec un personnage tenant un crayon. Dans le fond, il y a une photo d’oreille',
                 isAriaHidden: true,
               },
             }}

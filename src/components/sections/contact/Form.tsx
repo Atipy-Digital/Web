@@ -82,7 +82,6 @@ export const ContactForm = ({ data }: Props) => {
             placeholder={data.input_name.placeholder}
             error={errors.name}
             autocomplete='Votre nom'
-
           />
           <InputController
             control={control}

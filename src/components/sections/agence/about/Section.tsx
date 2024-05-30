@@ -109,9 +109,7 @@ export const AboutSection = ({ data }: Props) => {
           <MarkdownText
             className='!text-body2 !font-primary mt-6 lg:mt-auto'
             components={{
-              strong: ({ children }) => (
-                <strong>{children}</strong>
-              ),
+              strong: ({ children }) => <strong>{children}</strong>,
             }}
           >
             {data.fusion}

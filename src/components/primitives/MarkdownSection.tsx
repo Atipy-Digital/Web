@@ -1,7 +1,9 @@
 'use client';
 
 import ReactMarkdown from 'react-markdown';
+
 import clsxm from '@/lib/clsxm';
+
 import { ColSectionType, SectionType } from '@/ts';
 
 interface SectionProps extends Omit<SectionType, 'col1' | 'col2' | 'col3'> {
@@ -19,10 +21,16 @@ interface ColProps extends Omit<ColSectionType, 'text' | 'image'> {
   text?: ColSectionType['text'];
   image?: ColSectionType['image'];
   pClassName?: string;
-  isAriaHidden?: boolean
+  isAriaHidden?: boolean;
 }
 
-const Col = ({text, image, reverseMobile, pClassName, isAriaHidden}: ColProps) => {
+const Col = ({
+  text,
+  image,
+  reverseMobile,
+  pClassName,
+  isAriaHidden,
+}: ColProps) => {
   const getColorText = (
     color: 'blue' | 'red' | 'green' | 'yellow' | undefined
   ) => {
@@ -56,7 +64,7 @@ const Col = ({text, image, reverseMobile, pClassName, isAriaHidden}: ColProps) =
         >
           <ReactMarkdown
             components={{
-              p: ({children}) => (
+              p: ({ children }) => (
                 <p
                   className={clsxm(
                     'block w-full flex-grow',
@@ -67,7 +75,7 @@ const Col = ({text, image, reverseMobile, pClassName, isAriaHidden}: ColProps) =
                   {children}
                 </p>
               ),
-              code: ({children}) => (
+              code: ({ children }) => (
                 <u className={clsxm('underline', getColorText(text.color))}>
                   {children}
                 </u>
@@ -84,7 +92,11 @@ const Col = ({text, image, reverseMobile, pClassName, isAriaHidden}: ColProps) =
             src={image.url}
             alt={image.altText ?? image.legend ?? ''}
             className={clsxm('rounded-[10px] w-full h-auto', image?.className)}
-            aria-hidden={(isAriaHidden === undefined && image?.isAriaHidden === undefined) ? false : (isAriaHidden ?? image?.isAriaHidden)}
+            aria-hidden={
+              isAriaHidden === undefined && image?.isAriaHidden === undefined
+                ? false
+                : isAriaHidden ?? image?.isAriaHidden
+            }
           />
           {image?.legend && (
             <legend className='text-grey-110 text-[16px] lg:text-[18px] my-2 dark:text-grey-100'>

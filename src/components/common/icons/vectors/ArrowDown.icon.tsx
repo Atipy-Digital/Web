@@ -1,11 +1,4 @@
-import {IconProps} from './interface';
-
-interface ArrowDownIconProps extends IconProps {
-  isMainColor?: boolean;
-}
-
-export const ArrowDownIcon = ({isMainColor = false, ...props}: ArrowDownIconProps) => {
-
+export const ArrowDownIcon = ({ ...props }) => {
   return (
     <svg
       {...props}

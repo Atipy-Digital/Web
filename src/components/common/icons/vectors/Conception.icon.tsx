@@ -1,7 +1,7 @@
 export const ConceptionIcon = () => {
   return (
     <svg
-      role={'img'}
+      role='img'
       width='135'
       height='112'
       viewBox='0 0 135 112'

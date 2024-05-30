@@ -9,7 +9,6 @@ import { MarkdownSection } from '@/components/primitives/MarkdownSection';
 import { SubPageCard } from '@/components/primitives/SubPageCard';
 
 import { type ExpertiseFormationType } from '@/ts';
-import section from "~/admin/collections/common/section";
 
 type Props = {
   data: Omit<ExpertiseFormationType, 'title'>;

@@ -148,7 +148,7 @@ export const Newsletter = ({ data }: Props) => {
               <input
                 id='newsletter-input'
                 title='Email'
-                autoComplete="email"
+                autoComplete='email'
                 type='text'
                 className={clsxm(
                   'tl h-[54px] w-full appearance-none border-none p-4 bg-white text-black text-[16px] md:text-[18px] lg:text-[20px] xl:text-[25px] rounded-[6px]',

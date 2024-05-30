@@ -10,12 +10,15 @@ type Props = {
 };
 
 export default function Footer({ data }: Props) {
-  if(data.menuText1.rows[0].link1.url === '/') {
-    data.menuText1.rows[0].link1.url = '/sitemap'
+  if (data.menuText1.rows[0].link1.url === '/') {
+    data.menuText1.rows[0].link1.url = '/sitemap';
   }
 
   return (
-    <footer role="contentinfo" className='w-full border-t border-t-current relative z-[6] bg-white dark:bg-background'>
+    <footer
+      role='contentinfo'
+      className='w-full border-t border-t-current relative z-[6] bg-white dark:bg-background'
+    >
       <div className='w-full flex items-center flex-col justify-between h-full'>
         <div className='tl px-fluid flex flex-col md:flex-row items-center justify-between flex-grow w-full gap-y-6 md:gap-y-0 !py-4 lg:!py-6 xl:!py-8'>
           <FooterMenuText {...data.menuText1} />

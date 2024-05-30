@@ -1,4 +1,4 @@
-import {create} from 'zustand';
+import { create } from 'zustand';
 
 import {
   ITagBusiness,
@@ -29,28 +29,28 @@ export interface AppStore {
 export const useAppStore = create<AppStore>((set) => ({
   isOpenModalMenu: false,
   setOpenModalMenu: (isOpenModalMenu: boolean) => {
-    set((s) => ({...s, isOpenModalMenu}));
+    set((s) => ({ ...s, isOpenModalMenu }));
   },
   isOpenModalEngage: false,
   setOpenModalEngage: (isOpenModalEngage: boolean) => {
-    set((s) => ({...s, isOpenModalEngage}));
+    set((s) => ({ ...s, isOpenModalEngage }));
   },
   projects: [],
   setProjects: (projects: ProjectType[]) => {
-    set((s) => ({...s, projects}));
+    set((s) => ({ ...s, projects }));
   },
   tagsBusiness: [],
   setTagsBusiness: (tags: TagBusinessType[]) => {
     set((s) => ({
       ...s,
-      tagsBusiness: tags.map((t) => ({...t, isActive: false})),
+      tagsBusiness: tags.map((t) => ({ ...t, isActive: false })),
     }));
   },
   tagsExpertise: [],
   setTagsExpertise: (tags: TagExpertiseType[]) => {
     set((s) => ({
       ...s,
-      tagsExpertise: tags.map((t) => ({...t, isActive: false})),
+      tagsExpertise: tags.map((t) => ({ ...t, isActive: false })),
     }));
   },
   setTagBusinessActive: (tag: TagBusinessType) => {
@@ -60,7 +60,7 @@ export const useAppStore = create<AppStore>((set) => ({
         ...s,
         tagsBusiness: tagsBusiness.map((t) =>
           t.label === tag.label && tag.color === t.color
-            ? {...t, isActive: !t.isActive}
+            ? { ...t, isActive: !t.isActive }
             : t
         ),
       };
@@ -73,7 +73,7 @@ export const useAppStore = create<AppStore>((set) => ({
         ...s,
         tagsExpertise: tagsExpertise.map((t) =>
           t.label === tag.label && t.color === tag.color
-            ? {...t, isActive: !t.isActive}
+            ? { ...t, isActive: !t.isActive }
             : t
         ),
       };
@@ -86,7 +86,7 @@ export const useAppStore = create<AppStore>((set) => ({
         ...s,
         tagsBusiness: tagsBusiness.map((t) =>
           t.label === tag.label && t.color === tag.color
-            ? {...t, isActive: false}
+            ? { ...t, isActive: false }
             : t
         ),
       };
@@ -99,7 +99,7 @@ export const useAppStore = create<AppStore>((set) => ({
         ...s,
         tagsExpertise: tagsExpertise.map((t) =>
           t.label === tag.label && t.color === tag.color
-            ? {...t, isActive: false}
+            ? { ...t, isActive: false }
             : t
         ),
       };
@@ -110,8 +110,8 @@ export const useAppStore = create<AppStore>((set) => ({
     set((s) => {
       return {
         ...s,
-        tagsExpertise: s.tagsExpertise.map((t) => ({...t, isActive: false})),
-        tagsBusiness: s.tagsBusiness.map((t) => ({...t, isActive: false})),
+        tagsExpertise: s.tagsExpertise.map((t) => ({ ...t, isActive: false })),
+        tagsBusiness: s.tagsBusiness.map((t) => ({ ...t, isActive: false })),
       };
     });
   },

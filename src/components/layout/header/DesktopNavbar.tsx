@@ -25,7 +25,11 @@ const NavItem = ({ link, name }: INavigation) => {
 
 export const DesktopNavbar = ({ links }: { links: INavigation[] }) => {
   return (
-    <nav role="navigation" aria-label="Menu principal" className='ml-auto hidden md:block'>
+    <nav
+      role='navigation'
+      aria-label='Menu principal'
+      className='ml-auto hidden md:block'
+    >
       <ul className='tl flex items-center gap-x-4 lg:gap-x-6 xl:gap-x-9'>
         {links.map(({ link, name }) => (
           <NavItem key={link} link={link} name={name} />

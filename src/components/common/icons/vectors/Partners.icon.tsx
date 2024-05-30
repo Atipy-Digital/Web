@@ -1,7 +1,7 @@
 export const PartnersIcon = () => {
   return (
     <svg
-      role={'img'}
+      role='img'
       width='138'
       height='109'
       viewBox='0 0 138 109'

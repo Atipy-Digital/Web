@@ -42,7 +42,7 @@ export const InputController = <FieldsType extends FieldValues>({
   containerClassName,
   inputClassName,
   children,
-  autocomplete
+  autocomplete,
 }: Props<FieldsType>) => {
   const isInvalid = error != null;
   const errorId = `erreur sur le champs ${name}`;
@@ -71,7 +71,7 @@ export const InputController = <FieldsType extends FieldValues>({
                   'p-3',
                   isInvalid
                     ? '!border border-a-red-dark dark:border-a-red-light'
-                      : 'border border-grey-400 dark:border-white',
+                    : 'border border-grey-400 dark:border-white',
                   'dark:bg-background',
                   inputClassName
                 )}
@@ -109,9 +109,9 @@ export const InputController = <FieldsType extends FieldValues>({
       />
       {isInvalid && (
         <span
-            id={errorId}
-            className='text-a-red-dark block pt-1 text-[14px] lg:text-[16px] font-secondary leading-none dark:text-a-red-light'
-            aria-invalid={true}
+          id={errorId}
+          className='text-a-red-dark block pt-1 text-[14px] lg:text-[16px] font-secondary leading-none dark:text-a-red-light'
+          aria-invalid={true}
         >
           {error.message}
         </span>

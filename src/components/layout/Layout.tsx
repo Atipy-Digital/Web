@@ -1,17 +1,18 @@
 'use client';
 
-import {ReactNode, useEffect, useState} from 'react';
+import { ReactNode, useEffect, useState } from 'react';
 
-import {useIsHydrated} from '@/hooks/use-is-hydrated';
+import { useIsHydrated } from '@/hooks/use-is-hydrated';
+
+import SkipLink from '@/components/common/SkipLink';
 
 import Footer from './footer/Footer';
 import Header from './header/Header';
 import Main from './Main';
-import {ScrollUp} from '../common/ScrollUp';
+import { ScrollUp } from '../common/ScrollUp';
 
-import type {IFooter} from '@/ts';
-import type {INavigation} from '@/ts/navigation';
-import SkipLink from "@/components/common/SkipLink";
+import type { IFooter } from '@/ts';
+import type { INavigation } from '@/ts/navigation';
 
 type Props = {
   navLinks: INavigation[];
@@ -19,9 +20,9 @@ type Props = {
   footerLinks: IFooter | null;
 };
 
-export const Layout = ({navLinks, footerLinks, children}: Props) => {
+export const Layout = ({ navLinks, footerLinks, children }: Props) => {
   const isHydrated = useIsHydrated();
-  const [isTabbing, setIsTabbing] = useState(false)
+  const [isTabbing, setIsTabbing] = useState(false);
 
   useEffect(() => {
     const handleClassChange = () => {
@@ -36,18 +37,18 @@ export const Layout = ({navLinks, footerLinks, children}: Props) => {
       attributeFilter: ['class'],
     });
 
-    return () => observer.disconnect()
+    return () => observer.disconnect();
   }, []);
 
   if (!isHydrated) return null;
 
   return (
     <>
-      {isTabbing && <SkipLink isTabbing={isTabbing}/>}
-      <ScrollUp/>
-      <Header links={navLinks} isTabbing={isTabbing}/>
+      {isTabbing && <SkipLink isTabbing={isTabbing} />}
+      <ScrollUp />
+      <Header links={navLinks} isTabbing={isTabbing} />
       <Main>{children}</Main>
-      {footerLinks && <Footer data={footerLinks}/>}
+      {footerLinks && <Footer data={footerLinks} />}
     </>
   );
 };

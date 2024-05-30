@@ -20,7 +20,7 @@ export default function Header({ links, isTabbing }: Props) {
 
   return (
     <header
-      role="banner"
+      role='banner'
       className={clsxm(
         headerTopClass,
         'px-fluid z-10',

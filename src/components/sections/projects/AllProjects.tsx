@@ -1,15 +1,14 @@
 'use client';
 
-import {useRouter} from 'next/navigation';
+import { useRouter } from 'next/navigation';
+import { useMemo } from 'react';
 
-import {useMemo} from 'react';
+import { Box } from '@/components/common/Box';
+import { Button } from '@/components/primitives/Button';
+import { ProjectList } from '@/components/primitives/ProjectList';
+import { FilterTagsDropDown } from '@/components/sections/projects/components/FilterTagsDropdown';
 
-import {Box} from '@/components/common/Box';
-import {Button} from '@/components/primitives/Button';
-import {ProjectList} from '@/components/primitives/ProjectList';
-
-import {useAppStore} from '@/store/use-app-store';
-import {FilterTagsDropDown} from "@/components/sections/projects/components/FilterTagsDropdown";
+import { useAppStore } from '@/store/use-app-store';
 
 export const AllProjects = () => {
   const router = useRouter();
@@ -23,24 +22,15 @@ export const AllProjects = () => {
     (store) => store.setTagExpertiseActive
   );
 
-  const tagsBusinessActive = useMemo(
-    () => {
-      return businessTags?.filter((t) => t.isActive) ?? [];
-    },
-    [businessTags]
-  );
-  const tagsExpertiseActive = useMemo(
-    () => {
-      return expertiseTags?.filter((t) => t.isActive) ?? [];
-    },
-    [expertiseTags]
-  );
-  const hasTagsActive = useMemo(
-    () => {
-      return !!tagsBusinessActive.length || !!tagsExpertiseActive.length;
-    },
-    [tagsBusinessActive, tagsExpertiseActive]
-  );
+  const tagsBusinessActive = useMemo(() => {
+    return businessTags?.filter((t) => t.isActive) ?? [];
+  }, [businessTags]);
+  const tagsExpertiseActive = useMemo(() => {
+    return expertiseTags?.filter((t) => t.isActive) ?? [];
+  }, [expertiseTags]);
+  const hasTagsActive = useMemo(() => {
+    return !!tagsBusinessActive.length || !!tagsExpertiseActive.length;
+  }, [tagsBusinessActive, tagsExpertiseActive]);
 
   const projectsFiltered = useMemo(() => {
     if (!projects?.length) return [];
@@ -83,9 +73,8 @@ export const AllProjects = () => {
           />
         </div>
       </div>
-      <Box
-        className='tl px-0 md:px-fluid relative w-full pt-10 md:pt-14 lg:pt-20 xl:pt-24 flex justify-center items-center'>
-        <ProjectList data={projectsFiltered}/>
+      <Box className='tl px-0 md:px-fluid relative w-full pt-10 md:pt-14 lg:pt-20 xl:pt-24 flex justify-center items-center'>
+        <ProjectList data={projectsFiltered} />
       </Box>
 
       <div className='w-full flex items-center justify-center mt-10 lg:mt-14 xl:mt-20'>

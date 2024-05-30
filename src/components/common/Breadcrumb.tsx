@@ -27,7 +27,7 @@ export const Breadcrumb = ({
 }: Props) => {
   return (
     <nav
-      role="navigation"
+      role='navigation'
       className={clsxm(
         'w-full flex items-center justify-center pt-3 md:pt-0',
         boxClassName
@@ -81,7 +81,7 @@ export const Breadcrumb = ({
               />
             </div>
             <a
-              aria-current="page"
+              aria-current='page'
               href={currentLink.url}
               className='block line-truncate leading-normal hover:underline'
             >

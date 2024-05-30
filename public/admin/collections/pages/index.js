@@ -12,7 +12,7 @@ import ingenierie from './ingenierie.js';
 import partners from './partners.js';
 import projects from './projects.js';
 import tribu from './tribu.js';
-import sitemap from "./sitemap.js";
+import sitemap from './sitemap.js';
 
 const pages = {
   name: 'Pages',
@@ -32,7 +32,7 @@ const pages = {
     projects,
     clients,
     contact,
-    sitemap
+    sitemap,
   ],
 };
 
