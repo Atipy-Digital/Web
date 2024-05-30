@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/Atipy-Digital/Web/compare/v1.0.1...v1.1.0) (2024-05-30)
+
+
+### Features
+
+* create mapsite page ([45c9aa5](https://github.com/Atipy-Digital/Web/commit/45c9aa538bdee2dd86c67f933e4fd9c242698e0b))
+
 ## [1.0.1](https://github.com/Atipy-Digital/Web/compare/v1.0.0...v1.0.1) (2024-03-29)
 
 
