@@ -33,6 +33,7 @@ export const DigitalSections = ({ data }: Props) => {
               image: {
                 url: `/imgs/digital/intro-${prefixImg}.webp`,
                 className: 'max-h-[384px] object-contain',
+                isAriaHidden: true,
               },
             }}
             inverseCol
@@ -44,6 +45,7 @@ export const DigitalSections = ({ data }: Props) => {
           <MarkdownSection
             {...section}
             key={`digital-page-section-${nanoid(7)}`}
+            // ici, impossible d'ajouter la props "isAriaHidden"
           />
         ))}
 

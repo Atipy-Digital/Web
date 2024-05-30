@@ -37,6 +37,7 @@ export const IngenierieSections = ({ data }: Props) => {
             }}
             inverseCol
             pClassName='xl:pt-16'
+            isAriaHidden={true}
           />
         </div>
 
@@ -44,6 +45,7 @@ export const IngenierieSections = ({ data }: Props) => {
           <MarkdownSection
             {...section}
             key={`ingenierie-page-section-${nanoid(7)}`}
+            // ici, impossible d'ajouter la props "isAriaHidden"
           />
         ))}
 

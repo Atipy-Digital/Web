@@ -40,11 +40,11 @@ export const ProjectIntro = ({
 
         <div className='w-full flex flex-col-reverse md:flex-row md:justify-between md:gap-x-4'>
           <div className='md:max-w-[940px] xl:max-w-[848px]'>
-            <h3 className='mb-4'>La mission</h3>
+            <h2 className='mb-4'>La mission</h2>
             <MarkdownText className='text-body2'>{mission_body}</MarkdownText>
-            <h3 className='mb-4 mt-12 md:mt-16 lg:mt-20 xl:mt-24'>
+            <h2 className='mb-4 mt-12 md:mt-16 lg:mt-20 xl:mt-24'>
               Le contexte
-            </h3>
+            </h2>
             <MarkdownText className='text-body2 mb-4'>
               {context_body}
             </MarkdownText>

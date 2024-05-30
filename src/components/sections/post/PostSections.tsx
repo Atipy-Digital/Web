@@ -20,6 +20,7 @@ export const PostSections = ({ sections }: Props) => {
             {...section}
             key={`post-section-${nanoid(7)}`}
             smallGap
+            // ici, impossible d'ajouter la props "isAriaHidden"
           />
         ))}
       </div>

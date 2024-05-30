@@ -4,6 +4,8 @@ export type ColSectionType = {
     url: string;
     legend?: string;
     className?: string;
+    altText?: string;
+    isAriaHidden?: boolean;
   };
   text?: {
     color?: 'blue' | 'red' | 'green' | 'yellow';

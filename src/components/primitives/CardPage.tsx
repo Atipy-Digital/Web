@@ -42,7 +42,7 @@ export const CardPage = ({
           </div>
         )}
 
-        <h3 className='h3-card md:pb-8'>
+        <h2 className='h3 md:pb-8'>
           {iconType && (
             <>
               {iconType === ATIPY_ICON.ABOUT && !matchSM ? (
@@ -64,7 +64,7 @@ export const CardPage = ({
             </>
           )}
           {urlHeaderImg && title}
-        </h3>
+        </h2>
       </div>
       <MarkdownText
         className='text-body1 font-secondary'

@@ -9,17 +9,17 @@ interface SectionProps extends Omit<SectionType, 'col1' | 'col2' | 'col3'> {
   smallGap?: boolean;
   pClassName?: string;
   className?: string;
-  isAriaHidden?: boolean;
   col1: ColSectionType;
   col2?: ColSectionType;
   col3?: ColSectionType;
+  isAriaHidden?: boolean;
 }
 
 interface ColProps extends Omit<ColSectionType, 'text' | 'image'> {
   text?: ColSectionType['text'];
   image?: ColSectionType['image'];
   pClassName?: string;
-  isAriaHidden?: boolean;
+  isAriaHidden?: boolean
 }
 
 const Col = ({text, image, reverseMobile, pClassName, isAriaHidden}: ColProps) => {
@@ -40,7 +40,6 @@ const Col = ({text, image, reverseMobile, pClassName, isAriaHidden}: ColProps) =
     }
   };
 
-  console.log('Col', isAriaHidden);
   return (
     <div
       className={clsxm(
@@ -79,13 +78,13 @@ const Col = ({text, image, reverseMobile, pClassName, isAriaHidden}: ColProps) =
           </ReactMarkdown>
         </article>
       )}
-      {image?.url && (
+      {image && image?.url && (
         <figure className='block w-full'>
           <img
             src={image.url}
-            alt={image?.legend ?? ''}
+            alt={image.altText ?? image.legend ?? ''}
             className={clsxm('rounded-[10px] w-full h-auto', image?.className)}
-            aria-hidden={isAriaHidden ? 'true' : 'false'}
+            aria-hidden={(isAriaHidden === undefined && image?.isAriaHidden === undefined) ? false : (isAriaHidden ?? image?.isAriaHidden)}
           />
           {image?.legend && (
             <legend className='text-grey-110 text-[16px] lg:text-[18px] my-2 dark:text-grey-100'>
@@ -106,9 +105,8 @@ export const MarkdownSection = ({
   smallGap = false,
   pClassName,
   className,
-  isAriaHidden = false,
+  isAriaHidden,
 }: SectionProps) => {
-  console.log('MarkdownSection', isAriaHidden);
   if (
     !col2?.text?.content &&
     !col2?.image?.url &&
@@ -117,7 +115,7 @@ export const MarkdownSection = ({
   ) {
     return (
       <div className={clsxm('w-full flex flex-col mb-6 md:mb-10', className)}>
-        <Col {...col1} pClassName={pClassName} isAriaHidden={isAriaHidden}/>
+        <Col {...col1} pClassName={pClassName} isAriaHidden={isAriaHidden} />
       </div>
     );
   }
@@ -133,12 +131,12 @@ export const MarkdownSection = ({
         className
       )}
     >
-      <Col {...col1} pClassName={pClassName} isAriaHidden={isAriaHidden}/>
+      <Col {...col1} pClassName={pClassName} />
       {(col2?.text?.content || col2?.image?.url) && (
-        <Col {...col2} pClassName={pClassName} isAriaHidden={isAriaHidden}/>
+        <Col {...col2} pClassName={pClassName} isAriaHidden={isAriaHidden} />
       )}
       {(col3?.text?.content || col3?.image?.url) && (
-        <Col {...col3} pClassName={pClassName} isAriaHidden={isAriaHidden}/>
+        <Col {...col3} pClassName={pClassName} isAriaHidden={isAriaHidden} />
       )}
     </section>
   );

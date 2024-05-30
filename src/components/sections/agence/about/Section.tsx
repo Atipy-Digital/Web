@@ -48,6 +48,7 @@ const Section = ({
         src={img.url}
         alt={img.alt}
         className='w-full h-auto rounded-[10px]'
+        aria-hidden={true}
       />
     </div>
 
@@ -138,7 +139,7 @@ export const AboutSection = ({ data }: Props) => {
       />
 
       <div className='w-full sm:px-fluid !pt-0 !pb-0 md:py-fluid'>
-        <h3 className='mb-6 md:mb-10'>Les enjeux</h3>
+        <h2 className='h3 mb-6 md:mb-10'>Les enjeux</h2>
         <MarkdownText
           className='w-full text-body1 font-secondary mb-6 md:mb-8'
           components={{
@@ -152,7 +153,7 @@ export const AboutSection = ({ data }: Props) => {
       </div>
 
       <div className='w-full sm:px-fluid py-fluid'>
-        <h3 className='md:mb-10'>{`Nos ${data.cards.length} pôles`}</h3>
+        <h2 className='h3 md:mb-10'>{`Nos ${data.cards.length} pôles`}</h2>
 
         <div>
           <OfferList data={data.cards} className='!px-0 !pr-0 !pl-0' />

@@ -60,7 +60,7 @@ const Section = ({
       <MarkdownText
         className={clsxm('text-body2 font-primary', markTextClassName)}
         components={{
-          h3: ({ children }) => <h3 className='mb-6 lg:mb-8'>{children}</h3>,
+          h3: ({ children }) => <h2 className='h3 mb-6 lg:mb-8'>{children}</h2>,
           h4: ({ children }) => (
             <h4 className='font-bold mb-6 lg:mb-8'>{children}</h4>
           ),
@@ -99,7 +99,7 @@ export const TribuSection = ({ data }: Props) => {
       <Section text={data.philosophy} markTextClassName='mb-4 lg:mb-6' />
 
       <section className='tl sm:px-fluid w-full mb-10 md:mb-14 lg:mb-16 xl:mb-24'>
-        <h3 className='mb-6 lg:mb-8'>Nos membres</h3>
+        <h2 className='h3 mb-6 lg:mb-8'>Nos membres</h2>
 
         <div className='flex justify-center items-center'>
           <TeamList data={data.members} />

@@ -17,7 +17,6 @@ type Props = {
 
 export const FormationSections = ({ data }: Props) => {
   const { prefixImg } = useTheme();
-  console.log('section', data.intro, data.sections)
   return (
     <Box className='tl sm:px2-fluid lg:px-fluid mb-10 md:mb-14 lg:mb-16 xl:mb-20'>
       <div className='px-0 sm:px2-fluid lg:px-fluid md:!pt-12'>
@@ -34,21 +33,23 @@ export const FormationSections = ({ data }: Props) => {
               image: {
                 url: `/imgs/formation/intro-${prefixImg}.webp`,
                 className: 'max-w-[509px] object-contain',
+                isAriaHidden: true,
               },
             }}
             inverseCol
             pClassName='xl:pt-16'
-            isAriaHidden={true}
           />
         </div>
 
-        {data.sections?.map((section) => (
-          <MarkdownSection
-            {...section}
-            key={`formation-page-section-${nanoid(7)}`}
-            isAriaHidden={true}
-          />
-        ))}
+        {data.sections?.map((section) => {
+          return (
+            <MarkdownSection
+              {...section}
+              key={`formation-page-section-${nanoid(7)}`}
+              // ici, impossible d'ajouter la props "isAriaHidden"
+            />
+          );
+        })}
 
         <div className='mt-10 md:mt-16 lg:mt-20 xl:mt-24'>
           <h4 className='mb-10 font-primary font-bold'>Nos thématiques</h4>
