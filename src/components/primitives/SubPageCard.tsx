@@ -17,9 +17,16 @@ type Props = {
   icon: ExpertiseSubPageType['icon'];
   path: string;
   title: string;
+  isAriaHidden?: boolean;
 };
 
-export const SubPageCard = ({ type, icon, path, title }: Props) => {
+export const SubPageCard = ({
+  type,
+  icon,
+  path,
+  title,
+  isAriaHidden,
+}: Props) => {
   const router = useRouter();
   const styleCard = new Map<CARD_TYPE, string>([
     [
@@ -80,7 +87,11 @@ export const SubPageCard = ({ type, icon, path, title }: Props) => {
       onClick={() => router.push(path)}
     >
       {IconComponent && (
-        <IconComponent className='flex-shrink-0 h-[80px] md:h-[96px] lg:h-[128px] 2xl:h-[150px] w-auto mx-auto' />
+        <IconComponent
+          className='flex-shrink-0 h-[80px] md:h-[96px] lg:h-[128px] 2xl:h-[150px] w-auto mx-auto'
+          aria-hidden={isAriaHidden}
+        />
+        // ici, impossible d'ajouter la props "isAriaHidden"
       )}
       <div className='pb-2 lg:pb-4 xl:pb-5'>
         <p className='text-[16px] sm:text-body1 font-bold leading-none text-center break-words'>

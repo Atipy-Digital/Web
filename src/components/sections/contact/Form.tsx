@@ -1,4 +1,5 @@
 'use client';
+
 import emailjs from 'emailjs-com';
 import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 import { useForm } from 'react-hook-form';
@@ -53,7 +54,6 @@ export const ContactForm = ({ data }: Props) => {
       toast.error('Une erreur est survenue !');
     }
   });
-
   return (
     <>
       <ToastContainer
@@ -81,6 +81,7 @@ export const ContactForm = ({ data }: Props) => {
             label={data.input_name.label}
             placeholder={data.input_name.placeholder}
             error={errors.name}
+            autocomplete='Votre nom'
           />
           <InputController
             control={control}
@@ -92,6 +93,7 @@ export const ContactForm = ({ data }: Props) => {
             label={data.input_email.label}
             placeholder={data.input_email.placeholder}
             error={errors.email}
+            autocomplete='Votre email'
           />
           <InputController
             control={control}
@@ -103,6 +105,7 @@ export const ContactForm = ({ data }: Props) => {
             label={data.input_message.label}
             placeholder={data.input_message.placeholder}
             error={errors.message}
+            autocomplete='Votre message'
           >
             <span className='text-base leading-none my-1'>
               * champs obligatoires

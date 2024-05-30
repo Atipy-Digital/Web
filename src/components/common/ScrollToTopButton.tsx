@@ -46,7 +46,7 @@ export const ScrollToTopButton = () => {
   });
 
   return (
-    <motion.button
+    <motion.a
       className='fixed bottom-0 right-0 p-4 md:p-6 xl:p-8 2xl:p-10 z-[5]'
       variants={ScrollToTopContainerVariants}
       initial='hide'
@@ -54,11 +54,11 @@ export const ScrollToTopButton = () => {
       onClick={scrollToTop}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-      aria-label='scroll to top'
+      aria-label='Haut de page'
     >
       <div className='flex items-center justify-center rounded-full w-10 h-10 lg:w-16 lg:h-16 xl:w-20 xl:h-20 2xl:w-[102px] 2xl:h-[102px]'>
         <AtipyIcon type={ATIPY_ICON.ARROW_UP} size='full' />
       </div>
-    </motion.button>
+    </motion.a>
   );
 };

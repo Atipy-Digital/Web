@@ -1,6 +1,4 @@
-import { IconProps } from './interface';
-
-export const ArrowDownIcon = (props: IconProps) => {
+export const ArrowDownIcon = ({ ...props }) => {
   return (
     <svg
       {...props}

@@ -80,7 +80,7 @@ export const Newsletter = ({ data }: Props) => {
       });
 
       if (response.status === 201) {
-        toast.success('Inscription réussie Miracle !');
+        toast.success('Inscription réussie !');
         reset();
       } else if (response.status === 406) {
         toast.warning("L'adresse email est déjà inscrite à la newsletter.");
@@ -123,9 +123,9 @@ export const Newsletter = ({ data }: Props) => {
               <ReactMarkdown>{data.title}</ReactMarkdown>
             </h3>
             <h4 className='mt-6 mb-'>{data.subtitle}</h4>
-            <h5 className='mb-2'>
+            <p className='mb-2'>
               Choisissez au moins un thème pour recevoir notre newsletter
-            </h5>
+            </p>
             <div className='flex-grow flex items-center gap-2 lg:gap-3 flex-wrap mb-6'>
               {Object.entries(watchedValues.selectedOptions).map(
                 ([label, isActive], index) => (
@@ -147,6 +147,8 @@ export const Newsletter = ({ data }: Props) => {
             >
               <input
                 id='newsletter-input'
+                title='Email'
+                autoComplete='email'
                 type='text'
                 className={clsxm(
                   'tl h-[54px] w-full appearance-none border-none p-4 bg-white text-black text-[16px] md:text-[18px] lg:text-[20px] xl:text-[25px] rounded-[6px]',
@@ -160,6 +162,7 @@ export const Newsletter = ({ data }: Props) => {
                 icon
                 className='hidden xxs:flex dark:text-white dark:bg-background hover:dark:border-black hover:dark:bg-white hover:dark:text-black [&_svg]:!mr-3 md:[&_svg]:mr-5 [&_svg]:w-4 [&_svg]:h-4 md:[&_svg]:w-8 md:[&_svg]:h-8'
                 noAnim
+                isAriaHidden={true}
               >
                 {data.button.label}
               </Button>
@@ -178,8 +181,9 @@ export const Newsletter = ({ data }: Props) => {
 
           <div className='hidden md:block max-w-[288px] lg:max-w-[395px] flex-shrink-0'>
             <img
+              aria-hidden={true}
               src='/imgs/home/newsletter-home.webp'
-              alt='background newsletter'
+              alt=''
               className='h-full w-auto object-contain'
             />
           </div>

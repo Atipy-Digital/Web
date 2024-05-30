@@ -34,14 +34,15 @@ export const CardPage = ({
         {urlHeaderImg && (
           <div className='max-h-[80px] lg:max-h-[96px] xl:max-h-[100px]'>
             <img
+              aria-hidden={true}
               src={urlHeaderImg}
-              alt=''
+              alt='aaaa'
               className='block h-full w-auto object-contain'
             />
           </div>
         )}
 
-        <h3 className='h3-card md:pb-8'>
+        <h2 className='h3 md:pb-8'>
           {iconType && (
             <>
               {iconType === ATIPY_ICON.ABOUT && !matchSM ? (
@@ -50,12 +51,24 @@ export const CardPage = ({
                   sommes-nous ?
                 </>
               ) : (
-                title
+                <>
+                  {title.includes('Qui sommes-nous') ? (
+                    <>
+                      Qui{' '}
+                      <span className='hidden md:inline'>
+                        <br />
+                      </span>
+                      sommes-nous ?
+                    </>
+                  ) : (
+                    title
+                  )}
+                </>
               )}
             </>
           )}
           {urlHeaderImg && title}
-        </h3>
+        </h2>
       </div>
       <MarkdownText
         className='text-body1 font-secondary'

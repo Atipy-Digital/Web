@@ -10,29 +10,31 @@ export const FooterMenuText = (data: FooterMenuTextType) => {
   return (
     <ul className='flex flex-col xl:flex-row xl:gap-x-11 xl:items-center'>
       <li className='pb-3 md:pb-5 xl:pb-0'>
-        <label className='h6 block text-center md:text-left'>
-          {data.title}
-        </label>
+        <span className='h6 block text-center md:text-left'>{data.title}</span>
       </li>
       {isMenuText1 ? (
-        <li className='flex items-center gap-x-4 lg:gap-x-7'>
+        <ul className='flex items-center gap-x-4 lg:gap-x-7'>
           {data.rows.map(({ link1, link2 }) => (
             <Fragment key={`footer-menu-text-${nanoid(7)}`}>
-              <Link
-                href={link1.url}
-                className='link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
-              >
-                {link1.label}
-              </Link>
-              <Link
-                href={link2.url}
-                className='link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
-              >
-                {link2.label}
-              </Link>
+              <li>
+                <Link
+                  href={link1.url}
+                  className='link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
+                >
+                  {link1.label}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={link2.url}
+                  className='link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
+                >
+                  {link2.label}
+                </Link>
+              </li>
             </Fragment>
           ))}
-        </li>
+        </ul>
       ) : (
         <li>
           <a

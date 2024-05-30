@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { useEffect, useRef } from 'react';
 
 import clsxm from '@/lib/clsxm';
 import { MEDIA_QUERY, useMediaQuery } from '@/hooks/use-media';
@@ -23,6 +24,29 @@ export const EngageModal = ({ data }: Props) => {
   const setOpenModalEngage = useAppStore((s) => s.setOpenModalEngage);
   const matchSM = useMediaQuery(MEDIA_QUERY.SM);
   usePreventScroll(isOpenModalEngage);
+
+  const modalRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setOpenModalEngage(false);
+      }
+    };
+
+    if (isOpenModalEngage) {
+      document.addEventListener('keydown', handleKeyDown);
+      if (modalRef.current) {
+        modalRef.current.focus();
+      }
+    } else {
+      document.removeEventListener('keydown', handleKeyDown);
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isOpenModalEngage, setOpenModalEngage]);
 
   return (
     <Portal id='engage-modal'>
@@ -60,6 +84,8 @@ export const EngageModal = ({ data }: Props) => {
             opacity: 0,
           }}
           onClick={(e) => e.stopPropagation()}
+          ref={modalRef}
+          tabIndex={-1}
         >
           <div className='w-full flex py-4 sm:py-0'>
             <div

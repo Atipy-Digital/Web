@@ -90,7 +90,7 @@ export const HeaderPage = ({
                 </Link>
               </div>
             )}
-            <h2
+            <h1
               className={clsxm(
                 'h2-primary w-full sm:px-4 lg:px-6 xl:px-8 whitespace-break-spaces flex-grow',
                 align === 'center' ? 'text-center' : 'text-left',
@@ -104,7 +104,7 @@ export const HeaderPage = ({
               >
                 {title}
               </MarkdownText>
-            </h2>
+            </h1>
             {nextLink ? (
               <div className='hidden md:flex items-center flex-grow max-w-[20%] w-full'>
                 <Link
@@ -185,7 +185,7 @@ export const HeaderPage = ({
               )}
             </div>
 
-            <h2
+            <h1
               className={clsxm(
                 'h2-intro pt-6 md:pt-8 lg:pt-10 max-w-8xl mx-auto',
                 align === 'center' ? 'sm:text-center' : 'text-left',
@@ -199,7 +199,7 @@ export const HeaderPage = ({
               >
                 {intro}
               </ReactMarkdown>
-            </h2>
+            </h1>
           </>
         )}
       </div>

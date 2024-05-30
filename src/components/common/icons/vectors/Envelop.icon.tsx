@@ -4,6 +4,7 @@ export const EnvelopIcon = (props: IconProps) => {
   return (
     <svg
       {...props}
+      role='img'
       width='52'
       height='39'
       viewBox='0 0 52 39'

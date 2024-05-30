@@ -12,14 +12,19 @@ import type { INavigation } from '@/ts/navigation';
 
 type Props = {
   links: INavigation[];
+  isTabbing: boolean;
 };
 
-export default function Header({ links }: Props) {
+export default function Header({ links, isTabbing }: Props) {
+  const headerTopClass = isTabbing ? 'top-10' : 'top-0';
+
   return (
     <header
+      role='banner'
       className={clsxm(
+        headerTopClass,
         'px-fluid z-10',
-        'tl bs-header w-full fixed top-0 left-0 right-0 h-[72px] md:h-28 flex items-center dark:border-b dark:border-b-white',
+        'tl bs-header w-full fixed left-0 right-0 h-[72px] md:h-28 flex items-center dark:border-b dark:border-b-white',
         'bg-white dark:bg-background overflow-hidden'
       )}
     >

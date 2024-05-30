@@ -1,5 +1,6 @@
 'use client';
 
+import { motion } from 'framer-motion';
 import { useMemo } from 'react';
 
 import clsxm from '@/lib/clsxm';
@@ -40,7 +41,7 @@ export const AudienceTag = ({
     }
   }, [label, isActive]);
   return (
-    <div
+    <motion.button
       className={clsxm(
         'cursor-pointer',
         'tl flex items-center justify-center border-2',
@@ -48,9 +49,10 @@ export const AudienceTag = ({
         getColorStyle,
         className
       )}
+      aria-pressed={isActive}
       onClick={toggleActive}
     >
       <p className='cursor-pointer'>{label}</p>
-    </div>
+    </motion.button>
   );
 };

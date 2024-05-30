@@ -22,9 +22,9 @@ export const ContactFooter = ({ socials, infos }: Props) => {
   const matchesSM = useMediaQuery(MEDIA_QUERY.SM);
   return (
     <Box className='max-w-2xl flex flex-col items-center justify-center my-16 text-center'>
-      <h3 className='pb-6'>
+      <h2 className='pb-6'>
         <ReactMarkdown>{socials.title}</ReactMarkdown>
-      </h3>
+      </h2>
       <div className='w-fit flex items-center justify-center gap-x-4'>
         {socials.links.map((link) => {
           const iconTypes = new Map<ContactLinkType['type'], ATIPY_ICON>([

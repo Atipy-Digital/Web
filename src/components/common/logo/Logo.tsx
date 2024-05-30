@@ -28,11 +28,7 @@ export default function Logo({
     );
   }
   return (
-    <Link
-      href='/'
-      className={clsxm('flex-shrink-0', className)}
-      aria-label='home page atipy'
-    >
+    <Link href='/' className={clsxm('flex-shrink-0', className)}>
       {isDark ? <LogoWhite size={size} /> : <LogoBlack size={size} />}
     </Link>
   );

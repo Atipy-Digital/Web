@@ -29,14 +29,17 @@ export const Contact = ({ data }: Props) => {
         </h3>
 
         <div className='w-full sm:w-auto flex flex-col justify-center items-center md:justify-start md:items-start'>
-          <Button icon onClick={redirectToContact}>
-            Formulaire de contact
-          </Button>
+          <a href='/contact'>
+            <Button icon onClick={redirectToContact} isAriaHidden={true}>
+              Formulaire de contact
+            </Button>
+          </a>
           <div className='tl w-full h-[2px] my-4' />
           <div className='flex items-center gap-x-8'>
             <AtipyIcon
               type={ATIPY_ICON.ENVELOP}
               className='w-[48px] h-[35px] flex-shrink-0'
+              isAriaHidden={true}
             />
             <a
               href={`mailto:${data.email}`}

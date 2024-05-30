@@ -122,6 +122,7 @@ export const SubPageSections = ({ data }: Props) => {
             {...section}
             key={`sub-page-section-${nanoid(7)}`}
             className='mb-8 md:mb-10 lg:mb-14'
+            // ici, impossible d'ajouter la props "isAriaHidden"
           />
         ))}
 

@@ -25,6 +25,7 @@ export const Sections = ({ sections }: Props) => {
             key={`client-section-${nanoid(7)}`}
             smallGap
             pClassName='not-prose !mb-0'
+            // ici, impossible d'ajouter la props "isAriaHidden"
           />
         ))}
       </div>

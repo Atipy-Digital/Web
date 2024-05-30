@@ -28,6 +28,7 @@ interface Props<FieldsType extends FieldValues>
   containerClassName?: string;
   inputClassName?: string;
   children?: ReactNode;
+  autocomplete?: string;
 }
 
 export const InputController = <FieldsType extends FieldValues>({
@@ -41,9 +42,10 @@ export const InputController = <FieldsType extends FieldValues>({
   containerClassName,
   inputClassName,
   children,
+  autocomplete,
 }: Props<FieldsType>) => {
   const isInvalid = error != null;
-
+  const errorId = `erreur sur le champs ${name}`;
   return (
     <div className={clsxm('flex flex-col gap-1 mb-6', containerClassName)}>
       {label != null && (
@@ -62,19 +64,21 @@ export const InputController = <FieldsType extends FieldValues>({
                 value={value}
                 onBlur={onBlur}
                 onChange={onChange}
-                id={`input-${name}`}
                 className={clsxm(
-                  'appearance-none focus:!border-offwhite-150 focus:ring-0 active:decoration-0 active:ring-0 transition-all duration-300',
+                  'border border-grey-400 appearance-none focus:!border-offwhite-150 focus:ring-0 active:decoration-0 active:ring-0 transition-all duration-300',
                   'w-full rounded-md bg-grey-bg-form placeholder:text-grey-t-form text-[16px] placeholder:text-[16px]',
                   'lg:text-[18px] lg:placeholder:text-[18px]',
                   'p-3',
                   isInvalid
                     ? '!border border-a-red-dark dark:border-a-red-light'
-                    : 'border-transparent dark:border-white',
+                    : 'border border-grey-400 dark:border-white',
                   'dark:bg-background',
                   inputClassName
                 )}
                 rows={6}
+                autoComplete={autocomplete}
+                id={` ${name}`}
+                aria-describedby={isInvalid ? errorId : undefined}
               />
             ) : (
               <input
@@ -83,7 +87,6 @@ export const InputController = <FieldsType extends FieldValues>({
                 value={value}
                 onBlur={onBlur}
                 onChange={onChange}
-                id={`input-${name}`}
                 className={clsxm(
                   'appearance-none focus:!border-offwhite-150 focus:ring-0 active:decoration-0 active:ring-0 transition-all duration-300',
                   'w-full rounded-md bg-grey-bg-form placeholder:text-grey-t-form text-[16px] placeholder:text-[16px]',
@@ -91,10 +94,13 @@ export const InputController = <FieldsType extends FieldValues>({
                   'p-3',
                   isInvalid
                     ? '!border border-a-red-dark dark:border-a-red-light'
-                    : 'border-transparent dark:border-white',
+                    : 'border border-grey-400 dark:border-white',
                   'dark:bg-background',
                   inputClassName
                 )}
+                autoComplete={autocomplete}
+                id={` ${name}`}
+                aria-describedby={isInvalid ? errorId : undefined}
               />
             )}
           </>
@@ -102,7 +108,11 @@ export const InputController = <FieldsType extends FieldValues>({
         rules={rules}
       />
       {isInvalid && (
-        <span className='text-a-red-dark block pt-1 text-[14px] lg:text-[16px] font-secondary leading-none dark:text-a-red-light'>
+        <span
+          id={errorId}
+          className='text-a-red-dark block pt-1 text-[14px] lg:text-[16px] font-secondary leading-none dark:text-a-red-light'
+          aria-invalid={true}
+        >
           {error.message}
         </span>
       )}

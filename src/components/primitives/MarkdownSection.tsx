@@ -6,18 +6,31 @@ import clsxm from '@/lib/clsxm';
 
 import { ColSectionType, SectionType } from '@/ts';
 
-interface SectionProps extends SectionType {
+interface SectionProps extends Omit<SectionType, 'col1' | 'col2' | 'col3'> {
   inverseCol?: boolean;
   smallGap?: boolean;
   pClassName?: string;
   className?: string;
+  col1: ColSectionType;
+  col2?: ColSectionType;
+  col3?: ColSectionType;
+  isAriaHidden?: boolean;
 }
 
-interface ColProps extends ColSectionType {
+interface ColProps extends Omit<ColSectionType, 'text' | 'image'> {
+  text?: ColSectionType['text'];
+  image?: ColSectionType['image'];
   pClassName?: string;
+  isAriaHidden?: boolean;
 }
 
-const Col = ({ text, image, reverseMobile, pClassName }: ColProps) => {
+const Col = ({
+  text,
+  image,
+  reverseMobile,
+  pClassName,
+  isAriaHidden,
+}: ColProps) => {
   const getColorText = (
     color: 'blue' | 'red' | 'green' | 'yellow' | undefined
   ) => {
@@ -30,7 +43,6 @@ const Col = ({ text, image, reverseMobile, pClassName }: ColProps) => {
         return '!text-a-green-dark marker:text-a-green-dark dark:!text-a-green-light dark:marker:!text-a-green-light';
       case 'yellow':
         return '!text-a-yellow-dark marker:text-a-yellow-dark dark:!text-a-yellow-light dark:marker:!text-a-yellow-light';
-
       default:
         return '!text-current marker:text-current dark:!text-current dark:marker:!text-current';
     }
@@ -74,12 +86,17 @@ const Col = ({ text, image, reverseMobile, pClassName }: ColProps) => {
           </ReactMarkdown>
         </article>
       )}
-      {image?.url && (
+      {image && image?.url && (
         <figure className='block w-full'>
           <img
             src={image.url}
-            alt={image?.legend ?? ''}
+            alt={image.altText ?? image.legend ?? ''}
             className={clsxm('rounded-[10px] w-full h-auto', image?.className)}
+            aria-hidden={
+              isAriaHidden === undefined && image?.isAriaHidden === undefined
+                ? false
+                : isAriaHidden ?? image?.isAriaHidden
+            }
           />
           {image?.legend && (
             <legend className='text-grey-110 text-[16px] lg:text-[18px] my-2 dark:text-grey-100'>
@@ -100,6 +117,7 @@ export const MarkdownSection = ({
   smallGap = false,
   pClassName,
   className,
+  isAriaHidden,
 }: SectionProps) => {
   if (
     !col2?.text?.content &&
@@ -109,7 +127,7 @@ export const MarkdownSection = ({
   ) {
     return (
       <div className={clsxm('w-full flex flex-col mb-6 md:mb-10', className)}>
-        <Col {...col1} pClassName={pClassName} />
+        <Col {...col1} pClassName={pClassName} isAriaHidden={isAriaHidden} />
       </div>
     );
   }
@@ -127,10 +145,10 @@ export const MarkdownSection = ({
     >
       <Col {...col1} pClassName={pClassName} />
       {(col2?.text?.content || col2?.image?.url) && (
-        <Col {...col2} pClassName={pClassName} />
+        <Col {...col2} pClassName={pClassName} isAriaHidden={isAriaHidden} />
       )}
       {(col3?.text?.content || col3?.image?.url) && (
-        <Col {...col3} pClassName={pClassName} />
+        <Col {...col3} pClassName={pClassName} isAriaHidden={isAriaHidden} />
       )}
     </section>
   );

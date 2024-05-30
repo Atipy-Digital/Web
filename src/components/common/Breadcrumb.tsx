@@ -27,11 +27,12 @@ export const Breadcrumb = ({
 }: Props) => {
   return (
     <nav
+      role='navigation'
       className={clsxm(
         'w-full flex items-center justify-center pt-3 md:pt-0',
         boxClassName
       )}
-      aria-label='Breadcrumb'
+      aria-label='Vous êtes ici :'
     >
       <ul
         className={clsxm(
@@ -54,6 +55,7 @@ export const Breadcrumb = ({
             <div className='grid grid-cols-[auto_1fr]'>
               <div className='flex items-center justify-center whitespace-nowrap'>
                 <AtipyIcon
+                  isAriaHidden={true}
                   type={ATIPY_ICON.ARROW_RIGHT}
                   size='sm'
                   className='mr-1 whitespace-nowrap'
@@ -72,12 +74,14 @@ export const Breadcrumb = ({
           <div className='grid grid-cols-[auto_1fr]'>
             <div className='flex items-center justify-center whitespace-nowrap'>
               <AtipyIcon
+                isAriaHidden={true}
                 type={ATIPY_ICON.ARROW_RIGHT}
                 size='sm'
                 className='mr-1 whitespace-nowrap'
               />
             </div>
             <a
+              aria-current='page'
               href={currentLink.url}
               className='block line-truncate leading-normal hover:underline'
             >
