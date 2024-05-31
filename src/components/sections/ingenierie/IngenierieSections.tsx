@@ -37,7 +37,6 @@ export const IngenierieSections = ({ data }: Props) => {
             }}
             inverseCol
             pClassName='xl:pt-16'
-            isAriaHidden={true}
           />
         </div>
 

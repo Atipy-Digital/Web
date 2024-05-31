@@ -13,28 +13,28 @@ export const FooterMenuText = (data: FooterMenuTextType) => {
         <span className='h6 block text-center md:text-left'>{data.title}</span>
       </li>
       {isMenuText1 ? (
-        <ul className='flex items-center gap-x-4 lg:gap-x-7'>
+        <li className='flex items-center gap-x-4 lg:gap-x-7'>
           {data.rows.map(({ link1, link2 }) => (
             <Fragment key={`footer-menu-text-${nanoid(7)}`}>
-              <li>
+              <div>
                 <Link
                   href={link1.url}
                   className='link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
                 >
                   {link1.label}
                 </Link>
-              </li>
-              <li>
+              </div>
+              <div>
                 <Link
                   href={link2.url}
                   className='link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
                 >
                   {link2.label}
                 </Link>
-              </li>
+              </div>
             </Fragment>
           ))}
-        </ul>
+        </li>
       ) : (
         <li>
           <a

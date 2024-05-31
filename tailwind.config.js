@@ -39,11 +39,18 @@ const typographyStyle = (theme) => ({
     objectFit: 'cover',
     borderRadius: 10,
   },
-  h3: {
+  h2: {
     fontSize: 'clamp(1.5rem, 2vw + 0.75rem, 2rem)',
     fontWeight: 'bold',
     lineHeight: 1,
     marginBottom: '1.5rem',
+    color: 'currentColor',
+  },
+  h3: {
+    fontSize: 'clamp(1.25rem, 1.25vw + 1rem, 1.563rem)',
+    fontWeight: 'bold',
+    lineHeight: 1.25,
+    marginBottom: '1rem',
     color: 'currentColor',
   },
   h4: {
