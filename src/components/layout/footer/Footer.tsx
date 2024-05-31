@@ -10,7 +10,6 @@ type Props = {
 };
 
 export default function Footer({ data }: Props) {
-
   return (
     <footer
       role='contentinfo'
