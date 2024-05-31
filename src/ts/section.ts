@@ -4,12 +4,13 @@ export type ColSectionType = {
     url: string;
     legend?: string;
     className?: string;
-    altText?: string;
-    isAriaHidden?: boolean;
+    alt?: string;
+    ariaHidden?: boolean;
+    ariaLabel?: string;
   };
   text?: {
     color?: 'blue' | 'red' | 'green' | 'yellow';
-    content: string;
+    content?: string;
   };
 };
 

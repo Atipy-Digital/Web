@@ -10,6 +10,7 @@ const colFields = [
     name: 'text',
     label: 'Texte',
     widget: 'object',
+    required: false,
     fields: [
       {
         name: 'color',
@@ -27,6 +28,7 @@ const colFields = [
         name: 'content',
         label: 'Choisir votre texte',
         widget: 'markdown',
+        required: false,
         buttons: [
           'bold',
           'italic',
@@ -42,7 +44,7 @@ const colFields = [
         ],
         modes: ['rich_text'],
         hint: 'Utiliser **code (<>)** pour surligner du texte',
-        editor_components: ['image'],
+        editor_components: [],
       },
     ],
   },
@@ -63,6 +65,24 @@ const colFields = [
       {
         name: 'legend',
         label: "Legende de l'image",
+        required: false,
+        widget: 'string',
+      },
+      {
+        name: 'ariaHidden',
+        label: 'Aria Hidden',
+        required: false,
+        widget: 'boolean',
+      },
+      {
+        name: 'ariaLabel',
+        label: 'Aria Label',
+        required: false,
+        widget: 'string',
+      },
+      {
+        name: 'alt',
+        label: 'Texte alternatif',
         required: false,
         widget: 'string',
       },
@@ -115,7 +135,7 @@ const optionnalColFields = [
         ],
         modes: ['rich_text'],
         hint: 'Utiliser **code (<>)** pour surligner du texte',
-        editor_components: ['image'],
+        editor_components: [],
       },
     ],
   },
@@ -136,6 +156,24 @@ const optionnalColFields = [
       {
         name: 'legend',
         label: "Legende de l'image",
+        required: false,
+        widget: 'string',
+      },
+      {
+        name: 'ariaHidden',
+        label: 'Aria Hidden',
+        required: false,
+        widget: 'boolean',
+      },
+      {
+        name: 'ariaLabel',
+        label: 'Aria Label',
+        required: false,
+        widget: 'string',
+      },
+      {
+        name: 'alt',
+        label: 'Texte alternatif',
         required: false,
         widget: 'string',
       },

@@ -43,7 +43,6 @@ export const ToggleTheme = () => {
           transition={spring}
         >
           <AtipyIcon
-            isAriaLabel={true}
             type={isDark ? ATIPY_ICON.MOON : ATIPY_ICON.SUN}
             className='w-[18px] lg:w-[24px]'
           />
@@ -55,11 +54,7 @@ export const ToggleTheme = () => {
             isDark ? 'text-black' : 'text-white'
           )}
         >
-          <AtipyIcon
-            isAriaLabel={true}
-            type={ATIPY_ICON.MOON}
-            className='w-[18px] lg:w-[24px]'
-          />
+          <AtipyIcon type={ATIPY_ICON.MOON} className='w-[18px] lg:w-[24px]' />
         </span>
         <span
           className={clsxm(

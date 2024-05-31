@@ -33,7 +33,7 @@ export const DigitalSections = ({ data }: Props) => {
               image: {
                 url: `/imgs/digital/intro-${prefixImg}.webp`,
                 className: 'max-h-[384px] object-contain',
-                isAriaHidden: true,
+                ariaHidden: true,
               },
             }}
             inverseCol

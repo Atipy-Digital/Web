@@ -46,10 +46,12 @@ sections:
       reverseMobile: false
   - col1:
       reverseMobile: false
-      text:
-        content: "![Sécurisé, respectueux de la diversité, confortable pour tous,
-          fonctionnel, harmonieux, compréhensible et
-          simple](/media/tribu-w-designforall.png)"
+      image:
+        alt: Sécurisé, respectueux de la diversité, confortable pour tous, fonctionnel,
+          harmonieux, compréhensible et simple
+        url: /media/tribu-w-designforall.png
+        ariaHidden: true
+        ariaLabel: test de label
     col2:
       reverseMobile: false
       text:

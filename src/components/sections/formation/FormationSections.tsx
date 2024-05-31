@@ -32,7 +32,7 @@ export const FormationSections = ({ data }: Props) => {
               image: {
                 url: `/imgs/formation/intro-${prefixImg}.webp`,
                 className: 'max-w-[509px] object-contain',
-                isAriaHidden: true,
+                ariaHidden: true,
               },
             }}
             inverseCol
