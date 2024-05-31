@@ -21,7 +21,7 @@ const menuTextFields = [
             label: 'Url',
             name: 'url',
             widget: 'select',
-            options: ['/'],
+            options: ['/sitemap'],
           },
         ],
       },
