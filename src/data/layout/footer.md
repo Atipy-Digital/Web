@@ -4,7 +4,7 @@ menuText1:
   rows:
     - link1:
         label: Plan du site
-        url: /
+        url: /sitemap
       link2:
         label: Mentions légales
         url: /

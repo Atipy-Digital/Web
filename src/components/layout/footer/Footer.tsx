@@ -10,10 +10,6 @@ type Props = {
 };
 
 export default function Footer({ data }: Props) {
-  if (data.menuText1.rows[0].link1.url === '/') {
-    data.menuText1.rows[0].link1.url = '/sitemap';
-  }
-
   return (
     <footer
       role='contentinfo'

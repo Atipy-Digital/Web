@@ -13,7 +13,7 @@
     "start": "next start",
     "lint": "next lint",
     "release": "standard-version",
-    "lint:fix": "eslint src --cache --fix && yarn format",
+    "lint:fix": "eslint src --cache --fix && npm run format",
     "lint:strict": "eslint --cache --max-warnings=0 src",
     "typecheck": "tsc --noEmit --incremental false",
     "format": "prettier --write --cache --loglevel=warn .",
