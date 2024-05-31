@@ -12,7 +12,7 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          ### Qu’est ce que la conception universelle&nbsp;?
+          ## Qu’est ce que la conception universelle&nbsp;?
 
 
           Également appelée Design For All ou Universal Design, la conception universelle est défini par l’article 2 de la convention de l’ONU relative aux droits des personnes handicapées, comme «&nbsp;conception de produits, d’équipements, de programmes et de services qui puissent être utilisés par tous, dans toute la mesure possible, sans nécessiter ni adaptation ni conception spéciale&nbsp;».
@@ -38,7 +38,7 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "#### Pour qu’un objet, un environnement ou un service soit reconnu
+        content: "### Pour qu’un objet, un environnement ou un service soit reconnu
           Design For ALL, il est conçu autour de 7 principes&nbsp;:"
     col2:
       reverseMobile: false
