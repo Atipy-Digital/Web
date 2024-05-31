@@ -59,7 +59,6 @@ export interface AtipyIconProps {
   type: ATIPY_ICON;
   className?: string;
   isAriaHidden?: boolean;
-  isAriaLabel?: boolean;
 }
 
 export type AtipyIconElement = (props: IconProps) => JSX.Element;
@@ -69,7 +68,6 @@ export const AtipyIcon = ({
   type,
   className,
   isAriaHidden = false,
-  isAriaLabel = false,
 }: AtipyIconProps) => {
   const sizeClass = new Map<string, string>([
     ['xxs', 'w-[12px] h-[12px]'],
@@ -81,6 +79,10 @@ export const AtipyIcon = ({
     ['mxl', 'w-[56px] h-[56px]'],
     ['xxl', 'w-[102px] h-[102px]'],
     ['full', 'w-full h-full'],
+  ]);
+
+  const ariaLabels = new Map<ATIPY_ICON, string>([
+    [ATIPY_ICON.ARROW_DOWN, 'Flèche vers le bas'],
   ]);
 
   const icons = new Map<ATIPY_ICON, AtipyIconElement>([
@@ -111,7 +113,7 @@ export const AtipyIcon = ({
     <Icon
       className={clsxm(sizeClass.get(size), className)}
       aria-hidden={Boolean(isAriaHidden)}
-      aria-label={Boolean(isAriaLabel)}
+      aria-label={ariaLabels.get(type) || 'icone atipy'}
     />
   );
 };
