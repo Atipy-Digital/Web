@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/Atipy-Digital/Web/compare/v1.0.1...v1.0.2) (2024-05-31)
+
+
+### Bug Fixes
+
+* **layout:** ajout du lien pour le sitemap dans le footer ([#59](https://github.com/Atipy-Digital/Web/issues/59)) ([e793ca5](https://github.com/Atipy-Digital/Web/commit/e793ca5185cba7eea902fdfac8599ee47acd7222))
+
 ## [1.0.1](https://github.com/Atipy-Digital/Web/compare/v1.0.0...v1.0.1) (2024-03-29)
 
 
