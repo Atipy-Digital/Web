@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/Atipy-Digital/Web/compare/v1.0.2...v1.1.0) (2024-05-31)
+
+
+### Features
+
+* **image, titre:** Ajouter des paramètre aria pour les image dans decap & pour les titre du rich texte ([#61](https://github.com/Atipy-Digital/Web/issues/61)) ([fb4d873](https://github.com/Atipy-Digital/Web/commit/fb4d873108cd62b7d9da147dd7f0425829f3755b))
+
 ## [1.0.2](https://github.com/Atipy-Digital/Web/compare/v1.0.1...v1.0.2) (2024-05-31)
 
 
