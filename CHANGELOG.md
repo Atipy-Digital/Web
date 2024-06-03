@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/Atipy-Digital/Web/compare/v1.1.0...v1.2.0) (2024-06-03)
+
+
+### Features
+
+* **icons:** add aria labels to all icon components ([#63](https://github.com/Atipy-Digital/Web/issues/63)) ([597c001](https://github.com/Atipy-Digital/Web/commit/597c001859d4394ab96ae485950d43da5c0d9a45))
+
 ## [1.1.0](https://github.com/Atipy-Digital/Web/compare/v1.0.2...v1.1.0) (2024-05-31)
 
 
