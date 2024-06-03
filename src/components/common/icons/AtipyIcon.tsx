@@ -82,7 +82,25 @@ export const AtipyIcon = ({
   ]);
 
   const ariaLabels = new Map<ATIPY_ICON, string>([
+    [ATIPY_ICON.SUN, 'Icône soleil'],
+    [ATIPY_ICON.MOON, 'Icône lune'],
+    [ATIPY_ICON.CROSS, 'Icône croix'],
+    [ATIPY_ICON.INSTA, 'Icône Instagram'],
+    [ATIPY_ICON.LINKEDIN, 'Icône LinkedIn'],
+    [ATIPY_ICON.TWITTER, 'Icône Twitter'],
     [ATIPY_ICON.ARROW_DOWN, 'Flèche vers le bas'],
+    [ATIPY_ICON.ARROW_UP, 'Flèche vers le haut'],
+    [ATIPY_ICON.ARROW_LEFT, 'Flèche vers la gauche'],
+    [ATIPY_ICON.PHONE, 'Icône téléphone'],
+    [ATIPY_ICON.ENVELOP, 'Icône enveloppe'],
+    [ATIPY_ICON.ARROW_RIGHT, 'Flèche vers la droite'],
+    [ATIPY_ICON.CLOCK, 'Icône horloge'],
+    [ATIPY_ICON.ARROW_CIRCLE_LEFT, 'Flèche circulaire vers la gauche'],
+    [ATIPY_ICON.ARROW_CIRCLE_RIGHT, 'Flèche circulaire vers la droite'],
+    [ATIPY_ICON.ABOUT, 'Icône à propos'],
+    [ATIPY_ICON.PARTNERS, 'Icône partenaires'],
+    [ATIPY_ICON.CONCEPTION, 'Icône conception'],
+    [ATIPY_ICON.TRIBU, 'Icône tribu'],
   ]);
 
   const icons = new Map<ATIPY_ICON, AtipyIconElement>([
