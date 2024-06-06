@@ -111,6 +111,10 @@ sections:
 
           **Pays de La Loire** 
           Réalisation d’audit de point d’arrêt bus (Aléops)
+
+          **Communauté d’Agglomération de Bastia** 
+
+          Réalisation du SDA-AD’AP
         color: blue
     col3:
       reverseMobile: false
