@@ -110,10 +110,9 @@ sections:
           Réalisation d’un schéma directeur d’accessibilité de la voirie 
 
           **Pays de La Loire** 
-          Réalisation d’audit de point d’arrêt bus (Aléops)
+          Réalisation d’audit de point d’arrêt bus (Aléops) 
 
           **Communauté d’Agglomération de Bastia** 
-
           Réalisation du SDA-AD’AP
         color: blue
     col3:
