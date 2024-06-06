@@ -47,7 +47,7 @@ context_body: >-
 project_tags:
   - Signalétique
   - Design
-  - Voirie
+  - Mobilité
 project_sections:
   - inverseCol: false
     col1:
