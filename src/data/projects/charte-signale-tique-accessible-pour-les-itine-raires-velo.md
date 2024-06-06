@@ -28,6 +28,7 @@ project_tags:
   - Signalétique
   - Design
   - FALC
+  - Mobilité
 project_sections:
   - col1:
       reverseMobile: false
