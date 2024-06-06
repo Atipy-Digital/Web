@@ -43,9 +43,6 @@ tag:
     label: Médico-social
     color: default
   - type: business
-    label: Mobilité
-    color: default
-  - type: business
     label: Santé
     color: default
   - type: business
