@@ -34,6 +34,9 @@ tag:
     label: Identité visuelle
     color: a-green
   - type: expertise
+    label: Mobilité
+    color: a-yellow
+  - type: expertise
     label: Référentiels
     color: a-blue
   - type: expertise
