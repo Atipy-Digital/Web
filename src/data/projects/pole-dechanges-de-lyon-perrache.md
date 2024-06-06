@@ -31,6 +31,7 @@ context_body: >-
   [Benoit Beroud](http://www.mobiped.com/)
 project_tags:
   - Signalétique
+  - Mobilité
 project_sections:
   - inverseCol: false
     col1:
