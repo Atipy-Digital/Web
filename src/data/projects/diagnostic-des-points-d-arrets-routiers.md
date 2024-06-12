@@ -38,7 +38,7 @@ project_sections:
         content: "![Extrait de l'application mobile utilisée pour saisir les
           caractéristiques des points d'arrêts, ici les champs liés à la
           sécurité (Zébra, positionnement du passage piéton, panneaux routiers,
-          etc.)](/media/reference-ingenierie-aleop-4.jpg \"aa \")"
+          etc.)](/media/reference-ingenierie-aleop-4.jpg \"afddsfdsfdsdfs\")"
     col2:
       reverseMobile: false
     col3:
