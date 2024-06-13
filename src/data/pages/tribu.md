@@ -34,7 +34,7 @@ members:
       - text: Diagnostiqueur multi-technique
     image: /media/jean-marie.jpg
   - name: Guillaume Wemelle
-    image: /media/guillaume.webp
+    image: /media/guillaume.jpg
     skills:
       - text: Partenariats
       - text: Appel d’offre
@@ -54,7 +54,7 @@ members:
       color: a-green
     linkedin: https://www.linkedin.com/in/melissa-jay/
   - name: Florent Paumier
-    image: /media/florent.webp
+    image: /media/florent.jpg
     skills:
       - text: Accessibilité numérique
       - text: Développement de logiciels
@@ -134,7 +134,7 @@ members:
       - text: Logistique
     image: /media/julie-bouchez-martin.jpg
   - name: Daviani Fillatre
-    image: /media/atipy-daviani-fillatre.jpeg
+    image: /media/daviani.jpg
     badge:
       color: a-red
       label: Le logique
