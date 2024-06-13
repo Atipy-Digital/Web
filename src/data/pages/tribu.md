@@ -32,7 +32,7 @@ members:
       - text: Accessibilité
       - text: Conception universelle
       - text: Diagnostiqueur multi-technique
-    image: /media/jean-marie.webp
+    image: /media/jean-marie.jpg
   - name: Guillaume Wemelle
     image: /media/guillaume.webp
     skills:
@@ -44,7 +44,7 @@ members:
       label: L’audacieux
     linkedin: https://www.linkedin.com/in/guillaumewemelle/
   - name: Mélissa Jay
-    image: /media/melissa.webp
+    image: /media/melissa.jpg
     skills:
       - text: Design signalétique
       - text: Graphisme
