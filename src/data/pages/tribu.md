@@ -143,4 +143,14 @@ members:
       - text: Applications
       - text: Innovation
       - text: Viabilité
+  - badge:
+      color: a-yellow
+      label: Le géographe
+    name: Pierre Bagliotto
+    image: /media/pierre.jpg
+    skills:
+      - text: Mobilité
+      - text: Cartographie
+      - text: Urbanisme
+    linkedin: https://www.linkedin.com/in/pierre-bagliotto-3104309a/
 ---
