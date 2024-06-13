@@ -94,7 +94,7 @@ members:
       - text: Communication
       - text: Facturation
   - name: Sébastien Montalan
-    image: /media/sebastien_nb.jpg
+    image: /media/sebastien.jpg
     badge:
       color: a-blue
       label: Le pointilleux
@@ -104,7 +104,7 @@ members:
       - text: Urbanisme
       - text: Diagnostic multi-technique
   - name: Pierre-Yves Bourghelle
-    image: /media/pierre_yves_nb.jpg
+    image: /media/pierre-yves.jpg
     badge:
       color: a-blue
       label: Le rigoureux
@@ -114,7 +114,7 @@ members:
       - text: Conseil
     linkedin: https://www.linkedin.com/in/pierre-yves-bourghelle-12538a76/
   - name: Léa Léauté
-    image: /media/le-a-le-aute-.jpg
+    image: /media/lea.jpg
     badge:
       color: a-blue
       label: La voyageuse
