@@ -78,7 +78,7 @@ members:
       - text: Accessibilité
       - text: Conception universelle
       - text: Concertation
-    image: /media/antoine.webp
+    image: /media/antoine.jpg
     badge:
       label: Le facilitateur
       color: a-blue
@@ -132,7 +132,7 @@ members:
       - text: Accessibilité
       - text: Relevé multi-technique
       - text: Logistique
-    image: /media/julie-bouchez-martin.jpg
+    image: /media/julie-b.jpg
   - name: Daviani Fillatre
     image: /media/daviani.jpg
     badge:
