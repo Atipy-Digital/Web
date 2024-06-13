@@ -64,7 +64,7 @@ members:
       color: a-red
     linkedin: https://www.linkedin.com/in/florent-paumier-83a48958/
   - name: Adeline Richez
-    image: /media/adeline.webp
+    image: /media/adeline.jpg
     skills:
       - text: Conception universelle
       - text: Design signalétique
@@ -84,7 +84,7 @@ members:
       color: a-blue
     linkedin: https://www.linkedin.com/in/antoine-tesson-6935a180/
   - name: Julie Mesnard
-    image: /media/julie-mesnard-nb.jpg
+    image: /media/julie-m.jpg
     badge:
       label: La consciencieuse
       color: a-green
