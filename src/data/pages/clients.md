@@ -9,7 +9,7 @@ sections:
       text:
         content: >-
           ### Villes, Communauté de Communes, Communauté d’Agglomération,
-          Communauté Urbaine 
+          Communauté Urbaine
 
 
           Ville de Paris
@@ -39,6 +39,9 @@ sections:
           Ville de Bobigny
 
 
+          Ville de Nantes
+
+
           Ville de Saint-Denis
 
 
@@ -54,10 +57,16 @@ sections:
           Grand Lyon Métropole
 
 
+          Nantes Métropole
+
+
+          Rennes Métropole
+
+
+          Lorient Agglomération
+
+
           Maconnais-Beaujolais Agglomération
-
-
-          Rennes métropole
 
 
           C﻿ommune de l'Ile de Bréhat
@@ -73,6 +82,9 @@ sections:
 
 
           D﻿épartement du Var
+
+
+          Département de Seine-Saint Denis
 
 
           Région Bretagne
