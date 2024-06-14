@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/Atipy-Digital/Web/compare/v1.2.0...v1.3.0) (2024-06-14)
+
+
+### Features
+
+* **accessibility:** add aria attributes to project collection ([#66](https://github.com/Atipy-Digital/Web/issues/66)) ([c4c0a36](https://github.com/Atipy-Digital/Web/commit/c4c0a36cb4345b963d73c1df2541f994dcf22367))
+
 ## [1.2.0](https://github.com/Atipy-Digital/Web/compare/v1.1.0...v1.2.0) (2024-06-03)
 
 
