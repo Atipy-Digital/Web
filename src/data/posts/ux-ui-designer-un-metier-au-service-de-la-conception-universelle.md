@@ -129,10 +129,13 @@ post_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Trois personnes cheminent dans la rue. L'un est utilisateur de
-          fauteuil, l'une utilise une canne blanche. Elle se retrouve arrêtée
-          par une
-          barrière.](/media/concertation-handicap-association-atipy.jpg)"
+        content: ""
+      image:
+        url: /media/concertation-handicap-association-atipy.jpg
+        alt: Trois personnes cheminent dans la rue. L'un est utilisateur de fauteuil,
+          l'une utilise une canne blanche. Elle se retrouve arrêtée par une
+          barrière.
+        ariaHidden: true
     col3:
       reverseMobile: false
 source:

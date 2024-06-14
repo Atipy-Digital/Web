@@ -23,9 +23,12 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Vue sur une rivière avec de la verdure autour. Un sentier longe la
-          rivière et une personne en fauteuil roulant s'y
-          engage.](/media/offer-w-access-mobilite_actives.jpg)"
+        content: ""
+      image:
+        url: /media/offer-w-access-mobilite_actives.jpg
+        ariaHidden: true
+        alt: Vue sur une rivière avec de la verdure autour. Un sentier longe la rivière
+          et une personne en fauteuil roulant s'y engage.
     col2:
       reverseMobile: false
     col3:
@@ -89,17 +92,24 @@ sections:
     col2:
       reverseMobile: true
       text:
-        content: "![Extrait d'un schéma directeur cyclable montrant les itinéraires
-          analysés.](/media/carto-mobilite-atipy.jpg)"
+        content: ""
+      image:
+        url: /media/carto-mobilite-atipy.jpg
+        alt: Extrait d'un schéma directeur cyclable montrant les itinéraires analysés.
+        ariaHidden: true
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: "![Consultante d'Atipy en train de relever des dimensions aux abords
-          d'un abribus.](/media/accessibilite-transports-atipy.jpg \"Audit arrêt
-          de bus\")"
+        content: ""
+      image:
+        url: /media/accessibilite-transports-atipy.jpg
+        alt: Consultante d'Atipy en train de relever des dimensions aux abords d'un
+          abribus.
+        ariaHidden: true
+        legend: Audit arrêt de bus
     col2:
       reverseMobile: false
       text:

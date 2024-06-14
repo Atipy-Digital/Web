@@ -68,8 +68,12 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Page d'un site internet mettant en scène des personnages qui apporte
-          un témoignage.](/media/ux-ui-design-digital-urbalyon-atipy.jpg)"
+        content: ""
+      image:
+        url: /media/ux-ui-design-digital-urbalyon-atipy.jpg
+        alt: Page d'un site internet mettant en scène des personnages qui apporte un
+          témoignage.
+        ariaHidden: true
     col3:
       reverseMobile: false
   - inverseCol: false

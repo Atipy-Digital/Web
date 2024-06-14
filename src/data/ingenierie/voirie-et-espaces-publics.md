@@ -26,8 +26,12 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Exemple d'un relevé PAVE : vue du plan d'une ville avec des points
-          de relevés de couleurs rouge, noir ou jaune.](/media/pave-atipy.jpg)"
+        content: ""
+      image:
+        url: /media/pave-atipy.jpg
+        alt: "Exemple d'un relevé PAVE : vue du plan d'une ville avec des points de
+          relevés de couleurs rouge, noir ou jaune."
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -100,8 +104,11 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Une rue d'une petite ville
-          calme](/media/pave-accessibilite-voirie-atipy.jpg)"
+        content: ""
+      image:
+        alt: Une rue d'une petite ville calme
+        url: /media/pave-accessibilite-voirie-atipy.jpg
+        ariaHidden: true
     col3:
       reverseMobile: false
 footer:

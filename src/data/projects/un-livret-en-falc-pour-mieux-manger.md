@@ -12,6 +12,7 @@ image:
   url: /media/design-reference-solidel-atipy-1.jpg
   alt: Couverture du livret. Elle est jaune avec le texte en blanc et quelques
     illustrations représentant des aliments.
+  ariaHidden: true
 project_client: solidel
 mission_body: Conception et illustration d’un livret d’accompagnement en [Facile
   À Lire et à Comprendre
@@ -32,12 +33,19 @@ project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
+      image:
+        url: /media/design-reference-solidel-atipy-4.jpg
+        ariaHidden: true
+        alt: Exemple d'une double page du livret
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
       text:
         content: >-
-          ![Exemple d'une double page du
-          livret](/media/design-reference-solidel-atipy-4.jpg)
-
-
           #### Utilisation de la méthode FALC
 
 
@@ -60,13 +68,19 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Détail d'un exemple de menu sur la
-          journée](/media/design-reference-solidel-atipy-2.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-solidel-atipy-2.jpg
+        alt: Détail d'un exemple de menu sur la journée
+        ariaHidden: true
     col2:
       reverseMobile: false
       text:
-        content: "![Zoom sur les illustrations d'une page du
-          livret](/media/design-reference-solidel-atipy-3.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-solidel-atipy-3.jpg
+        alt: Zoom sur les illustrations d'une page du livret
+        ariaHidden: true
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -89,13 +103,19 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Zoom sur le classement par couleur du
-          livret](/media/design-reference-solidel-atipy-5.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-solidel-atipy-5.jpg
+        alt: Zoom sur le classement par couleur du livret
+        ariaHidden: true
     col2:
       reverseMobile: false
       text:
-        content: '![Zoom sur la page "conseils pour éviter de
-          gaspiller"](/media/design-reference-solidel-atipy-6.jpg)'
+        content: ""
+      image:
+        url: /media/design-reference-solidel-atipy-6.jpg
+        alt: Zoom sur la page "conseils pour éviter de gaspiller"
+        ariaHidden: true
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -122,8 +142,11 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Pages intérieures du
-          livret](/media/design-reference-solidel-atipy-7.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-solidel-atipy-7.jpg
+        alt: Pages intérieures du livret
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:

@@ -63,8 +63,11 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Plan d'architecte avec un crayon et une règle posés
-          dessus.](/media/diagnostic-accessibilite-erp-iop-bhc-atipy.jpg)"
+        content: ""
+      image:
+        url: /media/diagnostic-accessibilite-erp-iop-bhc-atipy.jpg
+        ariaHidden: true
+        alt: Plan d'architecte avec un crayon et une règle posés dessus.
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -94,19 +97,24 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Extrait d'une référentiel d'accessibilité sous forme de
-          tableau](/media/atipy-adequat-ville-clichy-communication-signaletique\
-          -audit-accessibilite-handicap.jpg \"Le référentiel d'accessibilité
-          \")"
+        content: ""
+      image:
+        alt: Extrait d'une référentiel d'accessibilité sous forme de tableau
+        ariaLabel: "Le référentiel d'accessibilité "
+        ariaHidden: true
+        url: /media/atipy-adequat-ville-clichy-communication-signaletique-audit-accessibilite-handicap.jpg
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: true
       text:
-        content: "![Plusieurs smiley cote à cote allant de visage le moins content en
-          rouge au visage le plus souriant en
-          vert.](/media/registre-accessibilite-erp-atipy.jpg)"
+        content: ""
+      image:
+        url: /media/registre-accessibilite-erp-atipy.jpg
+        alt: Plusieurs smiley cote à cote allant de visage le moins content en rouge au
+          visage le plus souriant en vert.
+        ariaHidden: true
     col2:
       reverseMobile: false
       text:

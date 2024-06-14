@@ -12,6 +12,7 @@ title: Signalétique d'orientation accessible et facile à comprendre
 image:
   url: /media/design-reference-bateau-feu-atipy-1.jpg
   alt: façade entièrement vitrée du théâtre avec des adhésifs colorés
+  ariaHidden: true
 project_client: le-bateau-feu
 mission_body: Conception d’une signalétique d’orientation du public accessible
   et facile à comprendre au sein du théâtre.
@@ -35,8 +36,11 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Plan d'implantation du niveau 0 du Bateau Feu - scène
-          nationale](/media/design-reference-bateau-feu-atipy-2.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-bateau-feu-atipy-2.jpg
+        ariaHidden: true
+        alt: Plan d'implantation du niveau 0 du Bateau Feu - scène nationale
     col2:
       reverseMobile: false
       text:
@@ -71,12 +75,25 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: >-
-          ![Déclinaison de la charte signalétique sur les directionnelles et les
-          plaques portes](/media/design-reference-bateau-feu-atipy-5.jpg)
-
-
-          #### Une charte signalétique accessible au plus grand nombre
+        content: ""
+      image:
+        url: /media/design-reference-bateau-feu-atipy-5.jpg
+        alt: Déclinaison de la charte signalétique sur les directionnelles et les
+          plaques portes
+        ariaHidden: true
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "#### Une charte signalétique accessible au plus grand nombre"
+      image:
+        url: ""
+        ariaHidden: false
+        alt: ""
     col2:
       reverseMobile: false
     col3:
@@ -116,13 +133,19 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Code couleur de la charte signalétique du
-          bâtiment](/media/design-reference-bateau-feu-atipy-3.jpg)"
+        content: ""
+      image:
+        ariaHidden: true
+        alt: Code couleur de la charte signalétique du bâtiment
+        url: /media/design-reference-bateau-feu-atipy-3.jpg
     col2:
       reverseMobile: false
       text:
-        content: "![Détail d'une typologie de support : Directionnel mural - Grand
-          format](/media/design-reference-bateau-feu-atipy-4.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-bateau-feu-atipy-4.jpg
+        ariaHidden: true
+        alt: "Détail d'une typologie de support : Directionnel mural - Grand format"
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -130,18 +153,14 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          
-
           #### La création d’un catalogue de pictogrammes
 
 
           Les pictogrammes sont des outils importants pour favoriser la bonne compréhension des informations. Au delà de leur aspect ludiques, ils sont utiles pour les non-lecteurs : enfants, troubles DYS, langue étrangère… Chaque espace est identifié par un pictogramme conçu spécifiquement pour Le Bateau Feu. Les pictogrammes sont contrastés et faciles à comprendre.
-
-
-          ![Exemple de quatre pictogrammes issue de la charte signalétique](/media/design-reference-bateau-feu-atipy-7.jpg)
-
-
-          ![Exemple d'application des pictogrammes sur des panneaux directionnels](/media/design-reference-bateau-feu-atipy-6.jpg)
+      image:
+        url: /media/design-reference-bateau-feu-atipy-7.jpg
+        alt: Exemple de quatre pictogrammes issue de la charte signalétique
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -149,16 +168,35 @@ project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
+      image:
+        url: /media/design-reference-bateau-feu-atipy-6.jpg
+        alt: Exemple d'application des pictogrammes sur des panneaux directionnels
+        ariaHidden: true
+    col2:
+      reverseMobile: false
       text:
-        content: "![Exemple de mise en application de la charte signalétique
-          ](/media/design-reference-bateau-feu-atipy-8.jpg)"
+        content: ""
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: ""
+      image:
+        url: /media/design-reference-bateau-feu-atipy-8.jpg
+        alt: "Exemple de mise en application de la charte signalétique "
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
       reverseMobile: false
       text:
-        content: "![Exemple de mise en application de la charte signalétique
-          ](/media/design-reference-bateau-feu-atipy-9.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-bateau-feu-atipy-9.jpg
+        alt: "Exemple de mise en application de la charte signalétique "
+        ariaHidden: true
 projectsFeatured:
   - signaletique-de-la-treso-tiers-lieu
   - signaletique-accessibles-des-etablissements-culturels-de-clichy

@@ -24,12 +24,13 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![A droite, on voit une conférence avec 4 intervenants. A gauche, un
-          formateur montre à l'écran un exemple de signalétique
-          accessible.](/media/formations-conferences-atelier-atipy.jpg)"
+        content: ""
       image:
-        url: ""
+        url: /media/formations-conferences-atelier-atipy.jpg
         legend: ""
+        alt: A droite, on voit une conférence avec 4 intervenants. A gauche, un
+          formateur montre à l'écran un exemple de signalétique accessible.
+        ariaHidden: true
     col2:
       reverseMobile: false
       text:
@@ -67,10 +68,12 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Exemple de carte de la France en couleurs avec une simulation à
-          droite de la vision de cette carte par une personnes
-          daltonienne.](/media/accessibilite-numerique-daltonisme-contrastes-at\
-          ipy.png)"
+        content: ""
+      image:
+        url: /media/accessibilite-numerique-daltonisme-contrastes-atipy.png
+        alt: Exemple de carte de la France en couleurs avec une simulation à droite de
+          la vision de cette carte par une personnes daltonienne.
+        ariaHidden: true
     col3:
       reverseMobile: false
   - inverseCol: false

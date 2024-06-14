@@ -11,6 +11,7 @@ title: Signalétique accessible Centre d'Action Médico-Sociale Précoce Paris N
 image:
   url: /media/design-reference-camsp-paris-nord-atipy-1.jpg
   alt: Entrée vitrée avec un décor adhésif abstrait de traits jaunes et oranges.
+  ariaHidden: true
 project_client: les-jours-heureux
 mission_body: Créer la signalétique du CAMSP Paris Nord, accessible aux enfants
   et à leurs parents.
@@ -31,8 +32,11 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Exemple de directionnelles installées au rez-de-chaussé du
-          bâtiment](/media/design-reference-camsp-paris-nord-atipy-9.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-camsp-paris-nord-atipy-9.jpg
+        alt: Exemple de directionnelles installées au rez-de-chaussé du bâtiment
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -70,10 +74,21 @@ project_sections:
     col1:
       reverseMobile: false
       text:
+        content: ""
+      image:
+        url: /media/design-reference-camsp-paris-nord-atipy-2.jpg
+        ariaHidden: true
+        alt: Prototype des plaques et du support manipulable réalisés pour le projet
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: >-
-          ![Prototype des plaques et du support manipulable réalisés pour le
-          projet ](/media/design-reference-camsp-paris-nord-atipy-2.jpg)
-
+          
 
           ![Photographie d'une des directionnelle installée dans le bâtiment](/media/design-reference-camsp-paris-nord-atipy-3.jpg)
 
@@ -115,11 +130,13 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Enfant devant une porte montrant une plaque de porte à hauteur de sa
-          tete. Enfant debout devant une porte bleue avec 2 plaques de porte à
-          deux hauteurs
-          différentes.](/media/reference-atipy-design-camps-signaletique-jours-\
-          heureux-12.jpg)"
+        content: ""
+      image:
+        url: /media/reference-atipy-design-camps-signaletique-jours-heureux-12.jpg
+        alt: Enfant devant une porte montrant une plaque de porte à hauteur de sa tete.
+          Enfant debout devant une porte bleue avec 2 plaques de porte à deux
+          hauteurs différentes.
+        ariaHidden: true
     col2:
       reverseMobile: false
       text:
@@ -130,8 +147,11 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Exemple de support modulable entrain d'etre
-          manipulé](/media/design-reference-camsp-paris-nord-atipy-6.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-camsp-paris-nord-atipy-6.jpg
+        alt: Exemple de support modulable entrain d'etre manipulé
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -140,13 +160,19 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Exemple de support contenant les trois modules
-          amovibles](/media/design-reference-camsp-paris-nord-atipy-7.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-camsp-paris-nord-atipy-7.jpg
+        ariaHidden: true
+        alt: Exemple de support contenant les trois modules amovibles
     col2:
       reverseMobile: false
       text:
-        content: "![Exemple de plaque porte identifiant l'espace de
-          stockage](/media/design-reference-camsp-paris-nord-atipy-8.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-camsp-paris-nord-atipy-8.jpg
+        ariaHidden: true
+        alt: Exemple de plaque porte identifiant l'espace de stockage
     col3:
       reverseMobile: false
 projectsFeatured:

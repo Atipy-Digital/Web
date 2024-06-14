@@ -10,6 +10,7 @@ title: Signalétique Pôle d'échanges Multimodal
 image:
   url: /media/design-reference-pole-echange-lyon-atipy-1.jpg
   alt: Vue sur un mât directionnel mis en place.
+  ariaHidden: true
 project_client: lyon-confluence-1
 mission_body: Conception de la signalétique piétonne pour l’orientation des usagers.
 context_body: >-
@@ -36,9 +37,12 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Univers graphique déployé pour la signalétique de ce pole d'échange
-          (typographie, pictogramme et
-          couleur)](/media/design-reference-pole-echange-lyon-atipy-2.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-pole-echange-lyon-atipy-2.jpg
+        ariaHidden: true
+        alt: Univers graphique déployé pour la signalétique de ce pole d'échange
+          (typographie, pictogramme et couleur)
     col2:
       reverseMobile: false
     col3:
@@ -54,10 +58,6 @@ project_sections:
           * Aide à l’orientation pour les piétons et cyclistes, habitants de Lyon ou de passage.
 
           * Valorisation des points attractifs de la Ville de Lyon.
-
-
-
-
 
 
           ![Totem signalétique mis en place sur le pole multimodal](/media/design-reference-pole-echange-lyon-atipy-3.jpg)
@@ -85,21 +85,39 @@ project_sections:
 
 
           Une signalétique visible est une signalétique facile à repérer. Le contraste avec l’environnement est donc important, ainsi que sa systématisation. En effet, la signalétique est un support mettant en avant l’identité de la ville. Nous créons ainsi un repère récurrent et un jalonnement systématique. L’essentiel est de maintenir la chaine de l’information continue afin de ne pas créer de rupture dans le cheminement.
+      image:
+        url: /media/design-reference-pole-echange-lyon-atipy-3.jpg
+        ariaHidden: true
+        alt: Totem signalétique mis en place sur le pole multimodal
     col2:
       reverseMobile: false
+      text:
+        content: ""
+      image:
+        url: ""
+        ariaHidden: false
+        alt: ""
     col3:
       reverseMobile: false
+      text:
+        content: ""
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: "![Zoom sur les lames d'un mat
-          directionnel](/media/design-reference-pole-echange-lyon-atipy-5.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-pole-echange-lyon-atipy-5.jpg
+        alt: Zoom sur les lames d'un mat directionnel
+        ariaHidden: true
     col2:
       reverseMobile: false
       text:
-        content: "![Exemple d'un support type
-          totem](/media/design-reference-pole-echange-lyon-atipy-6.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-pole-echange-lyon-atipy-6.jpg
+        ariaHidden: true
+        alt: Exemple d'un support type totem
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -130,8 +148,16 @@ project_sections:
 
 
           ![Zoom sur les lames d'un mat directionnel](/media/design-reference-pole-echange-lyon-atipy-8.jpg)
+      image:
+        url: ""
+        alt: ""
+        ariaHidden: false
     col2:
       reverseMobile: false
+      image:
+        alt: ""
+        url: ""
+        ariaHidden: false
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -150,8 +176,11 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Zoom sur un support directionnel mural
-          ](/media/design-reference-pole-echange-lyon-atipy-9.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-pole-echange-lyon-atipy-9.jpg
+        alt: "Zoom sur un support directionnel mural "
+        ariaHidden: true
     col3:
       reverseMobile: false
 projectsFeatured:

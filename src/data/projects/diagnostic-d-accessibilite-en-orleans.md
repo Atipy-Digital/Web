@@ -11,6 +11,7 @@ title: Diagnostic d’accessibilité en Orléans
 image:
   url: /media/reference-ingenierie-orleans-1.jpg
   alt: Entrée du Campo Santo d'Orléans avec trois arches donnant sur un cloitre
+  ariaHidden: true
 project_client: ville-dorleans
 mission_body: Diagnostics pour la mise en accessibilité des bâtiments ERP de la
   ville d’Orléans
@@ -29,14 +30,17 @@ project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
-      text:
-        content: "![Photographie du théâtre
-          d'Orléans](/media/reference-ingenierie-orleans-2.jpg)"
+      image:
+        url: /media/reference-ingenierie-orleans-2.jpg
+        alt: Photographie du théâtre d'Orléans
+        ariaHidden: true
     col2:
       reverseMobile: false
-      text:
-        content: "![Illustration d'un tableau de synthèse des actions de mise en
-          accessibilité ](/media/reference-ingenierie-orleans-3.jpg)"
+      image:
+        url: /media/reference-ingenierie-orleans-3.jpg
+        alt: "Illustration d'un tableau de synthèse des actions de mise en accessibilité
+          "
+        ariaHidden: true
     col3:
       reverseMobile: false
   - inverseCol: false

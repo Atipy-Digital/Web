@@ -10,9 +10,12 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Une personne est autour d'une table devant son ordinateur. Elle fait
-          des gestes avec ses mains, on ne voit pas son
-          visage.](/media/conseil-assitance-maitrise-ouvrage.jpg)"
+        content: ""
+      image:
+        url: /media/conseil-assitance-maitrise-ouvrage.jpg
+        ariaHidden: true
+        alt: Une personne est autour d'une table devant son ordinateur. Elle fait des
+          gestes avec ses mains, on ne voit pas son visage.
     col2:
       reverseMobile: false
       text:
@@ -91,12 +94,13 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![A gauche, un formateur est dans une salle avec 9 personnes autour
-          d'une table. A droite, il s'agit d'une conférence avec une
-          intervenante dans une salle
-          amphithéâtre.](/media/formation-atipy-accessibilite-handicap.png)"
+        content: ""
       image:
-        url: ""
+        url: /media/formation-atipy-accessibilite-handicap.png
+        alt: A gauche, un formateur est dans une salle avec 9 personnes autour d'une
+          table. A droite, il s'agit d'une conférence avec une intervenante dans
+          une salle amphithéâtre.
+        ariaHidden: true
     col2:
       reverseMobile: false
       text:

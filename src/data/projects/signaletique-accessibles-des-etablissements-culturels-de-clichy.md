@@ -9,6 +9,7 @@ title: "Signalétique accessible des établissements culturels de Clichy "
 image:
   url: /media/design-reference-clichy-atipy-1.jpg
   alt: Auditorium du conservatoire avec un piano sur la scène.
+  ariaHidden: true
 project_client: ville-de-clichy
 mission_body: Audit et préconisations pour la communication et la signalétique
   accessibles des établissements culturels
@@ -71,9 +72,11 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Aperçu du rapport d'audit sous forme de
-          tableau](/media/atipy-adequat-ville-clichy-communication-signaletique\
-          -audit-accessibilite-handicap.jpg)"
+        content: ""
+      image:
+        url: /media/atipy-adequat-ville-clichy-communication-signaletique-audit-accessibilite-handicap.jpg
+        ariaHidden: true
+        alt: Aperçu du rapport d'audit sous forme de tableau
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -112,9 +115,12 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Aperçu du cahier de préconisations pour l'accessibilité de
-          l'information à tous les
-          publics.](/media/design-reference-clichy-atipy-2.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-clichy-atipy-2.jpg
+        alt: Aperçu du cahier de préconisations pour l'accessibilité de l'information à
+          tous les publics.
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -123,10 +129,12 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Charte signalétique détaillant les support pour le Pavillon Vendome.
-          On voit un totem noir avec du texte
-          beige.](/media/atipy-clichy-signaletique-culture-accessibilite-charte\
-          -signale-tique-1.png)"
+        content: ""
+      image:
+        alt: Charte signalétique détaillant les support pour le Pavillon Vendome. On
+          voit un totem noir avec du texte beige.
+        ariaHidden: true
+        url: /media/atipy-clichy-signaletique-culture-accessibilite-charte-signale-tique-1.png
     col2:
       reverseMobile: false
     col3:

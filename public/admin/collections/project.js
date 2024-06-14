@@ -31,6 +31,18 @@ const project = {
           choose_url: false,
         },
         {
+          name: 'ariaHidden',
+          label: 'Aria Hidden',
+          required: false,
+          widget: 'boolean',
+        },
+        {
+          name: 'ariaLabel',
+          label: 'Aria Label',
+          required: false,
+          widget: 'string',
+        },
+        {
           label: 'Texte alternatif',
           name: 'alt',
           widget: 'string',

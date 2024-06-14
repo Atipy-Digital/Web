@@ -35,11 +35,12 @@ sections:
     col1:
       reverseMobile: false
       image:
-        url: ""
+        url: /media/design-livret-falc-msa-mieux-manger-atipy.jpg
+        ariaHidden: true
+        alt: Couverture du livret FALC "Mon petit livret pour bien manger". La
+          couverture est jaune avec des illustrations d'aliments.
       text:
-        content: "![Couverture du livret FALC \"Mon petit livret pour bien manger\". La
-          couverture est jaune avec des illustrations
-          d'aliments.](/media/design-livret-falc-msa-mieux-manger-atipy.jpg)"
+        content: ""
     col2:
       reverseMobile: false
     col3:
@@ -76,9 +77,12 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Pages intérieures du livret FALC pour bien manger. Il y a des
-          propositions de menus
-          illustrées.](/media/design-livret-falc-msa-mieux-manger-atipy-2.jpg)"
+        content: ""
+      image:
+        url: /media/design-livret-falc-msa-mieux-manger-atipy-2.jpg
+        ariaHidden: true
+        alt: Pages intérieures du livret FALC pour bien manger. Il y a des propositions
+          de menus illustrées.
     col3:
       reverseMobile: false
       text:
@@ -129,9 +133,12 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Extrait d'un flyer du CCAS de Béthune sur la domiciliation avec des
-          illustrations oranges et
-          noires.](/media/bethune-guide-falc-ccas-atipy-5.jpg)"
+        content: ""
+      image:
+        url: /media/bethune-guide-falc-ccas-atipy-5.jpg
+        alt: Extrait d'un flyer du CCAS de Béthune sur la domiciliation avec des
+          illustrations oranges et noires.
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -179,10 +186,12 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Extrait d'une vidéo motion design en langage clair sous titrée. Une
-          femme et un homme sont face à face en train de
-          discuter.](/media/realisation-video-motion-design-pcb-accessibilite-f\
-          alc.jpg)"
+        content: ""
+      image:
+        url: /media/realisation-video-motion-design-pcb-accessibilite-falc.jpg
+        ariaHidden: true
+        alt: Extrait d'une vidéo motion design en langage clair sous titrée. Une femme
+          et un homme sont face à face en train de discuter.
     col3:
       reverseMobile: false
 footer:

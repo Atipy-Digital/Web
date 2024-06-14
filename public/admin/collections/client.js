@@ -25,6 +25,18 @@ const client = {
       allow_multiple: false,
     },
     {
+      name: 'ariaHidden',
+      label: 'Aria Hidden',
+      required: false,
+      widget: 'boolean',
+    },
+    {
+      name: 'ariaLabel',
+      label: 'Aria Label',
+      required: false,
+      widget: 'string',
+    },
+    {
       label: 'Tag',
       name: 'client_tags',
       widget: 'relation',

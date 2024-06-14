@@ -12,6 +12,7 @@ image:
   url: /media/realisation-signaletique-la-tre-so-malakoff-atipy-1.jpg
   alt: Enseigne en néon lumineux avec le logo de la Tréso et vue sur l'escalier
     central avec mosaïque au sol.
+  ariaHidden: true
 project_client: la-treso
 mission_body: Conception de la signalétique du tiers-lieu La Tréso à Malakoff.
 context_body: Le bâtiment est construit en 1933 par Armand Guérard, architecte
@@ -44,17 +45,23 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![](/media/realisation-signaletique-la-tre-so-malakoff-pictogramme-at\
-          ipy-2.jpg)"
+        content: ""
+      image:
+        url: /media/realisation-signaletique-la-tre-so-malakoff-pictogramme-atipy-2.jpg
+        ariaHidden: true
+        alt: Ensemble de pictogrammes gravés sur des plaquettes de bois carrées.
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: '![](/media/realisation-signaletique-la-tre-so-malakoff-bois-atipy-pictogrammes-5.jpg
-          "Série de pictogrammes illustrés représentant des personnages en
-          action. Par exemple, une personne faisant de la boxe.")'
+        content: ""
+      image:
+        url: /media/realisation-signaletique-la-tre-so-malakoff-bois-atipy-pictogrammes-5.jpg
+        alt: Série de pictogrammes illustrés représentant des personnages en action. Par
+          exemple, une personne faisant de la boxe.
+        ariaHidden: true
     col2:
       reverseMobile: false
       text:
@@ -67,9 +74,11 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Trois plaques de portes en bois avec un pictogramme et du texte
-          gravés.](/media/realisation-signaletique-la-tre-so-malakoff-bois-atip\
-          y-4.jpg)"
+        content: ""
+      image:
+        alt: Trois plaques de portes en bois avec un pictogramme et du texte gravés.
+        ariaHidden: true
+        url: /media/realisation-signaletique-la-tre-so-malakoff-bois-atipy-4.jpg
     col2:
       reverseMobile: false
     col3:
@@ -97,10 +106,11 @@ project_sections:
     col1:
       reverseMobile: false
       image:
-        url: ""
+        url: /media/realisation-signaletique-la-tre-so-malakoff-atipy-3.jpg
+        alt: Panneau synoptique en bois avec une personne debout qui le lit.
+        ariaHidden: true
       text:
-        content: "![Panneau synoptique en bois avec une personne debout qui le
-          lit.](/media/realisation-signaletique-la-tre-so-malakoff-atipy-3.jpg)"
+        content: ""
     col2:
       reverseMobile: false
     col3:
@@ -109,11 +119,13 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Schéma de la façade avec détails des deux supports de signalétique :
-          une enseigne en drapeau avec le logo et un panneau d'information à
-          droite de la porte
-          d'entrée](/media/signaletique_latreso_design-atipy-malakoff-tiers-lie\
-          u-1.jpg)"
+        content: ""
+      image:
+        url: /media/signaletique_latreso_design-atipy-malakoff-tiers-lieu-1.jpg
+        alt: "Schéma de la façade avec détails des deux supports de signalétique : une
+          enseigne en drapeau avec le logo et un panneau d'information à droite
+          de la porte d'entrée"
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -135,10 +147,13 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Deux rails noirs sont fixés au mur. Entre ces deux rails on peut
-          glisser des morceaux de bois sur lesquels sont gravés une lettre.
-          L'ensemble indique le menu des boissons et leur
-          prix.](/media/signaletique-la_treso_tiers_lieu_atipy.jpeg)"
+        content: ""
+      image:
+        url: /media/signaletique-la_treso_tiers_lieu_atipy.jpeg
+        alt: Deux rails noirs sont fixés au mur. Entre ces deux rails on peut glisser
+          des morceaux de bois sur lesquels sont gravés une lettre. L'ensemble
+          indique le menu des boissons et leur prix.
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
