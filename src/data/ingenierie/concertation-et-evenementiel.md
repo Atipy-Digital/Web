@@ -23,13 +23,14 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![A gauche, un groupe de 6 personnes est réuni dans la rue. L'une
-          d'elle est utilisatrice d'une canne blanche, l'un d'eux est
-          utilisateur de fauteuil roulant. A droite, on voit une personne en
-          fauteuil roulant traverser la rue sur une passage
-          piéton.](/media/offer-w-access-concertation.png)"
+        content: ""
       image:
-        url: ""
+        url: /media/offer-w-access-concertation.png
+        alt: A gauche, un groupe de 6 personnes est réuni dans la rue. L'une d'elle est
+          utilisatrice d'une canne blanche, l'un d'eux est utilisateur de
+          fauteuil roulant. A droite, on voit une personne en fauteuil roulant
+          traverser la rue sur une passage piéton.
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -89,20 +90,25 @@ sections:
     col2:
       reverseMobile: true
       text:
-        content: "![Deux personnes sont face à face autour d'une table. Sur la table
-          sont posés dans feuilles, des post it et des
-          feutres.](/media/concertation-handicap-association-atipy-inclusion.jp\
-          g)"
+        content: ""
+      image:
+        url: /media/concertation-handicap-association-atipy-inclusion.jpg
+        alt: Deux personnes sont face à face autour d'une table. Sur la table sont posés
+          dans feuilles, des post it et des feutres.
+        ariaHidden: true
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: "![Deux personnes sont cote à cote dans la rue. La personne de gauche
-          est une personne agée en fauteuil roulant. La personne de droite porte
-          un jean et des baskets, elle marche à
-          coté.](/media/concertation-handicap-association-atipy.jpg)"
+        content: ""
+      image:
+        url: /media/concertation-handicap-association-atipy.jpg
+        alt: Deux personnes sont cote à cote dans la rue. La personne de gauche est une
+          personne agée en fauteuil roulant. La personne de droite porte un jean
+          et des baskets, elle marche à coté.
+        ariaHidden: true
     col2:
       reverseMobile: false
       text:

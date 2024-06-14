@@ -13,6 +13,7 @@ image:
   alt: "Vue plongeante sur escalier sécurisé avec nez de marches contrastés et
     antidérapants de 3 centimètre de largeur et clous podotactiles implanté à
     une distance d'un giron de la première marche sur chaque palier. "
+  ariaHidden: true
 project_client: ville-de-paris
 mission_body: Atipy et son partenaire Komorebi ont accompagné la délégation du
   12ème arrondissement sur une mission de maîtrise d’œuvre pour une mise en
@@ -49,13 +50,16 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Entrée principale de la gare de Reuilly avec un SAS d'accès
-          entièrement remplacé permettant une largeur de passage utile d'au
-          moins 0,83 mètre sur chacune des portes et un espace de manœuvre de
-          porte suffisant à l'intérieur du SAS. La signalétique en fronton a
-          également été remplacée pour satisfaire à l'ensemble des exigences
-          réglementaires et à la charte de la ville de
-          Paris.](/media/reference-ingenierie-paris12-1.jpg)"
+        content: ""
+      image:
+        url: /media/reference-ingenierie-paris12-1.jpg
+        alt: Entrée principale de la gare de Reuilly avec un SAS d'accès entièrement
+          remplacé permettant une largeur de passage utile d'au moins 0,83 mètre
+          sur chacune des portes et un espace de manœuvre de porte suffisant à
+          l'intérieur du SAS. La signalétique en fronton a également été
+          remplacée pour satisfaire à l'ensemble des exigences réglementaires et
+          à la charte de la ville de Paris.
+        ariaHidden: true
     col3:
       reverseMobile: false
       text:
@@ -64,10 +68,13 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Accueil du site Gare de Reuilly disposant maintenant d'un totem
+        content: ""
+      image:
+        url: /media/reference-ingenierie-paris12-2.jpg
+        ariaHidden: true
+        alt: Accueil du site Gare de Reuilly disposant maintenant d'un totem
           signalétique chartée ville de Paris et présentant l'ensemble des
-          entités et services du bâtiment avec les directions
-          appropriées.](/media/reference-ingenierie-paris12-2.jpg)"
+          entités et services du bâtiment avec les directions appropriées.
     col2:
       reverseMobile: false
       text:

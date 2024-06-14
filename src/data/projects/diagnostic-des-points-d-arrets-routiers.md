@@ -11,6 +11,7 @@ title: Diagnostic des points d'arrêts routiers de la Région Pays de la Loire
 image:
   url: /media/reference-ingenierie-aleop-1.jpg
   alt: Arrêt de bus avec une personne en train de relever les distances.
+  ariaHidden: true
 project_client: reseau-de-transport-aleop
 mission_body: Diagnostic des caractéristiques physiques des points d’arrêts routiers.
 context_body: >-
@@ -34,45 +35,44 @@ project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
-      text:
-        content: "![Extrait de l'application mobile utilisée pour saisir les
-          caractéristiques des points d'arrêts, ici les champs liés à la
-          sécurité (Zébra, positionnement du passage piéton, panneaux routiers,
-          etc.)](/media/reference-ingenierie-aleop-4.jpg \"afddsfdsfdsdfs\")"
+      image:
+        url: /media/reference-ingenierie-aleop-4.jpg
+        alt: Extrait de l'application mobile utilisée pour saisir les caractéristiques
+          des points d'arrêts, ici les champs liés à la sécurité (Zébra,
+          positionnement du passage piéton, panneaux routiers, etc.)
     col2:
       reverseMobile: false
     col3:
       reverseMobile: false
+      image:
+        url: /media/reference-ingenierie-aleop-2.jpg
+        ariaHidden: true
+        alt: Visuel de la cartographie interactive générale des 4 779 points d'arrêts
+          audités sur le réseau Aléop avec suivi en temps réel des arrêts
+          audités, en cours d'audit, ou restant à auditer
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
         content: >-
-          ![Visuel de la cartographie interactive générale des 4 779 points
-          d'arrêts audités sur le réseau Aléop avec suivi en temps réel des
-          arrêts audités, en cours d'audit, ou restant à
-          auditer](/media/reference-ingenierie-aleop-2.jpg)
-
+          
 
           **Relevé concernant l'accessibilité et la sécurité des points d'arrêts**\
 
           Hauteur du quai, aire de giration, contraste tactile et visuel, signalétique, zébra, panneaux routiers, configuration de l’arrêt…
+      image:
+        url: /media/reference-ingenierie-aleop-3.jpg
+        alt: Exemple de fonctionnalités de la cartographie interactive avec apparition
+          d'un photo du point d'arrêt au passage de la souris.
+        ariaHidden: true
     col2:
       reverseMobile: false
       text:
-        content: >-
-          ![Exemple de fonctionnalités de la cartographie interactive avec
-          apparition d'un photo du point d'arrêt au passage de la
-          souris.](/media/reference-ingenierie-aleop-3.jpg)
-
-
+        content: |-
           **Relevé concernant le mobilier** 
-
           Type d’abri, poteau de signalétique fiche horaire, assise, poubelle…
 
-
           **Relevé de données concernant l’intermodalité**
-
           Stationnement, aire de covoiturage, borne de recharge, abri vélo…
     col3:
       reverseMobile: false

@@ -16,13 +16,22 @@ post_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
+      image:
+        url: /media/charte-communication-publique-e-te-t-agence-ade-quat.jpg
+        ariaHidden: true
+        alt: Pictogramme d'un hôpital, un musée, une mairie, un bâtiment de service.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
       text:
-        content: >-
-          ![Pictogramme d'un hôpital, un musée, une mairie, un bâtiment de
-          service.](/media/charte-communication-publique-e-te-t-agence-ade-quat.jpg)
-
-
-          **En mars 2021, l’Etat adopte une charte de communication accessible pour les personnes en situation de handicap. Vous êtes une collectivité, un service public, un hôpital ou un musée, vous êtes concernés.**
+        content: "**En mars 2021, l’Etat adopte une charte de communication accessible
+          pour les personnes en situation de handicap. Vous êtes une
+          collectivité, un service public, un hôpital ou un musée, vous êtes
+          concernés.**"
     col2:
       reverseMobile: false
     col3:

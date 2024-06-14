@@ -58,9 +58,11 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Vidéo en motion design sous titré avec deux personnages qui
-          discutent.](/media/realisation-video-motion-design-pcb-accessibilite-\
-          falc.jpg)"
+        content: ""
+      image:
+        url: /media/realisation-video-motion-design-pcb-accessibilite-falc.jpg
+        alt: Vidéo en motion design sous titré avec deux personnages qui discutent.
+        ariaHidden: true
     col3:
       reverseMobile: false
   - inverseCol: false

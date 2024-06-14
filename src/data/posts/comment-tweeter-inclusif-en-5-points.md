@@ -21,9 +21,9 @@ post_sections:
 
 
           Chers Tweetos, quand vous cliquez sur «&nbsp;Poster&nbsp;», avez-vous pensé à rendre votre tweet accessible au plus grand nombre&nbsp;? Non&nbsp;? On vous dit comment faire&nbsp;!
-
-
-          ![](/media/atipy_twitter_handicap.jpg)
+      image:
+        url: /media/atipy_twitter_handicap.jpg
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -88,9 +88,10 @@ post_sections:
 
 
           **Évitez donc les abréviations. Préférez les theards (fil de discussion) que l’utilisateur peut dérouler. Comment rédiger un thread ? Twitter peut [vous aider ici.](https://help.twitter.com/fr/using-x/create-a-thread)**
-
-
-          ![Exemple d'un thread de l'Agence Adéquat - Atipy](/media/agence-adequat-exemple-thread.jpg "Exemple d'un thread de l'Agence Adequat - Atipy")
+      image:
+        url: /media/agence-adequat-exemple-thread.jpg
+        ariaHidden: true
+        alt: Exemple d'un thread de l'Agence Adéquat - Atipy
     col2:
       reverseMobile: false
     col3:

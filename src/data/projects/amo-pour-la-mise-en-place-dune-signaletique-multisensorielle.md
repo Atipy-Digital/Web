@@ -12,6 +12,7 @@ image:
   url: /media/design-reference-casvp-atipy-1.jpg
   alt: Exemple d'un support de la signalétique du CASVP indiquant l'entrée du
     bâtiment
+  ariaHidden: true
 project_client: centre-daction-sociale-ville-de-paris-casvp
 mission_body: Assistance à maitrise d’ouvrage pour la mise en place d’une
   signalétique multisensorielle pour les centres sociaux de la Ville de Paris.
@@ -40,10 +41,11 @@ project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
-      text:
-        content: "![Exemple d'un support synoptique à l'entrée de l'ascenseur accompagné
-          d'un numéro en relief indiquant
-          l'étage](/media/design-reference-casvp-atipy-2.jpg)"
+      image:
+        url: /media/design-reference-casvp-atipy-2.jpg
+        alt: Exemple d'un support synoptique à l'entrée de l'ascenseur accompagné d'un
+          numéro en relief indiquant l'étage
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -88,37 +90,48 @@ project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
-      text:
-        content: "![Zoom sur la typographie Luciole utilisée pour la charte signalétique
-          du CASVP.](/media/design-reference-casvp-atipy-3.jpg)"
+      image:
+        url: /media/design-reference-casvp-atipy-3.jpg
+        alt: Zoom sur la typographie Luciole utilisée pour la charte signalétique du
+          CASVP.
+        ariaHidden: true
     col2:
       reverseMobile: false
-      text:
-        content: "![Exemples de plusieurs échantillons de plaques portes illustrées avec
-          des pictogrammes issus de la charte
-          signalétique](/media/design-reference-casvp-atipy-4.jpg)"
+      image:
+        url: /media/design-reference-casvp-atipy-4.jpg
+        alt: Exemples de plusieurs échantillons de plaques portes illustrées avec des
+          pictogrammes issus de la charte signalétique
+        ariaHidden: true
     col3:
       reverseMobile: false
-      text:
-        content: "![Exemple d'une plaque porte avec le pictogramme illustrant les
-          activités que l'on peut trouver dans les clubs séniors du
-          CASVP](/media/design-reference-casvp-atipy-5.jpg)"
+      image:
+        url: /media/design-reference-casvp-atipy-5.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Exemple d'une plaque porte avec le pictogramme illustrant les activités que
+          l'on peut trouver dans les clubs séniors du CASVP
   - inverseCol: false
     col1:
       reverseMobile: false
-      text:
-        content: "![Exemple d'illustration créer pour un EHPAD du CASVP afin de mieux
-          repérer les étages](/media/design-reference-casvp-atipy-6.jpg)"
+      image:
+        url: /media/design-reference-casvp-atipy-6.jpg
+        ariaHidden: true
+        alt: Exemple d'illustration créer pour un EHPAD du CASVP afin de mieux repérer
+          les étages
     col2:
       reverseMobile: false
-      text:
-        content: "![Exemple d'illustration créer pour un EHPAD du CASVP afin de mieux
-          repérer les étages](/media/design-reference-casvp-atipy-7.jpg)"
+      image:
+        url: /media/design-reference-casvp-atipy-7.jpg
+        alt: Exemple d'illustration créer pour un EHPAD du CASVP afin de mieux repérer
+          les étages
+        ariaHidden: true
     col3:
       reverseMobile: false
-      text:
-        content: "![Exemple d'illustration créer pour un EHPAD du CASVP afin de mieux
-          repérer les étages](/media/design-reference-casvp-atipy-8.jpg)"
+      image:
+        url: /media/design-reference-casvp-atipy-8.jpg
+        ariaHidden: true
+        alt: Exemple d'illustration créer pour un EHPAD du CASVP afin de mieux repérer
+          les étages
   - inverseCol: false
     col1:
       reverseMobile: false
@@ -157,11 +170,12 @@ project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
-      text:
-        content: "![Zoom sur un support synoptique qui répertorie l'ensemble des
-          équipements que l'on peut trouver par étages. Cela permet une lecture
-          facilitée de l'ensemble du
-          bâtiment.](/media/design-reference-casvp-atipy-13.jpg)"
+      image:
+        url: /media/design-reference-casvp-atipy-13.jpg
+        alt: Zoom sur un support synoptique qui répertorie l'ensemble des équipements
+          que l'on peut trouver par étages. Cela permet une lecture facilitée de
+          l'ensemble du bâtiment.
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -169,22 +183,25 @@ project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
-      text:
-        content: "![Illustration de la cathédrale Notre Dame de Paris. Utilisée dans la
-          signalétique pour créer des repères visuels dans le
-          bâtiment](/media/design-reference-casvp-atipy-11.jpg)"
+      image:
+        url: /media/design-reference-casvp-atipy-11.jpg
+        alt: Illustration de la cathédrale Notre Dame de Paris. Utilisée dans la
+          signalétique pour créer des repères visuels dans le bâtiment
+        ariaHidden: true
     col2:
       reverseMobile: false
-      text:
-        content: "![Illustration de Montmartre. Utilisée dans la signalétique pour créer
-          des repères visuels dans le
-          bâtiment](/media/design-reference-casvp-atipy-10.jpg)"
+      image:
+        url: /media/design-reference-casvp-atipy-10.jpg
+        alt: Illustration de Montmartre. Utilisée dans la signalétique pour créer des
+          repères visuels dans le bâtiment
+        ariaHidden: true
     col3:
       reverseMobile: false
-      text:
-        content: "![Illustration de la Tour Eiffel. Utilisée dans la signalétique pour
-          créer des repères visuels dans le
-          bâtiment](/media/design-reference-casvp-atipy-12.jpg)"
+      image:
+        alt: Illustration de la Tour Eiffel. Utilisée dans la signalétique pour créer
+          des repères visuels dans le bâtiment
+        ariaHidden: true
+        url: /media/design-reference-casvp-atipy-12.jpg
   - inverseCol: false
     col1:
       reverseMobile: false

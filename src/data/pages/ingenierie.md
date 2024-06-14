@@ -12,11 +12,12 @@ sections:
   - col1:
       reverseMobile: false
       text:
-        content: "![Une personne est assise dans un fauteuil roulant dont on voit le bas
-          des roues. A gauche se trouve une personne
-          debout.](/media/concertation-handicap-association-atipy-2.jpg)"
+        content: ""
       image:
-        url: ""
+        url: /media/concertation-handicap-association-atipy-2.jpg
+        ariaHidden: true
+        alt: Une personne est assise dans un fauteuil roulant dont on voit le bas des
+          roues. A gauche se trouve une personne debout.
     col2:
       reverseMobile: false
     col3:
@@ -81,8 +82,11 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Enfilade de gaines métalliques positionnées sous un
-          plafond](/media/releve-multitechnique-atipy.jpg)"
+        content: ""
+      image:
+        url: /media/releve-multitechnique-atipy.jpg
+        ariaHidden: true
+        alt: Enfilade de gaines métalliques positionnées sous un plafond
     col3:
       reverseMobile: false
 ---

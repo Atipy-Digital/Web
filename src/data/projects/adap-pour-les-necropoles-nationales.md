@@ -8,6 +8,7 @@ title: AD'AP pour les nécropoles nationales
 image:
   url: /media/reference-ingenierie-adap-necropole.jpg
   alt: Cimetière militaire avec un alignement de croix blanches.
+  ariaHidden: true
 project_client: office-national-des-anciens-combattants-et-victimes-de-guerres
 mission_body: AD'AP pour les nécropoles nationales de l'Office Nationale des
   Anciens Combattants et Victimes de Guerres - ONACVG
@@ -41,18 +42,21 @@ project_sections:
           **Dans le cadre de ses obligations réglementaires l'ONACVG a missionné Atipy afin d'analyser les conditions actuelles d'accessibilité sur plusieurs nécropoles dans le Sud-Est de la France.**
     col2:
       reverseMobile: false
-      text:
-        content: "![Memorial pour les résistants du Vercors. Sculpture en pierre sous la
-          neige.](/media/atipy-ingenierie-accessibilite-adap-necropoles.jpg)"
+      image:
+        url: /media/atipy-ingenierie-accessibilite-adap-necropoles.jpg
+        ariaHidden: true
+        alt: Memorial pour les résistants du Vercors. Sculpture en pierre sous la neige.
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
-      text:
-        content: "![Exemple du rapport d'accessibilité avec 4 pages présentant des
-          photos des points de non
-          conformités.](/media/reference-ingenierie-adap-necropole-1.jpg)"
+      image:
+        url: /media/reference-ingenierie-adap-necropole-1.jpg
+        ariaHidden: true
+        ariaLabel: ""
+        alt: Exemple du rapport d'accessibilité avec 4 pages présentant des photos des
+          points de non conformités.
     col2:
       reverseMobile: false
     col3:

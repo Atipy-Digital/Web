@@ -15,15 +15,25 @@ post_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
+      image:
+        url: /media/entro-parapan-am-aquatics-centre-signale-tique-sport-1024x610.jpg
+        alt: Vue sur une piscine depuis les gradins. Sur un muret est apposé un panneau
+          bleu avec les numéros de sièges et de sections.
+        legend: ENTRO - Parapan Am Aquatics Centre
+        ariaHidden: true
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
       text:
         content: >-
-          ![Vue sur une piscine depuis les gradins. Sur un muret est apposé un
-          panneau bleu avec les numéros de sièges et de
-          sections.](/media/entro-parapan-am-aquatics-centre-signale-tique-sport-1024x610.jpg
-          "ENTRO - Parapan Am Aquatics Centre")
-
-
-          **Lors des Jeux Olympiques, les villes accueillent des milliers visiteurs venus du monde entier. Ces amateurs de sport sont aussi des touristes qu’il faut guider et orienter afin de leur permettre d’être autonomes.**
+          **Lors des Jeux Olympiques, les villes accueillent des milliers
+          visiteurs venus du monde entier. Ces amateurs de sport sont aussi des
+          touristes qu’il faut guider et orienter afin de leur permettre d’être
+          autonomes.**
 
 
           **A l’occasion des jeux, et depuis des décennies, ils ont été nombreux, graphistes, designers et signaléticiens, à se plier à l’exercice de la création d’un système signalétique dédié à cet événement.**
@@ -111,9 +121,11 @@ post_sections:
           * L’orientation dans les circulations verticales et horizontales
 
           * La limitation de l’encombrement visuel afin de ne pas nuire à la bonne compréhension des informations
-
-
-          ![Signalétique complexe Voskresenskoye club hotel](/media/signaletique-sport-tomatdesign-1024x640.jpg "Source : tomatdesign – Complexe sportif du Voskresenskoye club hotel")
+      image:
+        url: /media/signaletique-sport-tomatdesign-1024x640.jpg
+        legend: "Source : tomatdesign – Complexe sportif du Voskresenskoye club hotel"
+        ariaHidden: true
+        alt: Signalétique complexe Voskresenskoye club hotel
     col2:
       reverseMobile: false
     col3:

@@ -9,6 +9,7 @@ title: Relevé des non-conformités sur les escaliers du métro lyonnais
 image:
   url: /media/accessibilite-sytral-metro-lyon-atipy.jpg
   alt: Escalier vu d'en bas avec une ambiance lumineuse rouge sombre
+  ariaHidden: true
 project_client: sytral
 mission_body: Relevé des non-conformités sur les escaliers des 48 stations du
   réseau métropolitain de l'agglomération Lyonnaise.
@@ -43,9 +44,12 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Extrait du diagnostic avec un plan de la station Charpennes et un
-          tableau de relevé des
-          non-conformités](/media/atipy-ingenierie-releves-metro_lyionnais.jpg)"
+        content: ""
+      image:
+        url: /media/atipy-ingenierie-releves-metro_lyionnais.jpg
+        ariaHidden: true
+        alt: Extrait du diagnostic avec un plan de la station Charpennes et un tableau
+          de relevé des non-conformités
     col3:
       reverseMobile: false
   - inverseCol: false

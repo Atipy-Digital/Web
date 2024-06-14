@@ -51,7 +51,7 @@ sections:
           harmonieux, compréhensible et simple
         url: /media/tribu-w-designforall.png
         ariaHidden: true
-        ariaLabel: test de label
+        ariaLabel: ""
     col2:
       reverseMobile: false
       text:

@@ -26,12 +26,12 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Cycliste à l'arret dans un environnement naturel avec un totem
-          signalétique à droite. Il est en bois avec un panneau qui donne des
-          informations.](/media/design-reference-pyrenees-atlantique-atipy-2.jp\
-          g)"
+        content: ""
       image:
-        url: ""
+        url: /media/design-reference-pyrenees-atlantique-atipy-2.jpg
+        ariaHidden: true
+        alt: Cycliste à l'arret dans un environnement naturel avec un totem signalétique
+          à droite. Il est en bois avec un panneau qui donne des informations.
     col2:
       reverseMobile: false
       text:
@@ -82,12 +82,12 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Plan d'un carrefour avec un rond point donnant l'implantation
-          précise de différents types de supports
-          signalétique.](/media/design-expertise-mobilite-velo-signaletique-ati\
-          py-3.jpg)"
+        content: ""
       image:
-        url: ""
+        url: /media/design-expertise-mobilite-velo-signaletique-atipy-3.jpg
+        ariaHidden: true
+        alt: Plan d'un carrefour avec un rond point donnant l'implantation précise de
+          différents types de supports signalétique.
     col3:
       reverseMobile: false
       text:
@@ -96,9 +96,11 @@ sections:
     col1:
       reverseMobile: true
       text:
-        content: "![Carte en FALC d'un parcours cyclable dans les Pyrénées Atlantiques.
-          ](/media/design-expertise-mobilite-velo-signaletique-plan-atipy-4.jpg\
-          )"
+        content: ""
+      image:
+        url: /media/design-expertise-mobilite-velo-signaletique-plan-atipy-4.jpg
+        alt: "Carte en FALC d'un parcours cyclable dans les Pyrénées Atlantiques. "
+        ariaHidden: true
     col2:
       reverseMobile: false
       text:

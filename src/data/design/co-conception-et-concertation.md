@@ -26,11 +26,11 @@ sections:
     col1:
       reverseMobile: false
       image:
-        url: ""
+        url: /media/design-expertise-atipy-codesign-concertation-2.jpg
+        alt: Trois personnes présentent un projet sur un paperboard.
+        ariaHidden: true
       text:
-        content: "![Trois personnes présentent un projet sur un
-          paperboard.](/media/design-expertise-atipy-codesign-concertation-2.jp\
-          g)"
+        content: ""
     col2:
       reverseMobile: false
     col3:
@@ -113,9 +113,12 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Plusieurs personnes de dos sont face à un tableau sur lequel on voit
-          dessinée une carte et des notes de différentes
-          couleurs.](/media/expertise-atipy-design-atelier-creatif.jpg)"
+        content: ""
+      image:
+        url: /media/expertise-atipy-design-atelier-creatif.jpg
+        ariaHidden: true
+        alt: Plusieurs personnes de dos sont face à un tableau sur lequel on voit
+          dessinée une carte et des notes de différentes couleurs.
     col3:
       reverseMobile: false
 footer:

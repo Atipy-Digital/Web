@@ -15,14 +15,24 @@ post_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
+      image:
+        url: /media/pierre-bagliotto.jpg
+        ariaHidden: true
+        alt: Portrait en noir et blanc de Pierre.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
       text:
-        content: >-
-          ![Portrait en noir et blanc de Pierre.](/media/pierre-bagliotto.jpg)
-
-
-
-
-          **Aujourd’hui, nous sommes ravis de vous présenter l’un de nos partenaires : [Pierre Bagliotto](https://www.linkedin.com/in/pierre-bagliotto-3104309a/), fondateur de L’Echappée. L’Echappée et Atipy collaborent sur différentes missions de mise en place d’aménagement cyclables, dont la signalétique d’orientation.**
+        content: "**Aujourd’hui, nous sommes ravis de vous présenter l’un de nos
+          partenaires : [Pierre
+          Bagliotto](https://www.linkedin.com/in/pierre-bagliotto-3104309a/),
+          fondateur de L’Echappée. L’Echappée et Atipy collaborent sur
+          différentes missions de mise en place d’aménagement cyclables, dont la
+          signalétique d’orientation.**"
     col2:
       reverseMobile: false
     col3:

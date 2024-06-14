@@ -11,6 +11,7 @@ title: Étude pour la signalétique patrimoniale de Rennes Metropole
 image:
   url: /media/design-reference-rennes-metropole-atipy-1.jpg
   alt: "3 pages extraites du rapport d'analyse et de préconisations. "
+  ariaHidden: true
 project_client: rennes-metropole
 mission_body: Étude et préconisations sur la mise en place d’une signalétique
   patrimoniale sur le territoire de Rennes Métropole
@@ -70,11 +71,13 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![6 pages extraites du rapport d'analyse de la signalétique
-          patrimoniale. Par exemple, préconisations sur les contrastes, la
-          réalisation d'une charte
-          signalétique.](/media/realisation-design-signaletique-patrimoine-renn\
-          es-5.jpg)"
+        content: ""
+      image:
+        url: /media/realisation-design-signaletique-patrimoine-rennes-5.jpg
+        alt: 6 pages extraites du rapport d'analyse de la signalétique patrimoniale. Par
+          exemple, préconisations sur les contrastes, la réalisation d'une
+          charte signalétique.
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -121,13 +124,16 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Enquete sur l'intérêt d'une signalétique patrimoniale : 63% des
-          répondants indiquent avoir un interet important pour le patrimoine,
-          70% pensent que la signalétique patrimoniale n'est pas assez
-          importante sur le territoire, 40% pensent que les informations données
-          doivent etre simplifiées, 49% pensent que les informations données
-          doivent etre
-          complètes.](/media/design-reference-rennes-metropole-atipy-2.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-rennes-metropole-atipy-2.jpg
+        alt: "Enquete sur l'intérêt d'une signalétique patrimoniale : 63% des répondants
+          indiquent avoir un interet important pour le patrimoine, 70% pensent
+          que la signalétique patrimoniale n'est pas assez importante sur le
+          territoire, 40% pensent que les informations données doivent etre
+          simplifiées, 49% pensent que les informations données doivent etre
+          complètes."
+        ariaHidden: true
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -154,18 +160,24 @@ project_sections:
     col2:
       reverseMobile: true
       text:
-        content: "![Carte montrant les 7 lieux visités pour l'étude : vallée de la
-          Vilaine, Le Rheu, Bécherel, le centre de Rennes, Saint Sulpice la
-          Foret, écomusée, Pont
-          Péan](/media/design-reference-rennes-metropole-atipy-4.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-rennes-metropole-atipy-4.jpg
+        alt: "Carte montrant les 7 lieux visités pour l'étude : vallée de la Vilaine, Le
+          Rheu, Bécherel, le centre de Rennes, Saint Sulpice la Foret, écomusée,
+          Pont Péan"
+        ariaHidden: true
     col3:
       reverseMobile: false
   - inverseCol: true
     col1:
       reverseMobile: false
       text:
-        content: "![Concertation avec les acteurs du territoire afin de recueillir les
-          besoins.](/media/design-reference-rennes-metropole-atipy-3.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-rennes-metropole-atipy-3.jpg
+        alt: Concertation avec les acteurs du territoire afin de recueillir les besoins.
+        ariaHidden: true
     col2:
       reverseMobile: false
       text:

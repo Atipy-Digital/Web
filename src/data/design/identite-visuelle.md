@@ -22,12 +22,13 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Carte de bibliothèque recto verso pour le réseau La Butinière du
-          Pays du Clermontois. La carte est blanche et bleue avec des
-          pictogrammes
-          bleus.](/media/expertise-identite-visuelle-atipy-accessibilite-1.jpg)"
+        content: ""
       image:
-        url: ""
+        url: /media/expertise-identite-visuelle-atipy-accessibilite-1.jpg
+        ariaHidden: true
+        alt: Carte de bibliothèque recto verso pour le réseau La Butinière du Pays du
+          Clermontois. La carte est blanche et bleue avec des pictogrammes
+          bleus.
     col2:
       reverseMobile: false
       text:

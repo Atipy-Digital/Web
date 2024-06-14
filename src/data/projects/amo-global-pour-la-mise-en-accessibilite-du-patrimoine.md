@@ -10,6 +10,7 @@ title: AMO globale pour la mise en accessibilité du patrimoine
 image:
   url: /media/reference-ingenierie-bzh-1.jpg
   alt: Salle de réunion avec une personne debout en présentation
+  ariaHidden: true
 project_client: region-bretagne
 mission_body: Atipy accompagne la Région Bretagne avec une offre complète visant
   à rendre son patrimoine plus inclusif. L'ensemble des pôles d'Atipy sont ainsi
@@ -63,32 +64,38 @@ project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
-      text:
-        content: "![Rédaction d'un programme de travaux pour la mise en accessibilité
-          des ateliers du lycée Chaptal à Saint-Brieuc, photographie d'un
-          escalier sécurisé et d'un
-          élévateur.](/media/reference-ingenierie-bzh-2.jpg)"
+      image:
+        url: /media/reference-ingenierie-bzh-2.jpg
+        ariaHidden: true
+        alt: Rédaction d'un programme de travaux pour la mise en accessibilité des
+          ateliers du lycée Chaptal à Saint-Brieuc, photographie d'un escalier
+          sécurisé et d'un élévateur.
     col2:
       reverseMobile: false
-      text:
-        content: "![Registre public d'accessibilité dématérialisé avec visualisation du
-          niveau d'accessibilité de chacune des fonctions d'un lycée par
-          typologie de handicap. ](/media/reference-ingenierie-bzh-3.jpg)"
+      image:
+        url: /media/reference-ingenierie-bzh-3.jpg
+        ariaHidden: true
+        alt: "Registre public d'accessibilité dématérialisé avec visualisation du niveau
+          d'accessibilité de chacune des fonctions d'un lycée par typologie de
+          handicap. "
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
-      text:
-        content: "![Détail d'un programme de travaux, avec projection graphique des
-          modifications à apporter sur des
-          sanitaires.](/media/reference-ingenierie-bzh-4.jpg)"
+      image:
+        url: /media/reference-ingenierie-bzh-4.jpg
+        ariaHidden: true
+        alt: Détail d'un programme de travaux, avec projection graphique des
+          modifications à apporter sur des sanitaires.
     col2:
       reverseMobile: false
-      text:
-        content: "![Photo d'un plan situé à l'entrée d'un lycée. Atipy intervient pour
+      image:
+        url: /media/reference-ingenierie-bzh-5.jpg
+        ariaHidden: true
+        alt: "Photo d'un plan situé à l'entrée d'un lycée. Atipy intervient pour
           conseiller la Région sur les implantations d'éléments de signalétique.
-          ](/media/reference-ingenierie-bzh-5.jpg)"
+          "
     col3:
       reverseMobile: false
   - inverseCol: false

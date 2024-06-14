@@ -24,8 +24,11 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Extincteur rouge posé au sol vu de
-          dessus.](/media/securite-incendie-releves-multitechnique-atipy.jpg)"
+        content: ""
+      image:
+        url: /media/securite-incendie-releves-multitechnique-atipy.jpg
+        alt: Extincteur rouge posé au sol vu de dessus.
+        ariaHidden: true
     col2:
       reverseMobile: false
       text:
@@ -87,8 +90,11 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Gaines métallique en enfilade sous un
-          plafond.](/media/releve-multitechnique-atipy.jpg)"
+        content: ""
+      image:
+        url: /media/releve-multitechnique-atipy.jpg
+        alt: Gaines métallique en enfilade sous un plafond.
+        ariaHidden: true
     col3:
       reverseMobile: false
 footer:

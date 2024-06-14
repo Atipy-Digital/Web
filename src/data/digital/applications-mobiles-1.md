@@ -23,8 +23,11 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Main tenant un téléphone mobile avec une
-          cartographie](/media/application-mobile-atipy.png)"
+        content: ""
+      image:
+        url: /media/application-mobile-atipy.png
+        alt: Main tenant un téléphone mobile avec une cartographie
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -79,9 +82,12 @@ sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Schéma (wireframe) en noir et blanc posant les principes
-          ergonomiques d'une page
-          internet](/media/wireframe-ui-design-digital-atipy.jpg)"
+        content: ""
+      image:
+        url: /media/wireframe-ui-design-digital-atipy.jpg
+        alt: Schéma (wireframe) en noir et blanc posant les principes ergonomiques d'une
+          page internet
+        ariaHidden: true
     col3:
       reverseMobile: false
   - inverseCol: false

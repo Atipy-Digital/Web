@@ -16,12 +16,12 @@ post_sections:
     col1:
       reverseMobile: false
       text:
-        content: >-
-          **Vous les avez déjà vu ces panneaux marrons au bord des autoroutes.
-          Ils vous parlent de sculpture, de nature ou d’histoire.**
-
-
-          ![Panneau de valorisation du territoire sur l'A36](/media/panneaux-de-valorisation-du-territoire-sur-la36_head..jpg)
+        content: "**Vous les avez déjà vu ces panneaux marrons au bord des autoroutes.
+          Ils vous parlent de sculpture, de nature ou d’histoire.**"
+      image:
+        url: /media/panneaux-de-valorisation-du-territoire-sur-la36_head..jpg
+        ariaHidden: true
+        alt: Panneau de valorisation du territoire sur l'A36
     col2:
       reverseMobile: false
     col3:
@@ -42,12 +42,28 @@ post_sections:
 
 
           Entre 1972 et 1978, Jean Widmer réalisera environ 500 signes. Le graphiste s’intéresse au minimalisme graphique du pictogramme&nbsp;: épaisseur de trait lisible à distance, sobriété des formes, synthétisation de l’information, lisibilité de la police de caractère…
-
-
-          ![Recherches et croquis de pictogrammes réalisés par Jean Widmer](/media/jean-widmer-pictogrammes-animations-touristiques-autoroutes-1972-78-recherche-croquis-portrait-index-grafik.jpg)
-
-
-          Il utilise également le caractère typographique Frutiger, très lisible, conçu spécifiquement pour les supports de signalétique.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        url: /media/jean-widmer-pictogrammes-animations-touristiques-autoroutes-1972-78-recherche-croquis-portrait-index-grafik.jpg
+        ariaHidden: true
+        alt: Recherches et croquis de pictogrammes réalisés par Jean Widmer
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          Il utilise également le caractère typographique Frutiger, très
+          lisible, conçu spécifiquement pour les supports de signalétique.
 
 
           Depuis 2021, les panneaux patrimoniaux se modernisent. De nouveaux artistes et graphistes interviennent sur les illustrations. Une véritable expo en 3 secondes et à ciel ouvert avec un flux constant de visiteurs&nbsp;!
@@ -79,12 +95,30 @@ post_sections:
           * Inciter à la découverte.
 
           * Eveiller la curiosité.
-
-
-          ![Pupitre devant un paysage. Le support explique l'environnement et les points d'intérêt qui se trouvent autour.](/media/parc-naturel-grands-causses-signaletique-touristique-5206.jpg)
-
-
-          Les supports de signalétique patrimoniale peuvent avoir un impact sur la fréquentation touristique d’un lieu. Concrètement, cette signalétique peut prendre différentes formes&nbsp;:
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        ariaHidden: true
+        url: /media/parc-naturel-grands-causses-signaletique-touristique-5206.jpg
+        alt: Pupitre devant un paysage. Le support explique l'environnement et les
+          points d'intérêt qui se trouvent autour.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          Les supports de signalétique patrimoniale peuvent avoir un impact sur
+          la fréquentation touristique d’un lieu. Concrètement, cette
+          signalétique peut prendre différentes formes&nbsp;:
 
 
           * Balisage au sol. Par exemple, des clous en laiton gravés.
