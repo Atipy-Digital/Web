@@ -9,6 +9,7 @@ title: Signalétique du Ministère des Affaires Etrangères
 image:
   url: /media/design-reference-ministere-aff-etrengere-atipy-1.jpg
   alt: Couloir en enfilade avec poutres métalliques de style Eiffel
+  ariaHidden: true
 project_client: ministere-de-leurope-et-des-affaires-etrangeres
 mission_body: Création de la signalétique intérieure du Ministères des Affaires Étrangères
 context_body: De 1925 à 2013, le bâtiment qui accueille aujourd’hui le Ministère
@@ -41,25 +42,33 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Schémas de l'ensemble des typologies de supports prévus : imposte,
-          suspendu,
-          mural.](/media/design-reference-ministere-aff-etrengere-atipy-3.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-ministere-aff-etrengere-atipy-3.jpg
+        ariaHidden: true
+        alt: "Schémas de l'ensemble des typologies de supports prévus : imposte,
+          suspendu, mural."
     col2:
       reverseMobile: false
       text:
-        content: "![Panneau directionnel mural de couleur brune avec texte en blanc et
-          pictogrammes.](/media/design-reference-ministere-aff-etrengere-atipy-\
-          4.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-ministere-aff-etrengere-atipy-4.jpg
+        alt: Panneau directionnel mural de couleur brune avec texte en blanc et
+          pictogrammes.
+        ariaHidden: true
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: "![Signalétique directionnelle au sol avec fléchage vers la sortie et
-          les
-          toilettes.](/media/design-reference-ministere-aff-etrengere-atipy-2.j\
-          pg)"
+        content: ""
+      image:
+        url: /media/design-reference-ministere-aff-etrengere-atipy-2.jpg
+        ariaHidden: true
+        alt: Signalétique directionnelle au sol avec fléchage vers la sortie et les
+          toilettes.
     col2:
       reverseMobile: false
     col3:
@@ -70,13 +79,20 @@ project_sections:
       text:
         content: "![Plan d'orientation dans le bâtiment avec des couleurs par
           zones.](/media/design-reference-ministere-aff-etrengere-atipy-5.jpg)"
+      image:
+        url: /media/design-reference-ministere-aff-etrengere-atipy-5.jpg
+        alt: Plan d'orientation dans le bâtiment avec des couleurs par zones.
+        ariaHidden: true
     col2:
       reverseMobile: false
       text:
-        content: "![Devant l'ascenseur, il a y deux panneaux muraux. L'un avec le plan
-          du bâtiment, l'autre avec une flèche vers la gauche indiquant les
-          différents services.
-          ](/media/design-reference-ministere-aff-etrengere-atipy-6.jpg)"
+        content: ""
+      image:
+        alt: "Devant l'ascenseur, il a y deux panneaux muraux. L'un avec le plan du
+          bâtiment, l'autre avec une flèche vers la gauche indiquant les
+          différents services. "
+        ariaHidden: true
+        url: /media/design-reference-ministere-aff-etrengere-atipy-6.jpg
     col3:
       reverseMobile: false
   - inverseCol: false

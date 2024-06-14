@@ -9,6 +9,7 @@ title: Signalétique du pôle d'échanges multimodal d'Annemasse
 image:
   url: /media/annemasse-plan-orientation-pole-echange-signaletique_atipy_version_reel.jpg
   alt: Plan d'orientation du pôle d'échange multimodal
+  ariaHidden: true
 project_client: annemasse-agglo
 mission_body: Assistance à maitrise d’ouvrage et conception de la signalétique
   pour le pôle d’échange multimodal de la gare d’Annemasse.
@@ -100,9 +101,13 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Absence d'une vision d'ensemble. Manque de structuration et de
-          cohérence de la signalétique. Absence d'information à la sortie de la
-          gare. Inégalités des flux](/media/annemasse-constats_pem.jpeg)"
+        content: ""
+      image:
+        url: /media/annemasse-constats_pem.jpeg
+        alt: Absence d'une vision d'ensemble. Manque de structuration et de cohérence de
+          la signalétique. Absence d'information à la sortie de la gare.
+          Inégalités des flux
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -130,9 +135,12 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Trois dessins en perspective représentant des Relais Information
-          Service. Il s'agit de grand totem avec un mat
-          directionnel.](/media/annemasse_mobilier_ris_v1.png)"
+        content: ""
+      image:
+        url: /media/annemasse_mobilier_ris_v1.png
+        alt: Trois dessins en perspective représentant des Relais Information Service.
+          Il s'agit de grand totem avec un mat directionnel.
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -154,12 +162,14 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Support signalétique d'identification positionné sur du mobilier
-          urbain comme un abri bus. Il s'agit de rond jaune avec un grand
-          pictogramme noir (piéton, bus, vélo) permettant d'identifier de loin
-          les dispositifs liés à la
-          mobilité.](/media/design-signaletique-pieton-annemasse-pem-atipy-1.pn\
-          g)"
+        content: ""
+      image:
+        url: /media/design-signaletique-pieton-annemasse-pem-atipy-1.png
+        alt: Support signalétique d'identification positionné sur du mobilier urbain
+          comme un abri bus. Il s'agit de rond jaune avec un grand pictogramme
+          noir (piéton, bus, vélo) permettant d'identifier de loin les
+          dispositifs liés à la mobilité.
+        ariaHidden: true
     col2:
       reverseMobile: false
       text:
@@ -202,8 +212,11 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Photomontage du Relais Information Service sur le parvis de la
-          gare.](/media/annemasse-agglo-ris-v1-atipy-design-signaletique.jpg)"
+        content: ""
+      image:
+        url: /media/annemasse-agglo-ris-v1-atipy-design-signaletique.jpg
+        alt: Photomontage du Relais Information Service sur le parvis de la gare.
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -212,9 +225,12 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Relais Information Service positionné le long d'un cheminement
-          piéton en sortie de
-          gare.](/media/annemasse-atipy-adequat-signaletique-pem-design.jpg)"
+        content: ""
+      image:
+        url: /media/annemasse-atipy-adequat-signaletique-pem-design.jpg
+        alt: Relais Information Service positionné le long d'un cheminement piéton en
+          sortie de gare.
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -223,9 +239,12 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Module rond jaune visible de loin avec un pictogramme de bus
-          indiquant un arret de
-          bus.](/media/annemasse-atipy-adequat-signaletique-mobilite.jpg)"
+        content: ""
+      image:
+        alt: Module rond jaune visible de loin avec un pictogramme de bus indiquant un
+          arret de bus.
+        url: /media/annemasse-atipy-adequat-signaletique-mobilite.jpg
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -234,10 +253,13 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Mat directionnel avec 4 lattes noir ou jaunes indiquant le tramway
-          17, le centre ville, la ville d'Ambilly, l'office de tourisme. Les
-          temps de marche sont annoncés pour chaque
-          destination.](/media/annemasse-atipy-adequat-signaletique-velo-2.jpg)"
+        content: ""
+      image:
+        url: /media/annemasse-atipy-adequat-signaletique-velo-2.jpg
+        alt: Mat directionnel avec 4 lattes noir ou jaunes indiquant le tramway 17, le
+          centre ville, la ville d'Ambilly, l'office de tourisme. Les temps de
+          marche sont annoncés pour chaque destination.
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:

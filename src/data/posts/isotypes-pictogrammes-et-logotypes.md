@@ -30,9 +30,12 @@ post_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Série de pictogrammes noirs sur fond blanc pouvant représentant des
-          personnes debout, en fauteuil, avec une
-          poussette...](/media/pictogrammes_atipy_isotypes_1.jpg)"
+        content: ""
+      image:
+        url: /media/pictogrammes_atipy_isotypes_1.jpg
+        ariaHidden: true
+        alt: Série de pictogrammes noirs sur fond blanc pouvant représentant des
+          personnes debout, en fauteuil, avec une poussette...
     col2:
       reverseMobile: false
     col3:
@@ -41,12 +44,16 @@ post_sections:
     col1:
       reverseMobile: false
       text:
-        content: >-
-          ### Quelle est la différence entre un pictogramme, un logotype et un
-          isotype ?
-
-
-          ![A gauche, un isotype. Il s'agit d'une personnage homme dans un style graphique un peu rétro. Au milieu, un pictogramme homme comme ceux que l'on peut trouver sur les portes des toilettes. A droite, le logo de Johnny Walker qui représente un homme qui marche dans un style anglais un peu rétro.](/media/pictogrammes_atipy_isotypes_2.jpg)
+        content: "### Quelle est la différence entre un pictogramme, un logotype et un
+          isotype ?"
+      image:
+        url: /media/pictogrammes_atipy_isotypes_2.jpg
+        alt: A gauche, un isotype. Il s'agit d'une personnage homme dans un style
+          graphique un peu rétro. Au milieu, un pictogramme homme comme ceux que
+          l'on peut trouver sur les portes des toilettes. A droite, le logo de
+          Johnny Walker qui représente un homme qui marche dans un style anglais
+          un peu rétro.
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -72,9 +79,12 @@ post_sections:
 
 
           Dans son livre Modern Man in the Making, Neurath met en scène les données sociétales de l’époque. Il créée ainsi des centaines de schémas que l’on appelle infographies, si prisées aujourd’hui.
-
-
-          ![Exemple de documents réalisés présentant des schémas réalisés à partir d'isotypes ](/media/pictogrammes_atipy_isotypes_3.jpg "Source : isotyperevisited.org")
+      image:
+        url: /media/pictogrammes_atipy_isotypes_3.jpg
+        legend: "Source : isotyperevisited.org"
+        ariaHidden: true
+        alt: "Exemple de documents réalisés présentant des schémas réalisés à partir
+          d'isotypes "
     col2:
       reverseMobile: false
     col3:
@@ -91,9 +101,11 @@ post_sections:
 
 
           Représentation codifiée, il est très utilisé en signalisation et signalétique. Dans les gares, aéroports, musées, hôpitaux… il permet ainsi aux personnes pressées de comprendre rapidement l’information, ou aux usagers ne sachant pas lire d’y avoir également accès.
-
-
-          ![4 pictogrammes blancs sur fond vert : une pomme, une clef à molette, une échelle de piscine et des lunettes](/media/pictogrammes_atipy_isotypes_4.jpg)
+      image:
+        alt: "4 pictogrammes blancs sur fond vert : une pomme, une clef à molette, une
+          échelle de piscine et des lunettes"
+        url: /media/pictogrammes_atipy_isotypes_4.jpg
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -109,9 +121,11 @@ post_sections:
 
 
           L’AIGA, (American Institute of Graphic Arts) propose des pictogrammes simples et libres de droits téléchargeable en ligne dans le but de les diffuser largement. Nous les avons tous vu au moins une fois sur un panneau signalétique.
-
-
-          ![Trois pictogrammes liés aux transports blanc dans un carré noir : des couverts, un avion, une valise. ](/media/pictogrammes_atipy_isotypes_5.jpg)
+      image:
+        url: /media/pictogrammes_atipy_isotypes_5.jpg
+        alt: "Trois pictogrammes liés aux transports blanc dans un carré noir : des
+          couverts, un avion, une valise. "
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:

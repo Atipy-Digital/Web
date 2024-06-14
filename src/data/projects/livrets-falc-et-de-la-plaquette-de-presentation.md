@@ -11,6 +11,7 @@ title: Livrets FALC et plaquette de présentation
 image:
   url: /media/design-reference-ccas-bethune-atipy-1.jpg
   alt: 5 livrets illustrés avec des couvertures en noir et orange
+  ariaHidden: true
 project_client: ccas-de-bethune
 mission_body: Création d’une série de livrets FALC accompagnés de leur fiche
   outil et de la plaquette de présentation du CCAS de Béthune.
@@ -30,25 +31,22 @@ project_sections:
     col1:
       reverseMobile: false
       text:
+        content: ""
+      image:
+        url: /media/design-reference-ccas-bethune-atipy-4.jpg
+        alt: Illustrations détaillant l'univers graphique créer pour le projet
+        ariaHidden: true
+    col2:
+      reverseMobile: false
+      text:
         content: >-
-          
-
-          ![Illustrations détaillant l'univers graphique créer pour le projet](/media/design-reference-ccas-bethune-atipy-4.jpg)
-
-
-
-
           #### Univers graphique
 
 
           Reprenant les codes graphiques de la charte de la ville, chaque illustration est pensée pour être facile à comprendre par tous et toutes. Chaque élément visuel a été relu et commenté par un panel d’utilisateurs déficients intellectuels. Les remarques ont ensuite été intégrées aux éléments graphiques afin d’améliorer leur compréhension. Ainsi, les personnes non-lectrices sont aidées par les visuels.
 
 
-
-
           #### Le Facile A Lire et à Comprendre (FALC)
-    col2:
-      reverseMobile: false
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -88,25 +86,30 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: >-
-          
-
-          ![Couverture du livret sur le pole logement](/media/design-reference-ccas-bethune-atipy-2.jpg)
+        content: ""
+      image:
+        url: /media/design-reference-ccas-bethune-atipy-5.jpg
+        alt: Couverture du livret sur le pole logement
+        ariaHidden: true
     col2:
       reverseMobile: false
       text:
-        content: >-
-          
-
-          ![Pages intérieures du livret sur le pole séniors](/media/design-reference-ccas-bethune-atipy-3.jpg)
+        content: ""
+      image:
+        url: /media/design-reference-ccas-bethune-atipy-3.jpg
+        alt: Pages intérieures du livret sur le pole séniors
+        ariaHidden: true
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: "![Vue d'ensemble du livret sur le pole
-          logement](/media/design-reference-ccas-bethune-atipy-5.jpg)"
+        content: ""
+      image:
+        url: /media/design-reference-ccas-bethune-atipy-5.jpg
+        ariaHidden: true
+        alt: Vue d'ensemble du livret sur le pole logement
     col2:
       reverseMobile: false
     col3:

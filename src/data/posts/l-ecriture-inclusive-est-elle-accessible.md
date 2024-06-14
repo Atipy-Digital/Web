@@ -12,15 +12,23 @@ post_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
+      image:
+        url: /media/atipy-ecriture-inclusive-handicap-accessibilite-1.jpg
+        ariaHidden: true
+        alt: Une jeune femme lit un magazine.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
       text:
-        content: >-
-          ![Une jeune femme lit un
-          magazine.](/media/atipy-ecriture-inclusive-handicap-accessibilite-1.jpg)
-
-
-
-
-          **Vous avez l’habitude maintenant, sur le blog d'Atipy nous rédigeons des articles qui traitent de l’accès à l’information pour tous. Nous n’aborderons donc pas le sujet de l’égalité des sexes (même si nous avons notre avis sur la question 😉 ) Nous allons vous parler d’orthographe ou écriture inclusive.**
+        content: "**Vous avez l’habitude maintenant, sur le blog d'Atipy nous rédigeons
+          des articles qui traitent de l’accès à l’information pour tous. Nous
+          n’aborderons donc pas le sujet de l’égalité des sexes (même si nous
+          avons notre avis sur la question 😉 ) Nous allons vous parler
+          d’orthographe ou écriture inclusive.**"
     col2:
       reverseMobile: false
     col3:

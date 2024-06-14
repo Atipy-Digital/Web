@@ -32,8 +32,11 @@ post_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Fiches présentant des profils d'utilisateurs ayant des besoins
-          spécifiques](/media/atipy-formation-communication-accessible.jpg)"
+        content: ""
+      image:
+        url: /media/atipy-formation-communication-accessible.jpg
+        alt: Fiches présentant des profils d'utilisateurs ayant des besoins spécifiques
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -42,11 +45,11 @@ post_sections:
     col1:
       reverseMobile: false
       text:
-        content: >-
-          ### Focus sur quelques outils intéressants
-
-
-          ![La neurodiversité, la mobilité, l'apprentissage et la santé mentale](/media/atipy-outils-microsoft-accessibilite-handicap.jpg)
+        content: "### Focus sur quelques outils intéressants"
+      image:
+        alt: La neurodiversité, la mobilité, l'apprentissage et la santé mentale
+        url: /media/atipy-outils-microsoft-accessibilite-handicap.jpg
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -62,8 +65,6 @@ post_sections:
           Utiliser les sous-titres permet aux personnes sourdes ou déficientes auditives de pouvoir suivre une présentation orale, une réunion, une conférence… Vous présentez un document avec Power Point, vous pouvez activer les sous-titres. Votre présentation orale est alors retranscrite en direct.
 
 
-
-
           ##### Pour utiliser les sous-titres dans Power Point&nbsp;:
 
 
@@ -76,6 +77,10 @@ post_sections:
 
 
           [En savoir plus sur les sous-titres Power Point](https://support.microsoft.com/fr-fr/office/pr%C3%A9sentez-avec-des-l%C3%A9gendes-ou-des-sous-titres-automatiques-et-en-temps-r%C3%A9eldans-powerpoint-68d20e49-aec3-456a-939d-34a79e8ddd5f)
+      image:
+        url: ""
+        ariaHidden: false
+        alt: ""
     col2:
       reverseMobile: false
       text:

@@ -47,14 +47,12 @@ post_sections:
 
 
           **La diffusion d’informations claires et simples contribue à conserver dignité et autonomie pour le plus grand nombre.**
-
-
-
-
-          ![Livret pour bien manger. Format carré, deux pages ouvertes montrant les différents types d'aliments illustrés.](/media/livret-mieux-manger-msa-agence-adequat-atipy-pages-interieures-.jpg)
       image:
-        url: ""
+        url: /media/livret-mieux-manger-msa-agence-adequat-atipy-pages-interieures-.jpg
         legend: ""
+        ariaHidden: true
+        alt: Livret pour bien manger. Format carré, deux pages ouvertes montrant les
+          différents types d'aliments illustrés.
     col2:
       reverseMobile: false
     col3:
@@ -125,10 +123,12 @@ post_sections:
   - col1:
       reverseMobile: false
       text:
-        content: "![Deux pages en FALC sur les conseils de la vie sociale. Chaque phrase
-          est illustrée par un
-          dessin.](/media/cvs-france_assos_sante_adequat_fiches_falc_sante.jpeg\
-          )"
+        content: ""
+      image:
+        url: /media/cvs-france_assos_sante_adequat_fiches_falc_sante.jpeg
+        ariaHidden: true
+        alt: Deux pages en FALC sur les conseils de la vie sociale. Chaque phrase est
+          illustrée par un dessin.
     col2:
       reverseMobile: false
     col3:

@@ -10,6 +10,7 @@ title: Conception de la signalétique inclusive du Stade Pierre de Coubertin
 image:
   url: /media/design-reference-stade-coubertin-atipy-1.jpg
   alt: Grande salle du stade Pierre de Coubertin
+  ariaHidden: true
 project_client: ville-de-paris
 mission_body: Conception de la signalétique inclusive du Stade Pierre de Coubertin à Paris.
 context_body: >-
@@ -41,13 +42,20 @@ project_sections:
     col1:
       reverseMobile: false
       text:
+        content: ""
+      image:
+        url: /media/design-reference-stade-coubertin-atipy-2.jpg
+        ariaHidden: true
+        alt: Vue intérieure du stade avec la mise en place de la nouvelle signalétique
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: >-
-          ![Vue intérieure du stade avec la mise en place de la nouvelle
-          signalétique](/media/design-reference-stade-coubertin-atipy-2.jpg)
-
-
-
-
           ### Les intentions signalétique
 
 
@@ -70,11 +78,12 @@ project_sections:
           * Court 3 : couleur bleu clair.
 
 
-
           Ces couleurs, appliquées sur certains murs des circulations, sont perceptibles par des personnes daltoniennes. Elles ne transmettent pas à elles seules une information, mais viennent en complément des supports signalétique.
-
-
-          ![Illustration du stade avec les trois court mis en évidence par leur code coloré.](/media/design-reference-stade-coubertin-atipy-3.jpg)
+      image:
+        ariaHidden: true
+        alt: Illustration du stade avec les trois court mis en évidence par leur code
+          coloré.
+        url: /media/design-reference-stade-coubertin-atipy-3.jpg
     col2:
       reverseMobile: false
     col3:
@@ -105,14 +114,19 @@ project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
+      image:
+        url: /media/design-reference-stade-coubertin-atipy-4.jpg
+        ariaHidden: true
+        alt: Plan d'implantation du niveau 1 (court central et court 2) du stade.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
       text:
         content: >-
-          ![Plan d'implantation du niveau 1 (court central et court 2) du
-          stade.](/media/design-reference-stade-coubertin-atipy-4.jpg)
-
-
-
-
           ### Une charte signalétique accessible
 
 
@@ -124,20 +138,34 @@ project_sections:
           * Préconisations de contrastes importants entre le fond et le texte.
 
 
-
           Chaque pictogramme est associé à un texte pour favoriser sa compréhension. La version pleine des pictogrammes est préférée. Une typographie, en lien avec la charte graphique de la Ville de Paris, a été retenue&nbsp;: Arial.
 
 
           Les différents supports de signalétiques (totem, drapeau, suspendu, plaque de porte et imposte) sont réalisés en bois résineux clair pour permettre un contraste important avec les textes et les pictogrammes. Dans les circulations du court central, les supports en drapeau font face au sens de circulation. Positionnés perpendiculaires au cheminement, ces supports dirigent le public vers les places. Dans le cheminement inverse, à la sortie des tribunes, les supports totems positionnés de face en haut des escaliers orientent le public vers les sorties et les espaces de services (toilettes, buvettes, etc…).
-
-
-          ![Image de synthèse d'un couloir de circulation intégrant des supports suspendus réalisée par le Bureau Face B.](/media/design-reference-stade-coubertin-atipy-5.jpg)
-
-
-          ![Quatre planches issues de la charte signalétique du stade. Elles détaillent les couleurs, les pictogrammes et la typologie de supports déployés dans la signalétique du stade.](/media/design-reference-stade-coubertin-atipy-6.jpg)
-
-
-          ![Exemple de mise en application d'un support mural directionnel.](/media/design-reference-stade-coubertin-atipy-7.jpg)
+      image:
+        url: /media/design-reference-stade-coubertin-atipy-5.jpg
+        alt: Image de synthèse d'un couloir de circulation intégrant des supports
+          suspendus réalisée par le Bureau Face B.
+        ariaHidden: true
+        legend: ""
+    col2:
+      reverseMobile: false
+      image:
+        url: /media/design-reference-stade-coubertin-atipy-6.jpg
+        alt: Quatre planches issues de la charte signalétique du stade. Elles détaillent
+          les couleurs, les pictogrammes et la typologie de supports déployés
+          dans la signalétique du stade.
+        ariaHidden: true
+        legend: ""
+    col3:
+      reverseMobile: false
+      image:
+        url: /media/design-reference-stade-coubertin-atipy-7.jpg
+        ariaHidden: true
+        alt: Exemple de mise en application d'un support mural directionnel.
+  - inverseCol: false
+    col1:
+      reverseMobile: false
     col2:
       reverseMobile: false
     col3:

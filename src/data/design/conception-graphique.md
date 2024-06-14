@@ -21,12 +21,13 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Série de livrets pédagogiques pour Amnesty Internationale : Les
-          droits humains avec une couverture orange, les discriminations avec
-          une couverture rose, la peine de mort avec une couverture
-          violette.](/media/design-expertise-conception-graphique.png)"
+        content: ""
       image:
-        url: ""
+        url: /media/design-expertise-conception-graphique.png
+        alt: "Série de livrets pédagogiques pour Amnesty Internationale : Les droits
+          humains avec une couverture orange, les discriminations avec une
+          couverture rose, la peine de mort avec une couverture violette."
+        ariaHidden: true
     col2:
       reverseMobile: false
     col3:
@@ -72,9 +73,12 @@ sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Ensemble de 16 pictogrammes représentant un tracteur, des toilettes,
-          un vélo qui monte une pente,
-          etc.](/media/design-expertise-conception-pictogramme-atipy-1.jpg)"
+        content: ""
+      image:
+        url: /media/design-expertise-conception-pictogramme-atipy-1.jpg
+        ariaHidden: true
+        alt: Ensemble de 16 pictogrammes représentant un tracteur, des toilettes, un
+          vélo qui monte une pente, etc.
     col2:
       reverseMobile: false
     col3:

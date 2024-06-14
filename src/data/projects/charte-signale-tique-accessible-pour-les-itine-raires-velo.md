@@ -13,6 +13,7 @@ image:
   url: /media/design-reference-pyrenees-atlantique-atipy-2.jpg
   alt: Point de départ d'un itinéraire vélo avec un totem en bois qui présente le
     plan et les caractéristiques de l'itinéraire
+  ariaHidden: true
 project_client: departement-pyrenees-atlantiques
 mission_body: Réalisation d’une charte signalétique accessible pour les
   itinéraires vélo du Conseil Départemental des Pyrénées-Atlantiques
@@ -71,16 +72,18 @@ project_sections:
         url: /media/realisation-signaletique-velo-pyrennees-atipy-totem.jpg
         legend: "4 types de supports signalétique différents en bois : un grand totem de
           départ, deux supports d'information sur pied, un potelet."
+        alt: ""
     col3:
       reverseMobile: false
   - col1:
       reverseMobile: false
-      text:
-        content: "![Extrait de la charte signalétique présentant 3 pages avec une carte
-          d'un itinéraire, des préconisations pour la bonne implantation des
-          supports et le détail du grand totem de
-          départ.](/media/realisation-signaletique-velo-pyrenees-atlantique-ati\
-          py-2.jpg \"illustration charte graphique\")"
+      image:
+        ariaHidden: true
+        alt: Extrait de la charte signalétique présentant 3 pages avec une carte d'un
+          itinéraire, des préconisations pour la bonne implantation des supports
+          et le détail du grand totem de départ.
+        ariaLabel: illustration charte graphique
+        url: /media/realisation-signaletique-velo-pyrenees-atlantique-atipy-2.jpg
     col2:
       reverseMobile: false
     col3:
@@ -107,27 +110,28 @@ project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
-      text:
-        content: "![Recto de la fiche FALC avec une carte schématique de l'itinéraire
-          allant d'Artiguelouve à
-          Laroin.](/media/design-expertise-mobilite-velo-signaletique-plan-atip\
-          y-4.jpg)"
+      image:
+        url: /media/design-expertise-mobilite-velo-signaletique-plan-atipy-4.jpg
+        alt: Recto de la fiche FALC avec une carte schématique de l'itinéraire allant
+          d'Artiguelouve à Laroin.
+        ariaHidden: true
     col2:
       reverseMobile: false
-      text:
-        content: "![Verso de la fiche FALC donnant les détails des éléments que le
-          cycliste va rencontrer sur son chemin. par exemple, le temps et la
-          distance du parcours, les obstacles ou points
-          d'intérêt.](/media/202312-py-velo-fiches-falc-def_plan-de-travail-1.j\
-          pg)"
+      image:
+        url: /media/202312-py-velo-fiches-falc-def_plan-de-travail-1.jpg
+        ariaHidden: true
+        alt: Verso de la fiche FALC donnant les détails des éléments que le cycliste va
+          rencontrer sur son chemin. par exemple, le temps et la distance du
+          parcours, les obstacles ou points d'intérêt.
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
-      text:
-        content: "![Carte ouverte avec le parcours d'un des itinéraires
-          cyclables](/media/atipy-fiches-falc-pyrennees-velo.jpg)"
+      image:
+        url: /media/atipy-fiches-falc-pyrennees-velo.jpg
+        ariaHidden: true
+        alt: Carte ouverte avec le parcours d'un des itinéraires cyclables
     col2:
       reverseMobile: false
     col3:
@@ -135,11 +139,11 @@ project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
-      text:
-        content: "![Fin d'un parcours accessible devant un pont métallique. Avant le
-          pont est implanté un panneau avec écrit \"arrivée\".
-          ](/media/pyrenees-atlantiques-velo-signaletique-arrivee-catagnede-v2.\
-          jpg)"
+      image:
+        alt: "Fin d'un parcours accessible devant un pont métallique. Avant le pont est
+          implanté un panneau avec écrit \"arrivée\". "
+        ariaHidden: true
+        url: /media/pyrenees-atlantiques-velo-signaletique-arrivee-catagnede-v2.jpg
     col2:
       reverseMobile: false
     col3:
