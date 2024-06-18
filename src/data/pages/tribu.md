@@ -32,9 +32,9 @@ members:
       - text: Accessibilité
       - text: Conception universelle
       - text: Diagnostiqueur multi-technique
-    image: /media/jean-marie.webp
+    image: /media/jean-marie.jpg
   - name: Guillaume Wemelle
-    image: /media/guillaume.webp
+    image: /media/guillaume.jpg
     skills:
       - text: Partenariats
       - text: Appel d’offre
@@ -44,7 +44,7 @@ members:
       label: L’audacieux
     linkedin: https://www.linkedin.com/in/guillaumewemelle/
   - name: Mélissa Jay
-    image: /media/melissa.webp
+    image: /media/melissa.jpg
     skills:
       - text: Design signalétique
       - text: Graphisme
@@ -54,7 +54,7 @@ members:
       color: a-green
     linkedin: https://www.linkedin.com/in/melissa-jay/
   - name: Florent Paumier
-    image: /media/florent.webp
+    image: /media/florent.jpg
     skills:
       - text: Accessibilité numérique
       - text: Développement de logiciels
@@ -64,7 +64,7 @@ members:
       color: a-red
     linkedin: https://www.linkedin.com/in/florent-paumier-83a48958/
   - name: Adeline Richez
-    image: /media/adeline.webp
+    image: /media/adeline.jpg
     skills:
       - text: Conception universelle
       - text: Design signalétique
@@ -78,13 +78,13 @@ members:
       - text: Accessibilité
       - text: Conception universelle
       - text: Concertation
-    image: /media/antoine.webp
+    image: /media/antoine.jpg
     badge:
       label: Le facilitateur
       color: a-blue
     linkedin: https://www.linkedin.com/in/antoine-tesson-6935a180/
   - name: Julie Mesnard
-    image: /media/julie-mesnard-nb.jpg
+    image: /media/julie-m.jpg
     badge:
       label: La consciencieuse
       color: a-green
@@ -94,7 +94,7 @@ members:
       - text: Communication
       - text: Facturation
   - name: Sébastien Montalan
-    image: /media/sebastien_nb.jpg
+    image: /media/sebastien.jpg
     badge:
       color: a-blue
       label: Le pointilleux
@@ -104,7 +104,7 @@ members:
       - text: Urbanisme
       - text: Diagnostic multi-technique
   - name: Pierre-Yves Bourghelle
-    image: /media/pierre_yves_nb.jpg
+    image: /media/pierre-yves.jpg
     badge:
       color: a-blue
       label: Le rigoureux
@@ -114,7 +114,7 @@ members:
       - text: Conseil
     linkedin: https://www.linkedin.com/in/pierre-yves-bourghelle-12538a76/
   - name: Léa Léauté
-    image: /media/le-a-le-aute-.jpg
+    image: /media/lea.jpg
     badge:
       color: a-blue
       label: La voyageuse
@@ -132,9 +132,9 @@ members:
       - text: Accessibilité
       - text: Relevé multi-technique
       - text: Logistique
-    image: /media/julie-bouchez-martin.jpg
+    image: /media/julie-b.jpg
   - name: Daviani Fillatre
-    image: /media/atipy-daviani-fillatre.jpeg
+    image: /media/daviani.jpg
     badge:
       color: a-red
       label: Le logique
@@ -143,4 +143,14 @@ members:
       - text: Applications
       - text: Innovation
       - text: Viabilité
+  - badge:
+      color: a-yellow
+      label: Le géographe
+    name: Pierre Bagliotto
+    image: /media/pierre.jpg
+    skills:
+      - text: Mobilité
+      - text: Cartographie
+      - text: Urbanisme
+    linkedin: https://www.linkedin.com/in/pierre-bagliotto-3104309a/
 ---

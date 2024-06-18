@@ -30,6 +30,7 @@ project_tags:
   - Applications
   - Voirie
   - Ingénierie
+  - Mobilité
 project_sections:
   - inverseCol: false
     col1:

@@ -1,95 +1,169 @@
 ---
-intro: Nous accompagnons les collectivités et communautés d’agglomération, les
-  hôpitaux et centres de santé, les associations, les musées et centres
-  culturels, les parcs, les PME, les start up et les grands groupes désireux de
-  rendre accessible au plus grand nombre leurs services, leurs produits, leur
-  ville.
+intro: Nous accompagnons les collectivités, les hôpitaux et centres de santé,
+  les associations, les musées et centres culturels, les parcs, les PME, les
+  start up et les grands groupes désireux de rendre accessible au plus grand
+  nombre leurs services, leurs produits, leur ville.
 sections:
   - col1:
       reverseMobile: false
       text:
-        content: |-
-          ### **Collectivités et métropoles**
+        content: >-
+          ### Villes, Communauté de Communes, Communauté d’Agglomération,
+          Communauté Urbaine
+
 
           Ville de Paris
 
+
           Ville de Lyon
+
 
           Ville de Toulouse
 
+
           Ville d’Amiens
+
 
           Ville de Clichy
 
+
           V﻿ille de Chantepie
+
 
           Ville de Lormont
 
+
           Ville de Pantin
+
 
           Ville de Bobigny
 
+
+          Ville de Nantes
+
+
           Ville de Saint-Denis
+
 
           Ville de Saint-Ouen
 
+
           Ville d’Orléans
+
 
           Ville de Saint-Malo
 
+
           Grand Lyon Métropole
+
+
+          Nantes Métropole
+
+
+          Rennes Métropole
+
+
+          Lorient Agglomération
+
 
           Maconnais-Beaujolais Agglomération
 
-          Rennes métropole
 
           C﻿ommune de l'Ile de Bréhat
 
-          ### **Structures publiques**
 
           Caisse des Dépôts
 
-          Département Pyrénées Atlatique
+
+          ### **Départements et Régions**
+
+
+          Département Pyrénées Atlantique
+
+
+          D﻿épartement du Var
+
+
+          Département de Seine-Saint Denis
+
+
+          Région Bretagne
+
+
+          Agglopolys
+
+
+          Annemasse Agglo
+
+
+          La Cali
+
+
+          Le Pays Barrois
+
+
+          ### Ministères
+
 
           Ministère de l’Intérieur
 
+
           Ministère de la Justice
+
 
           Ministère de la Culture
 
+
           M﻿inistère de l'Europe et des Affaires Etrangères
+
 
           Préfecture de la Région hauts de France
 
+
           ### **Espaces Naturels**
+
 
           P﻿arc Naturel Régional du Haut Languedoc
 
+
           Conservatoire du Littoral
+
 
           ### **Associations et tiers-lieux**
 
+
           Amnesty International France
+
 
           France Handicap International
 
+
           APF
+
 
           Les petits frères des pauvres
 
+
           Croix Rouge Française
+
 
           La Tréso
 
+
           La Ressourcerie de Malakoff
+
 
           La Manufacture
 
+
           L﻿es Jours Heureux
+
 
           ### S﻿port
 
+
           S﻿olideo - Ouvrages olympiques
+
 
           P﻿aris Sport
     col2:
@@ -117,28 +191,28 @@ sections:
           M﻿ACIF
 
 
-          ### **Régions, Communautés d’agglomération et Départements**
+          RESAH
 
 
-          Région Bretagne
+          CHD Vendée
 
 
-          Agglopolys
+          CH La Valette
 
 
-          Annemasse Agglo
+          CHU Montpellier
 
 
-          La Cali
+          CAPIO / RAMSAY SANTÉ
 
 
-          Le Pays Barrois
+          GROUPE SOS
 
 
-          Conseil Départemental des Pyrénées Atlantique
+          CCAS Grenoble
 
 
-          D﻿épartement du Var
+          CIAS à l'Ouest de Rennes
 
 
           ### **Culture**
@@ -196,6 +270,30 @@ sections:
 
 
           SIEMP Bailleur
+
+
+          Est Métropole Habitat
+
+
+          Immobilière Rhône-Alpes (Groupe 3F)
+
+
+          Aquitanis
+
+
+          Habitat & Métropole
+
+
+          SIDR
+
+
+          Foyer Vellave
+
+
+          Haute-Savoie Habitat
+
+
+          FONCIA
     col3:
       reverseMobile: false
       text:
