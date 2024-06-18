@@ -1,9 +1,8 @@
 'use client';
 
-import { Menu, Transition } from '@headlessui/react';
 import { CheckIcon, ChevronDownIcon } from '@heroicons/react/solid';
 import { motion } from 'framer-motion';
-import { Fragment, memo, useEffect, useRef, useState } from 'react';
+import { memo, useCallback, useEffect, useRef, useState } from 'react';
 
 import { MEDIA_QUERY, useMediaQuery } from '@/hooks/use-media';
 
@@ -41,7 +40,9 @@ const FilterTagsTemp = ({
   const [isExpertiseMenuOpen, setIsExpertiseMenuOpen] =
     useState<boolean>(false);
   const [isBusinessMenuOpen, setIsBusinessMenuOpen] = useState<boolean>(false);
-  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  const expertiseDropdownRef = useRef<HTMLDivElement>(null);
+  const businessDropdownRef = useRef<HTMLDivElement>(null);
 
   const removeTagBusiness = useAppStore((s) => s.removeTagBusiness);
   const removeTagExpertise = useAppStore((s) => s.removeTagExpertise);
@@ -63,7 +64,6 @@ const FilterTagsTemp = ({
         setTagExpertiseActive(selectedTag);
       }
     }
-    setIsExpertiseMenuOpen(true);
   };
 
   const handleBusinessChange = (tagLabel: string) => {
@@ -75,7 +75,6 @@ const FilterTagsTemp = ({
     setSelectedBusinessTags(newSelectedTags);
 
     const selectedTag = businessTags.find((tag) => tag.label === tagLabel);
-
     if (selectedTag) {
       if (isSelected) {
         removeTagBusiness(selectedTag);
@@ -83,25 +82,37 @@ const FilterTagsTemp = ({
         setTagBusinessActive(selectedTag);
       }
     }
-    setIsBusinessMenuOpen(true);
   };
 
-  const handleClickOutside = (event: MouseEvent) => {
-    if (
-      dropdownRef.current &&
-      !dropdownRef.current.contains(event.target as Node)
-    ) {
-      setIsExpertiseMenuOpen(false);
-      setIsBusinessMenuOpen(false);
-    }
-  };
+  const handleClickOutside = useCallback(
+    (event: MouseEvent) => {
+      if (
+        !(event.target as HTMLElement).closest('#expertise-menu') &&
+        isExpertiseMenuOpen
+      ) {
+        setIsExpertiseMenuOpen(false);
+      }
+      if (
+        !(event.target as HTMLElement).closest('#business-menu') &&
+        isBusinessMenuOpen
+      ) {
+        setIsBusinessMenuOpen(false);
+      }
+    },
+    [isExpertiseMenuOpen, isBusinessMenuOpen]
+  );
 
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside);
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, []);
+  }, [handleClickOutside]);
+
+  useEffect(() => {
+    setSelectedExpertiseTags(tagsExpertiseActive.map((tag) => tag.label));
+    setSelectedBusinessTags(tagsBusinessActive.map((tag) => tag.label));
+  }, [tagsExpertiseActive, tagsBusinessActive]);
 
   const handleResetTags = () => {
     onResetTags();
@@ -122,129 +133,108 @@ const FilterTagsTemp = ({
       animate={{
         height: isFilterExpanded ? '100%' : matchesLG ? getSmallHeight : 70,
       }}
-      ref={dropdownRef}
     >
       <div className='flex flex-col lg:flex-row'>
         <div className='flex flex-col md:flex-row items-center justify-center gap-x-2 md:gap-x-4 p-4 md:pr-6 lg:pr-8 xl:pr-10'>
           <p className='font-bold text-[16px] xl:text-[18px] leading-none self-center pb-2 md:pb-0 pt-1'>
             Expertises
           </p>
-          <Menu as='div' className='relative inline-block text-left'>
-            <div>
-              <Menu.Button
-                className='inline-flex justify-between w-full rounded-md border border-gray-400 shadow-sm px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none'
-                onClick={() => setIsExpertiseMenuOpen(!isExpertiseMenuOpen)}
-                aria-haspopup={true}
-                aria-expanded={isExpertiseMenuOpen}
-              >
-                Sélectionner les expertises
-                <ChevronDownIcon
-                  className='ml-2 -mr-1 h-5 w-5'
-                  aria-hidden='true'
-                />
-              </Menu.Button>
-            </div>
-            <Transition
-              as={Fragment}
-              show={isExpertiseMenuOpen}
-              enter='transition ease-out duration-100'
-              enterFrom='transform opacity-0 scale-95'
-              enterTo='transform opacity-100 scale-100'
-              leave='transition ease-in duration-75'
-              leaveFrom='transform opacity-100 scale-100'
-              leaveTo='transform opacity-0 scale-95'
+          <div
+            className='relative inline-block text-left'
+            id='expertise-menu'
+            ref={expertiseDropdownRef}
+          >
+            <button
+              className='inline-flex justify-between w-full rounded-md border border-gray-400 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none'
+              onClick={() => setIsExpertiseMenuOpen(!isExpertiseMenuOpen)}
+              aria-haspopup={true}
+              aria-expanded={isExpertiseMenuOpen}
             >
-              <Menu.Items className='origin-top-left absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-50'>
+              Sélectionner les expertises
+              <ChevronDownIcon
+                className='ml-2 -mr-1 h-5 w-5'
+                aria-hidden='true'
+              />
+            </button>
+            {isExpertiseMenuOpen && (
+              <div className='origin-top-left absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-50'>
                 <div className='py-1'>
                   {expertiseTags.map((tag) => (
-                    <Menu.Item key={tag.label}>
-                      {({ active }) => (
-                        <div
-                          className={`${
-                            active
-                              ? 'bg-gray-100 text-gray-900'
-                              : 'text-gray-700'
-                          } flex items-center justify-between px-4 py-2 text-sm cursor-pointer`}
-                          onClick={() => handleExpertiseChange(tag.label)}
-                          role='menu item'
-                          tabIndex={0}
-                        >
-                          {tag.label}
-                          {selectedExpertiseTags.includes(tag.label) && (
-                            <CheckIcon
-                              className='w-5 h-5 text-gray-900 ml-2'
-                              aria-hidden={true}
-                            />
-                          )}
-                        </div>
+                    <div
+                      key={tag.label}
+                      className={`${
+                        selectedExpertiseTags.includes(tag.label)
+                          ? 'bg-gray-100 text-gray-900'
+                          : 'text-gray-700'
+                      } flex items-center justify-between px-4 py-2 text-sm cursor-pointer`}
+                      onClick={() => handleExpertiseChange(tag.label)}
+                      role='menuitem'
+                      tabIndex={0}
+                    >
+                      {tag.label}
+                      {selectedExpertiseTags.includes(tag.label) && (
+                        <CheckIcon
+                          className='w-5 h-5 text-gray-900 ml-2'
+                          aria-hidden='true'
+                        />
                       )}
-                    </Menu.Item>
+                    </div>
                   ))}
                 </div>
-              </Menu.Items>
-            </Transition>
-          </Menu>
+              </div>
+            )}
+          </div>
         </div>
 
-        <div className='flex flex-col md:flex-row items-center justify-center gap-x-2 md:gap-x-4 py-4 lg:px-8 xl:px-10 '>
+        <div className='flex flex-col md:flex-row items-center justify-center gap-x-2 md:gap-x-4 py-4 lg:px-8 xl:px-10'>
           <p className='whitespace-nowrap font-bold text-[16px] xl:text-[18px] leading-none self-center pb-2 md:pb-0 pt-1'>
             Secteurs d’activité
           </p>
-          <Menu as='div' className='relative inline-block text-left'>
-            <div>
-              <Menu.Button
-                className='inline-flex justify-between w-full rounded-md border border-gray-400 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none'
-                onClick={() => setIsBusinessMenuOpen(!isBusinessMenuOpen)}
-                aria-haspopup='true'
-                aria-expanded={isBusinessMenuOpen}
-              >
-                Sélectionner les secteurs d’activité
-                <ChevronDownIcon
-                  className='ml-2 -mr-1 h-5 w-5'
-                  aria-hidden='true'
-                />
-              </Menu.Button>
-            </div>
-            <Transition
-              as={Fragment}
-              show={isBusinessMenuOpen}
-              enter='transition ease-out duration-100'
-              enterFrom='transform opacity-0 scale-95'
-              enterTo='transform opacity-100 scale-100'
-              leave='transition ease-in duration-75'
-              leaveFrom='transform opacity-100 scale-100'
-              leaveTo='transform opacity-0 scale-95'
+          <div
+            className='relative inline-block text-left'
+            id='business-menu'
+            ref={businessDropdownRef}
+          >
+            <button
+              className='inline-flex justify-between w-full rounded-md border border-gray-400 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none'
+              onClick={() => setIsBusinessMenuOpen(!isBusinessMenuOpen)}
+              aria-haspopup='true'
+              aria-expanded={isBusinessMenuOpen}
             >
-              <Menu.Items className='origin-top-left absolute left-0 mt-2 w-64 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-50'>
+              Sélectionner les secteurs d’activité
+              <ChevronDownIcon
+                className='ml-2 -mr-1 h-5 w-5'
+                aria-hidden='true'
+              />
+            </button>
+            {isBusinessMenuOpen && (
+              <div className='origin-top-left absolute left-0 mt-2 w-64 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-50'>
                 <div className='py-1'>
                   {businessTags.map((tag) => (
-                    <Menu.Item key={tag.label}>
-                      {({ active }) => (
-                        <div
-                          className={`${
-                            active
-                              ? 'bg-gray-100 text-gray-900'
-                              : 'text-gray-700'
-                          } flex items-center justify-between px-4 py-2 text-sm cursor-pointer`}
-                          onClick={() => handleBusinessChange(tag.label)}
-                          role='menu item'
-                          tabIndex={0}
-                        >
-                          {tag.label}
-                          {selectedBusinessTags.includes(tag.label) && (
-                            <CheckIcon
-                              className='w-5 h-5 text-gray-900 ml-2'
-                              aria-hidden={true}
-                            />
-                          )}
-                        </div>
+                    <div
+                      key={tag.label}
+                      className={`${
+                        selectedBusinessTags.includes(tag.label)
+                          ? 'bg-gray-100 text-gray-900'
+                          : 'text-gray-700'
+                      } flex items-center justify-between px-4 py-2 text-sm cursor-pointer`}
+                      onClick={() => handleBusinessChange(tag.label)}
+                      role='menuitem'
+                      tabIndex={0}
+                    >
+                      {tag.label}
+                      {selectedBusinessTags.includes(tag.label) && (
+                        <CheckIcon
+                          className='w-5 h-5 text-gray-900 ml-2'
+                          aria-hidden='true'
+                        />
                       )}
-                    </Menu.Item>
+                    </div>
                   ))}
                 </div>
-              </Menu.Items>
-            </Transition>
-          </Menu>
+              </div>
+            )}
+          </div>
         </div>
       </div>
       {isFilterExpanded && (
