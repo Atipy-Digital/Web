@@ -51,11 +51,11 @@ export const Tag = ({
       case 'a-yellow': {
         if (onClick) {
           if (isActive) {
-            return 'border-a-yellow-dark bg-a-yellow-dark text-white dark:border-a-yellow-light dark:bg-a-yellow-light dark:text-black';
+            return 'border-a-yellow-dark bg-a-yellow-dark text-black dark:border-a-yellow-light dark:bg-a-yellow-light dark:text-black';
           }
-          return 'border-grey-140 hover:dark:!border-a-yellow-dark dark:border-white text-grey-110 dark:text-white hover:border-a-yellow-dark hover:bg-a-yellow-dark hover:text-white';
+          return 'border-grey-140 hover:dark:!border-a-yellow-dark dark:border-white text-grey-110 dark:text-black hover:border-a-yellow-dark hover:bg-a-yellow-dark hover:text-black';
         }
-        return 'border-a-yellow-dark bg-a-yellow-dark text-white dark:border-a-yellow-light dark:bg-a-yellow-light dark:text-black select-none';
+        return 'border-a-yellow-dark bg-a-yellow-dark text-black dark:border-a-yellow-light dark:bg-a-yellow-light dark:text-black select-none';
       }
 
       default: {
