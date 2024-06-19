@@ -93,20 +93,24 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Aperçu de l'audit de l'accessibilité des supports de
-          communication](/media/design-livret-accessible-amnesty-international-\
-          atipy-2.jpg)"
+        content: ""
+      image:
+        alt: Aperçu de l'audit de l'accessibilité des supports de communication
+        url: /media/design-livret-accessible-amnesty-international-atipy-2.jpg
+        ariaHidden: true
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: "![Série de livrets pédagogiques. Exemple de \"Les droits humains et la
-          déclaration universelle des droits de l'homme\", couverture orange,
-          texte
-          blanc.](/media/realisation-conception-graphique-amnesty-international\
-          -atipy-1.jpg)"
+        content: ""
+      image:
+        url: /media/realisation-conception-graphique-amnesty-international-atipy-1.jpg
+        ariaHidden: true
+        alt: Série de livrets pédagogiques. Exemple de "Les droits humains et la
+          déclaration universelle des droits de l'homme", couverture orange,
+          texte blanc.
     col2:
       reverseMobile: false
     col3:
