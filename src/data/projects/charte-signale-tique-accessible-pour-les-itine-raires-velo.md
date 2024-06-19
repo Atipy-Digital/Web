@@ -71,9 +71,10 @@ project_sections:
           * En cohérence avec la charte randonnée du département
       image:
         url: /media/realisation-signaletique-velo-pyrennees-atipy-totem.jpg
-        legend: "4 types de supports signalétique différents en bois : un grand totem de
+        legend: ""
+        alt: "4 types de supports signalétique différents en bois : un grand totem de
           départ, deux supports d'information sur pied, un potelet."
-        alt: ""
+        ariaHidden: true
     col3:
       reverseMobile: false
   - col1:
@@ -83,7 +84,7 @@ project_sections:
         alt: Extrait de la charte signalétique présentant 3 pages avec une carte d'un
           itinéraire, des préconisations pour la bonne implantation des supports
           et le détail du grand totem de départ.
-        ariaLabel: illustration charte graphique
+        ariaLabel: ""
         url: /media/realisation-signaletique-velo-pyrenees-atlantique-atipy-2.jpg
     col2:
       reverseMobile: false
