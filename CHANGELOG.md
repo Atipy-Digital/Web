@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/Atipy-Digital/Web/compare/v1.3.0...v1.4.0) (2024-06-19)
+
+
+### Features
+
+* **Tag component:** update color settings for active and dark mode ([4ed573c](https://github.com/Atipy-Digital/Web/commit/4ed573cfa306a0660e6241df1a0bdbac2b20315e))
+
 ## [1.3.0](https://github.com/Atipy-Digital/Web/compare/v1.2.0...v1.3.0) (2024-06-14)
 
 
