@@ -56,15 +56,21 @@ post_sections:
 
           * Vous remplissez le champ «&nbsp;Description&nbsp;»
 
-
           Twitter peut aussi [vous aider ici.](https://help.twitter.com/fr/using-x/picture-descriptions)
-
-
-          ![Exemple de description d'une image avec le texte alternatif sur Twitter.](/media/agence_atipy_twitter_accessibilite_image_alt.jpg)
-
-
-
-
+      image:
+        url: /media/agence_atipy_twitter_accessibilite_image_alt.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Exemple de description d'une image avec le texte alternatif sur Twitter.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
           #### Qu’est ce que le texte alternatif&nbsp;?
 
 
@@ -135,9 +141,7 @@ post_sections:
         content: >-
           ### Utilisez les emojis avec réflexion
 
-
           **On en colle partout, des sourires, des larmes de rire et des pouces en l’air. Mais vous êtes-vous déjà posé la question de leur lisibilité**&nbsp;**? On va vous le dire**&nbsp;**!**
-
 
           Pour les utilisateurs ayant une déficience visuelle, il arrive que la distinction entre un visage qui sourit ou un visage qui pleure ne soit pas possible. Les emojis sont trop petites, pas suffisamment contrastées ou trop détaillées.
 
@@ -149,11 +153,20 @@ post_sections:
 
 
           💦  «&nbsp;Symbole éclaboussures de sueur&nbsp;» ou «&nbsp;égouttement&nbsp;»
-
-
-          ![Exemple d'un tweet de Gérald Darmanin avec utilisation de plusieurs émoticônes : L'article 24 a été adopté. Il empêchera la traque de nos forces de l'ordre jetées en pâture sur les réseaux sociaux. Il garantit la liberté de la presse et la liberté d'informer.](/media/tweet-gerald-darmanin.jpg)
-
-
+      image:
+        url: /media/agence-adequat-exemple-thread.jpg
+        ariaHidden: true
+        alt: "Exemple d'un tweet de Gérald Darmanin avec utilisation de plusieurs émoticônes : L'article 24 a été adopté. Il empêchera la traque de nos forces de l'ordre jetées en pâture sur les réseaux sociaux. Il garantit la liberté de la presse et la liberté d'informer."
+    
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
           #### Le tweet ci-dessus est ainsi lu ainsi par une synthèse vocale&nbsp;:
 
 

@@ -61,26 +61,29 @@ post_sections:
         content: >-
           #### Les sous-titrages dans Power Point
 
-
           Utiliser les sous-titres permet aux personnes sourdes ou déficientes auditives de pouvoir suivre une présentation orale, une réunion, une conférence… Vous présentez un document avec Power Point, vous pouvez activer les sous-titres. Votre présentation orale est alors retranscrite en direct.
-
 
           ##### Pour utiliser les sous-titres dans Power Point&nbsp;:
 
-
-          * Cliquez sur «&nbsp;Diaporama&nbsp;»
-
-          * Sélectionnez «&nbsp;Paramètres de sous-titre&nbsp;»
-
-
-          ![Dans l'onglet Diaporama, cocher la case &quot;Toujours activer les sous-titres&quot;](/media/atipy-microsoft-accessibilite-power-point.jpg)
-
-
-          [En savoir plus sur les sous-titres Power Point](https://support.microsoft.com/fr-fr/office/pr%C3%A9sentez-avec-des-l%C3%A9gendes-ou-des-sous-titres-automatiques-et-en-temps-r%C3%A9eldans-powerpoint-68d20e49-aec3-456a-939d-34a79e8ddd5f)
+          * Cliquez sur «&nbsp;Diaporama&nbsp;» * Sélectionnez «&nbsp;Paramètres de sous-titre&nbsp;»
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "[En savoir plus sur les sous-titres Power
+          Point](https://support.microsoft.com/fr-fr/office/pr%C3%A9sentez-avec\
+          -des-l%C3%A9gendes-ou-des-sous-titres-automatiques-et-en-temps-r%C3%A\
+          9eldans-powerpoint-68d20e49-aec3-456a-939d-34a79e8ddd5f)"
       image:
-        url: ""
-        ariaHidden: false
-        alt: ""
+        url: /media/atipy-microsoft-accessibilite-power-point.jpg
+        ariaHidden: true
+        alt: Dans l'onglet Diaporama, cocher la case &quot;Toujours activer les
+          sous-titres&quot;
+        legend: ""
     col2:
       reverseMobile: false
       text:
@@ -100,9 +103,10 @@ post_sections:
           * Le balisage des titres
 
           * Le texte alternatif manquant
-
-
-          ![Fenêtre présentant un exemple de rapport d'accessibilité du document](/media/atipy-microsoft-verificateur-accessibilite.jpg)
+      image:
+        url: /media/atipy-microsoft-verificateur-accessibilite.jpg
+        ariaHidden: true
+        alt: Fenêtre présentant un exemple de rapport d'accessibilité du document
     col3:
       reverseMobile: false
   - inverseCol: false

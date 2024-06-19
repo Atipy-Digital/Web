@@ -15,6 +15,7 @@ export const TeamCard = ({ image, badge, linkedin, name, skills }: Props) => {
           src={image}
           alt={`profil ${name}`}
           className='w-full h-auto rounded-[10px]'
+          aria-hidden={true}
         />
       </figure>
       <main className='pt-4'>
@@ -30,6 +31,7 @@ export const TeamCard = ({ image, badge, linkedin, name, skills }: Props) => {
             href={linkedin}
             target='_blank'
             rel='noopener noreferrer'
+            aria-hidden={false}
             aria-label={`profil linkedin de ${name}`}
             className='flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-md bg-background text-white dark:bg-white dark:text-black'
           >

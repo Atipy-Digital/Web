@@ -56,21 +56,44 @@ post_sections:
 
 
           Ces pictogrammes sont ainsi intégrés à l’identité visuelle globale et nécessitent une réflexion spécifique. C’est Lance Wyman, graphiste américain, qui lancera une dynamique créative et cohérente avec une identité visuelle mémorable lors des JO de Mexico en 1968.
+      image:
+        url: /media/logo-mexico-jo-1968.jpg
+        legend: ""
+        ariaHidden: true
+        alt: logo mexico JO 1968
 
-
-          ![logo mexico JO 1968](/media/logo-mexico-jo-1968.jpg)
-
-
-          ![Pictogrammes des disciplines olympiques créés par Lance Wyman](/media/lance-wyman-jo-mexico-68-pictogrammes-10.jpg)
-
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        url: /media/lance-wyman-jo-mexico-68-pictogrammes-10.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Pictogrammes des disciplines olympiques créés par Lance Wyman
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
 
           En 1972, il est suivi par Otl Aicher, graphiste allemand, qui créé une série de pictogrammes représentant les différentes disciplines sportives à l’occasion des JO de Munich.
 
 
           Depuis, les Jeux Olympiques éveillent la créativité de graphistes et designers s’essayant à l’exercice.
 
-
-          ![Pictogrammes des disciplines olympiques créés par Otl Aicher](/media/pictogramms-jo-olt-aicher-munich.jpg)
+      image:
+        url: /media/pictogramms-jo-olt-aicher-munich.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Pictogrammes des disciplines olympiques créés par Otl Aicher
     col2:
       reverseMobile: false
     col3:
@@ -87,11 +110,21 @@ post_sections:
 
 
           Ces déclinaisons créent une cohérence graphique facile à identifier. Ainsi, en 2006, la ville de Londres met en place [Legible London](https://tfl.gov.uk/info-for/boroughs-and-communities/legible-london), un système de signalétique urbaine en prévision des Jeux Olympiques qui se dérouleront 6 ans plus tard.
+      image:
+        url: /media/legible_london_13.jpg
+        legend: "Source : Legible London"
+        ariaHidden: true
+        alt: Totems signalétique d'orientation Londres
 
-
-          ![Totems signalétique d'orientation Londres](/media/legible_london_13.jpg "Source : Legible London")
-
-
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
           Composé de totems, mâts directionnels, plan d’orientation et guides, la signalétique d’orientation de Londres répond aux besoins d’information des piétons, touristes et londoniens. Ce système signalétique (wayfinding) met en avant des points de repères, le temps de marche, les informations liées aux transports, un sens d’orientation. En 2012, à l’occasion des Jeux Olympiques, le système évolue afin de proposer des informations spécifiques et mieux orienter les visiteurs et sportifs.
     col2:
       reverseMobile: false

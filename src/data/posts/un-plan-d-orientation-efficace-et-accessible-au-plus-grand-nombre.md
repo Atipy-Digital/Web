@@ -19,17 +19,23 @@ post_sections:
     col1:
       reverseMobile: false
       text:
+        content: "**Article co-rédigé avec Eloïse Auffret-Novice**"
+      image:
+        url: /media/atipy-plan-orientation-01.jpg
+        legend: "Source : www.stiftung-ettersberg.de"
+        ariaHidden: true
+        alt: Personne tenant un plan de ville au format papier dans une main et dans
+          l'autre main son smartphone
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
         content: >-
-          **Article co-rédigé avec Eloïse Auffret-Novice**
-
-
-
-
-          ![Personne tenant un plan de ville au format papier dans une main et dans l'autre main son smartphone](/media/atipy-plan-orientation-01.jpg "Source : www.stiftung-ettersberg.de")
-
-
-
-
+          
           **«&nbsp;Avoir le sens de l’orientation&nbsp;» et se repérer dans un lieu inconnu n’est pas chose évidente pour tout le monde. La signalétique et les plans d’orientation sont des outils d’aide à l’orientation. Mais sont-ils compris par tous&nbsp;?**
     col2:
       reverseMobile: false
@@ -64,9 +70,28 @@ post_sections:
 
 
           Beaucoup de plans d’orientation, avec la représentation conventionnelle que nous faisons de l’espace, ne sont pas compris par tous les utilisateurs. Les personnes de langues et de cultures étrangères n’ont pas les mêmes repères linguistiques ou spatiaux. Les personnes déficientes intellectuelles peuvent avoir des difficultés à se représenter l’espace. La lecture d’un plan en vue de haut peut s’avérer compliquée. Les personnes âgées peuvent cumuler différents handicaps comme une baisse de la vue, une difficulté à se repérer et s’orienter…
-
-
-          ![Listing des utilisateurs à besoins spécifiques : Les personnes de langue étrangère, les personnes en situation de handicap moteur, les personnes en situation de handicap mental, visuel ou auditif, les familles et les personnes âgées](/media/atipy-plan-orientation-02.jpg)
+      image:
+        url: /media/atipy-plan-orientation-02.jpg
+        legend: ""
+        ariaHidden: true
+        alt: "Listing des utilisateurs à besoins spécifiques : Les personnes de langue
+          étrangère, les personnes en situation de handicap moteur, les
+          personnes en situation de handicap mental, visuel ou auditif, les
+          familles et les personnes âgées"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: "### Se repérer sur un plan"
+      image:
+        url: /media/atipy-plan-orientation-03.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Plusieurs illustrations de la mention "Vous êtes ici"
     col2:
       reverseMobile: false
     col3:
@@ -76,11 +101,7 @@ post_sections:
       reverseMobile: false
       text:
         content: >-
-          ### Se repérer sur un plan
-
-
-          ![Plusieurs illustrations de la mention "Vous êtes ici"](/media/atipy-plan-orientation-03.jpg)
-
+          
 
           #### «&nbsp;Vous êtes ici&nbsp;»
 
@@ -88,10 +109,21 @@ post_sections:
           Combien de fois avez-vous regardé un plan sur lequel le «&nbsp;Vous êtes ici&nbsp;» ne figurait pas&nbsp;? Il est alors bien difficile de s’orienter lorsqu’on ne sait pas où l’on se trouve&nbsp;! Amis graphistes, concepteurs et designers, ne l’oubliez pas&nbsp;! Votre plan perdrait tout son sens.
 
           Ce marqueur peut prendre différentes formes&nbsp;: cercle, point, flèche, étoile… Souvent de couleur rouge, celle-ci permet d’attirer le regard et d’obtenir un bon contraste.
-
-
-          ![Exemple de mise en forme du "Vous êtes ici" sur un plan.](/media/atipy-plan-orientation-04.jpg)
-
+      image:
+        url: /media/atipy-plan-orientation-04.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Exemple de mise en forme du "Vous êtes ici" sur un plan.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          
 
           #### Le plan en 2D ou en perspective&nbsp;: Qu’en est-il de sa compréhension&nbsp;?
 
@@ -108,13 +140,21 @@ post_sections:
     col1:
       reverseMobile: false
       text:
-        content: '![Exemple du Plan de Chamonix](/media/atipy-plan-orientation-05.jpg
-          "Exemple du Plan de Chamonix")'
+        ? content
+      image:
+        url: /media/atipy-plan-orientation-05.jpg
+        legend: Exemple du Plan de Chamonix
+        ariaHidden: true
+        alt: Exemple du Plan de Chamonix
     col2:
       reverseMobile: false
       text:
-        content: '![Exemple du Plan de Chauvigny](/media/atipy-plan-orientation-06.jpg
-          "Exemple du Plan de Chauvigny")'
+        ? content
+      image:
+        url: /media/atipy-plan-orientation-06.jpg
+        legend: Exemple du Plan de Chauvigny
+        ariaHidden: true
+        alt: Exemple du Plan de Chauvigny
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -144,10 +184,21 @@ post_sections:
 
 
           L’exemple du métro Toulousain Tisséo est à mettre en avant&nbsp;: afin de permettre un meilleur repérage, des dessins simples ont été conçus pour chacune des stations avec pour objectif de faciliter les déplacements de l’ensemble des voyageurs. Ainsi la station «&nbsp;Bellefontaine&nbsp;» a été associée à une fontaine stylisée tandis que la station «&nbsp;Mermoz&nbsp;» est symbolisée par un avion pour faire référence à l’aviateur Jean Mermoz.
-
-
-          ![Exemple de pictogramme en forme de soleil réalisé pour la station Arènes](/media/atipy-plan-orientation-07.jpg)
-
+      image:
+        url: /media/atipy-plan-orientation-07.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Exemple de pictogramme en forme de soleil réalisé pour la station Arènes
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          
 
           Les illustrations ont été réalisées par les graphistes Jessica Paradis et  Lara Clerc. Elles ont été soumises pour avis à des associations de personnes en situation de handicap mental et à des spécialistes de la santé. Les visuels ont été modifiés dans le cas de remarques de la part des personnes interrogées.
 
@@ -161,7 +212,12 @@ post_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![](/media/atipy-plan-orientation-08.jpg)"
+        ? content
+      image:
+        url: /media/atipy-plan-orientation-08.jpg
+        legend: ""
+        ariaHidden: true
+        alt: null
     col2:
       reverseMobile: false
       text:
@@ -184,13 +240,21 @@ post_sections:
 
 
           Les repères facilement identifiables sont indispensables pour se repérer. Immeubles significatifs, monuments historiques, éléments de paysages, escalier monumental… ces repères peuvent être divers. Il s’agit d’un choix d’objets identitaires de la ville ou du bâtiment. Ces objets vont ainsi permettre à l’utilisateur de s’orienter plus rapidement et facilement.
-
-
-          ![Exemple du plan d'orientation de Londres mettant en avant les objets identitaires de la ville.](/media/atipy-plan-orientation-09.jpg)
-
-
-
-
+      image:
+        url: /media/atipy-plan-orientation-09.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Exemple du plan d'orientation de Londres mettant en avant les objets
+          identitaires de la ville.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
           ### Pour comprendre et lire la légende
 
 
@@ -226,18 +290,26 @@ post_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Exemple d'une carte de l'Europe ou l'information n’est transmise que
-          par la couleur, et sur laquelle la légende est détachée du
-          visuel.](/media/atipy-plan-orientation-10.jpg)"
+        ? content
+      image:
+        url: /media/atipy-plan-orientation-10.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Exemple d'une carte de l'Europe ou l'information n’est transmise que par la
+          couleur, et sur laquelle la légende est détachée du visuel.
     col3:
       reverseMobile: false
   - inverseCol: false
     col1:
       reverseMobile: false
       text:
-        content: "![Lecture de cette meme carte avec la vision daltonisme protanope,
-          daltonisme deuteranope et daltonisme
-          tritanope.](/media/atipy-plan-orientation-11.jpg)"
+        ? content
+      image:
+        url: /media/atipy-plan-orientation-11.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Lecture de cette meme carte avec la vision daltonisme protanope, daltonisme
+          deuteranope et daltonisme tritanope.
     col2:
       reverseMobile: false
     col3:
@@ -253,8 +325,12 @@ post_sections:
     col2:
       reverseMobile: false
       text:
-        content: "![Carte de France ou l'information est directement écrite sur le
-          visuel. ](/media/atipy-plan-orientation-12.jpg)"
+        ? content
+      image:
+        url: /media/atipy-plan-orientation-12.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Carte de France ou l'information est directement écrite sur le visuel.
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -265,19 +341,47 @@ post_sections:
           #### Les typographies et la taille des caractères
 
 
+
+
           **Les personnes âgées ou malvoyantes peuvent avoir des difficultés à lire certaines typographies**&nbsp;**: trop petites, pas suffisamment contrastées, graphiquement chargées… Pour se repérer rapidement, l’utilisateur doit pouvoir lire l’information facilement.**
 
 
+
+
           Ainsi, les typographies avec empattements et éléments décoratifs ne sont pas recommandées. Elles sont sources de confusion et demandent un effort de lecture. De même que des informations écrites en lettres majuscules ou en italique vont être moins lisibles.
-
-
-          ![Comparaison du temps de lecture entre un texte écrit en minuscules et en majuscules. Le texte en minuscules se lit 14% plus vite.](/media/atipy-plan-orientation-13.jpg)
-
-
-          ![Trois exemples de typographie avec des empattements ou fioritures difficiles à lire.](/media/atipy-plan-orientation-14.jpg)
-
-
-          Une vraie réflexion et un ensemble de critères sont donc à prendre en compte lors de la réalisation d’un plan d’orientation afin que celui-ci soit utilisable par le plus grand nombre. Le plus efficace restant encore de le co-créer avec les usagers&nbsp;!
+      image:
+        url: /media/atipy-plan-orientation-13.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Comparaison du temps de lecture entre un texte écrit en minuscules et en
+          majuscules. Le texte en minuscules se lit 14% plus vite.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: ""
+      image:
+        url: /media/atipy-plan-orientation-14.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Trois exemples de typographie avec des empattements ou fioritures
+          difficiles à lire.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: Une vraie réflexion et un ensemble de critères sont donc à prendre en
+          compte lors de la réalisation d’un plan d’orientation afin que
+          celui-ci soit utilisable par le plus grand nombre. Le plus efficace
+          restant encore de le co-créer avec les usagers&nbsp;!
     col2:
       reverseMobile: false
     col3:

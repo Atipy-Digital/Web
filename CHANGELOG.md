@@ -1,5 +1,30 @@
 # Changelog
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [1.5.0](https://github.com/Atipy-Digital/Web/compare/v1.4.0...v1.5.0) (2024-06-19)
+
+
+### Features
+
+* Improve accessibility and formatting in blog post markdown ([5db02ba](https://github.com/Atipy-Digital/Web/commit/5db02ba7ed649ea13d28577312b6edaeaee1bbb5))
+* Improve accessibility and readability of blog post content ([1aae30e](https://github.com/Atipy-Digital/Web/commit/1aae30ea7cf46291fcec60a06b53cfa708b462a4))
+* Improve accessibility in img and anchor elements ([b7cc4d5](https://github.com/Atipy-Digital/Web/commit/b7cc4d5eb5df784736fca067cac78f63c35200b0))
+* Improved post structure and image presentation ([6688841](https://github.com/Atipy-Digital/Web/commit/6688841e286048d431342a9c2bd46b5dc1173684))
+* **PartnerItem.tsx:** add aria-hidden attribute to logo ([4a0acbb](https://github.com/Atipy-Digital/Web/commit/4a0acbb94f7c6f4a05e56125ad27b98a7787ba64))
+* Refactor images and grid layout in Olympic Games post ([f4239ff](https://github.com/Atipy-Digital/Web/commit/f4239ff0d78cbd0cd8e3e3b4eafd0672a625bc5e))
+* Reformat image rendering in signaletique-du-camsp-paris-nord.md ([b316175](https://github.com/Atipy-Digital/Web/commit/b31617585eb1ac7f696e6edddb16ecc63519e7e7))
+* Remove content text from signaletique project data ([cc2502f](https://github.com/Atipy-Digital/Web/commit/cc2502fafdcaa2c49495da4600acc333f0ae6f4d))
+* Update content in post for better accessibility ([ea746da](https://github.com/Atipy-Digital/Web/commit/ea746dab6d3b0e5e6902cdba4d0b38fc6919b27d))
+* Update content organization and image rendering in UX/UI Designer post ([5b296bb](https://github.com/Atipy-Digital/Web/commit/5b296bb8f06ecae7c17356dc832cdc498fdafd82))
+* Update content structure and image metadata in post ([8949325](https://github.com/Atipy-Digital/Web/commit/89493256b82bc0144513e50860eec8426c18a2b6))
+* Update image and content structure in project markdown ([8f77b5d](https://github.com/Atipy-Digital/Web/commit/8f77b5dedacd4b9713d208386a5cafc9961cb76d))
+* Update image handling in communication tools project data ([c3e65aa](https://github.com/Atipy-Digital/Web/commit/c3e65aadb6c55bd301feb84f87510fc27b6aa85c))
+* Update image metadata in cycle route signage project ([062d473](https://github.com/Atipy-Digital/Web/commit/062d473ce0248820c5f1526b6c6b95da87021168))
+* update image structure in toilet pictogram post ([34bd41b](https://github.com/Atipy-Digital/Web/commit/34bd41bf915063bd8246dedf205db73a699fee32))
+* Update images and add ariaHidden attribute in posts ([fa78f00](https://github.com/Atipy-Digital/Web/commit/fa78f00fc8c3b8bdea26ef9bd8634f8af0eb6c24))
+* Update post formatting and image representation ([c19152b](https://github.com/Atipy-Digital/Web/commit/c19152bc0ea8a046ee496f7149ad3fdb6ebef1b7))
+
 ## [1.4.0](https://github.com/Atipy-Digital/Web/compare/v1.3.0...v1.4.0) (2024-06-19)
 
 

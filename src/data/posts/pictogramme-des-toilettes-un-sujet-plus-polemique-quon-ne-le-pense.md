@@ -19,8 +19,11 @@ post_sections:
           les signaler, par un jalonnement, mais également une identification
           sur la porte : le pictogramme.
 
-
-          ![Signalétique indiquant les toilettes et la sortie](/media/pictogramme-toilettes-adeline_richez_ethiopie_signaletique.jpeg " Addis Abeba, Ethiopie. ©Adeline Richez")
+      image:
+        url: /media/pictogramme-toilettes-adeline_richez_ethiopie_signaletique.jpeg
+        legend: " Addis Abeba, Ethiopie. ©Adeline Richez"
+        ariaHidden: true
+        alt: Signalétique indiquant les toilettes et la sortie
     col2:
       reverseMobile: false
     col3:
@@ -39,7 +42,11 @@ post_sections:
           Ce pictogramme que nous voyons si souvent représente deux personnes côte à côte, parfois séparées par un trait. Ce pictogramme répond aux recommandations de l’Institut américain des arts graphiques (AIGA) et de l’Organisation internationale de normalisation (ISO).
 
 
-          ![5 pictogrammes noirs représentant des hommes et des femmes, une personne qui boit à une fontaine et un bébé.](/media/pictogramme_toilettes_aiga-accessibilite.jpeg)
+      image:
+        url: /media/pictogramme_toilettes_aiga-accessibilite.jpeg
+        legend: ""
+        ariaHidden: true
+        alt: 5 pictogrammes noirs représentant des hommes et des femmes, une personne qui boit à une fontaine et un bébé.
     col2:
       reverseMobile: false
     col3:
@@ -74,7 +81,11 @@ post_sections:
           > **Il y a le pictogramme « toilettes pour homme », le pictogramme « toilettes pour femme », et celui pour les personnes utilisateurs de fauteuil roulant qui ne sont représentés ni par un homme, ni par une femme ! Quand l’Agence Adéquat a proposé de représenter les toilettes par une cuvette de sanitaire, j’ai trouvé ça évident.** Grégoire Simmonet, président du tiers-lieu [La Tréso.](https://agence-adequat.fr/la-treso-tiers-lieu/)
 
 
-          ![Deux plaques de portes en bois gravées représentant une cuvette de toilettes avec deux personnages à coté.](/media/pictogramme-toilettes-la-treso-signaletique-bois-atipy.jpg)
+      image:
+        url: /media/pictogramme-toilettes-la-treso-signaletique-bois-atipy.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Deux plaques de portes en bois gravées représentant une cuvette de toilettes avec deux personnages à coté.
     col2:
       reverseMobile: false
     col3:
@@ -88,12 +99,27 @@ post_sections:
 
 
           Beaucoup de designers et graphistes voient dans la conception de ce pictogramme un formidable terrain de jeux. L’incroyable créativité de certains amène à des détournements, certes plein d’humour, mais parfois complètement incompréhensibles. Sans évoquer les pictogrammes de mauvais goût, mais ça c’est une autre histoire. On perd alors la fonction première du support signalétique : orienter.
+      image:
+        url: /media/pictogramme_toilettes_accessibilite_genre_sexisme-2.jpg
+        legend: ""
+        ariaHidden: true
+        alt: A gauche, deux pictogrammes cote à cote représentent un chat et un coq. Sur l'image de droite, deux pictogrammes positionnés sur une plaque de porte représentent une vis et un boulon.
 
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+      image:
+        url: /media/pictogramme_toilettes_accessibilite_genre_sexisme.jpg
+        legend: ""
+        ariaHidden: true
+        alt: A gauche, deux pictogrammes sont positionnés sur deux portes blanche. L'un représente deux yeux et une moustache et l'autre représente deux yeux et des sourcils. Sur l'image de droite, on voit deux batons blancs avec une tete au dessus.
 
-          ![A gauche, deux pictogrammes cote à cote représentent un chat et un coq. Sur l'image de droite, deux pictogrammes positionnés sur une plaque de porte représentent une vis et un boulon.](/media/pictogramme_toilettes_accessibilite_genre_sexisme-2.jpg)
-
-
-          ![A gauche, deux pictogrammes sont positionnés sur deux portes blanche. L'un représente deux yeux et une moustache et l'autre représente deux yeux et des sourcils. Sur l'image de droite, on voit deux batons blancs avec une tete au dessus.](/media/pictogramme_toilettes_accessibilite_genre_sexisme.jpg)
     col2:
       reverseMobile: false
     col3:
@@ -124,8 +150,11 @@ post_sections:
 
           Au delà de la question de l’accessibilité, ce pictogramme des toilettes pose la question de la représentation des genres et ses stéréotypes.
 
-
-          ![Plusieurs pictogrammes sont dessinés pour représenter des toilettes. Les premiers pictogrammes montrent des hommes et des femmes en jupes. Les autres pictogrammes montrent des cuvettes de toilettes ou un rouleau de papier toilettes.](/media/pictogramme_toilettes_accessibilite_representation-genre.jpg "Source : A white paper by Mijksenaar")
+      image:
+        url: /media/pictogramme_toilettes_accessibilite_representation-genre.jpg
+        legend: "Source : A white paper by Mijksenaar"
+        ariaHidden: true
+        alt: Plusieurs pictogrammes sont dessinés pour représenter des toilettes. Les premiers pictogrammes montrent des hommes et des femmes en jupes. Les autres pictogrammes montrent des cuvettes de toilettes ou un rouleau de papier toilettes.
     col2:
       reverseMobile: false
     col3:
@@ -177,8 +206,11 @@ post_sections:
 
           Le sexisme peut aller jusqu’à se coller sur les portes des toilettes, pour notre plus grand désarroi. Et il ne sera pas nécessaire de commenter les images ci-dessous.
 
-
-          ![Deux portes de toilettes. Sur l'une est écrit "BLA". Sur l'autre est écrite "blablablablablablabla"](/media/pictogramme_toilettes_accessibilite_genre_sexisme-3.jpg)
+      image:
+        url: /media/pictogramme_toilettes_accessibilite_genre_sexisme-3.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Deux portes de toilettes. Sur l'une est écrit "BLA". Sur l'autre est écrite "blablablablablablabla"
     col2:
       reverseMobile: false
     col3:
@@ -201,8 +233,11 @@ post_sections:
 
           Les habitudes ayant changées, ce pictogramme a évolué au fils des années.
 
-
-          ![Les pictogrammes à gauche représentent un homme pour les toilettes hommes et une femme + une femme qui change une couche pour les toilettes femmes. Les pictogrammes à droite indiquent les toilettes hommes avec des pictogrammes homme, homme qui change une couche et homme en fauteuil roulant.](/media/pictogramme_toilettes_table-a-langer_sexisme-3.jpg)
+      image:
+        url: /media/pictogramme_toilettes_table-a-langer_sexisme-3.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Les pictogrammes à gauche représentent un homme pour les toilettes hommes et une femme + une femme qui change une couche pour les toilettes femmes. Les pictogrammes à droite indiquent les toilettes hommes avec des pictogrammes homme, homme qui change une couche et homme en fauteuil roulant.
     col2:
       reverseMobile: false
     col3:

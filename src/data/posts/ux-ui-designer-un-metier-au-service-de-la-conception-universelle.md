@@ -28,18 +28,29 @@ post_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
-  - col1:
+  - inverseCol: false
+    col1:
       reverseMobile: false
       text:
         content: >-
           ### Ruben, qui es-tu&nbsp;?
 
 
-          **Né en 1988 et initié au digital en 1992, je garde en mémoire (vive) mes premiers clics sur l’ordinateur familial dont le logotype était une pomme croquée aux couleurs arc-en-ciel**.
+          **Né en 1988 et initié au digital en 1992, je garde en mémoire (vive) mes premiers clics sur l’ordinateur familial dont le logotype était une pomme croquée aux couleurs arc-en-ciel**. 
+      image:
+        url: /media/prince-of-persia-ruben-rossignol.jpg
+        legend: ""
+        ariaHidden: true
+        alt: "Deux captures d'écran du jeu Prince of Persia. Le graphisme est celui des années 90, les images sont pixelisées. On retrouve deux types de décors : l'un dans un vieux château avec un squelette, l'autre dans un palais des Milles et une nuits."
 
-
-          ![Deux captures d'écran du jeu Prince of Persia. Le graphisme est celui des années 90, les images sont pixelisées. On retrouve deux types de décors : l'un dans un vieux château avec un squelette, l'autre dans un palais des Milles et une nuits.](/media/prince-of-persia-ruben-rossignol.jpg)
-
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - col1:
+      reverseMobile: false
+      text:
+        content: >-
 
           C’est en naviguant au gré des fonctionnalités du système d’exploitation Mac, en bidouillant le logiciel d’infographie Adobe Photoshop ou en re-jouant inlassablement le premier niveau de Prince Of Persia que je suis devenu «&nbsp;Utilisateur&nbsp;».
 
@@ -55,7 +66,8 @@ post_sections:
       reverseMobile: false
     col3:
       reverseMobile: false
-  - col1:
+  - inverseCol: false
+    col1:
       reverseMobile: false
       text:
         content: >-
@@ -64,15 +76,19 @@ post_sections:
 
           **UX Design est l’abréviation de User Experience (Expérience Utilisateur). On parle aussi d’ergonomie d’interfaces et d’utilisabilité. Elle est associée à la qualité du vécu de l’utilisateur et s’applique aux interfaces physiques comme virtuelles.**
 
-
-
-
-          ![Deux captures d'écran en noir et blanc de maquettes d'interface pour un agenda et un tableau de bord.](/media/atipy_ruben_rossignol_maquettes_ui_design_interface.jpg)
-
-
-
-
-
+      image:
+        url: /media/atipy_ruben_rossignol_maquettes_ui_design_interface.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Deux captures d'écran en noir et blanc de maquettes d'interface pour un agenda et un tableau de bord.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - col1:
+      reverseMobile: false
+      text:
+        content: >-
 
           La mission de l’UX designer est de trouver le point de convergence entre les besoins de l’entreprise et ceux des utilisateurs finaux afin de construire conjointement une solution fonctionnelle, évolutive et accessible.
 
