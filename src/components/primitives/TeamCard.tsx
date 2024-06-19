@@ -8,7 +8,6 @@ import type { MemberType } from '@/ts';
 type Props = MemberType;
 
 export const TeamCard = ({ image, badge, linkedin, name, skills }: Props) => {
-
   return (
     <article className='col-span-1 flex-grow w-full h-full rounded-[10px] p-4 flex flex-col bg-white shadow-project-card dark:bg-background dark:border-2 dark:border-white dark:shadow-none max-w-[450px] m-auto'>
       <figure className='block w-full aspect-video rounded-[10px] overflow-hidden'>
