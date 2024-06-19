@@ -42,6 +42,7 @@ const Section = ({
         <img
           src={img.url}
           alt={img.alt}
+          aria-hidden={true}
           className={clsxm(
             'w-full h-auto rounded-[10px] object-contain',
             imgClassName

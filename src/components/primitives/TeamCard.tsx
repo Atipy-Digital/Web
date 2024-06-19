@@ -8,6 +8,7 @@ import type { MemberType } from '@/ts';
 type Props = MemberType;
 
 export const TeamCard = ({ image, badge, linkedin, name, skills }: Props) => {
+
   return (
     <article className='col-span-1 flex-grow w-full h-full rounded-[10px] p-4 flex flex-col bg-white shadow-project-card dark:bg-background dark:border-2 dark:border-white dark:shadow-none max-w-[450px] m-auto'>
       <figure className='block w-full aspect-video rounded-[10px] overflow-hidden'>
@@ -15,6 +16,7 @@ export const TeamCard = ({ image, badge, linkedin, name, skills }: Props) => {
           src={image}
           alt={`profil ${name}`}
           className='w-full h-auto rounded-[10px]'
+          aria-hidden={true}
         />
       </figure>
       <main className='pt-4'>
@@ -30,6 +32,7 @@ export const TeamCard = ({ image, badge, linkedin, name, skills }: Props) => {
             href={linkedin}
             target='_blank'
             rel='noopener noreferrer'
+            aria-hidden={false}
             aria-label={`profil linkedin de ${name}`}
             className='flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-md bg-background text-white dark:bg-white dark:text-black'
           >
