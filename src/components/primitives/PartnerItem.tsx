@@ -57,6 +57,7 @@ export const PartnerItem = ({
             src={logo}
             alt={`logo ${name}`}
             className='object-contain w-full h-full absolute inset-0'
+            aria-hidden={true}
           />
         </div>
         <div className='w-full flex flex-col'>

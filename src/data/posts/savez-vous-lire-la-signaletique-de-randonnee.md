@@ -62,16 +62,19 @@ post_sections:
   - col1:
       reverseMobile: false
       image:
-        url: ""
+        url: /media/post-2.png
+        ariaHidden: true
+        alt: Schéma d'un mat directionnel en bois avec des lames jaunes indiquant des
+          directions sur un GR et un PR
       text:
-        content: "![Schéma d'un mat directionnel en bois avec des lames jaunes indiquant
-          des directions sur un GR et un PR](/media/post-2.png)"
+        content: ""
     col2:
       reverseMobile: false
       image:
         url: /media/post-3.png
         legend: Tronc d'arbre avec 3 marques peintes dessus (blanches, rouges, jaunes et
           vertes)
+        ariaHidden: true
     col3:
       reverseMobile: false
   - col1:
@@ -107,9 +110,12 @@ post_sections:
 
 
           Vous pouvez rencontrer trois formes différentes. Elles vous donnent des indications précieuses sur la direction à suivre
-
-
-          ![Tableau récapitulant les différents types de balisage en fonction du type de sentier et de la direction à suivre. Une mauvaise direction est symbolisée par une croix.](/media/post-4.png)
+      image:
+        url: /media/post-4.png
+        ariaHidden: true
+        alt: Tableau récapitulant les différents types de balisage en fonction du type
+          de sentier et de la direction à suivre. Une mauvaise direction est
+          symbolisée par une croix.
     col2:
       reverseMobile: false
     col3:
@@ -149,10 +155,12 @@ post_sections:
   - col1:
       reverseMobile: false
       image:
-        url: ""
+        url: /media/cairn-1.png
+        alt: Poteau en bois avec un pictogramme barré représentant une personne déposant
+          une pierre sur un tas de pierres.
+        ariaHidden: true
       text:
-        content: "![Poteau en bois avec un pictogramme barré représentant une personne
-          déposant une pierre sur un tas de pierres.](/media/cairn-1.png)"
+        content: ""
     col2:
       reverseMobile: false
       image:

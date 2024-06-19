@@ -77,8 +77,7 @@ project_sections:
     col1:
       reverseMobile: false
       text:
-        content: "![Plan d'orientation dans le bâtiment avec des couleurs par
-          zones.](/media/design-reference-ministere-aff-etrengere-atipy-5.jpg)"
+        content: ""
       image:
         url: /media/design-reference-ministere-aff-etrengere-atipy-5.jpg
         alt: Plan d'orientation dans le bâtiment avec des couleurs par zones.

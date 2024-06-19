@@ -55,8 +55,6 @@ post_sections:
           * Ne plus mettre de majuscule de prestige à «&nbsp;Homme&nbsp;» et utiliser plutôt «&nbsp;humain&nbsp;» que «&nbsp;homme&nbsp;».
 
 
-
-
           ### Mais l’écriture inclusive est-elle si inclusive que ça…&nbsp;?
 
 
@@ -64,11 +62,20 @@ post_sections:
 
 
           **Nous nous sommes donc posé la question**&nbsp;**: l’écriture inclusive prend-t-elle en compte les personnes en situation de handicap**&nbsp;**?**
-
-
-          ![Nous sommes inclusif•ive•s. Sommes-nous accessibles ?](/media/atipy-ecriture-inclusive-handicap-accessibilite-2.jpg)
-
-
+      image:
+        url: /media/atipy-ecriture-inclusive-handicap-accessibilite-2.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Nous sommes inclusif•ive•s. Sommes-nous accessibles ?
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
           #### Orthographe inclusive et déficience visuelle
 
 
@@ -134,11 +141,21 @@ post_sections:
 
 
           L’article «&nbsp;Ecriture inclusive et point médian&nbsp;: et si l’on causait science&nbsp;?&nbsp;» donne l’exemple du pronom ceux/celles. En utilisant le point médian, cela s’écrit&nbsp;: ceux·lles. Le suffixe ·lles n’étant pas prononçable, il est donc plus difficile à lire, comme si il s’agissait d’un nouveau mot. L’habitude pourra permettre l’apprentissage de ces nouvelles formes d’orthographe. Cependant, pour les publics ayant des difficultés de lecture, cela creuse davantage l’inégalité dans l’accès à l’information.
+      image:
+        url: /media/atipy-ecriture-inclusive-handicap-accessibilite-3.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Une personne lit un livre dans un parc.
 
-
-          ![Une personne lit un livre dans un parc.](/media/atipy-ecriture-inclusive-handicap-accessibilite-3.jpg)
-
-
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
           ### Pour conclure…
 
 

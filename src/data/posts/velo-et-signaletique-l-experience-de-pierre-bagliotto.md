@@ -59,12 +59,23 @@ post_sections:
 
 
           **L’activité de l’Echappée s’oriente principalement autour des modes actifs en proposant une offre de conseil en politique publique, en planification urbaine et en aménagement. Parce qu’il y a autant de comportements différents que d’individus avec leurs propres visions, freins et appréhensions, notre approche se focalise sur la connaissance et la compréhension des usages et des besoins.**
-
-
-          ![Présentation de Pierre lors d'une réunion de concertation avec les usagers](/media/pierre-bagliotto-echappee-concertation-velo.jpg)
-
-
-          La méthode de travail de l’Echappée et un prérequis indispensable pour assurer l’appropriation du projet par les acteurs locaux et leur mise en œuvre&nbsp;:
+      image:
+        url: /media/pierre-bagliotto-echappee-concertation-velo.jpg
+        legend: ""
+        ariaHidden: true
+        alt: Présentation de Pierre lors d'une réunion de concertation avec les usagers
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          La méthode de travail de l’Echappée et un prérequis indispensable pour
+          assurer l’appropriation du projet par les acteurs locaux et leur mise
+          en œuvre&nbsp;:
 
 
           * Un travail par le terrain&nbsp;: s’immerger dans un territoire
@@ -86,12 +97,23 @@ post_sections:
 
 
           La marche occupe depuis plusieurs décennies une place forte dans la mobilité des français. Nous sommes tous piéton et les aménagements d’espaces publics, depuis une vingtaine d’années, ont contribué à rendre sa pratique plus attractive dans certains territoires. Le retour du vélo dans nos modes de vie est plus récent. Le vélo à assistance électrique, les différentes crises énergétiques ainsi que la multiplication des appels à projets et des aides financières de l’Etat a permis de redécouvrir ce mode de déplacement et d’engager, depuis 5 ans, d’importantes réflexions en matière de politique et d’aménagements cyclables y compris en milieu rural et en territoire de montagne.
-
-
-          ![Concertation : les élus testent eux même l'expérience cyclable avec un déplacement en vélo.](/media/pierre-bagliotto-echappee-concertation-velo-2.jpg)
-
-
-          #### Malgré tout, le chemin vers des territoires cyclables et marchables reste long.
+      image:
+        url: /media/pierre-bagliotto-echappee-concertation-velo-2.jpg
+        legend: ""
+        ariaHidden: true
+        alt: "Concertation : les élus testent eux même l'expérience cyclable avec un
+          déplacement en vélo."
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          #### Malgré tout, le chemin vers des territoires cyclables et
+          marchables reste long.
 
 
           Il reste à convaincre de nombreux acteurs et usagers que les modes actifs peuvent jouer un rôle fondamental dans l’offre de transport d’un territoire en complément du covoiturage et des transports collectifs. En milieu rural, lieu privilégié d’intervention de l’Echappée, le travail de sensibilisation et d’acculturation aux champs des possibles offerts par les modes actifs commence à porter ces fruits mais il se heurte à un déficit d’ingénierie technique, à un émiettement des compétences et à des problématiques financières fortes dans des territoires où les capacités économiques sont très limitées.
@@ -126,12 +148,29 @@ post_sections:
 
 
           C’est un enjeu fondamental pour l’ensemble des territoires, parfois un peu négligé et relégué en second plan par les investissements à réaliser en matière d’infrastructures qui occupent les débats et les esprits et qui laissent peu de place pour aborder ces outils.
-
-
-          ![Atelier avec des usagers : plusieurs personnes réunies autour d'une carte.](/media/pierre-bagliotto-atipy-velo-signaletique-concertation.jpg)
-
-
-          Si dans les grandes métropoles et agglomérations, la signalétique est un sujet souvent présent, il commence seulement à l’être en milieu rural. Ces territoires ont pris conscience qu’ils avaient à leur disposition un patrimoine routier dense, dont une grande partie avec de faibles trafics routiers, qu’ils pourraient dédier à la création d’itinéraires cyclables. La signalétique est un outil puissant qui leur offre la possibilité de mettre en lumière ces liaisons cyclables et de commencer à mailler leur territoire.
+      image:
+        url: /media/pierre-bagliotto-atipy-velo-signaletique-concertation.jpg
+        legend: ""
+        ariaHidden: true
+        alt: "Atelier avec des usagers : plusieurs personnes réunies autour d'une
+          carte."
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          Si dans les grandes métropoles et agglomérations, la signalétique est
+          un sujet souvent présent, il commence seulement à l’être en milieu
+          rural. Ces territoires ont pris conscience qu’ils avaient à leur
+          disposition un patrimoine routier dense, dont une grande partie avec
+          de faibles trafics routiers, qu’ils pourraient dédier à la création
+          d’itinéraires cyclables. La signalétique est un outil puissant qui
+          leur offre la possibilité de mettre en lumière ces liaisons cyclables
+          et de commencer à mailler leur territoire.
 
 
           [La communication et la signalétique constituent un volet des politiques cyclables](https://atipy.fr/expertises/design/design-des-mobilites) souvent mis en avant, après les infrastructures, par les ambassadeurs des territoires pour lesquels l’Echappée travaille. Ce volet offre cette possibilité d’imaginer des actions à court terme et à moindre coût pour encourager la pratique du vélo et faire tomber certains freins et/ou idées reçues. Développer des outils de communication et déployer une signalétique sur les itinéraires permettent de rendre visible le vélo sur un territoire et de l’inscrire dans la carte mentale des habitants.

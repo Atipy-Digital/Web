@@ -14,7 +14,6 @@ export const TeamList = ({ data }: { data: MemberType[] }) => {
     if (data.length === 2) return 'lg:grid-cols-2';
     if (data.length >= 3) return 'lg:grid-cols-3';
   }, [data]);
-
   return (
     <div
       className={clsxm(

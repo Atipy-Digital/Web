@@ -59,11 +59,19 @@ project_sections:
           * Aide à l’orientation pour les piétons et cyclistes, habitants de Lyon ou de passage.
 
           * Valorisation des points attractifs de la Ville de Lyon.
-
-
-          ![Totem signalétique mis en place sur le pole multimodal](/media/design-reference-pole-echange-lyon-atipy-3.jpg)
-
-
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        url: /media/design-reference-pole-echange-lyon-atipy-3.jpg
+        ariaHidden: true
+        alt: Totem signalétique mis en place sur le pole multimodal
+      text:
+        content: >-
           ### Nos intentions
 
 
@@ -71,11 +79,15 @@ project_sections:
 
 
           Cette signalétique, destinée au plus grand nombre, doit être compréhensible facilement. Nous proposons donc un système simple et intuitif. L’univers graphique cohabite avec les codes visuels de l’environnement&nbsp;: autres supports signalétique, couleurs des mobiliers urbains et revêtements…
-
-
-          ![Zoom sur un support mis en place avec le pictogramme piéton et l'indication du Métro A à 2 minutes.](/media/design-reference-pole-echange-lyon-atipy-4.jpg)
-
-
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
           #### Une signalétique lisible et visible
 
 
@@ -87,9 +99,10 @@ project_sections:
 
           Une signalétique visible est une signalétique facile à repérer. Le contraste avec l’environnement est donc important, ainsi que sa systématisation. En effet, la signalétique est un support mettant en avant l’identité de la ville. Nous créons ainsi un repère récurrent et un jalonnement systématique. L’essentiel est de maintenir la chaine de l’information continue afin de ne pas créer de rupture dans le cheminement.
       image:
-        url: /media/design-reference-pole-echange-lyon-atipy-3.jpg
+        url: /media/design-reference-pole-echange-lyon-atipy-4.jpg
         ariaHidden: true
-        alt: Totem signalétique mis en place sur le pole multimodal
+        alt: Zoom sur un support mis en place avec le pictogramme piéton et l'indication
+          du Métro A à 2 minutes.
     col2:
       reverseMobile: false
       text:
@@ -139,20 +152,23 @@ project_sections:
 
 
           La mise en place d’une signalétique urbaine accessible à tous participe à l’amélioration du bien-être et du confort d’usage dans l’espace urbain et favorise les déplacements par voies douces.
-
-
-
-
-          ![Vue en plongée d'une personne à vélo à coté d'un mat directionnel ](/media/design-reference-pole-echange-lyon-atipy-7.jpg)
-
-
-
-
-          ![Zoom sur les lames d'un mat directionnel](/media/design-reference-pole-echange-lyon-atipy-8.jpg)
       image:
-        url: ""
-        alt: ""
-        ariaHidden: false
+        url: /media/design-reference-pole-echange-lyon-atipy-7.jpg
+        ariaHidden: true
+        alt: Vue en plongée d'une personne à vélo à coté d'un mat directionnel
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: ""
+      image:
+        url: /media/design-reference-pole-echange-lyon-atipy-8.jpg
+        alt: Zoom sur les lames d'un mat directionnel
+        ariaHidden: true
     col2:
       reverseMobile: false
       image:

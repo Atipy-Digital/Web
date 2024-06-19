@@ -88,15 +88,14 @@ project_sections:
       reverseMobile: false
       text:
         content: >-
-          
-
-          ![Photographie d'une des directionnelle installée dans le bâtiment](/media/design-reference-camsp-paris-nord-atipy-3.jpg)
-
-
           #### Le design signalétique
 
 
           Une signalétique modulable et manipulable par les enfants a été créer en PMMA. L’enfant peut ainsi s’approprier les éléments, mémoriser le visage du soignant, comprendre l’activité qui va avoir lieu lors du rendez-vous.
+      image:
+        alt: Photographie d'une des directionnelle installée dans le bâtiment
+        ariaHidden: true
+        url: /media/design-reference-camsp-paris-nord-atipy-3.jpg
     col2:
       reverseMobile: false
       text:
