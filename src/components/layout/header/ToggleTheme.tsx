@@ -14,7 +14,7 @@ const spring = {
 };
 
 export const ToggleTheme = () => {
-  const {isDark, setTheme} = useTheme();
+  const { isDark, setTheme } = useTheme();
 
   const toggleSwitch = () => {
     isDark ? setTheme('light') : setTheme('dark');

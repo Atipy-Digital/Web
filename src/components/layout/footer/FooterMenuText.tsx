@@ -16,34 +16,38 @@ export const FooterMenuText = (data: FooterMenuTextType) => {
         <li className='flex items-center gap-x-4 lg:gap-x-7'>
           {data.rows.map(({ link1, link2 }) => (
             <Fragment key={`footer-menu-text-${nanoid(7)}`}>
-              <div>
-                <Link
-                  href={link1.url}
-                  className='link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
-                >
-                  {link1.label}
-                </Link>
-              </div>
-              <div>
-                <Link
-                  href={link2.url}
-                  className='link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
-                >
-                  {link2.label}
-                </Link>
-              </div>
+              <ul>
+                <li>
+                  <Link
+                    href={link1.url}
+                    className='link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
+                  >
+                    {link1.label}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={link2.url}
+                    className='link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
+                  >
+                    {link2.label}
+                  </Link>
+                </li>
+              </ul>
             </Fragment>
           ))}
         </li>
       ) : (
-        <li>
-          <a
-            href={`mailto:${data.email}`}
-            className='link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
-          >
-            {data.email}
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              href={`mailto:${data.email}`}
+              className='link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
+            >
+              {data.email}
+            </a>
+          </li>
+        </ul>
       )}
     </ul>
   );
