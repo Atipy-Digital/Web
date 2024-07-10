@@ -93,7 +93,7 @@ export const AtipyIcon = ({
     [ATIPY_ICON.LINKEDIN, 'Icône LinkedIn'],
     [ATIPY_ICON.TWITTER, 'Icône Twitter'],
     [ATIPY_ICON.ARROW_DOWN, 'Flèche vers le bas'],
-    [ATIPY_ICON.ARROW_UP, 'Flèche vers le haut'],
+    [ATIPY_ICON.ARROW_UP, 'Haut de page'],
     [ATIPY_ICON.ARROW_LEFT, 'Flèche vers la gauche'],
     [ATIPY_ICON.PHONE, 'Icône téléphone'],
     [ATIPY_ICON.ENVELOP, 'Icône enveloppe'],

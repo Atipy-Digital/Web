@@ -54,10 +54,10 @@ export const ScrollToTopButton = () => {
       onClick={scrollToTop}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-      aria-label='Haut de page'
+      href='#top'
     >
       <div className='flex items-center justify-center rounded-full w-10 h-10 lg:w-16 lg:h-16 xl:w-20 xl:h-20 2xl:w-[102px] 2xl:h-[102px]'>
-        <AtipyIcon type={ATIPY_ICON.ARROW_UP} size='full' />
+        <AtipyIcon type={ATIPY_ICON.ARROW_UP} isAriaHidden={true}  size='full' role='img' />
       </div>
     </motion.a>
   );
