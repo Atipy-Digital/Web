@@ -14,7 +14,7 @@ const spring = {
 };
 
 export const ToggleTheme = () => {
-  const { isDark, setTheme } = useTheme();
+  const {isDark, setTheme} = useTheme();
 
   const toggleSwitch = () => {
     isDark ? setTheme('light') : setTheme('dark');
@@ -33,7 +33,7 @@ export const ToggleTheme = () => {
         layoutRoot
         layout
       >
-        <motion.div
+        <motion.span
           className={clsxm(
             'flex items-center justify-center rounded-[50%] z-[1] transform-none',
             'w-[24px] h-[24px] lg:w-[32px] lg:h-[32px]',
@@ -44,9 +44,11 @@ export const ToggleTheme = () => {
         >
           <AtipyIcon
             type={isDark ? ATIPY_ICON.MOON : ATIPY_ICON.SUN}
+            isAriaHidden={true}
+            hideAriaLabel={true}
             className='w-[18px] lg:w-[24px]'
           />
-        </motion.div>
+        </motion.span>
 
         <span
           className={clsxm(
@@ -54,7 +56,12 @@ export const ToggleTheme = () => {
             isDark ? 'text-black' : 'text-white'
           )}
         >
-          <AtipyIcon type={ATIPY_ICON.MOON} className='w-[18px] lg:w-[24px]' />
+          <AtipyIcon
+            type={ATIPY_ICON.MOON}
+            className='w-[18px] lg:w-[24px]'
+            isAriaHidden={true}
+            hideAriaLabel={true}
+          />
         </span>
         <span
           className={clsxm(
@@ -62,7 +69,12 @@ export const ToggleTheme = () => {
             isDark ? 'text-black' : 'text-white'
           )}
         >
-          <AtipyIcon type={ATIPY_ICON.SUN} className='w-[18px] lg:w-[24px]' />
+          <AtipyIcon
+            type={ATIPY_ICON.SUN}
+            className='w-[18px] lg:w-[24px]'
+            isAriaHidden={true}
+            hideAriaLabel={true}
+          />
         </span>
       </motion.button>
 
