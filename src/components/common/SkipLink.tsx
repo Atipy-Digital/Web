@@ -14,7 +14,7 @@ const SkipLink = ({ isTabbing }: Props) => {
         'bg-gray-100 dark:bg-gray-950 text-black dark:text-white text-sm p-2 w-full flex items-center justify-center'
       )}
     >
-      <a href='#main-content' className='mr-2'>
+      <a href='#top' className='mr-2'>
         Aller au contenu principal
       </a>
     </div>
