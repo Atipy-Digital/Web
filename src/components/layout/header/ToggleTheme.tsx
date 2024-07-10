@@ -78,9 +78,9 @@ export const ToggleTheme = () => {
         </span>
       </motion.button>
 
-      <div className='hidden md:block mt-1 text-[12px]'>
+      <span className='hidden md:block mt-1 text-[12px]'>
         {!isDark ? 'Mode clair' : 'Mode sombre'}
-      </div>
+      </span>
     </div>
   );
 };
