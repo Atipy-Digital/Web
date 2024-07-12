@@ -72,7 +72,9 @@ export const ContactForm = ({ data }: Props) => {
 
       <Box className='max-w-2xl flex flex-col items-center justify-center'>
         <form className='w-full' onSubmit={onSubmit}>
-          <span className='text-base leading-none my-1 w-full text-left'>* champs obligatoires</span>
+          <span className='text-base leading-none my-1 w-full text-left'>
+            * champs obligatoires
+          </span>
           <InputController
             control={control}
             name='name'
@@ -103,7 +105,12 @@ export const ContactForm = ({ data }: Props) => {
             aria-invalid={errors.email ? 'true' : 'false'}
             aria-describedby={errors.email ? 'error_email' : undefined}
           />
-          {errors.email && <span id='error_email'>{data.error_required} Veuillez saisir une adresse e-mail valide. Par exemple mail@exemple.com.</span>}
+          {errors.email && (
+            <span id='error_email'>
+              {data.error_required} Veuillez saisir une adresse e-mail valide.
+              Par exemple mail@exemple.com.
+            </span>
+          )}
 
           <InputController
             control={control}
@@ -116,8 +123,7 @@ export const ContactForm = ({ data }: Props) => {
             placeholder={data.input_message.placeholder}
             error={errors.message}
             autocomplete='message'
-          >
-          </InputController>
+          ></InputController>
 
           <Button
             disabled={!isValid}
