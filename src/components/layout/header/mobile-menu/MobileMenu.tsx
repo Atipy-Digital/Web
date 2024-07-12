@@ -31,30 +31,24 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
-        console.log('Escape key pressed, closing modal');
         setOpenModalMenu(false);
       } else if (e.key === 'Tab' && isOpenModalMenu) {
-        console.log('Tab key pressed');
         trapFocus(e);
       }
     };
 
     const trapFocus = (e: KeyboardEvent) => {
-      if (!firstFocusableElement.current || !lastFocusableElement.current) {
-        console.log('Focusable elements are not properly defined');
+      if (!firstFocusableElement.current || !lastFocusableElement.current)
         return;
-      }
 
       if (e.shiftKey) {
         if (document.activeElement === firstFocusableElement.current) {
           e.preventDefault();
-          console.log('Shift + Tab: Moving focus to last focusable element');
           lastFocusableElement.current?.focus();
         }
       } else {
         if (document.activeElement === lastFocusableElement.current) {
           e.preventDefault();
-          console.log('Tab: Moving focus to first focusable element');
           firstFocusableElement.current?.focus();
         }
       }
@@ -65,18 +59,15 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
       // Ajout d'un délai pour s'assurer que la modale est rendue
       setTimeout(() => {
         if (modalRef.current) {
-          const focusableElements = modalRef.current.querySelectorAll<HTMLElement>(
-            'a[href], button, textarea, input, select, [tabindex]:not([tabindex="-1"])'
-          );
-          console.log('Focusable elements found:', focusableElements);
+          const focusableElements =
+            modalRef.current.querySelectorAll<HTMLElement>(
+              'a[href], button, textarea, input, select, [tabindex]:not([tabindex="-1"])'
+            );
           if (focusableElements.length > 0) {
             firstFocusableElement.current = focusableElements[0];
-            lastFocusableElement.current = focusableElements[focusableElements.length - 1];
-            console.log('First focusable element:', firstFocusableElement.current);
-            console.log('Last focusable element:', lastFocusableElement.current);
+            lastFocusableElement.current =
+              focusableElements[focusableElements.length - 1];
             firstFocusableElement.current?.focus();
-          } else {
-            console.warn('No focusable elements found in the modal');
           }
         }
       }, 100); // Délai de 100 ms pour s'assurer que la modale est rendue

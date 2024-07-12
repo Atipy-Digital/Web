@@ -61,12 +61,14 @@ export const EngageModal = ({ data }: Props) => {
       // Ajout d'un délai pour s'assurer que la modale est rendue
       setTimeout(() => {
         if (modalRef.current) {
-          const focusableElements = modalRef.current.querySelectorAll<HTMLElement>(
-            'a[href], button, textarea, input, select, [tabindex]:not([tabindex="-1"])'
-          );
+          const focusableElements =
+            modalRef.current.querySelectorAll<HTMLElement>(
+              'a[href], button, textarea, input, select, [tabindex]:not([tabindex="-1"])'
+            );
           if (focusableElements.length > 0) {
             firstFocusableElement.current = focusableElements[0];
-            lastFocusableElement.current = focusableElements[focusableElements.length - 1];
+            lastFocusableElement.current =
+              focusableElements[focusableElements.length - 1];
             firstFocusableElement.current?.focus();
           }
         }
