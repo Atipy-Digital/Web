@@ -1,6 +1,7 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
+import React from 'react';
 
 import { Tag } from './Tag';
 
@@ -11,10 +12,19 @@ type Props = ProjectType;
 export const ProjectCard = ({ slug, title, image, tags, client }: Props) => {
   const router = useRouter();
 
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter') {
+      router.push(`/realisations/${slug}`);
+    }
+  };
+
   return (
-    <article
+    <div
       className='cursor-pointer w-full h-full rounded-[10px] p-4 flex flex-col bg-white shadow-project-card dark:bg-background dark:border-2 dark:border-white dark:shadow-none max-w-[450px] m-auto'
       onClick={() => router.push(`/realisations/${slug}`)}
+      role='button'
+      tabIndex={0}
+      onKeyDown={handleKeyDown}
     >
       <figure className='relative block w-full aspect-video rounded-[10px] overflow-hidden'>
         <img
@@ -44,6 +54,6 @@ export const ProjectCard = ({ slug, title, image, tags, client }: Props) => {
           Lire la suite
         </p>
       </footer>
-    </article>
+    </div>
   );
 };

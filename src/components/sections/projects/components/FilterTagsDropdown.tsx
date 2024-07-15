@@ -2,7 +2,7 @@
 
 import { CheckIcon, ChevronDownIcon } from '@heroicons/react/solid';
 import { motion } from 'framer-motion';
-import { memo, useCallback, useEffect, useRef, useState } from 'react';
+import React, { memo, useCallback, useEffect, useRef, useState } from 'react';
 
 import { MEDIA_QUERY, useMediaQuery } from '@/hooks/use-media';
 
@@ -81,6 +81,12 @@ const FilterTagsTemp = ({
       } else {
         setTagBusinessActive(selectedTag);
       }
+    }
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent, handler: () => void) => {
+    if (e.key === 'Enter') {
+      handler();
     }
   };
 
@@ -168,6 +174,9 @@ const FilterTagsTemp = ({
                           : 'text-gray-700'
                       } flex items-center justify-between px-4 py-2 text-sm cursor-pointer`}
                       onClick={() => handleExpertiseChange(tag.label)}
+                      onKeyDown={(e) =>
+                        handleKeyDown(e, () => handleExpertiseChange(tag.label))
+                      }
                       role='menuitem'
                       tabIndex={0}
                     >
@@ -219,6 +228,9 @@ const FilterTagsTemp = ({
                           : 'text-gray-700'
                       } flex items-center justify-between px-4 py-2 text-sm cursor-pointer`}
                       onClick={() => handleBusinessChange(tag.label)}
+                      onKeyDown={(e) =>
+                        handleKeyDown(e, () => handleBusinessChange(tag.label))
+                      }
                       role='menuitem'
                       tabIndex={0}
                     >

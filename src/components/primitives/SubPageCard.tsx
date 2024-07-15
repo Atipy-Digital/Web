@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { useMemo } from 'react';
+import React, { useMemo } from 'react';
 
 import clsxm from '@/lib/clsxm';
 
@@ -28,6 +28,13 @@ export const SubPageCard = ({
   isAriaHidden,
 }: Props) => {
   const router = useRouter();
+
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter') {
+      router.push(path);
+    }
+  };
+
   const styleCard = new Map<CARD_TYPE, string>([
     [
       CARD_TYPE.ENGINEER,
@@ -78,26 +85,28 @@ export const SubPageCard = ({
   }, [icon]);
 
   return (
-    <article
+    <div
       className={clsxm(
         'tl cursor-pointer w-full flex-1 flex flex-col justify-center rounded-[30px] bg-white dark:bg-background',
         sCard,
         'p-2 text-center'
       )}
       onClick={() => router.push(path)}
+      role='button'
+      tabIndex={0}
+      onKeyDown={handleKeyDown}
     >
       {IconComponent && (
         <IconComponent
           className='flex-shrink-0 h-[80px] md:h-[96px] lg:h-[128px] 2xl:h-[150px] w-auto mx-auto'
           aria-hidden={isAriaHidden}
         />
-        // ici, impossible d'ajouter la props "isAriaHidden"
       )}
       <div className='pb-2 lg:pb-4 xl:pb-5'>
         <p className='text-[16px] sm:text-body1 font-bold leading-none text-center break-words'>
           {title}
         </p>
       </div>
-    </article>
+    </div>
   );
 };

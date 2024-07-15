@@ -96,6 +96,8 @@ export const EngageModal = ({ data }: Props) => {
         exit={{
           opacity: 0,
         }}
+        role='dialog'
+        aria-modal={true}
       >
         <motion.div
           className={clsxm(

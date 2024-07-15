@@ -46,7 +46,6 @@ export const ScrollToTopButton = () => {
     });
   }, [scrollYProgress, controls, valueToHide]);
 
-
   return (
     <motion.a
       className='fixed bottom-0 right-0 p-4 md:p-6 xl:p-8 2xl:p-10 z-[5]'
@@ -57,7 +56,6 @@ export const ScrollToTopButton = () => {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
       href='#top'
-      role='button'
     >
       <AtipyIcon
         className='flex items-center justify-center rounded-full w-10 h-10 lg:w-16 lg:h-16 xl:w-20 xl:h-20 2xl:w-[102px] 2xl:h-[102px]'
