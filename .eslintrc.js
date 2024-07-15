@@ -8,7 +8,7 @@ module.exports = {
     '@typescript-eslint',
     'simple-import-sort',
     'unused-imports',
-    'jsx-a11y'
+    'jsx-a11y',
   ],
   extends: [
     'eslint:recommended',
@@ -87,27 +87,30 @@ module.exports = {
 
     // Règles d'accessibilité spécifiques
     'jsx-a11y/alt-text': [
-      'error', {
-        'elements': ['img', 'object', 'area', 'input[type="image"]'],
-        'img': ['Image'],
-        'object': ['Object'],
-        'area': ['Area'],
+      'error',
+      {
+        elements: ['img', 'object', 'area', 'input[type="image"]'],
+        img: ['Image'],
+        object: ['Object'],
+        area: ['Area'],
         'input[type="image"]': ['InputImage'],
-      }
+      },
     ],
     'jsx-a11y/aria-props': 'error',
     'jsx-a11y/no-noninteractive-element-to-interactive-role': [
-      'error', {
-        'tr': ['none', 'presentation'],
-        'svg': ['none', 'presentation']
-      }
+      'error',
+      {
+        tr: ['none', 'presentation'],
+        svg: ['none', 'presentation'],
+      },
     ],
     'jsx-a11y/anchor-is-valid': [
-      'error', {
-        'components': ['Link'],
-        'specialLink': ['to'],
-        'aspects': ['invalidHref', 'preferButton']
-      }
+      'error',
+      {
+        components: ['Link'],
+        specialLink: ['to'],
+        aspects: ['invalidHref', 'preferButton'],
+      },
     ],
   },
   globals: {
