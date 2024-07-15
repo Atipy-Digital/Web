@@ -4,12 +4,18 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  plugins: ['@typescript-eslint', 'simple-import-sort', 'unused-imports'],
+  plugins: [
+    '@typescript-eslint',
+    'simple-import-sort',
+    'unused-imports',
+    'jsx-a11y'
+  ],
   extends: [
     'eslint:recommended',
     'next',
     'next/core-web-vitals',
     'plugin:@typescript-eslint/recommended',
+    'plugin:jsx-a11y/recommended',
     'prettier',
   ],
   rules: {
@@ -78,6 +84,31 @@ module.exports = {
       },
     ],
     //#endregion  //*======== Import Sort ===========
+
+    // Règles d'accessibilité spécifiques
+    'jsx-a11y/alt-text': [
+      'error', {
+        'elements': ['img', 'object', 'area', 'input[type="image"]'],
+        'img': ['Image'],
+        'object': ['Object'],
+        'area': ['Area'],
+        'input[type="image"]': ['InputImage'],
+      }
+    ],
+    'jsx-a11y/aria-props': 'error',
+    'jsx-a11y/no-noninteractive-element-to-interactive-role': [
+      'error', {
+        'tr': ['none', 'presentation'],
+        'svg': ['none', 'presentation']
+      }
+    ],
+    'jsx-a11y/anchor-is-valid': [
+      'error', {
+        'components': ['Link'],
+        'specialLink': ['to'],
+        'aspects': ['invalidHref', 'preferButton']
+      }
+    ],
   },
   globals: {
     React: true,
