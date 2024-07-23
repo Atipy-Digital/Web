@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { useState, useEffect } from 'react';
 
 import clsxm from '@/lib/clsxm';
 import { useTheme } from '@/hooks/use-theme';
@@ -15,14 +16,27 @@ const spring = {
 
 export const ToggleTheme = () => {
   const { isDark, setTheme } = useTheme();
+  const [showConfirmation, setShowConfirmation] = useState(false);
 
   const toggleSwitch = () => {
-    isDark ? setTheme('light') : setTheme('dark');
+    const newTheme = isDark ? 'light' : 'dark';
+    setTheme(newTheme);
+    setShowConfirmation(true);
   };
 
+  useEffect(() => {
+    if (showConfirmation) {
+      const timer = setTimeout(() => setShowConfirmation(false), 3000);
+      return () => clearTimeout(timer);
+    }
+  }, [showConfirmation]);
+
   return (
-    <div className='ta flex flex-col items-center lg:ml-10 xl:ml-14 w-[78px] ml-auto overflow-hidden'>
+    <div className='ta flex flex-col items-center lg:ml-10 xl:ml-14 w-[78px] ml-auto overflow-hidden relative'>
       <motion.button
+        role="button"
+        aria-pressed={isDark}
+        aria-label={isDark ? "Passer au mode clair" : "Passer au mode sombre"}
         className={clsxm(
           'relative flex justify-start rounded-full p-[2px] cursor-pointer',
           'w-[52px] h-[27px] lg:w-[66px] lg:h-[36px]',
@@ -81,6 +95,12 @@ export const ToggleTheme = () => {
       <span className='hidden md:block mt-1 text-[12px]'>
         {!isDark ? 'Mode clair' : 'Mode sombre'}
       </span>
+
+      {showConfirmation && (
+        <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 bg-gray-800 text-white px-3 py-1 rounded text-sm">
+          {isDark ? 'Mode sombre activé' : 'Mode clair activé'}
+        </div>
+      )}
     </div>
   );
 };
