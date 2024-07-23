@@ -38,16 +38,14 @@ export const FooterMenuText = (data: FooterMenuTextType) => {
           ))}
         </li>
       ) : (
-        <ul>
-          <li>
-            <a
-              href={`mailto:${data.email}`}
-              className='link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
-            >
-              {data.email}
-            </a>
-          </li>
-        </ul>
+        <li>
+          <a
+            href={`mailto:${data.email}`}
+            className='link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
+          >
+            {data.email}
+          </a>
+        </li>
       )}
     </ul>
   );
