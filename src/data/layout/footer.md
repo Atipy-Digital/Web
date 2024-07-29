@@ -15,7 +15,7 @@ menuSocial:
   title: Réseaux sociaux
   rows:
     - type: instagram
-      url: https://www.instagram.com/adequat_atipy/
+      url: https://www.instagram.com/atipy_design/
     - type: linkedin
       url: https://www.linkedin.com/company/atipy/
     - type: twitter
