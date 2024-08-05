@@ -11,6 +11,7 @@ type LinkButtonProps = AnchorHTMLAttributes<HTMLAnchorElement> &
     icon?: boolean;
     noAnim?: boolean;
     href?: string;
+    onClick?: (event: React.MouseEvent<HTMLAnchorElement>) => void;
   };
 
 export const LinkButton = ({
@@ -20,6 +21,7 @@ export const LinkButton = ({
   noAnim = false,
   children,
   href,
+  onClick,
   ...props
 }: LinkButtonProps) => {
   const variants = new Map<LinkButtonProps['variant'], string>([
@@ -55,6 +57,7 @@ export const LinkButton = ({
     <motion.a
       {...props}
       href={href}
+      onClick={onClick}
       className={clsxm(
         'h-[54px] flex-shrink-0 flex items-center rounded-full px-[14px] py-[11px] text-[16px] md:text-[18px] lg:text-[20px] leading-none font-bold w-fit cursor-pointer',
         currentVariant,

@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 import clsxm from '@/lib/clsxm';
 import { useTheme } from '@/hooks/use-theme';
@@ -34,9 +34,9 @@ export const ToggleTheme = () => {
   return (
     <div className='ta flex flex-col items-center lg:ml-10 xl:ml-14 w-[78px] ml-auto overflow-hidden relative'>
       <motion.button
-        role="button"
+        role='button'
         aria-pressed={isDark}
-        aria-label={isDark ? "Passer au mode clair" : "Passer au mode sombre"}
+        aria-label={isDark ? 'Passer au mode clair' : 'Passer au mode sombre'}
         className={clsxm(
           'relative flex justify-start rounded-full p-[2px] cursor-pointer',
           'w-[52px] h-[27px] lg:w-[66px] lg:h-[36px]',
@@ -58,9 +58,8 @@ export const ToggleTheme = () => {
         >
           <AtipyIcon
             type={isDark ? ATIPY_ICON.MOON : ATIPY_ICON.SUN}
-            isAriaHidden={true}
-            hideAriaLabel={true}
             className='w-[18px] lg:w-[24px]'
+            isInformative
           />
         </motion.span>
 
@@ -73,8 +72,7 @@ export const ToggleTheme = () => {
           <AtipyIcon
             type={ATIPY_ICON.MOON}
             className='w-[18px] lg:w-[24px]'
-            isAriaHidden={true}
-            hideAriaLabel={true}
+            isInformative
           />
         </span>
         <span
@@ -86,8 +84,7 @@ export const ToggleTheme = () => {
           <AtipyIcon
             type={ATIPY_ICON.SUN}
             className='w-[18px] lg:w-[24px]'
-            isAriaHidden={true}
-            hideAriaLabel={true}
+            isInformative
           />
         </span>
       </motion.button>
@@ -97,7 +94,7 @@ export const ToggleTheme = () => {
       </span>
 
       {showConfirmation && (
-        <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 bg-gray-800 text-white px-3 py-1 rounded text-sm">
+        <div className='absolute top-full left-1/2 transform -translate-x-1/2 mt-2 bg-gray-800 text-white px-3 py-1 rounded text-sm'>
           {isDark ? 'Mode sombre activé' : 'Mode clair activé'}
         </div>
       )}
