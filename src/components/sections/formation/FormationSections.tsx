@@ -32,7 +32,6 @@ export const FormationSections = ({ data }: Props) => {
               image: {
                 url: `/imgs/formation/intro-${prefixImg}.webp`,
                 className: 'max-w-[509px] object-contain',
-                ariaHidden: true,
               },
             }}
             inverseCol
@@ -45,7 +44,6 @@ export const FormationSections = ({ data }: Props) => {
             <MarkdownSection
               {...section}
               key={`formation-page-section-${nanoid(7)}`}
-              // ici, impossible d'ajouter la props "isAriaHidden"
             />
           );
         })}
@@ -62,7 +60,7 @@ export const FormationSections = ({ data }: Props) => {
                   title={xp.title}
                   type={xp.color}
                   key={`sub-page-formation-${xp.slug}`}
-                  isAriaHidden={true}
+                  isDecorative
                 />
               );
             })}

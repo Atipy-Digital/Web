@@ -32,8 +32,6 @@ export const DesignSections = ({ data }: Props) => {
               image: {
                 url: `/imgs/design/intro-${prefixImg}.webp`,
                 className: 'max-w-[509px] object-contain',
-                alt: 'Pictogramme représentant un ordinateur avec un personnage tenant un crayon. Dans le fond, il y a une photo d’oreille',
-                ariaHidden: true,
               },
             }}
             inverseCol
@@ -45,7 +43,6 @@ export const DesignSections = ({ data }: Props) => {
           <MarkdownSection
             {...section}
             key={`design-page-section-${nanoid(7)}`}
-            // ici, impossible d'ajouter la props "isAriaHidden"
           />
         ))}
 
@@ -63,7 +60,7 @@ export const DesignSections = ({ data }: Props) => {
                   title={xp.title}
                   type={xp.color}
                   key={`sub-page-design-${xp.slug}`}
-                  isAriaHidden={true}
+                  isDecorative
                 />
               );
             })}
@@ -75,6 +72,7 @@ export const DesignSections = ({ data }: Props) => {
               path='/expertises/formation'
               title='Formations et ateliers'
               type={CARD_TYPE.DESIGN}
+              isDecorative
             />
           </div>
         </div>

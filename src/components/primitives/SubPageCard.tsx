@@ -1,5 +1,6 @@
 'use client';
 
+import { motion } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 import React, { useMemo } from 'react';
 
@@ -17,7 +18,7 @@ type Props = {
   icon: ExpertiseSubPageType['icon'];
   path: string;
   title: string;
-  isAriaHidden?: boolean;
+  isDecorative?: boolean;
 };
 
 export const SubPageCard = ({
@@ -25,7 +26,7 @@ export const SubPageCard = ({
   icon,
   path,
   title,
-  isAriaHidden,
+  isDecorative,
 }: Props) => {
   const router = useRouter();
 
@@ -85,21 +86,24 @@ export const SubPageCard = ({
   }, [icon]);
 
   return (
-    <div
+    <motion.a
       className={clsxm(
         'tl cursor-pointer w-full flex-1 flex flex-col justify-center rounded-[30px] bg-white dark:bg-background',
         sCard,
         'p-2 text-center'
       )}
-      onClick={() => router.push(path)}
+      href={path}
       role='button'
       tabIndex={0}
       onKeyDown={handleKeyDown}
+      aria-label={`Aller à ${title}`}
     >
       {IconComponent && (
         <IconComponent
           className='flex-shrink-0 h-[80px] md:h-[96px] lg:h-[128px] 2xl:h-[150px] w-auto mx-auto'
-          aria-hidden={isAriaHidden}
+          aria-hidden={isDecorative}
+          role='img'
+          aria-label=''
         />
       )}
       <div className='pb-2 lg:pb-4 xl:pb-5'>
@@ -107,6 +111,6 @@ export const SubPageCard = ({
           {title}
         </p>
       </div>
-    </div>
+    </motion.a>
   );
 };
