@@ -19,7 +19,6 @@ export const Sections = ({ sections }: Props) => {
           <MarkdownSection
             {...section}
             key={`conception-section-${nanoid(7)}`}
-            // ici, impossible d'ajouter la props "isAriaHidden"
           />
         ))}
       </div>
