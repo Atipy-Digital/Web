@@ -3,6 +3,8 @@
 import { useRouter } from 'next/navigation';
 import React from 'react';
 
+import { AtipyImage } from '@/components/common/icons/AtipyImage';
+
 import { Tag } from './Tag';
 
 import type { ProjectType } from '@/ts';
@@ -27,9 +29,9 @@ export const ProjectCard = ({ slug, title, image, tags, client }: Props) => {
       onKeyDown={handleKeyDown}
     >
       <figure className='relative block w-full aspect-video rounded-[10px] overflow-hidden'>
-        <img
+        <AtipyImage
+          isDecorative
           src={image.url}
-          alt={image?.alt || `illustration projet ${title}`}
           className='absolute w-full h-full object-cover'
         />
       </figure>

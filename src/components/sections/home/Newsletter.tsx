@@ -9,6 +9,7 @@ import clsxm from '@/lib/clsxm';
 import { URL_NETLIFY_SUBSCRIBE } from '@/lib/constants';
 
 import { Box } from '@/components/common/Box';
+import { AtipyImage } from '@/components/common/icons/AtipyImage';
 import { Button } from '@/components/primitives/Button';
 
 import { AudienceTag } from '../../primitives/AudienceTag';
@@ -183,10 +184,9 @@ export const Newsletter = ({ data }: Props) => {
           </div>
 
           <div className='hidden md:block max-w-[288px] lg:max-w-[395px] flex-shrink-0'>
-            <img
-              aria-hidden={true}
+            <AtipyImage
+              isDecorative
               src='/imgs/home/newsletter-home.webp'
-              alt=''
               className='h-full w-auto object-contain'
             />
           </div>

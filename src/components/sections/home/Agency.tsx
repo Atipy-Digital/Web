@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { useTheme } from '@/hooks/use-theme';
 
 import { Box } from '@/components/common/Box';
+import { AtipyImage } from '@/components/common/icons/AtipyImage';
 import { Button } from '@/components/primitives/Button';
 import { MarkdownText } from '@/components/primitives/MarkdownText';
 
@@ -31,10 +32,10 @@ export const Agency = ({ data }: Props) => {
           </div>
 
           <div className='hidden md:block relative flex-grow w-full max-w-[1315px]'>
-            <img
-              src={`/imgs/home/agency-${prefixImg}.webp`}
-              alt='tree decoration'
+            <AtipyImage
+              isDecorative
               className='w-full object-contain 2xl:translate-x-1/4 desktop:translate-x-1/3 flex-shrink-0'
+              src={`/imgs/home/agency-${prefixImg}.webp`}
             />
           </div>
         </div>
