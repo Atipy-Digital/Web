@@ -1,17 +1,15 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
 import { useMemo } from 'react';
 
 import { Box } from '@/components/common/Box';
-import { Button } from '@/components/primitives/Button';
+import { LinkButton } from '@/components/primitives/LinkButton';
 import { ProjectList } from '@/components/primitives/ProjectList';
 import { FilterTagsDropDown } from '@/components/sections/projects/components/FilterTagsDropdown';
 
 import { useAppStore } from '@/store/use-app-store';
 
 export const AllProjects = () => {
-  const router = useRouter();
   const projects = useAppStore((store) => store.projects);
   const businessTags = useAppStore((store) => store.tagsBusiness);
   const expertiseTags = useAppStore((store) => store.tagsExpertise);
@@ -36,7 +34,7 @@ export const AllProjects = () => {
     if (!projects?.length) return [];
     if (!hasTagsActive) return projects;
 
-    const filteredProjects = projects.filter((project) => {
+    return projects.filter((project) => {
       const hasTagBusiness = project.tags?.some((tag) =>
         tagsExpertiseActive.some(
           (t) => t.label === tag.label && t.color === tag.color
@@ -49,7 +47,6 @@ export const AllProjects = () => {
       );
       return hasTagBusiness || hasTagExpertise;
     });
-    return filteredProjects;
   }, [projects, tagsBusinessActive, tagsExpertiseActive, hasTagsActive]);
 
   return (
@@ -78,9 +75,9 @@ export const AllProjects = () => {
       </Box>
 
       <div className='w-full flex items-center justify-center mt-10 lg:mt-14 xl:mt-20'>
-        <Button icon onClick={() => router.push('/realisations/clients')}>
+        <LinkButton icon href='/realisations/clients'>
           Tous nos clients
-        </Button>
+        </LinkButton>
       </div>
     </section>
   );

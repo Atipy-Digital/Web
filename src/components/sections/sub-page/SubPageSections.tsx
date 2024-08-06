@@ -2,7 +2,7 @@
 
 import { nanoid } from 'nanoid';
 import { useRouter } from 'next/navigation';
-import { useMemo } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 
 import { MEDIA_QUERY, useMediaQuery } from '@/hooks/use-media';
 
@@ -12,7 +12,7 @@ import iconsDesign from '@/components/icons/design';
 import iconsDigital from '@/components/icons/digital';
 import iconsFormation from '@/components/icons/formation';
 import iconsIngenierie from '@/components/icons/ingenierie';
-import { Button } from '@/components/primitives/Button';
+import { LinkButton } from '@/components/primitives/LinkButton';
 import { MarkdownSection } from '@/components/primitives/MarkdownSection';
 import { MarkdownText } from '@/components/primitives/MarkdownText';
 
@@ -30,6 +30,7 @@ export const SubPageSections = ({ data }: Props) => {
   const setTagExpertiseActive = useAppStore((s) => s.setTagExpertiseActive);
   const router = useRouter();
   const matchesSM = useMediaQuery(MEDIA_QUERY.SM);
+  const [shouldNavigate, setShouldNavigate] = useState(false);
 
   const getCardType = (): TagColor => {
     if (!data.footer?.btn?.color) return 'default';
@@ -48,7 +49,10 @@ export const SubPageSections = ({ data }: Props) => {
     }
   };
 
-  const goToProjects = () => {
+  const goToProjects = (event?: React.MouseEvent<HTMLAnchorElement>) => {
+    if (event) {
+      event.preventDefault();
+    }
     if (!data.footer?.btn?.tag) return;
     onResetTags();
     setTagExpertiseActive({
@@ -56,8 +60,15 @@ export const SubPageSections = ({ data }: Props) => {
       label: data.footer.btn.tag,
       type: 'expertise',
     });
-    router.push('/realisations');
+    setShouldNavigate(true);
   };
+
+  useEffect(() => {
+    if (shouldNavigate) {
+      router.push('/realisations');
+      setShouldNavigate(false);
+    }
+  }, [shouldNavigate, router]);
 
   const IconComponent = useMemo(() => {
     if (data.icon.type === 'design') {
@@ -122,7 +133,6 @@ export const SubPageSections = ({ data }: Props) => {
             {...section}
             key={`sub-page-section-${nanoid(7)}`}
             className='mb-8 md:mb-10 lg:mb-14'
-            // ici, impossible d'ajouter la props "isAriaHidden"
           />
         ))}
 
@@ -130,16 +140,16 @@ export const SubPageSections = ({ data }: Props) => {
           data.footer?.titleContact) && (
           <div className='my-10 flex flex-col items-center justify-center md:mt-14 lg:mt-20 xl:mt-24'>
             {data.footer?.btn?.color && data.footer?.btn?.label && (
-              <Button
+              <LinkButton
                 icon
                 variant={data.footer.btn.color}
-                onClick={goToProjects}
+                onClick={(e) => goToProjects(e)}
+                href='/realisations'
                 className='mb-8 md:mb-10 lg:mb-14 xl:mb-20'
               >
                 {data.footer.btn.label}
-              </Button>
+              </LinkButton>
             )}
-
             {data.footer?.titleContact && (
               <>
                 <h3 className='text-center leading-tight'>
@@ -151,6 +161,7 @@ export const SubPageSections = ({ data }: Props) => {
                   <AtipyIcon
                     type={ATIPY_ICON.ENVELOP}
                     size={matchesSM ? 'md' : 'xl'}
+                    isDecorative
                   />
                   <a
                     href='mailto:contact@atipy.fr'
