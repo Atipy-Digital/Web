@@ -28,11 +28,7 @@ export const FooterMenuSocial = ({ title, rows }: FooterMenuSocialType) => {
                   rel='noopener noreferrer'
                   className='w-8 h-8 rounded-md flex items-center justify-center bg-background dark:bg-white text-white dark:text-black'
                 >
-                  <AtipyIcon
-                    type={currentType}
-                    isAriaHidden={true}
-                    role='img'
-                  />
+                  <AtipyIcon isInformative type={currentType} />
                 </a>
               </li>
             );

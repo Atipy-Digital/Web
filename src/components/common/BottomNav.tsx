@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 import { MEDIA_QUERY, useMediaQuery } from '@/hooks/use-media';
 
-import { ATIPY_ICON, AtipyIcon } from './icons/AtipyIcon';
+import { ATIPY_ICON, AtipyIcon } from '@/components/common/icons/AtipyIcon';
 
 type LinkType = {
   label: string;
@@ -28,7 +28,11 @@ export const BottomNav = ({ previousLink, nextLink }: Props) => {
           href={previousLink.url}
           className='grid grid-cols-[auto_1fr] gap-2 lg:gap-4 xl:gap-6 leading-none mr-auto'
         >
-          <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_LEFT} size={size} />
+          <AtipyIcon
+            isInformative
+            type={ATIPY_ICON.ARROW_CIRCLE_LEFT}
+            size={size}
+          />
           <span className='block line-truncate link-to-hover text-right text-[16px] md:text-body1 !leading-none my-auto'>
             {previousLink.label}
           </span>
@@ -44,7 +48,11 @@ export const BottomNav = ({ previousLink, nextLink }: Props) => {
             <span className='block line-truncate link-to-hover text-right text-[16px] md:text-body1 !leading-none my-auto'>
               {nextLink.label}
             </span>
-            <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_RIGHT} size={size} />
+            <AtipyIcon
+              isInformative
+              type={ATIPY_ICON.ARROW_CIRCLE_RIGHT}
+              size={size}
+            />
           </Link>
         </div>
       )}

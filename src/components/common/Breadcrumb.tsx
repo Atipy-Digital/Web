@@ -55,7 +55,7 @@ export const Breadcrumb = ({
             <div className='grid grid-cols-[auto_1fr]'>
               <div className='flex items-center justify-center whitespace-nowrap'>
                 <AtipyIcon
-                  isAriaHidden={true}
+                  isDecorative
                   type={ATIPY_ICON.ARROW_RIGHT}
                   size='sm'
                   className='mr-1 whitespace-nowrap'
@@ -74,7 +74,7 @@ export const Breadcrumb = ({
           <div className='grid grid-cols-[auto_1fr]'>
             <div className='flex items-center justify-center whitespace-nowrap'>
               <AtipyIcon
-                isAriaHidden={true}
+                isDecorative
                 type={ATIPY_ICON.ARROW_RIGHT}
                 size='sm'
                 className='mr-1 whitespace-nowrap'

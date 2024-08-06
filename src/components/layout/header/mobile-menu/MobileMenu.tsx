@@ -89,6 +89,7 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
   return (
     <>
       <button
+        role='button'
         className={clsxm(s.icon, s.burger)}
         onClick={openMenu}
         aria-label='ouverture du menu mobile'
@@ -125,6 +126,7 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
             <header className={clsxm(s.header, 'px-fluid')}>
               <Logo />
               <button
+                role='button'
                 className={s.icon}
                 onClick={closeMenu}
                 aria-label='fermeture du menu mobile'
@@ -132,6 +134,7 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
                 tabIndex={0}
               >
                 <AtipyIcon
+                  isInformative
                   type={ATIPY_ICON.CROSS}
                   size='xl'
                   className='w-11 h-11'
