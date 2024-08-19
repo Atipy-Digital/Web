@@ -4,7 +4,6 @@ export const ArrowUpIcon = (props: IconProps) => {
   return (
     <svg
       {...props}
-      role='img'
       viewBox='0 0 102 102'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'

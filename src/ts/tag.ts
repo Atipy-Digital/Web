@@ -4,11 +4,13 @@ export type TagExpertiseType = {
   type: 'expertise';
   label: string;
   color: TagColor;
+  onClick?: () => void;
 };
 export type TagBusinessType = {
   type: 'business';
   label: string;
   color: TagColor;
+  onClick?: () => void;
 };
 
 export interface ITagExpertise extends TagExpertiseType {

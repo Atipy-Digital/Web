@@ -33,7 +33,6 @@ export const DigitalSections = ({ data }: Props) => {
               image: {
                 url: `/imgs/digital/intro-${prefixImg}.webp`,
                 className: 'max-h-[384px] object-contain',
-                ariaHidden: true,
               },
             }}
             inverseCol
@@ -63,6 +62,7 @@ export const DigitalSections = ({ data }: Props) => {
                   title={xp.title}
                   type={xp.color}
                   key={`sub-page-digital-${xp.slug}`}
+                  isDecorative
                 />
               );
             })}
@@ -74,6 +74,7 @@ export const DigitalSections = ({ data }: Props) => {
               path='/expertises/formation'
               title='Formations et ateliers'
               type={CARD_TYPE.DIGITAL}
+              isDecorative
             />
           </div>
         </div>

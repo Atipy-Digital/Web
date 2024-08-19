@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo } from 'react';
+import React, { useMemo } from 'react';
 
 import clsxm from '@/lib/clsxm';
 
@@ -10,6 +10,9 @@ export type Props = TagType & {
   className?: string;
   onClick?: () => void;
   isActive?: boolean;
+  role?: string;
+  tabIndex?: number;
+  onKeyDown?: (e: React.KeyboardEvent) => void;
 };
 
 export const Tag = ({
@@ -18,6 +21,9 @@ export const Tag = ({
   className,
   onClick,
   isActive = false,
+  role,
+  tabIndex,
+  onKeyDown,
 }: Props) => {
   const getColorStyle = useMemo(() => {
     switch (color) {
@@ -80,6 +86,9 @@ export const Tag = ({
         className
       )}
       onClick={onClick}
+      role={role}
+      tabIndex={tabIndex}
+      onKeyDown={onKeyDown}
     >
       <span className='flex-shrink-0 leading-none font-primary'>{label}</span>
     </div>

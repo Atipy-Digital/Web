@@ -13,6 +13,8 @@ import partners from './partners.js';
 import projects from './projects.js';
 import tribu from './tribu.js';
 import sitemap from './sitemap.js';
+import mentionsLegales from './mentions-legales.js';
+import accessibility from './accessibility.js';
 
 const pages = {
   name: 'Pages',
@@ -33,6 +35,8 @@ const pages = {
     clients,
     contact,
     sitemap,
+    mentionsLegales,
+    accessibility,
   ],
 };
 

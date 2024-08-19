@@ -1,7 +1,5 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
-
 import { useTheme } from '@/hooks/use-theme';
 
 import { CardPage } from '@/components/primitives/CardPage';
@@ -13,7 +11,6 @@ type Props = {
 };
 
 export const ExpertiseCards = ({ data }: Props) => {
-  const router = useRouter();
   const { prefixImg } = useTheme();
 
   return (
@@ -34,7 +31,7 @@ export const ExpertiseCards = ({ data }: Props) => {
           <CardPage
             key={`card-expertise-page-${card.type}`}
             urlHeaderImg={urlHeaderImg}
-            onClick={() => router.push(`/expertises/${card.type}`)}
+            href={`/expertises/${card.type}`}
             text={card.text}
             title={card.title}
           />

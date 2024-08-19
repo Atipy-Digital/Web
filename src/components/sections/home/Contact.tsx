@@ -1,11 +1,10 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
 import ReactMarkdown from 'react-markdown';
 
 import { Box } from '@/components/common/Box';
 import { ATIPY_ICON, AtipyIcon } from '@/components/common/icons/AtipyIcon';
-import { Button } from '@/components/primitives/Button';
+import { LinkButton } from '@/components/primitives/LinkButton';
 
 import type { HomeContactDataType } from '@/ts';
 
@@ -14,10 +13,6 @@ type Props = {
 };
 
 export const Contact = ({ data }: Props) => {
-  const { push } = useRouter();
-  const redirectToContact = () => {
-    push('/contact');
-  };
   return (
     <Box
       as='section'
@@ -29,17 +24,15 @@ export const Contact = ({ data }: Props) => {
         </h3>
 
         <div className='w-full sm:w-auto flex flex-col justify-center items-center md:justify-start md:items-start'>
-          <a href='/contact'>
-            <Button icon onClick={redirectToContact} isAriaHidden={true}>
-              Formulaire de contact
-            </Button>
-          </a>
+          <LinkButton icon href='/contact'>
+            Formulaire de contact
+          </LinkButton>
           <div className='tl w-full h-[2px] my-4' />
           <div className='flex items-center gap-x-8'>
             <AtipyIcon
               type={ATIPY_ICON.ENVELOP}
               className='w-[48px] h-[35px] flex-shrink-0'
-              isAriaHidden={true}
+              isDecorative
             />
             <a
               href={`mailto:${data.email}`}

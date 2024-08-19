@@ -5,6 +5,8 @@ import { Fragment, useState } from 'react';
 
 import clsxm from '@/lib/clsxm';
 
+import { AtipyImage } from '@/components/common/icons/AtipyImage';
+
 import { MarkdownText } from './MarkdownText';
 import { ATIPY_ICON, AtipyIcon } from '../common/icons/AtipyIcon';
 
@@ -53,11 +55,10 @@ export const PartnerItem = ({
             'shadow-a-yellow-dark dark:shadow-a-yellow-light'
           )}
         >
-          <img
+          <AtipyImage
             src={logo}
-            alt={`logo ${name}`}
             className='object-contain w-full h-full absolute inset-0'
-            aria-hidden={true}
+            isDecorative
           />
         </div>
         <div className='w-full flex flex-col'>
@@ -81,6 +82,7 @@ export const PartnerItem = ({
                     <p className='text-[20px] lmd:text-[18px] lg:text-[20px] xl:text-body1 font-bold flex items-center md:block'>
                       {getLabel()}
                       <AtipyIcon
+                        isDecorative
                         type={ATIPY_ICON.ARROW_RIGHT}
                         size='md'
                         className={clsxm(

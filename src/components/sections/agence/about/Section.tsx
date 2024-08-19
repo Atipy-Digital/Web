@@ -7,6 +7,7 @@ import { MEDIA_QUERY, useMediaQuery } from '@/hooks/use-media';
 import { useTheme } from '@/hooks/use-theme';
 
 import { Box } from '@/components/common/Box';
+import { AtipyImage } from '@/components/common/icons/AtipyImage';
 import { MarkdownText } from '@/components/primitives/MarkdownText';
 import { OfferList } from '@/components/primitives/OfferList';
 
@@ -44,11 +45,10 @@ const Section = ({
     )}
   >
     <div className={clsxm('w-full', imgClassName)}>
-      <img
+      <AtipyImage
         src={img.url}
-        alt={img.alt}
+        isDecorative
         className='w-full h-auto rounded-[10px]'
-        aria-hidden={true}
       />
     </div>
 

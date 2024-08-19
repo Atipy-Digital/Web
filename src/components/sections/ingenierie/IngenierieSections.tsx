@@ -44,7 +44,6 @@ export const IngenierieSections = ({ data }: Props) => {
           <MarkdownSection
             {...section}
             key={`ingenierie-page-section-${nanoid(7)}`}
-            // ici, impossible d'ajouter la props "isAriaHidden"
           />
         ))}
 
@@ -62,6 +61,7 @@ export const IngenierieSections = ({ data }: Props) => {
                   title={xp.title}
                   type={xp.color}
                   key={`sub-page-ingenierie-${xp.slug}`}
+                  isDecorative
                 />
               );
             })}
@@ -73,6 +73,7 @@ export const IngenierieSections = ({ data }: Props) => {
               path='/expertises/formation'
               title='Formations et ateliers'
               type={CARD_TYPE.ENGINEER}
+              isDecorative
             />
           </div>
         </div>

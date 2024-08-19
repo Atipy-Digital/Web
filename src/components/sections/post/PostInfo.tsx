@@ -26,6 +26,7 @@ export const PostInfo = ({ date, tags }: Props) => {
             type={ATIPY_ICON.CLOCK}
             size='lg'
             className='flex-shrink-0'
+            isInformative
           />
         </div>
       </div>

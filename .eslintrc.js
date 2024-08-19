@@ -4,12 +4,18 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  plugins: ['@typescript-eslint', 'simple-import-sort', 'unused-imports'],
+  plugins: [
+    '@typescript-eslint',
+    'simple-import-sort',
+    'unused-imports',
+    'jsx-a11y',
+  ],
   extends: [
     'eslint:recommended',
     'next',
     'next/core-web-vitals',
     'plugin:@typescript-eslint/recommended',
+    'plugin:jsx-a11y/recommended',
     'prettier',
   ],
   rules: {
@@ -78,6 +84,58 @@ module.exports = {
       },
     ],
     //#endregion  //*======== Import Sort ===========
+
+    // Règles d'accessibilité spécifiques
+    'jsx-a11y/alt-text': [
+      'error',
+      {
+        elements: ['img', 'object', 'area', 'input[type="image"]'],
+        img: ['Image'],
+        object: ['Object'],
+        area: ['Area'],
+        'input[type="image"]': ['InputImage'],
+      },
+    ],
+    'jsx-a11y/aria-props': 'error',
+    'jsx-a11y/no-noninteractive-element-to-interactive-role': [
+      'error',
+      {
+        tr: ['none', 'presentation'],
+        svg: ['none', 'presentation'],
+      },
+    ],
+    'jsx-a11y/anchor-is-valid': [
+      'error',
+      {
+        components: ['Link'],
+        specialLink: ['to'],
+        aspects: ['noHref', 'invalidHref', 'preferButton'],
+      },
+    ],
+    'jsx-a11y/img-redundant-alt': [
+      'error',
+      {
+        components: ['Image'],
+        words: ['image', 'photo', 'picture', 'logo'],
+      },
+    ],
+    'jsx-a11y/no-static-element-interactions': 'error',
+    'jsx-a11y/click-events-have-key-events': 'error',
+    'jsx-a11y/no-noninteractive-element-interactions': 'error',
+    'jsx-a11y/no-noninteractive-tabindex': 'error',
+    'jsx-a11y/heading-has-content': 'error',
+    'jsx-a11y/label-has-associated-control': ['error', { assert: 'either' }],
+    'jsx-a11y/aria-role': ['error', { ignoreNonDOM: true }],
+    'jsx-a11y/aria-proptypes': 'error',
+    'jsx-a11y/no-redundant-roles': [
+      'error',
+      {
+        nav: ['navigation'],
+        button: ['button'],
+      },
+    ],
+    'jsx-a11y/accessible-emoji': 'error',
+    'jsx-a11y/interactive-supports-focus': 'error',
   },
   globals: {
     React: true,

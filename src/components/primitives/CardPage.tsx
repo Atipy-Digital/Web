@@ -2,7 +2,9 @@
 
 import { MEDIA_QUERY, useMediaQuery } from '@/hooks/use-media';
 
-import { Button } from './Button';
+import { AtipyImage } from '@/components/common/icons/AtipyImage';
+import { LinkButton } from '@/components/primitives/LinkButton';
+
 import { MarkdownText } from './MarkdownText';
 import { ATIPY_ICON, AtipyIcon } from '../common/icons/AtipyIcon';
 
@@ -10,13 +12,14 @@ type Props = {
   iconType?: ATIPY_ICON;
   title: string;
   text: string;
-  onClick: () => void;
+  onClick?: () => void;
+  href?: string;
   urlHeaderImg?: string;
 };
 
 export const CardPage = ({
   iconType,
-  onClick,
+  href,
   text,
   title,
   urlHeaderImg,
@@ -27,16 +30,15 @@ export const CardPage = ({
       <div className='w-full flex gap-8 flex-col mb-8 md:mb-0'>
         {iconType && (
           <div className='max-h-[96px] xl:max-h-[105px] [&_svg]:w-auto [&_svg]:h-full'>
-            {iconType && <AtipyIcon type={iconType} />}
+            {iconType && <AtipyIcon isDecorative type={iconType} />}
           </div>
         )}
 
         {urlHeaderImg && (
           <div className='max-h-[80px] lg:max-h-[96px] xl:max-h-[100px]'>
-            <img
-              aria-hidden={true}
+            <AtipyImage
+              isDecorative
               src={urlHeaderImg}
-              alt='aaaa'
               className='block h-full w-auto object-contain'
             />
           </div>
@@ -80,13 +82,13 @@ export const CardPage = ({
       </MarkdownText>
 
       <div className='flex w-full mt-auto pt-8 xl:pt-10 2xl:pt-4'>
-        <Button
+        <LinkButton
           icon
-          onClick={onClick}
+          href={href}
           className='!text-[16px] lg:!text-[18px] 2xl:!text-[20px]'
         >
           En savoir plus
-        </Button>
+        </LinkButton>
       </div>
     </div>
   );

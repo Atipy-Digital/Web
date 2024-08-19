@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useEffect, useRef } from 'react';
 
 import s from './styles.module.scss';
 
@@ -23,8 +24,64 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
   const openMenu = () => setOpenModalMenu(true);
   usePreventScroll(isOpenModalMenu);
 
-  const onClick = (path: string) => {
-    if (path === pathname) {
+  const modalRef = useRef<HTMLDivElement | null>(null);
+  const firstFocusableElement = useRef<HTMLElement | null>(null);
+  const lastFocusableElement = useRef<HTMLElement | null>(null);
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setOpenModalMenu(false);
+      } else if (e.key === 'Tab' && isOpenModalMenu) {
+        trapFocus(e);
+      }
+    };
+
+    const trapFocus = (e: KeyboardEvent) => {
+      if (!firstFocusableElement.current || !lastFocusableElement.current)
+        return;
+
+      if (e.shiftKey) {
+        if (document.activeElement === firstFocusableElement.current) {
+          e.preventDefault();
+          lastFocusableElement.current?.focus();
+        }
+      } else {
+        if (document.activeElement === lastFocusableElement.current) {
+          e.preventDefault();
+          firstFocusableElement.current?.focus();
+        }
+      }
+    };
+
+    if (isOpenModalMenu) {
+      document.addEventListener('keydown', handleKeyDown);
+      // Ajout d'un délai pour s'assurer que la modale est rendue
+      setTimeout(() => {
+        if (modalRef.current) {
+          const focusableElements =
+            modalRef.current.querySelectorAll<HTMLElement>(
+              'a[href], button, textarea, input, select, [tabindex]:not([tabindex="-1"])'
+            );
+          if (focusableElements.length > 0) {
+            firstFocusableElement.current = focusableElements[0];
+            lastFocusableElement.current =
+              focusableElements[focusableElements.length - 1];
+            firstFocusableElement.current?.focus();
+          }
+        }
+      }, 100); // Délai de 100 ms pour s'assurer que la modale est rendue
+    } else {
+      document.removeEventListener('keydown', handleKeyDown);
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isOpenModalMenu, setOpenModalMenu]);
+
+  const handleClick = (link: string) => {
+    if (link === pathname) {
       closeMenu();
     }
   };
@@ -32,6 +89,7 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
   return (
     <>
       <button
+        role='button'
         className={clsxm(s.icon, s.burger)}
         onClick={openMenu}
         aria-label='ouverture du menu mobile'
@@ -62,10 +120,13 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
         <Portal id='menu-modal'>
           <div
             className={clsxm(s.menuContainer, 'bg-white dark:bg-background')}
+            ref={modalRef}
+            tabIndex={-1}
           >
             <header className={clsxm(s.header, 'px-fluid')}>
               <Logo />
               <button
+                role='button'
                 className={s.icon}
                 onClick={closeMenu}
                 aria-label='fermeture du menu mobile'
@@ -73,6 +134,7 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
                 tabIndex={0}
               >
                 <AtipyIcon
+                  isInformative
                   type={ATIPY_ICON.CROSS}
                   size='xl'
                   className='w-11 h-11'
@@ -94,7 +156,7 @@ export const MobileMenu = ({ links }: { links: INavigation[] }) => {
                     <Link
                       className={s.menuLinks}
                       href={link}
-                      onClick={() => onClick(link)}
+                      onClick={() => handleClick(link)}
                     >
                       {name}
                     </Link>

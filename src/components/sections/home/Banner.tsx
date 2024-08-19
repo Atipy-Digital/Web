@@ -8,6 +8,7 @@ import { useTheme } from '@/hooks/use-theme';
 
 import { Box } from '@/components/common/Box';
 import { ATIPY_ICON, AtipyIcon } from '@/components/common/icons/AtipyIcon';
+import { AtipyImage } from '@/components/common/icons/AtipyImage';
 
 import type { HomeBannerDataType } from '@/ts';
 
@@ -43,11 +44,9 @@ export const Banner = ({ data }: Props) => {
         </h1>
         <div className='w-full flex items-center flex-col md:flex-row md:gap-x-[3vw]'>
           <div className='w-full flex-grow max-w-[936px]'>
-            <img
-              aria-hidden={true}
+            <AtipyImage
               src={`/imgs/home/banner-${prefixImg}-home.webp`}
-              alt='banner home'
-              className='w-full object-cover object-center'
+              isDecorative
             />
           </div>
           <motion.button
@@ -57,7 +56,7 @@ export const Banner = ({ data }: Props) => {
             aria-label='aller a la section intro'
             onClick={goToIntroSection}
           >
-            <AtipyIcon type={ATIPY_ICON.ARROW_DOWN} size='full' />
+            <AtipyIcon type={ATIPY_ICON.ARROW_DOWN} size='full' isInformative />
           </motion.button>
         </div>
       </div>

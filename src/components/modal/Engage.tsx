@@ -26,19 +26,53 @@ export const EngageModal = ({ data }: Props) => {
   usePreventScroll(isOpenModalEngage);
 
   const modalRef = useRef<HTMLDivElement | null>(null);
+  const firstFocusableElement = useRef<HTMLElement | null>(null);
+  const lastFocusableElement = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
         setOpenModalEngage(false);
+      } else if (e.key === 'Tab' && isOpenModalEngage) {
+        trapFocus(e);
+      }
+    };
+
+    const trapFocus = (e: KeyboardEvent) => {
+      if (!firstFocusableElement.current || !lastFocusableElement.current) {
+        return;
+      }
+
+      if (e.shiftKey) {
+        if (document.activeElement === firstFocusableElement.current) {
+          e.preventDefault();
+          lastFocusableElement.current?.focus();
+        }
+      } else {
+        if (document.activeElement === lastFocusableElement.current) {
+          e.preventDefault();
+          firstFocusableElement.current?.focus();
+        }
       }
     };
 
     if (isOpenModalEngage) {
       document.addEventListener('keydown', handleKeyDown);
-      if (modalRef.current) {
-        modalRef.current.focus();
-      }
+      // Ajout d'un délai pour s'assurer que la modale est rendue
+      setTimeout(() => {
+        if (modalRef.current) {
+          const focusableElements =
+            modalRef.current.querySelectorAll<HTMLElement>(
+              'a[href], button, textarea, input, select, [tabindex]:not([tabindex="-1"])'
+            );
+          if (focusableElements.length > 0) {
+            firstFocusableElement.current = focusableElements[0];
+            lastFocusableElement.current =
+              focusableElements[focusableElements.length - 1];
+            firstFocusableElement.current?.focus();
+          }
+        }
+      }, 100); // Délai de 100 ms pour s'assurer que la modale est rendue
     } else {
       document.removeEventListener('keydown', handleKeyDown);
     }
@@ -62,6 +96,8 @@ export const EngageModal = ({ data }: Props) => {
         exit={{
           opacity: 0,
         }}
+        role='dialog'
+        aria-modal={true}
       >
         <motion.div
           className={clsxm(
@@ -88,14 +124,18 @@ export const EngageModal = ({ data }: Props) => {
           tabIndex={-1}
         >
           <div className='w-full flex py-4 sm:py-0'>
-            <div
+            <button
               className='ml-auto flex-shrink-0 cursor-pointer'
               onClick={() => {
                 setOpenModalEngage(false);
               }}
             >
-              <AtipyIcon type={ATIPY_ICON.CROSS} size={matchSM ? 'lg' : 'xl'} />
-            </div>
+              <AtipyIcon
+                type={ATIPY_ICON.CROSS}
+                size={matchSM ? 'lg' : 'xl'}
+                isInformative
+              />
+            </button>
           </div>
 
           <div className='w-full flex flex-col px-2 pb-2 xl:px-14 xl:pb-6'>

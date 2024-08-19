@@ -5,6 +5,8 @@ import ReactMarkdown from 'react-markdown';
 import clsxm from '@/lib/clsxm';
 import { useTheme } from '@/hooks/use-theme';
 
+import { AtipyImage } from '@/components/common/icons/AtipyImage';
+
 import { Button } from './Button';
 
 import { CARD_TYPE, type CardType } from '@/ts';
@@ -85,8 +87,8 @@ export const ExpertiseCard = ({
       )}
     >
       <header className='w-full flex flex-col gap-y-6'>
-        <img
-          alt={`logo ${type}`}
+        <AtipyImage
+          isDecorative
           src={urlHeaderImg}
           className='w-24 h-auto lg:w-28 xl:w-40'
         />

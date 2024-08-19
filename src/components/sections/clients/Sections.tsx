@@ -25,7 +25,6 @@ export const Sections = ({ sections }: Props) => {
             key={`client-section-${nanoid(7)}`}
             smallGap
             pClassName='not-prose !mb-0'
-            // ici, impossible d'ajouter la props "isAriaHidden"
           />
         ))}
       </div>
@@ -36,7 +35,11 @@ export const Sections = ({ sections }: Props) => {
           Contactez-nous
         </h3>
         <div className='flex items-center gap-x-2 md:gap-x-6 pt-7'>
-          <AtipyIcon type={ATIPY_ICON.ENVELOP} size={matchesSM ? 'md' : 'xl'} />
+          <AtipyIcon
+            isDecorative
+            type={ATIPY_ICON.ENVELOP}
+            size={matchesSM ? 'md' : 'xl'}
+          />
           <a
             href='mailto:contact@atipy.fr'
             className='text-body1 font-secondary'

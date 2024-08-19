@@ -1,7 +1,5 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
-
 import { ATIPY_ICON } from '@/components/common/icons/AtipyIcon';
 import { CardPage } from '@/components/primitives/CardPage';
 
@@ -12,7 +10,6 @@ type Props = {
 };
 
 export const AgenceCards = ({ data }: Props) => {
-  const router = useRouter();
   return (
     <div className='list-border-center w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 border-t border-t-current'>
       {data.cards.map((card) => {
@@ -36,7 +33,7 @@ export const AgenceCards = ({ data }: Props) => {
           <CardPage
             key={`card-agence-${card.type}`}
             iconType={getIconType()}
-            onClick={() => router.push(`/agence/${card.type}`)}
+            href={`/agence/${card.type}`}
             text={card.text}
             title={card.title}
           />
