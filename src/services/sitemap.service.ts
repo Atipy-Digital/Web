@@ -1,28 +1,38 @@
-import xml2js from 'xml2js';
+import { readFile } from './utils';
 
-type UrlEntry = {
-  loc: string;
-};
+interface SubPage {
+  subPageTitre: string;
+  subPageUrl: string;
+}
 
-type SiteMap = {
-  urlset: {
-    url: UrlEntry[];
+interface SecondaryPage {
+  secondaryTitre: string;
+  secondaryUrl: string;
+  subPages?: SubPage[];
+}
+
+interface Column {
+  page: {
+    Titre: string;
+    Url: string;
+    secondaryPages?: SecondaryPage[];
   };
-};
+}
 
-export const getSiteMapUrls = async (): Promise<string[]> => {
-  try {
-    const response = await fetch('/sitemap.xml');
-    const sitemapText = await response.text();
-    const parser = new xml2js.Parser({
-      explicitArray: false,
-      mergeAttrs: true,
-    });
+interface Section {
+  col1: Column;
+  col2: Column;
+  col3: Column;
+  col4: Column;
+  col5: Column;
+}
 
-    const result: SiteMap = await parser.parseStringPromise(sitemapText);
-    return result.urlset.url.map((urlEntry: UrlEntry) => urlEntry.loc);
-  } catch (e) {
-    console.error('Erreur lors du chargement du sitemap:', e);
-    return [];
-  }
+interface SitemapData {
+  sections: Section[];
+}
+
+export const getSitemapData = (): SitemapData | null => {
+  const matterResult = readFile<SitemapData>('src/data/pages/sitemap.md');
+
+  return matterResult.data;
 };
