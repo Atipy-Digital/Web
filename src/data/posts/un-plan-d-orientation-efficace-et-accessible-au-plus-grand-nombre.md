@@ -217,7 +217,8 @@ post_sections:
         url: /media/atipy-plan-orientation-08.jpg
         legend: ""
         ariaHidden: true
-        alt: null
+        alt: Exemple d'une carte de New York en perspective avec certains immeubles,
+          comme l'Empire State Building, très reconnaissables.
     col2:
       reverseMobile: false
       text:

@@ -24,6 +24,9 @@ post_sections:
       image:
         url: /media/atipy_twitter_handicap.jpg
         ariaHidden: true
+        legend: ""
+        alt: Sur fond bleu, logo de Twitter additionné à plusieurs pictogrammes
+          symbolisant le handicap.
     col2:
       reverseMobile: false
     col3:
@@ -156,8 +159,10 @@ post_sections:
       image:
         url: /media/agence-adequat-exemple-thread.jpg
         ariaHidden: true
-        alt: "Exemple d'un tweet de Gérald Darmanin avec utilisation de plusieurs émoticônes : L'article 24 a été adopté. Il empêchera la traque de nos forces de l'ordre jetées en pâture sur les réseaux sociaux. Il garantit la liberté de la presse et la liberté d'informer."
-    
+        alt: "Exemple d'un tweet de Gérald Darmanin avec utilisation de plusieurs
+          émoticônes : L'article 24 a été adopté. Il empêchera la traque de nos
+          forces de l'ordre jetées en pâture sur les réseaux sociaux. Il
+          garantit la liberté de la presse et la liberté d'informer."
     col2:
       reverseMobile: false
     col3:
@@ -167,7 +172,8 @@ post_sections:
       reverseMobile: false
       text:
         content: >-
-          #### Le tweet ci-dessus est ainsi lu ainsi par une synthèse vocale&nbsp;:
+          #### Le tweet ci-dessus est ainsi lu ainsi par une synthèse
+          vocale&nbsp;:
 
 
           «&nbsp;L’article 24 a été adopté. **Coche.
