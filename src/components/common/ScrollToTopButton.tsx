@@ -13,6 +13,7 @@ import { MEDIA_QUERY, useMediaQuery } from '@/hooks/use-media';
 import { ATIPY_ICON, AtipyIcon } from './icons/AtipyIcon';
 
 const isBrowser = () => typeof window !== 'undefined';
+
 function scrollToTop() {
   if (!isBrowser()) return;
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -43,7 +44,7 @@ export const ScrollToTopButton = () => {
         controls.start('hide');
       }
     });
-  });
+  }, [scrollYProgress, controls, valueToHide]);
 
   return (
     <motion.a
@@ -54,11 +55,15 @@ export const ScrollToTopButton = () => {
       onClick={scrollToTop}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-      aria-label='Haut de page'
+      href='#top'
     >
-      <div className='flex items-center justify-center rounded-full w-10 h-10 lg:w-16 lg:h-16 xl:w-20 xl:h-20 2xl:w-[102px] 2xl:h-[102px]'>
-        <AtipyIcon type={ATIPY_ICON.ARROW_UP} size='full' />
-      </div>
+      <AtipyIcon
+        className='flex items-center justify-center rounded-full w-10 h-10 lg:w-16 lg:h-16 xl:w-20 xl:h-20 2xl:w-[102px] 2xl:h-[102px]'
+        type={ATIPY_ICON.ARROW_UP}
+        isInformative
+        size='full'
+        role='img'
+      />
     </motion.a>
   );
 };

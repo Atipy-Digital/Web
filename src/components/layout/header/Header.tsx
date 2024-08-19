@@ -16,7 +16,7 @@ type Props = {
 };
 
 export default function Header({ links, isTabbing }: Props) {
-  const headerTopClass = isTabbing ? 'top-10' : 'top-0';
+  const headerTopClass = isTabbing ? 'top-9' : 'top-0';
 
   return (
     <header

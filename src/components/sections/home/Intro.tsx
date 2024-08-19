@@ -6,6 +6,7 @@ import ReactMarkdown from 'react-markdown';
 import { useTheme } from '@/hooks/use-theme';
 
 import { Box } from '@/components/common/Box';
+import { AtipyImage } from '@/components/common/icons/AtipyImage';
 import { Button } from '@/components/primitives/Button';
 
 import type { HomeIntroDataType } from '@/ts';
@@ -34,10 +35,10 @@ export const Intro = ({ data }: Props) => {
           </ReactMarkdown>
         </h2>
         <div className='tl hidden md:flex items-center justify-center max-w-[369px] lg:ml-8 mt-8 lg:mt-0'>
-          <img
-            src={`/imgs/home/intro-${prefixImg}-home.webp`}
-            alt='intro home'
+          <AtipyImage
+            isDecorative
             className='ta w-full object-center object-cover xl:-translate-y-24'
+            src={`/imgs/home/intro-${prefixImg}-home.webp`}
           />
           <Button
             icon

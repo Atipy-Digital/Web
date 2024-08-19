@@ -1,6 +1,7 @@
 'use client';
 
 import { Box } from '@/components/common/Box';
+import { AtipyImage } from '@/components/common/icons/AtipyImage';
 import { MarkdownText } from '@/components/primitives/MarkdownText';
 import { Tag } from '@/components/primitives/Tag';
 
@@ -22,10 +23,9 @@ export const ProjectIntro = ({
     <Box as='section' className='sm:px2-fluid lg:px-fluid'>
       <div className='tl px-0 sm:px2-fluid lg:px-fluid relative w-full'>
         <div className='w-full'>
-          <img
-            aria-hidden={true}
+          <AtipyImage
+            isDecorative
             src={image.url}
-            alt={image?.alt || ''}
             className='w-full h-auto object-cover object-center rounded-[10px]'
           />
         </div>
@@ -52,11 +52,7 @@ export const ProjectIntro = ({
 
           {client?.logo && (
             <div className='max-w-[128px] md:max-w-[168px] lg:max-w-[205px] w-full mb-10 md:mb-0'>
-              <img
-                aria-hidden={true}
-                src={client.logo}
-                alt={`logo de ${client.name}`}
-              />
+              <AtipyImage isDecorative src={client.logo} />
             </div>
           )}
         </div>

@@ -83,7 +83,11 @@ export const HeaderPage = ({
                   href={prevLink.url}
                   className='grid grid-cols-[auto_1fr] gap-2 lg:gap-4 2xl:gap-6 leading-none mr-auto min-w-[160px]'
                 >
-                  <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_LEFT} size={size} />
+                  <AtipyIcon
+                    isInformative
+                    type={ATIPY_ICON.ARROW_CIRCLE_LEFT}
+                    size={size}
+                  />
                   <span className='block line-truncate link-to-hover text-left text-[16px] md:text-body1 !leading-none my-auto'>
                     {prevLink.label}
                   </span>
@@ -114,7 +118,11 @@ export const HeaderPage = ({
                   <span className='block line-truncate link-to-hover text-right text-[16px] md:text-body1 !leading-none my-auto'>
                     {nextLink.label}
                   </span>
-                  <AtipyIcon type={ATIPY_ICON.ARROW_CIRCLE_RIGHT} size={size} />
+                  <AtipyIcon
+                    isInformative
+                    type={ATIPY_ICON.ARROW_CIRCLE_RIGHT}
+                    size={size}
+                  />
                 </Link>
               </div>
             ) : (
@@ -140,6 +148,7 @@ export const HeaderPage = ({
                     className='grid grid-cols-[auto_1fr] gap-2 lg:gap-4 2xl:gap-6 leading-none mr-auto min-w-[160px]'
                   >
                     <AtipyIcon
+                      isInformative
                       type={ATIPY_ICON.ARROW_CIRCLE_LEFT}
                       size={size}
                     />
@@ -175,6 +184,7 @@ export const HeaderPage = ({
                       {nextLink.label}
                     </span>
                     <AtipyIcon
+                      isInformative
                       type={ATIPY_ICON.ARROW_CIRCLE_RIGHT}
                       size={size}
                     />

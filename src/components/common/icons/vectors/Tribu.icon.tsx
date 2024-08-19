@@ -1,7 +1,6 @@
 export const TribuIcon = () => {
   return (
     <svg
-      role='img'
       width='216'
       height='112'
       viewBox='0 0 216 112'

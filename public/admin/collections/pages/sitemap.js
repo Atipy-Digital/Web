@@ -1,3 +1,5 @@
+import sectionFields from '../display-sitemap/section.js';
+
 const sitemap = {
   label: 'Sitemap',
   name: 'sitemap_page',
@@ -8,9 +10,12 @@ const sitemap = {
   },
   fields: [
     {
-      label: 'Titre',
-      name: 'title',
-      widget: 'string',
+      name: 'sections',
+      label: 'Sections',
+      widget: 'list',
+      collapsed: true,
+      summary: 'Section',
+      fields: sectionFields,
     },
   ],
 };

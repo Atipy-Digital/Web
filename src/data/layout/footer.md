@@ -7,7 +7,10 @@ menuText1:
         url: /sitemap
       link2:
         label: Mentions légales
-        url: /
+        url: /mentions_legales
+      link3:
+        label: Accessibilité
+        url: /accessibility
 menuText2:
   title: Contact
   email: contact@atipy.fr

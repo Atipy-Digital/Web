@@ -1,3 +1,5 @@
+import React from 'react';
+
 import clsxm from '@/lib/clsxm';
 
 import { AboutIcon } from './vectors/About.icon';
@@ -12,7 +14,7 @@ import { ConceptionIcon } from './vectors/Conception.icon';
 import { CrossIcon } from './vectors/Cross.icon';
 import { EnvelopIcon } from './vectors/Envelop.icon';
 import { InstaIcon } from './vectors/Insta.icon';
-import { IconProps } from './vectors/interface';
+import { IconProps as BaseIconProps } from './vectors/interface';
 import { LinkedinIcon } from './vectors/Linkedin.icon';
 import { MoonIcon } from './vectors/Moon.icon';
 import { PartnersIcon } from './vectors/Partners.icon';
@@ -20,6 +22,11 @@ import { PhoneIcon } from './vectors/Phone.icon';
 import { SunIcon } from './vectors/Sun.icon';
 import { TribuIcon } from './vectors/Tribu.icon';
 import { TwitterIcon } from './vectors/Twitter.icon';
+
+interface IconProps extends BaseIconProps {
+  'aria-label'?: string;
+  'aria-hidden'?: boolean | 'true' | 'false';
+}
 
 export enum ATIPY_ICON {
   SUN = 'SUN',
@@ -54,12 +61,24 @@ type AtipyIconSize =
   | 'xxl'
   | 'full';
 
-export interface AtipyIconProps {
+type AtipyIconBaseProps = {
   size?: AtipyIconSize;
   type: ATIPY_ICON;
   className?: string;
-  isAriaHidden?: boolean;
-}
+  role?: string;
+};
+
+type AtipyIconInformative = AtipyIconBaseProps & {
+  isInformative: true;
+  isDecorative?: never;
+};
+
+type AtipyIconDecorative = AtipyIconBaseProps & {
+  isDecorative: true;
+  isInformative?: never;
+};
+
+export type AtipyIconProps = AtipyIconInformative | AtipyIconDecorative;
 
 export type AtipyIconElement = (props: IconProps) => JSX.Element;
 
@@ -67,7 +86,8 @@ export const AtipyIcon = ({
   size = 'md',
   type,
   className,
-  isAriaHidden = false,
+  isInformative,
+  isDecorative,
 }: AtipyIconProps) => {
   const sizeClass = new Map<string, string>([
     ['xxs', 'w-[12px] h-[12px]'],
@@ -89,7 +109,7 @@ export const AtipyIcon = ({
     [ATIPY_ICON.LINKEDIN, 'Icône LinkedIn'],
     [ATIPY_ICON.TWITTER, 'Icône Twitter'],
     [ATIPY_ICON.ARROW_DOWN, 'Flèche vers le bas'],
-    [ATIPY_ICON.ARROW_UP, 'Flèche vers le haut'],
+    [ATIPY_ICON.ARROW_UP, 'Haut de page'],
     [ATIPY_ICON.ARROW_LEFT, 'Flèche vers la gauche'],
     [ATIPY_ICON.PHONE, 'Icône téléphone'],
     [ATIPY_ICON.ENVELOP, 'Icône enveloppe'],
@@ -127,11 +147,18 @@ export const AtipyIcon = ({
 
   const Icon: AtipyIconElement = icons.get(type) || CrossIcon;
 
-  return (
-    <Icon
-      className={clsxm(sizeClass.get(size), className)}
-      aria-hidden={Boolean(isAriaHidden)}
-      aria-label={ariaLabels.get(type) || 'icone atipy'}
-    />
-  );
+  const iconProps: IconProps = {
+    className: clsxm(sizeClass.get(size), className),
+  };
+
+  if (isInformative) {
+    iconProps.role = 'img';
+    iconProps['aria-label'] = ariaLabels.get(type) || 'icone atipy';
+  } else if (isDecorative) {
+    iconProps['aria-hidden'] = true;
+  } else {
+    iconProps['aria-hidden'] = true;
+  }
+
+  return <Icon {...iconProps} />;
 };

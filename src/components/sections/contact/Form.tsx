@@ -54,6 +54,7 @@ export const ContactForm = ({ data }: Props) => {
       toast.error('Une erreur est survenue !');
     }
   });
+
   return (
     <>
       <ToastContainer
@@ -71,6 +72,9 @@ export const ContactForm = ({ data }: Props) => {
 
       <Box className='max-w-2xl flex flex-col items-center justify-center'>
         <form className='w-full' onSubmit={onSubmit}>
+          <span className='text-base leading-none my-1 w-full text-left'>
+            * champs obligatoires
+          </span>
           <InputController
             control={control}
             name='name'
@@ -81,8 +85,12 @@ export const ContactForm = ({ data }: Props) => {
             label={data.input_name.label}
             placeholder={data.input_name.placeholder}
             error={errors.name}
-            autocomplete='Votre nom'
+            autocomplete='name'
+            aria-invalid={errors.name ? 'true' : 'false'}
+            aria-describedby={errors.name ? 'error_name' : undefined}
           />
+          {errors.name && <span id='error_name'>{data.error_required}</span>}
+
           <InputController
             control={control}
             name='email'
@@ -93,8 +101,17 @@ export const ContactForm = ({ data }: Props) => {
             label={data.input_email.label}
             placeholder={data.input_email.placeholder}
             error={errors.email}
-            autocomplete='Votre email'
+            autocomplete='email'
+            aria-invalid={errors.email ? 'true' : 'false'}
+            aria-describedby={errors.email ? 'error_email' : undefined}
           />
+          {errors.email && (
+            <span id='error_email'>
+              {data.error_required} Veuillez saisir une adresse e-mail valide.
+              Par exemple mail@exemple.com.
+            </span>
+          )}
+
           <InputController
             control={control}
             name='message'
@@ -105,12 +122,8 @@ export const ContactForm = ({ data }: Props) => {
             label={data.input_message.label}
             placeholder={data.input_message.placeholder}
             error={errors.message}
-            autocomplete='Votre message'
-          >
-            <span className='text-base leading-none my-1'>
-              * champs obligatoires
-            </span>
-          </InputController>
+            autocomplete='message'
+          ></InputController>
 
           <Button
             disabled={!isValid}

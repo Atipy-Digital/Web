@@ -10,6 +10,7 @@ export type FooterMenuRowSocialType = {
 export type FooterMenuTextRowType = {
   link1: FooterMenuRowTextType;
   link2: FooterMenuRowTextType;
+  link3: FooterMenuRowTextType;
 };
 
 export type FooterMenuText1Type = {

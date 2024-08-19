@@ -1,7 +1,7 @@
 export const LogoBlack = ({ size }: { size: 'md' | 'lg' }) => {
   return (
     <svg
-      aria-label='Atipy (accueil)'
+      aria-labelledby='atipy-logo-title'
       role='img'
       xmlns='http://www.w3.org/2000/svg'
       width={size === 'md' ? '180.823' : '306'}
@@ -9,6 +9,7 @@ export const LogoBlack = ({ size }: { size: 'md' | 'lg' }) => {
       viewBox='0 0 180.823 55.716'
       className='ta w-28 lg:w-[180px]'
     >
+      <title id='atipy-logo-title'>Atipy (accueil)</title>
       <defs>
         <clipPath id='clip-path-logo-black'>
           <rect

@@ -44,14 +44,22 @@ export const ContactFooter = ({ socials, infos }: Props) => {
               rel='noopener noreferrer'
               className='bg-background text-white dark:bg-white dark:text-black w-10 h-10 md:w-16 md:h-16 flex items-center justify-center rounded-xl'
             >
-              <AtipyIcon type={currentType} size={matchesSM ? 'md' : 'xl'} />
+              <AtipyIcon
+                isInformative
+                type={currentType}
+                size={matchesSM ? 'md' : 'xl'}
+              />
             </a>
           );
         })}
       </div>
 
       <div className='flex items-center gap-x-2 md:gap-x-6 py-14 md:py-20'>
-        <AtipyIcon type={ATIPY_ICON.ENVELOP} size={matchesSM ? 'md' : 'xl'} />
+        <AtipyIcon
+          isDecorative
+          type={ATIPY_ICON.ENVELOP}
+          size={matchesSM ? 'md' : 'xl'}
+        />
         <a href={`mailto:${infos.email}`} className='text-body1 font-secondary'>
           {infos.email}
         </a>
