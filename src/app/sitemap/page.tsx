@@ -1,17 +1,12 @@
 import { Metadata } from 'next';
-import dynamic from 'next/dynamic';
 
 import { siteOrigin } from '@/lib/constants';
 
 import { HeaderPage } from '@/components/layout/HeaderPage';
 import { Page } from '@/components/layout/Page';
+import SitemapCategories from '@/components/sections/sitemap/Sitemap';
 
-const SitemapListWithNoSSR = dynamic(
-  () => import('../../components/layout/footer/SitemapList'),
-  {
-    ssr: false,
-  }
-);
+import { getSitemapData } from '@/services/sitemap.service';
 
 export const metadata: Metadata = {
   alternates: {
@@ -21,6 +16,7 @@ export const metadata: Metadata = {
 };
 
 export default function Sitemap() {
+  const siteMapData = getSitemapData();
   return (
     <Page>
       <HeaderPage
@@ -30,7 +26,11 @@ export default function Sitemap() {
           url: 'Sitemap',
         }}
       />
-      <SitemapListWithNoSSR />
+      {siteMapData ? (
+        <SitemapCategories data={siteMapData} />
+      ) : (
+        <p>Données du plan du site non disponibles.</p>
+      )}
     </Page>
   );
 }
