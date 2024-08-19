@@ -130,7 +130,11 @@ export const EngageModal = ({ data }: Props) => {
                 setOpenModalEngage(false);
               }}
             >
-              <AtipyIcon type={ATIPY_ICON.CROSS} size={matchSM ? 'lg' : 'xl'} isInformative/>
+              <AtipyIcon
+                type={ATIPY_ICON.CROSS}
+                size={matchSM ? 'lg' : 'xl'}
+                isInformative
+              />
             </button>
           </div>
 
