@@ -9,7 +9,8 @@ const menuTextFields = [
     hint: "Vous pouvez changer l'ordre des différentes lignes",
     name: 'rows',
     widget: 'list',
-    summary: '{{fields.link1.label}} - {{fields.link2.label}}',
+    summary:
+      '{{fields.link1.label}} - {{fields.link2.label}} - {{fields.link3.label}}',
     fields: [
       {
         label: 'Lien 1',
@@ -21,7 +22,7 @@ const menuTextFields = [
             label: 'Url',
             name: 'url',
             widget: 'select',
-            options: ['/sitemap'],
+            options: ['/sitemap', '/accessibility', '/mentions_legales'],
           },
         ],
       },
@@ -35,7 +36,21 @@ const menuTextFields = [
             label: 'Url',
             name: 'url',
             widget: 'select',
-            options: ['/'],
+            options: ['/sitemap', '/accessibility', '/mentions_legales'],
+          },
+        ],
+      },
+      {
+        label: 'Lien 3',
+        name: 'link3',
+        widget: 'object',
+        fields: [
+          { label: 'Label', name: 'label', widget: 'string' },
+          {
+            label: 'Url',
+            name: 'url',
+            widget: 'select',
+            options: ['/sitemap', '/accessibility', '/mentions_legales'],
           },
         ],
       },
