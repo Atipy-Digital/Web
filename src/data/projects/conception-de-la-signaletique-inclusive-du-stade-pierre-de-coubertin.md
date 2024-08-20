@@ -8,7 +8,7 @@ metadata:
     - keyword: Accessibilité
 title: Conception de la signalétique inclusive du Stade Pierre de Coubertin
 image:
-  url: /media/design-reference-stade-coubertin-atipy-1.jpg
+  url: /media/stade-coubertin-paris-signaletique-accessibilite-atipy.jpg
   alt: Grande salle du stade Pierre de Coubertin
   ariaHidden: true
 project_client: ville-de-paris
@@ -20,14 +20,12 @@ context_body: >-
   sportifs en situation de handicap.** 
 
 
-  Construit en 1937, le Stade Coubertin est un bâtiment classé entièrement en briques
+  Construit en 1937, le Stade Coubertin est un bâtiment classé entièrement en briques.
 
   Au fil des décennies, le Stade accueille des compétitions de diverses disciplines comme le volleyball, la boxe française, le judo, le handball…
 
 
   L’Agence Atipy intègre un groupement d’architectes et de spécialistes afin d’apporter son expertise sur le sujet de la signalétique d’orientation pour tous les publics.
-
-
 
 
   **Membres du groupement**
@@ -86,6 +84,8 @@ project_sections:
         url: /media/design-reference-stade-coubertin-atipy-3.jpg
     col2:
       reverseMobile: false
+      image:
+        url: /media/design-reference-stade-coubertin-atipy-4.jpg
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -109,17 +109,6 @@ project_sections:
           * Élaboration d’un schéma directeur de signalétique
           * Création d’une charte signalétique
           * Conception d’un plan d’orientation
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      image:
-        url: /media/design-reference-stade-coubertin-atipy-4.jpg
-        ariaHidden: true
-        alt: Plan d'implantation du niveau 1 (court central et court 2) du stade.
-    col2:
-      reverseMobile: false
     col3:
       reverseMobile: false
   - inverseCol: false
