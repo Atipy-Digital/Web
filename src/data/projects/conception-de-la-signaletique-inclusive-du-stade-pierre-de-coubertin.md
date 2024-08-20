@@ -141,21 +141,21 @@ project_sections:
       image:
         url: ""
         alt: ""
-        ariaHidden: true
+        ariaHidden: false
         legend: ""
     col2:
       reverseMobile: false
       image:
         url: ""
         alt: ""
-        ariaHidden: true
+        ariaHidden: false
         legend: ""
     col3:
       reverseMobile: false
       image:
-        url: /media/design-reference-stade-coubertin-atipy-7.jpg
-        ariaHidden: true
-        alt: Exemple de mise en application d'un support mural directionnel.
+        url: ""
+        ariaHidden: false
+        alt: ""
   - inverseCol: false
     col1:
       reverseMobile: false
