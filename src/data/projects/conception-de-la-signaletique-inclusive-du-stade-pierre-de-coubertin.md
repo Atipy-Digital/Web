@@ -124,8 +124,7 @@ project_sections:
           Les différents supports de signalétiques (totem, drapeau, suspendu, plaque de porte et imposte) sont réalisés en bois résineux clair pour permettre un contraste important avec les textes et les pictogrammes. Dans les circulations du court central, les supports en drapeau font face au sens de circulation. Positionnés perpendiculaires au cheminement, ces supports dirigent le public vers les places. Dans le cheminement inverse, à la sortie des tribunes, les supports totems positionnés de face en haut des escaliers orientent le public vers les sorties et les espaces de services (toilettes, buvettes, etc…).
       image:
         url: ""
-        alt: Image de synthèse d'un couloir de circulation intégrant des supports
-          suspendus réalisée par le Bureau Face B.
+        alt: ""
         ariaHidden: true
         legend: ""
     col2:
@@ -200,6 +199,22 @@ project_sections:
         ariaHidden: false
     col2:
       reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        url: /media/design-reference-stade-coubertin-atipy-3.jpg
+        ariaHidden: true
+        alt: Vue de dessus sur les 3 courts qui se distingue avec l'utilisation de 3
+          couleurs
+    col2:
+      reverseMobile: false
+      image:
+        url: /media/design-reference-stade-coubertin-atipy-4.jpg
+        ariaHidden: true
+        alt: Plans d'implantation des supports signalétique
     col3:
       reverseMobile: false
 projectsFeatured:
