@@ -79,13 +79,12 @@ project_sections:
           Ces couleurs, appliquées sur certains murs des circulations, sont perceptibles par des personnes daltoniennes. Elles ne transmettent pas à elles seules une information, mais viennent en complément des supports signalétique.
       image:
         ariaHidden: true
-        alt: Illustration du stade avec les trois court mis en évidence par leur code
-          coloré.
-        url: /media/design-reference-stade-coubertin-atipy-3.jpg
+        alt: ""
+        url: ""
     col2:
       reverseMobile: false
       image:
-        url: /media/design-reference-stade-coubertin-atipy-4.jpg
+        url: ""
     col3:
       reverseMobile: false
   - inverseCol: false
