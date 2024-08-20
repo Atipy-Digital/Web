@@ -78,7 +78,7 @@ project_sections:
 
           Ces couleurs, appliquées sur certains murs des circulations, sont perceptibles par des personnes daltoniennes. Elles ne transmettent pas à elles seules une information, mais viennent en complément des supports signalétique.
       image:
-        ariaHidden: true
+        ariaHidden: false
         alt: ""
         url: ""
     col2:
@@ -100,6 +100,22 @@ project_sections:
       reverseMobile: false
       text:
         content: ""
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        url: /media/design-reference-stade-coubertin-atipy-3.jpg
+        ariaHidden: true
+        alt: Vue de dessus sur les 3 courts qui se distingue avec l'utilisation de 3
+          couleurs
+    col2:
+      reverseMobile: false
+      image:
+        url: /media/design-reference-stade-coubertin-atipy-4.jpg
+        ariaHidden: true
+        alt: Plans d'implantation des supports signalétique
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -199,22 +215,8 @@ project_sections:
         ariaHidden: false
     col2:
       reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
       image:
-        url: /media/design-reference-stade-coubertin-atipy-3.jpg
-        ariaHidden: true
-        alt: Vue de dessus sur les 3 courts qui se distingue avec l'utilisation de 3
-          couleurs
-    col2:
-      reverseMobile: false
-      image:
-        url: /media/design-reference-stade-coubertin-atipy-4.jpg
-        ariaHidden: true
-        alt: Plans d'implantation des supports signalétique
+        ariaHidden: false
     col3:
       reverseMobile: false
 projectsFeatured:
