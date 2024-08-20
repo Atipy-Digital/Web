@@ -151,6 +151,41 @@ project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
+      image:
+        url: /media/design-reference-stade-coubertin-atipy-6.jpg
+        ariaHidden: true
+        alt: Quatre planches issues de la charte signalétique du stade. Elles détaillent
+          les couleurs, les pictogrammes et la typologie de supports déployés
+          dans la signalétique du stade.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        url: /media/stade-coubertin-paris-signaletique-accessibilite-atipy-2.jpg
+        ariaHidden: true
+        alt: Signalétique directionnelle murale en bois positionnée en bas d'un escalier
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        ariaHidden: true
+        url: /media/stade-coubertin-paris-signaletique-accessibilite-atipy-3.jpg
+        alt: Signalétique d'identification des tribunes à l'aide de lettres.
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
       text:
         content: |-
           ### Nos prestations
@@ -161,19 +196,8 @@ project_sections:
           * Élaboration d’un schéma directeur de signalétique
           * Création d’une charte signalétique
           * Conception d’un plan d’orientation
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
       image:
-        url: /media/design-reference-stade-coubertin-atipy-6.jpg
-        ariaHidden: true
-        alt: Quatre planches issues de la charte signalétique du stade. Elles détaillent
-          les couleurs, les pictogrammes et la typologie de supports déployés
-          dans la signalétique du stade.
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
