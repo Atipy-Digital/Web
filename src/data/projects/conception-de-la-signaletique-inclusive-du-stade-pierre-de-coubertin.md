@@ -159,16 +159,9 @@ project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
       image:
         url: /media/design-reference-stade-coubertin-atipy-6.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Quatre planches issues de la charte signalétique du stade. Elles détaillent
           les couleurs, les pictogrammes et la typologie de supports déployés
           dans la signalétique du stade.
@@ -181,7 +174,7 @@ project_sections:
       reverseMobile: false
       image:
         url: /media/stade-coubertin-paris-signaletique-accessibilite-atipy-2.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Signalétique directionnelle murale en bois positionnée en bas d'un escalier
     col2:
       reverseMobile: false
@@ -191,7 +184,7 @@ project_sections:
     col1:
       reverseMobile: false
       image:
-        ariaHidden: true
+        ariaHidden: false
         url: /media/stade-coubertin-paris-signaletique-accessibilite-atipy-3.jpg
         alt: Signalétique d'identification des tribunes à l'aide de lettres.
     col2:
