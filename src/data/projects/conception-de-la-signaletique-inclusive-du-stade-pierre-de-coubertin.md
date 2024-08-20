@@ -100,15 +100,7 @@ project_sections:
     col2:
       reverseMobile: false
       text:
-        content: |-
-          ### Nos prestations
-
-          * Visites et relevés
-          * Diagnostic signalétique, étude des flux
-          * Analyse des usages et parcours des usagers
-          * Élaboration d’un schéma directeur de signalétique
-          * Création d’une charte signalétique
-          * Conception d’un plan d’orientation
+        content: ""
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -132,7 +124,7 @@ project_sections:
 
           Les différents supports de signalétiques (totem, drapeau, suspendu, plaque de porte et imposte) sont réalisés en bois résineux clair pour permettre un contraste important avec les textes et les pictogrammes. Dans les circulations du court central, les supports en drapeau font face au sens de circulation. Positionnés perpendiculaires au cheminement, ces supports dirigent le public vers les places. Dans le cheminement inverse, à la sortie des tribunes, les supports totems positionnés de face en haut des escaliers orientent le public vers les sorties et les espaces de services (toilettes, buvettes, etc…).
       image:
-        url: /media/design-reference-stade-coubertin-atipy-5.jpg
+        url: ""
         alt: Image de synthèse d'un couloir de circulation intégrant des supports
           suspendus réalisée par le Bureau Face B.
         ariaHidden: true
@@ -140,10 +132,8 @@ project_sections:
     col2:
       reverseMobile: false
       image:
-        url: /media/design-reference-stade-coubertin-atipy-6.jpg
-        alt: Quatre planches issues de la charte signalétique du stade. Elles détaillent
-          les couleurs, les pictogrammes et la typologie de supports déployés
-          dans la signalétique du stade.
+        url: ""
+        alt: ""
         ariaHidden: true
         legend: ""
     col3:
@@ -155,6 +145,36 @@ project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: |-
+          ### Nos prestations
+
+          * Visites et relevés
+          * Diagnostic signalétique, étude des flux
+          * Analyse des usages et parcours des usagers
+          * Élaboration d’un schéma directeur de signalétique
+          * Création d’une charte signalétique
+          * Conception d’un plan d’orientation
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        url: /media/design-reference-stade-coubertin-atipy-6.jpg
+        ariaHidden: true
+        alt: Quatre planches issues de la charte signalétique du stade. Elles détaillent
+          les couleurs, les pictogrammes et la typologie de supports déployés
+          dans la signalétique du stade.
     col2:
       reverseMobile: false
     col3:
