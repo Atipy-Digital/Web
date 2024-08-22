@@ -7,19 +7,19 @@ sections:
         content: >-
           **Éditeur du site**\
 
-          Nom de l'entreprise : \[Nom de votre entreprise]\
+          Nom de l'entreprise : Atipy\
 
-          Forme juridique : \[SA, SARL, SAS, etc.]\
+          Forme juridique : SARL\
 
           Capital social : \[Montant du capital social]\
 
-          Adresse du siège social : \[Adresse complète de l'entreprise]\
+          Adresse du siège social : 40 rue Auguste Aucour 69400 Villefranche-Sur-Saone\
 
-          Numéro de téléphone : \[Numéro de téléphone de l'entreprise]\
+          Numéro de téléphone : 09 82 23 63 24\
 
-          Adresse e-mail : \[Adresse e-mail de contact]\
+          Adresse e-mail : contact@atipy.fr\
 
-          Numéro d'immatriculation : \[Numéro RCS ou SIRET/SIREN]\
+          Numéro d'immatriculation : 798 304 515 R.C.S. Villefranche / Tarare\
 
           Numéro de TVA intracommunautaire : \[Numéro de TVA intracommunautaire]
 
