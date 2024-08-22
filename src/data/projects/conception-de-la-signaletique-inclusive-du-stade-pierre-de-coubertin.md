@@ -90,21 +90,6 @@ project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
-      text:
-        content: >-
-          ### La concertation
-
-
-          Afin d’intégrer le point de vue des usagers, une phase de concertation avec les visiteurs en situation de handicap a été mise en place par le pôle ingénierie d'Atipy. Le projet de rénovation et de signalétique est soumis à diverses associations (APF, AVH…). À l’issue de ces rencontres, les remarques sont prises en compte et intégrées au projet.
-    col2:
-      reverseMobile: false
-      text:
-        content: ""
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
       image:
         url: /media/design-reference-stade-coubertin-atipy-3.jpg
         ariaHidden: true
@@ -116,6 +101,23 @@ project_sections:
         url: /media/design-reference-stade-coubertin-atipy-4.jpg
         ariaHidden: true
         alt: Plans d'implantation des supports signalétique
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        content: >-
+          ### La concertation
+
+
+          Afin d’intégrer le point de vue des usagers, une phase de concertation avec les visiteurs en situation de handicap a été mise en place par le pôle ingénierie d'Atipy. Le projet de rénovation et de signalétique est soumis à diverses associations (APF, AVH…). À l’issue de ces rencontres, les remarques sont prises en compte et intégrées au projet.
+    col2:
+      reverseMobile: false
+      text:
+        content: ""
+      image:
+        ariaHidden: false
     col3:
       reverseMobile: false
   - inverseCol: false
