@@ -93,7 +93,7 @@ sections:
 
           * **Par téléphone** : en nous appelant au 09 82 23 63 24.
 
-          * **Par voie postale** à l'adresse : 40 rue Auguste Aucour,69400 Villefranche-Sur-Sane
+          * **Par voie postale** à l'adresse : 40 rue Auguste Aucour,69400 Villefranche-Sur-Saone
     col2:
       reverseMobile: false
     col3:
