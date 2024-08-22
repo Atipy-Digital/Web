@@ -41,6 +41,8 @@ sections:
 
           * R﻿éalisations
 
+          * P﻿ublications
+
           * C﻿ontact
     col2:
       reverseMobile: false
