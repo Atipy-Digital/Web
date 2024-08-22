@@ -5,13 +5,14 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          **Éditeur du site**\
+          ## **Éditeur du site**
+
 
           Nom de l'entreprise : Atipy\
 
           Forme juridique : SARL\
 
-          Capital social : \[Montant du capital social]\
+          Capital social : 3000 €\
 
           Adresse du siège social : 40 rue Auguste Aucour 69400 Villefranche-Sur-Saone\
 
@@ -21,17 +22,17 @@ sections:
 
           Numéro d'immatriculation : 798 304 515 R.C.S. Villefranche / Tarare\
 
-          Numéro de TVA intracommunautaire : \[Numéro de TVA intracommunautaire]
+          Numéro de TVA intracommunautaire : FR34213302490
 
 
-          **Directeur de la publication**\
-
-          Nom : \[Nom du directeur de la publication]\
-
-          Adresse : \[Adresse complète du directeur de la publication]
+          ### **Direction de la publication**
 
 
-          **Hébergeur du site**\
+          La direction de la publication du site a été menée par Adeline Richez en qualité d'associée et responsable de la communication.
+
+
+          ## **Hébergeur du site**
+
 
           Nom de l'hébergeur : \[Nom de l'hébergeur]\
 
@@ -40,14 +41,10 @@ sections:
           Numéro de téléphone : \[Numéro de téléphone de l'hébergeur]
 
 
-          **Propriété intellectuelle**\
-
-          Le contenu du site \[Nom du site] (textes, images, vidéos, etc.) est la propriété exclusive de \[Nom de l'entreprise], sauf mention contraire. Toute reproduction, distribution, modification, adaptation, retransmission ou publication, même partielle, de ces différents éléments est strictement interdite sans l'accord exprès de \[Nom de l'entreprise].
+          ## **Propriété intellectuelle**
 
 
-          **Limitation de responsabilité**\
-
-          Les informations diffusées sur le site \[Nom du site] sont fournies à titre indicatif et sont non contractuelles. \[Nom de l'entreprise] ne saurait être tenu pour responsable des omissions, des inexactitudes et des carences dans la mise à jour, qu'elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.
+          Le contenu du site d'Atipy (textes, images, vidéos, etc.) est la propriété exclusive d'Atipy, sauf mention contraire. Toute reproduction, distribution, modification, adaptation, retransmission ou publication, même partielle, de ces différents éléments est interdite sans l'accord exprès d'Atipy.
 
 
           **Protection des données personnelles**\
@@ -58,11 +55,6 @@ sections:
           **Cookies**\
 
           Le site \[Nom du site] utilise des cookies pour améliorer votre expérience de navigation et fournir des services adaptés à vos intérêts. Vous pouvez gérer vos préférences en matière de cookies en \[détailler comment].
-
-
-          **Loi applicable**\
-
-          Les présentes mentions légales sont régies par la loi française. En cas de litige, et à défaut de solution amiable, les tribunaux français seront seuls compétents.
     col2:
       reverseMobile: false
     col3:
