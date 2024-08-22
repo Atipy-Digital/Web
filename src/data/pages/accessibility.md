@@ -5,7 +5,7 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          A﻿tipy s'engage à faire son maximum pour rendre sont site web
+          A﻿tipy s'engage à faire son maximum pour rendre son site web
           accessible.
 
 
@@ -24,7 +24,7 @@ sections:
           ## D﻿éclaration d'accessibilité
 
 
-          L﻿e site est **xx**% conforme avec le référentiel général d’amélioration de l’accessibilité ((RGAA).
+          L﻿e site est **xx**% conforme avec le référentiel général d’amélioration de l’accessibilité (RGAA) version 4.1.2.
 
 
           L’audit de conformité a été réalisé par [Ideance](https://ideance.net/). La déclaration d'accessibilité a été établie le **xx septembre 2024.**
@@ -33,17 +33,51 @@ sections:
           ### Pages du site ayant fait l’objet de la vérification de conformité
 
 
-          * A﻿ccueil
+          Cet audit a été réalisé sur la base de l’échantillon de 7 pages :
 
-          * L﻿'agence
 
-          * Expertises
+          * Accueil
 
-          * R﻿éalisations
+          * L’agence
 
-          * P﻿ublications
+          * La Tribu
 
-          * C﻿ontact
+          * Réalisations
+
+          * Identité visuelle des Conseils de la Vie Sociale
+
+          * Publications
+
+          * Contactez-nous
+
+
+          ### Outils d’assistance aux tests manuels
+
+
+          Ci-après, les outils d’assistance à certains tests manuels utilisés pour mener cet audit :
+
+
+          * Pika.
+
+          * Contrast Finder.
+
+          * Outils de développement Firefox.
+
+          * Web Developer (extension Firefox).
+
+          * HeadingsMap (extension Firefox)
+
+
+          ### **Environnement de test**
+
+
+          * Firefox 125 - NVDA 2024.1 (Windows 11)
+
+          * Firefox 125 - JAWS 2023 (Windows 11)
+
+          * Safari - VoiceOver (macOS 14.4.1)
+
+          * Safari - VoiceOver (iOS 17.4.1)
     col2:
       reverseMobile: false
     col3:
