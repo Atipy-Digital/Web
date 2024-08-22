@@ -6,13 +6,13 @@ sections:
       text:
         content: >-
           A﻿tipy s'engage à faire son maximum pour rendre son site web
-          accessible.
+          accessible au plus grand nombre.
 
 
           ## Q﻿u'est ce que l'accessibilité numérique ?
 
 
-          Conformément à l’article 47 de la loi n° 2005-102 du 11 février 2005, les services de communication au public en ligne doivent être accessibles aux personnes en situation de handicap.
+          Conformément à l’[article 47 de la loi n° 2005-102 du 11 février 2005](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000037388867), les services de communication au public en ligne doivent être accessibles aux personnes en situation de handicap.
 
 
           L﻿es bonnes pratiques de mise en accessibilité répondent aux critères du Référentiel Général d’Amélioration de l’Accessibilité (RGAA).
@@ -78,6 +78,12 @@ sections:
           * Safari - VoiceOver (macOS 14.4.1)
 
           * Safari - VoiceOver (iOS 17.4.1)
+
+
+          Voie de recours
+
+
+          S﻿i vous constatez un manquement ou un obstacle vous empêchant d'accéder au contenu de notre site web
     col2:
       reverseMobile: false
     col3:
