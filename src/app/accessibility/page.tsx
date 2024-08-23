@@ -27,7 +27,7 @@ export default function Accessibility() {
       <HeaderPage
         title='Accessibilité'
         currentLink={{
-          label: 'accessibility',
+          label: 'Accessibilité',
           url: 'accessibility',
         }}
       />

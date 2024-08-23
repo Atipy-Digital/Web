@@ -26,7 +26,7 @@ export default function Sitemap() {
       <HeaderPage
         title='Mentions légales'
         currentLink={{
-          label: 'mentions_legales',
+          label: 'Mentions légales',
           url: 'mentions_legales',
         }}
       />

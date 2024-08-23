@@ -22,7 +22,7 @@ export default function Sitemap() {
       <HeaderPage
         title='Plan du site'
         currentLink={{
-          label: 'Sitemap',
+          label: 'Plan du site',
           url: 'Sitemap',
         }}
       />
