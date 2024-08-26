@@ -1,7 +1,5 @@
 ---
 display_realisations:
-  - realisation: title
-  - realisation: accompagnement-du-service-education-aux-droits-humains-dans-la-mise-en-place-d-une-strategie-globale-d-accessibilite-et-d-inclusion-des-outils-de-communication
   - realisation: diagnostic-accessibilite-et-adap-du-ministere-des-armees
   - realisation: charte-signale-tique-accessible-pour-les-itine-raires-velo
   - realisation: document-falc
@@ -19,6 +17,7 @@ display_realisations:
   - realisation: un-livret-en-falc-pour-mieux-manger
   - realisation: releve-des-non-conformites-sur-les-escaliers-du-metro-lyonnais
   - realisation: amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
+  - realisation: signaletique-du-pole-dechanges-multimodal
   - realisation: signaletique-du-pole-dechanges-multimodal
   - realisation: signaletique-dorientation-accessible-et-facile-a-comprendre
   - realisation: amo-accessibilite-des-erp-pour-la-ville-de-paris
