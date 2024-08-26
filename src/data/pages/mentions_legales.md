@@ -50,11 +50,6 @@ sections:
           **Protection des données personnelles**\
 
           \[Nom de l'entreprise] s'engage à ce que la collecte et le traitement de vos données, effectués à partir du site \[Nom du site], soient conformes au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés. Pour en savoir plus sur vos droits et la manière dont nous utilisons vos données, veuillez consulter notre \[Politique de confidentialité].
-
-
-          **Cookies**\
-
-          Le site \[Nom du site] utilise des cookies pour améliorer votre expérience de navigation et fournir des services adaptés à vos intérêts. Vous pouvez gérer vos préférences en matière de cookies en \[détailler comment].
     col2:
       reverseMobile: false
     col3:
