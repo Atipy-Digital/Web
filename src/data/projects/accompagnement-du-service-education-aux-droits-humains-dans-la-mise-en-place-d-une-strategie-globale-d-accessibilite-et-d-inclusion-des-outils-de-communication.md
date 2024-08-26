@@ -107,7 +107,7 @@ project_sections:
         content: ""
       image:
         url: /media/realisation-conception-graphique-amnesty-international-atipy-1.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Série de livrets pédagogiques. Exemple de "Les droits humains et la
           déclaration universelle des droits de l'homme", couverture orange,
           texte blanc.
