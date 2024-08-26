@@ -11,7 +11,7 @@ image:
   url: /media/design-livret-accessible-amnesty-international-atipy-.jpg
   alt: Livret sur la peine de mort, vue de la couverture violette avec le titre en
     blanc.
-  ariaHidden: true
+  ariaHidden: false
 project_client: amnesty-international
 mission_body: Accompagnement du service Education aux droits humains dans la
   mise en place d’une stratégie globale d’accessibilité et d’inclusion des
@@ -37,7 +37,7 @@ project_sections:
         alt: "Les cahiers pédagogiques avec la nouvelle ligne graphique du service
           Education aux droits humains : couleur violette, utilisation de
           pictogrammes, liseret jaune Amnesty International en bas de page."
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -97,7 +97,7 @@ project_sections:
       image:
         alt: Aperçu de l'audit de l'accessibilité des supports de communication
         url: /media/design-livret-accessible-amnesty-international-atipy-2.jpg
-        ariaHidden: true
+        ariaHidden: false
     col3:
       reverseMobile: false
   - inverseCol: false
