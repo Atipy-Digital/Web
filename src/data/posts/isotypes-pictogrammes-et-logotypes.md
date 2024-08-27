@@ -33,7 +33,7 @@ post_sections:
         content: ""
       image:
         url: /media/pictogrammes_atipy_isotypes_1.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Série de pictogrammes noirs sur fond blanc pouvant représentant des
           personnes debout, en fauteuil, avec une poussette...
     col2:
@@ -53,7 +53,7 @@ post_sections:
           l'on peut trouver sur les portes des toilettes. A droite, le logo de
           Johnny Walker qui représente un homme qui marche dans un style anglais
           un peu rétro.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -82,7 +82,7 @@ post_sections:
       image:
         url: /media/pictogrammes_atipy_isotypes_3.jpg
         legend: "Source : isotyperevisited.org"
-        ariaHidden: true
+        ariaHidden: false
         alt: "Exemple de documents réalisés présentant des schémas réalisés à partir
           d'isotypes "
     col2:
@@ -105,7 +105,7 @@ post_sections:
         alt: "4 pictogrammes blancs sur fond vert : une pomme, une clef à molette, une
           échelle de piscine et des lunettes"
         url: /media/pictogrammes_atipy_isotypes_4.jpg
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -125,7 +125,7 @@ post_sections:
         url: /media/pictogrammes_atipy_isotypes_5.jpg
         alt: "Trois pictogrammes liés aux transports blanc dans un carré noir : des
           couverts, un avion, une valise. "
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
