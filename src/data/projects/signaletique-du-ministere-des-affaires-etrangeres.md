@@ -9,7 +9,7 @@ title: Signalétique du Ministère des Affaires Etrangères
 image:
   url: /media/design-reference-ministere-aff-etrengere-atipy-1.jpg
   alt: Couloir en enfilade avec poutres métalliques de style Eiffel
-  ariaHidden: true
+  ariaHidden: false
 project_client: ministere-de-leurope-et-des-affaires-etrangeres
 mission_body: Création de la signalétique intérieure du Ministères des Affaires Étrangères
 context_body: De 1925 à 2013, le bâtiment qui accueille aujourd’hui le Ministère
@@ -45,7 +45,7 @@ project_sections:
         content: ""
       image:
         url: /media/design-reference-ministere-aff-etrengere-atipy-3.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: "Schémas de l'ensemble des typologies de supports prévus : imposte,
           suspendu, mural."
     col2:
@@ -56,7 +56,7 @@ project_sections:
         url: /media/design-reference-ministere-aff-etrengere-atipy-4.jpg
         alt: Panneau directionnel mural de couleur brune avec texte en blanc et
           pictogrammes.
-        ariaHidden: true
+        ariaHidden: false
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -66,7 +66,7 @@ project_sections:
         content: ""
       image:
         url: /media/design-reference-ministere-aff-etrengere-atipy-2.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Signalétique directionnelle au sol avec fléchage vers la sortie et les
           toilettes.
     col2:
@@ -81,7 +81,7 @@ project_sections:
       image:
         url: /media/design-reference-ministere-aff-etrengere-atipy-5.jpg
         alt: Plan d'orientation dans le bâtiment avec des couleurs par zones.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
       text:
@@ -90,7 +90,7 @@ project_sections:
         alt: "Devant l'ascenseur, il a y deux panneaux muraux. L'un avec le plan du
           bâtiment, l'autre avec une flèche vers la gauche indiquant les
           différents services. "
-        ariaHidden: true
+        ariaHidden: false
         url: /media/design-reference-ministere-aff-etrengere-atipy-6.jpg
     col3:
       reverseMobile: false
@@ -112,6 +112,7 @@ project_sections:
 projectsFeatured:
   - signaletique-de-la-treso-tiers-lieu
   - signaletique-accessibles-des-etablissements-culturels-de-clichy
+  - conception-de-la-signaletique-inclusive-du-stade-pierre-de-coubertin
 footer:
   btn:
     label: Découvrez nos projets de signalétique
