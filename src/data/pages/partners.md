@@ -36,12 +36,6 @@ partners:
       Facile A Lire et à Comprendre.
     projects: C﻿CAS de Bethune, Ville d'Amiens, signalétique en FALC pour le
       Département Pyrénées Atlantique
-  - name: Ruben Rossignol
-    logo: /media/ruben-rossignol-logo.webp
-    aboutUs: UX et UI designer passionnée par l’usage et l’ergonomie.
-    collaborate: Pour sa capacité à appréhender et transcrire les besoins des usagers.
-    projects: Urbalyon, Onofr
-    isSingle: true
   - isSingle: false
     name: Ideance
     aboutUs: Experts en accessibilité numérique
