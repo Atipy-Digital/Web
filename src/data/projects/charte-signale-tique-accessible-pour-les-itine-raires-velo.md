@@ -172,6 +172,7 @@ project_sections:
 projectsFeatured:
   - signaletique-du-pole-dechanges-multimodal
   - conception-de-la-signaletique-inclusive-du-stade-pierre-de-coubertin
+  - livrets-falc-et-de-la-plaquette-de-presentation
 footer:
   btn:
     label: Découvrez nos projets signalétique
