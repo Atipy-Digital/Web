@@ -11,7 +11,7 @@ title: Étude pour la signalétique patrimoniale de Rennes Metropole
 image:
   url: /media/design-reference-rennes-metropole-atipy-1.jpg
   alt: "3 pages extraites du rapport d'analyse et de préconisations. "
-  ariaHidden: true
+  ariaHidden: false
 project_client: rennes-metropole
 mission_body: Étude et préconisations sur la mise en place d’une signalétique
   patrimoniale sur le territoire de Rennes Métropole
@@ -77,7 +77,7 @@ project_sections:
         alt: 6 pages extraites du rapport d'analyse de la signalétique patrimoniale. Par
           exemple, préconisations sur les contrastes, la réalisation d'une
           charte signalétique.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -133,7 +133,7 @@ project_sections:
           territoire, 40% pensent que les informations données doivent etre
           simplifiées, 49% pensent que les informations données doivent etre
           complètes."
-        ariaHidden: true
+        ariaHidden: false
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -166,7 +166,7 @@ project_sections:
         alt: "Carte montrant les 7 lieux visités pour l'étude : vallée de la Vilaine, Le
           Rheu, Bécherel, le centre de Rennes, Saint Sulpice la Foret, écomusée,
           Pont Péan"
-        ariaHidden: true
+        ariaHidden: false
     col3:
       reverseMobile: false
   - inverseCol: true
@@ -177,7 +177,7 @@ project_sections:
       image:
         url: /media/design-reference-rennes-metropole-atipy-3.jpg
         alt: Concertation avec les acteurs du territoire afin de recueillir les besoins.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
       text:
@@ -195,6 +195,7 @@ project_sections:
 projectsFeatured:
   - charte-signale-tique-accessible-pour-les-itine-raires-velo
   - signaletique-de-la-treso-tiers-lieu
+  - amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
 footer:
   btn:
     label: Découvrez tous nos projets signalétique
