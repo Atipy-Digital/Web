@@ -20,7 +20,7 @@ post_sections:
           Ils vous parlent de sculpture, de nature ou d’histoire.**"
       image:
         url: /media/panneaux-de-valorisation-du-territoire-sur-la36_head..jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Panneau de valorisation du territoire sur l'A36
     col2:
       reverseMobile: false
@@ -51,7 +51,7 @@ post_sections:
       reverseMobile: false
       image:
         url: /media/jean-widmer-pictogrammes-animations-touristiques-autoroutes-1972-78-recherche-croquis-portrait-index-grafik.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Recherches et croquis de pictogrammes réalisés par Jean Widmer
     col2:
       reverseMobile: false
@@ -103,7 +103,7 @@ post_sections:
     col1:
       reverseMobile: false
       image:
-        ariaHidden: true
+        ariaHidden: false
         url: /media/parc-naturel-grands-causses-signaletique-touristique-5206.jpg
         alt: Pupitre devant un paysage. Le support explique l'environnement et les
           points d'intérêt qui se trouvent autour.
