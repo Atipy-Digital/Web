@@ -20,7 +20,7 @@ post_sections:
         alt: Vue sur une piscine depuis les gradins. Sur un muret est apposé un panneau
           bleu avec les numéros de sièges et de sections.
         legend: ENTRO - Parapan Am Aquatics Centre
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -59,9 +59,8 @@ post_sections:
       image:
         url: /media/logo-mexico-jo-1968.jpg
         legend: ""
-        ariaHidden: true
-        alt: logo mexico JO 1968
-
+        ariaHidden: false
+        alt: logo Des JO à Mexico en 1968
     col2:
       reverseMobile: false
     col3:
@@ -72,7 +71,7 @@ post_sections:
       image:
         url: /media/lance-wyman-jo-mexico-68-pictogrammes-10.jpg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: Pictogrammes des disciplines olympiques créés par Lance Wyman
     col2:
       reverseMobile: false
@@ -83,16 +82,15 @@ post_sections:
       reverseMobile: false
       text:
         content: >-
-
+          
           En 1972, il est suivi par Otl Aicher, graphiste allemand, qui créé une série de pictogrammes représentant les différentes disciplines sportives à l’occasion des JO de Munich.
 
 
           Depuis, les Jeux Olympiques éveillent la créativité de graphistes et designers s’essayant à l’exercice.
-
       image:
         url: /media/pictogramms-jo-olt-aicher-munich.jpg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: Pictogrammes des disciplines olympiques créés par Otl Aicher
     col2:
       reverseMobile: false
@@ -113,9 +111,8 @@ post_sections:
       image:
         url: /media/legible_london_13.jpg
         legend: "Source : Legible London"
-        ariaHidden: true
+        ariaHidden: false
         alt: Totems signalétique d'orientation Londres
-
     col2:
       reverseMobile: false
     col3:
@@ -124,8 +121,14 @@ post_sections:
     col1:
       reverseMobile: false
       text:
-        content: >-
-          Composé de totems, mâts directionnels, plan d’orientation et guides, la signalétique d’orientation de Londres répond aux besoins d’information des piétons, touristes et londoniens. Ce système signalétique (wayfinding) met en avant des points de repères, le temps de marche, les informations liées aux transports, un sens d’orientation. En 2012, à l’occasion des Jeux Olympiques, le système évolue afin de proposer des informations spécifiques et mieux orienter les visiteurs et sportifs.
+        content: Composé de totems, mâts directionnels, plan d’orientation et guides, la
+          signalétique d’orientation de Londres répond aux besoins d’information
+          des piétons, touristes et londoniens. Ce système signalétique
+          (wayfinding) met en avant des points de repères, le temps de marche,
+          les informations liées aux transports, un sens d’orientation. En 2012,
+          à l’occasion des Jeux Olympiques, le système évolue afin de proposer
+          des informations spécifiques et mieux orienter les visiteurs et
+          sportifs.
     col2:
       reverseMobile: false
     col3:
