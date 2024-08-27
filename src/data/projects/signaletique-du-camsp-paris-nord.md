@@ -11,7 +11,7 @@ title: Signalétique accessible Centre d'Action Médico-Sociale Précoce Paris N
 image:
   url: /media/design-reference-camsp-paris-nord-atipy-1.jpg
   alt: Entrée vitrée avec un décor adhésif abstrait de traits jaunes et oranges.
-  ariaHidden: true
+  ariaHidden: false
 project_client: les-jours-heureux
 mission_body: Créer la signalétique du CAMSP Paris Nord, accessible aux enfants
   et à leurs parents.
@@ -36,7 +36,7 @@ project_sections:
       image:
         url: /media/design-reference-camsp-paris-nord-atipy-9.jpg
         alt: Exemple de directionnelles installées au rez-de-chaussé du bâtiment
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -77,8 +77,9 @@ project_sections:
         content: ""
       image:
         url: /media/design-reference-camsp-paris-nord-atipy-2.jpg
-        ariaHidden: true
-        alt: Prototype des plaques et du support manipulable réalisés pour le projet
+        ariaHidden: false
+        alt: Prototype des plaques et du support manipulable réalisés pour le projet.
+          Système d'insert facilement modifiable.
     col2:
       reverseMobile: false
     col3:
@@ -93,8 +94,9 @@ project_sections:
 
           Une signalétique modulable et manipulable par les enfants a été créer en PMMA. L’enfant peut ainsi s’approprier les éléments, mémoriser le visage du soignant, comprendre l’activité qui va avoir lieu lors du rendez-vous.
       image:
-        alt: Photographie d'une des directionnelle installée dans le bâtiment
-        ariaHidden: true
+        alt: Directionnel mural fond blanc texte noir positionné sur un angle dans un
+          couloir.
+        ariaHidden: false
         url: /media/design-reference-camsp-paris-nord-atipy-3.jpg
     col2:
       reverseMobile: false
@@ -135,7 +137,7 @@ project_sections:
         alt: Enfant devant une porte montrant une plaque de porte à hauteur de sa tete.
           Enfant debout devant une porte bleue avec 2 plaques de porte à deux
           hauteurs différentes.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
       text:
@@ -149,8 +151,8 @@ project_sections:
         content: ""
       image:
         url: /media/design-reference-camsp-paris-nord-atipy-6.jpg
-        alt: Exemple de support modulable entrain d'etre manipulé
-        ariaHidden: true
+        alt: Support d'identification modulable en train d'être manipulé
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -162,22 +164,23 @@ project_sections:
         content: ""
       image:
         url: /media/design-reference-camsp-paris-nord-atipy-7.jpg
-        ariaHidden: true
-        alt: Exemple de support contenant les trois modules amovibles
+        ariaHidden: false
+        alt: Plaque de porte contenant les trois modules amovibles
     col2:
       reverseMobile: false
       text:
         content: ""
       image:
         url: /media/design-reference-camsp-paris-nord-atipy-8.jpg
-        ariaHidden: true
-        alt: Exemple de plaque porte identifiant l'espace de stockage
+        ariaHidden: false
+        alt: Plaque porte identifiant l'espace de stockage avec un pictogramme noir sur
+          fond jaune.
     col3:
       reverseMobile: false
 projectsFeatured:
-  - charte-signale-tique-accessible-pour-les-itine-raires-velo
   - document-falc
   - signaletique-dorientation-accessible-et-facile-a-comprendre
+  - amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
 footer:
   btn:
     label: Découvrez nos projets signalétique
