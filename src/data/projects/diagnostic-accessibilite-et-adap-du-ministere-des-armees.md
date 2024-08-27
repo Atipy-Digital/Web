@@ -11,7 +11,7 @@ title: R﻿éalisation des diagnostics accessibilité et de l'Ad'AP du Ministèr
 image:
   url: /media/reference-ingenierie-adap-ministere-de-la-defense.jpg
   alt: Façade grise et noire du ministère
-  ariaHidden: true
+  ariaHidden: false
 project_client: ministere-des-armees
 mission_body: R﻿éalisation des diagnostics accessibilité et de l'Agenda
   d'Accessibilité Programmée du Ministère des Armées Zone nord Ouest
@@ -41,7 +41,7 @@ project_sections:
         content: ""
       image:
         url: /media/reference-ingenierie-adap-ministere-de-la-defense-2.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Extrait du rapport d'accessibilité montrant une partie sous forme de
           tableau, un préambule avec du texte et une carte des sites audités
     col2:
@@ -76,6 +76,7 @@ project_sections:
 projectsFeatured:
   - signaletique-du-ministere-des-affaires-etrangeres
   - releves-d-accessibilite-region-grand-est
+  - amo-accessibilite-des-erp-pour-la-ville-de-paris
 footer:
   btn:
     label: Découvrez nos missions de diagnostic
