@@ -9,7 +9,7 @@ title: Signalétique du pôle d'échanges multimodal d'Annemasse
 image:
   url: /media/annemasse-plan-orientation-pole-echange-signaletique_atipy_version_reel.jpg
   alt: Plan d'orientation du pôle d'échange multimodal
-  ariaHidden: true
+  ariaHidden: false
 project_client: annemasse-agglo
 mission_body: Assistance à maitrise d’ouvrage et conception de la signalétique
   pour le pôle d’échange multimodal de la gare d’Annemasse.
@@ -107,7 +107,7 @@ project_sections:
         alt: Absence d'une vision d'ensemble. Manque de structuration et de cohérence de
           la signalétique. Absence d'information à la sortie de la gare.
           Inégalités des flux
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -140,7 +140,7 @@ project_sections:
         url: /media/annemasse_mobilier_ris_v1.png
         alt: Trois dessins en perspective représentant des Relais Information Service.
           Il s'agit de grand totem avec un mat directionnel.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -169,7 +169,7 @@ project_sections:
           comme un abri bus. Il s'agit de rond jaune avec un grand pictogramme
           noir (piéton, bus, vélo) permettant d'identifier de loin les
           dispositifs liés à la mobilité.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
       text:
@@ -215,8 +215,9 @@ project_sections:
         content: ""
       image:
         url: /media/annemasse-agglo-ris-v1-atipy-design-signaletique.jpg
-        alt: Photomontage du Relais Information Service sur le parvis de la gare.
-        ariaHidden: true
+        alt: Photomontage du Relais Information Service sur le parvis de la gare. Totem
+          avec plan et mât multi-directionnel.
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -230,7 +231,7 @@ project_sections:
         url: /media/annemasse-atipy-adequat-signaletique-pem-design.jpg
         alt: Relais Information Service positionné le long d'un cheminement piéton en
           sortie de gare.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -244,7 +245,7 @@ project_sections:
         alt: Module rond jaune visible de loin avec un pictogramme de bus indiquant un
           arret de bus.
         url: /media/annemasse-atipy-adequat-signaletique-mobilite.jpg
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -259,7 +260,7 @@ project_sections:
         alt: Mat directionnel avec 4 lattes noir ou jaunes indiquant le tramway 17, le
           centre ville, la ville d'Ambilly, l'office de tourisme. Les temps de
           marche sont annoncés pour chaque destination.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -283,6 +284,8 @@ project_sections:
       reverseMobile: false
 projectsFeatured:
   - charte-signale-tique-accessible-pour-les-itine-raires-velo
+  - conception-de-la-signaletique-inclusive-du-stade-pierre-de-coubertin
+  - etude-pour-la-signaletique-patrimoniale-de-rennes-metropole
 footer:
   btn:
     label: Découvrez nos projets signalétique
