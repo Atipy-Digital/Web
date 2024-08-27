@@ -12,7 +12,7 @@ title: AMO Accessibilité des ERP pour la Ville de Paris
 image:
   url: /media/reference-ingenierie-ville-de-paris-1.jpg
   alt: Cour principale de l'Ecole Publique Belles Feuilles à Paris
-  ariaHidden: true
+  ariaHidden: false
 project_client: ville-de-paris
 mission_body: Accord-cadre à bons de commande d'assistance à maîtrise d’ouvrage
   pour la réalisation des études liées aux Agendas d'Accessibilité Programmée
@@ -35,13 +35,13 @@ project_sections:
         url: /media/reference-ingenierie-ville-de-paris-2.jpg
         alt: Illustration d'un schéma de principe pour la reconfiguration de l'entrée
           d'une crèche
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
       image:
         url: /media/reference-ingenierie-ville-de-paris-3.jpg
-        ariaHidden: true
-        alt: Photographie de l'entrée du Jardin des Serres d'Auteuil
+        ariaHidden: false
+        alt: Entrée du Jardin des Serres d'Auteuil avec un totem explicatif.
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -61,6 +61,8 @@ project_sections:
       reverseMobile: false
 projectsFeatured:
   - amo-global-pour-la-mise-en-accessibilite-du-patrimoine
+  - amo-accessibilite-des-erp-pour-la-ville-de-paris
+  - mission-d-assistance-a-maitrise-douvrage-pour-la-mise-en-accessibilite-d-erp
 footer:
   btn:
     label: Découvrez nos missions de diagnostic
