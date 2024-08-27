@@ -12,7 +12,7 @@ image:
   url: /media/design-reference-solidel-atipy-1.jpg
   alt: Couverture du livret. Elle est jaune avec le texte en blanc et quelques
     illustrations représentant des aliments.
-  ariaHidden: true
+  ariaHidden: false
 project_client: solidel
 mission_body: Conception et illustration d’un livret d’accompagnement en [Facile
   À Lire et à Comprendre
@@ -36,7 +36,8 @@ project_sections:
       image:
         url: /media/design-reference-solidel-atipy-4.jpg
         ariaHidden: true
-        alt: Exemple d'une double page du livret
+        alt: "Exemple d'une double page du livret indiquant les catégories d'aliments :
+          légumes, céréales, viandes, etc"
     col2:
       reverseMobile: false
     col3:
@@ -71,16 +72,16 @@ project_sections:
         content: ""
       image:
         url: /media/design-reference-solidel-atipy-2.jpg
-        alt: Détail d'un exemple de menu sur la journée
-        ariaHidden: true
+        alt: Détail d'un exemple de trois menus pour la journée
+        ariaHidden: false
     col2:
       reverseMobile: false
       text:
         content: ""
       image:
         url: /media/design-reference-solidel-atipy-3.jpg
-        alt: Zoom sur les illustrations d'une page du livret
-        ariaHidden: true
+        alt: Illustrations des fruits et légumes de saison
+        ariaHidden: false
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -115,7 +116,7 @@ project_sections:
       image:
         url: /media/design-reference-solidel-atipy-6.jpg
         alt: Zoom sur la page "conseils pour éviter de gaspiller"
-        ariaHidden: true
+        ariaHidden: false
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -145,8 +146,9 @@ project_sections:
         content: ""
       image:
         url: /media/design-reference-solidel-atipy-7.jpg
-        alt: Pages intérieures du livret
-        ariaHidden: true
+        alt: Pages intérieures du livret avec les fruits et légumes de saisons + trois
+          exemples de menus pour une journée
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
