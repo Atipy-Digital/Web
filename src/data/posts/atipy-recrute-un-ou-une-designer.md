@@ -50,7 +50,7 @@ post_sections:
       image:
         url: /media/livret-mieux-manger-msa-agence-adequat-atipy-pages-interieures-.jpg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: Livret pour bien manger. Format carré, deux pages ouvertes montrant les
           différents types d'aliments illustrés.
     col2:
@@ -126,7 +126,7 @@ post_sections:
         content: ""
       image:
         url: /media/cvs-france_assos_sante_adequat_fiches_falc_sante.jpeg
-        ariaHidden: true
+        ariaHidden: false
         alt: Deux pages en FALC sur les conseils de la vie sociale. Chaque phrase est
           illustrée par un dessin.
     col2:
