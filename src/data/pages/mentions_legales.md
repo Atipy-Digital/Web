@@ -34,11 +34,11 @@ sections:
           ## **Hébergeur du site**
 
 
-          Nom de l'hébergeur : \[Nom de l'hébergeur]\
+          Nom de l'hébergeur : Netlify\
 
-          Adresse de l'hébergeur : \[Adresse complète de l'hébergeur]\
+          Adresse de l'hébergeur : 44 Montgomery St STE 300, San Francisco, CA 94104, États-Unis\
 
-          Numéro de téléphone : \[Numéro de téléphone de l'hébergeur]
+          Numéro de téléphone : +1 (415) 691-1573
 
 
           ## **Propriété intellectuelle**
@@ -47,9 +47,10 @@ sections:
           Le contenu du site d'Atipy (textes, images, vidéos, etc.) est la propriété exclusive d'Atipy, sauf mention contraire. Toute reproduction, distribution, modification, adaptation, retransmission ou publication, même partielle, de ces différents éléments est interdite sans l'accord exprès d'Atipy.
 
 
-          **Protection des données personnelles**\
+          ## **Protection des données personnelles**
 
-          \[Nom de l'entreprise] s'engage à ce que la collecte et le traitement de vos données, effectués à partir du site \[Nom du site], soient conformes au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés. Pour en savoir plus sur vos droits et la manière dont nous utilisons vos données, veuillez consulter notre \[Politique de confidentialité].
+
+          Atipy s'engage à ce que la collecte et le traitement de vos données, effectués à partir de ce site, soient conformes au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés.
     col2:
       reverseMobile: false
     col3:
