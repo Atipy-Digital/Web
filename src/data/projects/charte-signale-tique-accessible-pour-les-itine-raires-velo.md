@@ -13,7 +13,7 @@ image:
   url: /media/design-reference-pyrenees-atlantique-atipy-2.jpg
   alt: Point de départ d'un itinéraire vélo avec un totem en bois qui présente le
     plan et les caractéristiques de l'itinéraire
-  ariaHidden: true
+  ariaHidden: false
 project_client: departement-pyrenees-atlantiques
 mission_body: Réalisation d’une charte signalétique accessible pour les
   itinéraires vélo du Conseil Départemental des Pyrénées-Atlantiques
@@ -74,13 +74,13 @@ project_sections:
         legend: ""
         alt: "4 types de supports signalétique différents en bois : un grand totem de
           départ, deux supports d'information sur pied, un potelet."
-        ariaHidden: true
+        ariaHidden: false
     col3:
       reverseMobile: false
   - col1:
       reverseMobile: false
       image:
-        ariaHidden: true
+        ariaHidden: false
         alt: Extrait de la charte signalétique présentant 3 pages avec une carte d'un
           itinéraire, des préconisations pour la bonne implantation des supports
           et le détail du grand totem de départ.
@@ -116,12 +116,12 @@ project_sections:
         url: /media/design-expertise-mobilite-velo-signaletique-plan-atipy-4.jpg
         alt: Recto de la fiche FALC avec une carte schématique de l'itinéraire allant
           d'Artiguelouve à Laroin.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
       image:
         url: /media/202312-py-velo-fiches-falc-def_plan-de-travail-1.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Verso de la fiche FALC donnant les détails des éléments que le cycliste va
           rencontrer sur son chemin. par exemple, le temps et la distance du
           parcours, les obstacles ou points d'intérêt.
@@ -132,7 +132,7 @@ project_sections:
       reverseMobile: false
       image:
         url: /media/atipy-fiches-falc-pyrennees-velo.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Carte ouverte avec le parcours d'un des itinéraires cyclables
     col2:
       reverseMobile: false
@@ -144,7 +144,7 @@ project_sections:
       image:
         alt: "Fin d'un parcours accessible devant un pont métallique. Avant le pont est
           implanté un panneau avec écrit \"arrivée\". "
-        ariaHidden: true
+        ariaHidden: false
         url: /media/pyrenees-atlantiques-velo-signaletique-arrivee-catagnede-v2.jpg
     col2:
       reverseMobile: false
@@ -171,6 +171,7 @@ project_sections:
       reverseMobile: false
 projectsFeatured:
   - signaletique-du-pole-dechanges-multimodal
+  - conception-de-la-signaletique-inclusive-du-stade-pierre-de-coubertin
 footer:
   btn:
     label: Découvrez nos projets signalétique
