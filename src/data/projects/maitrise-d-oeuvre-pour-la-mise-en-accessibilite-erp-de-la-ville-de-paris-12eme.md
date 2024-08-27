@@ -13,7 +13,7 @@ image:
   alt: "Vue plongeante sur escalier sécurisé avec nez de marches contrastés et
     antidérapants de 3 centimètre de largeur et clous podotactiles implanté à
     une distance d'un giron de la première marche sur chaque palier. "
-  ariaHidden: true
+  ariaHidden: false
 project_client: ville-de-paris
 mission_body: Atipy et son partenaire Komorebi ont accompagné la délégation du
   12ème arrondissement sur une mission de maîtrise d’œuvre pour une mise en
@@ -59,7 +59,7 @@ project_sections:
           l'intérieur du SAS. La signalétique en fronton a également été
           remplacée pour satisfaire à l'ensemble des exigences réglementaires et
           à la charte de la ville de Paris.
-        ariaHidden: true
+        ariaHidden: false
     col3:
       reverseMobile: false
       text:
@@ -71,7 +71,7 @@ project_sections:
         content: ""
       image:
         url: /media/reference-ingenierie-paris12-2.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Accueil du site Gare de Reuilly disposant maintenant d'un totem
           signalétique chartée ville de Paris et présentant l'ensemble des
           entités et services du bâtiment avec les directions appropriées.
@@ -92,6 +92,7 @@ project_sections:
 projectsFeatured:
   - mission-d-assistance-a-maitrise-douvrage-pour-la-mise-en-accessibilite-d-erp
   - amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
+  - releves-d-accessibilite-region-grand-est
 footer:
   btn:
     label: Découvrez nos missions de diagnostic
