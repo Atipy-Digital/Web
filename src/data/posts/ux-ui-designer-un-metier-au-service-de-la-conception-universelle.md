@@ -40,9 +40,11 @@ post_sections:
       image:
         url: /media/prince-of-persia-ruben-rossignol.jpg
         legend: ""
-        ariaHidden: true
-        alt: "Deux captures d'écran du jeu Prince of Persia. Le graphisme est celui des années 90, les images sont pixelisées. On retrouve deux types de décors : l'un dans un vieux château avec un squelette, l'autre dans un palais des Milles et une nuits."
-
+        ariaHidden: false
+        alt: "Deux captures d'écran du jeu Prince of Persia. Le graphisme est celui des
+          années 90, les images sont pixelisées. On retrouve deux types de
+          décors : l'un dans un vieux château avec un squelette, l'autre dans un
+          palais des Milles et une nuits."
     col2:
       reverseMobile: false
     col3:
@@ -51,7 +53,7 @@ post_sections:
       reverseMobile: false
       text:
         content: >-
-
+          
           C’est en naviguant au gré des fonctionnalités du système d’exploitation Mac, en bidouillant le logiciel d’infographie Adobe Photoshop ou en re-jouant inlassablement le premier niveau de Prince Of Persia que je suis devenu «&nbsp;Utilisateur&nbsp;».
 
 
@@ -75,12 +77,12 @@ post_sections:
 
 
           **UX Design est l’abréviation de User Experience (Expérience Utilisateur). On parle aussi d’ergonomie d’interfaces et d’utilisabilité. Elle est associée à la qualité du vécu de l’utilisateur et s’applique aux interfaces physiques comme virtuelles.**
-
       image:
         url: /media/atipy_ruben_rossignol_maquettes_ui_design_interface.jpg
         legend: ""
-        ariaHidden: true
-        alt: Deux captures d'écran en noir et blanc de maquettes d'interface pour un agenda et un tableau de bord.
+        ariaHidden: false
+        alt: Deux captures d'écran en noir et blanc de maquettes d'interface pour un
+          agenda et un tableau de bord.
     col2:
       reverseMobile: false
     col3:
@@ -89,7 +91,7 @@ post_sections:
       reverseMobile: false
       text:
         content: >-
-
+          
           La mission de l’UX designer est de trouver le point de convergence entre les besoins de l’entreprise et ceux des utilisateurs finaux afin de construire conjointement une solution fonctionnelle, évolutive et accessible.
 
 
@@ -151,7 +153,7 @@ post_sections:
         alt: Trois personnes cheminent dans la rue. L'un est utilisateur de fauteuil,
           l'une utilise une canne blanche. Elle se retrouve arrêtée par une
           barrière.
-        ariaHidden: true
+        ariaHidden: false
     col3:
       reverseMobile: false
 source:
