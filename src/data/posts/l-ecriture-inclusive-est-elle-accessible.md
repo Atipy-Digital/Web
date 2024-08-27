@@ -8,6 +8,7 @@ date: 2020-04-14T14:06:26.155Z
 timeToRead: 5 à 6 min
 post_tags:
   - Accessibilité
+  - FALC
 post_sections:
   - inverseCol: false
     col1:
@@ -65,7 +66,7 @@ post_sections:
       image:
         url: /media/atipy-ecriture-inclusive-handicap-accessibilite-2.jpg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: Nous sommes inclusif•ive•s. Sommes-nous accessibles ?
     col2:
       reverseMobile: false
@@ -146,7 +147,6 @@ post_sections:
         legend: ""
         ariaHidden: true
         alt: Une personne lit un livre dans un parc.
-
     col2:
       reverseMobile: false
     col3:
