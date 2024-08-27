@@ -35,7 +35,7 @@ project_sections:
         url: /media/reference-ingenierie-saint-malo-2.jpg
         alt: " Exemples de pages de la notice descriptive d'accessibilité de la Salle de
           sports Duguay-Trouin"
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -56,13 +56,14 @@ project_sections:
         content: ""
       image:
         url: /media/reference-ingenierie-saint-malo-4.jpg
-        ariaHidden: true
-        alt: Photographie du Musée Jacques Cartier
+        ariaHidden: false
+        alt: Musée Jacques Cartier
     col3:
       reverseMobile: false
 projectsFeatured:
   - amo-global-pour-la-mise-en-accessibilite-du-patrimoine
   - amo-accessibilite-des-erp-pour-la-ville-de-paris
+  - diagnostic-d-accessibilite-en-orleans
 footer:
   btn:
     label: Découvrez nos missions de diagnostic
