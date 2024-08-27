@@ -9,7 +9,7 @@ title: Relevés d’accessibilité lycées Grand Est
 image:
   url: /media/reference-ingenierie-grand-est-1.jpg
   alt: Façade beige de l'Hôtel de Région à Metz
-  ariaHidden: true
+  ariaHidden: false
 project_client: grand-est
 mission_body: Relevés d’accessibilité après travaux des lycées de la Région
   Grand-Est et prestations diverses
@@ -42,7 +42,7 @@ project_sections:
         url: /media/atipy-ingenierie-releves-grand-est.jpg
         alt: Extrait du livrable de relevés montrant un tableau et une fiche technique
           de travaux.
-        ariaHidden: true
+        ariaHidden: false
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -52,7 +52,7 @@ project_sections:
         content: ""
       image:
         url: /media/reference-ingenierie-grand-est-2.jpg
-        alt: Photographie de l'Hôtel de Région à Strasbourg
+        alt: Hôtel de Région à Strasbourg
         ariaHidden: true
     col2:
       reverseMobile: false
@@ -60,8 +60,8 @@ project_sections:
         content: ""
       image:
         url: /media/reference-ingenierie-grand-est-3.jpg
-        alt: Photographie des bâtiments régionaux à Metz
-        ariaHidden: true
+        alt: Bâtiments régionaux à Metz
+        ariaHidden: false
     col3:
       reverseMobile: false
       text:
@@ -69,6 +69,7 @@ project_sections:
 projectsFeatured:
   - adap-pour-les-necropoles-nationales
   - diagnostic-accessibilite-et-adap-du-ministere-des-armees
+  - amo-global-pour-la-mise-en-accessibilite-du-patrimoine
 footer:
   btn:
     label: Découvrez nos relevés d'accessibilité
