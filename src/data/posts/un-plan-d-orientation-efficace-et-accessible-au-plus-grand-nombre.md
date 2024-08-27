@@ -23,7 +23,7 @@ post_sections:
       image:
         url: /media/atipy-plan-orientation-01.jpg
         legend: "Source : www.stiftung-ettersberg.de"
-        ariaHidden: true
+        ariaHidden: false
         alt: Personne tenant un plan de ville au format papier dans une main et dans
           l'autre main son smartphone
     col2:
@@ -73,7 +73,7 @@ post_sections:
       image:
         url: /media/atipy-plan-orientation-02.jpg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: "Listing des utilisateurs à besoins spécifiques : Les personnes de langue
           étrangère, les personnes en situation de handicap moteur, les
           personnes en situation de handicap mental, visuel ou auditif, les
@@ -90,8 +90,9 @@ post_sections:
       image:
         url: /media/atipy-plan-orientation-03.jpg
         legend: ""
-        ariaHidden: true
-        alt: Plusieurs illustrations de la mention "Vous êtes ici"
+        ariaHidden: false
+        alt: 'Plusieurs illustrations de la mention "Vous êtes ici" : flèche, rond,
+          étoile.'
     col2:
       reverseMobile: false
     col3:
@@ -143,7 +144,7 @@ post_sections:
         ? content
       image:
         url: /media/atipy-plan-orientation-05.jpg
-        legend: Exemple du Plan de Chamonix
+        legend: ""
         ariaHidden: true
         alt: Exemple du Plan de Chamonix
     col2:
@@ -152,7 +153,7 @@ post_sections:
         ? content
       image:
         url: /media/atipy-plan-orientation-06.jpg
-        legend: Exemple du Plan de Chauvigny
+        legend: ""
         ariaHidden: true
         alt: Exemple du Plan de Chauvigny
     col3:
@@ -187,7 +188,7 @@ post_sections:
       image:
         url: /media/atipy-plan-orientation-07.jpg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: Exemple de pictogramme en forme de soleil réalisé pour la station Arènes
     col2:
       reverseMobile: false
@@ -216,7 +217,7 @@ post_sections:
       image:
         url: /media/atipy-plan-orientation-08.jpg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: Exemple d'une carte de New York en perspective avec certains immeubles,
           comme l'Empire State Building, très reconnaissables.
     col2:
@@ -244,7 +245,7 @@ post_sections:
       image:
         url: /media/atipy-plan-orientation-09.jpg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: Exemple du plan d'orientation de Londres mettant en avant les objets
           identitaires de la ville.
     col2:
@@ -295,7 +296,7 @@ post_sections:
       image:
         url: /media/atipy-plan-orientation-10.jpg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: Exemple d'une carte de l'Europe ou l'information n’est transmise que par la
           couleur, et sur laquelle la légende est détachée du visuel.
     col3:
@@ -308,7 +309,7 @@ post_sections:
       image:
         url: /media/atipy-plan-orientation-11.jpg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: Lecture de cette meme carte avec la vision daltonisme protanope, daltonisme
           deuteranope et daltonisme tritanope.
     col2:
@@ -330,7 +331,7 @@ post_sections:
       image:
         url: /media/atipy-plan-orientation-12.jpg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: Carte de France ou l'information est directement écrite sur le visuel.
     col3:
       reverseMobile: false
@@ -353,7 +354,7 @@ post_sections:
       image:
         url: /media/atipy-plan-orientation-13.jpg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: Comparaison du temps de lecture entre un texte écrit en minuscules et en
           majuscules. Le texte en minuscules se lit 14% plus vite.
     col2:
@@ -368,7 +369,7 @@ post_sections:
       image:
         url: /media/atipy-plan-orientation-14.jpg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: Trois exemples de typographie avec des empattements ou fioritures
           difficiles à lire.
     col2:
