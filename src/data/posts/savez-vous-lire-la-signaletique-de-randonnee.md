@@ -63,7 +63,7 @@ post_sections:
       reverseMobile: false
       image:
         url: /media/post-2.png
-        ariaHidden: true
+        ariaHidden: false
         alt: Schéma d'un mat directionnel en bois avec des lames jaunes indiquant des
           directions sur un GR et un PR
       text:
@@ -72,9 +72,10 @@ post_sections:
       reverseMobile: false
       image:
         url: /media/post-3.png
-        legend: Tronc d'arbre avec 3 marques peintes dessus (blanches, rouges, jaunes et
+        legend: ""
+        ariaHidden: false
+        alt: Tronc d'arbre avec 3 marques peintes dessus (blanches, rouges, jaunes et
           vertes)
-        ariaHidden: true
     col3:
       reverseMobile: false
   - col1:
@@ -112,7 +113,7 @@ post_sections:
           Vous pouvez rencontrer trois formes différentes. Elles vous donnent des indications précieuses sur la direction à suivre
       image:
         url: /media/post-4.png
-        ariaHidden: true
+        ariaHidden: false
         alt: Tableau récapitulant les différents types de balisage en fonction du type
           de sentier et de la direction à suivre. Une mauvaise direction est
           symbolisée par une croix.
@@ -158,20 +159,22 @@ post_sections:
         url: /media/cairn-1.png
         alt: Poteau en bois avec un pictogramme barré représentant une personne déposant
           une pierre sur un tas de pierres.
-        ariaHidden: true
+        ariaHidden: false
       text:
         content: ""
     col2:
       reverseMobile: false
       image:
         url: /media/cairn-2.png
-        legend: Pictogramme blanc sur fond vert barré en rouge représentant une personne
+        legend: ""
+        alt: Pictogramme blanc sur fond vert barré en rouge représentant une personne
           déposant une pierre sur un tas de pierres. Texte "Cairns interdits"
     col3:
       reverseMobile: false
       image:
         url: /media/cairn-3.png
-        legend: Pictogramme jaune barré sur fond bleu représentant une main à proximité
+        legend: ""
+        alt: Pictogramme jaune barré sur fond bleu représentant une main à proximité
           d'un tas de pierres.
 source:
   col1:
