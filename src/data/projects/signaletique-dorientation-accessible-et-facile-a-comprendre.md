@@ -12,7 +12,7 @@ title: Signalétique d'orientation accessible et facile à comprendre
 image:
   url: /media/design-reference-bateau-feu-atipy-1.jpg
   alt: façade entièrement vitrée du théâtre avec des adhésifs colorés
-  ariaHidden: true
+  ariaHidden: false
 project_client: le-bateau-feu
 mission_body: Conception d’une signalétique d’orientation du public accessible
   et facile à comprendre au sein du théâtre.
@@ -39,7 +39,7 @@ project_sections:
         content: ""
       image:
         url: /media/design-reference-bateau-feu-atipy-2.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Plan d'implantation du niveau 0 du Bateau Feu - scène nationale
     col2:
       reverseMobile: false
@@ -78,9 +78,9 @@ project_sections:
         content: ""
       image:
         url: /media/design-reference-bateau-feu-atipy-5.jpg
-        alt: Déclinaison de la charte signalétique sur les directionnelles et les
-          plaques portes
-        ariaHidden: true
+        alt: "Déclinaison de la charte signalétique sur les directionnelles et les
+          plaques portes autour de 3 couleurs : jaune, vert et bleu."
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -135,7 +135,7 @@ project_sections:
       text:
         content: ""
       image:
-        ariaHidden: true
+        ariaHidden: false
         alt: Code couleur de la charte signalétique du bâtiment
         url: /media/design-reference-bateau-feu-atipy-3.jpg
     col2:
@@ -144,7 +144,7 @@ project_sections:
         content: ""
       image:
         url: /media/design-reference-bateau-feu-atipy-4.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: "Détail d'une typologie de support : Directionnel mural - Grand format"
     col3:
       reverseMobile: false
@@ -159,7 +159,8 @@ project_sections:
           Les pictogrammes sont des outils importants pour favoriser la bonne compréhension des informations. Au delà de leur aspect ludiques, ils sont utiles pour les non-lecteurs : enfants, troubles DYS, langue étrangère… Chaque espace est identifié par un pictogramme conçu spécifiquement pour Le Bateau Feu. Les pictogrammes sont contrastés et faciles à comprendre.
       image:
         url: /media/design-reference-bateau-feu-atipy-7.jpg
-        alt: Exemple de quatre pictogrammes issue de la charte signalétique
+        alt: "Exemple de quatre pictogrammes issue de la charte signalétique :
+          ascenseur, escalier, sortie et studio."
         ariaHidden: true
     col2:
       reverseMobile: false
@@ -200,6 +201,7 @@ project_sections:
 projectsFeatured:
   - signaletique-de-la-treso-tiers-lieu
   - signaletique-accessibles-des-etablissements-culturels-de-clichy
+  - amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
 footer:
   btn:
     label: Découvrez nos projets signalétique
