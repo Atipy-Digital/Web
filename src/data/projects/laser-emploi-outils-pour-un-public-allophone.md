@@ -11,7 +11,7 @@ image:
   url: /media/atipy-design-falc-langage-clair-laser-emploi-allophone-1.jpg
   alt: "Trois exemples d'illustrations : certificat médical, carte Vitale et
     calendrier"
-  ariaHidden: true
+  ariaHidden: false
 project_client: msa-mutuelle-sociale-agricole
 mission_body: Création d’outils de communication pour l’accueil de publics
   allophones et/ou illettrés dans un parcours d’insertion professionnelle.
@@ -35,7 +35,7 @@ project_sections:
         content: ""
       image:
         url: /media/atipy-design-falc-langage-clair-laser-emploi-allophone-illustrations-2.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Illustrations très sobres représentant des personnages qui exercent des
           métiers comme du secrétariat, de l'emballage alimentaire ou de
           l'entretien d'espace vert.
@@ -81,7 +81,7 @@ project_sections:
         url: /media/atipy-design-falc-langage-clair-laser-emploi-allophone-illustrations-3.png
         alt: Une carte en papier blanc sur laquelle est imprimé une illustration
           représentant deux personnes travaillant dans l'hotellerie
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
       text:
@@ -109,6 +109,8 @@ project_sections:
       reverseMobile: false
 projectsFeatured:
   - document-falc
+  - accompagnement-du-service-education-aux-droits-humains-dans-la-mise-en-place-d-une-strategie-globale-d-accessibilite-et-d-inclusion-des-outils-de-communication
+  - livrets-falc-et-de-la-plaquette-de-presentation
 footer:
   btn:
     label: Découvrez nos projets similaires
