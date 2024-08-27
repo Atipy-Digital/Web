@@ -57,7 +57,7 @@ export const PartnerItem = ({
         >
           <AtipyImage
             src={logo}
-            altText={`Logo de ${name}`}
+            altText={name}
             className='object-contain w-full h-full absolute inset-0'
             isDecorative={false}
             isInformative
