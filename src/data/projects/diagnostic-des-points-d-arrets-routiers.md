@@ -11,7 +11,7 @@ title: Diagnostic des points d'arrêts routiers de la Région Pays de la Loire
 image:
   url: /media/reference-ingenierie-aleop-1.jpg
   alt: Arrêt de bus avec une personne en train de relever les distances.
-  ariaHidden: true
+  ariaHidden: false
 project_client: reseau-de-transport-aleop
 mission_body: Diagnostic des caractéristiques physiques des points d’arrêts routiers.
 context_body: >-
@@ -46,7 +46,7 @@ project_sections:
       reverseMobile: false
       image:
         url: /media/reference-ingenierie-aleop-2.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Visuel de la cartographie interactive générale des 4 779 points d'arrêts
           audités sur le réseau Aléop avec suivi en temps réel des arrêts
           audités, en cours d'audit, ou restant à auditer
@@ -64,7 +64,7 @@ project_sections:
         url: /media/reference-ingenierie-aleop-3.jpg
         alt: Exemple de fonctionnalités de la cartographie interactive avec apparition
           d'un photo du point d'arrêt au passage de la souris.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
       text:
@@ -102,6 +102,8 @@ project_sections:
       reverseMobile: false
 projectsFeatured:
   - amo-global-pour-la-mise-en-accessibilite-du-patrimoine
+  - releve-des-non-conformites-sur-les-escaliers-du-metro-lyonnais
+  - releves-d-accessibilite-region-grand-est
 footer:
   btn:
     label: Découvrez nos missions de diagnostic
