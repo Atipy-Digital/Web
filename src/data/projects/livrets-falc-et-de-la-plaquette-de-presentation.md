@@ -7,11 +7,11 @@ metadata:
     - keyword: FALC
     - keyword: Création graphique
     - keyword: Illustrations
-title: Livrets FALC et plaquette de présentation
+title: Livrets FALC et plaquette de présentation CCAS de Béthune
 image:
   url: /media/design-reference-ccas-bethune-atipy-1.jpg
   alt: 5 livrets illustrés avec des couvertures en noir et orange
-  ariaHidden: true
+  ariaHidden: false
 project_client: ccas-de-bethune
 mission_body: Création d’une série de livrets FALC accompagnés de leur fiche
   outil et de la plaquette de présentation du CCAS de Béthune.
@@ -35,7 +35,7 @@ project_sections:
       image:
         url: /media/design-reference-ccas-bethune-atipy-4.jpg
         alt: Illustrations détaillant l'univers graphique créer pour le projet
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
       text:
@@ -90,15 +90,16 @@ project_sections:
       image:
         url: /media/design-reference-ccas-bethune-atipy-5.jpg
         alt: Couverture du livret sur le pole logement
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
       text:
         content: ""
       image:
         url: /media/design-reference-ccas-bethune-atipy-3.jpg
-        alt: Pages intérieures du livret sur le pole séniors
-        ariaHidden: true
+        alt: Pages intérieures du livret sur le pole séniors avec des illustrations en
+          noir et orange
+        ariaHidden: false
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -108,8 +109,8 @@ project_sections:
         content: ""
       image:
         url: /media/design-reference-ccas-bethune-atipy-5.jpg
-        ariaHidden: true
-        alt: Vue d'ensemble du livret sur le pole logement
+        ariaHidden: false
+        alt: Vue d'ensemble du livret sur le pole logement, dépliant 4 pages
     col2:
       reverseMobile: false
     col3:
@@ -143,6 +144,7 @@ project_sections:
 projectsFeatured:
   - laser-emploi-outils-pour-un-public-allophone
   - document-falc
+  - accompagnement-du-service-education-aux-droits-humains-dans-la-mise-en-place-d-une-strategie-globale-d-accessibilite-et-d-inclusion-des-outils-de-communication
 footer:
   btn:
     label: Découvrez nos projets en FALC
