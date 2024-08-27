@@ -43,11 +43,4 @@ partners:
       utilisateurs en situation de handicap.
     projects: A﻿mnesty International, Département du Var.
     logo: /media/logo-ideance.jpeg
-  - isSingle: true
-    name: L'échappée
-    logo: /media/logo-echappe-e.jpeg
-    projects: VélorouteV52 du Pays Barrois
-    aboutUs: Conseil en mobilités et transports
-    collaborate: C﻿onnaissance de  l'écosystème et des bonnes pratiques en matière
-      de mobilité active
 ---
