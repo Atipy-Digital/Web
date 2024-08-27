@@ -47,7 +47,7 @@ project_sections:
         content: ""
       image:
         url: /media/atipy-ingenierie-releves-metro_lyionnais.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Extrait du diagnostic avec un plan de la station Charpennes et un tableau
           de relevé des non-conformités
     col3:
@@ -72,6 +72,7 @@ project_sections:
 projectsFeatured:
   - releves-d-accessibilite-region-grand-est
   - diagnostic-accessibilite-et-adap-du-ministere-des-armees
+  - amo-accessibilite-des-erp-pour-la-ville-de-paris
 footer:
   btn:
     label: Découvrez nos relevés de non-conformités
