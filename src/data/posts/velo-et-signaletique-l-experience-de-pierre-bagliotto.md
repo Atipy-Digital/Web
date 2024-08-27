@@ -62,7 +62,7 @@ post_sections:
       image:
         url: /media/pierre-bagliotto-echappee-concertation-velo.jpg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: Présentation de Pierre lors d'une réunion de concertation avec les usagers
     col2:
       reverseMobile: false
@@ -100,7 +100,7 @@ post_sections:
       image:
         url: /media/pierre-bagliotto-echappee-concertation-velo-2.jpg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: "Concertation : les élus testent eux même l'expérience cyclable avec un
           déplacement en vélo."
     col2:
@@ -151,7 +151,7 @@ post_sections:
       image:
         url: /media/pierre-bagliotto-atipy-velo-signaletique-concertation.jpg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: "Atelier avec des usagers : plusieurs personnes réunies autour d'une
           carte."
     col2:
