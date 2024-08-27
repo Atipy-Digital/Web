@@ -5,7 +5,7 @@ metadata:
   keywords:
     - keyword: signalétique
     - keyword: multisensorielle
-title: Signalétique extérieure multisensorielle
+title: Signalétique extérieure multisensorielle Grand Lyon
 image:
   url: /media/grand-lyon-metropole-signaletique-atipy-4.jpg
   alt: Vue sur l'hôtel de la métropole
@@ -36,7 +36,7 @@ project_sections:
         url: /media/signaletique-grand-lyon-metropole-atipy_lyon_totem.jpg
         alt: Totem rouge avec texte blanc et plan tactile. Panneau mural rouge
           directionnel.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -62,7 +62,7 @@ project_sections:
       image:
         url: /media/signaletique-grand-lyon-metropole-atipy_plan_relief.png
         alt: Plan d'orientation aux abords du bâtiment.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -74,8 +74,8 @@ project_sections:
         content: ""
       image:
         url: /media/signaletique-grand-lyon-metropole-atipy-3.jpg
-        alt: "Plan tactile du quartier "
-        ariaHidden: true
+        alt: Plan tactile du quartier positionné en pupitre sur un totem mural
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -99,6 +99,7 @@ project_sections:
 projectsFeatured:
   - signaletique-du-ministere-des-affaires-etrangeres
   - signaletique-du-pole-dechanges-multimodal
+  - conception-de-la-signaletique-inclusive-du-stade-pierre-de-coubertin
 footer:
   btn:
     label: Découvrez nos projets signalétique
