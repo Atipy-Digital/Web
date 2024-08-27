@@ -63,7 +63,7 @@ post_sections:
       image:
         url: /media/agence_atipy_twitter_accessibilite_image_alt.jpg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: Exemple de description d'une image avec le texte alternatif sur Twitter.
     col2:
       reverseMobile: false
@@ -158,7 +158,7 @@ post_sections:
           💦  «&nbsp;Symbole éclaboussures de sueur&nbsp;» ou «&nbsp;égouttement&nbsp;»
       image:
         url: /media/agence-adequat-exemple-thread.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: "Exemple d'un tweet de Gérald Darmanin avec utilisation de plusieurs
           émoticônes : L'article 24 a été adopté. Il empêchera la traque de nos
           forces de l'ordre jetées en pâture sur les réseaux sociaux. Il
