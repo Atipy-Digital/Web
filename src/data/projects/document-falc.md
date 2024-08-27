@@ -11,7 +11,7 @@ image:
   url: /media/design-reference-cvs-atipy-1.jpg
   alt: Couverture du livret "le droit des usagers". Fond blanc avec des traits
     oranges, bleus et verts.
-  ariaHidden: true
+  ariaHidden: false
 project_client: france-assos-sante
 mission_body: Création de l’identité visuelle des Conseils de la Vie Sociale en
   Nouvelle Aquitaine et conception de fiches explicatives
@@ -49,7 +49,7 @@ project_sections:
         url: /media/france-assos-sante-cvs-logo-anime.gif
         alt: Logo animé qui représente un visage de façon très schématique dont les
           éléments apparaissent au fur et à mesure
-        ariaHidden: true
+        ariaHidden: false
         legend: ""
     col3:
       reverseMobile: false
@@ -59,7 +59,7 @@ project_sections:
         content: ""
       image:
         url: /media/design-reference-cvs-atipy-2.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Carte de visite associée au logo. Colorée avec des bandes orange, vertes,
           ou bleues.
     col2:
@@ -68,7 +68,7 @@ project_sections:
         content: ""
       image:
         url: /media/design-reference-cvs-atipy-3.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Echanger, exprimer, écouter. Ces 3 verbes résume la composition du logo qui
           forme un visage.
     col3:
@@ -90,7 +90,7 @@ project_sections:
         url: /media/design-reference-cvs-atipy-4.jpg
         alt: Détail d'une illustration du livret "Le droit des usagers". Le CVS, c'est
           quoi ?
-        ariaHidden: true
+        ariaHidden: false
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -102,7 +102,7 @@ project_sections:
         url: /media/design-reference-cvs-atipy-5.jpg
         alt: Les fiches sont organisées comme une bande dessinée. C'est à dire que
           chaque phrase est illustrée et le tout est positionnée dans une cas.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -116,14 +116,14 @@ project_sections:
         url: /media/cvs-france-assos_sante-illustrations-falc_plan-de-travail-1.png
         alt: Illustrations en teintes de bleus représentant des personnages en
           situation, comme par exemple, en train de discuter autour d'une table.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
       text:
         content: ""
       image:
         url: /media/cvs-france-assos_sante-illustrations-falc-02.png
-        ariaHidden: true
+        ariaHidden: false
         alt: Illustrations en vert ou orange représentant des personnages dans des
           scènes de vie. Par exemple, deux personnes se saluent.
     col3:
