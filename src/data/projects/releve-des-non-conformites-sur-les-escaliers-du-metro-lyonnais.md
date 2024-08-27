@@ -21,6 +21,7 @@ context_body: En tant que prestataire de conseil, Atipy a réalisé un état des
 project_tags:
   - Accessibilité
   - Cadre bâti
+  - Mobilité
 project_sections:
   - inverseCol: false
     col1:
