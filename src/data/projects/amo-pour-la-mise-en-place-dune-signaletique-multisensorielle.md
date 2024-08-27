@@ -10,9 +10,8 @@ metadata:
 title: "AMO pour la mise en place d'une signalétique multisensorielle "
 image:
   url: /media/design-reference-casvp-atipy-1.jpg
-  alt: Exemple d'un support de la signalétique du CASVP indiquant l'entrée du
-    bâtiment
-  ariaHidden: true
+  alt: Support de la signalétique mural du CASVP indiquant l'entrée du bâtiment
+  ariaHidden: false
 project_client: centre-daction-sociale-ville-de-paris-casvp
 mission_body: Assistance à maitrise d’ouvrage pour la mise en place d’une
   signalétique multisensorielle pour les centres sociaux de la Ville de Paris.
@@ -27,9 +26,7 @@ context_body: >-
   Pour l’ensemble de ses sites, le CASVP a souhaité mettre en place une signalétique accessible au plus grand nombre et multisensorielle.
 
 
-
-
-  **C﻿ollaborateur**
+  **C﻿ollaboratrice**
 
 
   Emilie Szyja, [ESqua](http://www.esqua.fr/)
@@ -43,9 +40,9 @@ project_sections:
       reverseMobile: false
       image:
         url: /media/design-reference-casvp-atipy-2.jpg
-        alt: Exemple d'un support synoptique à l'entrée de l'ascenseur accompagné d'un
-          numéro en relief indiquant l'étage
-        ariaHidden: true
+        alt: Synoptique à l'entrée de l'ascenseur accompagné d'un numéro en relief
+          indiquant l'étage
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -94,44 +91,47 @@ project_sections:
         url: /media/design-reference-casvp-atipy-3.jpg
         alt: Zoom sur la typographie Luciole utilisée pour la charte signalétique du
           CASVP.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
       image:
         url: /media/design-reference-casvp-atipy-4.jpg
-        alt: Exemples de plusieurs échantillons de plaques portes illustrées avec des
-          pictogrammes issus de la charte signalétique
-        ariaHidden: true
+        alt: Plusieurs échantillons de plaques portes illustrées avec des pictogrammes
+          issus de la charte signalétique
+        ariaHidden: false
     col3:
       reverseMobile: false
       image:
         url: /media/design-reference-casvp-atipy-5.jpg
         legend: ""
-        ariaHidden: true
-        alt: Exemple d'une plaque porte avec le pictogramme illustrant les activités que
-          l'on peut trouver dans les clubs séniors du CASVP
+        ariaHidden: false
+        alt: Plaque porte avec le pictogramme illustrant les activités que l'on peut
+          trouver dans les clubs séniors du CASVP
   - inverseCol: false
     col1:
       reverseMobile: false
       image:
         url: /media/design-reference-casvp-atipy-6.jpg
-        ariaHidden: true
-        alt: Exemple d'illustration créer pour un EHPAD du CASVP afin de mieux repérer
-          les étages
+        ariaHidden: false
+        alt: Totem mural sur le palier d'un cage d'escalier d'un EHPAD. Sont indiqués le
+          numéro de l'étage et une illustration en lien avec la thématique de
+          l'unité de vie. Ici, l'arc de triomphe.
     col2:
       reverseMobile: false
       image:
         url: /media/design-reference-casvp-atipy-7.jpg
-        alt: Exemple d'illustration créer pour un EHPAD du CASVP afin de mieux repérer
-          les étages
-        ariaHidden: true
+        alt: Totem mural sur le palier d'un cage d'escalier d'un EHPAD. Sont indiqués le
+          numéro de l'étage et une illustration en lien avec la thématique de
+          l'unité de vie. Ici, le Louvre.
+        ariaHidden: false
     col3:
       reverseMobile: false
       image:
         url: /media/design-reference-casvp-atipy-8.jpg
-        ariaHidden: true
-        alt: Exemple d'illustration créer pour un EHPAD du CASVP afin de mieux repérer
-          les étages
+        ariaHidden: false
+        alt: Totem mural sur le palier d'un cage d'escalier d'un EHPAD. Sont indiqués le
+          numéro de l'étage et une illustration en lien avec la thématique de
+          l'unité de vie. Ici, la colonne de la place de la Bastille
   - inverseCol: false
     col1:
       reverseMobile: false
@@ -175,7 +175,7 @@ project_sections:
         alt: Zoom sur un support synoptique qui répertorie l'ensemble des équipements
           que l'on peut trouver par étages. Cela permet une lecture facilitée de
           l'ensemble du bâtiment.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -187,20 +187,18 @@ project_sections:
         url: /media/design-reference-casvp-atipy-11.jpg
         alt: Illustration de la cathédrale Notre Dame de Paris. Utilisée dans la
           signalétique pour créer des repères visuels dans le bâtiment
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
       image:
         url: /media/design-reference-casvp-atipy-10.jpg
-        alt: Illustration de Montmartre. Utilisée dans la signalétique pour créer des
-          repères visuels dans le bâtiment
-        ariaHidden: true
+        alt: Illustration du Sacré Coeur en Noir et blanc.
+        ariaHidden: false
     col3:
       reverseMobile: false
       image:
-        alt: Illustration de la Tour Eiffel. Utilisée dans la signalétique pour créer
-          des repères visuels dans le bâtiment
-        ariaHidden: true
+        alt: "Illustration de la Tour Eiffel. "
+        ariaHidden: false
         url: /media/design-reference-casvp-atipy-12.jpg
   - inverseCol: false
     col1:
@@ -221,6 +219,8 @@ project_sections:
       reverseMobile: false
 projectsFeatured:
   - signaletique-de-la-treso-tiers-lieu
+  - signaletique-accessibles-des-etablissements-culturels-de-clichy
+  - conception-de-la-signaletique-inclusive-du-stade-pierre-de-coubertin
 footer:
   btn:
     label: Découvrez nos projets signalétique
