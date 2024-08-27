@@ -7,7 +7,7 @@ metadata:
     - keyword: Accessibilité
     - keyword: ERP
     - keyword: Diagnotics
-title: Diagnostic d’accessibilité en Orléans
+title: Diagnostic d’accessibilité à Orléans
 image:
   url: /media/reference-ingenierie-orleans-1.jpg
   alt: Entrée du Campo Santo d'Orléans avec trois arches donnant sur un cloitre
