@@ -34,7 +34,7 @@ post_sections:
         legend: ""
         alt: Emojis représentant 12 visages d'hommes et de femmes de couleurs de peaux
           et de cheveux différentes.
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -89,7 +89,7 @@ post_sections:
       image:
         url: /media/atipy_emoji_accessibilite_twitter.jpeg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: Tweet de Paris 2024 ne présentant que des emojis de personnages hommes et
           femmes bras croisés pour décrire une vidéo postée en-dessous.
     col2:
@@ -101,7 +101,7 @@ post_sections:
       image:
         url: /media/atipy_emoji_malvoyance-deficience-visuelle.jpeg
         legend: ""
-        ariaHidden: true
+        ariaHidden: false
         alt: Ensemble de smiley jaunes avec différentes expressions. La partie droite de
           l'image est floutée et on se rend qu'on a du mal à distinguer les
           différentes expressions.
