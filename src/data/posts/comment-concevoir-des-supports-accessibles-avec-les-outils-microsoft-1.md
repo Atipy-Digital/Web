@@ -36,7 +36,7 @@ post_sections:
       image:
         url: /media/atipy-formation-communication-accessible.jpg
         alt: Fiches présentant des profils d'utilisateurs ayant des besoins spécifiques
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -49,7 +49,7 @@ post_sections:
       image:
         alt: La neurodiversité, la mobilité, l'apprentissage et la santé mentale
         url: /media/atipy-outils-microsoft-accessibilite-handicap.jpg
-        ariaHidden: true
+        ariaHidden: false
     col2:
       reverseMobile: false
     col3:
@@ -80,9 +80,8 @@ post_sections:
           9eldans-powerpoint-68d20e49-aec3-456a-939d-34a79e8ddd5f)"
       image:
         url: /media/atipy-microsoft-accessibilite-power-point.jpg
-        ariaHidden: true
-        alt: Dans l'onglet Diaporama, cocher la case &quot;Toujours activer les
-          sous-titres&quot;
+        ariaHidden: false
+        alt: Dans l'onglet Diaporama, cocher la case Toujours activer les sous-titres.
         legend: ""
     col2:
       reverseMobile: false
@@ -105,7 +104,7 @@ post_sections:
           * Le texte alternatif manquant
       image:
         url: /media/atipy-microsoft-verificateur-accessibilite.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Fenêtre présentant un exemple de rapport d'accessibilité du document
     col3:
       reverseMobile: false
