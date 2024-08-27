@@ -9,7 +9,7 @@ metadata:
 title: AMO globale pour la mise en accessibilité du patrimoine
 image:
   url: /media/reference-ingenierie-bzh-1.jpg
-  alt: Salle de réunion avec une personne debout en présentation
+  alt: ""
   ariaHidden: true
 project_client: region-bretagne
 mission_body: Atipy accompagne la Région Bretagne avec une offre complète visant
@@ -66,15 +66,14 @@ project_sections:
       reverseMobile: false
       image:
         url: /media/reference-ingenierie-bzh-2.jpg
-        ariaHidden: true
-        alt: Rédaction d'un programme de travaux pour la mise en accessibilité des
-          ateliers du lycée Chaptal à Saint-Brieuc, photographie d'un escalier
-          sécurisé et d'un élévateur.
+        ariaHidden: false
+        alt: Escalier sécurisé avec bandes contrastées et nez de marche. A côté, il y a
+          un élévateur.
     col2:
       reverseMobile: false
       image:
         url: /media/reference-ingenierie-bzh-3.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: "Registre public d'accessibilité dématérialisé avec visualisation du niveau
           d'accessibilité de chacune des fonctions d'un lycée par typologie de
           handicap. "
@@ -85,17 +84,16 @@ project_sections:
       reverseMobile: false
       image:
         url: /media/reference-ingenierie-bzh-4.jpg
-        ariaHidden: true
+        ariaHidden: false
         alt: Détail d'un programme de travaux, avec projection graphique des
           modifications à apporter sur des sanitaires.
     col2:
       reverseMobile: false
       image:
         url: /media/reference-ingenierie-bzh-5.jpg
-        ariaHidden: true
-        alt: "Photo d'un plan situé à l'entrée d'un lycée. Atipy intervient pour
-          conseiller la Région sur les implantations d'éléments de signalétique.
-          "
+        ariaHidden: false
+        alt: Plan situé à l'entrée d'un lycée intégré dans un totem noir et bleu avec
+          pupitre.
     col3:
       reverseMobile: false
   - inverseCol: false
@@ -118,6 +116,8 @@ project_sections:
       reverseMobile: false
 projectsFeatured:
   - releves-d-accessibilite-region-grand-est
+  - amo-accessibilite-des-erp-pour-la-ville-de-paris
+  - maitrise-d-oeuvre-pour-la-mise-en-accessibilite-erp-de-la-ville-de-paris-12eme
 footer:
   btn:
     label: Découvrez nos missions de diagnostics
