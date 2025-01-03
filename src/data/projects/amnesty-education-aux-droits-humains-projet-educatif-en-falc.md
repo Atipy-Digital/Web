@@ -44,15 +44,6 @@ project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
-      image:
-        url: /media/amnesty-international-falc-atipy-illustration.jpg
-    col2:
-      reverseMobile: false
-    col3:
-      reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
       text:
         content: >-
           #### L﻿es objectifs de la mission
@@ -72,6 +63,15 @@ project_sections:
           * Création d'illustrations et de pictogrammes compréhensibles
           * Mise en page de la brochure
           * R﻿éalisation des fichiers d'éxécution
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        url: /media/amnesty-international-falc-atipy-illustration.jpg
+    col2:
+      reverseMobile: false
     col3:
       reverseMobile: false
   - inverseCol: false
