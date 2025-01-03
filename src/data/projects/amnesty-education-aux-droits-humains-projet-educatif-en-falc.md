@@ -77,6 +77,10 @@ project_sections:
           "﻿Merci à Atipy pour leur accompagnement dans la mise en forme accessible de ces deux documents !"
     col2:
       reverseMobile: false
+      text:
+        content: "**[T﻿éléchargez](https://amnestyfr.cdn.prismic.io/amnestyfr/ZoKj7x5Le\
+          NNTwrbU_20240617-EDH-PROJET-EDUCATIF-FAB-WEB-FALC.pdf)** le projet
+          éducatif d'Education aux droits humains en FALC !"
     col3:
       reverseMobile: false
 projectsFeatured:
@@ -85,5 +89,7 @@ projectsFeatured:
   - livrets-falc-et-de-la-plaquette-de-presentation
 footer:
   btn:
-    label: Un projet en FALC ? Contactez-nous !
+    label: Découvrez nos projets de design inclusif
+    tag: Design
+    color: green
 ---
