@@ -61,9 +61,8 @@ project_sections:
           #### Nos domaines d’intervention
 
           * Création d'illustrations et de pictogrammes compréhensibles
-          * M
-          * Etat des lieux des supports existants
-          * Conception des PDF accessibles conformes aux normes PDF U/A
+          * Mise en page de la brochure
+          * R﻿éalisation des fichiers d'éxécution
     col3:
       reverseMobile: false
   - inverseCol: false
