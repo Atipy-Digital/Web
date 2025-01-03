@@ -60,7 +60,7 @@ project_sections:
 
           * Mettre à disposition de tous les publics, quelque soit leur niveau de compréhension,  des informations claires, lisibles et compréhensibles.
 
-          * Accompagner les équipes du service Education aux Droits Humains dans la mise en place de supports en FALC.
+          * Accompagner les équipes du service Education aux Droits Humains dans la mise en place de supports en [FALC](https://www.atipy.fr/expertises/design/falc-et-langage-clair).
 
           * P﻿roposer un support à la fois attractif, respectueux de l'identité visuelle d'EDH et facile à lire.
     col2:
@@ -90,6 +90,15 @@ project_sections:
         content: "**[T﻿éléchargez](https://amnestyfr.cdn.prismic.io/amnestyfr/ZoKj7x5Le\
           NNTwrbU_20240617-EDH-PROJET-EDUCATIF-FAB-WEB-FALC.pdf)** le projet
           éducatif d'Education aux droits humains en FALC !"
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        url: /media/amnesty-international-falc-atipy-communication-illustration.jpg
+    col2:
+      reverseMobile: false
     col3:
       reverseMobile: false
 projectsFeatured:
