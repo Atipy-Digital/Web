@@ -60,11 +60,8 @@ project_sections:
         content: |-
           #### Nos domaines d’intervention
 
-          * Création d'illustrations et de pictogrammes
-          *
-          *
-          * C
-          * Formations et sensibilisations
+          * Création d'illustrations et de pictogrammes compréhensibles
+          * M
           * Etat des lieux des supports existants
           * Conception des PDF accessibles conformes aux normes PDF U/A
     col3:
