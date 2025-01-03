@@ -153,4 +153,14 @@ members:
       - text: Cartographie
       - text: Urbanisme
     linkedin: https://www.linkedin.com/in/pierre-bagliotto-3104309a/
+  - name: Ruben Rossignol
+    image: /media/ruben-rossignol.jpg
+    badge:
+      color: a-green
+      label: L'ergonome
+    skills:
+      - text: UX design
+      - text: Ergonomie
+      - text: Utilisabilité
+    linkedin: https://www.linkedin.com/in/ruben-rossignol-886897121/
 ---
