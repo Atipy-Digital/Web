@@ -66,8 +66,25 @@ project_sections:
           * Conception des PDF accessibles conformes aux normes PDF U/A
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      text:
+        color: green
+        content: >-
+          **T﻿émoignage du client :**
+
+
+          "﻿Merci à Atipy pour leur accompagnement dans la mise en forme accessible de ces deux documents !"
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
 projectsFeatured:
   - accompagnement-du-service-education-aux-droits-humains-dans-la-mise-en-place-d-une-strategie-globale-d-accessibilite-et-d-inclusion-des-outils-de-communication
   - document-falc
   - livrets-falc-et-de-la-plaquette-de-presentation
+footer:
+  btn:
+    label: Un projet en FALC ? Contactez-nous !
 ---
