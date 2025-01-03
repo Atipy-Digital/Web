@@ -36,6 +36,15 @@ project_sections:
     col1:
       reverseMobile: false
       image:
+        url: /media/mock-up-v2.jpg
+    col2:
+      reverseMobile: false
+    col3:
+      reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
         url: /media/amnesty-international-falc-atipy-illustration.jpg
     col2:
       reverseMobile: false
