@@ -1,13 +1,13 @@
 ---
 metadata:
-  title: Amnesty Éducation aux droits humains - Projet éducatif en FALC
+  title: Éducation aux droits humains - Projet éducatif en FALC
   description: Mise en forme accessible en FALC du projet éducatif d'Amnesty
     International France
   ogImg: /media/amnesty-atipy-illustration.jpg
   keywords:
     - keyword: FALC
     - keyword: langage clair
-title: Amnesty Éducation aux droits humains - Projet éducatif en FALC
+title: Éducation aux droits humains - Projet éducatif en FALC
 image:
   url: /media/amnesty-atipy-illustration.jpg
 project_client: amnesty-international
