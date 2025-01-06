@@ -5,7 +5,6 @@ import { siteOrigin } from '@/lib/constants';
 import { HeaderPage } from '@/components/layout/HeaderPage';
 import { Page } from '@/components/layout/Page';
 import { AllProjects } from '@/components/sections/projects/AllProjects';
-import { ProjectsFeatured } from '@/components/sections/projects/ProjectsFeatured';
 
 import {
   getProjectsMetadata,
