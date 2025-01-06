@@ -9,7 +9,6 @@ import { WrapperScrollToTop } from './WrapperScrollToTop';
 export default function Main({ children }: { children: ReactNode }) {
   return (
     <main
-      id='top'
       role='main'
       className='tl relative w-full !mt-[72px] md:!mt-[112px] overflow-x-hidden bg-white dark:bg-black'
     >
