@@ -51,12 +51,14 @@ export default function Realisations() {
               url: '/realisations',
             }}
           />
+          {/*
           {!!data.projectsFeatured.length && (
             <ProjectsFeatured
               data={data.projectsFeatured}
               title='Projets à la une…'
             />
           )}
+          */}
           <AllProjects />
         </>
       )}

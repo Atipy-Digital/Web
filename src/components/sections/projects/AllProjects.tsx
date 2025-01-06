@@ -51,11 +51,14 @@ export const AllProjects = () => {
 
   return (
     <section className='tl mb-14 md:mb-16 lg:mb-20 xl:mb-24'>
+
+      {/*
       <Box className='tl px-0 md:px-fluid relative w-full test'>
         <h2 className='h4 mb-8 md:mb-10 lg:mb-14 w-full text-center font-bold'>
           Toutes nos réalisations
         </h2>
       </Box>
+      */}
 
       <div className='w-full flex flex-col lg:flex-row justify-between shadow-project-filter px-4 md:px-fluid'>
         <div className='mx-auto px-0 md:px-fluid'>
