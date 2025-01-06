@@ -59,7 +59,7 @@ export const ToggleTheme = () => {
           <AtipyIcon
             type={isDark ? ATIPY_ICON.MOON : ATIPY_ICON.SUN}
             className='w-[18px] lg:w-[24px]'
-            isInformative
+            isDecorative
           />
         </motion.span>
 
@@ -72,7 +72,7 @@ export const ToggleTheme = () => {
           <AtipyIcon
             type={ATIPY_ICON.MOON}
             className='w-[18px] lg:w-[24px]'
-            isInformative
+            isDecorative
           />
         </span>
         <span
@@ -84,7 +84,7 @@ export const ToggleTheme = () => {
           <AtipyIcon
             type={ATIPY_ICON.SUN}
             className='w-[18px] lg:w-[24px]'
-            isInformative
+            isDecorative
           />
         </span>
       </motion.button>
