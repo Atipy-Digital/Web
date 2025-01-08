@@ -281,7 +281,7 @@ post_sections:
       reverseMobile: false
       text:
         content: >-
-          **Exemple d’un carte où l’information n’est transmise que par la
+          **Exemple d’une carte où l’information n’est transmise que par la
           couleur, et sur laquelle la légende est détachée du visuel.**
 
 
