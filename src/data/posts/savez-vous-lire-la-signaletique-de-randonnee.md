@@ -115,7 +115,7 @@ post_sections:
         url: /media/post-4.png
         ariaHidden: false
         alt: Tableau récapitulant les différents types de balisage en fonction du type
-          de sentier et de la direction à suivre. Une mauvaise direction est
+          du sentier et de la direction à suivre. Une mauvaise direction est
           symbolisée par une croix.
     col2:
       reverseMobile: false
