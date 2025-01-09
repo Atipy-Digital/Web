@@ -15,11 +15,23 @@ export default function Footer({ data }: Props) {
       role='contentinfo'
       className='w-full border-t border-t-current relative z-[6] bg-white dark:bg-background'
     >
+
       <div className='w-full flex items-center flex-col justify-between h-full'>
-        <div className='tl px-fluid flex flex-col md:flex-row items-center justify-between flex-grow w-full gap-y-6 md:gap-y-0 !py-4 lg:!py-6 xl:!py-8'>
-          <FooterMenuText {...data.menuText1} />
-          <FooterMenuText {...data.menuText2} />
-          <FooterMenuSocial {...data.menuSocial} />
+        <h2 className="visually-hidden">Pied de page</h2>
+        <div
+          className='tl px-fluid flex flex-col md:flex-row items-center justify-between flex-grow w-full gap-y-6 md:gap-y-0 !py-4 lg:!py-6 xl:!py-8'>
+          <div>
+            <h3 className="visually-hidden">Liens utiles</h3>
+            <FooterMenuText {...data.menuText1} />
+          </div>
+          <div>
+            <h3 className="visually-hidden">Contact</h3>
+            <FooterMenuText {...data.menuText2} />
+          </div>
+          <div>
+            <h3 className="visually-hidden">Réseaux sociaux</h3>
+            <FooterMenuSocial {...data.menuSocial} />
+          </div>
         </div>
 
         <div className='px-fluid md:bg-background w-full'>
