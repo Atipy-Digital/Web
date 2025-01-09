@@ -45,11 +45,12 @@ export const InputController = <FieldsType extends FieldValues>({
   autocomplete,
 }: Props<FieldsType>) => {
   const isInvalid = error != null;
-  const errorId = `erreur sur le champs ${name}`;
+  const errorId = `error_${name}`;
+  const errorMessage = error?.message;
   return (
     <div className={clsxm('flex flex-col gap-1 mb-6', containerClassName)}>
       {label != null && (
-        <label htmlFor={`input-${name}`} className='text-body1'>
+        <label htmlFor={name} className='text-body1'>
           {label}
         </label>
       )}
@@ -66,7 +67,7 @@ export const InputController = <FieldsType extends FieldValues>({
                 onChange={onChange}
                 className={clsxm(
                   'border border-grey-400 appearance-none focus:!border-offwhite-150 focus:ring-0 active:decoration-0 active:ring-0 transition-all duration-300',
-                  'w-full rounded-md bg-grey-bg-form placeholder:text-grey-t-form text-[16px] placeholder:text-[16px]',
+                  'w-full rounded-md bg-grey-bg-form placeholder:text-black text-[16px] placeholder:text-[16px]',
                   'lg:text-[18px] lg:placeholder:text-[18px]',
                   'p-3',
                   isInvalid
@@ -77,7 +78,8 @@ export const InputController = <FieldsType extends FieldValues>({
                 )}
                 rows={6}
                 autoComplete={autocomplete}
-                id={` ${name}`}
+                id={`${name}`}
+                aria-invalid={isInvalid}
                 aria-describedby={isInvalid ? errorId : undefined}
               />
             ) : (
@@ -89,7 +91,7 @@ export const InputController = <FieldsType extends FieldValues>({
                 onChange={onChange}
                 className={clsxm(
                   'appearance-none focus:!border-offwhite-150 focus:ring-0 active:decoration-0 active:ring-0 transition-all duration-300',
-                  'w-full rounded-md bg-grey-bg-form placeholder:text-grey-t-form text-[16px] placeholder:text-[16px]',
+                  'w-full rounded-md bg-grey-bg-form placeholder:text-black text-[16px] placeholder:text-[16px]',
                   'lg:text-[18px] lg:placeholder:text-[18px]',
                   'p-3',
                   isInvalid
@@ -99,7 +101,8 @@ export const InputController = <FieldsType extends FieldValues>({
                   inputClassName
                 )}
                 autoComplete={autocomplete}
-                id={` ${name}`}
+                id={name}
+                aria-invalid={isInvalid}
                 aria-describedby={isInvalid ? errorId : undefined}
               />
             )}
@@ -107,15 +110,17 @@ export const InputController = <FieldsType extends FieldValues>({
         )}
         rules={rules}
       />
+      {/*
       {isInvalid && (
         <span
           id={errorId}
           className='text-a-red-dark block pt-1 text-[14px] lg:text-[16px] font-secondary leading-none dark:text-a-red-light'
           aria-invalid={true}
         >
-          {error.message}
+          {errorMessage}
         </span>
       )}
+      */}
       {children}
     </div>
   );
