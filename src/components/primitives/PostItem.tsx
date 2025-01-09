@@ -40,12 +40,7 @@ export const PostItem = ({ title, tags, timeToRead, slug }: PostType) => {
           </div>
 
           <div className='flex-shrink-0 flex items-center gap-x-2'>
-            <span className='text-body1'>{timeToRead}</span>
-            <AtipyIcon
-              type={ATIPY_ICON.CLOCK}
-              size={matchSM ? 'md' : 'lg'}
-              isInformative
-            />
+            <span className='text-body1'>Temps de lecture : {timeToRead}</span>
           </div>
         </div>
 
