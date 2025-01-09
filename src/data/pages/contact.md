@@ -5,7 +5,7 @@ form:
     label: Votre nom*
     placeholder: Nom
   input_email:
-    label: Votre adresse email*
+    label: Votre adresse email  (ex. mail@exemple.com)*
     placeholder: Email
   input_message:
     label: Votre message*
