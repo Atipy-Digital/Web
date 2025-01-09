@@ -68,6 +68,8 @@ export const ContactForm = ({ data }: Props) => {
         draggable
         pauseOnHover
         theme='colored'
+        role='alert'
+        aria-label='Notifications ⌘ + F'
       />
 
       <Box className='max-w-2xl flex flex-col items-center justify-center'>
@@ -86,10 +88,7 @@ export const ContactForm = ({ data }: Props) => {
             placeholder={data.input_name.placeholder}
             error={errors.name}
             autocomplete='name'
-            aria-invalid={errors.name ? 'true' : 'false'}
-            aria-describedby={errors.name ? 'error_name' : undefined}
           />
-          {errors.name && <span id='error_name'>{data.error_required}</span>}
 
           <InputController
             control={control}
@@ -97,20 +96,17 @@ export const ContactForm = ({ data }: Props) => {
             inputType='email'
             rules={{
               required: data.error_required,
+              pattern: {
+                value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+                message: "Veuillez saisir une adresse e-mail valide (ex. mail@exemple.com)."
+              }
             }}
             label={data.input_email.label}
             placeholder={data.input_email.placeholder}
             error={errors.email}
             autocomplete='email'
-            aria-invalid={errors.email ? 'true' : 'false'}
-            aria-describedby={errors.email ? 'error_email' : undefined}
           />
-          {errors.email && (
-            <span id='error_email'>
-              {data.error_required} Veuillez saisir une adresse e-mail valide.
-              Par exemple mail@exemple.com.
-            </span>
-          )}
+
 
           <InputController
             control={control}
@@ -122,8 +118,8 @@ export const ContactForm = ({ data }: Props) => {
             label={data.input_message.label}
             placeholder={data.input_message.placeholder}
             error={errors.message}
-            autocomplete='message'
-          ></InputController>
+            autocomplete='off'
+          />
 
           <Button
             disabled={!isValid}
