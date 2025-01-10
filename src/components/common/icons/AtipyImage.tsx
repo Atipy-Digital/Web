@@ -21,7 +21,8 @@ export const AtipyImage: React.FC<AtipyImageProps> = ({
     console.warn(
       'AtipyImage cannot be both informative and decorative. Treating as informative.'
     );
-    isDecorative = false;
+    isDecorative = true;
+    isInformative= false;
   }
 
   if (isInformative && !altText) {
@@ -42,7 +43,6 @@ export const AtipyImage: React.FC<AtipyImageProps> = ({
     <img
       className={clsxm(className)}
       alt={alt}
-      aria-hidden={isDecorative ? 'true' : undefined}
       {...(props as React.ImgHTMLAttributes<HTMLImageElement>)}
     />
   );
