@@ -7,6 +7,7 @@ export type ColSectionType = {
     alt?: string;
     ariaHidden?: boolean;
     ariaLabel?: string;
+    decorativeOrInformative?: boolean;
   };
   text?: {
     color?: 'blue' | 'red' | 'green' | 'yellow';
