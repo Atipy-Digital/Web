@@ -28,6 +28,13 @@ const tribu = {
           choose_url: false,
           allow_multiple: false,
         },
+        {
+          name: 'decorativeOrInformative',
+          label: 'Est décorative (True) ou informative (False)',
+          widget: 'boolean',
+          default: false,
+          required: false,
+        },
       ],
     },
     {
@@ -66,6 +73,13 @@ const tribu = {
           hint: '**Penser au dark mode,** format en **.webp** et renomer le fichier de type **{membre}.webp**',
           choose_url: false,
           allow_multiple: false,
+        },
+        {
+          name: 'decorativeOrInformative',
+          label: 'Est décorative ou informative (valeur par défaut : décoratif)',
+          widget: 'boolean',
+          default: false,
+          required: false,
         },
         {
           label: 'Badge',
