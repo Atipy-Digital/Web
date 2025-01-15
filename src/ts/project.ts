@@ -8,6 +8,7 @@ export type InputProjectType = {
   image: {
     url: string;
     alt?: string;
+    decorativeOrInformative?: boolean;
   };
   project_client: string;
   project_tags: string[];
@@ -29,6 +30,7 @@ export type ProjectType = {
   image: {
     url: string;
     alt?: string;
+    decorativeOrInformative?: boolean;
   };
   client: ClientType;
   tags: TagType[];
