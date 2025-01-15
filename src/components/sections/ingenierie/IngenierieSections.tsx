@@ -33,6 +33,7 @@ export const IngenierieSections = ({ data }: Props) => {
               image: {
                 url: `/imgs/ingenierie/intro-${prefixImg}.webp`,
                 className: 'max-w-[509px] object-contain',
+                decorativeOrInformative: false,
               },
             }}
             inverseCol
