@@ -44,6 +44,13 @@ const partners = {
           allow_multiple: false,
         },
         {
+          name: 'decorativeOrInformative',
+          label: 'Est décorative ou informative (valeur par défaut : décoratif)',
+          widget: 'boolean',
+          default: false,
+          required: false,
+        },
+        {
           name: 'isSingle',
           label: 'Une seule personne',
           widget: 'boolean',
