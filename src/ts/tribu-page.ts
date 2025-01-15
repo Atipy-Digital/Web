@@ -1,6 +1,7 @@
 export type TribuTeamType = {
   text: string;
   image: string;
+  decorativeOrInformative: boolean;
 };
 
 export type MemberType = {
@@ -12,6 +13,7 @@ export type MemberType = {
   linkedin: string;
   name: string;
   skills: { text: string }[];
+  decorativeOrInformative: boolean;
 };
 
 export type TribuPageType = {
