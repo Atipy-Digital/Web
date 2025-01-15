@@ -32,6 +32,7 @@ export const DesignSections = ({ data }: Props) => {
               image: {
                 url: `/imgs/design/intro-${prefixImg}.webp`,
                 className: 'max-w-[509px] object-contain',
+                decorativeOrInformative: false,
               },
             }}
             inverseCol
