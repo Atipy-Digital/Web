@@ -23,11 +23,22 @@ export const ProjectIntro = ({
     <Box as='section' className='sm:px2-fluid lg:px-fluid'>
       <div className='tl px-0 sm:px2-fluid lg:px-fluid relative w-full'>
         <div className='w-full'>
-          <AtipyImage
-            isDecorative
-            src={image.url}
-            className='w-full h-auto object-cover object-center rounded-[10px]'
-          />
+          {image.decorativeOrInformative === true ? (
+            <AtipyImage
+              src={image.url}
+              altText={image.alt ?? ''}
+              className='w-full h-auto object-cover object-center rounded-[10px]'
+              isDecorative={false}
+              isInformative={true}
+            />
+          ) : (
+            <AtipyImage
+              src={image.url}
+              className='w-full h-auto object-cover object-center rounded-[10px]'
+              isDecorative={true}
+              isInformative={false}
+            />
+          )}
         </div>
 
         {!!tags.length && (
@@ -52,7 +63,22 @@ export const ProjectIntro = ({
 
           {client?.logo && (
             <div className='max-w-[128px] md:max-w-[168px] lg:max-w-[205px] w-full mb-10 md:mb-0'>
-              <AtipyImage isDecorative src={client.logo} />
+              {client.decorativeOrInformative === true ? (
+                <AtipyImage
+                  src={client.logo}
+                  altText={client.name ?? 'inf'}
+                  className='w-full h-auto object-cover object-center rounded-[10px] inf'
+                  isDecorative={false}
+                  isInformative={true}
+                />
+              ) : (
+                <AtipyImage
+                  src={client.logo}
+                  className='w-full h-auto object-cover object-center rounded-[10px] dec'
+                  isDecorative={true}
+                  isInformative={false}
+                />
+              )}
             </div>
           )}
         </div>
