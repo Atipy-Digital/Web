@@ -5,12 +5,14 @@ export interface InputClientType {
   slug: string;
   name: string;
   logo?: string;
+  decorativeOrInformative?: boolean;
   client_tags: string[];
 }
 export interface ClientType {
   slug: string;
   name: string;
   logo?: string;
+  decorativeOrInformative?: boolean;
   tags: TagBusinessType[];
 }
 

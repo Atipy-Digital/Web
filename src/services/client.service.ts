@@ -21,6 +21,7 @@ export const getClients = (): ClientType[] => {
       slug,
       name: matterResult.data?.name || '',
       logo: matterResult.data?.logo,
+      decorativeOrInformative: matterResult.data?.decorativeOrInformative,
       tags,
     };
   });
@@ -33,6 +34,7 @@ export const getClient = (slug: string): ClientType => {
     slug,
     name: matterResult.data?.name || '',
     logo: matterResult.data?.logo,
+    decorativeOrInformative: matterResult.data?.decorativeOrInformative,
     tags,
   };
 };

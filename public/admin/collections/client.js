@@ -25,16 +25,11 @@ const client = {
       allow_multiple: false,
     },
     {
-      name: 'ariaHidden',
-      label: 'Aria Hidden',
-      required: false,
+      name: 'decorativeOrInformative',
+      label: 'Est décorative ou informative (valeur par défaut : décoratif)',
       widget: 'boolean',
-    },
-    {
-      name: 'ariaLabel',
-      label: 'Aria Label',
+      default: false,
       required: false,
-      widget: 'string',
     },
     {
       label: 'Tag',
