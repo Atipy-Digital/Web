@@ -110,6 +110,13 @@ const contact = {
               name: 'url',
               widget: 'string',
             },
+            {
+              name: 'decorativeOrInformative',
+              label: 'Est décorative ou informative (valeur par défaut : décoratif)',
+              widget: 'boolean',
+              default: false,
+              required: false,
+            },
           ],
         },
       ],

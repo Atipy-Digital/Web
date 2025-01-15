@@ -14,6 +14,7 @@ export type ContactFormType = {
 export type ContactLinkType = {
   type: 'instagram' | 'linkedin' | 'twitter';
   url: string;
+  decorativeOrInformative?: boolean;
 };
 
 export type ContactSocialsType = {
