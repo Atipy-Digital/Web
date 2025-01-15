@@ -19,22 +19,10 @@ export const AtipyImage: React.FC<AtipyImageProps> = ({
 }) => {
   if (isInformative && isDecorative) {
     console.warn(
-      'AtipyImage cannot be both informative and decorative. Treating as informative.'
+      'AtipyImage ne peut pas être à la fois informatif et décoratif. Il sera traité comme décoratif.'
     );
+    isInformative = false;
     isDecorative = true;
-    isInformative= false;
-  }
-
-  if (isInformative && !altText) {
-    console.warn(
-      'Informative image should have an altText. Please provide a description.'
-    );
-  }
-
-  if (!isInformative && altText) {
-    console.warn(
-      'altText provided for a non-informative image will be ignored.'
-    );
   }
 
   const alt = isInformative ? altText : '';
