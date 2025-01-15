@@ -4,6 +4,8 @@ import ReactMarkdown from 'react-markdown';
 
 import clsxm from '@/lib/clsxm';
 
+import { AtipyImage } from "@/components/common/icons/AtipyImage";
+
 import { ColSectionType, SectionType } from '@/ts';
 
 interface SectionProps extends Omit<SectionType, 'col1' | 'col2' | 'col3'> {
@@ -80,12 +82,22 @@ const Col = ({ text, image, reverseMobile, pClassName }: ColProps) => {
       )}
       {image && image?.url && (
         <figure className='block w-full'>
-          <img
-            src={image.url}
-            alt={image.alt ?? image.legend ?? ''}
-            className={clsxm('rounded-[10px] w-full h-auto', image?.className)}
-            aria-hidden={image.ariaHidden ?? false}
-          />
+          {image.decorativeOrInformative === true ? (
+            <AtipyImage
+              src={image.url}
+              altText={image.alt ?? image.legend ?? ''}
+              className={clsxm('rounded-[10px] w-full h-auto inf', image?.className)}
+              isDecorative={false}
+              isInformative={true}
+            />
+          ) : (
+            <AtipyImage
+              src={image.url}
+              className={clsxm('rounded-[10px] w-full h-auto dec', image?.className)}
+              isDecorative={true}
+              isInformative={false}
+            />
+          )}
           {image?.legend && (
             <legend className='text-grey-110 text-[16px] lg:text-[18px] my-2 dark:text-grey-100'>
               {image.legend}
