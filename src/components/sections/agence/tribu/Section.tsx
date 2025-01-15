@@ -17,7 +17,7 @@ type Props = {
 
 type SectionProps = {
   text: string;
-  img?: { url: string; alt: string };
+  img?: { url: string; alt: string;decorativeOrInformative?: boolean;};
   imgClassName?: string;
   textClassName?: string;
   reverse?: boolean;
@@ -39,16 +39,33 @@ const Section = ({
     )}
   >
     {img && (
-      <div>
-        <AtipyImage
-          isDecorative
-          src={img.url}
-          className={clsxm(
-            'w-full h-auto rounded-[10px] object-contain',
-            imgClassName
-          )}
-        />
-      </div>
+      img.decorativeOrInformative ? (
+        // Image informative
+        <div className="relative">
+          <AtipyImage
+            src={img.url}
+            altText={img.alt}
+            className={clsxm(
+              'object-contain w-full h-full absolute inset-0',
+              imgClassName
+            )}
+            isInformative
+            isDecorative={false}
+          />
+        </div>
+      ) : (
+        // Image décorative
+        <div className="relative">
+          <AtipyImage
+            src={img.url}
+            className={clsxm(
+              'object-contain w-full h-full absolute inset-0',
+              imgClassName
+            )}
+            isDecorative
+          />
+        </div>
+      )
     )}
 
     <div
@@ -83,6 +100,7 @@ export const TribuSection = ({ data }: Props) => {
         img={{
           url: data.team.image,
           alt: "l'équipe de Atipy",
+          decorativeOrInformative: data.team.decorativeOrInformative
         }}
         textClassName='md:justify-center'
         reverse
@@ -92,6 +110,7 @@ export const TribuSection = ({ data }: Props) => {
         img={{
           url: `/imgs/tribu/particularite-${prefixImg}-tribu.webp`,
           alt: 'la particularité',
+          decorativeOrInformative: data.team.decorativeOrInformative
         }}
         textClassName='md:justify-center'
         imgClassName='!w-auto !h-full max-h-[288px]'
