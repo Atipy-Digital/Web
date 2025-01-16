@@ -35,6 +35,7 @@ post_sections:
         alt: Emojis représentant 12 visages de personnages non genrés de couleurs de
           peaux et de cheveux différents.
         ariaHidden: false
+        decorativeOrInformative: true
     col2:
       reverseMobile: false
     col3:
@@ -105,6 +106,7 @@ post_sections:
         alt: Ensemble de smiley jaunes avec différentes expressions. La partie droite de
           l'image est floutée et on se rend qu'on a du mal à distinguer les
           différentes expressions.
+        decorativeOrInformative: true
       text:
         content: >-
           #### Emojis et déficience visuelle
