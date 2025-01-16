@@ -103,6 +103,7 @@ post_sections:
         alt: A gauche, deux pictogrammes cote à cote représentent un chat et un coq. Sur
           l'image de droite, deux pictogrammes positionnés sur une plaque de
           porte représentent une vis et un boulon.
+        decorativeOrInformative: true
     col2:
       reverseMobile: false
     col3:
@@ -120,6 +121,7 @@ post_sections:
           représente deux yeux et une moustache et l'autre représente deux yeux
           et des sourcils. Sur l'image de droite, on voit deux batons blancs
           avec une tete au dessus.
+        decorativeOrInformative: true
     col2:
       reverseMobile: false
     col3:
