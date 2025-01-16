@@ -213,8 +213,11 @@ post_sections:
         url: /media/pictogramme_toilettes_accessibilite_genre_sexisme-3.jpg
         legend: ""
         ariaHidden: false
-        alt: Deux portes de toilettes. Sur l'une est écrit "BLA". Sur l'autre est écrite
-          "blablablablablablabla"
+        alt: "Image de gauche : Deux portes de toilettes. Sur l'une est écrit \"BLA\".
+          Sur l'autre est écrite \"blablablablablablabla\" Image de droite : Sur
+          un mur, une flèche à gauche avec écrit “Men to the left because.” Une
+          flèche à droite avec écrit : “Women are always right.”"
+        decorativeOrInformative: true
     col2:
       reverseMobile: false
     col3:
