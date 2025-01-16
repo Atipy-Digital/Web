@@ -1,10 +1,11 @@
 ---
 display_realisations:
+  - realisation: signaletique-du-ministere-des-affaires-etrangeres
   - realisation: adap-pour-les-necropoles-nationales
+  - realisation: amnesty-education-aux-droits-humains-projet-educatif-en-falc
   - realisation: amo-global-pour-la-mise-en-accessibilite-du-patrimoine
   - realisation: accompagnement-du-service-education-aux-droits-humains-dans-la-mise-en-place-d-une-strategie-globale-d-accessibilite-et-d-inclusion-des-outils-de-communication
   - realisation: diagnostic-accessibilite-et-adap-du-ministere-des-armees
-  - realisation: charte-signale-tique-accessible-pour-les-itine-raires-velo
   - realisation: document-falc
   - realisation: maitrise-d-oeuvre-pour-la-mise-en-accessibilite-erp-de-la-ville-de-paris-12eme
   - realisation: conception-de-la-signaletique-inclusive-du-stade-pierre-de-coubertin
@@ -15,7 +16,6 @@ display_realisations:
   - realisation: mission-d-assistance-a-maitrise-douvrage-pour-la-mise-en-accessibilite-d-erp
   - realisation: laser-emploi-outils-pour-un-public-allophone
   - realisation: etude-pour-la-signaletique-patrimoniale-de-rennes-metropole
-  - realisation: diagnostic-des-points-d-arrets-routiers
   - realisation: signaletique-de-la-treso-tiers-lieu
   - realisation: un-livret-en-falc-pour-mieux-manger
   - realisation: releve-des-non-conformites-sur-les-escaliers-du-metro-lyonnais
@@ -26,5 +26,6 @@ display_realisations:
   - realisation: amo-accessibilite-des-erp-pour-la-ville-de-paris
   - realisation: signaletique-du-camsp-paris-nord
   - realisation: releves-d-accessibilite-region-grand-est
+  - realisation: signaletique-accessibles-des-etablissements-culturels-de-clichy
   - realisation: signaletique-accessibles-des-etablissements-culturels-de-clichy
 ---

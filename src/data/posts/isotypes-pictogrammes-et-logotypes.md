@@ -48,11 +48,8 @@ post_sections:
           isotype ?"
       image:
         url: /media/pictogrammes_atipy_isotypes_2.jpg
-        alt: A gauche, un isotype. Il s'agit d'une personnage homme dans un style
-          graphique un peu rétro. Au milieu, un pictogramme homme comme ceux que
-          l'on peut trouver sur les portes des toilettes. A droite, le logo de
-          Johnny Walker qui représente un homme qui marche dans un style anglais
-          un peu rétro.
+        alt: A droite, un logo celui de Johnny Walker, qui représente un homme qui
+          marche dans un style anglais un peu rétro.
         ariaHidden: false
     col2:
       reverseMobile: false

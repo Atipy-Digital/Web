@@ -116,7 +116,7 @@ post_sections:
         url: /media/pictogramme_toilettes_accessibilite_genre_sexisme.jpg
         legend: ""
         ariaHidden: false
-        alt: A gauche, deux pictogrammes sont positionnés sur deux portes blanche. L'un
+        alt: A gauche, deux pictogrammes sont positionnés sur deux portes blanches. L'un
           représente deux yeux et une moustache et l'autre représente deux yeux
           et des sourcils. Sur l'image de droite, on voit deux batons blancs
           avec une tete au dessus.

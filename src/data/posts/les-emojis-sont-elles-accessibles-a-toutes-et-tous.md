@@ -32,8 +32,8 @@ post_sections:
       image:
         url: /media/emojis_apple_accessibilite_atipy.jpeg
         legend: ""
-        alt: Emojis représentant 12 visages d'hommes et de femmes de couleurs de peaux
-          et de cheveux différentes.
+        alt: Emojis représentant 12 visages de personnages non genrés de couleurs de
+          peaux et de cheveux différents.
         ariaHidden: false
     col2:
       reverseMobile: false
