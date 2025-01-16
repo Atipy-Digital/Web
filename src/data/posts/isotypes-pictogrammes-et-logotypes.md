@@ -51,6 +51,7 @@ post_sections:
         alt: A droite, un logo celui de Johnny Walker, qui représente un homme qui
           marche dans un style anglais un peu rétro.
         ariaHidden: false
+        decorativeOrInformative: true
     col2:
       reverseMobile: false
     col3:
