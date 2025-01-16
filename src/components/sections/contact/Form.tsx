@@ -98,15 +98,15 @@ export const ContactForm = ({ data }: Props) => {
               required: data.error_required,
               pattern: {
                 value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-                message: "Veuillez saisir une adresse e-mail valide (ex. mail@exemple.com)."
-              }
+                message:
+                  'Veuillez saisir une adresse e-mail valide (ex. mail@exemple.com).',
+              },
             }}
             label={data.input_email.label}
             placeholder={data.input_email.placeholder}
             error={errors.email}
             autocomplete='email'
           />
-
 
           <InputController
             control={control}

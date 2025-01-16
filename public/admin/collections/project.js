@@ -38,7 +38,8 @@ const project = {
         },
         {
           name: 'decorativeOrInformative',
-          label: 'Est décorative ou informative (valeur par défaut : décoratif)',
+          label:
+            'Est décorative ou informative (valeur par défaut : décoratif)',
           widget: 'boolean',
           default: false,
           required: false,

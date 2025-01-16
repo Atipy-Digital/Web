@@ -2,16 +2,14 @@
 
 import { useRouter } from 'next/navigation';
 
-import { MEDIA_QUERY, useMediaQuery } from '@/hooks/use-media';
-
+//import { MEDIA_QUERY, useMediaQuery } from '@/hooks/use-media';
 import { MarkdownText } from './MarkdownText';
 import { Tag } from './Tag';
-import { ATIPY_ICON, AtipyIcon } from '../common/icons/AtipyIcon';
 
 import type { PostType } from '@/ts';
 
 export const PostItem = ({ title, tags, timeToRead, slug }: PostType) => {
-  const matchSM = useMediaQuery(MEDIA_QUERY.SM);
+  // const matchSM = useMediaQuery(MEDIA_QUERY.SM);
   const router = useRouter();
 
   return (
