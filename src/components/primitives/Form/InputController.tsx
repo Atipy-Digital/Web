@@ -46,7 +46,7 @@ export const InputController = <FieldsType extends FieldValues>({
 }: Props<FieldsType>) => {
   const isInvalid = error != null;
   const errorId = `error_${name}`;
-  const errorMessage = error?.message;
+  // const errorMessage = error?.message;
   return (
     <div className={clsxm('flex flex-col gap-1 mb-6', containerClassName)}>
       {label != null && (

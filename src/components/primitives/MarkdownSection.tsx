@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 
 import clsxm from '@/lib/clsxm';
 
-import { AtipyImage } from "@/components/common/icons/AtipyImage";
+import { AtipyImage } from '@/components/common/icons/AtipyImage';
 
 import { ColSectionType, SectionType } from '@/ts';
 
@@ -86,14 +86,20 @@ const Col = ({ text, image, reverseMobile, pClassName }: ColProps) => {
             <AtipyImage
               src={image.url}
               altText={image.alt ?? image.legend ?? ''}
-              className={clsxm('rounded-[10px] w-full h-auto inf', image?.className)}
+              className={clsxm(
+                'rounded-[10px] w-full h-auto inf',
+                image?.className
+              )}
               isDecorative={false}
               isInformative={true}
             />
           ) : (
             <AtipyImage
               src={image.url}
-              className={clsxm('rounded-[10px] w-full h-auto dec', image?.className)}
+              className={clsxm(
+                'rounded-[10px] w-full h-auto dec',
+                image?.className
+              )}
               isDecorative={true}
               isInformative={false}
             />

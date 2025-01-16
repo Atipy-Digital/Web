@@ -40,7 +40,7 @@ export const PartnerItem = ({
   collaborate,
   projects,
   isSingle,
-  decorativeOrInformative
+  decorativeOrInformative,
 }: PartnerType) => {
   const [activeTab, setActiveTab] = useState<PARTNER_TAB>(PARTNER_TAB.ABOUT_US);
 
@@ -56,21 +56,21 @@ export const PartnerItem = ({
             'shadow-a-yellow-dark dark:shadow-a-yellow-light'
           )}
         >
-          {decorativeOrInformative ?
-              <AtipyImage
-                src={logo}
-                altText={name}
-                className='object-contain w-full h-full absolute inset-0'
-                isDecorative={false}
-                isInformative
-              />
-            :
-              <AtipyImage
-                src={logo}
-                className='object-contain w-full h-full absolute inset-0'
-                isDecorative
-              />
-          }
+          {decorativeOrInformative ? (
+            <AtipyImage
+              src={logo}
+              altText={name}
+              className='object-contain w-full h-full absolute inset-0'
+              isDecorative={false}
+              isInformative
+            />
+          ) : (
+            <AtipyImage
+              src={logo}
+              className='object-contain w-full h-full absolute inset-0'
+              isDecorative
+            />
+          )}
         </div>
         <div className='w-full flex flex-col'>
           <div className='flex justify-between flex-col md:flex-row w-full md:border-b border-b-current'>
