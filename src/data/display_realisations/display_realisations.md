@@ -21,7 +21,6 @@ display_realisations:
   - realisation: releve-des-non-conformites-sur-les-escaliers-du-metro-lyonnais
   - realisation: amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
   - realisation: signaletique-du-pole-dechanges-multimodal
-  - realisation: signaletique-du-pole-dechanges-multimodal
   - realisation: signaletique-dorientation-accessible-et-facile-a-comprendre
   - realisation: amo-accessibilite-des-erp-pour-la-ville-de-paris
   - realisation: signaletique-du-camsp-paris-nord
