@@ -15,7 +15,7 @@ export const FooterMenuText = (data: FooterMenuTextType) => {
           <li key={`link1-${nanoid(7)}`}>
             <Link
               href={link1.url}
-              className='flex items-center gap-x-4 lg:gap-x-7 link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
+              className='link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
             >
               {link1.label}
             </Link>
@@ -23,7 +23,7 @@ export const FooterMenuText = (data: FooterMenuTextType) => {
           <li key={`link2-${nanoid(7)}`}>
             <Link
               href={link2.url}
-              className='flex items-center gap-x-4 lg:gap-x-7 link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
+              className='link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
             >
               {link2.label}
             </Link>
@@ -31,7 +31,7 @@ export const FooterMenuText = (data: FooterMenuTextType) => {
           <li key={`link3-${nanoid(7)}`}>
             <Link
               href={link3.url}
-              className='flex items-center gap-x-4 lg:gap-x-7 link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
+              className='link-hover tl font-secondary text-[16px] md:text-[18px] lg:text-[20px]'
             >
               {link3.label}
             </Link>
