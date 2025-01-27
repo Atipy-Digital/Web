@@ -8,9 +8,10 @@ introData:
   title: Nous mettons à votre disposition nos compétences en
     ***[accessibilité](https://atipy.fr/expertises/ingenierie)*** et
     ***[conception universelle](https://atipy.fr/agence/conception)*** dans les
-    domaines du ***[digital](https://atipy.fr/expertises/digital),***
-    ***[design](https://atipy.fr/expertises/design),*** aménagement, urbanisme
-    et mobilité.
+    domaines de
+    l'[aménagement](https://www.atipy.fr/expertises/ingenierie)***,*** du
+    ***[design](https://atipy.fr/expertises/design),*** de l'urbanisme et des
+    mobilités.
   button:
     label: Nos expertises
     url: /expertises
