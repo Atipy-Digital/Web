@@ -75,6 +75,18 @@ sections:
           Caisse des Dépôts
 
 
+          Agglopolys
+
+
+          Annemasse Agglo
+
+
+          La Cali
+
+
+          Le Pays Barrois
+
+
           ### **Départements et Régions**
 
 
@@ -88,18 +100,6 @@ sections:
 
 
           Région Bretagne
-
-
-          Agglopolys
-
-
-          Annemasse Agglo
-
-
-          La Cali
-
-
-          Le Pays Barrois
 
 
           ### Ministères
