@@ -87,7 +87,7 @@ sections:
           Le Pays Barrois
 
 
-          ### **Départements et Régions**
+          ## **Départements et Régions**
 
 
           Département Pyrénées Atlantique
@@ -102,7 +102,7 @@ sections:
           Région Bretagne
 
 
-          ### Ministères
+          ## Ministères
 
 
           Ministère de l’Intérieur
@@ -120,7 +120,7 @@ sections:
           Préfecture de la Région hauts de France
 
 
-          ### **Espaces Naturels**
+          ## **Espaces Naturels**
 
 
           P﻿arc Naturel Régional du Haut Languedoc
