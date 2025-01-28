@@ -8,7 +8,7 @@ sections:
       reverseMobile: false
       text:
         content: >-
-          ### Villes, Communauté de Communes, Communauté d’Agglomération,
+          ## Villes, Communauté de Communes, Communauté d’Agglomération,
           Communauté Urbaine
 
 
