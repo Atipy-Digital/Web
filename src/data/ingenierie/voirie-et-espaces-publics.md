@@ -29,8 +29,9 @@ sections:
         content: ""
       image:
         url: /media/photo_voirie_espace_public.jpg
-        alt: "Exemple d'un relevé PAVE : vue du plan d'une ville avec des points de
-          relevés de couleurs rouge, noir ou jaune."
+        alt: 3 collaborateurs Atipy portant un gillet jaune de sécurité estampillé Atipy
+          au niveau d'un passage piéton et voie cyclable. Deux des
+          collaborateurs Atipy tiennent un niveau à bulle.
         ariaHidden: true
     col2:
       reverseMobile: false
