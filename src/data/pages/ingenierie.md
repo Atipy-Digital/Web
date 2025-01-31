@@ -86,7 +86,9 @@ sections:
       image:
         url: /media/photo_equipe_experimentee.jpg
         ariaHidden: true
-        alt: Enfilade de gaines métalliques positionnées sous un plafond
+        alt: Un homme sur le passage piéton d'un pont avec un gilet jaune estampillé
+          Atipy. L'homme tient dans sa main un niveau à bulle. A sa gauche, une
+          piste cyclable.
     col3:
       reverseMobile: false
 ---
