@@ -25,7 +25,7 @@ sections:
       text:
         content: ""
       image:
-        url: /media/photo_concertation.jpg
+        url: /media/photo_concertation_1920x1040.jpg
         alt: "Photo en noir et blanc d'un groupe de personne sur un passage piéton. Le
           plan est serré, on ne voit que les jambes de 4 personnes. A droite,
           l'une de ces personnes tient une canne blanche, elle est accompagné
