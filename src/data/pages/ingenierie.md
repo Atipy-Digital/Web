@@ -84,7 +84,7 @@ sections:
       text:
         content: ""
       image:
-        url: /media/releve-multitechnique-atipy.jpg
+        url: /media/photo_equipe_experimentee.jpg
         ariaHidden: true
         alt: Enfilade de gaines métalliques positionnées sous un plafond
     col3:
