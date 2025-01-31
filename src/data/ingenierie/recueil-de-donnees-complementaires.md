@@ -92,7 +92,7 @@ sections:
       text:
         content: ""
       image:
-        url: /media/photo_releve.jpg
+        url: /media/photo_releve_120x1600.jpg
         alt: "Personnes tenant des tablettes tactiles et mobiles. Sur l'écran des
           supports numériques, des plans pour faire un relevé. "
         ariaHidden: true
