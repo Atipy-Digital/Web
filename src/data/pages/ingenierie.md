@@ -84,7 +84,7 @@ sections:
       text:
         content: ""
       image:
-        url: /media/photo_equipe_experimentee.jpg
+        url: /media/photo_equipe_experimentee_1920x1200.jpg
         ariaHidden: true
         alt: Un homme sur le passage piéton d'un pont avec un gilet jaune estampillé
           Atipy. L'homme tient dans sa main un niveau à bulle. A sa gauche, une
