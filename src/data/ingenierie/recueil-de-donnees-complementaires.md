@@ -92,8 +92,9 @@ sections:
       text:
         content: ""
       image:
-        url: /media/releve-multitechnique-atipy.jpg
-        alt: Gaines métallique en enfilade sous un plafond.
+        url: /media/photo_releve.jpg
+        alt: "Vue en plongée de personnes tenant des tablettes et mobiles. Sur l'écran
+          des supports numériques, des plans pour faire un relevé. "
         ariaHidden: true
     col3:
       reverseMobile: false
