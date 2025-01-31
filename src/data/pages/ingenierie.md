@@ -14,10 +14,10 @@ sections:
       text:
         content: ""
       image:
-        url: /media/concertation-handicap-association-atipy-2.jpg
+        url: /media/photo_page_ingenierie.jpg
         ariaHidden: true
-        alt: Une personne est assise dans un fauteuil roulant dont on voit le bas des
-          roues. A gauche se trouve une personne debout.
+        alt: En premier plan, une personne est assise dans un fauteuil roulant. Face à
+          elle, l'entrée de l'accueil d'un bâtiment.
     col2:
       reverseMobile: false
     col3:
