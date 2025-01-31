@@ -28,7 +28,7 @@ sections:
       text:
         content: ""
       image:
-        url: /media/pave-atipy.jpg
+        url: /media/photo_voirie_espace_public.jpg
         alt: "Exemple d'un relevé PAVE : vue du plan d'une ville avec des points de
           relevés de couleurs rouge, noir ou jaune."
         ariaHidden: true
