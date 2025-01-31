@@ -94,7 +94,7 @@ export const ExpertiseCard = ({
         />
         <h3 className='h3-card'>{title}</h3>
       </header>
-      <main className='flex-grow pt-8 pb-6 xl:pt-10'>
+      <section className='flex-grow pt-8 pb-6 xl:pt-10'>
         <ReactMarkdown
           components={{
             p: ({ children }) => (
@@ -106,7 +106,7 @@ export const ExpertiseCard = ({
         >
           {body}
         </ReactMarkdown>
-      </main>
+      </section>
       <footer className='mt-4 sm:mt-0'>
         <Button onClick={onClick} icon className={clsxm('tl w-fit', sCardBtn)}>
           {button.label}

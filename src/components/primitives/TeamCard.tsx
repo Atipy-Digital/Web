@@ -38,7 +38,7 @@ export const TeamCard = ({
           />
         )}
       </figure>
-      <main className='pt-4'>
+      <div className='pt-4'>
         <div className='flex items-center justify-between'>
           <Tag
             color={badge.color}
@@ -58,7 +58,7 @@ export const TeamCard = ({
             <AtipyIcon isInformative type={ATIPY_ICON.LINKEDIN} />
           </a>
         </div>
-      </main>
+      </div>
 
       <footer className='pb-4'>
         <p className='mt-4 mb-1 text-body1 font-bold'>{name}</p>

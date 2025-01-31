@@ -35,7 +35,7 @@ export const ProjectCard = ({ slug, title, image, tags, client }: Props) => {
           className='absolute w-full h-full object-cover'
         />
       </figure>
-      <main className='pt-4 pb-2'>
+      <div className='pt-4 pb-2'>
         <div className='w-full flex items-center gap-3 pb-3 flex-wrap'>
           {tags.map((tag) => (
             <Tag
@@ -50,7 +50,7 @@ export const ProjectCard = ({ slug, title, image, tags, client }: Props) => {
           <p className='text-body1 font-bold'>{title}</p>
         </div>
         <p className='text-body1'>{client.name}</p>
-      </main>
+      </div>
       <footer className='mt-auto'>
         <p className='underline sm:no-underline text-body1 link-hover-small w-fit'>
           Lire la suite
