@@ -14,7 +14,7 @@ sections:
       text:
         content: ""
       image:
-        url: /media/photo_page_ingenierie.jpg
+        url: /media/photo_page_ingenierie_1920x1040.jpg
         ariaHidden: true
         alt: En premier plan, une personne est assise dans un fauteuil roulant. Face à
           elle, l'entrée de l'accueil d'un bâtiment.
