@@ -25,11 +25,11 @@ sections:
       text:
         content: ""
       image:
-        url: /media/offer-w-access-concertation.png
-        alt: A gauche, un groupe de 6 personnes est réuni dans la rue. L'une d'elle est
-          utilisatrice d'une canne blanche, l'un d'eux est utilisateur de
-          fauteuil roulant. A droite, on voit une personne en fauteuil roulant
-          traverser la rue sur une passage piéton.
+        url: /media/photo_concertation.jpg
+        alt: "Photo en noir et blanc d'un groupe de personne sur un passage piéton. Le
+          plan est serré, on ne voit que les jambes de 4 personnes. A droite,
+          l'une de ces personnes tient une canne blanche, elle est accompagné
+          d'un aidant. Une autre personne est en fauteuil roulant. "
         ariaHidden: true
     col2:
       reverseMobile: false
