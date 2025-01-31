@@ -25,10 +25,11 @@ sections:
       text:
         content: ""
       image:
-        url: /media/offer-w-access-mobilite_actives.jpg
+        url: /media/photo_voirie_espace_public.jpg
         ariaHidden: true
-        alt: Vue sur une rivière avec de la verdure autour. Un sentier longe la rivière
-          et une personne en fauteuil roulant s'y engage.
+        alt: 3 collaborateurs Atipy portant un gillet jaune de sécurité estampillé Atipy
+          au niveau d'un passage piéton et voie cyclable. Deux des
+          collaborateurs Atipy tiennent un niveau à bulle.
     col2:
       reverseMobile: false
     col3:
