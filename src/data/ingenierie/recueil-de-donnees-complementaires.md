@@ -93,8 +93,8 @@ sections:
         content: ""
       image:
         url: /media/photo_releve.jpg
-        alt: "Vue en plongée de personnes tenant des tablettes et mobiles. Sur l'écran
-          des supports numériques, des plans pour faire un relevé. "
+        alt: "Personnes tenant des tablettes tactiles et mobiles. Sur l'écran des
+          supports numériques, des plans pour faire un relevé. "
         ariaHidden: true
     col3:
       reverseMobile: false
