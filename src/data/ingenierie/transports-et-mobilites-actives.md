@@ -25,7 +25,7 @@ sections:
       text:
         content: ""
       image:
-        url: /media/photo_voirie_espace_public.jpg
+        url: /media/photo_voirie_espace_public_1920x1040.jpg
         ariaHidden: true
         alt: 3 collaborateurs Atipy portant un gillet jaune de sécurité estampillé Atipy
           au niveau d'un passage piéton et voie cyclable. Deux des
