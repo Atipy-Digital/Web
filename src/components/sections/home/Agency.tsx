@@ -1,7 +1,5 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
-
 import { useTheme } from '@/hooks/use-theme';
 
 import { Box } from '@/components/common/Box';
@@ -20,7 +18,6 @@ type Props = {
 export const Agency = ({ data }: Props) => {
   const setOpenModalEngage = useAppStore((s) => s.setOpenModalEngage);
   const { prefixImg } = useTheme();
-  const router = useRouter();
 
   return (
     <Box as='section' className='tl mb-14 md:mb-16 lg:mb-20 xl:mb-24'>
@@ -41,7 +38,7 @@ export const Agency = ({ data }: Props) => {
         </div>
 
         <div className='w-full flex flex-col-reverse md:flex-row items-center gap-y-6 gap-x-10 mt-10 xl:mt-14'>
-          <Button icon onClick={() => router.push('/agence')}>
+          <Button icon href='/agence'>
             {data.buttonCta.label}
           </Button>
           <Button

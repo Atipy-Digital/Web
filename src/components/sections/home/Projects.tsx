@@ -1,7 +1,5 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
-
 import { Box } from '@/components/common/Box';
 import { Button } from '@/components/primitives/Button';
 import { MarkdownText } from '@/components/primitives/MarkdownText';
@@ -14,11 +12,6 @@ type Props = {
 };
 
 export const Projects = ({ data }: Props) => {
-  const router = useRouter();
-
-  const navigateToProjects = () => {
-    router.push('/realisations');
-  };
   return (
     <Box as='section' className='tl mb-14 md:mb-16 lg:mb-20 xl:mb-24'>
       <div className='tl sm:px-fluid md:py-fluid relative w-full'>
@@ -34,7 +27,7 @@ export const Projects = ({ data }: Props) => {
         </div>
 
         <div className='w-full flex items-center justify-center'>
-          <Button icon onClick={navigateToProjects}>
+          <Button icon href='/realisations'>
             {data.buttonCta.label}
           </Button>
         </div>

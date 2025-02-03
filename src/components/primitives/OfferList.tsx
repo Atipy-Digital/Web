@@ -1,7 +1,5 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
-
 import clsxm from '@/lib/clsxm';
 
 import { ExpertiseCard } from './ExpertiseCard';
@@ -14,8 +12,6 @@ type Props = {
 };
 
 export const OfferList = ({ data, className }: Props) => {
-  const router = useRouter();
-
   const lgGridItems = () => {
     switch (data.length) {
       case 1:
@@ -32,6 +28,21 @@ export const OfferList = ({ data, className }: Props) => {
     }
   };
 
+  const getHrefByType = (type: CARD_TYPE): string => {
+    switch (type) {
+      case CARD_TYPE.CONSEIL:
+        return '/expertises/formation';
+      case CARD_TYPE.DESIGN:
+        return '/expertises/design';
+      case CARD_TYPE.DIGITAL:
+        return '/expertises/digital';
+      case CARD_TYPE.ENGINEER:
+        return '/expertises/ingenierie';
+      default:
+        return '#';
+    }
+  };
+
   return (
     <div
       className={clsxm(
@@ -41,32 +52,14 @@ export const OfferList = ({ data, className }: Props) => {
       )}
     >
       {data.map((item) => {
-        const onClick = () => {
-          switch (item.type) {
-            case CARD_TYPE.CONSEIL:
-              router.push('/expertises/formation');
-              break;
-            case CARD_TYPE.DESIGN:
-              router.push('/expertises/design');
-              break;
-            case CARD_TYPE.DIGITAL:
-              router.push('/expertises/digital');
-              break;
-            case CARD_TYPE.ENGINEER:
-              router.push('/expertises/ingenierie');
-              break;
-
-            default:
-              break;
-          }
-        };
+        const href = getHrefByType(item.type);
 
         return (
           <ExpertiseCard
             key={`home-offer-card-${item.type}`}
             {...item}
             className='min-h-fit 2xl:min-h-[563px]'
-            onClick={onClick}
+            href={href}
           />
         );
       })}

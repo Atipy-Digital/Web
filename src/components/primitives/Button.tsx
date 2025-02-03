@@ -16,6 +16,7 @@ interface Props
   variant?: 'primary' | 'secondary' | 'blue' | 'red' | 'green' | 'yellow';
   icon?: boolean;
   noAnim?: boolean;
+  href?: string;
 }
 
 export const Button = ({
@@ -23,6 +24,7 @@ export const Button = ({
   icon = false,
   className,
   noAnim = false,
+  href,
   children,
   ...props
 }: Props) => {
@@ -54,6 +56,32 @@ export const Button = ({
   ]);
 
   const currentVariant = variants.get(variant);
+
+  if (href) {
+    return (
+      <motion.a
+        href={href}
+        className={clsxm(
+          'h-[54px] flex-shrink-0 flex items-center rounded-full px-[14px] py-[11px] text-[16px] md:text-[18px] lg:text-[20px] leading-none font-bold w-fit',
+          'disabled:cursor-not-allowed disabled:bg-grey-110 disabled:border-grey-110 disabled:text-white dark:disabled:bg-grey-110 dark:disabled:border-grey-110 dark:disabled:text-white',
+          currentVariant,
+          className
+        )}
+        whileHover={noAnim ? {} : { scale: 1.05 }}
+        whileTap={noAnim ? {} : { scale: 0.9 }}
+      >
+        {icon && (
+          <AtipyIcon
+            isDecorative
+            type={ATIPY_ICON.ARROW_LEFT}
+            size='lg'
+            className='mr-5 flex-shrink-0'
+          />
+        )}
+        <span className='text-center lg:flex-shrink-0'>{children}</span>
+      </motion.a>
+    );
+  }
 
   return (
     <motion.button

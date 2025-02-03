@@ -52,7 +52,7 @@ export const TeamCard = ({
             target='_blank'
             rel='noopener noreferrer'
             aria-hidden={false}
-            aria-label={`profil linkedin de ${name}`}
+            aria-label={`profil linkedin de ${name} (nouvelle fenêtre)`}
             className='flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-md bg-background text-white dark:bg-white dark:text-black'
           >
             <AtipyIcon isInformative type={ATIPY_ICON.LINKEDIN} />
@@ -67,7 +67,9 @@ export const TeamCard = ({
             <li
               key={`skill-${name}-${skill.text}`}
               className='tl text-[18px] md:text-[20px]'
-            >{`+ ${skill.text}`}</li>
+            >
+              <span aria-hidden='true'>+ </span> {skill.text}
+            </li>
           ))}
         </ul>
       </footer>

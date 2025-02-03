@@ -166,7 +166,6 @@ export const Newsletter = ({ data }: Props) => {
                 icon
                 className='hidden xxs:flex dark:text-white dark:bg-background hover:dark:border-black hover:dark:bg-white hover:dark:text-black [&_svg]:!mr-3 md:[&_svg]:mr-5 [&_svg]:w-4 [&_svg]:h-4 md:[&_svg]:w-8 md:[&_svg]:h-8'
                 noAnim
-                aria-hidden={true}
               >
                 {data.button.label}
               </Button>

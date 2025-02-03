@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { useRouter } from 'next/navigation';
 import React, { useMemo } from 'react';
 
 import clsxm from '@/lib/clsxm';
@@ -28,14 +27,6 @@ export const SubPageCard = ({
   title,
   isDecorative,
 }: Props) => {
-  const router = useRouter();
-
-  const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      router.push(path);
-    }
-  };
-
   const styleCard = new Map<CARD_TYPE, string>([
     [
       CARD_TYPE.ENGINEER,
@@ -93,9 +84,6 @@ export const SubPageCard = ({
         'p-2 text-center'
       )}
       href={path}
-      role='button'
-      tabIndex={0}
-      onKeyDown={handleKeyDown}
       aria-label={`Aller à ${title}`}
     >
       {IconComponent && (
@@ -103,7 +91,6 @@ export const SubPageCard = ({
           className='flex-shrink-0 h-[80px] md:h-[96px] lg:h-[128px] 2xl:h-[150px] w-auto mx-auto'
           aria-hidden={isDecorative}
           role='img'
-          aria-label=''
         />
       )}
       <div className='pb-2 lg:pb-4 xl:pb-5'>

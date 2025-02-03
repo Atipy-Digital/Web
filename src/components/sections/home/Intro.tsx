@@ -1,6 +1,5 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
 import ReactMarkdown from 'react-markdown';
 
 import { useTheme } from '@/hooks/use-theme';
@@ -17,11 +16,7 @@ type Props = {
 
 export const Intro = ({ data }: Props) => {
   const { prefixImg } = useTheme();
-  const { push } = useRouter();
 
-  const onClick = () => {
-    push(data.button.url);
-  };
   return (
     <Box as='section' id='home-intro'>
       <div className='tl sm:px-fluid md:py-fluid relative w-full flex items-center flex-col lg:flex-row'>
@@ -43,7 +38,7 @@ export const Intro = ({ data }: Props) => {
           <Button
             icon
             className='tl absolute 2xl:ml-52 flex-shrink-0'
-            onClick={onClick}
+            href={data.button.url}
           >
             {data.button.label}
           </Button>
@@ -52,7 +47,7 @@ export const Intro = ({ data }: Props) => {
         <Button
           icon
           className='flex md:hidden mt-10 tl flex-shrink-0'
-          onClick={onClick}
+          href={data.button.url}
         >
           {data.button.label}
         </Button>

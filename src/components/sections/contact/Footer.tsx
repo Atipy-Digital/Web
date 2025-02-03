@@ -37,7 +37,7 @@ export const ContactFooter = ({ socials, infos }: Props) => {
 
           return (
             <a
-              aria-label={`atipy ${link.type}`}
+              aria-label={`Visiter la page ${link.type} d'Atipy`}
               key={`contact-link-${link.type}`}
               href={link.url}
               target='_blank'
@@ -60,7 +60,11 @@ export const ContactFooter = ({ socials, infos }: Props) => {
           type={ATIPY_ICON.ENVELOP}
           size={matchesSM ? 'md' : 'xl'}
         />
-        <a href={`mailto:${infos.email}`} className='text-body1 font-secondary'>
+        <a
+          href={`mailto:${infos.email}`}
+          aria-label={`Envoyer un email à ${infos.email}`}
+          className='text-body1 font-secondary'
+        >
           {infos.email}
         </a>
       </div>

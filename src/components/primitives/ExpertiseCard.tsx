@@ -13,8 +13,8 @@ import { CARD_TYPE, type CardType } from '@/ts';
 
 interface Props extends CardType {
   size?: 'sm' | 'md';
-  onClick?: () => void;
   className?: string;
+  href?: string;
 }
 
 export const ExpertiseCard = ({
@@ -23,8 +23,8 @@ export const ExpertiseCard = ({
   title,
   body,
   button,
-  onClick,
   className,
+  href,
 }: Props) => {
   const { prefixImg } = useTheme();
   const styleCard = new Map<CARD_TYPE, string>([
@@ -108,7 +108,7 @@ export const ExpertiseCard = ({
         </ReactMarkdown>
       </section>
       <footer className='mt-4 sm:mt-0'>
-        <Button onClick={onClick} icon className={clsxm('tl w-fit', sCardBtn)}>
+        <Button href={href} icon className={clsxm('tl w-fit', sCardBtn)}>
           {button.label}
         </Button>
       </footer>
