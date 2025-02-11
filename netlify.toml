@@ -1,5 +1,5 @@
 # Site information
-site = { name = "Atipy", domain = "https://atipy.netlify.app/" }
+site = { name = "Atipy", domain = "https://atipy.fr/" }
 
 # Build configuration
 build = { publish = "out/" }
