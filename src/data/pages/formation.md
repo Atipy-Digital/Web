@@ -72,10 +72,10 @@ sections:
           #### Des formations adaptées à vos envies
 
 
-          Collectivités, PME, grands groupes, structures accueillant du public dans le secteur culturel ou médical, vous souhaitez améliorer l'accessibilité de vos supports de communication, de vos services, de vos bâtiments ?
+          Collectivités, PME, grands groupes, structures accueillant du public dans le secteur culturel ou médical, vous souhaitez améliorer l'accessibilité de vos supports de communication, de vos services, de vos bâtiments ? Nous vous proposons des formations.
 
 
-          Nous vous proposons des formations.
+          A﻿tipy est un organisme de formation certifié **Qualiopi** : [Attestation de certification](https://drive.google.com/file/d/1c41gERlMM7GmQmiiKxoZHSi4ninyugf3/view?usp=sharing).
     col3:
       reverseMobile: false
       text:
@@ -126,4 +126,21 @@ sections:
       reverseMobile: false
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: "[T﻿éléchargez notre catalogue de
+          formations](https://drive.google.com/file/d/11UtsR20mLQDddjRstOORi2ZF\
+          -78EID9W/view?usp=sharing)"
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 ---

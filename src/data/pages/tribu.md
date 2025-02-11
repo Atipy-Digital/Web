@@ -163,4 +163,14 @@ members:
       - text: Ergonomie
       - text: Utilisabilité
     linkedin: https://www.linkedin.com/in/ruben-rossignol-886897121/
+  - decorativeOrInformative: false
+    name: Aurélie Santori
+    image: /media/aurelie-santori.jpeg
+    badge:
+      color: a-yellow
+      label: La polyvalente
+    linkedin: https://www.linkedin.com/in/aur%C3%A9lie-santori-b81904257/
+    skills:
+      - text: Développement commercial
+      - text: Marchés publics
 ---
