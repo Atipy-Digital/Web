@@ -8,3 +8,11 @@ NEXT_USE_NETLIFY_EDGE = "true"
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
+
+# Gestion des headers CORS pour les requêtes API
+[[headers]]
+    for = "/*"
+    [headers.values]
+        Access-Control-Allow-Origin = "*"
+        Access-Control-Allow-Methods = "POST, OPTIONS"
+        Access-Control-Allow-Headers = "Content-Type"

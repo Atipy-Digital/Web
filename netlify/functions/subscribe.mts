@@ -17,8 +17,20 @@ const headers = {
 };
 
 exports.handler = async (event: NetlifyFunctionEvent) => {
+  if (event.httpMethod === 'OPTIONS') {
+    return {
+      statusCode: 200,
+      headers,
+      body: '',
+    };
+  }
+
   if (event.httpMethod !== 'POST') {
-    return { statusCode: 405, body: 'Method Not Allowed' };
+    return {
+      statusCode: 405,
+      headers,
+      body: 'Method Not Allowed',
+    };
   }
 
   try {
