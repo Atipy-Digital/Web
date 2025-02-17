@@ -100,7 +100,14 @@ project_sections:
         decorativeOrInformative: false
   - inverseCol: false
     col1:
-      reverseMobile: true
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/realisation-design-signaletique-legrandr-4.jpg
+      text:
+        content: ""
+    col2:
+      reverseMobile: false
       image:
         decorativeOrInformative: false
         url: ""
@@ -114,11 +121,6 @@ project_sections:
           * Proposition de design signalétique
           * Réalisation des bons à tirer
           * Accompagnement sur la fabrication jusqu’à la réception
-    col2:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
-        url: /media/realisation-design-signaletique-legrandr-4.jpg
     col3:
       reverseMobile: false
       image:
