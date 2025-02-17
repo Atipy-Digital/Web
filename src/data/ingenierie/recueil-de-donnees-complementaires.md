@@ -92,7 +92,7 @@ sections:
       text:
         content: ""
       image:
-        url: /media/photo_releve_1200x1600.jpg
+        url: /media/photo_releve_1200x.jpg
         alt: ""
         ariaHidden: true
     col3:
