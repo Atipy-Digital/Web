@@ -29,9 +29,7 @@ sections:
         content: ""
       image:
         url: /media/photo_voirie_espace_public_1920x1040.jpg
-        alt: 3 collaborateurs Atipy portant un gillet jaune de sécurité estampillé Atipy
-          au niveau d'un passage piéton et voie cyclable. Deux des
-          collaborateurs Atipy tiennent un niveau à bulle.
+        alt: ""
         ariaHidden: true
     col2:
       reverseMobile: false
@@ -107,7 +105,7 @@ sections:
       text:
         content: ""
       image:
-        alt: Une rue d'une petite ville calme
+        alt: ""
         url: /media/pave-accessibilite-voirie-atipy.jpg
         ariaHidden: true
     col3:
