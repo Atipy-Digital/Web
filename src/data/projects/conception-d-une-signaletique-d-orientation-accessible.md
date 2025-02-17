@@ -103,7 +103,7 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/realisation-design-signaletique-legrandr-4.jpg
+        url: /media/realisation-design-signaletique-legrandr-8.png
       text:
         content: ""
     col2:
@@ -130,7 +130,7 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/realisation-design-signaletique-legrandr-8.png
+        url: /media/realisation-design-signaletique-legrandr-4.jpg
     col2:
       reverseMobile: false
       image:
