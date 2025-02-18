@@ -81,7 +81,7 @@ project_sections:
       text:
         content: >-
           ## Une charte signalétique complète déclinable sur l’ensemble des
-          espaces.
+          espaces
 
 
           **Utilisation d’un matériau brut sans traitement coloré** : le contreplaqué multiplis auquel s’ajoute des découpes spécifiques pour définir les espaces puis une plaque de Kairlin noir pour identifier rapidement les points stratégiques d’orientation.
