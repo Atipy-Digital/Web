@@ -87,8 +87,7 @@ project_sections:
           **Utilisation d’un matériau brut sans traitement coloré** : le contreplaqué multiplis auquel s’ajoute des découpes spécifiques pour définir les espaces puis une plaque de Kairlin noir pour identifier rapidement les points stratégiques d’orientation.
 
 
-
-          **Création d’une bibliothèque de pictogramme personnalisée** : Chaque espace est identifié par un pictogramme spécialement conçu pour le Grand R. Les pictogrammes sont des outils importants pour favoriser la bonne compréhension des informations. Au delà de leur aspect ludiques, ils sont utiles pour les non-lecteurs : enfants, troubles DYS, langue étrangère...
+          **Création d’une bibliothèque de pictogramme personnalisée** : Chaque espace est identifié par un pictogramme spécialement conçu pour le Grand R. Les pictogrammes sont des outils importants pour favoriser la bonne compréhension des informations. Au-delà de leur aspect ludiques, ils sont utiles pour les non-lecteurs : enfants, troubles DYS, langue étrangère...
     col2:
       reverseMobile: false
       image:
