@@ -201,7 +201,7 @@ project_sections:
 projectsFeatured:
   - signaletique-de-la-treso-tiers-lieu
   - signaletique-accessibles-des-etablissements-culturels-de-clichy
-  - amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
+  - conception-d-une-signaletique-d-orientation-accessible
 footer:
   btn:
     label: Découvrez nos projets signalétique
