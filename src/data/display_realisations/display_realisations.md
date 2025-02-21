@@ -1,10 +1,10 @@
 ---
 display_realisations:
-  - realisation: conception-d-une-signaletique-d-orientation-accessible
+  - realisation: signaletique-touristique-pietonne-de-l-ile-de-brehat
   - realisation: signaletique-du-ministere-des-affaires-etrangeres
   - realisation: adap-pour-les-necropoles-nationales
+  - realisation: conception-d-une-signaletique-d-orientation-accessible
   - realisation: amo-global-pour-la-mise-en-accessibilite-du-patrimoine
-  - realisation: accompagnement-du-service-education-aux-droits-humains-dans-la-mise-en-place-d-une-strategie-globale-d-accessibilite-et-d-inclusion-des-outils-de-communication
   - realisation: diagnostic-accessibilite-et-adap-du-ministere-des-armees
   - realisation: document-falc
   - realisation: maitrise-d-oeuvre-pour-la-mise-en-accessibilite-erp-de-la-ville-de-paris-12eme
@@ -25,6 +25,7 @@ display_realisations:
   - realisation: amo-accessibilite-des-erp-pour-la-ville-de-paris
   - realisation: signaletique-du-camsp-paris-nord
   - realisation: releves-d-accessibilite-region-grand-est
+  - realisation: signaletique-accessibles-des-etablissements-culturels-de-clichy
   - realisation: signaletique-accessibles-des-etablissements-culturels-de-clichy
   - realisation: signaletique-accessibles-des-etablissements-culturels-de-clichy
 ---
