@@ -96,12 +96,29 @@ project_sections:
           ## Un graphisme intemporel
 
 
-          Les choix colorimétriques permettent une bonne intégration dans l’environnement. La couleur beige prédominante reste une couleur intemporelle et facile à décliner. La charte signalétique propose également l’utilisation systématique de pictogrammes permettant un accès à l'information pour les visiteurs de langue étrangère.
+          Les choix colorimétriques permettent une bonne intégration dans l’environnement. La couleur beige prédominante reste une couleur intemporelle et facile à décliner. 
+
+
+          La charte signalétique propose également l’utilisation systématique de pictogrammes permettant un accès à l'information pour les visiteurs de langue étrangère.
     col2:
       reverseMobile: false
       image:
         decorativeOrInformative: false
         url: /media/brehat-signaletique-tourisme-cartographie-atipy-4.jpg
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/brehat-signaletique-tourisme-interpretation-atipy-6.png
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
     col3:
       reverseMobile: false
       image:
