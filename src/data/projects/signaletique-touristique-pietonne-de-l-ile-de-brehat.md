@@ -111,6 +111,13 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+        url: /media/brehat-signaletique-tourisme-atipy-2.jpg
+      text:
+        content: ""
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
       text:
         content: |-
           ## Nos prestations
@@ -120,10 +127,6 @@ project_sections:
           * Suivi de la consultation
           * Suivi de chantier
           * Etude et diagnostic de la signalétique
-    col2:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
     col3:
       reverseMobile: false
       image:
