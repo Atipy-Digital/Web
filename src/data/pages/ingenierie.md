@@ -14,7 +14,7 @@ sections:
       text:
         content: ""
       image:
-        url: /media/photo_page_ingenierie.jpg
+        url: /media/photo_proposition7.jpg
         ariaHidden: true
         alt: ""
     col2:
