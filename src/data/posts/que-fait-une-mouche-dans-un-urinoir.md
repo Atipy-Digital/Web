@@ -51,7 +51,7 @@ post_sections:
           #### Des exemples
 
 
-          L’exemple le plus connu reste le point, ou la mouche, positionné dans un urinoir. Les utilisateurs vont avoir tendance à viser ce point. Ce comportement permet ainsi de conserver un lieu plus propre. L’aéroport d’Amsterdam est le premier à mettre en place ce système et réduit ainsi de 80&nbsp;% ses frais de nettoyage.
+          L’exemple le plus connu reste le point, ou la mouche, positionné dans un urinoir. Les utilisateurs vont avoir tendance à viser ce point. Ce comportement permet ainsi de conserver un lieu plus propre. L’aéroport de Schiphol à Amsterdam est le premier à mettre en place ce système et réduit ainsi de 20&nbsp;% ses frais de nettoyage.
       image:
         url: /media/nudge-signaletique-urinoir-agence-atipy.jpg
         legend: ""
@@ -117,6 +117,44 @@ post_sections:
           d’utilisation du passage.
     col3:
       reverseMobile: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: E﻿nfin, toujours dans une optique de favoriser les bons comportements
+          dans l'espace public, le cendrier devient un outil de sondage ! Si on
+          vous demande de voter, "pain au chocolat" ou "chocolatine", "Rando" ou
+          "Apéro", tout en écrasant votre cigarette dans un cendrier plutôt que
+          de la jeter par terre, le jeu rend l'action plus sympathique.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/nudge-cendrier-chocolatine-atipy.webp
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 source:
-  col1: []
+  col1:
+    - url: https://worksthatwork.com/1/urinal-fly
+      label: Worksthatwork
+  col2:
+    - url: https://imrsiv.fr/e-commerce/nudge-marketing-la-strategie-qui-guide-nos-comportements-en-utilisant-les-biais-cognitifs/
+      label: Imrsiv
 ---
