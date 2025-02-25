@@ -142,6 +142,8 @@ post_sections:
       image:
         decorativeOrInformative: false
         url: /media/nudge-cendrier-chocolatine-atipy.webp
+        legend: Cendrier jaune avec 2 fentes. L'une indique "pain au chocolat", l'autre
+          "chocolatine"
     col2:
       reverseMobile: false
       image:
