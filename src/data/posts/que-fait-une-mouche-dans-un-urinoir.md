@@ -81,6 +81,42 @@ post_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: E﻿nfin, toujours dans une optique de favoriser les bons comportements
+          dans l'espace public, le cendrier devient un outil de sondage ! Si on
+          vous demande de voter, "pain au chocolat" ou "chocolatine", "Rando" ou
+          "Apéro", tout en écrasant votre cigarette dans un cendrier plutôt que
+          de la jeter par terre, le jeu rend l'action plus sympathique.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/nudge-cendrier-chocolatine-atipy.webp
+        legend: ""
+        alt: Cendrier jaune avec 2 fentes. L'une indique "pain au chocolat", l'autre
+          "chocolatine"
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
       text:
         content: >-
           
@@ -117,41 +153,6 @@ post_sections:
           d’utilisation du passage.
     col3:
       reverseMobile: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
-      text:
-        content: E﻿nfin, toujours dans une optique de favoriser les bons comportements
-          dans l'espace public, le cendrier devient un outil de sondage ! Si on
-          vous demande de voter, "pain au chocolat" ou "chocolatine", "Rando" ou
-          "Apéro", tout en écrasant votre cigarette dans un cendrier plutôt que
-          de la jeter par terre, le jeu rend l'action plus sympathique.
-    col2:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
-    col3:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
-        url: /media/nudge-cendrier-chocolatine-atipy.webp
-        legend: Cendrier jaune avec 2 fentes. L'une indique "pain au chocolat", l'autre
-          "chocolatine"
-    col2:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
-    col3:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
 source:
   col1:
     - url: https://worksthatwork.com/1/urinal-fly
