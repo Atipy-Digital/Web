@@ -17,10 +17,7 @@ export const PostItem = ({ title, tags, timeToRead, slug }: PostType) => {
         <div className='flex items-center justify-between flex-wrap mb-4 gap-y-2'>
           <div className='flex-grow flex items-center gap-2 lg:gap-3 flex-wrap'>
             {tags.map((tag) => (
-              <Tag
-                key={`post-tag-${tag.type}-${tag.label}`}
-                {...tag}
-              />
+              <Tag key={`post-tag-${tag.type}-${tag.label}`} {...tag} />
             ))}
           </div>
 
