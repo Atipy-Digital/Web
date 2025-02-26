@@ -132,13 +132,17 @@ project_sections:
       image:
         decorativeOrInformative: false
       text:
-        content: |-
+        content: >-
           ### Cartographie et temps de marche
 
-          Le temps de parcours et la distance sont indiqués pour :
+
+          Un travail cartographique a été réalisé afin de représenter l'ile dans son ensemble en indiquant les points d'interets touristiques, patrimoniaux et les services. Le temps de parcours et la distance sont indiqués pour :
+
 
           * Les points d’intérêt patrimoniaux
+
           * Les embarcadères
+
           * Les toilettes
     col2:
       reverseMobile: false
