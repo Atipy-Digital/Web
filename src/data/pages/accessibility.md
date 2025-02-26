@@ -207,17 +207,17 @@ sections:
           ## Démarche d'amélioration
 
 
-          S﻿i vous constatez un manquement ou un obstacle vous empêchant d'accéder au contenu de notre site web, nous vous remercions de nous contacter. Nous garantissons un accès au contenu sous une autre forme. Tous les retours d'expérience d'utilisateurs sont les bienvenus. Cela nous permet d'être dans un processus d'amélioration continue.
+          Conscient de sa marge de progression, Atipy poursuit la mise en accessibilité de son site internet. Un travail d'amélioration et de modifications est en cours. 
 
 
-          ### Vous pouvez nous contacter
+          S﻿i vous constatez un manquement ou un obstacle vous empêchant d'accéder au contenu de notre site web, nous vous remercions de nous contacter. Nous garantissons un accès au contenu sous une autre forme. Tous les retours d'expérience d'utilisateurs sont les bienvenus. Cela nous permet d'être dans un processus d'amélioration continue. Vous pouvez nous contacter
 
 
           * **Par email** : en nous écrivant à l’adresse suivante : contact@atipy.fr
 
           * **Par téléphone** : en nous appelant au 09 82 23 63 24.
 
-          * **Par voie postale** à l'adresse : 40 rue Auguste Aucour,69400 Villefranche-Sur-Saone
+          * **Par voie postale** à l'adresse : 40 rue Auguste Aucour, 69400 Villefranche-Sur-Saone
     col2:
       reverseMobile: false
     col3:
