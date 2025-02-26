@@ -1,7 +1,7 @@
 ---
 bannerData:
   title: |-
-    Atipy, ***la tribu*** au service
+    Atipy, ***la tribu*** au services
 
     d’un monde plus **accessible.**
 introData:
