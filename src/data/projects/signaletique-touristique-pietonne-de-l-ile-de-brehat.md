@@ -136,7 +136,7 @@ project_sections:
           ### Cartographie et temps de marche
 
 
-          Un travail cartographique a été réalisé afin de représenter l'ile dans son ensemble en indiquant les points d'interets touristiques, patrimoniaux et les services. Le temps de parcours et la distance sont indiqués pour :
+          Un travail cartographique a été réalisé afin de représenter l'ile dans son ensemble en indiquant les points d'intérêts touristiques, patrimoniaux et les services. Le temps de parcours et la distance sont indiqués pour :
 
 
           * Les points d’intérêt patrimoniaux
@@ -164,7 +164,7 @@ project_sections:
           * L﻿es Relais Information Services (RIS)
 
 
-          Positionnés à des endroits stratégiques, les RIS permettent à la fois d'identifier sa position sur l’île et de repérer les points d'intérts touristiques.
+          Positionnés à des endroits stratégiques, les RIS permettent à la fois d'identifier sa position sur l’île et de repérer les points d'intérêts touristiques.
     col3:
       reverseMobile: false
       image:
