@@ -131,45 +131,6 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/brehat-signaletique-tourisme-interpretation-atipy-6.png
-    col2:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
-    col3:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
-        url: /media/brehat-signaletique-tourisme-atipy-2.jpg
-      text:
-        content: ""
-    col2:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
-      text:
-        content: |-
-          ## Nos prestations
-
-          * Conception et création
-          * Schéma directeur de signalétique
-          * Suivi de la consultation
-          * Suivi de chantier
-          * Etude et diagnostic de la signalétique
-    col3:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
       text:
         content: |-
           ### Cartographie et temps de marche
@@ -200,6 +161,45 @@ project_sections:
 
 
           Positionnés à des endroits stratégiques, les RIS permettent à la fois d'identifier sa position sur l’île et de repérer les points d'intérts touristiques.
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/brehat-signaletique-tourisme-interpretation-atipy-6.png
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/brehat-signaletique-tourisme-atipy-2.jpg
+      text:
+        content: ""
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: |-
+          ## Nos prestations
+
+          * Conception et création
+          * Schéma directeur de signalétique
+          * Suivi de la consultation
+          * Suivi de chantier
+          * Etude et diagnostic de la signalétique
     col3:
       reverseMobile: false
       image:
