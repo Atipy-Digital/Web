@@ -44,7 +44,7 @@ export const Banner = ({ data }: Props) => {
             className='tl flex-shrink-0 cursor-pointer mx-auto mt-10 md:mt-0 flex items-center justify-center rounded-full w-16 h-16 md:w-20 md:h-20 lg:w-[102px] lg:h-[102px]'
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
-            aria-label='aller a la section intro'
+            aria-label='aller a la section intros'
             href='#home-intro'
           >
             <AtipyIcon
