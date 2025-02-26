@@ -2,7 +2,7 @@
 cards:
   - type: about
     title: Qui sommes-nous&nbsp;?
-    text: Atipy, une équipe enthousiaste et impliquée qui vous accompagne dans vos
+    text: Atip y, une équipe enthousiaste et impliquée qui vous accompagne dans vos
       projets d’inclusion et d’accessibilité.
   - type: conception
     title: La conception universelle
