@@ -165,6 +165,45 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: |-
+          ### Cartographie et temps de marche
+
+          Le temps de parcours et la distance seront indiqués pour :
+
+          * Les points d’intérêt patrimoniaux
+          * Les embarcadères
+          * Les toilettes
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ### U﻿ne signalétique patrimoniale
+
+
+          L﻿'Ile de Bréhat est riche d'un patrimoine naturel, architectural et historique. Des supports mettant en avant le territoire et son histoire sont donc indispensable. 
+
+
+          A﻿insi, deux typologies de supports sont proposés :
+
+
+          * L﻿es panneaux d'informations patrimoniales
+
+          * L﻿es Relais Information Services (RIS)
+
+
+          Positionnés à des endroits stratégiques, les RIS permettent à la fois d'identifier sa position sur l’île et de repérer les points d'intérts touristiques.
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 projectsFeatured:
   - charte-signale-tique-accessible-pour-les-itine-raires-velo
   - pole-dechanges-de-lyon-perrache
