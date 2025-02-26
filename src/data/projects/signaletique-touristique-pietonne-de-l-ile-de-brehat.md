@@ -63,7 +63,10 @@ project_sections:
           ## Préserver la qualité paysagère
 
 
-          Afin de faciliter l’implantation dans le paysage, Atipy propose des supports directionnels monolithes plantés dans le sol. Le matériau choisi est un bois de châtaignier avec une finition naturelle faisant ressortir le tanin. Cela donne au bois un aspect foncé, presque noir.
+          L'Ile de Bréhat est un site naturel protégé et classé. A ce titre, le travail de conception de la signalétique doit fortement prendre en compte ce paramètre. 
+
+
+          Afin de faciliter l’implantation dans le paysage, Atipy propose des supports directionnels monolithes plantés dans le sol, rappelant ainsi la verticalité des arbres. Le matériau choisi est un bois de châtaignier avec une finition naturelle faisant ressortir le tanin. Cela donne au bois un aspect foncé, presque noir.
     col2:
       reverseMobile: false
       image:
@@ -105,6 +108,20 @@ project_sections:
       image:
         decorativeOrInformative: false
         url: /media/brehat-signaletique-tourisme-cartographie-atipy-4.jpg
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/brehat-signaletique_pictogrammes_patrimoine.jpg
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
     col3:
       reverseMobile: false
       image:
