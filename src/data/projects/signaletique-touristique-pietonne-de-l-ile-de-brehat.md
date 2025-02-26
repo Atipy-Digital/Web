@@ -174,7 +174,7 @@ project_sections:
         content: |-
           ### Cartographie et temps de marche
 
-          Le temps de parcours et la distance seront indiqués pour :
+          Le temps de parcours et la distance sont indiqués pour :
 
           * Les points d’intérêt patrimoniaux
           * Les embarcadères
