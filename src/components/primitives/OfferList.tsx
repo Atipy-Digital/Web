@@ -34,8 +34,8 @@ export const OfferList = ({ data, className }: Props) => {
         return '/expertises/formation';
       case CARD_TYPE.DESIGN:
         return '/expertises/design';
-      case CARD_TYPE.DIGITAL:
-        return '/expertises/digital';
+      case CARD_TYPE.MOBILITES:
+        return '/expertises/mobilites';
       case CARD_TYPE.ENGINEER:
         return '/expertises/ingenierie';
       default:
@@ -57,7 +57,13 @@ export const OfferList = ({ data, className }: Props) => {
         return (
           <ExpertiseCard
             key={`home-offer-card-${item.type}`}
-            {...item}
+            type={item.type}
+            title={item.title}
+            body={item.body}
+            button={item.button}
+            color={item.color}
+            imagesTheme={item.imagesTheme}
+            decorativeOrInformative={item.decorativeOrInformative}
             className='min-h-fit 2xl:min-h-[563px]'
             href={href}
           />

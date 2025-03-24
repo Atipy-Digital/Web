@@ -83,9 +83,46 @@ const home = {
               options: [
                 { label: 'Ingénierie', value: 'ENGINEER' },
                 { label: 'Design', value: 'DESIGN' },
-                { label: 'Digital', value: 'DIGITAL' },
-                { label: 'Conseils et formations', value: 'CONSEIL' },
+                { label: 'Mobilites', value: 'MOBILITES' },
               ],
+            },
+            {
+              label: 'Couleur',
+              name: 'color',
+              widget: 'select',
+              options: [
+                { label: 'Bleu', value: 'ENGINEER' },
+                { label: 'Vert', value: 'DESIGN' },
+                { label: 'Jaune', value: 'MOBILITES' },
+              ],
+            },
+            {
+              name: 'imagesTheme',
+              label: 'Images selon le thème',
+              widget: 'object',
+              fields: [
+                {
+                  name: 'light',
+                  label: 'Image pour thème clair',
+                  widget: 'image',
+                  required: false,
+                  hint: 'Image à afficher en mode clair.',
+                },
+                {
+                  name: 'dark',
+                  label: 'Image pour thème foncé',
+                  widget: 'image',
+                  required: false,
+                  hint: 'Image à afficher en mode foncé.',
+                },
+              ],
+            },
+            {
+              name: 'decorativeOrInformative',
+              label: 'Est décorative (True) ou informative (False)',
+              widget: 'boolean',
+              default: false,
+              required: false,
             },
             {
               label: 'Titre',

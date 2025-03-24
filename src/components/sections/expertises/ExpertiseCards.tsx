@@ -11,7 +11,17 @@ type Props = {
 };
 
 export const ExpertiseCards = ({ data }: Props) => {
-  const { prefixImg } = useTheme();
+  const { prefixImg, isDark } = useTheme();
+  const getNewHeaderImg = (
+    card: CardExpertisePageType,
+    fallback: string
+  ): string => {
+    if (!card.imagesTheme) return fallback;
+
+    const { light, dark } = card.imagesTheme;
+
+    return isDark ? dark ?? fallback : light ?? fallback;
+  };
 
   return (
     <div className='list-border-center w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 border-t border-t-current'>
@@ -19,19 +29,22 @@ export const ExpertiseCards = ({ data }: Props) => {
         const urlHeaderImgs = new Map<CardExpertisePageType['type'], string>([
           ['ingenierie', `/imgs/offers/offer-${prefixImg}-access.webp`],
           ['design', `/imgs/offers/offer-${prefixImg}-design.webp`],
-          ['digital', `/imgs/offers/offer-${prefixImg}-digital.webp`],
+          ['mobilites', `/imgs/offers/offer-${prefixImg}-mobilites.webp`],
           ['formation', `/imgs/offers/offer-${prefixImg}-formation.webp`],
         ]);
 
-        const urlHeaderImg =
+        const fallbackImg =
           urlHeaderImgs.get(card.type) ||
           `/imgs/offers/offer-${prefixImg}-access.webp`;
+
+        const newHeaderImg = getNewHeaderImg(card, fallbackImg);
 
         return (
           <CardPage
             key={`card-expertise-page-${card.type}`}
-            urlHeaderImg={urlHeaderImg}
+            urlHeaderImg={newHeaderImg}
             href={`/expertises/${card.type}`}
+            decorativeOrInformative={card.decorativeOrInformative}
             text={card.text}
             title={card.title}
           />

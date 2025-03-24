@@ -1,10 +1,10 @@
 import metadata from './common/metadata.js';
 import sectionFields from './common/section.js';
 
-const sub_digital = {
-  name: 'sub_digital',
-  label: 'Expertise - Digital',
-  folder: 'src/data/digital',
+const sub_mobilites = {
+  name: 'sub_mobilites',
+  label: 'Expertise - Mobilites',
+  folder: 'src/data/mobilites',
   create: true,
   editor: {
     preview: false,
@@ -35,7 +35,7 @@ const sub_digital = {
       options: [
         { label: 'Bleu', value: 'ENGINEER' },
         { label: 'Vert', value: 'DESIGN' },
-        { label: 'Rouge', value: 'DIGITAL' },
+        { label: 'Rouge', value: 'MOBILITES' },
         { label: 'Jaune', value: 'CONSEIL' },
       ],
     },
@@ -120,4 +120,4 @@ const sub_digital = {
   ],
 };
 
-export default sub_digital;
+export default sub_mobilites;

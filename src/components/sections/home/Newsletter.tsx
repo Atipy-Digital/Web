@@ -19,7 +19,7 @@ import type { HomeNewsletterDataType } from '@/ts';
 type Inputs = {
   email: string;
   selectedOptions: {
-    Digital: boolean;
+    Mobilité: boolean;
     Ingénierie: boolean;
     Design: boolean;
   };
@@ -34,7 +34,7 @@ export const Newsletter = ({ data }: Props) => {
     defaultValues: {
       email: '',
       selectedOptions: {
-        Digital: true,
+        Mobilité: true,
         Ingénierie: true,
         Design: true,
       },
@@ -59,8 +59,8 @@ export const Newsletter = ({ data }: Props) => {
     const selectedOptions = watchedValues.selectedOptions;
     const selectedOptionsArray: string[] = [];
 
-    if (data.selectedOptions.Digital) {
-      selectedOptionsArray.push('Digital');
+    if (data.selectedOptions.Mobilité) {
+      selectedOptionsArray.push('Mobilites');
     }
     if (data.selectedOptions.Ingénierie) {
       selectedOptionsArray.push('Ingénierie');
@@ -98,7 +98,7 @@ export const Newsletter = ({ data }: Props) => {
     setValue(
       `selectedOptions.${option}` as
         | 'selectedOptions.Design'
-        | 'selectedOptions.Digital'
+        | 'selectedOptions.Mobilité'
         | 'selectedOptions.Ingénierie',
       value
     );
@@ -132,7 +132,7 @@ export const Newsletter = ({ data }: Props) => {
                 ([label, isActive], index) => (
                   <div key={index} className='flex items-center gap-2 lg:gap-3'>
                     <AudienceTag
-                      label={label as 'Digital' | 'Ingénierie' | 'Design'}
+                      label={label as 'Mobilites' | 'Ingénierie' | 'Design'}
                       isActive={isActive}
                       onChange={(isChecked: boolean) =>
                         handleOptionChange(label, isChecked)

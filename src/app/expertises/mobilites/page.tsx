@@ -5,24 +5,24 @@ import { siteOrigin } from '@/lib/constants';
 import { BottomNav } from '@/components/common/BottomNav';
 import { HeaderPage } from '@/components/layout/HeaderPage';
 import { Page } from '@/components/layout/Page';
-import { DigitalSections } from '@/components/sections/digital/DigitalSections';
+import { MobilitesSections } from '@/components/sections/mobilites/MobilitesSections';
 
-import { getExpertiseDigitalPageData } from '@/services/expertise.service';
+import { getExpertiseMobilitesPageData } from '@/services/expertise.service';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: `${siteOrigin}/expertises/digital`,
+    canonical: `${siteOrigin}/expertises/mobilites`,
   },
-  title: 'Digital',
+  title: 'Mobilites',
 };
 
-export default function ExpertiseDigital() {
-  const dataPage = getExpertiseDigitalPageData();
+export default function ExpertiseMobilites() {
+  const dataPage = getExpertiseMobilitesPageData();
 
   return (
     <Page>
       <HeaderPage
-        title={dataPage?.title ?? 'Digital'}
+        title={dataPage?.title ?? 'Mobilites'}
         links={[
           {
             label: 'Nos expertises',
@@ -30,8 +30,8 @@ export default function ExpertiseDigital() {
           },
         ]}
         currentLink={{
-          label: dataPage?.title ?? 'Digital',
-          url: '/expertises/digital',
+          label: dataPage?.title ?? 'Mobilites',
+          url: '/expertises/mobilites',
         }}
         prevLink={{
           label: 'Nos expertises',
@@ -43,7 +43,7 @@ export default function ExpertiseDigital() {
         }}
         boxClassName='!mb-0'
       />
-      {dataPage && <DigitalSections data={dataPage} />}
+      {dataPage && <MobilitesSections data={dataPage} />}
       <BottomNav
         previousLink={{
           label: 'Nos expertises',

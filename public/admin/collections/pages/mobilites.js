@@ -1,9 +1,9 @@
 import sectionFields from '../common/section.js';
 
-const digital = {
-  label: 'Digital',
-  name: 'expertise_digital_page',
-  file: 'src/data/pages/digital.md',
+const mobilites = {
+  label: 'Mobilites',
+  name: 'expertise_mobilites_page',
+  file: 'src/data/pages/mobilites.md',
   widget: 'object',
   editor: {
     preview: false,
@@ -43,4 +43,4 @@ const digital = {
   ],
 };
 
-export default digital;
+export default mobilites;

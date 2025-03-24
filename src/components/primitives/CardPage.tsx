@@ -12,6 +12,7 @@ type Props = {
   iconType?: ATIPY_ICON;
   title: string;
   text: string;
+  decorativeOrInformative: boolean;
   onClick?: () => void;
   href?: string;
   urlHeaderImg?: string;
@@ -21,23 +22,27 @@ export const CardPage = ({
   iconType,
   href,
   text,
+  decorativeOrInformative,
   title,
   urlHeaderImg,
 }: Props) => {
   const matchSM = useMediaQuery(MEDIA_QUERY.SM);
+
   return (
     <div className='w-full px-fluid !py-8 md:!p-8 xl:!p-10  2xl:!p-12 3xl:!p-14 flex flex-col 2xl:min-h-[675px] desktop:min-h-[748px]'>
       <div className='w-full flex gap-8 flex-col mb-8 md:mb-0'>
-        {iconType && (
-          <div className='max-h-[96px] xl:max-h-[105px] [&_svg]:w-auto [&_svg]:h-full'>
-            {iconType && <AtipyIcon isDecorative type={iconType} />}
-          </div>
-        )}
+        {iconType &&
+          (decorativeOrInformative ? (
+            <AtipyIcon isDecorative={true} type={iconType} />
+          ) : (
+            <AtipyIcon isInformative={true} type={iconType} />
+          ))}
 
         {urlHeaderImg && (
           <div className='max-h-[80px] lg:max-h-[96px] xl:max-h-[100px]'>
             <AtipyImage
-              isDecorative
+              isInformative={!decorativeOrInformative}
+              isDecorative={decorativeOrInformative}
               src={urlHeaderImg}
               className='block h-full w-auto object-contain'
             />

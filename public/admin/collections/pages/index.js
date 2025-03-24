@@ -4,7 +4,7 @@ import clients from './clients.js';
 import conception from './conception.js';
 import contact from './contact.js';
 import design from './design.js';
-import digital from './digital.js';
+import mobilites from './mobilites.js';
 import expertises from './expertises.js';
 import formation from './formation.js';
 import home from './home.js';
@@ -29,7 +29,7 @@ const pages = {
     expertises,
     design,
     formation,
-    digital,
+    mobilites,
     ingenierie,
     projects,
     clients,

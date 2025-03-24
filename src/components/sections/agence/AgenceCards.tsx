@@ -33,9 +33,10 @@ export const AgenceCards = ({ data }: Props) => {
           <CardPage
             key={`card-agence-${card.type}`}
             iconType={getIconType()}
-            href={`/agence/${card.type}`}
+            href={`/agence/${card.url ?? card.type}`}
             text={card.text}
             title={card.title}
+            decorativeOrInformative={true}
           />
         );
       })}

@@ -39,7 +39,7 @@ export default function TribuPage() {
         }}
         nextLink={{
           label: 'Nos partenaires',
-          url: '/agence/partners',
+          url: '/agence/partenaires',
         }}
       />
       {pageData && <TribuSection data={pageData} />}
@@ -50,7 +50,7 @@ export default function TribuPage() {
         }}
         nextLink={{
           label: 'Nos partenaires',
-          url: '/agence/partners',
+          url: '/agence/partenaires',
         }}
       />
     </Page>

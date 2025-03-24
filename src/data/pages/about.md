@@ -22,16 +22,28 @@ cards:
     title: Ingénierie
     body: Cadre bâti, espace public, transports, événementiel.
     button:
-      label: En savoir plus
+      label: "En savoir plus "
+    imagesTheme:
+      light: /media/offer-b-access.webp
+      dark: /media/offer-w-access.webp
+    decorativeOrInformative: false
   - type: DESIGN
     title: Design
     body: Signalétique, communication, langage clair et FALC, mobilité, identité
       visuelle.
     button:
       label: En savoir plus
-  - type: DIGITAL
+    imagesTheme:
+      light: /media/offer-b-design.webp
+      dark: /media/offer-w-design.webp
+    decorativeOrInformative: false
+  - type: MOBILITES
     title: Digital
     body: Web, applis, solutions logicielles.
     button:
       label: En savoir plus
+    imagesTheme:
+      light: /media/offer-b-formation.webp
+      dark: /media/offer-w-formation.webp
+    decorativeOrInformative: false
 ---

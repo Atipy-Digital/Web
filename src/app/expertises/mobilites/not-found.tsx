@@ -4,8 +4,8 @@ export default function NotFound() {
   return (
     <ErrorSection
       title='404'
-      labelCTA='Retour à la page Digital'
-      link='/expertises/digital'
+      labelCTA='Retour à la page Mobilites'
+      link='/expertises/mobilites'
     />
   );
 }

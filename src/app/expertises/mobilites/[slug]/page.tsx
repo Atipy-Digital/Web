@@ -9,10 +9,10 @@ import { Page } from '@/components/layout/Page';
 import { SubPageSections } from '@/components/sections/sub-page/SubPageSections';
 
 import {
-  getExpertiseDigitalSubPageBySlug,
-  getExpertiseDigitalSubPageMetaData,
-  getExpertiseDigitalSubPageNextLink,
-  getExpertiseDigitalSubPageSlugs,
+  getExpertiseMobilitesSubPageBySlug,
+  getExpertiseMobilitesSubPageMetaData,
+  getExpertiseMobilitesSubPageNextLink,
+  getExpertiseMobilitesSubPageSlugs,
 } from '@/services/expertise.service';
 
 type Props = {
@@ -24,12 +24,12 @@ export async function generateMetadata(
   parent: ResolvingMetadata
 ) {
   const { slug } = params;
-  const meta = getExpertiseDigitalSubPageMetaData(slug);
+  const meta = getExpertiseMobilitesSubPageMetaData(slug);
   const previousKeywords = (await parent).keywords || [];
   if (!meta) {
     return {
       alternates: {
-        canonical: `${siteOrigin}/expertises/digital/${slug}`,
+        canonical: `${siteOrigin}/expertises/mobilites/${slug}`,
       },
     };
   }
@@ -39,7 +39,7 @@ export async function generateMetadata(
     description: meta.description,
     keywords: meta?.keywords?.length ? meta.keywords : previousKeywords,
     alternates: {
-      canonical: `${siteOrigin}/expertises/digital/${slug}`,
+      canonical: `${siteOrigin}/expertises/mobilites/${slug}`,
     },
     openGraph: {
       images: meta?.ogImg ?? 'favicon/og-alt.png',
@@ -48,7 +48,7 @@ export async function generateMetadata(
 }
 
 export async function generateStaticParams() {
-  const slugs = getExpertiseDigitalSubPageSlugs();
+  const slugs = getExpertiseMobilitesSubPageSlugs();
   if (slugs?.length) {
     return slugs.map((slug) => ({ slug }));
   }
@@ -56,8 +56,8 @@ export async function generateStaticParams() {
 }
 
 export default async function DigitalSubPage({ params: { slug } }: Props) {
-  const subPage = getExpertiseDigitalSubPageBySlug(slug);
-  const nextLink = getExpertiseDigitalSubPageNextLink(slug);
+  const subPage = getExpertiseMobilitesSubPageBySlug(slug);
+  const nextLink = getExpertiseMobilitesSubPageNextLink(slug);
 
   if (!subPage) {
     notFound();
@@ -73,17 +73,17 @@ export default async function DigitalSubPage({ params: { slug } }: Props) {
             url: '/expertises',
           },
           {
-            label: 'Digital',
-            url: '/expertises/digital',
+            label: 'Mobilités',
+            url: '/expertises/mobilites',
           },
         ]}
         currentLink={{
           label: subPage.title,
-          url: `/expertises/digital/${subPage.slug}`,
+          url: `/expertises/mobilites/${subPage.slug}`,
         }}
         prevLink={{
-          label: 'Digital',
-          url: '/expertises/digital',
+          label: 'Mobilités',
+          url: '/expertises/mobilites',
         }}
         nextLink={
           nextLink || {
@@ -96,8 +96,8 @@ export default async function DigitalSubPage({ params: { slug } }: Props) {
       <SubPageSections data={subPage} type='digital' />
       <BottomNav
         previousLink={{
-          label: 'Digital',
-          url: '/expertises/digital',
+          label: 'Mobilités',
+          url: '/expertises/mobilites',
         }}
         nextLink={
           nextLink || {

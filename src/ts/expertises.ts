@@ -19,6 +19,12 @@ export type ExpertiseDigitalType = {
   sections: SectionType[];
   expertises: ExpertiseSubPageType[];
 };
+export type ExpertiseMobilitesType = {
+  title: string;
+  intro: string;
+  sections: SectionType[];
+  expertises: ExpertiseSubPageType[];
+};
 export type ExpertiseFormationType = {
   title: string;
   intro: string;

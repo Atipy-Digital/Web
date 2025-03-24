@@ -8,13 +8,13 @@ import { Box } from '@/components/common/Box';
 import { MarkdownSection } from '@/components/primitives/MarkdownSection';
 import { SubPageCard } from '@/components/primitives/SubPageCard';
 
-import { CARD_TYPE, type ExpertiseDigitalType } from '@/ts';
+import { CARD_TYPE, type ExpertiseMobilitesType } from '@/ts';
 
 type Props = {
-  data: Omit<ExpertiseDigitalType, 'title'>;
+  data: Omit<ExpertiseMobilitesType, 'title'>;
 };
 
-export const DigitalSections = ({ data }: Props) => {
+export const MobilitesSections = ({ data }: Props) => {
   const { prefixImg } = useTheme();
 
   return (
@@ -31,7 +31,7 @@ export const DigitalSections = ({ data }: Props) => {
             col2={{
               reverseMobile: false,
               image: {
-                url: `/imgs/digital/intro-${prefixImg}.webp`,
+                url: `/imgs/mobilites/intro-${prefixImg}.webp`,
                 className: 'max-h-[384px] object-contain',
                 decorativeOrInformative: false,
               },
@@ -44,13 +44,12 @@ export const DigitalSections = ({ data }: Props) => {
         {data.sections?.map((section) => (
           <MarkdownSection
             {...section}
-            key={`digital-page-section-${nanoid(7)}`}
-            // ici, impossible d'ajouter la props "isAriaHidden"
+            key={`mobilites-page-section-${nanoid(7)}`}
           />
         ))}
 
         <div className='mt-10 md:mt-16 lg:mt-20 xl:mt-24'>
-          <h4 className='mb-10 font-primary font-bold text-a-red-dark dark:text-a-red-light'>
+          <h4 className='mb-10 font-primary font-bold text-a-yellow-dark dark:text-a-yellow-light'>
             Nos expertises
           </h4>
 
@@ -59,22 +58,22 @@ export const DigitalSections = ({ data }: Props) => {
               return (
                 <SubPageCard
                   icon={xp.icon}
-                  path={`/expertises/digital/${xp.slug}`}
+                  path={`/expertises/mobilites/${xp.slug}`}
                   title={xp.title}
                   type={xp.color}
-                  key={`sub-page-digital-${xp.slug}`}
+                  key={`sub-page-mobilites-${xp.slug}`}
                   isDecorative
                 />
               );
             })}
             <SubPageCard
               icon={{
-                type: 'digital',
+                type: 'formation',
                 value: 'formation',
               }}
               path='/expertises/formation'
               title='Formations et ateliers'
-              type={CARD_TYPE.DIGITAL}
+              type={CARD_TYPE.CONSEIL}
               isDecorative
             />
           </div>

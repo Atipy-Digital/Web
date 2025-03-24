@@ -3,10 +3,17 @@ export enum CARD_TYPE {
   DESIGN = 'DESIGN',
   DIGITAL = 'DIGITAL',
   CONSEIL = 'CONSEIL',
+  MOBILITES = 'MOBILITES',
 }
 export type CardType = {
   title: string;
   type: CARD_TYPE;
   body: string;
   button: { label: string };
+  color?: CARD_TYPE;
+  imagesTheme: {
+    light?: string;
+    dark?: string;
+  };
+  decorativeOrInformative?: boolean;
 };

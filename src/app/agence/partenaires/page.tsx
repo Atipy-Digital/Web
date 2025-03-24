@@ -40,7 +40,7 @@ export default function PartnerPage() {
         }}
         nextLink={{
           label: 'Qui sommes-nous ?',
-          url: '/agence/about',
+          url: '/agence/qui-sommes-nous',
         }}
         boxClassName='md:mb-0'
       />
@@ -52,7 +52,7 @@ export default function PartnerPage() {
         }}
         nextLink={{
           label: 'Qui sommes-nous ?',
-          url: '/agence/about',
+          url: '/agence/qui-sommes-nous',
         }}
       />
     </Page>

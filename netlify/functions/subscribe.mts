@@ -44,7 +44,7 @@ exports.handler = async (event: NetlifyFunctionEvent) => {
     for (const option of selectedOptionsArray) {
       if (option === 'Design' && AUDIENCE_DESIGN_ID) {
         audienceIds.push(AUDIENCE_DESIGN_ID);
-      } else if (option === 'Digital' && AUDIENCE_DIGITAL_ID) {
+      } else if (option === 'Mobilites' && AUDIENCE_DIGITAL_ID) {
         audienceIds.push(AUDIENCE_DIGITAL_ID);
       } else if (option === 'Ingénierie' && AUDIENCE_ENGINEERING_ID) {
         audienceIds.push(AUDIENCE_ENGINEERING_ID);
