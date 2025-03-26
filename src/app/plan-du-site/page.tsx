@@ -18,7 +18,6 @@ export const metadata: Metadata = {
 export default function Sitemap() {
   const siteMapData = getSitemapData();
 
-  console.log('siteMapData', siteMapData)
   return (
     <Page>
       <HeaderPage
