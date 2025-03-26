@@ -11,7 +11,7 @@ import { getAboutData } from '@/services/about.service';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: `${siteOrigin}/agence/about`,
+    canonical: `${siteOrigin}/agence/qui-sommes-nous`,
   },
   title: 'Qui sommes-nous ?',
 };
@@ -31,7 +31,7 @@ export default function About() {
         ]}
         currentLink={{
           label: 'Qui sommes-nous ?',
-          url: '/agence/about',
+          url: '/agence/qui-sommes-nous',
         }}
         prevLink={{
           label: "L'agence",

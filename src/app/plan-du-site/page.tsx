@@ -10,20 +10,22 @@ import { getSitemapData } from '@/services/sitemap.service';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: `${siteOrigin}/sitemap`,
+    canonical: `${siteOrigin}/plan-du-site`,
   },
   title: 'Plan du site',
 };
 
 export default function Sitemap() {
   const siteMapData = getSitemapData();
+
+  console.log('siteMapData', siteMapData)
   return (
     <Page>
       <HeaderPage
         title='Plan du site'
         currentLink={{
           label: 'Plan du site',
-          url: 'Sitemap',
+          url: 'plan-du-site',
         }}
       />
       {siteMapData ? (

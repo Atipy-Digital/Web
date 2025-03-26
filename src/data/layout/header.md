@@ -7,7 +7,7 @@ mainNavigation:
   - name: Réalisations
     link: /realisations
   - name: Publications
-    link: /posts
+    link: /publications
   - name: Contact
     link: /contact
 ---

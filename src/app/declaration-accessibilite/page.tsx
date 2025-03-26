@@ -8,32 +8,35 @@ import { HeaderPage } from '@/components/layout/HeaderPage';
 import { Page } from '@/components/layout/Page';
 import { MarkdownSection } from '@/components/primitives/MarkdownSection';
 
-import { getMentionslegalesData } from '@/services/mentionlegales.service';
+import { getAccessibilityData } from '@/services/accessibility.service';
 
 import { ColSectionType } from '@/ts';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: `${siteOrigin}/mentions_legales`,
+    canonical: `${siteOrigin}/declaration-accessibilite`,
   },
-  title: 'Mentions légales',
+  title: 'Accessibilité',
 };
 
-export default function Sitemap() {
-  const mentionsLegalesData = getMentionslegalesData();
+export default function Accessibility() {
+  const accessibilityData = getAccessibilityData();
+
   return (
     <Page>
       <HeaderPage
-        title='Mentions légales'
+        title='Accessibilité'
         currentLink={{
-          label: 'Mentions légales',
-          url: 'mentions_legales',
+          label: 'Accessibilité',
+          url: 'declaration-accessibilite',
         }}
       />
-
-      <Box className='tl sm:px2-fluid lg:px-fluid'>
-        {mentionsLegalesData ? (
-          mentionsLegalesData.sections.map(
+      <Box
+        className='tl sm:px2-fluid lg:px-fluid pb-64
+      '
+      >
+        {accessibilityData ? (
+          accessibilityData.sections.map(
             (
               section: {
                 inverseCol: boolean | undefined;
@@ -53,7 +56,7 @@ export default function Sitemap() {
             )
           )
         ) : (
-          <p>Données des mentions légales non disponibles.</p>
+          <p>Données d'accessibilité non disponibles.</p>
         )}
       </Box>
     </Page>

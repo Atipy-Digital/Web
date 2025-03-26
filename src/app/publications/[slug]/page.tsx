@@ -31,7 +31,7 @@ export async function generateMetadata(
   if (!meta) {
     return {
       alternates: {
-        canonical: `${siteOrigin}/posts/${slug}`,
+        canonical: `${siteOrigin}/publications/${slug}`,
       },
     };
   }
@@ -41,7 +41,7 @@ export async function generateMetadata(
     description: meta.description,
     keywords: meta?.keywords?.length ? meta.keywords : previousKeywords,
     alternates: {
-      canonical: `${siteOrigin}/posts/${slug}`,
+      canonical: `${siteOrigin}/publications/${slug}`,
     },
     openGraph: {
       images: meta?.ogImg ?? 'favicon/og-alt.png',
@@ -72,16 +72,16 @@ export default async function PostPage({ params: { slug } }: Props) {
         links={[
           {
             label: 'Publications',
-            url: '/posts',
+            url: '/publications',
           },
         ]}
         currentLink={{
           label: post.title,
-          url: `/posts/${post.slug}`,
+          url: `/publications/${post.slug}`,
         }}
         prevLink={{
           label: 'Publications',
-          url: '/posts',
+          url: '/publications',
         }}
         nextLink={nextLink}
         align='left'
@@ -96,7 +96,7 @@ export default async function PostPage({ params: { slug } }: Props) {
       <BottomNav
         previousLink={{
           label: 'Publications',
-          url: '/posts',
+          url: '/publications',
         }}
         nextLink={nextLink}
       />

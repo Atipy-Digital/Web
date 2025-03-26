@@ -5,7 +5,7 @@ export default function NotFound() {
     <ErrorSection
       title='404'
       labelCTA='Voir toutes les publications'
-      link='/posts'
+      link='/publications'
     />
   );
 }

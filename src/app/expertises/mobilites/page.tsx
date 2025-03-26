@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `${siteOrigin}/expertises/mobilites`,
   },
-  title: 'Mobilites',
+  title: 'Mobilités',
 };
 
 export default function ExpertiseMobilites() {

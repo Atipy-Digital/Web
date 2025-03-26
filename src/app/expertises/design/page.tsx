@@ -38,8 +38,8 @@ export default function ExpertiseDesign() {
           url: '/expertises',
         }}
         nextLink={{
-          label: 'Digital',
-          url: '/expertises/digital',
+          label: 'Mobilites',
+          url: '/expertises/mobilites',
         }}
         boxClassName='!mb-0'
       />
@@ -50,8 +50,8 @@ export default function ExpertiseDesign() {
           url: '/expertises',
         }}
         nextLink={{
-          label: 'Digital',
-          url: '/expertises/digital',
+          label: 'Mobilites',
+          url: '/expertises/mobilites',
         }}
       />
     </Page>

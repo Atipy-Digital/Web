@@ -13,7 +13,7 @@ export const PostItem = ({ title, tags, timeToRead, slug }: PostType) => {
 
   return (
     <li className='link-hover-sub-text w-full py-11'>
-      <Link href={`/posts/${slug}`} className='block w-full cursor-pointer'>
+      <Link href={`/publications/${slug}`} className='block w-full cursor-pointer'>
         <div className='flex items-center justify-between flex-wrap mb-4 gap-y-2'>
           <div className='flex-grow flex items-center gap-2 lg:gap-3 flex-wrap'>
             {tags.map((tag) => (

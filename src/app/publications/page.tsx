@@ -10,7 +10,7 @@ import { getPosts } from '@/services/post.service';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: `${siteOrigin}/posts`,
+    canonical: `${siteOrigin}/publications`,
   },
   title: 'Publications',
 };
@@ -24,7 +24,7 @@ export default function Publications() {
         title='Publications'
         currentLink={{
           label: 'Publications',
-          url: '/posts',
+          url: '/publications',
         }}
       />
       <ListPosts data={posts} />
