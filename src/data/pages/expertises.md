@@ -39,7 +39,7 @@ cards:
       faisabilité, déploiement de services."
     url: ""
     imagesTheme:
-      light: /media/00-picto_site_atipy-2025-32.webp
+      light: /media/00-picto_site_atipy-2025-32.svg
       dark: /media/00-picto_site_atipy-2025-33.webp
     decorativeOrInformative: true
   - type: formation
