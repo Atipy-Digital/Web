@@ -50,7 +50,7 @@ cards:
       participation à la formation.
     url: ""
     imagesTheme:
-      light: /media/offer-b-formation.webp
+      light: /media/00-picto_site_atipy-2025_conseil_formation-19.svg
       dark: /media/offer-w-formation.webp
     decorativeOrInformative: true
 ---
