@@ -1,7 +1,9 @@
 ---
 metadata:
-  title: test
-  description: test
+  title: Plans de mobilités
+  description: Plans de mobilités
+  keywords:
+    - keyword: mobilité
 title: Plans de mobilités
 date: 2025-03-21T15:00:37.912Z
 icon:
