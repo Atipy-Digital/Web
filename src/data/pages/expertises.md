@@ -34,9 +34,16 @@ cards:
     decorativeOrInformative: true
   - type: mobilites
     title: Mobilités
-    text: "Nous vous accompagnons dans vos projets de mobilité inclusive : stratégie
-      et plan d’actions, concertation, formation et cartographie, études de
-      faisabilité, déploiement de services."
+    text: "Nous vous accompagnons dans vos projets de mobilité inclusive :
+      [stratégie et plan
+      d’actions](https://devel--atipy.netlify.app/expertises/mobilites/test),
+      concertation, formation et
+      [cartographie](https://devel--atipy.netlify.app/expertises/mobilites/cart\
+      ographie-des-temps-cyclables-et-pietons), études de
+      [faisabilité](https://devel--atipy.netlify.app/expertises/mobilites/amo-e\
+      t-etude-de-faisabilite), [déploiement de
+      services](https://devel--atipy.netlify.app/expertises/mobilites/design-et\
+      -deploiement-de-services)."
     url: ""
     imagesTheme:
       light: /media/00-picto_site_atipy-2025-32.webp
