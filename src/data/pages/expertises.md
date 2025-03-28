@@ -33,19 +33,14 @@ cards:
       dark: /media/offer-w-design.webp
     decorativeOrInformative: true
   - type: mobilites
-    title: Digital
-    text: Nous prenons en charge le **[`développement de vos solutions
-      digitales`](https://atipy.fr/expertises/digital/solutions-web-sur-mesure)`,
-      la `[`conception de sites web
-      accessibles`](https://atipy.fr/expertises/digital/conception-et-expertise)**
-      à travers une démarche **[`UX design / UI
-      design`](https://atipy.fr/expertises/digital/applications-mobiles-1)** et
-      **[`design
-      web`](https://atipy.fr/expertises/design/conception-graphique)`.`**
+    title: Mobilités
+    text: "Nous vous accompagnons dans vos projets de mobilité inclusive : stratégie
+      et plan d’actions, concertation, formation et cartographie, études de
+      faisabilité, déploiement de services."
     url: ""
     imagesTheme:
-      light: /media/offer-b-digital.webp
-      dark: /media/offer-w-digital.webp
+      light: /media/00-picto_site_atipy-2025-32.webp
+      dark: /media/00-picto_site_atipy-2025-33.webp
     decorativeOrInformative: true
   - type: formation
     title: Conseil et formations
