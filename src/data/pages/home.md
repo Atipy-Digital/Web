@@ -40,14 +40,14 @@ offersData:
       title: Design
       decorativeOrInformative: true
       type: DESIGN
-    - body: Web, applis, solutions logicielles.
+    - body: Plan de mobilité, marchabilité, cyclabilité, jalonnement.
       color: MOBILITES
       imagesTheme:
-        light: /media/offer-b-digital.webp
-        dark: /media/offer-w-digital.webp
+        light: /media/00-picto_site_atipy-2025-32.webp
+        dark: /media/00-picto_site_atipy-2025-33.webp
       button:
         label: En savoir plus
-      title: Digital
+      title: Mobilités
       decorativeOrInformative: true
       type: MOBILITES
 agencyData:
