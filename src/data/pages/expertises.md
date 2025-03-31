@@ -13,10 +13,9 @@ cards:
   - type: design
     title: Design
     text: Nous vous accompagnons dans la création de votre
-      **[`signalétique`](https://atipy.fr/expertises/design/signaletique)`,
-      `[`identité
-      visuelle`](https://atipy.fr/expertises/design/identite-visuelle)** et
-      **[`supports de
+      **[`signalétique`](https://atipy.fr/expertises/design/signaletique)`,`[`identité
+      visuelle`](https://atipy.fr/expertises/design/identite-visuelle)**
+      `accessibilité numérique`et **[`supports de
       communication`](https://atipy.fr/expertises/design/conception-graphique)`.`**
       Nous intervenons sur le **[`langage clair et le
       FALC`](https://atipy.fr/expertises/design/falc-et-langage-clair)`,`** et
