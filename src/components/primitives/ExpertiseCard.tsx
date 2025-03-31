@@ -58,7 +58,7 @@ export const ExpertiseCard = ({
     ],
     [
       CARD_TYPE.MOBILITES,
-      '!text-white dark:!text-black !border-a-yellow-dark dark:!border-a-yellow-light !bg-a-yellow-dark hover:!bg-white hover:!text-a-yellow-dark hover:dark:!bg-transparent hover:dark:!text-a-yellow-light dark:!bg-a-yellow-light',
+      '!text-black dark:!text-black !border-a-yellow-dark dark:!border-a-yellow-light !bg-a-yellow-dark hover:!bg-white hover:!text-a-yellow-dark hover:dark:!bg-transparent hover:dark:!text-a-yellow-light dark:!bg-a-yellow-light',
     ],
   ]);
 

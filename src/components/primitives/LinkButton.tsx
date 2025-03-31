@@ -12,6 +12,7 @@ type LinkButtonProps = AnchorHTMLAttributes<HTMLAnchorElement> &
     noAnim?: boolean;
     href?: string;
     onClick?: (event: React.MouseEvent<HTMLAnchorElement>) => void;
+    forceBlackText?: boolean;
   };
 
 export const LinkButton = ({
@@ -22,6 +23,7 @@ export const LinkButton = ({
   children,
   href,
   onClick,
+  forceBlackText,
   ...props
 }: LinkButtonProps) => {
   const variants = new Map<LinkButtonProps['variant'], string>([
@@ -61,6 +63,7 @@ export const LinkButton = ({
       className={clsxm(
         'h-[54px] flex-shrink-0 flex items-center rounded-full px-[14px] py-[11px] text-[16px] md:text-[18px] lg:text-[20px] leading-none font-bold w-fit cursor-pointer',
         currentVariant,
+        forceBlackText && '!text-black',
         className
       )}
       whileHover={noAnim ? undefined : { scale: 1.05 }}

@@ -55,7 +55,7 @@ export async function generateStaticParams() {
   return [];
 }
 
-export default async function DigitalSubPage({ params: { slug } }: Props) {
+export default async function MobilitesSubPage({ params: { slug } }: Props) {
   const subPage = getExpertiseMobilitesSubPageBySlug(slug);
   const nextLink = getExpertiseMobilitesSubPageNextLink(slug);
 

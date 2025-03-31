@@ -31,7 +31,7 @@ export const MobilitesSections = ({ data }: Props) => {
             col2={{
               reverseMobile: false,
               image: {
-                url: `/imgs/mobilites/intro-${prefixImg}.webp`,
+                url: `/imgs/mobilites/intro-${prefixImg}.svg`,
                 className: 'max-h-[384px] object-contain',
                 decorativeOrInformative: false,
               },
@@ -49,7 +49,7 @@ export const MobilitesSections = ({ data }: Props) => {
         ))}
 
         <div className='mt-10 md:mt-16 lg:mt-20 xl:mt-24'>
-          <h4 className='mb-10 font-primary font-bold text-a-yellow-dark dark:text-a-yellow-light'>
+          <h4 className='mb-10 font-primary font-bold text-black dark:text-white'>
             Nos expertises
           </h4>
 

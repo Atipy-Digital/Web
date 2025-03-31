@@ -146,6 +146,7 @@ export const SubPageSections = ({ data }: Props) => {
                 onClick={(e) => goToProjects(e)}
                 href='/realisations'
                 className='mb-8 md:mb-10 lg:mb-14 xl:mb-20'
+                forceBlackText={data.footer.btn.color === 'yellow'}
               >
                 {data.footer.btn.label}
               </LinkButton>
