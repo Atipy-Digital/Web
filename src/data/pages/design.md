@@ -26,7 +26,7 @@ sections:
           Parce que nous croyons que la démarche du designer est d’observer, d’écouter et de proposer des idées simples et pratiques, nous travaillons en collaboration avec vous et vos utilisateurs, de façon flexible.
 
 
-          Le pôle Design d’Atipy est composé de designers graphiques et signalétiques, d’UX/UI designers et d’experts de l’accessibilité capables de vous accompagner dans votre projets de communication, d’[identité visuelle](https://atipy.fr/expertises/design/identite-visuelle), de [signalétique](https://atipy.fr/expertises/design/signaletique), de motion design, de [FALC](https://atipy.fr/expertises/design/falc-et-langage-clair)…
+          Le pôle Design d’Atipy est composé de designers graphiques et signalétiques, d’UX/UI designers et d’experts de l’accessibilité capables de vous accompagner dans votre projets de communication, print ou numérique, d'[identité visuelle](https://atipy.fr/expertises/design/identite-visuelle), de [signalétique](https://atipy.fr/expertises/design/signaletique), de motion design, de [FALC](https://atipy.fr/expertises/design/falc-et-langage-clair)…
     col2:
       reverseMobile: false
     col3:
