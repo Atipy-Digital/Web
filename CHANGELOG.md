@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.0.0 (2025-03-31)
+
+
+### Features
+
+* **components:** add alt text and informative flag to PartnerItem images ([37444ce](https://github.com/Atipy-Digital/Web/commit/37444ce89b2aefb435f4db2e81923ad3bc5b8f63))
+* **icons:** add aria labels to all icon components ([#63](https://github.com/Atipy-Digital/Web/issues/63)) ([597c001](https://github.com/Atipy-Digital/Web/commit/597c001859d4394ab96ae485950d43da5c0d9a45))
+* **image, titre:** Ajouter des paramètre aria pour les image dans decap & pour les titre du rich texte ([#61](https://github.com/Atipy-Digital/Web/issues/61)) ([fb4d873](https://github.com/Atipy-Digital/Web/commit/fb4d873108cd62b7d9da147dd7f0425829f3755b))
+* **projects:** create collection to display realisations ordered ([#49](https://github.com/Atipy-Digital/Web/issues/49)) ([be60f57](https://github.com/Atipy-Digital/Web/commit/be60f5710d8f8d142f7eea4b7968a3aeabfa083f))
+* **services:** create display expertises collection ([#48](https://github.com/Atipy-Digital/Web/issues/48)) ([c99dc5c](https://github.com/Atipy-Digital/Web/commit/c99dc5c517b0d63a8781ea0921070d79c8974cf2))
+
+
+### Bug Fixes
+
+* **layout:** ajout du lien pour le sitemap dans le footer ([#59](https://github.com/Atipy-Digital/Web/issues/59)) ([e793ca5](https://github.com/Atipy-Digital/Web/commit/e793ca5185cba7eea902fdfac8599ee47acd7222))
+* **li:** increase space ([14def38](https://github.com/Atipy-Digital/Web/commit/14def38c074e2bd4bc326d42c1f3e3bb3383e5f8))
+* **PartnerItem:** update alt text to be more accessible ([b33b948](https://github.com/Atipy-Digital/Web/commit/b33b948c9cf9d186dc05fce73ffd14dfdd529486))
+* **section:** current color ([3ee1fe0](https://github.com/Atipy-Digital/Web/commit/3ee1fe0effc538540d32f0476d7fa0b133f92d31))
+* **ui:** minor update of ui ([#50](https://github.com/Atipy-Digital/Web/issues/50)) ([9395914](https://github.com/Atipy-Digital/Web/commit/9395914b98b26dc59de1b231dc2d21d9f439019a))
+* update header labels to match title casing ([402b282](https://github.com/Atipy-Digital/Web/commit/402b282966fcbb68ece1438755a4bb1634d141cf))
+
 ## [1.6.0](https://github.com/Atipy-Digital/Web/compare/v1.1.0...v1.6.0) (2025-01-16)
 
 
