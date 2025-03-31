@@ -1,6 +1,6 @@
 ---
 display_expertises:
-  - expertise: test
+  - expertise: plan-de-mobilites
   - expertise: schema-cyclable-et-plan-pieton
   - expertise: jalonnement-des-modes-actifs
   - expertise: design-et-deploiement-de-services
