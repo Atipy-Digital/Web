@@ -26,7 +26,7 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/annemasse-constats_pem.jpeg
+        url: /media/mobilite_axes_cyclabilite.jpg
     col2:
       reverseMobile: false
       image:
@@ -98,7 +98,7 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/atipy-plan-orientation-05.jpg
+        url: /media/mobilite_plan_cyclable.jpg
     col3:
       reverseMobile: false
       image:
