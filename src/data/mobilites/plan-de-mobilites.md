@@ -22,7 +22,7 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/amnesty-international-falc-atipy-communication-illustration.jpg
+        url: /media/mobilite_plan.jpg
       text:
         content: ""
     col2:
