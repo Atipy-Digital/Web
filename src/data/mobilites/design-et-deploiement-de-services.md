@@ -22,7 +22,7 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/annemasse-constats_pem.jpeg
+        url: /media/mobilite_design_conception.jpg
     col2:
       reverseMobile: false
       image:
@@ -47,7 +47,7 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/202312-py-velo-fiches-falc-def_plan-de-travail-1.jpg
+        url: /media/mobilite_design_plan.jpg
     col3:
       reverseMobile: false
       image:
