@@ -35,7 +35,7 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/amnesty-international-falc-atipy-communication-illustration.jpg
+        url: /media/mobilite_cartographie_temps.jpg
     col2:
       reverseMobile: false
       image:
@@ -83,7 +83,7 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/202312-py-velo-fiches-falc-def_plan-de-travail-1.jpg
+        url: /media/mobilite_cartographie.jpg
     col3:
       reverseMobile: false
       image:
