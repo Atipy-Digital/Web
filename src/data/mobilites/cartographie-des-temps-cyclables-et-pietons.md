@@ -83,7 +83,7 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/00-picto_site_atipy-2025-32.webp
+        url: /media/mobilite_cartographie_2.jpg
     col3:
       reverseMobile: false
       image:
