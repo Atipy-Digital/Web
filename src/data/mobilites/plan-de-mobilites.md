@@ -57,7 +57,7 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/accessibilite-transports-atipy.jpg
+        url: /media/mobilite_plan_flux.jpg
     col3:
       reverseMobile: false
       image:
@@ -107,7 +107,7 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/202312-py-velo-fiches-falc-def_plan-de-travail-1.jpg
+        url: /media/mobilite_plan_projet.jpg
     col3:
       reverseMobile: false
       image:
