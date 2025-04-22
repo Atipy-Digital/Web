@@ -25,7 +25,7 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/amnesty-international-falc-atipy-communication-illustration.jpg
+        url: /media/mobilite_amo_schema_directeur.jpg
     col2:
       reverseMobile: false
       image:
@@ -83,7 +83,7 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/202312-py-velo-fiches-falc-def_plan-de-travail-1.jpg
+        url: /media/mobilite_amo_plan.jpg
     col3:
       reverseMobile: false
       image:
