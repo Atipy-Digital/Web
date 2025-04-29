@@ -92,7 +92,17 @@ post_sections:
           Toute personne réalisant de la mise en page, qu’elle soit professionnelle ou non, ainsi que les curieux(se) souhaitant en apprendre plus sur l’accessibilité.
 
 
-          pratique visant à faciliter l’intégration des bases  et à créer des contenus inclusifs, des couleurs à la mise en page en passant par la typographie et les contrastes. Le document s’accompagne d’une checklist précise, afin de vérifier chaque élément clé et rendre ainsi tous les supports de communication accessibles à toutes et tous.
+          ### Les notions abordées
+
+
+          * Les couleurs et contrastes
+
+          * La mise en page 
+
+          * La typographie 
+
+
+          et les contrastes. Le document s’accompagne d’une checklist précise, afin de vérifier chaque élément clé et rendre ainsi tous les supports de communication accessibles à toutes et tous.
 
 
           Un guide pratique pour intégrer facilement les bases de l’accessibilité graphique et créer des contenus inclusifs. Il est accompagné d’une checklist pour vous aider à vérifier chaque élément clé et rendre vos supports accessibles à toutes et tous.
@@ -125,25 +135,33 @@ post_sections:
         decorativeOrInformative: false
       text:
         content: >-
-          Découvrir et s’approprier le guide d’accessibilité
+          **Découvrir et s’approprier le guide d’accessibilité**
 
 
-          [Voir le replay du webinaire](https://www.youtube.com/watch?v=LOhsW5MOK_Y)
+          **[Voir le replay du webinaire](https://www.youtube.com/watch?v=LOhsW5MOK_Y)**
         color: green
     col2:
       reverseMobile: false
       image:
         decorativeOrInformative: false
       text:
-        content: |-
-          Pour obtenir le guide de l'accessibilité graphique, contactez-nous ! 
+        content: >-
+          **Pour obtenir le guide de l'accessibilité graphique, contactez-nous
+          !** 
+
 
           **d﻿esign@atipy.fr**
-        color: red
+        color: green
     col3:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+      text:
+        content: >-
+          **A﻿ller plus loin et se former !**
+
+
+          **[N﻿otre catalogue de formation](https://www.atipy.fr/expertises/formation)**
 source:
   col2:
     - url: https://www.lemag-ic.fr/en-ce-moment/deux-agences-editent-un-guide-des-bonnes-pratiques-de-laccessibilite-graphique/?utm_campaign=ic-news-22042025&utm
