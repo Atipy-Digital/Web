@@ -118,6 +118,27 @@ post_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+      text:
+        content: >-
+          **Pour obtenir le guide de l'accessibilité graphique, contactez-nous
+          !** 👇
+
+
+          **d﻿esign@atipy.fr**
+        color: green
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
         url: /media/mengrov-atipy-guide-accessibilite_graphique_5.jpg
     col2:
       reverseMobile: false
@@ -148,7 +169,8 @@ post_sections:
         decorativeOrInformative: false
       text:
         content: >-
-          **Découvrir et s’approprier le guide d’accessibilité** 👇
+          **WEBINAIRE** - **Découvrir et s’approprier le guide
+          d’accessibilité**👇
 
 
           **[Voir le replay du webinaire](https://www.youtube.com/watch?v=LOhsW5MOK_Y)**
@@ -159,23 +181,18 @@ post_sections:
         decorativeOrInformative: false
       text:
         content: >-
-          **Pour obtenir le guide de l'accessibilité graphique, contactez-nous
-          !** 👇
+          **A﻿ller plus loin et se former !** 👇
 
 
-          **d﻿esign@atipy.fr**
+          **[N﻿otre catalogue de formation](https://www.atipy.fr/expertises/formation)**
         color: green
     col3:
       reverseMobile: false
       image:
         decorativeOrInformative: false
       text:
-        content: >-
-          **A﻿ller plus loin et se former !** 👇
-
-
-          **[N﻿otre catalogue de formation](https://www.atipy.fr/expertises/formation)**
-        color: green
+        content: ""
+        color: null
 source:
   col2:
     - url: https://www.lemag-ic.fr/en-ce-moment/deux-agences-editent-un-guide-des-bonnes-pratiques-de-laccessibilite-graphique/?utm_campaign=ic-news-22042025&utm
