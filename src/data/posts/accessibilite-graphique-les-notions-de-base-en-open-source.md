@@ -40,11 +40,27 @@ post_sections:
           * a﻿llophone
 
 
+          ### Pourquoi rendre vos supports accessible ?
 
 
-          Pourquoi rendre vos supports accessible ?
+          Souvent invisible, le handicap peut être un frein à l’accès à l’information. Vos clients, vos usagers, vos collaborateurs peuvent être concernés. En partant des besoins utilisateur les plus spécifiques, il est possible de répondre aux besoins d’un public cible plus élargi.
 
-          Parce qu’un bon design est un design que tout le monde peut comprendre et utiliser ! Adapter les couleurs, les contrastes, la typographie et la mise en page, c’est permettre à chacun d’accéder à l’information, sans obstacle.
+
+          La communication accessible tend à donner accès à l’information au plus grand nombre.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/mengrov-atipy-guide-accessibilite_graphique_1.jpg
     col2:
       reverseMobile: false
       image:
@@ -78,6 +94,20 @@ post_sections:
           👀 Pour qui ?
 
           Toute personne réalisant de la mise en page, qu’elle soit professionnelle ou non, ainsi que les curieux(se) souhaitant en apprendre plus sur l’accessibilité.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/mengrov-atipy-guide-accessibilite_graphique_5.jpg
     col2:
       reverseMobile: false
       image:
