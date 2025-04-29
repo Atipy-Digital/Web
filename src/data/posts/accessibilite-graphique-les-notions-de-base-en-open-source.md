@@ -80,20 +80,22 @@ post_sections:
           l’accessibilité graphique
 
 
+          ### 🎯 L’objectif ?
+
+
+          V﻿ous permettre d'être autonomes dans la création de contenus en les rendant lisibles et compréhensibles, qu’ils soient numériques, visuels ou textuels.
+
+
+          ### 👀 Pour qui ?
+
+
+          Toute personne réalisant de la mise en page, qu’elle soit professionnelle ou non, ainsi que les curieux(se) souhaitant en apprendre plus sur l’accessibilité.
+
+
           pratique visant à faciliter l’intégration des bases  et à créer des contenus inclusifs, des couleurs à la mise en page en passant par la typographie et les contrastes. Le document s’accompagne d’une checklist précise, afin de vérifier chaque élément clé et rendre ainsi tous les supports de communication accessibles à toutes et tous.
 
 
           Un guide pratique pour intégrer facilement les bases de l’accessibilité graphique et créer des contenus inclusifs. Il est accompagné d’une checklist pour vous aider à vérifier chaque élément clé et rendre vos supports accessibles à toutes et tous.
-
-
-          🎯 L’objectif ?
-
-          Vous accompagner lors de la création de contenus en les rendant lisibles et compréhensibles, qu’ils soient numériques, visuels ou textuels.
-
-
-          👀 Pour qui ?
-
-          Toute personne réalisant de la mise en page, qu’elle soit professionnelle ou non, ainsi que les curieux(se) souhaitant en apprendre plus sur l’accessibilité.
     col2:
       reverseMobile: false
       image:
