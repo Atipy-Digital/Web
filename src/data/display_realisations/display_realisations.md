@@ -1,5 +1,6 @@
 ---
 display_realisations:
+  - realisation: accompagnement-du-service-education-aux-droits-humains-dans-la-mise-en-place-d-une-strategie-globale-d-accessibilite-et-d-inclusion-des-outils-de-communication
   - realisation: signaletique-touristique-pietonne-de-l-ile-de-brehat
   - realisation: signaletique-du-ministere-des-affaires-etrangeres
   - realisation: adap-pour-les-necropoles-nationales
