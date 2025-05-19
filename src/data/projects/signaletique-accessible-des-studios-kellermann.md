@@ -101,6 +101,7 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+        url: /media/kellermann-design-signaletique-4.jpg
       text:
         content: >-
           #### Un espace de vie commun
