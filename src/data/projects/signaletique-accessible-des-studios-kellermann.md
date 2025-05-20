@@ -37,7 +37,7 @@ project_sections:
       image:
         decorativeOrInformative: false
         url: /media/kellermann-design-signaletique-6.jpg
-        alt: Prototype graphique du vitrophanie avec référentiel de taille
+        alt: Prototype graphique du vitrophanie avec référentiel de taille humain
       text:
         content: ""
     col2:
@@ -56,6 +56,20 @@ project_sections:
         decorativeOrInformative: false
         url: ""
       text:
+        content: >-
+          #### Les objectifs de la mission
+
+
+          * Rendre les espaces et services facilement identifiables pour les résidents.
+
+          * Concevoir une signalétique qui s'intègre naturellement à l'environnement de vie, en évitant tout aspect intrusif ou institutionnel.
+
+          * Préserver l'intimité des résidents tout en maintenant une certaine ouverture sur l'extérieur.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
         content: |-
           #### Nos prestations pour cette mission
 
@@ -65,10 +79,6 @@ project_sections:
           * Proposition de design signalétique
           * Réalisation des bons à tirer
           * Accompagnement de la fabrication jusqu’à la réception
-    col2:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
     col3:
       reverseMobile: false
       image:
