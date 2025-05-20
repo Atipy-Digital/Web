@@ -8,7 +8,7 @@ title: Signalétique accessible des Studios Kellermann
 image:
   decorativeOrInformative: false
   url: /media/kellermann-design-signaletique-0.jpg
-  alt: Vitres avec vitrophanie organique en vinyle blanc
+  alt: Vitrophanie avec illustrations organiques et minérales en vinyle blanc
 project_client: les-jours-heureux
 mission_body: >-
   Concevoir et mettre en place un système de signalétique clair, accessible et
@@ -36,8 +36,8 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/kellermann-design-signaletique-1.png
-        alt: Déclinaison de pictogrammes pour la signalétique
+        url: /media/kellermann-design-signaletique-6.jpg
+        alt: Prototype graphique du vitrophanie avec référentiel de taille
       text:
         content: >-
           #### Les objectifs de la mission
