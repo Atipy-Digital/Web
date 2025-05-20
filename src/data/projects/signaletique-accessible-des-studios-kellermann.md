@@ -39,16 +39,7 @@ project_sections:
         url: /media/kellermann-design-signaletique-6.jpg
         alt: Prototype graphique du vitrophanie avec référentiel de taille
       text:
-        content: >-
-          #### Les objectifs de la mission
-
-
-
-          * Rendre les espaces et services facilement identifiables pour les résidents.
-
-          * Concevoir une signalétique qui s'intègre naturellement à l'environnement de vie, en évitant tout aspect intrusif ou institutionnel.
-
-          * Préserver l'intimité des résidents tout en maintenant une certaine ouverture sur l'extérieur.
+        content: ""
     col2:
       reverseMobile: false
       image:
