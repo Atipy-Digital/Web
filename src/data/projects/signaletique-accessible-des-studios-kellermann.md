@@ -136,6 +136,23 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/atipy-kellermann-pictogrammes-signaletique-03.jpg
+        legend: 'Pictogramme "espaces de vie" sur fond gris minéral '
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/atipy-kellermann-pictogrammes-signaletique-04.jpg
+        legend: Pictogramme "Buanderie" sur fond blanc
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 projectsFeatured:
   - conception-d-une-signaletique-d-orientation-accessible
   - conception-de-la-signaletique-inclusive-du-stade-pierre-de-coubertin
