@@ -88,7 +88,7 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/kellermann-design-signaletique-2.png
+        url: /media/kellermann-design-signaletique-1.png
     col2:
       reverseMobile: false
       image:
@@ -115,6 +115,23 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/atipy-kellermann-pictogrammes-signaletique-10.jpg
+        alt: Exemples de signalétiques directionnelles
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/atipy-kellermann-pictogrammes-signaletique-09.jpg
+        alt: Exemple de vitrophanie avec des motifs minéraux et organiques
     col3:
       reverseMobile: false
       image:
