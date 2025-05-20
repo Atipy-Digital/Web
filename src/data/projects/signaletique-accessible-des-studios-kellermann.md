@@ -153,6 +153,23 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/atipy-kellermann-pictogrammes-signaletique-05.jpg
+        alt: Pictogramme "Sanitaire Femme Accessibles" sur fond gris minéral
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/atipy-kellermann-pictogrammes-signaletique-02.jpg
+        legend: Pictogramme "WC" sur fond blanc
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 projectsFeatured:
   - conception-d-une-signaletique-d-orientation-accessible
   - conception-de-la-signaletique-inclusive-du-stade-pierre-de-coubertin
