@@ -1,31 +1,27 @@
 ---
 metadata:
   title: Signalétique accessible des Studios Kellermann
-  description: Concevoir et mettre en place un système de signalétique clair,
-    accessible et harmonieux pour des adultes en situation de handicap mental ou
-    psychique.
+  description: Concevoir et mettre en place la signalétique des Studios Kellermann.
+  keywords:
+    - keyword: signalétique
 title: Signalétique accessible des Studios Kellermann
 image:
   decorativeOrInformative: false
   url: /media/kellermann-design-signaletique-0.jpg
   alt: Vitrophanie avec illustrations organiques et minérales en vinyle blanc
 project_client: les-jours-heureux
-mission_body: >-
-  Concevoir et mettre en place un système de signalétique clair, accessible et
-  harmonieux pour
-
-  les Studios Kellermann, un lieu de vie accueillant des adultes en situation de handicap mental
-
-  ou psychique.
+mission_body: Concevoir et mettre en place la signalétique des Studios Kellermann.
 context_body: >-
-  Les Studios Kellermann, gérés par l'association Les Jours Heureux, offrent un
-  environnement
+  Les Studios Kellermann, gérés par l'association Les Jours Heureux, sont un
+  lieu de vie
 
-  de vie permanent à des personnes autonomes dans leur quotidien mais nécessitant un
+  accueillant des adultes en réinsertion. Les Studios Kellermann offrent un environnement de vie
 
-  accompagnement adapté. Il fallait donc faciliter l'orientation dans l’établissement et contribuer
+  permanent à des personnes autonomes. Elles sont accompagnées dans leur quotidien par une
 
-  au cadre de vie agréable.
+  équipe d’éducateurs. Etablissement neuf ouvert récemment, Atipy a été mission pour faciliter
+
+  l'orientation dans le bâtiment et contribuer à un cadre de vie agréable.
 project_tags:
   - Signalétique
   - Accessibilité
@@ -62,9 +58,11 @@ project_sections:
 
           * Rendre les espaces et services facilement identifiables pour les résidents.
 
-          * Concevoir une signalétique qui s'intègre naturellement à l'environnement de vie, en évitant tout aspect intrusif ou institutionnel.
+          * Proposer des supports clairs, accessibles et harmonieux.
 
-          * Préserver l'intimité des résidents tout en maintenant une certaine ouverture sur l'extérieur.
+          * Mettre en avant l’identité visuelle de l’association Les Jours Heureux.
+
+          * Concevoir une signalétique qui s'intègre naturellement à l'environnement de vie, en évitant tout aspect intrusif ou institutionnel.
     col2:
       reverseMobile: false
       image:
