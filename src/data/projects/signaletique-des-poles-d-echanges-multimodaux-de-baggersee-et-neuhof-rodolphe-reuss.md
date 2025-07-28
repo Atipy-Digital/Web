@@ -56,6 +56,31 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          #### **Le parcours voyageur**
+
+
+          Au sein d’un réseau de transports urbains, le voyageur a besoin d’être orienté et d’avoir accès à des informations claires et compréhensibles rapidement.
+
+
+          Les usagers du réseau strasbourgeois sont essentiellement des habitués. Ils ont peu de difficultés apparentes pour s’orienter et se repérer et peu d’hésitation dans le choix des chemins à prendre pour rejoindre leur destination finale.
+
+
+          Les besoins pour s’orienter sont principalement ceux des primo-visiteurs et des voyageurs occasionnels des pôles de correspondances.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 projectsFeatured:
   - pole-dechanges-de-lyon-perrache
 ---
