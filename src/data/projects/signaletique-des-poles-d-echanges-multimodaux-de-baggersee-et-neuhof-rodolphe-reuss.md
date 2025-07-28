@@ -20,18 +20,38 @@ context_body: La Compagnie des Transports Strasbourgeois (CTS) exploite le
   la signalétique de deux pôles d’échanges multimodaux, points de
   correspondances très fréquentés par les voyageurs.
 project_tags:
-  - Design
   - Signalétique
+  - Accessibilité
+  - Design
 project_sections:
   - inverseCol: false
     col1:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+      text:
+        content: >-
+          #### Les objectifs de la mission
+
+
+          * Proposer un système d’orientation innovant avec des dispositifs directionnels et d’identification sur les périmètres des pôles d’échanges multimodaux.
+
+          * Permettre une meilleure identification des différents espaces et services en mettant à disposition de tous les voyageurs des informations claires, visibles et compréhensibles.
+
+          * Orienter les voyageurs tout au long du parcours jusqu’à destination, et ce sans rupture.
+
+          * Répondre à la réglementation accessibilité en mettant en place une signalétique la plus universelle possible.
     col2:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+      text:
+        content: |-
+          #### Nos prestations pour cette mission
+
+          * Étude des flux
+          * Proposition de plans d’implantation
+          * Propositions de design signalétique
     col3:
       reverseMobile: false
       image:
