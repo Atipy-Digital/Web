@@ -77,6 +77,21 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+      text:
+        content: >-
+          ##### **Se repérer**
+
+
+          Quel est l’environnement autour de moi ?
+
+
+          ● Manque plan de quartier facile à comprendre
+
+
+          ● Manque les grandes directions (ex: Vers centre-ville)
+
+
+          ● Point de repères “naturels” : Centre commercial Auchan visible de loin (grande enseigne lumineuse) et la Halle du dépôt des bus.
     col3:
       reverseMobile: false
       image:
