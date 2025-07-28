@@ -10,6 +10,7 @@ title: Signalétique des pôles d’échanges multimodaux de Baggersee et Neuhof
 image:
   decorativeOrInformative: false
   url: /media/logo_compagnie_des_transports_strasbourgeois.svg.png
+  alt: Image temporaire
 project_client: la-compagnie-des-transports-strasbourgeois
 mission_body: Étude des flux et modélisation de supports de signalétique
   innovants pour des pôles d’échanges multimodaux
