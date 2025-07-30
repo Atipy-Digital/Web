@@ -1,0 +1,20 @@
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+	 viewBox="0 0 150 97.3" style="enable-background:new 0 0 150 97.3;" xml:space="preserve">
+<style type="text/css">
+	.st0 { fill: #FCC641; }
+	.st1 { fill: none; stroke: currentColor; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+	.st2 { fill: currentColor; }
+</style>
+<path id="Tracé_185" class="st0" d="M32,0L18.5,13.5l26.1,26.1L18.5,65.7L32,79.2l39.6-39.6L32,0z"/>
+<g>
+	<polyline class="st1" points="83.4,20.1 83.4,13.8 102.1,18.2 120.5,13.8 138,20.4 138,68.8 120.1,62.8 102.1,68.5 83.4,62.8 	"/>
+	<g>
+		<g>
+			<path class="st1" d="M57.6,39.7c0,7.9,10.4,24.4,14.2,24.4S86,47.5,86,39.7s-6.4-14.2-14.2-14.2S57.6,31.8,57.6,39.7z"/>
+			<circle class="st2" cx="71.8" cy="39.7" r="5.6"/>
+		</g>
+	</g>
+	<line class="st1" x1="102.6" y1="68.5" x2="102.6" y2="18.2"/>
+	<line class="st1" x1="120.5" y1="13.8" x2="120.5" y2="62.8"/>
+</g>
+</svg>

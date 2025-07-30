@@ -8,9 +8,9 @@ metadata:
 title: AMO et étude de faisabilité
 date: 2025-03-28T13:48:00.842Z
 icon:
-  label: Conseils et formations - Rouge
-  value: formation
-  type: digital
+  label: Fleche - Jaune
+  value: fleche
+  type: mobilites
 color: CONSEIL
 intro: >-
   ### Concevoir des aménagements pour tous les usagers

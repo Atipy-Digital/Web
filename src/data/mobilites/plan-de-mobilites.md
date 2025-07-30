@@ -7,9 +7,9 @@ metadata:
 title: Plans de mobilités
 date: 2025-03-21T15:00:37.912Z
 icon:
-  label: Accessibilité Numerique - Rouge
-  value: accessibiliteNumerique
-  type: digital
+  label: Carte - Jaune
+  value: carte
+  type: mobilites
 color: CONSEIL
 intro: >-
   ### Planifier les mobilités

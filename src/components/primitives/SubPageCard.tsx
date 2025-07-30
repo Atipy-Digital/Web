@@ -9,6 +9,7 @@ import iconsDesign from '../icons/design';
 import iconsDigital from '../icons/digital';
 import iconsFormation from '../icons/formation';
 import iconsIngenierie from '../icons/ingenierie';
+import iconsMobilites from '../icons/mobilites';
 
 import { CARD_TYPE, ExpertiseSubPageType } from '@/ts';
 
@@ -70,6 +71,11 @@ export const SubPageCard = ({
       return (
         iconsIngenierie[icon.value ?? 'formation'] ||
         iconsIngenierie['formation']
+      );
+    }
+    if (icon.type === 'mobilites') {
+      return (
+        iconsMobilites[icon.value ?? 'mobilites'] || iconsMobilites['mobilites']
       );
     }
 

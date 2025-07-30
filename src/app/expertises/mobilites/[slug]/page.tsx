@@ -93,7 +93,7 @@ export default async function MobilitesSubPage({ params: { slug } }: Props) {
         }
         boxClassName='!mb-0'
       />
-      <SubPageSections data={subPage} type='digital' />
+      <SubPageSections data={subPage} type='mobilites' />
       <BottomNav
         previousLink={{
           label: 'Mobilités',
