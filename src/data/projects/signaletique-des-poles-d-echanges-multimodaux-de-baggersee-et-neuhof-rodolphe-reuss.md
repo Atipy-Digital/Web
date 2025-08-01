@@ -91,9 +91,9 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/maquettes-graphiques-totem-1200x800.jpg
+        url: ""
         legend: ""
-        alt: Maquettes graphiques des Totems vue de face et de dessus
+        alt: ""
       text:
         content: >-
           #### **Le parcours voyageur**
@@ -125,6 +125,21 @@ project_sections:
 
 
           ● Point de repères “naturels” : Centre commercial Auchan visible de loin (grande enseigne lumineuse) et la Halle du dépôt des bus.
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/maquettes-graphiques-totem-1200x800.jpg
+        alt: Maquettes graphiques des Totems vue de face et de dessus
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
     col3:
       reverseMobile: false
       image:
