@@ -91,6 +91,8 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+        url: /media/maquettes-graphiques-totem-1200x800.jpg
+        legend: Maquettes graphiques des Totems vue de face et de dessus
       text:
         content: >-
           #### **Le parcours voyageur**
