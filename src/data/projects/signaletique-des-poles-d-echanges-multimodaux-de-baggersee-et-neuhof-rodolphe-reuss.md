@@ -76,6 +76,21 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+        url: /media/cahier-des-charges-signa-1920x664.jpg
+        legend: "Cahier des charges de la signalétique : couleurs et iconographie"
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
       text:
         content: >-
           #### **Le parcours voyageur**
