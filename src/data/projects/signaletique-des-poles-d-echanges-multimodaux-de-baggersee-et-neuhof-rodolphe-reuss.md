@@ -9,8 +9,8 @@ title: Signalétique des pôles d’échanges multimodaux de Baggersee et Neuhof
   Rodolphe Reuss
 image:
   decorativeOrInformative: false
-  url: /media/logo_compagnie_des_transports_strasbourgeois.svg.png
-  alt: Image temporaire
+  url: /media/carte-flux-matin-neuhof-1920x860.jpg
+  alt: "NEUHOF : Carte de de flux du matin"
 project_client: la-compagnie-des-transports-strasbourgeois
 mission_body: Étude des flux et modélisation de supports de signalétique
   innovants pour des pôles d’échanges multimodaux
@@ -24,6 +24,21 @@ project_tags:
   - Accessibilité
   - Design
 project_sections:
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/phase-programmation-1920x664.jpg
+        alt: Prototypage des types de supports sur les arrêts de trams et de bus
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
   - inverseCol: false
     col1:
       reverseMobile: false
