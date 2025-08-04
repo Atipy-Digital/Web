@@ -167,7 +167,7 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/maquettes-graphiques-totem-details-1200x800.jpg
+        url: /media/maquettes-graphiques-totem-details-1920x664.jpg
         alt: Maquettes graphiques et détails des totems
     col2:
       reverseMobile: false
