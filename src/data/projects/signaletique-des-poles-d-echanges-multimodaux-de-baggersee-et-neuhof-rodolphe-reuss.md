@@ -167,8 +167,8 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/cts_tram.jpg
-        alt: Photo tram de la Compagnie des Transports Strasbourgeois
+        url: /media/carte-flux-matin-neuhof-1200x600.jpg
+        alt: "NEUHOF : Carte de de flux du matin"
     col2:
       reverseMobile: false
       image:
