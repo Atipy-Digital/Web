@@ -114,6 +114,19 @@ project_sections:
         url: /media/maquettes-graphiques-totem-1200x800.jpg
         alt: Maquettes graphiques des Totems vue de face et de dessus
       text:
+        content: ""
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/directionnels-suspendus-maquettes-1200x800.jpg
+        alt: Maquettes graphiques en perspective de panneaux directionnels suspendus
+      text:
         content: >-
           ##### **Se repérer**
 
@@ -128,17 +141,6 @@ project_sections:
 
 
           ● Point de repères “naturels” : Centre commercial Auchan visible de loin (grande enseigne lumineuse) et la Halle du dépôt des bus.
-    col3:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
-        url: /media/directionnels-suspendus-maquettes-1200x800.jpg
-        alt: Maquettes graphiques en perspective de panneaux directionnels suspendus
     col2:
       reverseMobile: false
       image:
