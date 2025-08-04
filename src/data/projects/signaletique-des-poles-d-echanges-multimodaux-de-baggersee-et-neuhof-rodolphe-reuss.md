@@ -206,14 +206,14 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: ""
-        alt: ""
+        url: /media/maquettes-graphiques-totem-details-1200x600.jpg
+        alt: Maquettes graphiques et détails des totems
     col2:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: ""
-        alt: ""
+        url: /media/maquettes-graphiques-totem-mise-en-situation-1200x600.jpg
+        alt: Mise en situation graphique des totems
     col3:
       reverseMobile: false
       image:
