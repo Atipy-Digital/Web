@@ -61,12 +61,7 @@ project_sections:
       image:
         decorativeOrInformative: false
       text:
-        content: |-
-          #### Nos prestations pour cette mission
-
-          * Étude des flux
-          * Proposition de plans d’implantation
-          * Propositions de design signalétique
+        content: ""
     col3:
       reverseMobile: false
       image:
@@ -180,6 +175,26 @@ project_sections:
         decorativeOrInformative: false
         url: /media/maquettes-graphiques-totem-mise-en-situation-1200x800.jpg
         alt: Mise en situation graphique des totems
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: |-
+          #### Nos prestations pour cette mission
+
+          * Étude des flux
+          * Proposition de plans d’implantation
+          * Propositions de design signalétique
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
     col3:
       reverseMobile: false
       image:
