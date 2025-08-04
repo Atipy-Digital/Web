@@ -167,7 +167,7 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/carte-flux-matin-neuhof-1200x600.jpg
+        url: /media/carte-flux-matin-baggersee-1920x664.jpg
         alt: "NEUHOF : Carte de de flux du matin"
     col2:
       reverseMobile: false
