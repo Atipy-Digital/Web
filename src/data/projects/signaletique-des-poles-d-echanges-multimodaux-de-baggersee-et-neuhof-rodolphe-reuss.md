@@ -77,7 +77,8 @@ project_sections:
       image:
         decorativeOrInformative: false
         url: /media/cahier-des-charges-signa-1920x664.jpg
-        legend: "Cahier des charges de la signalétique : couleurs et iconographie"
+        legend: ""
+        alt: "Cahier des charges de la signalétique : couleurs et iconographie"
     col2:
       reverseMobile: false
       image:
