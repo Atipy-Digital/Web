@@ -9,8 +9,8 @@ title: Signalétique des pôles d’échanges multimodaux de la Compagnie des
   Transports Strasbourgeois
 image:
   decorativeOrInformative: false
-  url: /media/carte-flux-matin-neuhof-1920x860.jpg
-  alt: "NEUHOF : Carte de de flux du matin"
+  url: /media/cts_tram_1920x860.jpg
+  alt: Photographie tram de la Compagnie des Transports Strasbourgeois
 project_client: la-compagnie-des-transports-strasbourgeois
 mission_body: Étude des flux et modélisation de supports de signalétique
   innovants pour des pôles d’échanges multimodaux
