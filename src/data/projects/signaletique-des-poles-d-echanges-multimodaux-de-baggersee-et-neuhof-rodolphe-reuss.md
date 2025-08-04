@@ -5,8 +5,8 @@ metadata:
   description: Étude des flux et modélisation de supports de signalétique
     innovants pour des pôles d’échanges multimodaux
   title: "Signalétique PEM : Baggersee / Neuhof Rodolphe Reuss"
-title: Signalétique des pôles d’échanges multimodaux de Baggersee et Neuhof
-  Rodolphe Reuss
+title: Signalétique des pôles d’échanges multimodaux de la Compagnie des
+  Transports Strasbourgeois
 image:
   decorativeOrInformative: false
   url: /media/carte-flux-matin-neuhof-1920x860.jpg
