@@ -182,8 +182,8 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/maquettes-graphiques-totem-details-1200x600.jpg
-        alt: Maquettes graphiques des totems et détails
+        url: ""
+        alt: ""
       text:
         content: |-
           #### Nos prestations pour cette mission
@@ -195,8 +195,8 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: ""
-        alt: ""
+        url: /media/maquettes-graphiques-totem-details-1200x600.jpg
+        alt: Maquettes graphiques des totems et détails
     col3:
       reverseMobile: false
       image:
