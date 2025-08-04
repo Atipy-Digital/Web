@@ -173,8 +173,8 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/maquettes-graphiques-totem-mise-en-situation-1200x800.jpg
-        alt: Mise en situation graphique des totems
+        url: ""
+        alt: ""
     col3:
       reverseMobile: false
       image:
@@ -195,6 +195,7 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+        url: /media/maquettes-graphiques-totem-mise-en-situation-1200x800.jpg
     col3:
       reverseMobile: false
       image:
