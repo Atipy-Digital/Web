@@ -168,6 +168,7 @@ project_sections:
       image:
         decorativeOrInformative: false
         url: /media/cts_tram.jpg
+        alt: Photo tram de la Compagnie des Transports Strasbourgeois
     col2:
       reverseMobile: false
       image:
