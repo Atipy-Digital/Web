@@ -28,5 +28,4 @@ display_realisations:
   - realisation: signaletique-du-camsp-paris-nord
   - realisation: releves-d-accessibilite-region-grand-est
   - realisation: signaletique-accessibles-des-etablissements-culturels-de-clichy
-  - realisation: signaletique-accessibles-des-etablissements-culturels-de-clichy
 ---
