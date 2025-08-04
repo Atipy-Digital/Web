@@ -145,9 +145,9 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/directionnels-suspendus-1200x800.jpg
+        url: ""
         legend: ""
-        alt: Maquettes et mise en situation de panneaux suspendus
+        alt: ""
     col3:
       reverseMobile: false
       image:
