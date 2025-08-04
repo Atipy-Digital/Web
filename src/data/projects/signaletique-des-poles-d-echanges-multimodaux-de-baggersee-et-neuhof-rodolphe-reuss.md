@@ -168,7 +168,7 @@ project_sections:
       image:
         decorativeOrInformative: false
         url: /media/carte-flux-matin-baggersee-1920x664.jpg
-        alt: "NEUHOF : Carte de de flux du matin"
+        alt: "BAGGERSEE : Carte de de flux du matin"
     col2:
       reverseMobile: false
       image:
