@@ -167,14 +167,11 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/maquettes-graphiques-totem-details-1920x664.jpg
-        alt: Maquettes graphiques et détails des totems
+        url: /media/cts_tram.jpg
     col2:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: ""
-        alt: ""
     col3:
       reverseMobile: false
       image:
@@ -197,6 +194,23 @@ project_sections:
         decorativeOrInformative: false
         url: /media/maquettes-graphiques-totem-mise-en-situation-1200x800.jpg
         alt: Mise en situation graphique des totems
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/maquettes-graphiques-totem-details-1920x664.jpg
+        alt: Maquettes graphiques et détails des totems
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: ""
+        alt: ""
     col3:
       reverseMobile: false
       image:
