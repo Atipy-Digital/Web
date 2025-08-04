@@ -111,8 +111,8 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/maquettes-graphiques-totem-1200x800.jpg
-        alt: Maquettes graphiques des Totems vue de face et de dessus
+        url: ""
+        alt: ""
       text:
         content: ""
     col3:
@@ -124,8 +124,8 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/directionnels-suspendus-maquettes-1200x800.jpg
-        alt: Maquettes graphiques en perspective de panneaux directionnels suspendus
+        url: ""
+        alt: ""
       text:
         content: >-
           ##### **Se repérer**
