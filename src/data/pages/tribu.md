@@ -53,16 +53,6 @@ members:
       label: La créative
       color: a-green
     linkedin: https://www.linkedin.com/in/melissa-jay/
-  - name: Florent Paumier
-    image: /media/florent.jpg
-    skills:
-      - text: Accessibilité numérique
-      - text: Développement de logiciels
-      - text: Sites web
-    badge:
-      label: Le développeur
-      color: a-red
-    linkedin: https://www.linkedin.com/in/florent-paumier-83a48958/
   - name: Adeline Richez
     image: /media/adeline.jpg
     skills:
