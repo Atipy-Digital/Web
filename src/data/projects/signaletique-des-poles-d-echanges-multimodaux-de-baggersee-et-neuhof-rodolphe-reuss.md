@@ -2,6 +2,8 @@
 metadata:
   keywords:
     - keyword: signalétique
+    - keyword: transports
+    - keyword: mobilité
   description: Étude des flux et modélisation de supports de signalétique
     innovants pour des pôles d’échanges multimodaux
   title: "Signalétique PEM : Baggersee / Neuhof Rodolphe Reuss"
@@ -10,7 +12,7 @@ title: Signalétique des pôles d’échanges multimodaux de la Compagnie des
 image:
   decorativeOrInformative: false
   url: /media/cts_tram_1920x860.jpg
-  alt: Photographie tram de la Compagnie des Transports Strasbourgeois
+  alt: ""
 project_client: la-compagnie-des-transports-strasbourgeois
 mission_body: Étude des flux et modélisation de supports de signalétique
   innovants pour des pôles d’échanges multimodaux
@@ -21,8 +23,8 @@ context_body: La Compagnie des Transports Strasbourgeois (CTS) exploite le
   correspondances très fréquentés par les voyageurs.
 project_tags:
   - Signalétique
-  - Accessibilité
   - Design
+  - Mobilité
 project_sections:
   - inverseCol: false
     col1:
