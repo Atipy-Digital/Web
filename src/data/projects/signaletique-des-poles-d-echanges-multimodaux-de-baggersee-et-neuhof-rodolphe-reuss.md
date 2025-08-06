@@ -223,4 +223,5 @@ project_sections:
 projectsFeatured:
   - pole-dechanges-de-lyon-perrache
   - charte-signale-tique-accessible-pour-les-itine-raires-velo
+  - signaletique-du-pole-dechanges-multimodal
 ---
