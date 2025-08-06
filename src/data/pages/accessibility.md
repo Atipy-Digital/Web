@@ -8,7 +8,10 @@ sections:
           Ce présent site est partiellement conforme au [RGAA (Référentiel
           Général d’Amélioration de
 
-          l’Accessibilité) - version 4.1.2](https://accessibilite.numerique.gouv.fr/)A﻿tipy mène actuellement un travail pour rendre son site web accessible au plus grand nombre.
+          l’Accessibilité) - version 4.1.2](https://accessibilite.numerique.gouv.fr/)
+
+
+          A﻿tipy mène actuellement un travail pour rendre son site web accessible au plus grand nombre.
 
 
           ## Q﻿u'est ce que l'accessibilité numérique ?
