@@ -9,7 +9,7 @@ title: Signalétique touristique piétonne de Bourg Saint Maurice - Les Arcs
 image:
   decorativeOrInformative: false
   url: /media/bourg-saint-maurice-les-arcs-signaletique-pietonne-atipy-1.jpg
-project_client: amnesty-international
+project_client: bourg-saint-maurice-les-arcs
 mission_body: Assistance à maîtrise d’ouvrage pour la refonte de la signalétique
   communale de Bourg Saint Maurice - Les Arcs.
 context_body: >-
