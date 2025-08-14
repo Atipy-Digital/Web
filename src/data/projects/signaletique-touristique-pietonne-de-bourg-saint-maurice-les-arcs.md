@@ -110,6 +110,38 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ## Une signalétique accueillante et sobre
+
+
+          Dans cet environnement de montagne, Atipy a proposé un mobilier signalétique simple et intemporel. Reprenant la charte graphique de Bourg Saint Maurice - Les Arcs, la sobriété des supports signalétiques permet une bonne intégration et l’affirmation de l’identité visuelle territoriale pour le chef-lieu et les 3 stations.
+
+
+          Innovant dans ce qu’il propose, ce système signalétique est composé de 3 typologies d’informations : 
+
+
+          * L’identification du territoire aux entrées
+
+          * Les directions vers les points d'intérêt
+
+          * Les informations pratiques et repérage sur plan
+
+
+          L’identité graphique est déclinée sur tous les dispositifs signalétique et permet ainsi une cohérence visuelle sur le chef-lieu et dans les stations.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 projectsFeatured:
   - signaletique-touristique-pietonne-de-l-ile-de-brehat
 ---
