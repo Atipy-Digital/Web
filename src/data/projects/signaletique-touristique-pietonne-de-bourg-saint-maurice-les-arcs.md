@@ -76,10 +76,7 @@ project_sections:
           ## Une signalétique pour un territoire de montagne
 
 
-          La conception de supports signalétiques extérieurs dans une territoire de montagne implique des contraintes particulières : températures basses, neige, altitude… A cela s'ajoute également l’intégration dans un environnement naturel ainsi que les besoins du public de langue étrangère.
-
-
-          Il convient donc de prendre en compte de multiples facteurs afin de développer des dispositifs : 
+          La conception de supports signalétiques extérieurs dans une territoire de montagne implique des contraintes particulières : températures basses, neige, altitude… A cela s'ajoute également l’intégration dans un environnement naturel ainsi que les besoins du public de langue étrangère. Il convient donc de prendre en compte de multiples facteurs afin de développer des dispositifs : 
 
 
           * Respectueux de la qualité paysagère
