@@ -200,6 +200,127 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/bourg-saint-maurice-les-arcs-signaletique-pietonne-mat-directionnel-atipy-4.png
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ## Le Relais Information Services (RIS)
+
+
+          Le RIS est un dispositif signalétique donnant aux visiteurs des informations complémentaires à la signalétique directionnelle. Le RIS doit être graphiquement cohérent avec la charte signalétique et situé à des points stratégiques. Par exemple, en sortie de gare ou sur une place centrale. Il se compose : 
+
+
+          * d’une cartographie 
+
+          * d’une légende (restauration, activités, soins, hébergements…)
+
+          * d’indications directionnelles
+
+
+          Chaque RIS est constitué d’un plan du territoire recto-verso interchangeable rapidement : une face avec le plan d’été, l’autre avec le plan d’hiver.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/bourg-saint-maurice-les-arcs-signaletique-pietonne-ris-atipy-3.png
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: |-
+          ### Les objectifs du RIS
+
+          * Donner une vision d’ensemble à l’usager
+          * Valoriser les acteurs du territoire
+          * Promouvoir les points d'intérêts
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/bourg-saint-maurice-les-arcs-signaletique-pietonne-ris-atipy-4.png
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/bourg-saint-maurice-les-arcs-signaletique-pietonne-atipy-2.png
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/bourg-saint-maurice-les-arcs-signaletique-pietonne-atipy-3.png
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/bourg-saint-maurice-les-arcs-signaletique-pietonne-atipy-4.png
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: |-
+          ## Nos prestations
+
+          * Etat des lieux et benchmark
+          * Concertation des acteurs du territoire
+          * Programmation de la signalétique
+          * Toponymie
+          * Développement d’un langage graphique
+          * Conception de mobilier
+          * Rédaction du DCE
+          * Analyse des offres
+          * Suivi fabrication et pose
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 projectsFeatured:
   - signaletique-touristique-pietonne-de-l-ile-de-brehat
+  - signaletique-dorientation-accessible-et-facile-a-comprendre
 ---
