@@ -40,6 +40,32 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ## Les objectifs de la mission
+
+
+          * Améliorer le parcours et l’expérience de visite.
+
+          * Proposer une lecture claire et intuitive du territoire, de ses points d'intérêt, de son patrimoine.
+
+          * Favoriser les mobilités actives, la marche et le vélo.
+
+          * Développer un mobilier signalétique innovant, esthétique et fonctionnel.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/bourg-saint-maurice-les-arcs-signaletique-pietonne-atipy-totem-1.png
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 projectsFeatured:
   - signaletique-touristique-pietonne-de-l-ile-de-brehat
 ---
