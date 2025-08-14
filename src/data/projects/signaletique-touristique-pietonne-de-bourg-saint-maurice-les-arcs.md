@@ -316,5 +316,5 @@ project_sections:
         decorativeOrInformative: false
 projectsFeatured:
   - signaletique-touristique-pietonne-de-l-ile-de-brehat
-  - signaletique-dorientation-accessible-et-facile-a-comprendre
+  - charte-signale-tique-accessible-pour-les-itine-raires-velo
 ---
