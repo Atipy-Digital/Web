@@ -117,10 +117,7 @@ project_sections:
           ## Une signalétique accueillante et sobre
 
 
-          Dans cet environnement de montagne, Atipy a proposé un mobilier signalétique simple et intemporel. Reprenant la charte graphique de Bourg Saint Maurice - Les Arcs, la sobriété des supports signalétiques permet une bonne intégration et l’affirmation de l’identité visuelle territoriale pour le chef-lieu et les 3 stations.
-
-
-          Innovant dans ce qu’il propose, ce système signalétique est composé de 3 typologies d’informations : 
+          Dans cet environnement de montagne, Atipy a proposé un mobilier signalétique simple et intemporel. Reprenant la charte graphique de Bourg Saint Maurice - Les Arcs, la sobriété des supports signalétiques permet une bonne intégration et l’affirmation de l’identité visuelle territoriale pour le chef-lieu et les 3 stations. Innovant dans ce qu’il propose, ce système signalétique est composé de 3 typologies d’informations : 
 
 
           * L’identification du territoire aux entrées
