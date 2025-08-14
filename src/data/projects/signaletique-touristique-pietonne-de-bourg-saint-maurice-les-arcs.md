@@ -142,6 +142,64 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/bourg-saint-maurice-les-arcs-signaletique-pietonne-mat-directionnel-atipy-2.png
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ## Le choix de matériaux durables et respectueux de l’environnement
+
+
+          Il a été souhaité un mobilier faisant écho à l’authenticité “bois, nature, environnement». Pour s’intégrer dans le cadre paysager et patrimonial de Bourg Saint Maurice - Les Arcs, nous avons fait le choix du bois et du stratifié compact.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ### Le Stratifié compact
+
+
+          Constitué à 70 % de fibres de bois, le stratifié est un support durable et résistant. Les fibres de bois sont issues de forêts gérées durablement.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ### Le mélèze, un matériau naturel et local
+
+
+          Travaillé à partir d'une essence de bois local, le mélèze est un des conifères le plus durable et le plus solide. Résistant au froid et à l’humidité, caractéristiques indispensables pour un territoire de montagne.
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 projectsFeatured:
   - signaletique-touristique-pietonne-de-l-ile-de-brehat
 ---
