@@ -30,8 +30,8 @@ project_sections:
       image:
         decorativeOrInformative: false
         url: /media/bourg-saint-maurice-les-arcs-signaletique-pietonne-ris-atipy-2.jpg
-        legend: Totem Relais Information Service avec 2 personnes en train de lire le
-          plan.
+        legend: ""
+        alt: Totem Relais Information Service avec 2 personnes en train de lire le plan.
     col2:
       reverseMobile: false
       image:
