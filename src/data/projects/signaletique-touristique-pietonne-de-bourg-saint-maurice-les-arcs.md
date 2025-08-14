@@ -213,6 +213,22 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+        url: /media/bourg-saint-maurice-les-arcs-signaletique-pietonne-atipy-2.png
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/bourg-saint-maurice-les-arcs-signaletique-pietonne-atipy-3.png
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/bourg-saint-maurice-les-arcs-signaletique-pietonne-atipy-4.png
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
       text:
         content: >-
           ## Le Relais Information Services (RIS)
@@ -272,22 +288,6 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-  - inverseCol: false
-    col1:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
-        url: /media/bourg-saint-maurice-les-arcs-signaletique-pietonne-atipy-2.png
-    col2:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
-        url: /media/bourg-saint-maurice-les-arcs-signaletique-pietonne-atipy-3.png
-    col3:
-      reverseMobile: false
-      image:
-        decorativeOrInformative: false
-        url: /media/bourg-saint-maurice-les-arcs-signaletique-pietonne-atipy-4.png
   - inverseCol: false
     col1:
       reverseMobile: false
