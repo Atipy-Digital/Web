@@ -1,6 +1,6 @@
 ---
 display_expertises:
-  - expertise: accessibilite-numerique-sensibilisation-aux-bonnes-pratiques
+  - expertise: mettre-en-place-un-jalonnement-de-signaletique-cyclable
   - expertise: accueillir-un-public-en-situation-de-handicap
   - expertise: concevoir-une-signaletique-accessible-et-mettre-en-pratique
   - expertise: concevoir-des-politiques-et-amenagements-cyclables-accessibles-decouverte
@@ -10,8 +10,7 @@ display_expertises:
   - expertise: accessibilite-textuelle-rediger-un-document-de-facon-claire-et-simple
   - expertise: concevoir-des-supports-avec-des-personnes-deficientes-intellectuelles
   - expertise: communication-et-signaletique-rendre-visible-le-velo-pour-tous
-  - expertise: l-accessibilite-du-cadre-bati
   - expertise: les-fondamentaux-de-la-conception-universelle
   - expertise: sensibilisation-au-handicap
-  - expertise: sensibilisation-au-handicap
+  - expertise: accessibilite-numerique-sensibilisation-aux-bonnes-pratiques
 ---
