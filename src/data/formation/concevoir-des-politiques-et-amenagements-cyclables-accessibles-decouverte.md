@@ -46,7 +46,7 @@ sections:
           * Comprendre les caractéristiques d’un territoire cyclable accessible à tous
 
           * Découverte des outils de l’urbanisme cyclable
-        color: yellow
+        color: null
     col2:
       reverseMobile: false
       image:
@@ -116,5 +116,5 @@ sections:
 footer:
   btn:
     label: ""
-  titleContact: Cette formation vous intéresse ? Contactez-nous ! contact@atipy.fr
+  titleContact: "Cette formation vous intéresse ? "
 ---
