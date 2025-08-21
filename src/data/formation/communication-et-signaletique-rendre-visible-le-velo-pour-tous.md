@@ -51,4 +51,68 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ## Programme et méthode
+
+
+          ### Pourquoi communiquer autour du vélo ?
+
+
+          Changer de regard, changer les images, les idées reçues 
+
+
+          ### Comment communiquer autour du vélo ?
+
+
+          * Sensibiliser / Mobiliser / Promouvoir
+
+          * Panorama de solutions
+
+          * Les outils pour rendre visible le vélo
+
+
+          ### Les différents outils de signalétique et leur rôle
+
+
+          * Objectifs / cadre réglementaire
+
+          * Schémas directeurs / règles
+
+          * Signalétique directionnelle en fonction du contexte, identité de réseau, points noeuds
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ### Ateliers / études de cas
+
+
+          * Imaginer des solutions en matière de communication pour répondre aux difficultés/freins/idées reçues de différents publics (persona)
+
+
+          ou
+
+
+          * Construire les prémices d’un plan de jalonnement sur son territoire
+
+
+          ### Évaluation
+
+
+          * Autoévaluation
+
+          * Quizz / QCM
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+footer:
+  titleContact: Cette formation vous intéresse ?
 ---
