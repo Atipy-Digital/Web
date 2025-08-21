@@ -86,17 +86,29 @@ sections:
       image:
         decorativeOrInformative: false
       text:
-        content: |-
-          Les outils de l’urbanisme cyclable
-          ● Comment éclairer les choix : se questionner sur
-          les usages / observer / les données nécessaires
-          ● L’importance de la planification
-          ● Les différentes solutions
-          Cas pratique
-          ● Atelier étude de cas concret
-          Évaluation
-          ● Autoévaluation
-          ● Quizz / QCM
+        content: >-
+          ### Les outils de l’urbanisme cyclable
+
+
+          * Comment éclairer les choix : se questionner sur les usages / observer / les données nécessaires
+
+          * L’importance de la planification
+
+          * Les différentes solutions
+
+
+          ### Cas pratique
+
+
+          Atelier étude de cas concret
+
+
+          ### Évaluation
+
+
+          * Autoévaluation
+
+          * Quizz / QCM
     col3:
       reverseMobile: false
       image:
