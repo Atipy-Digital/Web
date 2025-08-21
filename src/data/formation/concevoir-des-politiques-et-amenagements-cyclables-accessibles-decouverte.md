@@ -55,4 +55,50 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ## Programme et méthode
+
+
+          ### Pourquoi s’intéresser au vélo ?
+
+
+          * Les pouvoirs extraordinaires du vélo
+
+          * Le potentiel du vélo dans les mobilités / les usages (enfants, seniors, personnes en situation de handicap...)
+
+          * Attractivité et résilience des territoires
+
+
+          ### Comment définir un territoire cyclable ?
+
+
+          * Les critères d’un territoire propice à la pratique du vélo (planification, observation, infrastructures, services, communication...)
+
+          * Panorama de territoires cyclables en France et à l’étranger
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: |-
+          Les outils de l’urbanisme cyclable
+          ● Comment éclairer les choix : se questionner sur
+          les usages / observer / les données nécessaires
+          ● L’importance de la planification
+          ● Les différentes solutions
+          Cas pratique
+          ● Atelier étude de cas concret
+          Évaluation
+          ● Autoévaluation
+          ● Quizz / QCM
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 ---
