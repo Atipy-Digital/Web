@@ -5,6 +5,7 @@ display_expertises:
   - expertise: accueillir-un-public-en-situation-de-handicap
   - expertise: concevoir-une-signaletique-accessible-et-mettre-en-pratique
   - expertise: concevoir-des-politiques-et-amenagements-cyclables-accessibles-decouverte
+  - expertise: concevoir-des-politiques-et-amenagements-cyclables-accessibles-niveau-avance
   - expertise: l-accessibilite-de-l-espace-public-et-de-la-voirie
   - expertise: accessibilite-textuelle-concevoir-un-support-facile-a-lire-et-a-comprendre-falc
   - expertise: accessibilite-textuelle-rediger-un-document-de-facon-claire-et-simple
