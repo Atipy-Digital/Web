@@ -41,16 +41,58 @@ sections:
         decorativeOrInformative: false
       text:
         content: >-
-          Objectifs pédagogiques
+          ## Objectifs pédagogiques
 
 
-          Comprendre les différents usages de l’espace public ainsi que les enjeux de mobilités actives et handicap
+          * Comprendre les différents usages de l’espace public ainsi que les enjeux de mobilités actives et handicap
+
+          * Être en mesure de concevoir des politiques de mobilité mêlant vélo, piéton et personnes à mobilité réduite
+
+          * Maîtriser les différents outils pour la réalisation de politique et d’aménagements accessibles à tous : conception universelle
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ## Programme et méthode - Jour 1
 
 
-          Être en mesure de concevoir des politiques de mobilité mêlant vélo, piéton et personnes à mobilité réduite
+          ### Les usages de l’espace public
 
 
-          Maîtriser les différents outils pour la réalisation de politique et d’aménagements accessibles à tous : conception universelle
+          * Les modes actifs en France : état des lieux, enjeux, potentiel, freins
+
+          * Le cadre réglementaire : Piétons, vélos, EDPM, EDP, PMR
+
+          * Mobilités actives et handicap
+
+
+          ### Les interactions piétons, vélos, PMR
+
+
+          * La cohabitation sur l’espace public - les besoins de chaque usager
+
+          * L’accidentologie versus le ressenti
+
+          * Les zones de conflits : aire piétonne, trottoirs, voie verte...
+
+
+          ### Visite de terrain/Atelier
+
+
+          Reportage photos - qualifier les interactions piétons, vélos, PMR - quelles réponses
+
+          apportées ?
     col2:
       reverseMobile: false
       image:
