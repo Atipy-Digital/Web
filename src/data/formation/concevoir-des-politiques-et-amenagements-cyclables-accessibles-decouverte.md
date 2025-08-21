@@ -113,4 +113,8 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+footer:
+  btn:
+    label: ""
+  titleContact: Cette formation vous intéresse ? Contactez-nous ! contact@atipy.fr
 ---
