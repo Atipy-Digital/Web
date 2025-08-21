@@ -97,6 +97,43 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+      text:
+        content: >-
+          ## Jour 2
+
+
+          ### Les outils pour des politiques accessibles à tous (Echelle Macro)
+
+
+          * De l’intérêt d’agir sur plusieurs axes : Planification / Signalisation / Communication / Services et stationnement
+
+          * Zoom sur la planification - handicap et modes actifs : PAVE/CNIG // Plan vélo, Plan Marche, Schéma modes actifs - comment faire le lien ?
+
+
+          ### Les outils pour des aménagements accessibles à tous (Echelle Micro)
+
+
+          * Séparation versus cohabitation des usages
+
+          * Les outils de la cohabitation : séparateurs, contrastes...
+
+          * Le stationnement et les services : les besoins, l’implantation, les écueils à éviter...
+
+          * La signalétique accessible
+
+
+          ### Mise en pratique
+
+
+          Atelier participatif
+
+
+          ### Évaluation
+
+
+          * Autoévaluation
+
+          * Quizz / QCM
     col3:
       reverseMobile: false
       image:
