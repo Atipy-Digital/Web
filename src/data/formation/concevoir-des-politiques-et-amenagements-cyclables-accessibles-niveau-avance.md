@@ -99,6 +99,52 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+      text:
+        content: >-
+          ## Jour 2
+
+
+          ### Les outils de l’urbanisme cyclable - planifier et concevoir
+
+
+          * Le cadre réglementaire
+
+          * Comment éclairer les choix : se questionner sur les usages / observer / les données nécessaires
+
+          * Les outils de la planification
+
+          * Les différentes solutions : séparation et mixité (cohabitation piétons/vélos)
+
+          * Les intersections / Le micro-design
+
+          * Le stationnement
+
+
+          ### Ateliers - concevoir des aménagements cyclables pour tous
+
+
+          Etudes de cas concrets sur des projets amenés par les participants ou sur des territoires pour lesquels nous avons travaillé.
+
+
+          ### Plusieurs thématiques possibles :
+
+
+          * L’aménagement d’une voie,
+
+          * L’aménagement d’une intersection/carrefour/giratoire
+
+          * Le plan de circulation
+
+          * Identification d’un réseau cyclable sur les routes secondaires...
+
+
+          ### Évaluation
+
+
+          Autoévaluation
+
+
+          Quizz / QCM
     col3:
       reverseMobile: false
       image:
