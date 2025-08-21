@@ -1,5 +1,8 @@
 ---
 display_expertises:
+  - expertise: accessibilite-graphique-concevoir-des-supports-accessibles
+  - expertise: concevoir-une-signaletique-accessible
+  - expertise: l-accessibilite-du-cadre-bati
   - expertise: mettre-en-place-un-jalonnement-de-signaletique-cyclable
   - expertise: accueillir-un-public-en-situation-de-handicap
   - expertise: concevoir-une-signaletique-accessible-et-mettre-en-pratique
