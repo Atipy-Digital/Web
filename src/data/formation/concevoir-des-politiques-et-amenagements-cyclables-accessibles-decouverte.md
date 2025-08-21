@@ -36,6 +36,17 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+      text:
+        content: >-
+          ## Objectifs pédagogiques
+
+
+          * Comprendre les enjeux et les usages des mobilités actives
+
+          * Comprendre les caractéristiques d’un territoire cyclable accessible à tous
+
+          * Découverte des outils de l’urbanisme cyclable
+        color: yellow
     col2:
       reverseMobile: false
       image:
