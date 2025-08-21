@@ -1,16 +1,17 @@
 ---
 display_expertises:
+  - expertise: espaces-publics-mobilites-actives-handicap
   - expertise: accessibilite-numerique-sensibilisation-aux-bonnes-pratiques
   - expertise: accueillir-un-public-en-situation-de-handicap
   - expertise: concevoir-une-signaletique-accessible-et-mettre-en-pratique
   - expertise: concevoir-des-politiques-et-amenagements-cyclables-accessibles-decouverte
-  - expertise: concevoir-des-politiques-et-amenagements-cyclables-accessibles-niveau-avance
   - expertise: l-accessibilite-de-l-espace-public-et-de-la-voirie
   - expertise: accessibilite-textuelle-concevoir-un-support-facile-a-lire-et-a-comprendre-falc
   - expertise: accessibilite-textuelle-rediger-un-document-de-facon-claire-et-simple
   - expertise: concevoir-des-supports-avec-des-personnes-deficientes-intellectuelles
   - expertise: l-accessibilite-du-cadre-bati
   - expertise: les-fondamentaux-de-la-conception-universelle
+  - expertise: sensibilisation-au-handicap
   - expertise: sensibilisation-au-handicap
   - expertise: sensibilisation-au-handicap
   - expertise: sensibilisation-au-handicap
