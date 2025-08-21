@@ -138,4 +138,6 @@ sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+footer:
+  titleContact: Cette formation vous intéresse ?
 ---
