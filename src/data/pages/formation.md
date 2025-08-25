@@ -133,8 +133,8 @@ sections:
         decorativeOrInformative: false
       text:
         content: "[T﻿éléchargez notre catalogue de
-          formations](https://drive.google.com/file/d/11UtsR20mLQDddjRstOORi2ZF\
-          -78EID9W/view?usp=sharing)"
+          formations](https://drive.google.com/file/d/16Z7ZFgr_71Vy-kkcFomixvYo\
+          BlIGrBc3/view?usp=sharing)"
     col2:
       reverseMobile: false
       image:
