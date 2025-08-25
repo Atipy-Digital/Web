@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.0.0 (2025-08-25)
+
+
+### Features
+
+* **components:** add alt text and informative flag to PartnerItem images ([37444ce](https://github.com/Atipy-Digital/Web/commit/37444ce89b2aefb435f4db2e81923ad3bc5b8f63))
+* **icons:** add aria labels to all icon components ([#63](https://github.com/Atipy-Digital/Web/issues/63)) ([597c001](https://github.com/Atipy-Digital/Web/commit/597c001859d4394ab96ae485950d43da5c0d9a45))
+* **image, titre:** Ajouter des paramètre aria pour les image dans decap & pour les titre du rich texte ([#61](https://github.com/Atipy-Digital/Web/issues/61)) ([fb4d873](https://github.com/Atipy-Digital/Web/commit/fb4d873108cd62b7d9da147dd7f0425829f3755b))
+
+
+### Bug Fixes
+
+* **layout:** ajout du lien pour le sitemap dans le footer ([#59](https://github.com/Atipy-Digital/Web/issues/59)) ([e793ca5](https://github.com/Atipy-Digital/Web/commit/e793ca5185cba7eea902fdfac8599ee47acd7222))
+* **PartnerItem:** update alt text to be more accessible ([b33b948](https://github.com/Atipy-Digital/Web/commit/b33b948c9cf9d186dc05fce73ffd14dfdd529486))
+* update header labels to match title casing ([402b282](https://github.com/Atipy-Digital/Web/commit/402b282966fcbb68ece1438755a4bb1634d141cf))
+
 ## [1.6.0](https://github.com/Atipy-Digital/Web/compare/v1.1.0...v1.6.0) (2025-01-16)
 
 
