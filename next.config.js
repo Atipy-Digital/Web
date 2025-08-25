@@ -2,9 +2,6 @@
 const nextConfig = {
   output: 'export',
   distDir: '.next',
-  experimental: {
-    appDir: true,
-  },
   webpack: (config) => {
     config.module.rules.push({
       test: /\.md$/,
