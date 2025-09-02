@@ -7,9 +7,9 @@ metadata:
 title: Cartographie des temps cyclables et piétons
 date: 2025-03-28T14:03:40.342Z
 icon:
-  label: Accessibilité Numerique - Rouge
-  value: accessibiliteNumerique
-  type: digital
+  label: Cartographie Temps
+  value: cartographieTemps
+  type: mobilites
 color: CONSEIL
 intro: >-
   ### La carte pour prendre conscience du champ des possibles

@@ -8,8 +8,8 @@ metadata:
 title: Concevoir des politiques et aménagements cyclables accessibles - Niveau avancé
 date: 2025-08-21T08:37:12.365Z
 icon:
-  label: Mobilité - Vert
-  value: mobilite
+  label: Vélo Accessible
+  value: veloAccessible
   type: design
 color: CONSEIL
 intro: >-

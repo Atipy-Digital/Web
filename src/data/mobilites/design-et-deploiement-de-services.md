@@ -7,9 +7,9 @@ metadata:
 title: Design et déploiement de services
 date: 2025-03-28T13:42:54.948Z
 icon:
-  label: Conception Expertise - Rouge
-  value: conceptionExpertise
-  type: digital
+  label: Design et Déploiement
+  value: designEtDeploiement
+  type: mobilites
 color: CONSEIL
 intro: >-
   ### Concevoir des services et équipements

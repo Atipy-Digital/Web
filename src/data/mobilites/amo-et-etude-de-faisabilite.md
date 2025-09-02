@@ -8,8 +8,8 @@ metadata:
 title: AMO et étude de faisabilité
 date: 2025-03-28T13:48:00.842Z
 icon:
-  label: Fleche - Jaune
-  value: fleche
+  label: AMO Étude Faisabilité
+  value: amoEtudeFaisabilite
   type: mobilites
 color: CONSEIL
 intro: >-

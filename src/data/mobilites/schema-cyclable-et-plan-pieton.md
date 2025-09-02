@@ -8,9 +8,9 @@ metadata:
 title: Schéma cyclable et plan piéton
 date: 2025-03-28T13:35:47.315Z
 icon:
-  label: Application Mobile - Rouge
-  value: applicationMobile
-  type: digital
+  label: Bus et Arrêt
+  value: busArret
+  type: mobilites
 color: CONSEIL
 intro: >-
   ### Construire une politique de promotion des modes actifs

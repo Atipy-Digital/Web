@@ -8,9 +8,9 @@ metadata:
 title: Jalonnement des modes actifs
 date: 2025-03-28T14:00:21.861Z
 icon:
-  label: Solution Web - Rouge
-  value: solutionWeb
-  type: digital
+  label: Flèche Directionnelle
+  value: flecheDirectionnelle
+  type: mobilites
 color: CONSEIL
 intro: >-
   ### Communiquer pour rendre visible le vélo et la marche

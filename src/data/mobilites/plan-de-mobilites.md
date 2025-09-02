@@ -7,8 +7,8 @@ metadata:
 title: Plans de mobilités
 date: 2025-03-21T15:00:37.912Z
 icon:
-  label: Carte - Jaune
-  value: carte
+  label: Bus Accessible
+  value: busAccessible
   type: mobilites
 color: CONSEIL
 intro: >-
