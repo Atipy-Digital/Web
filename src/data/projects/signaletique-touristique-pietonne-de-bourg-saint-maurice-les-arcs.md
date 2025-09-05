@@ -313,7 +313,10 @@ project_sections:
       text:
         color: green
         content: >-
-          ## T﻿émoignage de la cliente, Marine Ruas, Manager économique
+          ## T﻿émoignage de la cliente
+
+
+          ### Marine Ruas, manager économique
 
 
           « Un accompagnement de confiance tout au long d’un projet complexe, avec une grande réactivité et disponibilité, toujours à l’écoute. Un vrai partenaire sur la durée ».
