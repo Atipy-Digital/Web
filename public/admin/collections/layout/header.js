@@ -22,7 +22,7 @@ const header = {
             '/agence',
             '/expertises',
             '/realisations',
-            '/posts',
+            '/publications',
             '/contact',
           ],
         },

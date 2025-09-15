@@ -23,7 +23,7 @@ export const AudienceTag = ({
   };
 
   const getColorStyle = useMemo(() => {
-    if (label === 'Digital') {
+    if (label === 'Mobilité') {
       if (isActive) {
         return 'border-a-blue-dark bg-a-blue-dark text-white dark:border-a-blue-light dark:bg-a-blue-light dark:text-black';
       }

@@ -12,6 +12,7 @@ import iconsDesign from '@/components/icons/design';
 import iconsDigital from '@/components/icons/digital';
 import iconsFormation from '@/components/icons/formation';
 import iconsIngenierie from '@/components/icons/ingenierie';
+import iconsMobilites from '@/components/icons/mobilites';
 import { LinkButton } from '@/components/primitives/LinkButton';
 import { MarkdownSection } from '@/components/primitives/MarkdownSection';
 import { MarkdownText } from '@/components/primitives/MarkdownText';
@@ -22,7 +23,7 @@ import { type ExpertiseSubPageType, TagColor } from '@/ts';
 
 type Props = {
   data: ExpertiseSubPageType;
-  type: 'design' | 'digital' | 'formation' | 'ingenierie';
+  type: 'design' | 'mobilites' | 'formation' | 'ingenierie';
 };
 
 export const SubPageSections = ({ data }: Props) => {
@@ -96,6 +97,12 @@ export const SubPageSections = ({ data }: Props) => {
         iconsIngenierie['formation']
       );
     }
+    if (data.icon.type === 'mobilites') {
+      return (
+        iconsMobilites[data.icon.value ?? 'mobilites'] ||
+        iconsMobilites['mobilites']
+      );
+    }
 
     return null;
   }, [data.icon]);
@@ -146,6 +153,7 @@ export const SubPageSections = ({ data }: Props) => {
                 onClick={(e) => goToProjects(e)}
                 href='/realisations'
                 className='mb-8 md:mb-10 lg:mb-14 xl:mb-20'
+                forceBlackText={data.footer.btn.color === 'yellow'}
               >
                 {data.footer.btn.label}
               </LinkButton>

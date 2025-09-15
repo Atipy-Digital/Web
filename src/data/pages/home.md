@@ -17,24 +17,39 @@ introData:
     url: /expertises
 offersData:
   cards:
-    - type: ENGINEER
-      title: Ingénierie
-      body: Cadre bâti, espace public, transports, événementiel.
+    - body: Cadre bâti, espace public, transports, événementiel.
+      color: ENGINEER
+      imagesTheme:
+        light: /media/offer-b-access.webp
+        dark: /media/offer-w-access.webp
       button:
         label: En savoir plus
-    - button:
-        label: En savoir plus
-      body: |-
+      title: Ingénierie
+      decorativeOrInformative: true
+      type: ENGINEER
+    - body: |-
         Signalétique d’orientation, communication,
 
         rédaction claire et FALC, identité visuelle.
-      type: DESIGN
-      title: Design
-    - button:
+      color: DESIGN
+      imagesTheme:
+        light: /media/offer-b-design.webp
+        dark: /media/offer-w-design.webp
+      button:
         label: En savoir plus
-      body: Web, applis, solutions logicielles.
-      type: DIGITAL
-      title: Digital
+      title: Design
+      decorativeOrInformative: true
+      type: DESIGN
+    - body: Plan de mobilité, marchabilité, cyclabilité, jalonnement.
+      color: MOBILITES
+      imagesTheme:
+        light: /media/00-picto_site_atipy-2025-32.webp
+        dark: /media/00-picto_site_atipy-2025-33.webp
+      button:
+        label: En savoir plus
+      title: Mobilités
+      decorativeOrInformative: true
+      type: MOBILITES
 agencyData:
   title: L’agence
   body: >-

@@ -1,0 +1,22 @@
+
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+     viewBox="0 0 150 97.3" style="enable-background:new 0 0 150 97.3;" xml:space="preserve">
+<style type="text/css">
+	.st0 { fill: #FCC641; }
+	.st1 { fill: none; stroke: currentColor; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+</style>
+    <path id="Tracé_185" class="st0" d="M32,0L18.5,13.5l26.1,26.1L18.5,65.7L32,79.2l39.6-39.6L32,0z"/>
+    <g id="Groupe_322">
+	<circle id="Ellipse_73" class="st1" cx="56.7" cy="75.1" r="18.6"/>
+        <circle id="Ellipse_74" class="st1" cx="107.1" cy="75.1" r="18.6"/>
+        <path id="Tracé_662" class="st1" d="M85.2,44h9.2l12.7,34"/>
+        <line id="Ligne_154" class="st1" x1="55.9" y1="75.1" x2="105.2" y2="75.1"/>
+        <path id="Tracé_663" class="st1" d="M80.6,8.5c0,2.9,2.4,5.3,5.3,5.3s5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3l0,0
+		C83,3.3,80.6,5.6,80.6,8.5z"/>
+        <path id="Tracé_666" class="st1" d="M75.4,18.2L59.6,28.6l12,8.8l6.8-7.4l12.2,14h3.3L80.6,22.1C80.6,22.1,79.5,16.8,75.4,18.2
+		L75.4,18.2z"/>
+        <path id="Tracé_668" class="st1" d="M63.9,31.8c0,0-6.6,4.4-4.3,9.2c2.6,5.5,2.6,5.3,20.8,37.9h6.4l-16-37.2l0.7-4.2
+		C71.6,37.5,63.9,31.8,63.9,31.8z"/>
+        <path id="Tracé_681" class="st1" d="M71.2,39.9c0,0,15.8-1.5,16.4,2.1c0.3,1.9-3.1,11.8-6.5,20.8"/>
+</g>
+</svg>

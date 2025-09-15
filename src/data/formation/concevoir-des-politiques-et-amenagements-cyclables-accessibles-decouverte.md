@@ -9,8 +9,8 @@ metadata:
 title: Concevoir des politiques et aménagements cyclables accessibles - Découverte
 date: 2025-08-21T08:17:06.444Z
 icon:
-  label: Mobilité - Vert
-  value: mobilite
+  label: Vélo Accessible
+  value: veloAccessible
   type: design
 color: CONSEIL
 intro: >-

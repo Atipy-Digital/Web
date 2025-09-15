@@ -4,13 +4,13 @@ menuText1:
   rows:
     - link1:
         label: Plan du site
-        url: /sitemap
+        url: /plan-du-site
       link2:
         label: Mentions légales
-        url: /mentions_legales
+        url: /mentions-legales
       link3:
         label: Accessibilité
-        url: /accessibility
+        url: /declaration-accessibilite
 menuText2:
   title: Contact
   email: contact@atipy.fr

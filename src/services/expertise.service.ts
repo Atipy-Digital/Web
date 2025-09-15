@@ -1,10 +1,11 @@
 import { getExpertiseFeaturedSlugs, getSlugs, readFile } from './utils';
 
-import type {
+import {
   ExpertiseDesignType,
   ExpertiseDigitalType,
   ExpertiseEngineerType,
   ExpertiseFormationType,
+  ExpertiseMobilitesType,
   ExpertisePageDataType,
   ExpertiseSubPageType,
   MetadataType,
@@ -276,6 +277,89 @@ export const getExpertiseDigitalPageData = (): ExpertiseDigitalType | null => {
   };
 };
 //#endregion  //*======== Expertise Digital ===========
+
+//#region  //*=========== Expertise Mobilites ===========
+const PATH_FOLDER_MOBILITES = 'src/data/mobilites';
+
+export const getExpertiseMobilitesSubPageSlugs = () => {
+  return getSlugs(PATH_FOLDER_MOBILITES);
+};
+export const getExpertiseMobilitesSubPageMetaData = (
+  slug: string
+): MetadataType | null => {
+  const matterResult = readFile<ExpertiseSubPageType>(
+    `${PATH_FOLDER_MOBILITES}/${slug}.md`
+  );
+  if (!matterResult?.data) return null;
+  return matterResult.data.metadata;
+};
+export const getExpertiseMobilitesSubPages = (): ExpertiseSubPageType[] => {
+  const slugs = getExpertiseFeaturedSlugs('sub_display_expertises_mobilites');
+  if (!slugs) return [];
+  const subPages: ExpertiseSubPageType[] = [];
+
+  for (const slug of slugs) {
+    const matterResult = readFile<Omit<ExpertiseSubPageType, 'slug'>>(
+      `${PATH_FOLDER_MOBILITES}/${slug}.md`
+    );
+
+    if (matterResult?.data) {
+      subPages.push({
+        slug,
+        ...matterResult.data,
+      });
+    }
+  }
+
+  if (!subPages.length) return [];
+
+  return subPages;
+};
+export const getExpertiseMobilitesSubPageBySlug = (
+  slug: string
+): ExpertiseSubPageType | null => {
+  const matterResult = readFile<Omit<ExpertiseSubPageType, 'slug'>>(
+    `${PATH_FOLDER_MOBILITES}/${slug}.md`
+  );
+
+  if (!matterResult?.data) return null;
+
+  return {
+    slug,
+    ...matterResult.data,
+  };
+};
+export const getExpertiseMobilitesSubPageNextLink = (slug: string) => {
+  const subPages = getExpertiseMobilitesSubPages();
+  if (!subPages.length) return undefined;
+
+  const currentSubIndex = subPages.findIndex((sp) => sp.slug === slug);
+  if (currentSubIndex == -1) return undefined;
+  if (currentSubIndex + 1 > subPages.length) return undefined;
+  const subPage = subPages[currentSubIndex + 1];
+  if (!subPage) return undefined;
+
+  return {
+    label: subPage.title,
+    url: `/expertises/mobilites/${subPage.slug}`,
+  };
+};
+export const getExpertiseMobilitesPageData =
+  (): ExpertiseMobilitesType | null => {
+    const matterResult = readFile<ExpertiseMobilitesType>(
+      'src/data/pages/mobilites.md'
+    );
+
+    if (!matterResult?.data) return null;
+
+    return {
+      title: matterResult.data.title,
+      intro: matterResult.data.intro,
+      sections: matterResult.data.sections,
+      expertises: getExpertiseMobilitesSubPages(),
+    };
+  };
+//#endregion  //*======== Expertise Mobilites ===========
 
 //#region  //*=========== Expertise Ingenierie ===========
 const PATH_FOLDER_INGENIERIE = 'src/data/ingenierie';

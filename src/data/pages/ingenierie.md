@@ -14,7 +14,7 @@ sections:
       text:
         content: ""
       image:
-        url: /media/photo_proposition7.jpg
+        url: /media/ingenierie_accessibilite_atipy.jpg
         ariaHidden: true
         alt: ""
     col2:

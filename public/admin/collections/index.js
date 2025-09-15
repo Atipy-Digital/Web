@@ -5,7 +5,7 @@ import pages from './pages/index.js';
 import posts from './posts.js';
 import project from './project.js';
 import sub_design from './sub-design.js';
-import sub_digital from './sub-digital.js';
+import sub_mobilites from './sub-mobilites.js';
 import sub_formation from './sub-formation.js';
 import sub_ingenierie from './sub-ingenierie.js';
 import tags from './tags.js';
@@ -22,7 +22,7 @@ const collections = [
   posts,
   sub_design,
   sub_formation,
-  sub_digital,
+  sub_mobilites,
   sub_ingenierie,
   display_expertises,
   display_projects,

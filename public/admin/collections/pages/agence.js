@@ -39,6 +39,13 @@ const agence = {
           editor_components: [],
           hint: 'Utiliser **code (<>)** pour surligner du texte',
         },
+        {
+          name: 'url',
+          label: 'URL personnalisée',
+          widget: 'string',
+          requird: false,
+          hint: "Slug de la page, par ex 'a-propos' ou 'nos-partenaires'.",
+        },
       ],
     },
   ],

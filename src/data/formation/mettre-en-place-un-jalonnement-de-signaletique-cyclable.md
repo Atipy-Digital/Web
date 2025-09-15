@@ -8,8 +8,8 @@ metadata:
 title: Mettre en place un jalonnement de signalétique cyclable
 date: 2025-08-21T09:01:56.322Z
 icon:
-  label: Signalétique - Vert
-  value: signaletique
+  label: Flèche
+  value: fleche
   type: design
 color: CONSEIL
 intro: >-

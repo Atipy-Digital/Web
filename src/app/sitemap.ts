@@ -23,7 +23,7 @@ const ROUTES = [
   'expertises/digital',
   'expertises/formation',
   'expertises/ingenierie',
-  'posts',
+  'publications',
   'realisations',
   'realisations/clients',
 ];
@@ -47,7 +47,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     ...(slugPosts?.length
       ? slugPosts.map((slug) => ({
-          url: `${siteOrigin}/post/${slug}`,
+          url: `${siteOrigin}/publications/${slug}`,
           lastModified: new Date(),
         }))
       : []),
@@ -71,7 +71,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       : []),
     ...(slugExpertiseDigitals?.length
       ? slugExpertiseDigitals.map((slug) => ({
-          url: `${siteOrigin}/expertises/digital/${slug}`,
+          url: `${siteOrigin}/expertises/mobilites/${slug}`,
           lastModified: new Date(),
         }))
       : []),

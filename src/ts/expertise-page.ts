@@ -3,9 +3,15 @@ import { MetadataType } from './metadata';
 import { SectionType } from './section';
 
 export type CardExpertisePageType = {
-  type: 'ingenierie' | 'design' | 'digital' | 'formation';
+  type: 'ingenierie' | 'design' | 'digital' | 'mobilites' | 'formation';
   title: string;
   text: string;
+  url: string;
+  imagesTheme?: {
+    light?: string;
+    dark?: string;
+  };
+  decorativeOrInformative: boolean;
 };
 
 export type ExpertisePageDataType = {
@@ -19,7 +25,7 @@ export type ExpertiseSubPageType = {
   title: string;
   color: CARD_TYPE;
   icon: {
-    type: 'ingenierie' | 'design' | 'digital' | 'formation';
+    type: 'ingenierie' | 'design' | 'digital' | 'mobilites' | 'formation';
     value: string;
   };
   intro?: string;

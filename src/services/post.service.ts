@@ -79,12 +79,12 @@ export const getNextPostLink = (slug: string) => {
     const first = posts[0];
     return {
       label: first.title,
-      url: `/posts/${first.slug}`,
+      url: `/publications/${first.slug}`,
     };
   }
 
   return {
     label: subPage.title,
-    url: `/posts/${subPage.slug}`,
+    url: `/ppublications/${subPage.slug}`,
   };
 };

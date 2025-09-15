@@ -7,13 +7,13 @@ sections:
         secondaryPages:
           - secondaryTitre: |
               Qui sommes-nous ?
-            secondaryUrl: /agence/about
+            secondaryUrl: /agence/qui-sommes-nous
           - secondaryTitre: La Tribu
             secondaryUrl: /agence/tribu
           - secondaryUrl: /agence/conception
             secondaryTitre: La conception universelle
           - secondaryTitre: Nos partenaires
-            secondaryUrl: /agence/partners
+            secondaryUrl: /agence/partenaires
     col2:
       page:
         Titre: Expertises
@@ -65,25 +65,10 @@ sections:
                   Conseil et formations
                 subPageUrl: /expertises/formation
           - secondaryTitre: |
-              Digital
+              Mobilités
             secondaryUrl: |
-              /expertises/digital
-            subPages:
-              - subPageTitre: |
-                  Solutions web sur mesure
-                subPageUrl: /expertises/digital/solutions-web-sur-mesure
-              - subPageTitre: |
-                  Conception et expertise
-                subPageUrl: /expertises/digital/conception-et-expertise
-              - subPageTitre: |
-                  Accessibilité numérique
-                subPageUrl: /expertises/digital/accessibilite-numerique
-              - subPageTitre: |
-                  Applications mobiles
-                subPageUrl: /expertises/digital/applications-mobiles-1
-              - subPageUrl: expertises/formation
-                subPageTitre: |
-                  Conseil et formations
+              /expertises/mobilites
+   
           - secondaryTitre: |
               Conseil et formations
             secondaryUrl: /expertises/formation
@@ -152,55 +137,55 @@ sections:
               Nos clients
     col4:
       page:
-        Url: /posts
+        Url: /publications
         Titre: Publications
         secondaryPages:
           - secondaryTitre: |
               Isotypes, pictogrammes et logotypes
-            secondaryUrl: /posts/isotypes-pictogrammes-et-logotypes
+            secondaryUrl: /publications/isotypes-pictogrammes-et-logotypes
           - secondaryTitre: Le pictogramme des toilettes, un sujet plus polémique que vous
               ne le pensez.
-            secondaryUrl: /posts/pictogramme-des-toilettes-un-sujet-plus-polemique-quon-ne-le-pense
+            secondaryUrl: /publications/pictogramme-des-toilettes-un-sujet-plus-polemique-quon-ne-le-pense
           - secondaryTitre: Le langage clair, un outil en faveur de l’accessibilité
-            secondaryUrl: /posts/atipy-recrute-un-ou-une-designer
+            secondaryUrl: /publications/atipy-recrute-un-ou-une-designer
           - secondaryTitre: Comment concevoir des supports accessibles avec les outils
               Microsoft ?
-            secondaryUrl: /posts/comment-concevoir-des-supports-accessibles-avec-les-outils-microsoft-1
+            secondaryUrl: /publications/comment-concevoir-des-supports-accessibles-avec-les-outils-microsoft-1
           - secondaryTitre: UX / UI Designer, un métier au service de la conception universelle
-            secondaryUrl: /posts/ux-ui-designer-un-metier-au-service-de-la-conception-universelle
+            secondaryUrl: /publications/ux-ui-designer-un-metier-au-service-de-la-conception-universelle
           - secondaryTitre: |
               Les emojis sont-elles accessibles à toutes et tous ?
-            secondaryUrl: /posts/les-emojis-sont-elles-accessibles-a-toutes-et-tous
+            secondaryUrl: /publications/les-emojis-sont-elles-accessibles-a-toutes-et-tous
           - secondaryTitre: |
               Savez-vous lire la signalétique de randonnée ?
-            secondaryUrl: /posts/savez-vous-lire-la-signaletique-de-randonnee
+            secondaryUrl: /publications/savez-vous-lire-la-signaletique-de-randonnee
           - secondaryTitre: |
               Vélo et signalétique, l’expérience de Pierre Bagliotto
-            secondaryUrl: /posts/velo-et-signaletique-l-experience-de-pierre-bagliotto
+            secondaryUrl: /publications/velo-et-signaletique-l-experience-de-pierre-bagliotto
           - secondaryTitre: |
               Ceci n’est pas un simple panneau d’autoroute
-            secondaryUrl: /posts/ceci-n-est-pas-un-simple-panneau-d-autoroute
+            secondaryUrl: /publications/ceci-n-est-pas-un-simple-panneau-d-autoroute
           - secondaryTitre: >
               La mise en place d’une communication accessible pour les
               structures publiques
-            secondaryUrl: /posts/une-communication-accessible-pour-les-structures-publiques
-          - secondaryUrl: /posts/comment-tweeter-inclusif-en-5-points
+            secondaryUrl: /publications/une-communication-accessible-pour-les-structures-publiques
+          - secondaryUrl: /publications/comment-tweeter-inclusif-en-5-points
             secondaryTitre: |
               Comment tweeter inclusif en 5 points
           - secondaryTitre: >
               L’écriture inclusive est-elle accessible aux personnes en
               situation de handicap ?
-            secondaryUrl: /posts/l-ecriture-inclusive-est-elle-accessible
+            secondaryUrl: /publications/l-ecriture-inclusive-est-elle-accessible
           - secondaryTitre: |
               La signalétique des Jeux Olympiques et Paralympiques
-            secondaryUrl: /posts/la-signaletique-des-jeux-olympiques
+            secondaryUrl: /publications/la-signaletique-des-jeux-olympiques
           - secondaryTitre: >
               Concevoir un plan d’orientation efficace et accessible au plus
               grand nombre
-            secondaryUrl: /posts/un-plan-d-orientation-efficace-et-accessible-au-plus-grand-nombre
+            secondaryUrl: /publications/un-plan-d-orientation-efficace-et-accessible-au-plus-grand-nombre
           - secondaryTitre: |
               Que fait une mouche dans un urinoir ?
-            secondaryUrl: /posts/que-fait-une-mouche-dans-un-urinoir
+            secondaryUrl: /publications/que-fait-une-mouche-dans-un-urinoir
     col5:
       page:
         Titre: |

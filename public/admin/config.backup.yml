@@ -178,7 +178,7 @@ collections:
                         [
                           { label: Ingénierie, value: ENGINEER },
                           { label: Design, value: DESIGN },
-                          { label: Digital, value: DIGITAL },
+                          { label: Mobilites, value: MOBILITES },
                           { label: Conseils et formations, value: CONSEIL },
                         ],
                     }
@@ -362,7 +362,7 @@ collections:
                     [
                       { label: Ingénierie, value: ENGINEER },
                       { label: Design, value: DESIGN },
-                      { label: Digital, value: DIGITAL },
+                      { label: Mobilites, value: MOBILITES },
                       { label: Conseils et formations, value: CONSEIL },
                     ],
                 }
@@ -729,7 +729,7 @@ collections:
                   [
                     { label: 'Ingenierie', value: 'ingenierie' },
                     { label: 'Design', value: 'design' },
-                    { label: 'Digital', value: 'digital' },
+                    { label: 'Mobilites', value: 'mobilites' },
                     { label: 'Conseil et Formation', value: 'formation' },
                   ]
               - name: title
@@ -1156,9 +1156,9 @@ collections:
                         label: "Legende de l'image"
                         required: false
                         widget: string
-      - label: Digital
-        name: expertise_digital_page
-        file: 'src/data/pages/digital.md'
+      - label: Mobilites
+        name: expertise_mobilites_page
+        file: 'src/data/pages/mobilites.md'
         widget: object
         editor:
           preview: false
@@ -2704,7 +2704,7 @@ collections:
           [
             { label: Bleu, value: ENGINEER },
             { label: Vert, value: DESIGN },
-            { label: Rouge, value: DIGITAL },
+            { label: Rouge, value: MOBILITES },
             { label: Jaune, value: CONSEIL },
           ]
       - name: intro
@@ -3005,7 +3005,7 @@ collections:
           [
             { label: Bleu, value: ENGINEER },
             { label: Vert, value: DESIGN },
-            { label: Rouge, value: DIGITAL },
+            { label: Rouge, value: MOBILITES },
             { label: Jaune, value: CONSEIL },
           ]
       - name: intro
@@ -3247,9 +3247,9 @@ collections:
             required: false
             label: 'Titre Découverte'
             widget: string
-  - name: sub_digital
-    label: 'Expertise - Digital'
-    folder: src/data/digital
+  - name: sub_mobilites
+    label: 'Expertise - Mobilites'
+    folder: src/data/mobilites
     create: true
     editor:
       preview: false
@@ -3298,7 +3298,7 @@ collections:
       - label: Picto
         name: icon
         widget: icon_select
-        type: digital
+        type: mobilites
       - label: 'Couleur de la Card'
         name: color
         widget: select
@@ -3306,7 +3306,7 @@ collections:
           [
             { label: Bleu, value: ENGINEER },
             { label: Vert, value: DESIGN },
-            { label: Rouge, value: DIGITAL },
+            { label: Rouge, value: MOBILITES },
             { label: Jaune, value: CONSEIL },
           ]
       - name: intro
@@ -3607,7 +3607,7 @@ collections:
           [
             { label: Bleu, value: ENGINEER },
             { label: Vert, value: DESIGN },
-            { label: Rouge, value: DIGITAL },
+            { label: Rouge, value: MOBILITES },
             { label: Jaune, value: CONSEIL },
           ]
       - name: intro

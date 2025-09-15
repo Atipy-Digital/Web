@@ -35,7 +35,7 @@ export async function generateMetadata(
     description: meta.description,
     keywords: meta?.keywords?.length ? meta.keywords : previousKeywords,
     alternates: {
-      canonical: `${siteOrigin}/posts/${slug}`,
+      canonical: `${siteOrigin}/publications/${slug}`,
     },
     openGraph: {
       images: meta?.ogImg ?? 'favicon/og-alt.png',

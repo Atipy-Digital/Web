@@ -8,8 +8,8 @@ metadata:
 title: Communication et signalétique - Rendre visible le vélo pour tous
 date: 2025-08-21T08:55:51.900Z
 icon:
-  label: Signalétique - Vert
-  value: signaletique
+  label: Flèche
+  value: fleche
   type: design
 color: CONSEIL
 intro: >-
