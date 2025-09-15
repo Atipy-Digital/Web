@@ -310,6 +310,16 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+      text:
+        color: green
+        content: >-
+          ## T﻿émoignage de la cliente
+
+
+          ### Marine Ruas, manager économique
+
+
+          « Un accompagnement de confiance tout au long d’un projet complexe, avec une grande réactivité et disponibilité, toujours à l’écoute. Un vrai partenaire sur la durée ».
     col3:
       reverseMobile: false
       image:
