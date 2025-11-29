@@ -43,33 +43,7 @@ post_sections:
       image:
         decorativeOrInformative: false
       text:
-        content: >-
-          ## Intelligence Artificielle et inclusion
-
-
-          L’Intelligence Artificielle semble aussi présenter des avantages dans des secteurs comme la santé, la recherche, l’innovation et l’automatisation. Qu’en est-il du domaine de l’accessibilité et de l’inclusion ?
-
-
-          Voici une liste non exhaustive de technologie d’assistances rendues possibles par l’IA : 
-
-
-          * **Communication** : sous-titrage automatique, traduction en langue des signes et multilingue, synthèse vocale.
-
-          * **Accès à l’information** : lecture audio, explication de mots difficiles, synthèse et résumés.
-
-          * **Mobilité** : assistant vocal, détection d’obstacles, cannes ou lunettes intelligentes.
-
-          * **Vision** : reconnaissance d’objets, description d’images, lecture de documents imprimés.
-
-          * **Éducation** : contenus pédagogiques adaptés, soutien à la lecture et à l’écriture.
-
-          * **Accessibilité numérique** : adaptation automatique des sites web (taille du texte, contrastes, lecture d’images).
-
-
-          Ces outils présentent des limites, ils produisent et induisent des erreurs par manque de contexte et d'adaptabilité.
-
-
-          Par exemple, un sous-titrage peut être faux, une explication de mots inappropriée, un obstacle non détecté, une image mal décrite, etc.
+        content: ""
     col3:
       reverseMobile: false
       image:
@@ -100,6 +74,47 @@ post_sections:
           * Des illustrations explicites si besoin
 
           * Une relecture et  validation par le public concernée
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ## Intelligence Artificielle et inclusion
+
+
+          L’Intelligence Artificielle semble aussi présenter des avantages dans des secteurs comme la santé, la recherche, l’innovation et l’automatisation. Qu’en est-il du domaine de l’accessibilité et de l’inclusion ?
+
+
+          Voici une liste non exhaustive de technologie d’assistances rendues possibles par l’IA : 
+
+
+          * **Communication** : sous-titrage automatique, traduction en langue des signes et multilingue, synthèse vocale.
+
+          * **Accès à l’information** : lecture audio, explication de mots difficiles, synthèse et résumés.
+
+          * **Mobilité** : assistant vocal, détection d’obstacles, cannes ou lunettes intelligentes.
+
+          * **Vision** : reconnaissance d’objets, description d’images, lecture de documents imprimés.
+
+          * **Éducation** : contenus pédagogiques adaptés, soutien à la lecture et à l’écriture.
+
+          * **Accessibilité numérique** : adaptation automatique des sites web (taille du texte, contrastes, lecture d’images).
+
+
+          Ces outils présentent des limites, ils produisent et induisent des erreurs par manque de contexte et d'adaptabilité.
+
+
+          Par exemple, un sous-titrage peut être faux, une explication de mots inappropriée, un obstacle non détecté, une image mal décrite, etc.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
   - inverseCol: false
     col1:
       reverseMobile: false
