@@ -226,4 +226,45 @@ post_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ## Quelques exemples d’outils basés sur l’IA conçus pour le FALC
+
+
+          Voici trois outils développés à partir de l’intelligence artificielle pour faciliter la rédaction de contenus en FALC.
+
+
+          ### Cap’FALC
+
+
+          Développé par l’Unapei, Cap’FALC intègre une IA pour proposer des simplifications de phrases. L’outil propose également un dictionnaire collaboratif et une banque d’images adaptée au contexte FALC.\
+
+          **[→ Cap’FALC](https://falc.unapei.org/linnovation-capfalc/)**
+
+
+          ### FALC’On
+
+
+          Comme un traducteur en ligne classique, cette application permet la conversion rapide et gratuite de textes en version simplifiée, respectant les principes du FALC (vocabulaire simple, phrases courtes, mise en page aérée).\
+
+          **[→ FALC’On](https://falc-on.fr)**
+
+
+          ### **Lecture FALCile**
+
+
+          Développé par Ludovic Marchand et accessible sur ChatGPT, Lecture FALCile facilite la transcription rapide de contenus pédagogiques en FALC, notamment pour les élèves dyslexiques, allophones ou en difficulté de lecture.**[→ Lecture FALCile](https://www.pedagogie.ac-nantes.fr/lettres-histoire/enseignements/lecture-falcile-un-gpt-personnalise-pour-rendre-les-textes-accessibles-a-tous-1631355.kjsp)**
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 ---
