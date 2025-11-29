@@ -49,31 +49,7 @@ post_sections:
       image:
         decorativeOrInformative: false
       text:
-        content: >-
-          ## Intelligence Artificielle et Facile A Lire et à Comprendre (FALC)
-
-
-          ### Qu’est ce que le FALC ?
-
-
-          La méthode Facile à lire et à comprendre (FALC) repose sur un ensemble de règles établies au niveau européen par l’association Inclusion Europe en 2009. Son objectif est de rendre l’information accessible aux personnes ayant une déficience intellectuelle.
-
-
-          Cette approche contribue à renforcer l’autonomie dans les démarches du quotidien (administration, santé, logement, travail...), et bénéficie aussi à d’autres publics : personnes âgées, allophones, dyslexiques, déficients visuels ou présentant des troubles cognitifs. Le FALC s’applique à tous types de contenus : documents officiels, brochures, formulaires, sites web, consignes, notices, contrats, etc.
-
-
-          La rédaction FALC impliquent :
-
-
-          * Des phrases simples et courtes
-
-          * Un vocabulaire courant, sans jargon ni sigles
-
-          * Une mise en page aérée et structurée
-
-          * Des illustrations explicites si besoin
-
-          * Une relecture et  validation par le public concernée
+        content: ""
   - inverseCol: false
     col1:
       reverseMobile: false
@@ -107,6 +83,45 @@ post_sections:
 
 
           Par exemple, un sous-titrage peut être faux, une explication de mots inappropriée, un obstacle non détecté, une image mal décrite, etc.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ## Intelligence Artificielle et Facile A Lire et à Comprendre (FALC)
+
+
+          ### Qu’est ce que le FALC ?
+
+
+          La méthode Facile à lire et à comprendre (FALC) repose sur un ensemble de règles établies au niveau européen par l’association Inclusion Europe en 2009. Son objectif est de rendre l’information accessible aux personnes ayant une déficience intellectuelle.
+
+
+          Cette approche contribue à renforcer l’autonomie dans les démarches du quotidien (administration, santé, logement, travail...), et bénéficie aussi à d’autres publics : personnes âgées, allophones, dyslexiques, déficients visuels ou présentant des troubles cognitifs. Le FALC s’applique à tous types de contenus : documents officiels, brochures, formulaires, sites web, consignes, notices, contrats, etc.
+
+
+          La rédaction FALC impliquent :
+
+
+          * Des phrases simples et courtes
+
+          * Un vocabulaire courant, sans jargon ni sigles
+
+          * Une mise en page aérée et structurée
+
+          * Des illustrations explicites si besoin
+
+          * Une relecture et  validation par le public concernée
     col2:
       reverseMobile: false
       image:
