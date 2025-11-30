@@ -42,6 +42,7 @@ post_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+        url: /media/utilisation-ia-adobe-atipy.webp
       text:
         content: ""
     col3:
