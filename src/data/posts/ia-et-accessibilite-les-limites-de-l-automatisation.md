@@ -185,7 +185,7 @@ post_sections:
           Que peut – et surtout ne peut pas – faire l’IA dans une assistance à la rédaction FALC ? L’IA peut aider à reformuler ou structurer un texte, mais elle ne comprend pas le sens, ne connaît pas le public et ne garantit aucunement l’accessibilité du contenu. Son usage nécessite une perception et une expertise humaine à chaque étape du processus : de la conception à la validation.
 
 
-          1. **L﻿'implication des personnes concernées** : Dans tout support concerné l'accessibilité de l'information, il est indispensable de concerter ou faire tester par le public en situation de handicap. Cela est particulièrement vrai pour le FALC. L'IA ne peut pas réaliser les tests utilisateurs impératifs dans la méthode FALC.
+          1. **L﻿'implication des personnes concernées** : Dans tout support concerné par l'accessibilité de l'information, il est indispensable de concerter ou faire tester par le public en situation de handicap. Cela est particulièrement vrai pour le FALC. L'IA ne peut pas réaliser les tests utilisateurs impératifs dans la méthode FALC.
 
           2. **Absence de contexte social ou culturel** : Les textes générés ne prennent pas en compte les différences culturelles, les habitudes de langage ou les enjeux liés à l’inclusion. Certains sous-entendus ou stéréotypes peuvent être reproduits sans discernement.
 
