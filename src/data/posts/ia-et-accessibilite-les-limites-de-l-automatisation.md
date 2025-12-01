@@ -299,7 +299,10 @@ post_sections:
           ### **Lecture FALCile**
 
 
-          Développé par Ludovic Marchand et accessible sur ChatGPT, Lecture FALCile facilite la transcription rapide de contenus pédagogiques en FALC, notamment pour les élèves dyslexiques, allophones ou en difficulté de lecture.**[→ Lecture FALCile](https://www.pedagogie.ac-nantes.fr/lettres-histoire/enseignements/lecture-falcile-un-gpt-personnalise-pour-rendre-les-textes-accessibles-a-tous-1631355.kjsp)**
+          Développé par Ludovic Marchand et accessible sur ChatGPT, Lecture FALCile facilite la transcription rapide de contenus pédagogiques en FALC, notamment pour les élèves dyslexiques, allophones ou en difficulté de lecture.
+
+
+          **[→ Lecture FALCile](https://chatgpt.com/g/g-cKvdiulco-lecture-falcile)**
     col2:
       reverseMobile: false
       image:
