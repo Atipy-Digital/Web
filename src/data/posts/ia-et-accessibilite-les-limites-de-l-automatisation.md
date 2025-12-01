@@ -21,23 +21,11 @@ post_sections:
       image:
         decorativeOrInformative: false
       text:
-        content: >-
-          Depuis quelques années, l’Intelligence Artificielle (IA) dite
+        content: Depuis quelques années, l’Intelligence Artificielle (IA) dite
           générative s’est progressivement imposée dans notre vie personnelle et
           professionnelle. Cette technologie permet de produire une grande
           variété de contenus — textes, images, sons, vidéos — à partir d’une
           consigne écrite, aussi appelée prompt.
-
-
-
-          Pour fonctionner, l’IA s'appuie sur des données collectées numériquement, qu’elle analyse pour générer un contenu en temps réel. Son usage soulève toutefois de nombreuses problématiques d’ordre : 
-
-
-          * éthique
-
-          * écologique : impact environnemental, dépendance technologique
-
-          * sociale : confidentialité des données, véracité de l’information, propriété intellectuelle
     col2:
       reverseMobile: false
       image:
@@ -51,6 +39,31 @@ post_sections:
         decorativeOrInformative: false
       text:
         content: ""
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          Pour fonctionner, l’IA s'appuie sur des données collectées
+          numériquement, qu’elle analyse pour générer un contenu en temps réel.
+          Son usage soulève toutefois de nombreuses problématiques d’ordre : 
+
+
+          * éthique
+
+          * écologique : impact environnemental, dépendance technologique
+
+          * sociale : confidentialité des données, véracité de l’information, propriété intellectuelle
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
   - inverseCol: false
     col1:
       reverseMobile: false
