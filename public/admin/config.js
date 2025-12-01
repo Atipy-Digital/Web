@@ -4,7 +4,7 @@ const config = {
   local_backend: true, //or delete
   backend: {
     name: 'git-gateway',
-    branch: 'devel',
+    branch: 'master',
   },
   load_config_file: false,
   media_folder: 'public/media',
