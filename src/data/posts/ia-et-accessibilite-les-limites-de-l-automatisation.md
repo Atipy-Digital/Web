@@ -161,6 +161,21 @@ post_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+        url: /media/design-reference-ccas-bethune-atipy-5.jpg
+        legend: Projet graphique en FALC pour le CCAS de Béthune.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
       text:
         content: >-
           ### 10 limites de l’IA dans la production de contenus accessibles (et
