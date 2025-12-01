@@ -51,11 +51,11 @@ post_sections:
           Son usage soulève toutefois de nombreuses problématiques d’ordre : 
 
 
-          * éthique
+          * **éthique**
 
-          * écologique : impact environnemental, dépendance technologique
+          * **écologique** : impact environnemental, dépendance technologique
 
-          * sociale : confidentialité des données, véracité de l’information, propriété intellectuelle
+          * **sociale** : confidentialité des données, véracité de l’information, propriété intellectuelle
     col2:
       reverseMobile: false
       image:
@@ -93,10 +93,22 @@ post_sections:
           * **Accessibilité numérique** : adaptation automatique des sites web (taille du texte, contrastes, lecture d’images).
 
 
-          Ces outils présentent des limites, ils produisent et induisent des erreurs par manque de contexte et d'adaptabilité.
-
-
-          Par exemple, un sous-titrage peut être faux, une explication de mots inappropriée, un obstacle non détecté, une image mal décrite, etc.
+          Ces outils présentent des limites, ils produisent et induisent des erreurs par manque de contexte et d'adaptabilité. Par exemple, un sous-titrage peut être faux, une explication de mots inappropriée, un obstacle non détecté, une image mal décrite, etc.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/cvs-france-assos_sante-illustrations-falc-02.png
+        legend: Projet graphique FALC pour France Assos Santé
     col2:
       reverseMobile: false
       image:
