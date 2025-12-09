@@ -9,12 +9,16 @@ title: "Etude et conception de signalétique du PEM de la gare de Brest "
 image:
   decorativeOrInformative: false
   url: /media/brest-atipy-signaletique_pem-gare-1.jpg
-project_client: amnesty-international
+project_client: brest-metropole
 mission_body: Etude et conception de la signalétique du Pôle d'Echanges
   Multimodal (PEM) du secteur de la gare de Brest  pour la phase de travaux en
   cours (2026-2030 environ) avant l’engagement des opérations d’aménagement plus
   lourd.
-context_body: A﻿tipy est intervenu
+context_body: >-
+  Les objectifs de la mission : 
+
+
+  Proposer un système d’orientation efficace avec des dispositifs directionnels et d’identification sur l’ensemble du périmètre du pôle d’échange multimodal.
 project_tags:
   - Design
   - Signalétique
