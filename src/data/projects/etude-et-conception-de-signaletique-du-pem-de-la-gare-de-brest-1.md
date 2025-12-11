@@ -138,7 +138,7 @@ project_sections:
         decorativeOrInformative: false
       text:
         content: >-
-          Sobriété et intemporalité
+          ## Sobriété et intemporalité
 
 
           Les dispositifs signalétique présentés ont vocation à exister pendant la durée des travaux en cours sur le PEM (4 à 5 ans).
@@ -150,6 +150,46 @@ project_sections:
           Il est ici proposé 2 couleurs déjà existantes sur le territoire brestois. Ces 2 couleurs sobres permettent un contraste maximum entre le texte et le fond, donc une
 
           meilleure lisibilité.
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/brest-atipy-signaletique_pem-gare-1920-6.jpg
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: |-
+          N﻿os prestations pour cette mission 
+
+          * Etat des lieux
+          * Programmation de la signalétique
+          *
+          * CConception de mobilier
+          * Conception de mobilier
+          * Rédaction du DCE
+          * Analyse des offres
+          * Suivi fabrication et pose
+          *
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
     col3:
       reverseMobile: false
       image:
