@@ -175,7 +175,7 @@ project_sections:
         decorativeOrInformative: false
       text:
         content: |-
-          N﻿os prestations pour cette mission 
+          ### N﻿os prestations pour cette mission 
 
           * Etat des lieux
           * Programmation de la signalétique
