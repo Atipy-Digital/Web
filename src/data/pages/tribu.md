@@ -145,7 +145,7 @@ members:
     linkedin: https://www.linkedin.com/in/pierre-bagliotto-3104309a/
   - decorativeOrInformative: false
     name: Aurélie Santori
-    image: /media/aurelie-santori.jpeg
+    image: /media/aurelie.jpg
     badge:
       color: a-yellow
       label: La polyvalente
