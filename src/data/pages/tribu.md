@@ -10,7 +10,7 @@ particularity: >-
   #### Notre particularité
 
 
-  Les 6 consultants seniors sont associés dans le capital de l’entreprise. De ce fait, notre engagement est total. Toutes les décisions stratégiques sont prises de façon collégiale. Au quotidien, chacun et chacune est libre de prendre des initiatives.
+  Les 5 consultants seniors sont associés dans le capital de l’entreprise. De ce fait, notre engagement est total. Toutes les décisions stratégiques sont prises de façon collégiale. Au quotidien, chacun et chacune est libre de prendre des initiatives.
 philosophy: >-
   #### Notre philosophie de travail
 
@@ -143,16 +143,6 @@ members:
       - text: Cartographie
       - text: Urbanisme
     linkedin: https://www.linkedin.com/in/pierre-bagliotto-3104309a/
-  - name: Ruben Rossignol
-    image: /media/ruben-rossignol.jpg
-    badge:
-      color: a-green
-      label: L'ergonome
-    skills:
-      - text: UX design
-      - text: Ergonomie
-      - text: Utilisabilité
-    linkedin: https://www.linkedin.com/in/ruben-rossignol-886897121/
   - decorativeOrInformative: false
     name: Aurélie Santori
     image: /media/aurelie-santori.jpeg
@@ -163,4 +153,24 @@ members:
     skills:
       - text: Développement commercial
       - text: Marchés publics
+  - name: Hélène Cottereau
+    image: /media/helene.jpg
+    badge:
+      color: a-green
+      label: L'ergonome
+    skills:
+      - text: UX design
+      - text: Ergonomie
+      - text: Utilisabilité
+    linkedin: https://www.linkedin.com/in/h%C3%A9l%C3%A8ne-cottereau-906567a7/
+  - decorativeOrInformative: false
+    name: Théo Jourdan
+    image: /media/theo.jpg
+    badge:
+      color: a-blue
+      label: Le sportif
+    linkedin: https://www.linkedin.com/in/theo-jourdan-9536931a1/
+    skills:
+      - text: Accessibilité
+      - text: Conception universelle
 ---
