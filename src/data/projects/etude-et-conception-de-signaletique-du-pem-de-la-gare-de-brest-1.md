@@ -121,6 +121,7 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+        url: /media/brest-atipy-signaletique_pem-gare-2-1200.jpg
     col3:
       reverseMobile: false
       image:
