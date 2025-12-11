@@ -126,6 +126,34 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/brest-atipy-signaletique_pem-gare-1200.jpg
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          Sobriété et intemporalité
+
+
+          Les dispositifs signalétique présentés ont vocation à exister pendant la durée des travaux en cours sur le PEM (4 à 5 ans).
+
+
+          Dans ce contexte, il est souhaité la mise en place de supports signalétiques simples, s’intégrant facilement dans l’environnement.
+
+
+          Il est ici proposé 2 couleurs déjà existantes sur le territoire brestois. Ces 2 couleurs sobres permettent un contraste maximum entre le texte et le fond, donc une
+
+          meilleure lisibilité.
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 projectsFeatured:
   - pole-dechanges-de-lyon-perrache
   - amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
