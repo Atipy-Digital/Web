@@ -175,16 +175,13 @@ project_sections:
         decorativeOrInformative: false
       text:
         content: |-
-          ### N﻿os prestations pour cette mission 
+          ### N﻿os prestations pour cette mission
 
           * Etat des lieux
           * Programmation de la signalétique
-          *
-          * CConception de mobilier
+          * D﻿esign signalétique
           * Conception de mobilier
-          * Rédaction du DCE
-          * Analyse des offres
-          * Suivi fabrication et pose
+          * C﻿
           *
     col2:
       reverseMobile: false
