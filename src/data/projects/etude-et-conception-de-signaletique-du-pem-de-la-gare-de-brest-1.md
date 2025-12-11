@@ -51,6 +51,75 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          La chaîne de l’information continue
+
+
+          L’ensemble des éléments doit constituer une chaîne continue d’information tout le long du parcours de l’usager. C’est un jalonnement régulier, logique et sans interruption sur l’ensemble du déplacement. 
+
+
+          L’usager arrive, il est informé, il se repère. Il identifie les différents services et équipements. Et il s’oriente.
+
+
+
+          Ces trois points clefs sont pris en compte tout au long de la mission et au travers des 3 principales typologies d’éléments signalétiques : **identification, directionnel, information.**
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/brest-atipy-signaletique_pem-gare-4-1920.jpg
+        alt: "Les usages : 63% prendre le train, 18% venir à Brest, 2% obtenir une
+          information, 10% accompagner un voyageur, 7% autres"
+        legend: D’après l’étude “PEM Gare de Brest - Enquêtes et comptages - Mai 2023”
+          d’Axurban
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ## U﻿ne signalétique d'orientation harmonieuse et cohérente
+
+
+          P﻿résente sur un pôle d'échange multimodale où se mêlent différentes identités visuelles, la signalétique proposée reprend une identité graphique déjà existante et connu des usagers : celle de la SNCF.
+
+
+          D﻿ans la prolongation de la gare, le vocabulaire graphique est utilisé pour emmener le voyageur d'un point un A à un point B, sans rupture de la chaine de l'information.
+
+
+          S﻿obres, claires et lisibles, les supports d'orientation propose un contraste fort, ainsi que des informations bilingues français-breton, dans le crespect de la charte "Ya D’ar brezhoneg".
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 projectsFeatured:
   - pole-dechanges-de-lyon-perrache
   - amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
