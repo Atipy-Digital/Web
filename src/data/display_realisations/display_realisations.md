@@ -1,10 +1,10 @@
 ---
 display_realisations:
+  - realisation: etude-et-conception-de-signaletique-du-pem-de-la-gare-de-brest-1
   - realisation: signaletique-touristique-pietonne-de-bourg-saint-maurice-les-arcs
   - realisation: adap-pour-les-necropoles-nationales
   - realisation: signaletique-des-poles-d-echanges-multimodaux-de-baggersee-et-neuhof-rodolphe-reuss
   - realisation: amnesty-education-aux-droits-humains-projet-educatif-en-falc
-  - realisation: charte-signale-tique-accessible-pour-les-itine-raires-velo
   - realisation: diagnostic-accessibilite-et-adap-du-ministere-des-armees
   - realisation: accompagnement-du-service-education-aux-droits-humains-dans-la-mise-en-place-d-une-strategie-globale-d-accessibilite-et-d-inclusion-des-outils-de-communication
   - realisation: signaletique-touristique-pietonne-de-l-ile-de-brehat
@@ -27,6 +27,5 @@ display_realisations:
   - realisation: amo-accessibilite-des-erp-pour-la-ville-de-paris
   - realisation: signaletique-du-camsp-paris-nord
   - realisation: releves-d-accessibilite-region-grand-est
-  - realisation: signaletique-accessibles-des-etablissements-culturels-de-clichy
   - realisation: signaletique-accessibles-des-etablissements-culturels-de-clichy
 ---
