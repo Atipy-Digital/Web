@@ -181,8 +181,7 @@ project_sections:
           * Programmation de la signalétique
           * D﻿esign signalétique
           * Conception de mobilier
-          * C﻿
-          *
+          * C﻿ahier signalétique
     col2:
       reverseMobile: false
       image:
