@@ -119,7 +119,7 @@ project_sections:
           D﻿ans la prolongation de la gare, le vocabulaire graphique est donc utilisé pour emmener le voyageur d'un point un A à un point B, sans rupture de la chaine de l'information.
 
 
-          S﻿obres, claires et lisibles, les supports d'orientation propose un contraste fort, ainsi que des informations bilingues français-breton, dans le crespect de la charte "Ya D’ar brezhoneg".
+          S﻿obres, claires et lisibles, les supports d'orientation proposent un contraste fort, ainsi que des informations bilingues français-breton, dans le crespect de la charte "Ya D’ar brezhoneg".
     col2:
       reverseMobile: false
       image:
