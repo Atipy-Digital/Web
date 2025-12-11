@@ -34,12 +34,16 @@ project_sections:
         decorativeOrInformative: false
       text:
         content: >-
-          ## L﻿es objectifs de la mission 
+          ## L﻿es objectifs de la mission
 
 
           * Proposer un système d’orientation efficace avec des dispositifs directionnels et d’identification sur l’ensemble du périmètre du pôle d’échange multimodal.
 
+
+
           * Permettre une meilleure identification des différents espaces et services en mettant à disposition de tous les usagers des informations claires, visibles et compréhensibles.
+
+
 
           * Répondre à la réglementation accessibilité en mettant en place une signalétique la plus universelle possible.
     col2:
@@ -58,14 +62,13 @@ project_sections:
         decorativeOrInformative: false
       text:
         content: >-
-          La chaîne de l’information continue
+          ## La chaîne de l’information continue
 
 
           L’ensemble des éléments doit constituer une chaîne continue d’information tout le long du parcours de l’usager. C’est un jalonnement régulier, logique et sans interruption sur l’ensemble du déplacement. 
 
 
           L’usager arrive, il est informé, il se repère. Il identifie les différents services et équipements. Et il s’oriente.
-
 
 
           Ces trois points clefs sont pris en compte tout au long de la mission et au travers des 3 principales typologies d’éléments signalétiques : **identification, directionnel, information.**
