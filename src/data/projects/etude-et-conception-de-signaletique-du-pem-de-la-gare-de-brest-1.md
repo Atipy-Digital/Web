@@ -108,7 +108,12 @@ project_sections:
           P﻿résente sur un pôle d'échange multimodale où se mêlent différentes identités visuelles, la signalétique proposée reprend une identité graphique déjà existante et connu des usagers : celle de la SNCF.
 
 
-          D﻿ans la prolongation de la gare, le vocabulaire graphique est utilisé pour emmener le voyageur d'un point un A à un point B, sans rupture de la chaine de l'information.
+          Lorsque la signalétique repose sur un code, utilisant notamment différentes couleurs, un style graphique, des pictogrammes, celui-ci doit être homogène et continu sur l’ensemble des supports signalétiques. Il peut également se retrouver sur tous les supports de
+
+          communication.
+
+
+          D﻿ans la prolongation de la gare, le vocabulaire graphique est donc utilisé pour emmener le voyageur d'un point un A à un point B, sans rupture de la chaine de l'information.
 
 
           S﻿obres, claires et lisibles, les supports d'orientation propose un contraste fort, ainsi que des informations bilingues français-breton, dans le crespect de la charte "Ya D’ar brezhoneg".
