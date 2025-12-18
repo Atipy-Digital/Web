@@ -193,6 +193,20 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/brest-atipy-signaletique_pem-gare-1920-7.jpg
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 projectsFeatured:
   - pole-dechanges-de-lyon-perrache
   - amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
