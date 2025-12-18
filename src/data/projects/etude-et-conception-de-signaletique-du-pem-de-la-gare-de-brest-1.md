@@ -176,15 +176,7 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-      text:
-        content: |-
-          ### N﻿os prestations pour cette mission
-
-          * Etat des lieux
-          * Programmation de la signalétique
-          * D﻿esign signalétique
-          * Conception de mobilier
-          * C﻿ahier signalétique
+        url: /media/brest-atipy-signaletique_pem-gare-1920-7.jpg
     col2:
       reverseMobile: false
       image:
@@ -198,7 +190,15 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/brest-atipy-signaletique_pem-gare-1920-7.jpg
+      text:
+        content: |-
+          ### N﻿os prestations pour cette mission
+
+          * Etat des lieux
+          * Programmation de la signalétique
+          * D﻿esign signalétique
+          * Conception de mobilier
+          * C﻿ahier signalétique
     col2:
       reverseMobile: false
       image:
