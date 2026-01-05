@@ -15,7 +15,10 @@ import clsxm from '@/lib/clsxm';
 interface FormInputControllerProps<FieldsType extends FieldValues> {
   name: Path<FieldsType>;
   defaultValue?: string;
-  rules?: RegisterOptions;
+  rules?: Omit<
+    RegisterOptions<FieldsType, Path<FieldsType>>,
+    'disabled' | 'setValueAs' | 'valueAsNumber' | 'valueAsDate'
+  >;
   error?: FieldError;
   control: Control<FieldsType>;
 }
