@@ -70,7 +70,10 @@ post_sections:
           Prenons un autre exemple : un ouvrage composé avec un excellent caractère de lecture, avec une mise en page classique, sera pourtant difficilement accessible si le papier utilisé n'a pas une bonne opacité. Seuls les premiers niveaux ont été considérés : la qualité du support de lecture a été négligée. Contrairement aux exemples précédents (corps de lecture et interlettrage), la question de l'opacité du papier est un bon exemple de critère généralisable à tous les lecteurs.
 
 
-          Le point le plus problématique concernant la lecture et l'accessibilité n'est en fait pas tant de trouver le bon réglage pour un lecteur donné, que le fait de devoir parfois s'adresser simultanément à une multiplicité de lecteurs, aux besoins variés. Quelques rares métiers peuvent travailler sur mesure pour un lecteur : c'est le cas par exemple du transcripteur spécialisé. D'autres métiers s'adressent à une population de lecteurs relativement bien définie : c'est le cas de l'éditeur spécialisé en grands caractères. D'autres métiers, enfin, travaillent pour une population extrêmement diversifiée : c'est le cas du designer qui conçoit la signalétique d'un lieu public par exemple. Plus le public est large, plus il devient difficile de réaliser des arbitrages sur les choix (typo)graphiques. C'est pourquoi il nous semble important d'avoir une bonne connaissance, à la fois des critères de lisibilité généralisables, et des besoins spécifiques à certaines populations de lecteurs.
+          Le point le plus problématique concernant la lecture et l'accessibilité n'est en fait pas tant de trouver le bon réglage pour un lecteur donné, que le fait de devoir parfois s'adresser simultanément à une multiplicité de lecteurs, aux besoins variés. Quelques rares métiers peuvent travailler sur mesure pour un lecteur : c'est le cas par exemple du transcripteur spécialisé. D'autres métiers s'adressent à une population de lecteurs relativement bien définie : c'est le cas de l'éditeur spécialisé en grands caractères. 
+
+
+          D'autres métiers, enfin, travaillent pour une population extrêmement diversifiée : c'est le cas du designer qui conçoit la signalétique d'un lieu public par exemple. Plus le public est large, plus il devient difficile de réaliser des arbitrages sur les choix (typo)graphiques. C'est pourquoi il nous semble important d'avoir une bonne connaissance, à la fois des critères de lisibilité généralisables, et des besoins spécifiques à certaines populations de lecteurs.
     col2:
       reverseMobile: false
       image:
@@ -121,20 +124,18 @@ post_sections:
       image:
         decorativeOrInformative: false
       text:
-        content: Si ces 16 points semblent constituer une base de réflexion relativement
-          évidente, il est tout à fait courant de les voir négligés, y compris
-          par des professionnels du champ de la déficience visuelle pour
-          lesquels ils devraient constituer une base de travail systématique.
-          Ouvrons une parenthèse pour nuancer notre propos. Les designers font
-          souvent volontairement le choix de ne pas avoir un document lisible.
-          Jouer avec la lisibilité de la typographie, les contrastes de couleur,
-          les tailles de texte, fait partie intégrante du métier de designer.
-          Notre objectif n'est pas d'orienter vers une uniformisation rigide des
-          pratiques qui consisterait par exemple à dire que tout doit être
-          idéalement composé en Garamond, en noir et blanc, aligné à gauche,
-          etc. Il s'agit plutôt d'apporter quelques éléments essentiels aux
-          professionnels, pour leur permettre d'améliorer l'accessibilité de
-          leurs documents quand le contexte l'exige.
+        content: >-
+          Si ces 16 points semblent constituer une base de réflexion
+          relativement évidente, il est tout à fait courant de les voir
+          négligés, y compris par des professionnels du champ de la déficience
+          visuelle pour lesquels ils devraient constituer une base de travail
+          systématique. 
+
+
+          Ouvrons une parenthèse pour nuancer notre propos. Les designers font souvent volontairement le choix de ne pas avoir un document lisible. Jouer avec la lisibilité de la typographie, les contrastes de couleur, les tailles de texte, fait partie intégrante du métier de designer. 
+
+
+          Notre objectif n'est pas d'orienter vers une uniformisation rigide des pratiques qui consisterait par exemple à dire que tout doit être idéalement composé en Garamond, en noir et blanc, aligné à gauche, etc. Il s'agit plutôt d'apporter quelques éléments essentiels aux professionnels, pour leur permettre d'améliorer l'accessibilité de leurs documents quand le contexte l'exige.
     col2:
       reverseMobile: false
       image:
