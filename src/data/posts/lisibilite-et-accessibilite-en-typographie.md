@@ -214,7 +214,7 @@ post_sections:
           ## L'accessibilité : une histoire de listes ?
 
 
-          L'accessibilité du texte se résume-telle à des listes de critères de critères ? En grande partie mais pas seulement. 
+          L'accessibilité du texte se résume-telle à des listes de critères ? En grande partie mais pas seulement. 
 
 
           Pour les professionnels qui travaillent au quotidien sur ces enjeux, la connaissance et la validation de ces critères sous forme de listes constitue un outil simple, et très efficace. Mais une liste manque de nuances : augmenter l'interlettrage, oui mais jusqu'à quel point ? Utiliser un papier pas trop blanc, oui mais jusqu'à quel point ? etc. 
@@ -287,7 +287,9 @@ post_sections:
           *Jonathan Fabreguettes est diplômé de l'École Estienne, de l'Université Paris 13 et de l'Université Jean Monnet. Il dirige depuis 17 ans la fonderie typographies.fr, spécialisée dans les problématiques liées aux systèmes d'écriture, et dont le travail a reçu de nombreux prix internationaux. Il travaille depuis 10 ans au CTRDV comme transcripteur spécialisé, coordinateur projet et formateur.* 
 
 
-          *Pour plus d'informations sur le projet Luciole et les formations proposées : contact@luciole-vision.com*
+          **Pour plus d'informations sur le projet Luciole et les formations proposées :** 
+
+          [www.luciole-vision.com](www.luciole-vision.com) — contact@luciole-vision.com
     col2:
       reverseMobile: false
       image:
@@ -296,4 +298,8 @@ post_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+source:
+  col1:
+    - url: www.luciole-vision.com
+      label: Typographie Luciole
 ---
