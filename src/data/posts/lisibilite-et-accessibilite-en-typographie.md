@@ -299,7 +299,5 @@ post_sections:
       image:
         decorativeOrInformative: false
 source:
-  col1:
-    - url: www.luciole-vision.com
-      label: Typographie Luciole
+  col1: []
 ---
