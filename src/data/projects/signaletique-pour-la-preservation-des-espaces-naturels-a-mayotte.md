@@ -95,6 +95,44 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ## Faut-il ou non poser un panneau de signalétique dans un espace
+          naturel protégé ?
+
+
+          Evidemment il n’y a pas une seule bonne réponse. Ce choix est corrélé au contexte de l’espace naturel concerné. Chaque délégation développe sa propre sensibilité pour doser entre sensibilisation des usagers à la réglementation et impact minimum sur l’environnement naturel et le paysage.
+
+
+          L﻿e Conservatoire du littoral a développé une charte signalétique qui lui est propre. Elle permet une récurrence visuelle et donc une meilleure identification des sites sur l'ensemble du territoire métropolitain et d'outre mer.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        legend: Une vingtaine de sites naturels protégés concernés par l'audit
+        url: /media/cdl-signaletique-mayotte-5.png
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 projectsFeatured:
   - charte-signale-tique-accessible-pour-les-itine-raires-velo
 ---
