@@ -6,8 +6,8 @@ metadata:
     - keyword: scenographie
     - keyword: accessibilite
     - keyword: musées
-title: "**La scénographie adoucie : Une approche sensible pour mieux accueillir
-  tous les publics**"
+title: "La scénographie adoucie : Une approche sensible pour mieux accueillir
+  tous les publics"
 date: 2026-02-12T09:13:04.310Z
 timeToRead: 2 à 3 minutes
 post_tags:
