@@ -217,4 +217,9 @@ projectsFeatured:
   - charte-signale-tique-accessible-pour-les-itine-raires-velo
   - signaletique-touristique-pietonne-de-bourg-saint-maurice-les-arcs
   - signaletique-touristique-pietonne-de-l-ile-de-brehat
+footer:
+  btn:
+    label: Vous avez un projet signalétique ?
+    color: green
+    tag: Signalétique
 ---
