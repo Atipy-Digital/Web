@@ -177,6 +177,42 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ## Impact et perspectives
+
+
+          L’initiative place la signalétique comme un levier complémentaire aux actions de gestion et de sensibilisation : elle facilite l’information des publics, accompagne les missions de surveillance et participe à la valorisation du patrimoine naturel.
+
+
+          Au-delà de son rôle orientant, ce projet illustre la manière dont une stratégie de signalétique bien pensée peut contribuer à mieux protéger et faire connaître des espaces naturels d’exception, renforçant ainsi leur préservation durable.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/cdl-signaletique-mayotte-7.png
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 projectsFeatured:
   - charte-signale-tique-accessible-pour-les-itine-raires-velo
 ---
