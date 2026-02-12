@@ -133,6 +133,50 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ## L﻿es usages et la réglementation
+
+
+          Les sites naturels protégés à Mayotte sont soumis à une pression pression humaine et environnementale. De nombreux usages et habitudes vont à l'encontre de la préservation de la nature.
+
+
+          * Agriculture informelle ou cultures sur brûlis.
+
+          * Braconnage et prélèvements illégaux.
+
+          * Urbanisation et habitations illégales.
+
+          * Dépôts sauvages de déchets.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/cdl-signaletique-mayotte-6.png
+        alt: "Cartographie des usages à la Pointe Saziley : braconnage, dépôt
+          d'ordures."
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 projectsFeatured:
   - charte-signale-tique-accessible-pour-les-itine-raires-velo
 ---
