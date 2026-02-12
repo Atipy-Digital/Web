@@ -20,12 +20,29 @@ post_sections:
       image:
         decorativeOrInformative: false
       text:
-        content: >-
-          Rédigé par Maud Dupuis, designer. Polymorphe Design – partenaire
+        content: Rédigé par Maud Dupuis, designer. Polymorphe Design – partenaire
           d’Atipy, et Adeline Richez, designer.
-
-
-          Dans les musées et les lieux culturels, la scénographie est un puissant allié de la médiation. Elle mobilise les sens, crée des ambiances, soutient le récit et le parcours. Mais lorsque les sollicitations sensorielles sont trop fortes, elles peuvent devenir un frein à la visite, voire un facteur d’exclusion pour certains publics.
+        color: green
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          Dans les musées et les lieux culturels, la scénographie est un
+          puissant allié de la médiation. Elle mobilise les sens, crée des
+          ambiances, soutient le récit et le parcours. Mais lorsque les
+          sollicitations sensorielles sont trop fortes, elles peuvent devenir un
+          frein à la visite, voire un facteur d’exclusion pour certains publics.
 
 
           La scénographie adoucie s’inscrit dans une démarche d’accessibilité et de conception universelle. Elle vise à réduire les sources de stress, sans appauvrir l’expérience culturelle, et à offrir à chacun la possibilité de visiter dans de bonnes conditions.
