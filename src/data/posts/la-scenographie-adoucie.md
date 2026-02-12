@@ -160,7 +160,7 @@ post_sections:
         decorativeOrInformative: false
       text:
         content: >-
-          ## Trois leviers pour une scénographie plus douce
+          ## 3 leviers pour une scénographie plus douce
 
 
           La scénographie adoucie repose sur des ajustements progressifs, pensés dès la conception.
