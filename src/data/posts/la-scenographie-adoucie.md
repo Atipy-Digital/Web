@@ -45,7 +45,7 @@ post_sections:
           frein à la visite, voire un facteur d’exclusion pour certains publics.
 
 
-          La scénographie adoucie s’inscrit dans une démarche d’accessibilité et de conception universelle. Elle vise à réduire les sources de stress, sans appauvrir l’expérience culturelle, et à offrir à chacun la possibilité de visiter dans de bonnes conditions.
+          La scénographie adoucie s’inscrit dans une **démarche d’accessibilité et de conception universelle**. Elle vise à réduire les sources de stress, sans appauvrir l’expérience culturelle, et à offrir à chacun la possibilité de visiter dans de bonnes conditions.
     col2:
       reverseMobile: false
       image:
@@ -124,7 +124,10 @@ post_sections:
           * aux contenus (images violentes, thématiques anxiogènes, actualité, catastrophes)
 
 
-          Chaque lieu culturel présente des spécificités. La question centrale devient alors : Quel élément génère du stress dans notre dispositif actuel ?
+          Chaque lieu culturel présente des spécificités. 
+
+
+          La question centrale devient alors : Quel élément génère du stress dans notre dispositif actuel ?
     col2:
       reverseMobile: false
       image:
@@ -139,7 +142,7 @@ post_sections:
       image:
         decorativeOrInformative: false
         url: /media/cite-du-vin-sac-sensoriel.jpg
-        legend: Sac sensoriel de la Cité du vin et de la gastronomie
+        legend: Sac sensoriel de la Cité de la gastronomie et du vin
         alt: Le sac comprend des balles anti-stress, des lunettes, des casques
           anti-bruit...
     col2:
