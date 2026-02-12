@@ -1,5 +1,6 @@
 ---
 display_realisations:
+  - realisation: signaletique-pour-la-preservation-des-espaces-naturels-a-mayotte
   - realisation: etude-et-conception-de-signaletique-du-pem-de-la-gare-de-brest-1
   - realisation: signaletique-touristique-pietonne-de-bourg-saint-maurice-les-arcs
   - realisation: adap-pour-les-necropoles-nationales
@@ -23,9 +24,9 @@ display_realisations:
   - realisation: releve-des-non-conformites-sur-les-escaliers-du-metro-lyonnais
   - realisation: amo-pour-la-mise-en-place-dune-signaletique-multisensorielle
   - realisation: signaletique-du-pole-dechanges-multimodal
-  - realisation: signaletique-dorientation-accessible-et-facile-a-comprendre
   - realisation: amo-accessibilite-des-erp-pour-la-ville-de-paris
   - realisation: signaletique-du-camsp-paris-nord
   - realisation: releves-d-accessibilite-region-grand-est
+  - realisation: signaletique-accessibles-des-etablissements-culturels-de-clichy
   - realisation: signaletique-accessibles-des-etablissements-culturels-de-clichy
 ---
