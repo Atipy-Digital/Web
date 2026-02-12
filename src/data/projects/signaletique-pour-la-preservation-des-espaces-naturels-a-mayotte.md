@@ -51,6 +51,50 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+      text:
+        content: >-
+          ## Approche et réalisation
+
+
+          Notre approche s’est appuyée sur une méthodologie intégrant :
+
+
+          * Un **audit du territoire**, pour identifier les sites sensibles et les usages locaux 
+
+          * Une **observation des comportements**, afin de prévoir des implantations cohérentes et adaptées 
+
+          * La **réalisation d'un plan d'implantation** et d'un cahier de contenus.
+
+
+          L’enjeu majeur a été de penser une signalétique à la fois **visible** par les usagers, et  **discrète** dans son intégration paysagère – afin de préserver l’esthétique et l’authenticité des sites naturels de Mayotte.
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/cdl-signaletique-mayotte-4.png
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+        url: /media/cdl-signaletique-mayotte-3.png
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
 projectsFeatured:
   - charte-signale-tique-accessible-pour-les-itine-raires-velo
 ---
