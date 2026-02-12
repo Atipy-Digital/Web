@@ -303,6 +303,7 @@ post_sections:
       text:
         content: "N﻿otre partenaire : Polymorphe Design, [lien vers le site
           internet.](https://www.polymorphe-design.fr/)"
+        color: green
     col2:
       reverseMobile: false
       image:
