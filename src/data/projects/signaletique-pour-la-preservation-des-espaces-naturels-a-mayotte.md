@@ -13,8 +13,14 @@ image:
   url: /media/cdl-signaletique-mayotte-1.jpg
 project_client: conservatoire-du-littoral
 mission_body: A﻿udit pour la mise en place de la signalétique du Conservatoire
-  du littoral à Mayotte
-context_body: x﻿xxxx
+  du littoral à Mayotte.
+context_body: >-
+  A Mayotte, département d'Outre Mer, de nombreux espaces naturels du littoral
+  sont des sites protégés par le Conservatoire du littoral et soumis à une
+  réglementation.
+
+
+  Dans ce cadre, Atipy a travaillé avec le Conservatoire du littoral de Mayotte pour concevoir un schéma directeur de signalétique visant à faire connaitre la réglementation en vue de la préservation des espaces naturels.
 project_tags:
   - Design
   - Signalétique
@@ -24,10 +30,23 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+      text:
+        content: >-
+          ## O﻿bjectifs de la mission
+
+
+          * Accentuer la délimitation physique des zones gérées par le Conservatoire du littoral. 
+
+          * Proposer des implantations et typologies de supports pour les sites visités. 
+
+          * Signaler clairement l'entrée dans un espace protégé, notamment pour contrer l'agriculture informelle et les risques de brûlage de la terre. 
+
+          * Mettre en place une stratégie de déploiement comprenant un quantitatif de panneaux, une priorisation et un budget prévisionnel.
     col2:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+        url: /media/cdl-signaletique-mayotte-2.png
     col3:
       reverseMobile: false
       image:
