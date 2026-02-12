@@ -11,7 +11,7 @@ title: Signalétique pour la préservation des espaces naturels à Mayotte
 image:
   decorativeOrInformative: false
   url: /media/cdl-signaletique-mayotte-1.jpg
-project_client: ccas-de-bethune
+project_client: conservatoire-du-littoral
 mission_body: A﻿udit pour la mise en place de la signalétique du Conservatoire
   du littoral à Mayotte
 context_body: x﻿xxxx
