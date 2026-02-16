@@ -129,6 +129,7 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+        url: /media/cdl-signaletique-mayotte-6.png
     col3:
       reverseMobile: false
       image:
@@ -166,7 +167,7 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
-        url: /media/cdl-signaletique-mayotte-6.png
+        url: /media/cdl-signaletique-mayotte-audit-2.png
         alt: "Cartographie des usages à la Pointe Saziley : braconnage, dépôt
           d'ordures."
     col2:
