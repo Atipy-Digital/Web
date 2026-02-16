@@ -182,6 +182,20 @@ project_sections:
       reverseMobile: false
       image:
         decorativeOrInformative: false
+        url: /media/cdl-signaletique-mayotte-audit-1.png
+    col2:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+    col3:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
+  - inverseCol: false
+    col1:
+      reverseMobile: false
+      image:
+        decorativeOrInformative: false
       text:
         content: >-
           ## Impact et perspectives
